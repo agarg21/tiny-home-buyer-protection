@@ -36,3 +36,16 @@ Why:
 
 - Public Pages hosting is the lowest-friction static-site path.
 - The initial repo contains operating docs and static source, not private credentials.
+
+Status update:
+
+- User noted the repo may need to become private.
+- Do not change visibility until explicitly confirmed because Pages behavior can depend on account/plan support.
+
+## 2026-07-07 - Use Porkbun As Registrar
+
+Decision: use Porkbun for domain purchase/setup unless the user changes direction.
+
+Why:
+
+- User said Porkbun has been the standard registrar for recent domain purchases.

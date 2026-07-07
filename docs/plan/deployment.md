@@ -15,6 +15,8 @@ Last updated: 2026-07-07
 - Google Search Console: not configured because no domain is selected.
 - GitHub Pages URL: `https://agarg21.github.io/tiny-home-buyer-protection/`.
 - Deployment verification: homepage and sitemap returned `HTTP/2 200` on 2026-07-07.
+- Registrar preference: Porkbun.
+- Repo visibility: currently public; user noted it may need to become private, but this needs explicit confirmation before changing.
 
 ## GitHub Pages
 
@@ -71,4 +73,5 @@ After purchase:
 
 - Domain purchase and payment.
 - DNS changes at the registrar.
+- Changing the GitHub repository from public to private.
 - Any account-level GitHub, registrar, or Google Search Console changes.
