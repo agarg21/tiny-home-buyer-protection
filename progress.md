@@ -17,4 +17,8 @@
 - Configured GitHub Pages with Actions and verified `https://agarg21.github.io/tiny-home-buyer-protection/` and `/sitemap.xml` return `HTTP/2 200`.
 - Created Implementation Agent thread: `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.
 - Created SEO Research & Review Agent thread: `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
+- Recorded `tinyhomeclarity.com` as purchased.
+- Added `site/CNAME` and updated sitemap to `https://tinyhomeclarity.com/`.
+- Configured GitHub Pages custom domain as `tinyhomeclarity.com`; HTTPS is pending DNS and certificate provisioning.
+- Checked terminology in Semrush: `tiny homes` has the largest exact head-term volume, while singular `tiny house` is larger than singular `tiny home`.
 - Completed SEO Research & Review for the first product spec and built MVP; saved recommendations at `reviews/where-can-i-put-a-tiny-house-spec-review-2026-07-07.md` and updated SEO, implementation, and current-cycle handoffs.

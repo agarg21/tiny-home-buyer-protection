@@ -6,7 +6,10 @@ Last updated: 2026-07-07
 
 - Domain selected: `tinyhomeclarity.com`.
 - Registrar preference: Porkbun.
-- Approve DNS changes after domain purchase.
+- Approve Porkbun DNS changes for GitHub Pages:
+  - Replace apex A records with GitHub Pages A records.
+  - Replace `www` CNAME with `agarg21.github.io`.
+  - Preserve unrelated TXT records unless intentionally changing email/forwarding.
 - Choose email service provider for future lead capture. Current value: `UNKNOWN`.
 - Choose analytics provider. Current value: `UNKNOWN`.
 - Confirm whether to make the GitHub repo private. Public is currently working with GitHub Pages; private Pages may depend on account/plan support.

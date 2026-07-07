@@ -17,6 +17,9 @@ Last updated: 2026-07-07
 - Deployment verification: homepage and sitemap returned `HTTP/2 200` on 2026-07-07.
 - Registrar preference: Porkbun.
 - Porkbun status: `tinyhomeclarity.com` purchased on 2026-07-07.
+- GitHub Pages custom domain: configured as `tinyhomeclarity.com` on 2026-07-07.
+- DNS status: still on Porkbun parking/forwarding as of 2026-07-07.
+- HTTPS status: pending DNS change and GitHub certificate provisioning.
 - Repo visibility: currently public; user noted it may need to become private, but this needs explicit confirmation before changing.
 
 ## GitHub Pages
@@ -56,6 +59,25 @@ GitHub Pages DNS records for an apex domain:
 | A | `@` | `185.199.110.153` |
 | A | `@` | `185.199.111.153` |
 | CNAME | `www` | `agarg21.github.io` |
+
+Current DNS observed on 2026-07-07 before GitHub Pages DNS setup:
+
+```text
+tinyhomeclarity.com A 44.230.85.241
+tinyhomeclarity.com A 52.33.207.7
+www.tinyhomeclarity.com CNAME uixie.porkbun.com
+tinyhomeclarity.com TXT "v=spf1 include:_spf.porkbun.com ~all"
+```
+
+Required Porkbun DNS changes, pending user approval:
+
+- Replace apex A records with GitHub Pages A records:
+  - `185.199.108.153`
+  - `185.199.109.153`
+  - `185.199.110.153`
+  - `185.199.111.153`
+- Replace `www` CNAME with `agarg21.github.io`.
+- Preserve unrelated TXT records unless intentionally removing Porkbun email/forwarding behavior.
 
 ## Google Search Console
 
