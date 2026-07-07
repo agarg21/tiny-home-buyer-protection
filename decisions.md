@@ -62,5 +62,4 @@ Why:
 
 Status:
 
-- Added to Porkbun cart on 2026-07-07.
-- Payment/purchase pending user completion.
+- Purchased through Porkbun on 2026-07-07.

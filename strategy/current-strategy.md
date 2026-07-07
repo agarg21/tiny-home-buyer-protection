@@ -29,6 +29,13 @@ Start with high-anxiety, tool-shaped queries where readers need practical decisi
 - `tiny home communities`
 - `tiny home kits`
 
+Terminology note:
+
+- Use both `tiny house` and `tiny home`.
+- As of a Semrush UI check on 2026-07-07, `tiny house` is stronger than `tiny home` in singular exact-match demand, while `tiny homes` is stronger than both plural/singular head terms.
+- Keep query-led titles such as `Where Can I Put a Tiny House?`, but use `tiny home` naturally for brand/category/product language.
+- See `seo/tiny-house-vs-tiny-home-terminology-2026-07-07.md`.
+
 Measured/tool-reported details from the business plan:
 
 - DataForSEO seed set: 980,860 total exact monthly searches across 58 tiny-home keywords, with synonym/overlap caveats.
@@ -183,4 +190,3 @@ Avoid mass state/city pages. Add local pages only when official sources are clea
 - Email service provider: `UNKNOWN`
 - Live keyword metrics after launch: `UNKNOWN`
 - Initial local jurisdictions for official-source records beyond MVP proposal: `UNKNOWN`
-

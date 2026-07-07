@@ -88,15 +88,13 @@ Selected: `tinyhomeclarity.com`
 
 User confirmed on 2026-07-07: "ok - this is good, lets go for it"
 
-Porkbun checkout status on 2026-07-07:
+Porkbun status on 2026-07-07:
 
 - Registrar: Porkbun.
-- Cart status: `tinyhomeclarity.com` added to cart.
+- Purchase status: purchased.
 - Term: 1 year.
 - Cart total observed: `$11.08 USD`.
 - Renewal estimate observed: `$11.08`.
-- Purchase/payment status: pending user completion.
-- Important: domain registrations are non-refundable; user should confirm spelling before payment.
 
 Why:
 
@@ -114,4 +112,4 @@ Backups:
 
 ## Next Step
 
-User should complete Porkbun billing/payment if ready. After purchase, configure GitHub Pages DNS and custom domain.
+Configure GitHub Pages DNS and custom domain.

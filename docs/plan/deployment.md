@@ -9,14 +9,14 @@ Last updated: 2026-07-07
 - Repo: `agarg21/tiny-home-buyer-protection`.
 - Hosting: GitHub Pages via GitHub Actions.
 - Published source: `site/`.
-- Custom domain: selected as `tinyhomeclarity.com`; purchase/payment pending user completion in Porkbun.
+- Custom domain: `tinyhomeclarity.com`; purchased on 2026-07-07.
 - `site/.nojekyll`: present.
-- `site/CNAME`: intentionally absent until a custom domain is selected and purchased.
-- Google Search Console: not configured because no domain is selected.
+- `site/CNAME`: pending.
+- Google Search Console: not configured yet.
 - GitHub Pages URL: `https://agarg21.github.io/tiny-home-buyer-protection/`.
 - Deployment verification: homepage and sitemap returned `HTTP/2 200` on 2026-07-07.
 - Registrar preference: Porkbun.
-- Porkbun cart status: `tinyhomeclarity.com` added to cart on 2026-07-07; user must complete billing/payment.
+- Porkbun status: `tinyhomeclarity.com` purchased on 2026-07-07.
 - Repo visibility: currently public; user noted it may need to become private, but this needs explicit confirmation before changing.
 
 ## GitHub Pages
@@ -40,7 +40,7 @@ curl -I https://agarg21.github.io/tiny-home-buyer-protection/sitemap.xml
 
 ## Custom Domain Setup
 
-Only after the user buys `tinyhomeclarity.com`:
+After purchase:
 
 1. Add `site/CNAME` with the apex domain.
 2. Configure GitHub Pages custom domain.
@@ -59,7 +59,7 @@ GitHub Pages DNS records for an apex domain:
 
 ## Google Search Console
 
-Status: waiting on `tinyhomeclarity.com` purchase.
+Status: waiting on DNS setup and Google Search Console verification.
 
 Recommended property type: Domain property.
 
@@ -72,7 +72,6 @@ After purchase:
 
 ## Items Requiring User Approval
 
-- Domain purchase and payment.
 - DNS changes at the registrar.
 - Changing the GitHub repository from public to private.
 - Any account-level GitHub, registrar, or Google Search Console changes.
