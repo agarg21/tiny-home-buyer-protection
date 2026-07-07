@@ -4,31 +4,38 @@ Last updated: 2026-07-07
 
 ## Active Priority
 
-Create and review the product spec for `Where Can I Put a Tiny House?`, then hand it to Implementation for the first MVP page/tool.
+Refine the first MVP page/tool for `Where Can I Put a Tiny House?`, then final-review it before launch.
 
 ## Recently Completed
 
 - Bootstrap repo scaffold created.
 - GitHub Pages workflow prepared.
+- GitHub repo created and pushed: `agarg21/tiny-home-buyer-protection`.
+- GitHub Pages configured via Actions and verified at `https://agarg21.github.io/tiny-home-buyer-protection/`.
 - Deployment plan drafted.
 - Domain research drafted with RDAP/DNS signals.
 - Project strategy converted from the business plan.
 - Agent charters and child chat bootstrap prompts prepared.
 - First product spec drafted at `briefs/where-can-i-put-a-tiny-house-product-spec.md`.
+- First static MVP page/tool built at `site/index.html`.
+- MVP includes general placement triage, cautious result logic, local verification checklist, red flags, and required local/zoning record fields.
+- Unsupported locations currently return general triage only with `Low` confidence and `UNKNOWN` official source fields.
+- SEO Research & Review completed the first product spec and built-MVP review at `reviews/where-can-i-put-a-tiny-house-spec-review-2026-07-07.md`.
+- Implementation Agent chat created: `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.
+- SEO Research & Review Agent chat created: `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
 
 ## Ready For SEO Research & Review Agent
 
-- Review `briefs/where-can-i-put-a-tiny-house-product-spec.md`.
-- Validate target query assumptions against current SERPs and available tools.
-- Review MVP state/city selection for ranking realism and source availability.
-- Use Anti Gravity CLI via `agy` as an advisory second opinion.
-- Add implementation-ready recommendations to `backlog/implementation-backlog.md`.
+- After Implementation applies the review recommendations, final-review the MVP page/tool before launch.
+- Build a first official-source local record shortlist for 2-4 examples.
 
 ## Ready For Implementation Agent
 
-- After SEO review, build the MVP page/tool from the reviewed product spec.
-- Keep legal/zoning caveats explicit.
-- Use official-source placeholders only where data is not yet researched.
+- Apply implementation-ready recommendations from `reviews/where-can-i-put-a-tiny-house-spec-review-2026-07-07.md`.
+- Add official-source starter links, replace the outdated keyword-metric note, fix planned internal links, and add a page freshness label.
+- Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
+- Use static JSON for local records only when manually researched official-source records are available.
+- Add email capture only after the user chooses an email provider.
 
 ## Waiting On User
 
@@ -39,5 +46,6 @@ Create and review the product spec for `Where Can I Put a Tiny House?`, then han
 
 ## Recommended Next Agent
 
-SEO Research & Review Agent.
+Implementation Agent.
 
+Thread id: `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.

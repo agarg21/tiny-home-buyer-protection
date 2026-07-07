@@ -6,19 +6,21 @@ Last updated: 2026-07-07
 
 - Local git repo: initialized on `main`.
 - GitHub owner: `agarg21`.
-- Planned repo: `agarg21/tiny-home-buyer-protection`.
+- Repo: `agarg21/tiny-home-buyer-protection`.
 - Hosting: GitHub Pages via GitHub Actions.
 - Published source: `site/`.
 - Custom domain: not selected or purchased.
 - `site/.nojekyll`: present.
 - `site/CNAME`: intentionally absent until a custom domain is selected and purchased.
 - Google Search Console: not configured because no domain is selected.
+- GitHub Pages URL: `https://agarg21.github.io/tiny-home-buyer-protection/`.
+- Deployment verification: homepage and sitemap returned `HTTP/2 200` on 2026-07-07.
 
 ## GitHub Pages
 
 The workflow at `.github/workflows/deploy-pages.yml` deploys the `site/` directory on pushes to `main` when `site/**` or the workflow changes.
 
-Expected pre-domain Pages URL:
+Pre-domain Pages URL:
 
 ```text
 https://agarg21.github.io/tiny-home-buyer-protection/
@@ -70,4 +72,3 @@ After purchase:
 - Domain purchase and payment.
 - DNS changes at the registrar.
 - Any account-level GitHub, registrar, or Google Search Console changes.
-

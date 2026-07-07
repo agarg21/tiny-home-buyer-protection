@@ -28,3 +28,11 @@ Why:
 
 - Avoids deploying a CNAME that does not yet resolve or belong to the user.
 
+## 2026-07-07 - Create Public GitHub Repo
+
+Decision: create `agarg21/tiny-home-buyer-protection` as a public GitHub repository.
+
+Why:
+
+- Public Pages hosting is the lowest-friction static-site path.
+- The initial repo contains operating docs and static source, not private credentials.
