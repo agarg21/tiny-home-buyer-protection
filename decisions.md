@@ -49,3 +49,18 @@ Decision: use Porkbun for domain purchase/setup unless the user changes directio
 Why:
 
 - User said Porkbun has been the standard registrar for recent domain purchases.
+
+## 2026-07-07 - Select tinyhomeclarity.com
+
+Decision: use `tinyhomeclarity.com` as the custom domain.
+
+Why:
+
+- User approved it after rejecting `tinyhomeguard.com`.
+- It better conveys practical decision support than security/protection.
+- It is broad enough for placement, cost, utilities, financing, builder checks, and future tools.
+
+Status:
+
+- Added to Porkbun cart on 2026-07-07.
+- Payment/purchase pending user completion.

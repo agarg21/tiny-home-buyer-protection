@@ -39,8 +39,7 @@ Refine the first MVP page/tool for `Where Can I Put a Tiny House?`, then final-r
 
 ## Waiting On User
 
-- Confirm or change domain recommendation.
-- Purchase domain if proceeding.
+- Complete Porkbun billing/payment for `tinyhomeclarity.com` if ready.
 - Approve DNS/GSC setup after purchase.
 - Confirm email and analytics provider choices.
 

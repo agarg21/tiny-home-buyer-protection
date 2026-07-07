@@ -82,9 +82,21 @@ Checked on 2026-07-07 using RDAP/DNS. Registrar confirmation is still required.
 | `tinyhomepath.com` | 200 | `2.57.91.91` | Strong name, appears registered. | Do not use unless acquired |
 | `tinyhomeplanner.com` | 200 | `76.223.54.146`, `13.248.169.48` | Strong name, appears registered. | Do not use unless acquired |
 
-## Current Recommendation
+## Selected Domain
 
-Primary: `tinyhomeclarity.com`
+Selected: `tinyhomeclarity.com`
+
+User confirmed on 2026-07-07: "ok - this is good, lets go for it"
+
+Porkbun checkout status on 2026-07-07:
+
+- Registrar: Porkbun.
+- Cart status: `tinyhomeclarity.com` added to cart.
+- Term: 1 year.
+- Cart total observed: `$11.08 USD`.
+- Renewal estimate observed: `$11.08`.
+- Purchase/payment status: pending user completion.
+- Important: domain registrations are non-refundable; user should confirm spelling before payment.
 
 Why:
 
@@ -102,4 +114,4 @@ Backups:
 
 ## Next Step
 
-Confirm the preferred domain at Porkbun. Stop before payment unless the user explicitly confirms purchase.
+User should complete Porkbun billing/payment if ready. After purchase, configure GitHub Pages DNS and custom domain.
