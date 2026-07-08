@@ -12,7 +12,7 @@ Last updated: 2026-07-08
 
 ## Waiting On External Accounts
 
-- Google Search Console Domain property verification.
+- Google Search Console sitemap status should be rechecked after Google processes the submitted sitemap. Initial table status showed `Couldn't fetch`, while URL Inspection discovered the homepage from the sitemap and indexing was requested.
 
 ## User Input Log
 
@@ -24,3 +24,4 @@ Last updated: 2026-07-08
 - 2026-07-07: User confirmed `tinyhomeclarity.com` was bought.
 - 2026-07-08: User approved replacing Porkbun parking DNS with GitHub Pages records. Porkbun authoritative DNS now points apex to GitHub Pages and `www` to `agarg21.github.io`; recursive `www` caches may lag until TTL expiry.
 - 2026-07-08: HTTPS setup issue found and fixed. Removed leftover Porkbun wildcard parking CNAME, re-added GitHub Pages custom domain to retrigger certificate provisioning, and enabled HTTPS enforcement after GitHub approved the certificate.
+- 2026-07-08: User approved Google Search Console setup. Added DNS TXT verification at Porkbun, verified the `tinyhomeclarity.com` Domain property in GSC, submitted `https://tinyhomeclarity.com/sitemap.xml`, and requested indexing for the homepage.

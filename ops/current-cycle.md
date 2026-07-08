@@ -4,7 +4,7 @@ Last updated: 2026-07-08
 
 ## Active Priority
 
-Commit and deploy the launch-ready first MVP page/tool, then set up Google Search Console.
+Monitor Google Search Console processing, then create the first official-source local/source records.
 
 ## Recently Completed
 
@@ -32,10 +32,13 @@ Commit and deploy the launch-ready first MVP page/tool, then set up Google Searc
 - Final review verdict: `improve first`, limited to public brand rename from `Tiny Homes Buyer Protection` to `Tiny Home Clarity` and a small CSS contrast fix.
 - First official-source local/source record shortlist: Los Angeles, San Diego, Austin, and Georgia DCA state classification.
 - Implementation applied final launch fixes: public-facing brand is now `Tiny Home Clarity`, and subtle metadata text color was darkened for contrast.
+- Google Search Console Domain property for `tinyhomeclarity.com` was verified via Porkbun DNS TXT record.
+- Submitted `https://tinyhomeclarity.com/sitemap.xml` in GSC and requested indexing for the homepage.
+- Added `site/robots.txt` and sitemap `lastmod` metadata.
 
 ## Ready For SEO Research & Review Agent
 
-- Optional quick-confirm launch readiness if the final diff expands beyond public brand and contrast fixes.
+- Recheck GSC sitemap status after Google processes the submitted sitemap.
 - After launch, create first official-source records from the shortlist.
 
 ## Ready For Implementation Agent
@@ -48,7 +51,6 @@ Commit and deploy the launch-ready first MVP page/tool, then set up Google Searc
 
 ## Waiting On User
 
-- Approve GSC setup after DNS is live.
 - Confirm email and analytics provider choices.
 
 ## Recommended Next Agent

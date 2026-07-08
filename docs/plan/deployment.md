@@ -12,7 +12,7 @@ Last updated: 2026-07-08
 - Custom domain: `tinyhomeclarity.com`; purchased on 2026-07-07.
 - `site/.nojekyll`: present.
 - `site/CNAME`: present with `tinyhomeclarity.com`.
-- Google Search Console: not configured yet.
+- Google Search Console: Domain property verified on 2026-07-08.
 - GitHub Pages URL: `https://agarg21.github.io/tiny-home-buyer-protection/`.
 - Deployment verification: homepage and sitemap returned `HTTP/2 200` on 2026-07-07.
 - Registrar preference: Porkbun.
@@ -119,16 +119,22 @@ Notes:
 
 ## Google Search Console
 
-Status: waiting on Google Search Console verification.
+Status on 2026-07-08:
 
-Recommended property type: Domain property.
+- Domain property: `tinyhomeclarity.com`
+- Verification method: DNS TXT record at Porkbun.
+- TXT record added at root: `google-site-verification=8tBturqTgLYWBcThyfVEfG3DkfZma_9OKQ1Argim1f0`
+- GSC ownership status: verified.
+- Sitemap submitted: `https://tinyhomeclarity.com/sitemap.xml`
+- Initial GSC sitemap table status: `Couldn't fetch`.
+- Independent fetch checks: sitemap returns `HTTP 200` publicly and with a Googlebot user agent.
+- URL Inspection found `https://tinyhomeclarity.com/` from the sitemap and showed `Discovered - currently not indexed`.
+- Indexing request: submitted for `https://tinyhomeclarity.com/`; GSC confirmed it was added to the priority crawl queue.
+- `site/robots.txt` now advertises the sitemap URL.
 
-After purchase:
+Follow-up:
 
-1. Create a Domain property for the apex domain in Google Search Console.
-2. Add the provided TXT verification record at the registrar.
-3. Check TXT propagation with `dig +short <domain> TXT`.
-4. Submit `https://<domain>/sitemap.xml`.
+- Recheck sitemap status after Google processes it.
 
 ## Items Requiring User Approval
 

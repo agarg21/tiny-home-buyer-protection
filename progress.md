@@ -34,3 +34,7 @@
 - Added `Page last reviewed: 2026-07-08` freshness labels.
 - Completed final SEO launch review at `reviews/where-can-i-put-a-tiny-house-launch-review-2026-07-08.md`; verdict is `improve first` for public brand rename to `Tiny Home Clarity` and subtle-text contrast before launch.
 - Applied final launch fixes: changed public-facing brand references to `Tiny Home Clarity` and darkened subtle metadata text for contrast.
+- Set up Google Search Console Domain property for `tinyhomeclarity.com` using DNS TXT verification through Porkbun.
+- Submitted `https://tinyhomeclarity.com/sitemap.xml` in Search Console. Initial GSC sitemap table status showed `Couldn't fetch`, but URL Inspection discovered the homepage from that sitemap and the sitemap returns `HTTP 200` publicly.
+- Requested indexing for `https://tinyhomeclarity.com/`; GSC confirmed the URL was added to the priority crawl queue.
+- Added `site/robots.txt` with a sitemap directive and added a `lastmod` date to `site/sitemap.xml`.
