@@ -65,3 +65,18 @@ Status:
 - Purchased through Porkbun on 2026-07-07.
 - Porkbun authoritative DNS configured for GitHub Pages on 2026-07-08.
 - Leftover wildcard parking DNS was removed on 2026-07-08 because GitHub strongly recommends against wildcard DNS records for Pages and HTTPS provisioning was stuck.
+
+## 2026-07-08 - Use Tiny Home Clarity As Public Brand
+
+Decision: use `Tiny Home Clarity` as the public-facing site brand.
+
+Why:
+
+- It matches `tinyhomeclarity.com`.
+- It conveys practical decision support without sounding like legal advice, a regulator, or a formal buyer-protection program.
+- It leaves room for placement, cost, utilities, financing, builder checks, and future templates/tools.
+
+Status:
+
+- Public title, header brand, aria label, and footer disclaimer now use `Tiny Home Clarity`.
+- `Tiny Homes Buyer Protection` remains acceptable as internal project/thesis language unless explicitly renamed later.

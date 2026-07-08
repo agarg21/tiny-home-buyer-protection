@@ -24,3 +24,13 @@
 - Removed leftover Porkbun wildcard parking CNAME, retriggered GitHub Pages certificate provisioning by re-adding the custom domain, and enabled HTTPS enforcement. Verified HTTPS homepage and sitemap return `HTTP 200`.
 - Checked terminology in Semrush: `tiny homes` has the largest exact head-term volume, while singular `tiny house` is larger than singular `tiny home`.
 - Completed SEO Research & Review for the first product spec and built MVP; saved recommendations at `reviews/where-can-i-put-a-tiny-house-spec-review-2026-07-07.md` and updated SEO, implementation, and current-cycle handoffs.
+
+## 2026-07-08
+
+- Applied launch-readiness improvements to the `Where Can I Put a Tiny House?` MVP.
+- Added a short official-source starter section with California HCD, Georgia DCA, and Texas TDHCA links to support local-verification caution without implying statewide permission.
+- Replaced the buyer-facing local-record keyword-metric note with a note about future official URLs, source summaries, last checked dates, and confidence levels.
+- Changed planned related tools from same-page links into non-link cards until those pages exist.
+- Added `Page last reviewed: 2026-07-08` freshness labels.
+- Completed final SEO launch review at `reviews/where-can-i-put-a-tiny-house-launch-review-2026-07-08.md`; verdict is `improve first` for public brand rename to `Tiny Home Clarity` and subtle-text contrast before launch.
+- Applied final launch fixes: changed public-facing brand references to `Tiny Home Clarity` and darkened subtle metadata text for contrast.

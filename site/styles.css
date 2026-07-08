@@ -2,7 +2,7 @@
   color-scheme: light;
   --ink: #17211b;
   --muted: #526158;
-  --subtle: #6f7c73;
+  --subtle: #59665d;
   --line: #d9e3dc;
   --paper: #f7faf7;
   --panel: #ffffff;
@@ -146,6 +146,18 @@ h3 {
   max-width: 700px;
   color: var(--muted);
   font-size: 1.2rem;
+}
+
+.freshness-label {
+  display: inline-flex;
+  margin: 2px 0 0;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--subtle);
+  font-size: 0.92rem;
+  font-weight: 800;
 }
 
 .hero-actions {
@@ -343,7 +355,14 @@ li + li {
   gap: 16px;
 }
 
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
 .category-grid article,
+.source-grid article,
 .split-panel > div,
 .checklist-section,
 .next-links {
@@ -353,8 +372,20 @@ li + li {
 }
 
 .category-grid p,
+.source-grid p,
 .split-panel p {
   color: var(--muted);
+}
+
+.source-grid article {
+  display: grid;
+  gap: 8px;
+}
+
+.source-grid a {
+  color: var(--accent-dark);
+  font-weight: 800;
+  text-underline-offset: 4px;
 }
 
 .split-panel {
@@ -397,14 +428,14 @@ li + li {
   margin: 0;
 }
 
-.link-grid {
+.planned-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
   margin-top: 16px;
 }
 
-.link-grid a {
+.planned-grid article {
   display: grid;
   gap: 8px;
   min-height: 112px;
@@ -414,10 +445,9 @@ li + li {
   background: var(--panel);
   color: var(--ink);
   font-weight: 800;
-  text-decoration: none;
 }
 
-.link-grid span {
+.planned-grid span {
   color: var(--subtle);
   font-size: 0.9rem;
   font-weight: 700;
@@ -457,9 +487,10 @@ dd {
   .hero,
   .tool-grid,
   .category-grid,
+  .source-grid,
   .split-panel,
   .checklist-section,
-  .link-grid {
+  .planned-grid {
     grid-template-columns: 1fr;
   }
 
