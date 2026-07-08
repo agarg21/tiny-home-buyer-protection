@@ -207,12 +207,18 @@
       <section id="records" class="content-section" aria-labelledby="records-title">
         <div class="section-heading">
           <p class="eyebrow">Official-source records</p>
-          <h2 id="records-title">MVP local record status</h2>
-          <p>No city, county, or state placement record has been published yet. Unsupported locations receive general triage only until official sources are manually reviewed.</p>
+          <h2 id="records-title">MVP source record examples</h2>
+          <p>The MVP now includes a small set of official-source examples. These are source summaries, not a national database and not placement approvals. Unsupported locations still receive general national triage only.</p>
         </div>
 
         <div class="record-card">
-          <h3>Local/zoning record fields to preserve</h3>
+          <h3>Published source records</h3>
+          <div id="records-overview" class="records-overview" aria-live="polite">
+            <p class="small-note">Loading official-source example records...</p>
+          </div>
+          <p class="small-note">Los Angeles and San Diego are city examples only, not countywide California guidance. Georgia DCA is a state classification source, not a local placement record or statewide permission result.</p>
+
+          <h3>Local/zoning record fields preserved</h3>
           <div class="record-grid" role="list" aria-label="Required local record fields">
             <span role="listitem">record_id</span>
             <span role="listitem">state</span>
@@ -234,7 +240,7 @@
             <span role="listitem">confidence_level</span>
             <span role="listitem">notes</span>
           </div>
-          <p class="small-note">No official local record has been reviewed yet. Future records will include official URLs, source summaries, last checked dates, and confidence levels before they are shown as researched examples.</p>
+          <p class="small-note">Future records should keep official URLs, source summaries, last checked dates, and confidence levels before they are shown as researched examples.</p>
         </div>
       </section>
 
@@ -274,6 +280,8 @@
     <script>
       const form = document.querySelector("#placement-form");
       const result = document.querySelector("#result");
+      const recordsOverview = document.querySelector("#records-overview");
+      let localRecords = [];
 
       const ruleBuckets = {
         always: [
@@ -351,7 +359,7 @@
       ];
 
       function listItems(items) {
-        return items.map((item) => `<li>${item}</li>`).join("");
+        return items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
       }
 
       function escapeHtml(value) {
@@ -364,6 +372,133 @@
         })[character]);
       }
 
+      function normalize(value) {
+        return String(value || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+      }
+
+      function stateMatches(record, state) {
+        const recordState = normalize(record.state);
+        const selectedState = normalize(state);
+        const aliases = {
+          ca: "california",
+          california: "california",
+          ga: "georgia",
+          georgia: "georgia"
+        };
+
+        return recordState === selectedState || aliases[selectedState] === recordState;
+      }
+
+      function cityMatches(record, place) {
+        if (!record.city || record.city === "UNKNOWN") {
+          return false;
+        }
+
+        const city = normalize(record.city);
+        const selectedPlace = normalize(place);
+        return selectedPlace === city || selectedPlace === `cityof${city}`;
+      }
+
+      function getMatchingRecords(state, place) {
+        return localRecords.filter((record) => {
+          if (!stateMatches(record, state)) {
+            return false;
+          }
+
+          if (record.jurisdiction_type === "state agency classification source") {
+            return true;
+          }
+
+          return record.jurisdiction_type === "city" && cityMatches(record, place);
+        });
+      }
+
+      function recordKind(record) {
+        if (record.jurisdiction_type === "state agency classification source") {
+          return "State classification source, not a local placement record";
+        }
+
+        return "City source example, not countywide guidance";
+      }
+
+      function recordTitle(record) {
+        if (record.jurisdiction_type === "state agency classification source") {
+          return `${record.state} classification source`;
+        }
+
+        return `${record.city}, ${record.state} city example`;
+      }
+
+      function sourceLinks(urls) {
+        return urls.map((url) => `<li><a href="${escapeHtml(url)}">${escapeHtml(url)}</a></li>`).join("");
+      }
+
+      function renderRecord(record) {
+        return `
+          <article class="record-example">
+            <div class="record-example-heading">
+              <div>
+                <p class="record-kind">${escapeHtml(recordKind(record))}</p>
+                <h4>${escapeHtml(recordTitle(record))}</h4>
+              </div>
+              <dl class="record-meta">
+                <div><dt>Last checked</dt><dd>${escapeHtml(record.last_checked_date)}</dd></div>
+                <div><dt>Source confidence</dt><dd>${escapeHtml(record.confidence_level)}</dd></div>
+              </dl>
+            </div>
+            <p class="record-caution">Source summary only. This is not parcel approval, not legal advice, and not a promise that your structure or use will qualify. Verify with the local office before purchase.</p>
+            <div class="record-detail-grid">
+              <div>
+                <h5>Possible path to investigate</h5>
+                <ul>${listItems(record.possible_placement_paths)}</ul>
+              </div>
+              <div>
+                <h5>What still needs verification</h5>
+                <ul>${listItems(record.unclear)}</ul>
+              </div>
+            </div>
+            <details>
+              <summary>Official source summaries and links</summary>
+              <h5>Source summaries</h5>
+              <ul>${listItems(record.source_quote_or_summary)}</ul>
+              <h5>Official source URLs</h5>
+              <ul class="source-url-list">${sourceLinks(record.official_source_urls)}</ul>
+              <h5>Office or agency to contact</h5>
+              <ul>${listItems(record.local_office_to_contact)}</ul>
+            </details>
+          </article>
+        `;
+      }
+
+      function renderRecordsOverview(records) {
+        if (!recordsOverview) {
+          return;
+        }
+
+        if (!records.length) {
+          recordsOverview.innerHTML = '<p class="small-note">No official-source example records are loaded yet.</p>';
+          return;
+        }
+
+        recordsOverview.innerHTML = records.map(renderRecord).join("");
+      }
+
+      async function loadLocalRecords() {
+        try {
+          const response = await fetch("./data/local-records.json");
+          if (!response.ok) {
+            throw new Error(`Records request failed: ${response.status}`);
+          }
+
+          localRecords = await response.json();
+          renderRecordsOverview(localRecords);
+        } catch (error) {
+          if (recordsOverview) {
+            recordsOverview.innerHTML = '<p class="small-note">Official-source example records could not be loaded. The triage tool still works as general national guidance.</p>';
+          }
+        }
+      }
+
       function getChecked(name) {
         return Array.from(form.querySelectorAll(`input[name="${name}"]:checked`)).map((input) => input.value);
       }
@@ -372,8 +507,10 @@
         event.preventDefault();
 
         const data = new FormData(form);
-        const state = escapeHtml(String(data.get("state") || "").trim() || "UNKNOWN state");
-        const place = escapeHtml(String(data.get("place") || "").trim() || "UNKNOWN city/county");
+        const rawState = String(data.get("state") || "").trim() || "UNKNOWN state";
+        const rawPlace = String(data.get("place") || "").trim() || "UNKNOWN city/county";
+        const state = escapeHtml(rawState);
+        const place = escapeHtml(rawPlace);
         const insideCity = data.get("insideCity");
         const homeType = data.get("homeType");
         const intendedUse = data.get("intendedUse");
@@ -389,6 +526,9 @@
         const buckets = [...ruleBuckets.always, ...(ruleBuckets[homeType] || [])];
         const paths = [...(pathMap[homeType] || pathMap["not sure"])];
         const checklist = [...baseChecklist];
+        const matchingRecords = getMatchingRecords(rawState, rawPlace);
+        const sourceDates = [...new Set(matchingRecords.map((record) => record.last_checked_date))];
+        const sourceConfidence = [...new Set(matchingRecords.map((record) => `${recordTitle(record)}: ${record.confidence_level}`))];
 
         if (insideCity === "not sure") {
           checklist.unshift("Confirm city-limit status with the county GIS, assessor, planning office, or city boundary map.");
@@ -437,8 +577,8 @@
           <p class="eyebrow">General triage only</p>
           <h2 id="result-title">Verification plan for ${place}, ${state}</h2>
           <div class="confidence">
-            <strong>Confidence: Low</strong>
-            <span>No official local source has been reviewed for this location. Verify with the local planning/building department before purchase.</span>
+            <strong>Personal placement confidence: Low</strong>
+            <span>${matchingRecords.length ? "A matching official-source example exists, but this tool still cannot verify your parcel, structure, use, HOA, lender, insurer, utilities, or permit outcome." : "No matching official local source has been reviewed for this location. Verify with the local planning/building department before purchase."}</span>
           </div>
 
           <div class="result-block">
@@ -469,14 +609,23 @@
               <div><dt>Inside city limits</dt><dd>${insideCity}</dd></div>
               <div><dt>Tiny home type</dt><dd>${form.elements.homeType.selectedOptions[0].textContent}</dd></div>
               <div><dt>Intended use</dt><dd>${form.elements.intendedUse.selectedOptions[0].textContent}</dd></div>
-              <div><dt>Official source URLs</dt><dd>UNKNOWN</dd></div>
-              <div><dt>Last checked date</dt><dd>UNKNOWN</dd></div>
-              <div><dt>Confidence level</dt><dd>Low</dd></div>
+              <div><dt>Official source URLs</dt><dd>${matchingRecords.length ? "See matching source summary below" : "UNKNOWN"}</dd></div>
+              <div><dt>Last checked date</dt><dd>${sourceDates.length ? escapeHtml(sourceDates.join(", ")) : "UNKNOWN"}</dd></div>
+              <div><dt>Source confidence</dt><dd>${sourceConfidence.length ? escapeHtml(sourceConfidence.join("; ")) : "Low"}</dd></div>
             </dl>
           </div>
+
+          ${matchingRecords.length ? `
+            <div class="result-block">
+              <h3>Matching official-source example</h3>
+              <p>Use this as a source summary and question prompt only. Los Angeles and San Diego examples apply to those cities only. Georgia DCA is a state classification source, not local placement permission.</p>
+              <div class="records-overview">${matchingRecords.map(renderRecord).join("")}</div>
+            </div>
+          ` : ""}
         `;
       }
 
+      loadLocalRecords();
       form.addEventListener("submit", buildResult);
     </script>
   </body>

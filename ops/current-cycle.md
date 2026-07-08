@@ -4,7 +4,7 @@ Last updated: 2026-07-08
 
 ## Active Priority
 
-Monitor Google Search Console processing, then create the first official-source local/source records.
+Commit and push the official-source record implementation, then monitor Search Console indexing.
 
 ## Recently Completed
 
@@ -35,16 +35,25 @@ Monitor Google Search Console processing, then create the first official-source 
 - Google Search Console Domain property for `tinyhomeclarity.com` was verified via Porkbun DNS TXT record.
 - Submitted `https://tinyhomeclarity.com/sitemap.xml` in GSC and requested indexing for the homepage.
 - Added `site/robots.txt` and sitemap `lastmod` metadata.
+- SEO Research & Review created the first implementation-ready official-source record set at `reviews/official-source-records-where-can-i-put-a-tiny-house-2026-07-08.md`.
+- Records ready for Implementation: Los Angeles MTH-as-ADU, San Diego movable tiny house / ADU-related path, and Georgia DCA state classification.
+- Austin was deferred pending deeper current-code reconciliation.
+- GSC sitemap status changed from initial `Couldn't fetch` to `Success`; last read July 8, 2026, with 1 discovered page.
+- Implementation added the approved Los Angeles, San Diego, and Georgia DCA records to `site/data/local-records.json`.
+- MVP UI now renders the records as official-source examples with source URLs, last checked dates, confidence levels, and non-approval caveats.
+- Unsupported locations remain general national triage with low personal placement confidence and `UNKNOWN` official-source fields.
+- SEO Research & Review completed rendered official-source record review at `reviews/rendered-official-source-records-review-2026-07-08.md`.
+- Rendered record verdict: `launch`; no implementation-blocking fixes required.
+- GSC sitemap status remains `Success` with 1 discovered page; homepage indexing status was not successfully rechecked in this pass.
 
 ## Ready For SEO Research & Review Agent
 
-- Recheck GSC sitemap status after Google processes the submitted sitemap.
-- After launch, create first official-source records from the shortlist.
+- Recheck GSC homepage/page indexing status after Google processes the indexing request.
+- Monitor whether users need official source links visible outside expandable details.
 
 ## Ready For Implementation Agent
 
-- No active launch-blocking implementation task.
-- After SEO Research & Review creates researched local/source records, add approved records to static JSON.
+- No active implementation-blocking task from rendered-record review.
 - Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
 - Use static JSON for local records only when manually researched official-source records are available.
 - Add email capture only after the user chooses an email provider.
@@ -55,6 +64,4 @@ Monitor Google Search Console processing, then create the first official-source 
 
 ## Recommended Next Agent
 
-Master / Operator for deployment and GSC setup.
-
-Then SEO Research & Review Agent for first official-source records.
+Master / Operator to commit and push the approved working tree.

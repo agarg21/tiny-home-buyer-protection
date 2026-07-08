@@ -4,8 +4,8 @@ Last updated: 2026-07-08
 
 ## Ready After SEO Review
 
-- `create` When first local records exist, store them in `site/data/local-records.json` with the spec fields, official URLs, source summaries, last checked dates, and confidence levels.
 - `test` Keep the MVP as general national triage plus 2-4 official-source example records at most. Do not create state pages or broad state-level permission claims in the MVP.
+- `monitor` Optional later improvement: if users miss the source URLs inside expandable details, make the first official source link visible by default on each record card.
 
 ## Completed
 
@@ -13,11 +13,12 @@ Last updated: 2026-07-08
 - Added general-only triage output, low-confidence unsupported-location handling, official-source field preservation, and an on-page checklist preview while email provider remains `UNKNOWN`.
 - Added launch-readiness improvements: official-source starter links, buyer-facing local-record note, non-link planned tool cards, and `Page last reviewed: 2026-07-08`.
 - Applied final launch fixes: public-facing site brand is now `Tiny Home Clarity`, and `--subtle` was darkened to `#59665d` for contrast.
+- Added the approved first official-source records to `site/data/local-records.json`: Los Angeles MTH-as-ADU, San Diego MTH/ADU-related path, and Georgia DCA state classification.
+- Updated record rendering so Los Angeles and San Diego are city examples only, Georgia DCA is a state classification source, and unsupported locations keep low-confidence general triage.
 
 ## Needs SEO Research & Review
 
-- Optional quick-confirm launch readiness if the final diff expands beyond public brand and contrast fixes.
-- Use the launch-review shortlist for first manually researched records: Los Angeles, San Diego, Austin, and Georgia DCA state classification.
+- No active implementation blocker from SEO review. Rendered official-source record review passed with verdict `launch`.
 - Maintain local records as static JSON for the MVP, preferably `site/data/local-records.json`.
 
 ## Infrastructure

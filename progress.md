@@ -38,3 +38,10 @@
 - Submitted `https://tinyhomeclarity.com/sitemap.xml` in Search Console. Initial GSC sitemap table status showed `Couldn't fetch`, but URL Inspection discovered the homepage from that sitemap and the sitemap returns `HTTP 200` publicly.
 - Requested indexing for `https://tinyhomeclarity.com/`; GSC confirmed the URL was added to the priority crawl queue.
 - Added `site/robots.txt` with a sitemap directive and added a `lastmod` date to `site/sitemap.xml`.
+- Rechecked GSC sitemap status: `https://tinyhomeclarity.com/sitemap.xml` now shows `Success`, last read July 8, 2026, with 1 discovered page.
+- Created the first implementation-ready official-source record set for the placement tool at `reviews/official-source-records-where-can-i-put-a-tiny-house-2026-07-08.md`; Los Angeles, San Diego, and Georgia DCA are ready, while Austin is deferred.
+- Added the approved first official-source records to `site/data/local-records.json`: Los Angeles MTH-as-ADU, San Diego movable tiny house / ADU-related path, and Georgia DCA state classification.
+- Updated the MVP UI to render official-source example records with source summaries, official URLs, last checked dates, source confidence, and explicit non-approval caveats.
+- Kept unsupported locations as general national triage with low personal placement confidence and `UNKNOWN` official-source fields.
+- Completed rendered official-source record review at `reviews/rendered-official-source-records-review-2026-07-08.md`; verdict is `launch`, with no implementation-blocking fixes.
+- Rechecked GSC sitemap status during rendered-record review; sitemap remains `Success` with 1 discovered page.

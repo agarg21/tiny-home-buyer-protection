@@ -4,11 +4,17 @@ Last updated: 2026-07-08
 
 ## Ready
 
-- `monitor` Optional quick-confirm launch readiness if final implementation changes expand beyond public brand and contrast fixes.
-- `create` Turn the first official-source shortlist into 2-4 researched local/source records after launch. Start with Los Angeles, San Diego, Austin, and the Georgia DCA state classification record.
+- `monitor` Recheck GSC homepage indexing/crawl status for `https://tinyhomeclarity.com/` after Google processes the indexing request.
+- `monitor` After launch, watch whether users need official source links visible outside expandable record details.
 
 ## Completed
 
+- Reviewed rendered official-source records in `site/data/local-records.json`, `site/index.html`, and `site/styles.css`. Verdict: `launch`. Detailed notes are in `reviews/rendered-official-source-records-review-2026-07-08.md`.
+- Confirmed approved records are implemented, Austin is absent, Los Angeles/San Diego are city-only examples, Georgia DCA is classification-only, and unsupported locations remain low-confidence with `UNKNOWN` source fields.
+- Rechecked GSC sitemap status on 2026-07-08: sitemap remains `Success` with 1 discovered page.
+- Created first official-source record set for the placement tool: Los Angeles, San Diego, and Georgia DCA classification. Detailed records are in `reviews/official-source-records-where-can-i-put-a-tiny-house-2026-07-08.md`.
+- Deferred Austin pending deeper reconciliation of current HOME/ADU/tiny-home/THOW code paths.
+- Rechecked GSC sitemap status on 2026-07-08: `https://tinyhomeclarity.com/sitemap.xml` now shows `Success`, last read July 8, 2026, with 1 discovered page.
 - Final-reviewed the current working-tree MVP at `site/index.html` and `site/styles.css` before launch. Detailed notes are in `reviews/where-can-i-put-a-tiny-house-launch-review-2026-07-08.md`.
 - Confirmed Implementation applied the prior official-source starter section, buyer-facing local-record note, non-link planned cards, freshness label, and cautious legal/zoning language.
 - Built a first official-source local/source record shortlist prioritizing source clarity over broad state coverage.

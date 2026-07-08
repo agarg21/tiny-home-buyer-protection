@@ -114,6 +114,8 @@ main,
 h1,
 h2,
 h3,
+h4,
+h5,
 p {
   margin-top: 0;
 }
@@ -140,6 +142,16 @@ h2 {
 h3 {
   margin-bottom: 8px;
   font-size: 1.08rem;
+}
+
+h4 {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+h5 {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
 }
 
 .lede {
@@ -402,6 +414,82 @@ li + li {
   margin-top: 14px;
 }
 
+.records-overview {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.record-example {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.record-example-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.42fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.record-kind {
+  margin-bottom: 5px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.record-caution {
+  padding: 12px;
+  border: 1px solid #efd6b9;
+  border-radius: 8px;
+  background: var(--warn-soft);
+  color: var(--warn);
+  font-weight: 700;
+}
+
+.record-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.record-meta {
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.record-meta div {
+  grid-template-columns: 1fr;
+  gap: 2px;
+  padding: 9px 10px;
+}
+
+.record-example details {
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
+.record-example summary {
+  color: var(--accent-dark);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.source-url-list a {
+  overflow-wrap: anywhere;
+  color: var(--accent-dark);
+  text-underline-offset: 4px;
+}
+
 .record-grid span {
   padding: 6px 9px;
   border: 1px solid var(--line);
@@ -488,6 +576,8 @@ dd {
   .tool-grid,
   .category-grid,
   .source-grid,
+  .record-example-heading,
+  .record-detail-grid,
   .split-panel,
   .checklist-section,
   .planned-grid {
