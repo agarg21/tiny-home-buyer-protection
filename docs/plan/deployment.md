@@ -1,6 +1,6 @@
 # Deployment Plan
 
-Last updated: 2026-07-07
+Last updated: 2026-07-08
 
 ## Current Status
 
@@ -11,15 +11,15 @@ Last updated: 2026-07-07
 - Published source: `site/`.
 - Custom domain: `tinyhomeclarity.com`; purchased on 2026-07-07.
 - `site/.nojekyll`: present.
-- `site/CNAME`: pending.
+- `site/CNAME`: present with `tinyhomeclarity.com`.
 - Google Search Console: not configured yet.
 - GitHub Pages URL: `https://agarg21.github.io/tiny-home-buyer-protection/`.
 - Deployment verification: homepage and sitemap returned `HTTP/2 200` on 2026-07-07.
 - Registrar preference: Porkbun.
 - Porkbun status: `tinyhomeclarity.com` purchased on 2026-07-07.
 - GitHub Pages custom domain: configured as `tinyhomeclarity.com` on 2026-07-07.
-- DNS status: still on Porkbun parking/forwarding as of 2026-07-07.
-- HTTPS status: pending DNS change and GitHub certificate provisioning.
+- DNS status: Porkbun authoritative DNS updated for GitHub Pages on 2026-07-08.
+- HTTPS status: pending GitHub certificate provisioning; `https://tinyhomeclarity.com/` still returns a certificate mismatch as of 2026-07-08.
 - Repo visibility: currently public; user noted it may need to become private, but this needs explicit confirmation before changing.
 
 ## GitHub Pages
@@ -60,7 +60,7 @@ GitHub Pages DNS records for an apex domain:
 | A | `@` | `185.199.111.153` |
 | CNAME | `www` | `agarg21.github.io` |
 
-Current DNS observed on 2026-07-07 before GitHub Pages DNS setup:
+DNS observed on 2026-07-07 before GitHub Pages DNS setup:
 
 ```text
 tinyhomeclarity.com A 44.230.85.241
@@ -69,15 +69,34 @@ www.tinyhomeclarity.com CNAME uixie.porkbun.com
 tinyhomeclarity.com TXT "v=spf1 include:_spf.porkbun.com ~all"
 ```
 
-Required Porkbun DNS changes, pending user approval:
+Porkbun DNS changes completed on 2026-07-08:
 
-- Replace apex A records with GitHub Pages A records:
+- Apex resolves at Porkbun authoritative nameservers to GitHub Pages A records:
   - `185.199.108.153`
   - `185.199.109.153`
   - `185.199.110.153`
   - `185.199.111.153`
-- Replace `www` CNAME with `agarg21.github.io`.
-- Preserve unrelated TXT records unless intentionally removing Porkbun email/forwarding behavior.
+- `www` CNAME resolves at Porkbun authoritative nameservers to `agarg21.github.io`.
+- Root SPF TXT record was preserved: `"v=spf1 include:_spf.porkbun.com ~all"`.
+
+Verification on 2026-07-08:
+
+```text
+dig +short @salvador.ns.porkbun.com tinyhomeclarity.com A
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+
+dig +short @salvador.ns.porkbun.com www.tinyhomeclarity.com CNAME
+agarg21.github.io.
+
+curl -I http://tinyhomeclarity.com/
+HTTP/1.1 200 OK
+Server: GitHub.com
+```
+
+Note: recursive DNS caches may briefly show the old `www` CNAME (`uixie.porkbun.com`) until the previous TTL expires.
 
 ## Google Search Console
 

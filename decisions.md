@@ -63,3 +63,4 @@ Why:
 Status:
 
 - Purchased through Porkbun on 2026-07-07.
+- Porkbun authoritative DNS configured for GitHub Pages on 2026-07-08.

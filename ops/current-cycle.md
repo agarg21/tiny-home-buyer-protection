@@ -1,6 +1,6 @@
 # Current Cycle
 
-Last updated: 2026-07-07
+Last updated: 2026-07-08
 
 ## Active Priority
 
@@ -23,6 +23,8 @@ Refine the first MVP page/tool for `Where Can I Put a Tiny House?`, then final-r
 - SEO Research & Review completed the first product spec and built-MVP review at `reviews/where-can-i-put-a-tiny-house-spec-review-2026-07-07.md`.
 - Implementation Agent chat created: `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.
 - SEO Research & Review Agent chat created: `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
+- Porkbun authoritative DNS updated for `tinyhomeclarity.com`: apex points to GitHub Pages A records and `www` points to `agarg21.github.io`.
+- `http://tinyhomeclarity.com/` returns `HTTP 200` from GitHub Pages; HTTPS is pending GitHub certificate provisioning.
 
 ## Ready For SEO Research & Review Agent
 
@@ -39,7 +41,6 @@ Refine the first MVP page/tool for `Where Can I Put a Tiny House?`, then final-r
 
 ## Waiting On User
 
-- Approve Porkbun DNS changes for `tinyhomeclarity.com`.
 - Approve GSC setup after DNS is live.
 - Confirm email and analytics provider choices.
 
