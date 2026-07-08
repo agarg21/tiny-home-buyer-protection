@@ -24,7 +24,8 @@ Refine the first MVP page/tool for `Where Can I Put a Tiny House?`, then final-r
 - Implementation Agent chat created: `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.
 - SEO Research & Review Agent chat created: `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
 - Porkbun authoritative DNS updated for `tinyhomeclarity.com`: apex points to GitHub Pages A records and `www` points to `agarg21.github.io`.
-- `http://tinyhomeclarity.com/` returns `HTTP 200` from GitHub Pages; HTTPS is pending GitHub certificate provisioning.
+- Fixed HTTPS setup for `tinyhomeclarity.com`: removed leftover Porkbun wildcard parking CNAME, retriggered GitHub Pages certificate provisioning, and enabled HTTPS enforcement.
+- `http://tinyhomeclarity.com/` redirects to `https://tinyhomeclarity.com/`; HTTPS homepage and sitemap return `HTTP 200`.
 
 ## Ready For SEO Research & Review Agent
 

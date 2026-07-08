@@ -12,7 +12,6 @@ Last updated: 2026-07-08
 
 ## Waiting On External Accounts
 
-- GitHub Pages HTTPS certificate provisioning for `tinyhomeclarity.com`.
 - Google Search Console Domain property verification.
 
 ## User Input Log
@@ -24,3 +23,4 @@ Last updated: 2026-07-08
 - 2026-07-07: User selected `tinyhomeclarity.com`. Porkbun cart prepared; payment remains user-controlled.
 - 2026-07-07: User confirmed `tinyhomeclarity.com` was bought.
 - 2026-07-08: User approved replacing Porkbun parking DNS with GitHub Pages records. Porkbun authoritative DNS now points apex to GitHub Pages and `www` to `agarg21.github.io`; recursive `www` caches may lag until TTL expiry.
+- 2026-07-08: HTTPS setup issue found and fixed. Removed leftover Porkbun wildcard parking CNAME, re-added GitHub Pages custom domain to retrigger certificate provisioning, and enabled HTTPS enforcement after GitHub approved the certificate.

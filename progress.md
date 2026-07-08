@@ -19,7 +19,8 @@
 - Created SEO Research & Review Agent thread: `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
 - Recorded `tinyhomeclarity.com` as purchased.
 - Added `site/CNAME` and updated sitemap to `https://tinyhomeclarity.com/`.
-- Configured GitHub Pages custom domain as `tinyhomeclarity.com`; HTTPS is pending DNS and certificate provisioning.
+- Configured GitHub Pages custom domain as `tinyhomeclarity.com`.
 - Updated Porkbun authoritative DNS for GitHub Pages: apex points to the four GitHub Pages A records and `www` points to `agarg21.github.io`; `http://tinyhomeclarity.com/` returns `HTTP 200`.
+- Removed leftover Porkbun wildcard parking CNAME, retriggered GitHub Pages certificate provisioning by re-adding the custom domain, and enabled HTTPS enforcement. Verified HTTPS homepage and sitemap return `HTTP 200`.
 - Checked terminology in Semrush: `tiny homes` has the largest exact head-term volume, while singular `tiny house` is larger than singular `tiny home`.
 - Completed SEO Research & Review for the first product spec and built MVP; saved recommendations at `reviews/where-can-i-put-a-tiny-house-spec-review-2026-07-07.md` and updated SEO, implementation, and current-cycle handoffs.

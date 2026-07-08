@@ -64,3 +64,4 @@ Status:
 
 - Purchased through Porkbun on 2026-07-07.
 - Porkbun authoritative DNS configured for GitHub Pages on 2026-07-08.
+- Leftover wildcard parking DNS was removed on 2026-07-08 because GitHub strongly recommends against wildcard DNS records for Pages and HTTPS provisioning was stuck.

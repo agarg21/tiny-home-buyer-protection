@@ -18,8 +18,8 @@ Last updated: 2026-07-08
 - Registrar preference: Porkbun.
 - Porkbun status: `tinyhomeclarity.com` purchased on 2026-07-07.
 - GitHub Pages custom domain: configured as `tinyhomeclarity.com` on 2026-07-07.
-- DNS status: Porkbun authoritative DNS updated for GitHub Pages on 2026-07-08.
-- HTTPS status: pending GitHub certificate provisioning; `https://tinyhomeclarity.com/` still returns a certificate mismatch as of 2026-07-08.
+- DNS status: Porkbun authoritative DNS updated for GitHub Pages on 2026-07-08; leftover wildcard parking CNAME removed on 2026-07-08.
+- HTTPS status: GitHub Pages certificate approved and HTTPS enforced on 2026-07-08.
 - Repo visibility: currently public; user noted it may need to become private, but this needs explicit confirmation before changing.
 
 ## GitHub Pages
@@ -77,6 +77,12 @@ Porkbun DNS changes completed on 2026-07-08:
   - `185.199.110.153`
   - `185.199.111.153`
 - `www` CNAME resolves at Porkbun authoritative nameservers to `agarg21.github.io`.
+- GitHub Pages IPv6 AAAA records are also present:
+  - `2606:50c0:8000::153`
+  - `2606:50c0:8001::153`
+  - `2606:50c0:8002::153`
+  - `2606:50c0:8003::153`
+- Removed old Porkbun wildcard parking record: `*.tinyhomeclarity.com CNAME uixie.porkbun.com`.
 - Root SPF TXT record was preserved: `"v=spf1 include:_spf.porkbun.com ~all"`.
 
 Verification on 2026-07-08:
@@ -92,15 +98,28 @@ dig +short @salvador.ns.porkbun.com www.tinyhomeclarity.com CNAME
 agarg21.github.io.
 
 curl -I http://tinyhomeclarity.com/
-HTTP/1.1 200 OK
-Server: GitHub.com
+HTTP/1.1 301 Moved Permanently
+Location: https://tinyhomeclarity.com/
+
+curl -I https://tinyhomeclarity.com/
+HTTP/2 200
+
+curl -I https://tinyhomeclarity.com/sitemap.xml
+HTTP/2 200
+
+curl -I https://www.tinyhomeclarity.com/
+HTTP/2 301
+Location: https://tinyhomeclarity.com/
 ```
 
-Note: recursive DNS caches may briefly show the old `www` CNAME (`uixie.porkbun.com`) until the previous TTL expires.
+Notes:
+
+- Porkbun quick setup left a wildcard parking record in place. GitHub warns against wildcard DNS records for Pages, so it was removed.
+- After removing the wildcard, the GitHub Pages custom domain was removed and re-added to retrigger HTTPS provisioning. GitHub then approved the certificate for both `tinyhomeclarity.com` and `www.tinyhomeclarity.com`, and HTTPS enforcement was enabled.
 
 ## Google Search Console
 
-Status: waiting on DNS setup and Google Search Console verification.
+Status: waiting on Google Search Console verification.
 
 Recommended property type: Domain property.
 
