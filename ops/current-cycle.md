@@ -1,10 +1,10 @@
 # Current Cycle
 
-Last updated: 2026-07-08
+Last updated: 2026-07-09
 
 ## Active Priority
 
-Commit and push the official-source record implementation, then monitor Search Console indexing.
+Master should commit and push the first constrained support cluster, then verify deployment and monitor GSC discovery for the three new support URLs.
 
 ## Recently Completed
 
@@ -45,23 +45,37 @@ Commit and push the official-source record implementation, then monitor Search C
 - SEO Research & Review completed rendered official-source record review at `reviews/rendered-official-source-records-review-2026-07-08.md`.
 - Rendered record verdict: `launch`; no implementation-blocking fixes required.
 - GSC sitemap status remains `Success` with 1 discovered page; homepage indexing status was not successfully rechecked in this pass.
+- Official-source record implementation was committed and pushed in `5bedfca Add official source records`.
+- Public Google search for `site:tinyhomeclarity.com` returned the homepage on 2026-07-09, but GSC URL Inspection/page indexing status still needs a direct recheck.
+- Master approved a small support-cluster brief at `briefs/local-source-support-pages-2026-07-09.md` after deciding the homepage can rank better with narrow, official-source-backed supporting pages.
+- Implementation built the first constrained support cluster:
+  - `site/los-angeles-tiny-house-adu/index.html`
+  - `site/san-diego-tiny-house-adu/index.html`
+  - `site/georgia-tiny-house-classification/index.html`
+- Homepage official-source record cards now link to the matching support pages and show one official source link by default.
+- `site/sitemap.xml` now includes all three support URLs with `2026-07-09` lastmod dates.
+- SEO Research & Review completed support-cluster review at `reviews/local-source-support-pages-review-2026-07-09.md`.
+- Support-cluster verdict: `launch`; no implementation-blocking fixes required.
+- Review confirmed Austin is absent, Los Angeles and San Diego are city-only examples, Georgia is classification-only, homepage links make sense, and sitemap support URLs have `2026-07-09` lastmod dates.
 
 ## Ready For SEO Research & Review Agent
 
-- Recheck GSC homepage/page indexing status after Google processes the indexing request.
+- Monitor GSC discovery/indexing for the homepage and new support URLs after Master commits/pushes.
+- Recheck GSC homepage/page indexing status when practical; public Google search already returns the homepage, but GSC should remain the authoritative source.
 - Monitor whether users need official source links visible outside expandable details.
 
 ## Ready For Implementation Agent
 
-- No active implementation-blocking task from rendered-record review.
+- No support-cluster implementation rerun is required before Master commits/pushes.
 - Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
 - Use static JSON for local records only when manually researched official-source records are available.
 - Add email capture only after the user chooses an email provider.
 
 ## Waiting On User
 
-- Confirm email and analytics provider choices.
+- Confirm analytics provider choice. Current value: `UNKNOWN`; likely choices are Plausible for simple privacy-friendly analytics or GA4 for free Google ecosystem reporting.
+- Confirm email service provider choice before adding lead capture. Current value: `UNKNOWN`.
 
 ## Recommended Next Agent
 
-Master / Operator to commit and push the approved working tree.
+Master / Operator to commit and push the support cluster, then verify GitHub Pages deployment.

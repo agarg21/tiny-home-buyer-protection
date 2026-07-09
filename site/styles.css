@@ -88,10 +88,17 @@ main,
   max-width: 780px;
 }
 
+.support-hero {
+  max-width: 860px;
+  padding: 54px 0 40px;
+  border-top: 1px solid var(--line);
+}
+
 .hero-panel,
 .form-card,
 .result-panel,
-.record-card {
+.record-card,
+.summary-box {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -100,6 +107,11 @@ main,
 
 .hero-panel {
   padding: 24px;
+}
+
+.summary-box {
+  margin-bottom: 46px;
+  padding: 22px;
 }
 
 .eyebrow {
@@ -400,6 +412,47 @@ li + li {
   text-underline-offset: 4px;
 }
 
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.support-grid article {
+  display: grid;
+  gap: 8px;
+  border-top: 3px solid var(--accent);
+  background: rgba(255, 255, 255, 0.58);
+  padding: 18px;
+}
+
+.support-grid p {
+  color: var(--muted);
+}
+
+.support-grid a,
+.record-page-link,
+.record-visible-source {
+  color: var(--accent-dark);
+  font-weight: 800;
+  text-underline-offset: 4px;
+}
+
+.warning-panel {
+  max-width: 820px;
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid #efd6b9;
+  border-radius: 8px;
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+
+.warning-panel p {
+  margin: 6px 0 0;
+  color: var(--warn);
+}
+
 .split-panel {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -452,6 +505,12 @@ li + li {
   background: var(--warn-soft);
   color: var(--warn);
   font-weight: 700;
+}
+
+.record-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
 }
 
 .record-detail-grid {
@@ -576,6 +635,7 @@ dd {
   .tool-grid,
   .category-grid,
   .source-grid,
+  .support-grid,
   .record-example-heading,
   .record-detail-grid,
   .split-panel,

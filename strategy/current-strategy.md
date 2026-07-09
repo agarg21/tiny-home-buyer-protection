@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-07-07
+Last updated: 2026-07-09
 
 ## Thesis
 
@@ -183,9 +183,9 @@ Avoid mass state/city pages. Add local pages only when official sources are clea
 
 ## Current Unknowns
 
-- Final brand/domain: `UNKNOWN`
-- Registrar: `UNKNOWN`
-- Search Console property: `UNKNOWN`
+- Final brand/domain: `Tiny Home Clarity` at `tinyhomeclarity.com`
+- Registrar: Porkbun
+- Search Console property: Domain property for `tinyhomeclarity.com`
 - Analytics provider: `UNKNOWN`
 - Email service provider: `UNKNOWN`
 - Live keyword metrics after launch: `UNKNOWN`

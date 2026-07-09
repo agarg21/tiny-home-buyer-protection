@@ -131,10 +131,11 @@ Status on 2026-07-08:
 - URL Inspection found `https://tinyhomeclarity.com/` from the sitemap and showed `Discovered - currently not indexed`.
 - Indexing request: submitted for `https://tinyhomeclarity.com/`; GSC confirmed it was added to the priority crawl queue.
 - `site/robots.txt` now advertises the sitemap URL.
+- Follow-up check: sitemap status changed to `Success` on 2026-07-08 with 1 discovered page.
 
 Follow-up:
 
-- Recheck sitemap status after Google processes it.
+- Recheck homepage indexing status after Google processes the indexing request.
 
 ## Items Requiring User Approval
 

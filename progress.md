@@ -45,3 +45,22 @@
 - Kept unsupported locations as general national triage with low personal placement confidence and `UNKNOWN` official-source fields.
 - Completed rendered official-source record review at `reviews/rendered-official-source-records-review-2026-07-08.md`; verdict is `launch`, with no implementation-blocking fixes.
 - Rechecked GSC sitemap status during rendered-record review; sitemap remains `Success` with 1 discovered page.
+
+## 2026-07-09
+
+- Reconciled operating docs after `5bedfca Add official source records` was pushed.
+- Updated the current cycle so the active priority is GSC homepage indexing monitoring plus analytics/email provider decisions, not committing already-shipped official-source records.
+- Updated known strategy/deployment values for public brand, domain, registrar, Search Console property, and sitemap success.
+- Confirmed live public URLs still return `HTTP 200` for the homepage, sitemap, robots.txt, and `site/data/local-records.json` equivalent path.
+- Public Google search for `site:tinyhomeclarity.com` returned the homepage; GSC URL Inspection/page indexing status still needs direct recheck when available.
+- Created the first support-cluster brief for narrow official-source-backed pages: Los Angeles MTH-as-ADU, San Diego MTH/ADU path, and Georgia classification explainer.
+- Updated implementation and SEO review backlogs so Implementation builds the support cluster first, then SEO Research & Review reviews the rendered pages before commit/push.
+- Built the first constrained support cluster:
+  - `site/los-angeles-tiny-house-adu/index.html`
+  - `site/san-diego-tiny-house-adu/index.html`
+  - `site/georgia-tiny-house-classification/index.html`
+- Linked homepage official-source record cards to their matching support pages and made one official source link visible by default on each card.
+- Added the three support page URLs to `site/sitemap.xml` with `2026-07-09` lastmod dates.
+- Kept the pages scoped to City of Los Angeles, City of San Diego, and Georgia classification-only guidance; no Austin page, analytics, email capture, or extra local pages were added.
+- Completed SEO Research & Review for the first constrained support cluster at `reviews/local-source-support-pages-review-2026-07-09.md`; verdict is `launch` with no required implementation fixes before commit/push.
+- Static review confirmed the three approved records are present, Austin is absent, support page links resolve, and sitemap support URLs have `2026-07-09` lastmod dates.

@@ -433,7 +433,28 @@
         return urls.map((url) => `<li><a href="${escapeHtml(url)}">${escapeHtml(url)}</a></li>`).join("");
       }
 
+      function supportPagePath(record) {
+        const paths = {
+          "los-angeles-ca-movable-tiny-house-adu": "./los-angeles-tiny-house-adu/",
+          "san-diego-ca-movable-tiny-house-adu": "./san-diego-tiny-house-adu/",
+          "georgia-dca-tiny-house-classification": "./georgia-tiny-house-classification/"
+        };
+
+        return paths[record.record_id] || "";
+      }
+
+      function supportPageLabel(record) {
+        if (record.jurisdiction_type === "state agency classification source") {
+          return "Read the classification explainer";
+        }
+
+        return "Read the city source page";
+      }
+
       function renderRecord(record) {
+        const supportPath = supportPagePath(record);
+        const firstSource = record.official_source_urls[0];
+
         return `
           <article class="record-example">
             <div class="record-example-heading">
@@ -447,6 +468,10 @@
               </dl>
             </div>
             <p class="record-caution">Source summary only. This is not parcel approval, not legal advice, and not a promise that your structure or use will qualify. Verify with the local office before purchase.</p>
+            <div class="record-links">
+              ${supportPath ? `<a class="record-page-link" href="${escapeHtml(supportPath)}">${escapeHtml(supportPageLabel(record))}</a>` : ""}
+              ${firstSource ? `<a class="record-visible-source" href="${escapeHtml(firstSource)}">Open an official source</a>` : ""}
+            </div>
             <div class="record-detail-grid">
               <div>
                 <h5>Possible path to investigate</h5>

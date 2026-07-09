@@ -1,14 +1,20 @@
 # SEO Research & Review Backlog
 
-Last updated: 2026-07-08
+Last updated: 2026-07-09
 
 ## Ready
 
 - `monitor` Recheck GSC homepage indexing/crawl status for `https://tinyhomeclarity.com/` after Google processes the indexing request.
+- `monitor` After Master commits/pushes the support cluster, monitor whether GSC discovers and indexes:
+  - `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/`
+  - `https://tinyhomeclarity.com/san-diego-tiny-house-adu/`
+  - `https://tinyhomeclarity.com/georgia-tiny-house-classification/`
 - `monitor` After launch, watch whether users need official source links visible outside expandable record details.
 
 ## Completed
 
+- Reviewed the first constrained support cluster. Verdict: `launch`. Detailed notes are in `reviews/local-source-support-pages-review-2026-07-09.md`.
+- Confirmed Los Angeles and San Diego support pages are city-only examples, Georgia is classification-only, Austin is absent, homepage record links make sense, and sitemap entries use `2026-07-09` lastmod dates.
 - Reviewed rendered official-source records in `site/data/local-records.json`, `site/index.html`, and `site/styles.css`. Verdict: `launch`. Detailed notes are in `reviews/rendered-official-source-records-review-2026-07-08.md`.
 - Confirmed approved records are implemented, Austin is absent, Los Angeles/San Diego are city-only examples, Georgia DCA is classification-only, and unsupported locations remain low-confidence with `UNKNOWN` source fields.
 - Rechecked GSC sitemap status on 2026-07-08: sitemap remains `Success` with 1 discovered page.

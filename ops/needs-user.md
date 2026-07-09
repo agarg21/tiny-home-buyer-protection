@@ -1,18 +1,18 @@
 # Needs User
 
-Last updated: 2026-07-08
+Last updated: 2026-07-09
 
 ## Open Decisions
 
 - Domain selected: `tinyhomeclarity.com`.
 - Registrar preference: Porkbun.
 - Choose email service provider for future lead capture. Current value: `UNKNOWN`.
-- Choose analytics provider. Current value: `UNKNOWN`.
+- Choose analytics provider. Current value: `UNKNOWN`; likely defaults are Plausible for simple privacy-friendly analytics or GA4 for free Google ecosystem reporting.
 - Confirm whether to make the GitHub repo private. Public is currently working with GitHub Pages; private Pages may depend on account/plan support.
 
 ## Waiting On External Accounts
 
-- Google Search Console sitemap status should be rechecked after Google processes the submitted sitemap. Initial table status showed `Couldn't fetch`, while URL Inspection discovered the homepage from the sitemap and indexing was requested.
+- Google Search Console homepage indexing status should be rechecked after Google processes the submitted indexing request. Sitemap status changed to `Success` on 2026-07-08 with 1 discovered page; public Google search returned the homepage on 2026-07-09.
 
 ## User Input Log
 
