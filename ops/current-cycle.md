@@ -4,7 +4,7 @@ Last updated: 2026-07-09
 
 ## Active Priority
 
-Master should commit and push the first constrained support cluster, then verify deployment and monitor GSC discovery for the three new support URLs.
+Monitor GSC discovery for the homepage and three new support URLs, then decide analytics and email providers before adding tracking or lead capture.
 
 ## Recently Completed
 
@@ -57,16 +57,22 @@ Master should commit and push the first constrained support cluster, then verify
 - SEO Research & Review completed support-cluster review at `reviews/local-source-support-pages-review-2026-07-09.md`.
 - Support-cluster verdict: `launch`; no implementation-blocking fixes required.
 - Review confirmed Austin is absent, Los Angeles and San Diego are city-only examples, Georgia is classification-only, homepage links make sense, and sitemap support URLs have `2026-07-09` lastmod dates.
+- Master committed and pushed the support cluster in `4b467d2 Add local source support pages`.
+- GitHub Pages deployment succeeded for `4b467d2` on 2026-07-09.
+- Live checks returned `HTTP 200` for the homepage, sitemap, and all three support URLs:
+  - `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/`
+  - `https://tinyhomeclarity.com/san-diego-tiny-house-adu/`
+  - `https://tinyhomeclarity.com/georgia-tiny-house-classification/`
 
 ## Ready For SEO Research & Review Agent
 
-- Monitor GSC discovery/indexing for the homepage and new support URLs after Master commits/pushes.
+- Monitor GSC discovery/indexing for the homepage and new support URLs.
 - Recheck GSC homepage/page indexing status when practical; public Google search already returns the homepage, but GSC should remain the authoritative source.
 - Monitor whether users need official source links visible outside expandable details.
 
 ## Ready For Implementation Agent
 
-- No support-cluster implementation rerun is required before Master commits/pushes.
+- No active implementation task.
 - Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
 - Use static JSON for local records only when manually researched official-source records are available.
 - Add email capture only after the user chooses an email provider.
@@ -78,4 +84,4 @@ Master should commit and push the first constrained support cluster, then verify
 
 ## Recommended Next Agent
 
-Master / Operator to commit and push the support cluster, then verify GitHub Pages deployment.
+Master / Operator to monitor GSC discovery/indexing and coordinate analytics/email provider decisions.
