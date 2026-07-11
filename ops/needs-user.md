@@ -1,6 +1,6 @@
 # Needs User
 
-Last updated: 2026-07-09
+Last updated: 2026-07-10
 
 ## Open Decisions
 
@@ -12,7 +12,7 @@ Last updated: 2026-07-09
 
 ## Waiting On External Accounts
 
-- Google Search Console homepage indexing status should be rechecked after Google processes the submitted indexing request. Sitemap status changed to `Success` on 2026-07-08 with 1 discovered page; public Google search returned the homepage on 2026-07-09.
+- Google Search Console homepage/support-page indexing status should be monitored. Sitemap status remained `Success` on 2026-07-10, last read July 9, 2026, but still showed 1 discovered page; public Google `site:` checks did not yet show the three new support URLs.
 
 ## User Input Log
 

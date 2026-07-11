@@ -1,10 +1,10 @@
 # Implementation Backlog
 
-Last updated: 2026-07-09
+Last updated: 2026-07-11
 
 ## Ready
 
-- No required support-cluster fixes before commit/push.
+- No active ready implementation item. Await SEO Research & Review feedback on the cost calculator.
 
 ## Monitor
 
@@ -22,11 +22,15 @@ Last updated: 2026-07-09
 - Built the first constrained support cluster from `briefs/local-source-support-pages-2026-07-09.md`: Los Angeles, San Diego, and Georgia classification pages.
 - Linked homepage official-source record cards to the matching support pages and made one official source link visible by default on each card.
 - Added the three support page URLs to `site/sitemap.xml` with `2026-07-09` lastmod dates.
+- Built the `Tiny Home Cost Calculator` page from `briefs/tiny-home-cost-calculator-2026-07-10.md`.
+- Linked the homepage planned cost-calculator card to the live calculator and kept unrelated planned assets as non-link cards.
+- Added the cost-calculator URL to `site/sitemap.xml` with `2026-07-10` lastmod.
 
 ## Needs SEO Research & Review
 
 - No active implementation blocker from SEO review. Rendered official-source record review passed with verdict `launch`.
 - Support-cluster review passed with verdict `launch`; no implementation rerun is required before Master commits/pushes.
+- Review the rendered cost calculator for claim safety, cost-assumption labeling, usefulness for cautious buyers, internal linking, and sitemap correctness.
 - Maintain local records as static JSON for the MVP, preferably `site/data/local-records.json`.
 
 ## Infrastructure
@@ -39,7 +43,6 @@ Last updated: 2026-07-09
 
 ## Later Product Work
 
-- Tiny Home Cost / Reality Check Calculator.
 - Can You Build a Tiny House for Under $20K?
 - Tiny House Toilet Options Calculator.
 - Tiny Home Builder / Vendor Due Diligence Checklist.

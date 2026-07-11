@@ -66,3 +66,21 @@
 - Static review confirmed the three approved records are present, Austin is absent, support page links resolve, and sitemap support URLs have `2026-07-09` lastmod dates.
 - Committed and pushed the support cluster in `4b467d2 Add local source support pages`.
 - Verified the GitHub Pages deployment succeeded and live `HTTP 200` responses for the homepage, sitemap, Los Angeles support page, San Diego support page, and Georgia classification page.
+
+## 2026-07-10
+
+- Rechecked Google Search Console sitemap status: `https://tinyhomeclarity.com/sitemap.xml` remains `Success`, last read July 9, 2026, with 1 discovered page.
+- Public Google `site:` checks did not yet show the three new support URLs.
+- Shifted the active cycle toward the next asset: `Tiny Home Cost / Reality Check Calculator`.
+- Created the implementation brief for `Tiny Home Cost / Reality Check Calculator` at `briefs/tiny-home-cost-calculator-2026-07-10.md`.
+
+## 2026-07-11
+
+- Built the `Tiny Home Cost Calculator` page at `site/tiny-home-cost-calculator/index.html`.
+- Added a calculator-first UI with inputs for structure quote, land, delivery, foundation/pad/anchoring, utilities, septic/sewer, water, electrical service, site prep, permits/design/engineering/surveys/inspections, taxes, financing, insurance, lot rent, and contingency.
+- Added rough-budget outputs for visible seller quote, estimated all-in project budget, hidden-cost subtotal, contingency, estimated cash needed before move-in, monthly payment, monthly carrying cost, missing-cost warnings, and buyer-protection red flags.
+- Kept cost assumptions cautious: major cost fields are blank unless entered, contingency is labeled as an `editable starter assumption`, and the page states the calculator cannot determine zoning, permit approval, code compliance, lender approval, insurance eligibility, or final contractor pricing.
+- Linked the homepage planned cost-calculator card to the live calculator while keeping unrelated planned assets as non-link cards.
+- Added `https://tinyhomeclarity.com/tiny-home-cost-calculator/` to `site/sitemap.xml` with `2026-07-10` lastmod.
+- Completed SEO Research & Review for the cost calculator at `reviews/tiny-home-cost-calculator-review-2026-07-11.md`; verdict is `launch` with no blocking implementation fixes before commit/push.
+- Validation passed for inline JavaScript parse, local internal-link sanity, `git diff --check`, and required deployment files.

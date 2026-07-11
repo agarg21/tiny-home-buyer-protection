@@ -251,6 +251,13 @@ h5 {
   align-items: start;
 }
 
+.calculator-grid {
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr) minmax(340px, 0.9fr);
+  gap: 24px;
+  align-items: start;
+}
+
 .form-card,
 .result-panel,
 .record-card {
@@ -260,6 +267,28 @@ h5 {
 .form-card {
   display: grid;
   gap: 16px;
+}
+
+.calculator-form {
+  gap: 22px;
+}
+
+.form-group {
+  display: grid;
+  gap: 14px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.form-group:last-of-type {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.cost-input-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
 }
 
 .field-row {
@@ -276,6 +305,12 @@ legend {
 label span {
   color: var(--subtle);
   font-weight: 600;
+}
+
+.input-help {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 input,
@@ -355,6 +390,40 @@ fieldset {
   border-radius: 8px;
   background: var(--warn-soft);
   color: var(--warn);
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.metric-card {
+  display: grid;
+  gap: 5px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.metric-label {
+  color: var(--subtle);
+  font-size: 0.84rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.metric-value {
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.metric-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 ul,
@@ -582,7 +651,8 @@ li + li {
   margin-top: 16px;
 }
 
-.planned-grid article {
+.planned-grid > article,
+.planned-grid > a {
   display: grid;
   gap: 8px;
   min-height: 112px;
@@ -592,6 +662,13 @@ li + li {
   background: var(--panel);
   color: var(--ink);
   font-weight: 800;
+  text-decoration: none;
+}
+
+.planned-grid > a:hover,
+.planned-grid > a:focus {
+  border-color: var(--accent);
+  color: var(--accent-dark);
 }
 
 .planned-grid span {
@@ -633,6 +710,7 @@ dd {
 @media (max-width: 900px) {
   .hero,
   .tool-grid,
+  .calculator-grid,
   .category-grid,
   .source-grid,
   .support-grid,
@@ -646,6 +724,11 @@ dd {
 
   .result-panel {
     position: static;
+  }
+
+  .cost-input-grid,
+  .metric-grid {
+    grid-template-columns: 1fr;
   }
 }
 
