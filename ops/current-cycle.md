@@ -4,7 +4,7 @@ Last updated: 2026-07-11
 
 ## Active Priority
 
-Commit, push, and verify deployment for the reviewed `Tiny Home Cost / Reality Check Calculator`.
+Monitor GSC discovery/indexing for the homepage, support pages, and new cost calculator, then decide analytics and email providers before adding tracking or lead capture.
 
 ## Recently Completed
 
@@ -73,6 +73,14 @@ Commit, push, and verify deployment for the reviewed `Tiny Home Cost / Reality C
 - `site/sitemap.xml` now includes `https://tinyhomeclarity.com/tiny-home-cost-calculator/` with `2026-07-10` lastmod.
 - SEO Research & Review completed cost-calculator review at `reviews/tiny-home-cost-calculator-review-2026-07-11.md`.
 - Cost-calculator verdict: `launch`; no blocking implementation fixes required before commit/push.
+- Master committed and pushed the calculator in `68c2bb1 Add tiny home cost calculator`.
+- GitHub Pages deployment succeeded for `68c2bb1` on 2026-07-11.
+- Live checks returned `HTTP 200` for:
+  - `https://tinyhomeclarity.com/tiny-home-cost-calculator/`
+  - `https://tinyhomeclarity.com/sitemap.xml`
+  - `https://tinyhomeclarity.com/robots.txt`
+  - `https://tinyhomeclarity.com/data/local-records.json`
+- Live sitemap includes `https://tinyhomeclarity.com/tiny-home-cost-calculator/`.
 
 ## Ready For SEO Research & Review Agent
 
@@ -94,4 +102,4 @@ Commit, push, and verify deployment for the reviewed `Tiny Home Cost / Reality C
 
 ## Recommended Next Agent
 
-Master / Operator to commit, push, and verify the cost-calculator deployment.
+Master / Operator to monitor GSC discovery/indexing and coordinate analytics/email provider decisions.

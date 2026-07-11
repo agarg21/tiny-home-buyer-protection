@@ -83,4 +83,6 @@
 - Linked the homepage planned cost-calculator card to the live calculator while keeping unrelated planned assets as non-link cards.
 - Added `https://tinyhomeclarity.com/tiny-home-cost-calculator/` to `site/sitemap.xml` with `2026-07-10` lastmod.
 - Completed SEO Research & Review for the cost calculator at `reviews/tiny-home-cost-calculator-review-2026-07-11.md`; verdict is `launch` with no blocking implementation fixes before commit/push.
+- Committed and pushed the calculator in `68c2bb1 Add tiny home cost calculator`.
+- Verified GitHub Pages deployment succeeded and live `HTTP 200` responses for the calculator, sitemap, robots.txt, and local records JSON.
 - Validation passed for inline JavaScript parse, local internal-link sanity, `git diff --check`, and required deployment files.
