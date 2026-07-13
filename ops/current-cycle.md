@@ -95,6 +95,8 @@ Build and review the next support asset, `Can You Build a Tiny House for Under $
 - Added project-local GSC monitor config at `ops/gsc-monitor.json`.
 - User agreed analytics is not urgent while there are no clicks; analytics is deferred until meaningful traffic or a specific product question requires it.
 - Master created the next implementation brief at `briefs/tiny-house-under-20k-2026-07-13.md`.
+- Master dispatched the `$20K` page build to Implementation Agent thread `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.
+- Master dispatched a bounded `$20K` brief/GSC-state pre-review to SEO Research & Review Agent thread `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
 
 ## Ready For SEO Research & Review Agent
 
@@ -119,4 +121,4 @@ Build and review the next support asset, `Can You Build a Tiny House for Under $
 
 ## Recommended Next Agent
 
-Implementation Agent to build the `$20K` support page, then SEO Research & Review Agent to review it before commit/push.
+Implementation Agent to build the `$20K` support page. After implementation lands, SEO Research & Review Agent should review the rendered page before commit/push.

@@ -98,3 +98,5 @@
 - Created reusable personal Codex skill `gsc-monitor` for cross-project GSC monitoring workflow and public preflight checks.
 - Added `ops/gsc-monitor.json` so Tiny Home Clarity can run the reusable public preflight script.
 - Created next implementation brief: `briefs/tiny-house-under-20k-2026-07-13.md`.
+- Dispatched the `$20K` page build to Implementation Agent thread `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.
+- Dispatched bounded `$20K` brief and GSC-state pre-review to SEO Research & Review Agent thread `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
