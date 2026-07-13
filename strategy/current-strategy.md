@@ -186,7 +186,7 @@ Avoid mass state/city pages. Add local pages only when official sources are clea
 - Final brand/domain: `Tiny Home Clarity` at `tinyhomeclarity.com`
 - Registrar: Porkbun
 - Search Console property: Domain property for `tinyhomeclarity.com`
-- Analytics provider: `UNKNOWN`
+- Analytics provider: deferred until meaningful traffic or a specific product question requires on-site analytics
 - Email service provider: `UNKNOWN`
 - Live keyword metrics after launch: `UNKNOWN`
 - Initial local jurisdictions for official-source records beyond MVP proposal: `UNKNOWN`

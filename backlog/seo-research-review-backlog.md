@@ -1,21 +1,28 @@
 # SEO Research & Review Backlog
 
-Last updated: 2026-07-11
+Last updated: 2026-07-13
 
 ## Ready
 
-- `monitor` Recheck GSC homepage indexing/crawl status for `https://tinyhomeclarity.com/` after Google processes the indexing request.
-- `monitor` After Master commits/pushes the support cluster, monitor whether GSC discovers and indexes:
+- `review` After Implementation builds the `$20K` page from `briefs/tiny-house-under-20k-2026-07-13.md`, review:
+  - `site/tiny-house-under-20k/index.html`
+  - homepage link to the page
+  - sitemap addition
+  - claim safety around `$20K` affordability
+  - usefulness and index-worthiness
+- `monitor` Recheck GSC indexing/crawl status for:
+  - `https://tinyhomeclarity.com/`
   - `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/`
   - `https://tinyhomeclarity.com/san-diego-tiny-house-adu/`
   - `https://tinyhomeclarity.com/georgia-tiny-house-classification/`
-- `monitor` After Master commits/pushes the cost calculator, monitor whether GSC discovers and indexes `https://tinyhomeclarity.com/tiny-home-cost-calculator/`.
+  - `https://tinyhomeclarity.com/tiny-home-cost-calculator/`
 - `monitor` After launch, watch whether users need official source links visible outside expandable record details.
 
 ## Completed
 
 - Reviewed the Tiny Home Cost Calculator. Verdict: `launch`. Detailed notes are in `reviews/tiny-home-cost-calculator-review-2026-07-11.md`.
 - Confirmed the calculator separates user-entered numbers from editable assumptions and warnings, avoids cost/legal/approval guarantees, links correctly from the homepage, and is included in the sitemap.
+- Rechecked GSC on 2026-07-13: sitemap status `Success`, last read July 11, 2026, with 5 discovered pages; homepage and Los Angeles are indexed; San Diego, Georgia, and cost calculator are discovered from the sitemap but not indexed yet. Indexing requests were submitted for San Diego, Georgia, and the cost calculator.
 - Reviewed the first constrained support cluster. Verdict: `launch`. Detailed notes are in `reviews/local-source-support-pages-review-2026-07-09.md`.
 - Confirmed Los Angeles and San Diego support pages are city-only examples, Georgia is classification-only, Austin is absent, homepage record links make sense, and sitemap entries use `2026-07-09` lastmod dates.
 - Reviewed rendered official-source records in `site/data/local-records.json`, `site/index.html`, and `site/styles.css`. Verdict: `launch`. Detailed notes are in `reviews/rendered-official-source-records-review-2026-07-08.md`.

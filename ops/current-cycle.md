@@ -1,10 +1,10 @@
 # Current Cycle
 
-Last updated: 2026-07-11
+Last updated: 2026-07-13
 
 ## Active Priority
 
-Monitor GSC discovery/indexing for the homepage, support pages, and new cost calculator, then decide analytics and email providers before adding tracking or lead capture.
+Build and review the next support asset, `Can You Build a Tiny House for Under $20K?`, while monitoring GSC discovery/indexing.
 
 ## Recently Completed
 
@@ -81,25 +81,42 @@ Monitor GSC discovery/indexing for the homepage, support pages, and new cost cal
   - `https://tinyhomeclarity.com/robots.txt`
   - `https://tinyhomeclarity.com/data/local-records.json`
 - Live sitemap includes `https://tinyhomeclarity.com/tiny-home-cost-calculator/`.
+- Master rechecked GSC on 2026-07-13:
+  - Sitemap `https://tinyhomeclarity.com/sitemap.xml` remains `Success`.
+  - Last read: July 11, 2026.
+  - Discovered pages: 5.
+  - Discovered videos: 0.
+  - `https://tinyhomeclarity.com/` is indexed.
+  - `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/` is indexed.
+  - `https://tinyhomeclarity.com/san-diego-tiny-house-adu/` is discovered from the sitemap but not indexed; indexing requested on 2026-07-13.
+  - `https://tinyhomeclarity.com/georgia-tiny-house-classification/` is discovered from the sitemap but not indexed; indexing requested on 2026-07-13.
+  - `https://tinyhomeclarity.com/tiny-home-cost-calculator/` is discovered from the sitemap but not indexed; indexing requested on 2026-07-13.
+- Master created a reusable personal Codex skill for cross-project GSC monitoring: `~/.codex/skills/gsc-monitor`.
+- Added project-local GSC monitor config at `ops/gsc-monitor.json`.
+- User agreed analytics is not urgent while there are no clicks; analytics is deferred until meaningful traffic or a specific product question requires it.
+- Master created the next implementation brief at `briefs/tiny-house-under-20k-2026-07-13.md`.
 
 ## Ready For SEO Research & Review Agent
 
-- Monitor GSC discovery/indexing for the homepage and new support URLs.
-- Recheck GSC homepage/page indexing status when practical; public Google search already returns the homepage, but GSC should remain the authoritative source.
+- Monitor GSC discovery/indexing for the homepage, support URLs, and cost calculator.
 - Monitor whether users need official source links visible outside expandable details.
+- After Implementation builds the `$20K` page, review it for claim safety, cost-assumption labeling, search intent fit, usefulness, index-worthiness, internal links, and sitemap correctness.
 
 ## Ready For Implementation Agent
 
-- No active implementation fixes required from the cost-calculator review.
+- Build `site/tiny-house-under-20k/index.html` from `briefs/tiny-house-under-20k-2026-07-13.md`.
+- Link the homepage planned `$20K` card to the new page after it exists.
+- Add `https://tinyhomeclarity.com/tiny-house-under-20k/` to `site/sitemap.xml` with `2026-07-13` lastmod.
 - Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
 - Use static JSON for local records only when manually researched official-source records are available.
 - Add email capture only after the user chooses an email provider.
+- Do not add analytics.
 
 ## Waiting On User
 
-- Confirm analytics provider choice. Current value: `UNKNOWN`; likely choices are Plausible for simple privacy-friendly analytics or GA4 for free Google ecosystem reporting.
+- Analytics provider is deferred; no provider choice is needed until traffic or a specific product question requires on-site analytics.
 - Confirm email service provider choice before adding lead capture. Current value: `UNKNOWN`.
 
 ## Recommended Next Agent
 
-Master / Operator to monitor GSC discovery/indexing and coordinate analytics/email provider decisions.
+Implementation Agent to build the `$20K` support page, then SEO Research & Review Agent to review it before commit/push.

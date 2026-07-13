@@ -80,3 +80,19 @@ Status:
 
 - Public title, header brand, aria label, and footer disclaimer now use `Tiny Home Clarity`.
 - `Tiny Homes Buyer Protection` remains acceptable as internal project/thesis language unless explicitly renamed later.
+
+## 2026-07-13 - Defer Analytics Until Traffic Or Product Questions Require It
+
+Decision: do not add analytics yet.
+
+Why:
+
+- Google Search Console is enough for the current bottleneck: discovery, indexing, impressions, clicks, and queries.
+- The site has no meaningful click volume yet, so analytics would mostly confirm low traffic.
+- Capturing raw calculator inputs would create unnecessary privacy and trust risk.
+- If analytics are added later, start with page views and anonymous events only, not user-entered financial numbers.
+
+Status:
+
+- Analytics provider remains unselected.
+- Add analytics only after GSC shows meaningful traffic or there is a specific product question GSC cannot answer.

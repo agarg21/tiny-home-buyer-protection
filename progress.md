@@ -86,3 +86,15 @@
 - Committed and pushed the calculator in `68c2bb1 Add tiny home cost calculator`.
 - Verified GitHub Pages deployment succeeded and live `HTTP 200` responses for the calculator, sitemap, robots.txt, and local records JSON.
 - Validation passed for inline JavaScript parse, local internal-link sanity, `git diff --check`, and required deployment files.
+
+## 2026-07-13
+
+- Rechecked Google Search Console for `tinyhomeclarity.com`.
+- GSC sitemap status remains `Success`; last read July 11, 2026; discovered pages increased to 5 and discovered videos remained 0.
+- GSC URL Inspection showed the homepage and Los Angeles support page are indexed.
+- GSC URL Inspection showed San Diego, Georgia, and the cost calculator are discovered from the sitemap but not indexed yet.
+- Requested indexing for San Diego, Georgia, and the cost calculator; GSC confirmed those URLs were added to the priority crawl queue.
+- Confirmed analytics is not urgent while there are no clicks; analytics is deferred until meaningful traffic or a specific product question requires it.
+- Created reusable personal Codex skill `gsc-monitor` for cross-project GSC monitoring workflow and public preflight checks.
+- Added `ops/gsc-monitor.json` so Tiny Home Clarity can run the reusable public preflight script.
+- Created next implementation brief: `briefs/tiny-house-under-20k-2026-07-13.md`.

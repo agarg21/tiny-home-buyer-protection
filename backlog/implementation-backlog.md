@@ -1,10 +1,12 @@
 # Implementation Backlog
 
-Last updated: 2026-07-11
+Last updated: 2026-07-13
 
 ## Ready
 
-- No active ready implementation item. Await SEO Research & Review feedback on the cost calculator.
+- Build `site/tiny-house-under-20k/index.html` from `briefs/tiny-house-under-20k-2026-07-13.md`.
+- Link the homepage planned `$20K` card to the new page after it exists.
+- Add `https://tinyhomeclarity.com/tiny-house-under-20k/` to `site/sitemap.xml` with `2026-07-13` lastmod.
 
 ## Monitor
 
@@ -30,7 +32,7 @@ Last updated: 2026-07-11
 
 - No active implementation blocker from SEO review. Rendered official-source record review passed with verdict `launch`.
 - Support-cluster review passed with verdict `launch`; no implementation rerun is required before Master commits/pushes.
-- Review the rendered cost calculator for claim safety, cost-assumption labeling, usefulness for cautious buyers, internal linking, and sitemap correctness.
+- After implementation, review the `$20K` page for claim safety, cost-assumption labeling, usefulness for cautious buyers, internal linking, and sitemap correctness.
 - Maintain local records as static JSON for the MVP, preferably `site/data/local-records.json`.
 
 ## Infrastructure
@@ -38,11 +40,10 @@ Last updated: 2026-07-11
 - Verify GitHub Pages deployment after initial push.
 - Add `site/CNAME` only after domain purchase.
 - Add sitemap custom-domain URLs after domain setup.
-- Add analytics after provider choice.
+- Analytics is deferred until meaningful traffic or a specific product question requires on-site analytics.
 - Add email capture form after provider choice.
 
 ## Later Product Work
 
-- Can You Build a Tiny House for Under $20K?
 - Tiny House Toilet Options Calculator.
 - Tiny Home Builder / Vendor Due Diligence Checklist.
