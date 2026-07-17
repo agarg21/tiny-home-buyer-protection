@@ -86,6 +86,7 @@
 - Committed and pushed the calculator in `68c2bb1 Add tiny home cost calculator`.
 - Verified GitHub Pages deployment succeeded and live `HTTP 200` responses for the calculator, sitemap, robots.txt, and local records JSON.
 - Validation passed for inline JavaScript parse, local internal-link sanity, `git diff --check`, and required deployment files.
+- The Control Room selected the review-clean `$20K` candidate for one exact-path proving-period commit; push and deployment remain separately gated through 2026-07-19.
 
 ## 2026-07-13
 
@@ -100,3 +101,9 @@
 - Created next implementation brief: `briefs/tiny-house-under-20k-2026-07-13.md`.
 - Dispatched the `$20K` page build to Implementation Agent thread `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.
 - Dispatched bounded `$20K` brief and GSC-state pre-review to SEO Research & Review Agent thread `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
+- Built the `Can You Build a Tiny House for Under $20K?` support page at `site/tiny-house-under-20k/index.html`.
+- Added a `$20K` reality checker that lets readers allocate the target budget across structure/materials, trailer/foundation, tools, delivery, site work, utilities, permits/inspections, land, toilet/plumbing, electrical, insulation/HVAC, and contingency.
+- Kept the page cautious: all entered values are planning assumptions, zero buckets are treated as exclusions or `UNKNOWN`, and the copy does not imply a tiny house under `$20K` is normal, easy, legal to place, or all-in.
+- Linked the homepage `$20K` planned card to the local candidate page and added its future public URL, `https://tinyhomeclarity.com/tiny-house-under-20k/`, to `site/sitemap.xml` with `2026-07-13` lastmod. It becomes live only after an authorized deployment.
+- Completed SEO Research & Review for the `$20K` brief and rendered page at `reviews/tiny-house-under-20k-review-2026-07-13.md`; verdict is `launch` with no required implementation fixes before the exact-path local commit. Push and deployment remain separately gated.
+- Validation passed for inline JavaScript parse, local internal-link sanity, `git diff --check`, and required deployment files.

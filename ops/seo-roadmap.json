@@ -15,9 +15,18 @@
       "learning_value": 3,
       "effort": 1,
       "risk": 2,
-      "status": "ready",
+      "status": "completed",
+      "selected_on": "2026-07-17",
+      "completed_on": "2026-07-17",
+      "review_outcome": "PASS",
+      "review_cycles": 3,
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
+      "baseline": "At commit c87e291, the already built and July 13 reviewed under-$20K candidate exists only as exact-path dirty work and is not part of repository history or the live site.",
+      "hypothesis": "Capturing the unchanged, review-clean candidate in one exact-path commit will preserve the work and create a release-ready artifact without implying that it is already published or measured.",
+      "expected_effect": "No traffic, indexing, or production effect before an authorized push and deployment; immediate effect is a reproducible reviewed commit for later release.",
+      "observation_window": "Not started. If a later authorized release occurs, establish a URL-scoped observation window from the verified production deployment date.",
+      "decision": "Create one independently reviewed, QA-green local commit and hold it without push or deployment through the July 19 proving-period review unless the user separately authorizes release.",
       "target_urls": ["https://tinyhomeclarity.com/tiny-house-under-20k/"],
       "target_paths": [
         "site/tiny-house-under-20k/",
@@ -27,10 +36,24 @@
         "ops/current-cycle.md",
         "progress.md",
         "backlog/implementation-backlog.md",
-        "backlog/seo-research-review-backlog.md"
+        "backlog/seo-research-review-backlog.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md"
       ],
       "success_signal": "The already reviewed page is either captured in one exact-path, QA-green commit or a concrete blocking defect is recorded without rebuilding the page.",
-      "notes": "The proving-period operator may commit but must not push or deploy without user approval. Preserve every unrelated dirty path."
+      "gsc_evidence_classification": "unavailable; configured collection mode is authenticated-browser-or-readonly-api, with collected-at and data-through dates UNKNOWN; this release-capture action does not require fresh GSC",
+      "qa_evidence": [
+        "git diff and untracked-path whitespace checks passed",
+        "required site and deployment files are present",
+        "HTML and sitemap XML parse checks passed",
+        "the single inline script passed node --check",
+        "all ten local links and fragments resolved",
+        "blank, complete-$20K, over-budget, and invalid-negative calculator states passed",
+        "desktop 1440x900, mobile 390x844, and narrow 320x740 browser QA passed without horizontal overflow or clipped controls",
+        "independent review cycle 3 returned PASS with no P0-P3 findings after release-state and cycle-history evidence fixes"
+      ],
+      "result": "This exact-path transaction preserves the already built candidate without rebuilding it, reconciles its operating handoffs to the proving-period commit-only policy, and captures the review-clean candidate atomically when committed. No push, deployment, production URL, indexing request, outreach, or external account changes in this transaction.",
+      "notes": "The review-clean candidate is captured by this pending exact-path commit transaction. After commit, hold it locally: it must not be pushed or deployed without user approval through the July 19 proving-period review. Do not call the candidate live before a verified authorized release."
     },
     {
       "id": "THC-MON-001",

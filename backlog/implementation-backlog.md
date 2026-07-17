@@ -4,9 +4,7 @@ Last updated: 2026-07-13
 
 ## Ready
 
-- Build `site/tiny-house-under-20k/index.html` from `briefs/tiny-house-under-20k-2026-07-13.md`.
-- Link the homepage planned `$20K` card to the new page after it exists.
-- Add `https://tinyhomeclarity.com/tiny-house-under-20k/` to `site/sitemap.xml` with `2026-07-13` lastmod.
+- No active implementation rerun. The `$20K` page passed SEO review and is ready for one exact-path local commit; push and deployment require user approval through the proving period.
 
 ## Monitor
 
@@ -27,12 +25,15 @@ Last updated: 2026-07-13
 - Built the `Tiny Home Cost Calculator` page from `briefs/tiny-home-cost-calculator-2026-07-10.md`.
 - Linked the homepage planned cost-calculator card to the live calculator and kept unrelated planned assets as non-link cards.
 - Added the cost-calculator URL to `site/sitemap.xml` with `2026-07-10` lastmod.
+- Built the `Can You Build a Tiny House for Under $20K?` page from `briefs/tiny-house-under-20k-2026-07-13.md`.
+- Linked the homepage planned `$20K` card to the local candidate page and kept unrelated planned assets as non-link cards; it becomes live only after an authorized deployment.
+- Added the `$20K` page URL to `site/sitemap.xml` with `2026-07-13` lastmod.
 
 ## Needs SEO Research & Review
 
 - No active implementation blocker from SEO review. Rendered official-source record review passed with verdict `launch`.
 - Support-cluster review passed with verdict `launch`; no implementation rerun is required before Master commits/pushes.
-- After implementation, review the `$20K` page for claim safety, cost-assumption labeling, usefulness for cautious buyers, internal linking, and sitemap correctness.
+- `$20K` page review passed with verdict `launch`; no implementation rerun is required before the exact-path local commit, while push and deployment remain separately gated.
 - Maintain local records as static JSON for the MVP, preferably `site/data/local-records.json`.
 
 ## Infrastructure

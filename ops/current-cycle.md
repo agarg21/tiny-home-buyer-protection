@@ -4,7 +4,7 @@ Last updated: 2026-07-13
 
 ## Active Priority
 
-Build and review the next support asset, `Can You Build a Tiny House for Under $20K?`, while monitoring GSC discovery/indexing.
+Capture the reviewed `Can You Build a Tiny House for Under $20K?` candidate in one exact-path commit while holding push and deployment for user approval through the Control Room proving period.
 
 ## Recently Completed
 
@@ -97,18 +97,23 @@ Build and review the next support asset, `Can You Build a Tiny House for Under $
 - Master created the next implementation brief at `briefs/tiny-house-under-20k-2026-07-13.md`.
 - Master dispatched the `$20K` page build to Implementation Agent thread `019f3cd1-b87c-7d51-aae4-9c1b024f5e9a`.
 - Master dispatched a bounded `$20K` brief/GSC-state pre-review to SEO Research & Review Agent thread `019f3cd1-ef2e-7d90-82f4-bbad070df733`.
+- Implementation built the `$20K` support page:
+  - `site/tiny-house-under-20k/index.html`
+- The page includes a `$20K` reality checker with user-entered planning assumptions, missing-cost warnings, and buyer-protection red flags.
+- Homepage now links the `$20K` card to the local candidate guide while unrelated planned assets remain non-link cards; it becomes live only after an authorized deployment.
+- `site/sitemap.xml` now includes `https://tinyhomeclarity.com/tiny-house-under-20k/` with `2026-07-13` lastmod.
+- SEO Research & Review completed the `$20K` brief/rendered-page review at `reviews/tiny-house-under-20k-review-2026-07-13.md`.
+- `$20K` review verdict: `launch`; no implementation-blocking fixes required before the exact-path local commit. Push and deployment remain separately gated.
 
 ## Ready For SEO Research & Review Agent
 
 - Monitor GSC discovery/indexing for the homepage, support URLs, and cost calculator.
+- After a separately authorized push and verified deployment, monitor whether GSC discovers and indexes `https://tinyhomeclarity.com/tiny-house-under-20k/`.
 - Monitor whether users need official source links visible outside expandable details.
-- After Implementation builds the `$20K` page, review it for claim safety, cost-assumption labeling, search intent fit, usefulness, index-worthiness, internal links, and sitemap correctness.
 
 ## Ready For Implementation Agent
 
-- Build `site/tiny-house-under-20k/index.html` from `briefs/tiny-house-under-20k-2026-07-13.md`.
-- Link the homepage planned `$20K` card to the new page after it exists.
-- Add `https://tinyhomeclarity.com/tiny-house-under-20k/` to `site/sitemap.xml` with `2026-07-13` lastmod.
+- No `$20K` implementation rerun is required before the exact-path local commit. Do not push or deploy it without user approval through the proving period.
 - Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
 - Use static JSON for local records only when manually researched official-source records are available.
 - Add email capture only after the user chooses an email provider.
@@ -121,4 +126,4 @@ Build and review the next support asset, `Can You Build a Tiny House for Under $
 
 ## Recommended Next Agent
 
-Implementation Agent to build the `$20K` support page. After implementation lands, SEO Research & Review Agent should review the rendered page before commit/push.
+Control Room operator to create the independently reviewed, QA-green exact-path commit. Do not push or deploy it before user approval through the 2026-07-19 proving-period review.

@@ -4,22 +4,18 @@ Last updated: 2026-07-13
 
 ## Ready
 
-- `review` After Implementation builds the `$20K` page from `briefs/tiny-house-under-20k-2026-07-13.md`, review:
-  - `site/tiny-house-under-20k/index.html`
-  - homepage link to the page
-  - sitemap addition
-  - claim safety around `$20K` affordability
-  - usefulness and index-worthiness
 - `monitor` Recheck GSC indexing/crawl status for:
   - `https://tinyhomeclarity.com/`
   - `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/`
   - `https://tinyhomeclarity.com/san-diego-tiny-house-adu/`
   - `https://tinyhomeclarity.com/georgia-tiny-house-classification/`
   - `https://tinyhomeclarity.com/tiny-home-cost-calculator/`
+- `monitor` After a separately authorized push and verified deployment of the `$20K` page, monitor whether GSC discovers and indexes `https://tinyhomeclarity.com/tiny-house-under-20k/`.
 - `monitor` After launch, watch whether users need official source links visible outside expandable record details.
 
 ## Completed
 
+- Reviewed the `$20K` brief and rendered page. Verdict: `launch`; brief was implementation-ready and rendered page has no must-fix issues. Detailed notes are in `reviews/tiny-house-under-20k-review-2026-07-13.md`.
 - Reviewed the Tiny Home Cost Calculator. Verdict: `launch`. Detailed notes are in `reviews/tiny-home-cost-calculator-review-2026-07-11.md`.
 - Confirmed the calculator separates user-entered numbers from editable assumptions and warnings, avoids cost/legal/approval guarantees, links correctly from the homepage, and is included in the sitemap.
 - Rechecked GSC on 2026-07-13: sitemap status `Success`, last read July 11, 2026, with 5 discovered pages; homepage and Los Angeles are indexed; San Diego, Georgia, and cost calculator are discovered from the sitemap but not indexed yet. Indexing requests were submitted for San Diego, Georgia, and the cost calculator.
