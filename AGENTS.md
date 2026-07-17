@@ -91,3 +91,11 @@ curl -I https://example.com/sitemap.xml
 - SEO Research & Review should use Anti Gravity CLI via `agy` as an advisory second opinion for important reviews when available.
 - Browser automation must stop before purchase, payment, DNS changes, or account-level changes unless the user explicitly confirms.
 
+## Central Control Room Pilot
+
+- This project is enrolled in the central Control Room at `/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator/`.
+- Read `ops/operator.json`, `ops/seo-roadmap.json`, `ops/seo-roadmap.md`, and `ops/portfolio-operator.md` before selecting operator work.
+- The rolling roadmap replaces ad hoc chat selection as the durable execution queue. Existing role backlogs remain supporting evidence.
+- During the proving period through 2026-07-19, the operator may create one exact-path, independently reviewed, QA-green commit per day. Push and deployment still require user approval.
+- A two-hour scan is a sensing cadence, not a content-production quota. Healthy unchanged runs should stop as no-ops.
+- Never discard or absorb unrelated dirty files. Inspect baseline and resulting diffs and stage only declared action paths.

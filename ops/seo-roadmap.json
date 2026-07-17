@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "owner": "Tiny Home Clarity Operator",
+  "last_rescored_on": "2026-07-17",
+  "next_rescore_due": "2026-07-24",
+  "planning_horizon_days": 28,
+  "items": [
+    {
+      "id": "THC-REL-001",
+      "title": "Resolve the reviewed under-$20K page release candidate",
+      "kind": "release",
+      "lane": "content-and-product",
+      "impact": 5,
+      "confidence": 5,
+      "learning_value": 3,
+      "effort": 1,
+      "risk": 2,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": ["https://tinyhomeclarity.com/tiny-house-under-20k/"],
+      "target_paths": [
+        "site/tiny-house-under-20k/",
+        "site/index.html",
+        "site/sitemap.xml",
+        "reviews/tiny-house-under-20k-review-2026-07-13.md",
+        "ops/current-cycle.md",
+        "progress.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md"
+      ],
+      "success_signal": "The already reviewed page is either captured in one exact-path, QA-green commit or a concrete blocking defect is recorded without rebuilding the page.",
+      "notes": "The proving-period operator may commit but must not push or deploy without user approval. Preserve every unrelated dirty path."
+    },
+    {
+      "id": "THC-MON-001",
+      "title": "Refresh indexing and early search evidence for the live support cluster",
+      "kind": "measurement",
+      "lane": "measurement",
+      "impact": 3,
+      "confidence": 4,
+      "learning_value": 4,
+      "effort": 1,
+      "risk": 1,
+      "status": "ready-after-observation-window",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": true,
+      "required_evidence": ["fresh_gsc_snapshot", "gsc_priority_inspection_rows"],
+      "target_urls": [],
+      "target_paths": ["ops/gsc-snapshots/"],
+      "success_signal": "A fresh read-only snapshot identifies discovery, indexing, and any first relevant impressions without requesting indexing.",
+      "notes": "Semrush is optional enrichment and must not block a GSC/public evidence refresh."
+    },
+    {
+      "id": "THC-RES-001",
+      "title": "Choose the next buyer-protection tool from observed user and search evidence",
+      "kind": "research",
+      "lane": "product-strategy",
+      "impact": 4,
+      "confidence": 3,
+      "learning_value": 4,
+      "effort": 2,
+      "risk": 2,
+      "status": "planned",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [],
+      "target_paths": ["briefs/", "backlog/", "decisions.md"],
+      "success_signal": "One bounded next tool or page is selected with evidence and explicit legal/source review gates.",
+      "notes": "Do not scale location pages or add lead generation merely to maintain cadence."
+    }
+  ]
+}

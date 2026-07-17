@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "slug": "tiny-home-clarity",
+  "mission": "Help prospective tiny-home buyers make safer, source-backed placement and cost decisions without overstating legal certainty.",
+  "lifecycle": "active",
+  "autonomy": "supervised-commit",
+  "control_room": "/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator",
+  "central_config": "config/sites/tiny-home-clarity.json",
+  "scan_interval_hours": 2,
+  "maximum_substantive_actions_per_day": 1,
+  "pilot_review_on": "2026-07-19",
+  "release_policy": "During the proving period, reviewed exact-path commits are allowed; push and deployment require user approval.",
+  "cloud_readiness": {
+    "mode": "hybrid",
+    "cloud_capabilities": ["github", "public-web", "dataforseo", "repository-qa"],
+    "local_dependencies": [
+      {
+        "name": "semrush",
+        "reason": "Authenticated Chrome session",
+        "fallback": "Continue without Semrush and label the evidence unavailable or stale."
+      }
+    ]
+  }
+}
