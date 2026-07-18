@@ -1,10 +1,15 @@
 # Current Cycle
 
-Last updated: 2026-07-17
+Last updated: 2026-07-18
 
 ## Active Priority
 
 Observe the newly released under-$20K guide through validated daily GSC snapshots and choose the next improvement only when search or buyer-protection evidence changes.
+
+The 2026-07-18 authenticated Page indexing review found no technical indexing
+defect: the three excluded URLs are HTTP/www aliases that correctly redirect to
+the HTTPS apex. See `ops/gsc-indexing-review-2026-07-18.md`; do not request
+indexing or validate a fix for these aliases.
 
 ## Recently Completed
 

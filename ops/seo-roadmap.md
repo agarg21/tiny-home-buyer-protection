@@ -43,5 +43,9 @@ period, and a no-op is valid.
 - Baseline: snapshot commit `8ee6066` contains finalized data through
   2026-07-16: 20 impressions, 0 clicks, five sitemap URLs discovered, and 5 of
   6 priority URLs indexed.
+- Page indexing review: the authenticated browser report collected 2026-07-18
+  (Google last updated it 2026-07-09) listed only three protocol/www aliases as
+  `Page with redirect`. Each correctly returns `301` to the HTTPS apex, so
+  `ops/gsc-indexing-review-2026-07-18.md` records a no-fix decision.
 - Next decision: observe the newly released under-$20K URL; do not create a new
   page solely because the two-hour Control Room scan ran.

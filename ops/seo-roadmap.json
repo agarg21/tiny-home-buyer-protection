@@ -115,9 +115,9 @@
       "requires_fresh_gsc": true,
       "required_evidence": ["fresh_gsc_snapshot", "changed_gsc_snapshot", "gsc_priority_inspection_rows"],
       "target_urls": [],
-      "target_paths": ["ops/gsc-snapshots/"],
+      "target_paths": ["ops/gsc-snapshots/", "ops/gsc-indexing-review-2026-07-18.md"],
       "success_signal": "A changed read-only snapshot identifies a discovery, indexing, or performance signal worth evaluating without requesting indexing.",
-      "notes": "The first snapshot is the baseline, not changed evidence. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
+      "notes": "The first API snapshot is the baseline, not changed evidence. The authenticated browser review collected 2026-07-18 (report updated 2026-07-09) found only three expected protocol/www redirects, all correctly returning 301 to the HTTPS apex; see ops/gsc-indexing-review-2026-07-18.md. Do not request indexing or validate a fix for those aliases. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
     },
     {
       "id": "THC-RES-001",
