@@ -113,11 +113,11 @@
       "status": "ready",
       "allowed_during_observation": true,
       "requires_fresh_gsc": true,
-      "required_evidence": ["fresh_gsc_snapshot", "gsc_priority_inspection_rows"],
+      "required_evidence": ["fresh_gsc_snapshot", "changed_gsc_snapshot", "gsc_priority_inspection_rows"],
       "target_urls": [],
       "target_paths": ["ops/gsc-snapshots/"],
-      "success_signal": "A fresh read-only snapshot identifies discovery, indexing, and any first relevant impressions without requesting indexing.",
-      "notes": "Semrush is optional enrichment and must not block a GSC/public evidence refresh."
+      "success_signal": "A changed read-only snapshot identifies a discovery, indexing, or performance signal worth evaluating without requesting indexing.",
+      "notes": "The first snapshot is the baseline, not changed evidence. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
     },
     {
       "id": "THC-RES-001",
