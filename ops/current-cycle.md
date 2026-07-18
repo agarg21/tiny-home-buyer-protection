@@ -4,10 +4,14 @@ Last updated: 2026-07-17
 
 ## Active Priority
 
-Release the reviewed `Can You Build a Tiny House for Under $20K?` candidate, verify production, and use fresh daily GSC snapshots to monitor discovery and choose the next evidence-backed improvement.
+Observe the newly released under-$20K guide through validated daily GSC snapshots and choose the next improvement only when search or buyer-protection evidence changes.
 
 ## Recently Completed
 
+- Installed unattended read-only GSC collection in `110d923`; workflow run
+  `29627800041` succeeded and snapshot commit `8ee6066` established the first
+  baseline: 20 impressions, 0 clicks, five sitemap URLs discovered, and 5 of 6
+  priority URLs indexed.
 - Released commit `a90434e` on 2026-07-17. GitHub Pages run `29627141191`
   succeeded for the exact SHA; the live under-$20K guide and sitemap byte-match
   the committed files and retain the reviewed buyer-protective invariants.
