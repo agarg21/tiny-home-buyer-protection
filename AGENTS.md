@@ -91,11 +91,13 @@ curl -I https://example.com/sitemap.xml
 - SEO Research & Review should use Anti Gravity CLI via `agy` as an advisory second opinion for important reviews when available.
 - Browser automation must stop before purchase, payment, DNS changes, or account-level changes unless the user explicitly confirms.
 
-## Central Control Room Pilot
+## Central Control Room
 
 - This project is enrolled in the central Control Room at `/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator/`.
 - Read `ops/operator.json`, `ops/seo-roadmap.json`, `ops/seo-roadmap.md`, and `ops/portfolio-operator.md` before selecting operator work.
 - The rolling roadmap replaces ad hoc chat selection as the durable execution queue. Existing role backlogs remain supporting evidence.
-- During the proving period through 2026-07-19, the operator may create one exact-path, independently reviewed, QA-green commit per day. Push and deployment still require user approval.
+- The user granted standing reviewed-release authorization on 2026-07-17. The operator may create and push at most one exact-path, independently reviewed, QA-green substantive commit per day, then verify the native Pages run and action-specific production invariants. Stop on remote divergence or a production regression whose rollback scope is ambiguous.
+- GitHub Actions collects a normalized public-safe GSC snapshot daily. At run start, validate and compare every new snapshot with the prior snapshot and `ops/seo-roadmap.json`. New data may unlock or reprioritize an item, but an unchanged healthy snapshot is housekeeping and should produce a no-op rather than manufactured work.
+- Never commit GSC credentials, complete raw query exports, country/device rows, or user data. Treat Semrush as optional enrichment; GSC API evidence is the unattended first-party measurement source.
 - A two-hour scan is a sensing cadence, not a content-production quota. Healthy unchanged runs should stop as no-ops.
 - Never discard or absorb unrelated dirty files. Inspect baseline and resulting diffs and stage only declared action paths.

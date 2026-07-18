@@ -1,13 +1,16 @@
 # Current Cycle
 
-Last updated: 2026-07-13
+Last updated: 2026-07-17
 
 ## Active Priority
 
-Capture the reviewed `Can You Build a Tiny House for Under $20K?` candidate in one exact-path commit while holding push and deployment for user approval through the Control Room proving period.
+Release the reviewed `Can You Build a Tiny House for Under $20K?` candidate, verify production, and use fresh daily GSC snapshots to monitor discovery and choose the next evidence-backed improvement.
 
 ## Recently Completed
 
+- Released commit `a90434e` on 2026-07-17. GitHub Pages run `29627141191`
+  succeeded for the exact SHA; the live under-$20K guide and sitemap byte-match
+  the committed files and retain the reviewed buyer-protective invariants.
 - Bootstrap repo scaffold created.
 - GitHub Pages workflow prepared.
 - GitHub repo created and pushed: `agarg21/tiny-home-buyer-protection`.
@@ -113,7 +116,7 @@ Capture the reviewed `Can You Build a Tiny House for Under $20K?` candidate in o
 
 ## Ready For Implementation Agent
 
-- No `$20K` implementation rerun is required before the exact-path local commit. Do not push or deploy it without user approval through the proving period.
+- No `$20K` implementation rerun is required before its reviewed release. Verify the pushed SHA, Pages deployment, live URL, sitemap inclusion, calculator behavior, and buyer-protective caveats.
 - Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
 - Use static JSON for local records only when manually researched official-source records are available.
 - Add email capture only after the user chooses an email provider.
@@ -126,4 +129,6 @@ Capture the reviewed `Can You Build a Tiny House for Under $20K?` candidate in o
 
 ## Recommended Next Agent
 
-Control Room operator to create the independently reviewed, QA-green exact-path commit. Do not push or deploy it before user approval through the 2026-07-19 proving-period review.
+Control Room operator to release the existing independently reviewed commit,
+verify production, then review each new validated GSC snapshot against the
+roadmap. Do not manufacture another page when search evidence is unchanged.

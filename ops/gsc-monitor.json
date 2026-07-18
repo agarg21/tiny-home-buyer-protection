@@ -1,5 +1,8 @@
 {
+  "slug": "tiny-home-clarity",
   "site": "Tiny Home Clarity",
+  "snapshot_title": "Tiny Home Clarity GSC Snapshot",
+  "gsc_property": "sc-domain:tinyhomeclarity.com",
   "domain": "tinyhomeclarity.com",
   "sitemap": "https://tinyhomeclarity.com/sitemap.xml",
   "robots": "https://tinyhomeclarity.com/robots.txt",
@@ -8,6 +11,7 @@
     "https://tinyhomeclarity.com/los-angeles-tiny-house-adu/",
     "https://tinyhomeclarity.com/san-diego-tiny-house-adu/",
     "https://tinyhomeclarity.com/georgia-tiny-house-classification/",
-    "https://tinyhomeclarity.com/tiny-home-cost-calculator/"
+    "https://tinyhomeclarity.com/tiny-home-cost-calculator/",
+    "https://tinyhomeclarity.com/tiny-house-under-20k/"
   ]
 }

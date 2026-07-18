@@ -10,8 +10,13 @@ review evidence, roadmap, and release policy. The central operator owns
 cross-run sensing, normalized private evidence, the action ledger, and the
 portfolio report.
 
-During the proving period through 2026-07-19, the operator may inspect, research,
-implement, independently review, validate, and create an exact-path commit. It
-must preserve all pre-existing dirty work and must not push or deploy without
-user approval. Authenticated Semrush access is optional local enrichment, not a
-reason to stop API-, repository-, public-, or GSC-backed work.
+Standing reviewed-release authorization was granted on 2026-07-17. The operator
+may inspect, research, implement, independently review, validate, push one
+exact-path substantive commit per day, and verify its GitHub Pages release. It
+must preserve all pre-existing dirty work, stop on remote divergence, and stop
+when rollback scope is ambiguous. Authenticated Semrush access is optional local
+enrichment, not a reason to stop API-, repository-, public-, or GSC-backed work.
+
+The daily read-only GSC Action is run-start housekeeping. Validate and compare a
+new snapshot with the prior snapshot and roadmap before choosing work. Act when
+the evidence changes a gate or decision; otherwise record a healthy no-op.

@@ -4,7 +4,7 @@ Last updated: 2026-07-13
 
 ## Ready
 
-- No active implementation rerun. The `$20K` page passed SEO review and is ready for one exact-path local commit; push and deployment require user approval through the proving period.
+- No implementation rerun. The `$20K` page passed SEO review, is captured in `a90434e`, and is authorized for push/deployment with production verification.
 
 ## Monitor
 
@@ -33,7 +33,7 @@ Last updated: 2026-07-13
 
 - No active implementation blocker from SEO review. Rendered official-source record review passed with verdict `launch`.
 - Support-cluster review passed with verdict `launch`; no implementation rerun is required before Master commits/pushes.
-- `$20K` page review passed with verdict `launch`; no implementation rerun is required before the exact-path local commit, while push and deployment remain separately gated.
+- `$20K` page review passed with verdict `launch`; no implementation rerun is required before the authorized release.
 - Maintain local records as static JSON for the MVP, preferably `site/data/local-records.json`.
 
 ## Infrastructure
