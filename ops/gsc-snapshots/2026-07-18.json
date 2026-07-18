@@ -4,7 +4,7 @@
   "property": "sc-domain:tinyhomeclarity.com",
   "visibility": "public-summary",
   "collection_mode": "search-console-api-readonly",
-  "collected_at": "2026-07-18T02:52:16.412Z",
+  "collected_at": "2026-07-18T11:32:24.971Z",
   "data_through": "2026-07-16",
   "requested_period_end": "2026-07-16",
   "completeness": "finalized-conservative",
@@ -20,10 +20,10 @@
       "status": "finalized",
       "period_start": "2026-06-19",
       "period_end": "2026-07-16",
-      "latest_known_impressions": 20,
+      "latest_known_impressions": 21,
       "latest_known_clicks": 0,
       "latest_known_ctr_percent": 0,
-      "latest_known_average_position": 26.1,
+      "latest_known_average_position": 25.38,
       "snapshot_date": "2026-07-16",
       "page_rows": [
         {
@@ -36,9 +36,9 @@
         {
           "url": "https://tinyhomeclarity.com/georgia-tiny-house-classification/",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 3,
           "ctr_percent": 0,
-          "average_position": 41.5
+          "average_position": 31.33
         },
         {
           "url": "https://tinyhomeclarity.com/los-angeles-tiny-house-adu/",
