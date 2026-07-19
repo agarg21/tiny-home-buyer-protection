@@ -1,9 +1,11 @@
 # SEO Research & Review Backlog
 
-Last updated: 2026-07-13
+Last updated: 2026-07-18
 
 ## Ready
 
+- After LA/San Diego repair review, review the proposed national tiny-home
+  build decision / builder due-diligence asset before implementation.
 - `monitor` Recheck GSC indexing/crawl status for:
   - `https://tinyhomeclarity.com/`
   - `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/`
@@ -15,6 +17,11 @@ Last updated: 2026-07-13
 
 ## Completed
 
+- Reviewed the repaired Los Angeles and San Diego pages from human-searcher POV.
+  Initial verdict was `improve`; after implementation fixes, independent review
+  verdict was `PASS`. Detailed notes are in
+  `reviews/la-san-diego-human-searcher-review-2026-07-18.md` and
+  `reviews/la-san-diego-human-searcher-implementation-review-2026-07-18.md`.
 - Reviewed the `$20K` brief and rendered page. Verdict: `launch`; brief was implementation-ready and rendered page has no must-fix issues. Detailed notes are in `reviews/tiny-house-under-20k-review-2026-07-13.md`.
 - Reviewed the Tiny Home Cost Calculator. Verdict: `launch`. Detailed notes are in `reviews/tiny-home-cost-calculator-review-2026-07-11.md`.
 - Confirmed the calculator separates user-entered numbers from editable assumptions and warnings, avoids cost/legal/approval guarantees, links correctly from the homepage, and is included in the sitemap.

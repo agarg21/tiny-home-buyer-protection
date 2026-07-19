@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-07-18T15:28:21.936Z",
+  "provider": "DataForSEO Google Ads search_volume/live",
+  "approximate_reported_cost": 0.18,
+  "note": "A prior explicit-keyword request was rejected at task level because one phrase exceeded DataForSEO keyword word limits; raw invalid response is retained separately and excluded from this summary cost.",
+  "requests": [
+    {
+      "name": "explicit-ca-city-keywords-us-v2",
+      "location_name": "United States",
+      "keyword_count": 89,
+      "raw_path": "docs/research/raw/dataforseo-explicit-ca-city-keywords-us-v2-2026-07-18.json",
+      "task_cost": 0.09,
+      "status_code": 20000,
+      "status_message": "Ok."
+    },
+    {
+      "name": "generic-placement-keywords-california-geo",
+      "location_name": "California,United States",
+      "keyword_count": 20,
+      "raw_path": "docs/research/raw/dataforseo-generic-placement-keywords-california-geo-2026-07-18.json",
+      "task_cost": 0.09,
+      "status_code": 20000,
+      "status_message": "Ok."
+    }
+  ],
+  "processed_csv": "docs/research/processed/california-tiny-home-keyword-demand-2026-07-18.csv",
+  "row_count": 109,
+  "known_volume_count": 50,
+  "nonzero_volume_count": 50
+}

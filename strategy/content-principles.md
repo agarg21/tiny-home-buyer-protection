@@ -1,6 +1,6 @@
 # Content Principles
 
-Last updated: 2026-07-07
+Last updated: 2026-07-18
 
 ## Voice
 
@@ -67,3 +67,64 @@ A page deserves to be indexed only if it helps a reader make or verify a decisio
 - Useful comparison framework.
 - Specific, source-backed caveats.
 
+## Human Searcher Standard
+
+Do not build pages from the site's internal taxonomy first. Build from the
+searcher's situation.
+
+Before publishing or materially repairing a page, define:
+
+- Target query.
+- Likely searcher situation.
+- Primary reader experience level: beginner, intermediate, or advanced.
+- The practical job the searcher wants done.
+- What the first screen must answer.
+- What the reader should do next.
+- What the page should avoid because it is adjacent, unsupported, or not useful.
+
+Prefer headings that sound like a reader's next decision:
+
+- "Before you call a seller or builder."
+- "Questions still to verify."
+- "When this path may fit."
+- "Stop if."
+
+Avoid headings that sound like SEO/page architecture unless they are genuinely
+reader-facing:
+
+- "Local landscape."
+- "Intent router."
+- "What this search usually means."
+- "Source summary" when the user needs a short answer first.
+
+If a page is safe but not useful from the target searcher's point of view, it is
+not ready.
+
+Review broad tiny-house queries against three reader levels:
+
+- Beginner: needs terms translated and cannot be expected to know ADU, MTH,
+  THOW, park model, shell, kit, or jurisdiction vocabulary.
+- Intermediate: has seen listings/builders/forums/videos and needs help sorting
+  claims, categories, costs, and placement risk.
+- Advanced: needs official-source specificity, edge cases, exclusions, and exact
+  verification questions.
+
+For broad city queries, optimize first for beginner and intermediate readers.
+Advanced details can appear lower on the page.
+
+## SERP-Informed Page Strategy
+
+For new SEO pages and material page repairs, use a targeted SERP review before
+finalizing the brief or review verdict.
+
+The SERP review should identify:
+
+- Dominant result types.
+- Implied user intent.
+- Where our buyer-protection angle can be genuinely useful.
+- What not to target because it is vendor, marketplace, travel, forum, or
+  unrelated ADU-contractor intent.
+- How the first screen should differ from top results.
+
+SERP evidence does not override claim safety or official-source requirements.
+It decides page strategy; official sources decide what we can safely say.

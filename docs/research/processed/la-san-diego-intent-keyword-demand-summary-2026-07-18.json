@@ -1,0 +1,146 @@
+{
+  "collected_at": "2026-07-18T18:54:53.335Z",
+  "provider": "DataForSEO Google Ads search_volume/live",
+  "approximate_reported_cost": 0.09,
+  "request": {
+    "location_name": "United States",
+    "keyword_count": 50,
+    "raw_path": "docs/research/raw/dataforseo-la-san-diego-intent-keywords-us-2026-07-18.json",
+    "task_status_code": 20000,
+    "task_status_message": "Ok."
+  },
+  "processed_csv": "docs/research/processed/la-san-diego-intent-keyword-demand-2026-07-18.csv",
+  "row_count": 50,
+  "known_volume_count": 34,
+  "nonzero_volume_count": 34,
+  "bucket_summary": [
+    {
+      "city": "San Diego",
+      "bucket": "broad",
+      "known_terms": 2,
+      "max_volume": 880,
+      "max_keyword": "tiny house san diego",
+      "nonzero_terms": 2
+    },
+    {
+      "city": "San Diego",
+      "bucket": "buy-listings",
+      "known_terms": 2,
+      "max_volume": 1300,
+      "max_keyword": "tiny houses for sale san diego",
+      "nonzero_terms": 2
+    },
+    {
+      "city": "San Diego",
+      "bucket": "builders",
+      "known_terms": 2,
+      "max_volume": 90,
+      "max_keyword": "tiny house builders san diego",
+      "nonzero_terms": 2
+    },
+    {
+      "city": "San Diego",
+      "bucket": "community",
+      "known_terms": 4,
+      "max_volume": 320,
+      "max_keyword": "tiny house community san diego",
+      "nonzero_terms": 4
+    },
+    {
+      "city": "San Diego",
+      "bucket": "stay-rent",
+      "known_terms": 4,
+      "max_volume": 210,
+      "max_keyword": "tiny house rentals san diego",
+      "nonzero_terms": 4
+    },
+    {
+      "city": "San Diego",
+      "bucket": "placement-adu",
+      "known_terms": 0,
+      "max_volume": "UNKNOWN",
+      "max_keyword": "",
+      "nonzero_terms": 0
+    },
+    {
+      "city": "San Diego",
+      "bucket": "placement-thow",
+      "known_terms": 2,
+      "max_volume": 70,
+      "max_keyword": "tiny home on wheels san diego",
+      "nonzero_terms": 2
+    },
+    {
+      "city": "San Diego",
+      "bucket": "rules-zoning",
+      "known_terms": 1,
+      "max_volume": 10,
+      "max_keyword": "tiny house laws san diego",
+      "nonzero_terms": 1
+    },
+    {
+      "city": "Los Angeles",
+      "bucket": "broad",
+      "known_terms": 2,
+      "max_volume": 720,
+      "max_keyword": "tiny house los angeles",
+      "nonzero_terms": 2
+    },
+    {
+      "city": "Los Angeles",
+      "bucket": "buy-listings",
+      "known_terms": 2,
+      "max_volume": 1600,
+      "max_keyword": "tiny houses for sale los angeles",
+      "nonzero_terms": 2
+    },
+    {
+      "city": "Los Angeles",
+      "bucket": "builders",
+      "known_terms": 2,
+      "max_volume": 50,
+      "max_keyword": "tiny house builders los angeles",
+      "nonzero_terms": 2
+    },
+    {
+      "city": "Los Angeles",
+      "bucket": "community",
+      "known_terms": 4,
+      "max_volume": 170,
+      "max_keyword": "tiny house community los angeles",
+      "nonzero_terms": 4
+    },
+    {
+      "city": "Los Angeles",
+      "bucket": "stay-rent",
+      "known_terms": 4,
+      "max_volume": 140,
+      "max_keyword": "tiny house rentals los angeles",
+      "nonzero_terms": 4
+    },
+    {
+      "city": "Los Angeles",
+      "bucket": "placement-adu",
+      "known_terms": 1,
+      "max_volume": 10,
+      "max_keyword": "tiny house adu los angeles",
+      "nonzero_terms": 1
+    },
+    {
+      "city": "Los Angeles",
+      "bucket": "placement-thow",
+      "known_terms": 1,
+      "max_volume": 10,
+      "max_keyword": "tiny house on wheels los angeles",
+      "nonzero_terms": 1
+    },
+    {
+      "city": "Los Angeles",
+      "bucket": "rules-zoning",
+      "known_terms": 1,
+      "max_volume": 10,
+      "max_keyword": "tiny house laws los angeles",
+      "nonzero_terms": 1
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "owner": "Tiny Home Clarity Operator",
-  "last_rescored_on": "2026-07-17",
+  "last_rescored_on": "2026-07-18",
   "next_rescore_due": "2026-07-24",
   "planning_horizon_days": 28,
   "items": [
@@ -28,7 +28,9 @@
       "expected_effect": "No traffic, indexing, or production effect before an authorized push and deployment; immediate effect is a reproducible reviewed commit for later release.",
       "observation_window": "Not started. If a later authorized release occurs, establish a URL-scoped observation window from the verified production deployment date.",
       "decision": "Capture the independently reviewed, QA-green candidate in one exact-path local commit. The later authorized production release is tracked separately as THC-DEP-001.",
-      "target_urls": ["https://tinyhomeclarity.com/tiny-house-under-20k/"],
+      "target_urls": [
+        "https://tinyhomeclarity.com/tiny-house-under-20k/"
+      ],
       "target_paths": [
         "site/tiny-house-under-20k/",
         "site/index.html",
@@ -71,7 +73,9 @@
       "completed_on": "2026-07-17",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
-      "target_urls": ["https://tinyhomeclarity.com/tiny-house-under-20k/"],
+      "target_urls": [
+        "https://tinyhomeclarity.com/tiny-house-under-20k/"
+      ],
       "target_paths": [
         ".github/workflows/gsc-snapshot.yml",
         "AGENTS.md",
@@ -101,6 +105,77 @@
       "notes": "The under-$20K guide is the one not-yet-indexed priority URL in the first snapshot, which is expected immediately after release. Continue daily collection and use changed evidence rather than scan cadence to select work."
     },
     {
+      "id": "THC-QUAL-001",
+      "title": "Repair LA and San Diego pages into answer-first local guides",
+      "kind": "quality-improvement",
+      "lane": "content-and-product",
+      "impact": 4,
+      "confidence": 4,
+      "learning_value": 4,
+      "effort": 2,
+      "risk": 2,
+      "status": "ready",
+      "selected_on": "2026-07-18",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/los-angeles-tiny-house-adu/",
+        "https://tinyhomeclarity.com/san-diego-tiny-house-adu/"
+      ],
+      "target_paths": [
+        "site/los-angeles-tiny-house-adu/index.html",
+        "site/san-diego-tiny-house-adu/index.html",
+        "strategy/current-strategy.md",
+        "decisions.md",
+        "ops/current-cycle.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "docs/research/california-tiny-home-query-demand-2026-07-18.md",
+        "docs/research/serp-tiny-house-san-diego-intent-2026-07-18.md",
+        "briefs/la-san-diego-page-repair-2026-07-18.md",
+        "docs/research/la-san-diego-addressable-query-volume-2026-07-18.md",
+        "docs/research/tiny-home-build-intent-query-demand-2026-07-18.md",
+        "docs/research/processed/la-san-diego-intent-keyword-demand-2026-07-18.csv",
+        "docs/research/processed/la-san-diego-intent-keyword-demand-summary-2026-07-18.json",
+        "docs/research/processed/tiny-home-build-intent-keyword-demand-2026-07-18.csv",
+        "docs/research/processed/tiny-home-build-intent-keyword-demand-summary-2026-07-18.json",
+        "docs/research/processed/serp-los-angeles-tiny-house-intents-2026-07-18.json"
+      ],
+      "baseline": "The existing Los Angeles and San Diego source pages are cautious and official-source-backed, but they do not yet satisfy the mixed city intent shown by keyword and SERP research: buy/build, listings, communities/stays, and legal placement checks.",
+      "hypothesis": "Repairing LA and San Diego into answer-first local guides will make them more useful for broad, uncertain city searchers while preserving legal caution.",
+      "expected_effect": "Better buyer usefulness and clearer differentiation from vendor/state pages that overclaim; no guarantee of immediate traffic impact.",
+      "success_signal": "LA and San Diego pages explain the broad local tiny-house landscape, distinguish listings/builders/communities/stays from legal placement, lead into official-source facts and next verification questions, and imply no parcel approval or legal permission.",
+      "notes": "Use briefs/la-san-diego-page-repair-2026-07-18.md. Addressable query research shows direct placement/rules exact demand is small, but broad and adjacent local demand is meaningful: San Diego broad 880, listings 1300, community 320, rentals 210, THOW 70; Los Angeles broad 720, listings 1600, community 170, rentals 140, ADU/THOW/laws around 10 each. Build-intent research shows national tiny-home build demand is meaningful, but local exact tiny-house builder demand is small and ADU-builder demand is adjacent rather than tiny-home-specific. Do not create new city pages, ADU-builder city pages, or a builder directory before this repair is reviewed."
+    },
+    {
+      "id": "THC-BUILD-001",
+      "title": "Scope national tiny-home build decision and builder due-diligence asset",
+      "kind": "content-and-product",
+      "lane": "content-and-product",
+      "impact": 4,
+      "confidence": 3,
+      "learning_value": 4,
+      "effort": 2,
+      "risk": 2,
+      "status": "candidate",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [],
+      "target_paths": [
+        "briefs/",
+        "strategy/current-strategy.md",
+        "decisions.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "docs/research/tiny-home-build-intent-query-demand-2026-07-18.md"
+      ],
+      "baseline": "General US tiny-home build demand is materially larger than exact local placement demand, but tiny-home build intent and ADU contractor intent are different markets.",
+      "hypothesis": "A national build decision / builder due-diligence asset can serve broad tiny-home build demand without overclaiming legality or becoming a builder directory.",
+      "expected_effect": "Clarifies whether the next product asset should address plans, kits, shells/trailers, builders, contractors, THOW builds, codes, permits, and risk checks.",
+      "success_signal": "A reviewed brief defines a useful buyer-protection asset for people deciding whether to build, buy a kit/shell, or hire a tiny-home builder, with explicit separation from ADU-contractor demand.",
+      "notes": "Eligible only after THC-QUAL-001 is reviewed or if new evidence materially changes priority. Do not target ADU-builder city pages from this item."
+    },
+    {
       "id": "THC-MON-001",
       "title": "Refresh indexing and early search evidence for the live support cluster",
       "kind": "measurement",
@@ -113,9 +188,16 @@
       "status": "ready",
       "allowed_during_observation": true,
       "requires_fresh_gsc": true,
-      "required_evidence": ["fresh_gsc_snapshot", "changed_gsc_snapshot", "gsc_priority_inspection_rows"],
+      "required_evidence": [
+        "fresh_gsc_snapshot",
+        "changed_gsc_snapshot",
+        "gsc_priority_inspection_rows"
+      ],
       "target_urls": [],
-      "target_paths": ["ops/gsc-snapshots/", "ops/gsc-indexing-review-2026-07-18.md"],
+      "target_paths": [
+        "ops/gsc-snapshots/",
+        "ops/gsc-indexing-review-2026-07-18.md"
+      ],
       "success_signal": "A changed read-only snapshot identifies a discovery, indexing, or performance signal worth evaluating without requesting indexing.",
       "notes": "The first API snapshot is the baseline, not changed evidence. The authenticated browser review collected 2026-07-18 (report updated 2026-07-09) found only three expected protocol/www redirects, all correctly returning 301 to the HTTPS apex; see ops/gsc-indexing-review-2026-07-18.md. Do not request indexing or validate a fix for those aliases. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
     },
@@ -133,9 +215,13 @@
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [],
-      "target_paths": ["briefs/", "backlog/", "decisions.md"],
+      "target_paths": [
+        "briefs/",
+        "backlog/",
+        "decisions.md"
+      ],
       "success_signal": "One bounded next tool or page is selected with evidence and explicit legal/source review gates.",
-      "notes": "Do not scale location pages or add lead generation merely to maintain cadence."
+      "notes": "Do not scale location pages or add lead generation merely to maintain cadence. California demand research found broad/commercial demand but low fragmented exact placement demand; use targeted SERP/GSC evidence before choosing a California hub or additional city pages."
     }
   ]
 }

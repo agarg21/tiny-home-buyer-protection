@@ -1,6 +1,6 @@
 # Needs User
 
-Last updated: 2026-07-13
+Last updated: 2026-07-18
 
 ## Open Decisions
 
@@ -12,7 +12,8 @@ Last updated: 2026-07-13
 
 ## Waiting On External Accounts
 
-- Google Search Console indexing should continue to be monitored. On 2026-07-13, sitemap status was `Success`, last read July 11, 2026, with 5 discovered pages; homepage and Los Angeles were indexed, while San Diego, Georgia, and the cost calculator were discovered but not yet indexed. Indexing requests were submitted for San Diego, Georgia, and the cost calculator.
+- Google Search Console indexing should continue to be monitored through the daily read-only snapshot workflow. The 2026-07-18 API baseline reported 20 impressions, 0 clicks, five sitemap pages discovered, and 5 of 6 priority URLs indexed; only `https://tinyhomeclarity.com/tiny-house-under-20k/` was not indexed, which is expected immediately after release.
+- The 2026-07-18 authenticated Page indexing review found only HTTP/`www` aliases excluded as `Page with redirect`; all correctly redirect to the HTTPS apex. No indexing request, fix validation, DNS change, or user action is needed for those aliases.
 
 ## User Input Log
 

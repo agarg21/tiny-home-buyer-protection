@@ -107,3 +107,65 @@
 - Linked the homepage `$20K` planned card to the local candidate page and added its future public URL, `https://tinyhomeclarity.com/tiny-house-under-20k/`, to `site/sitemap.xml` with `2026-07-13` lastmod. It becomes live only after an authorized deployment.
 - Completed SEO Research & Review for the `$20K` brief and rendered page at `reviews/tiny-house-under-20k-review-2026-07-13.md`; verdict is `launch` with no required implementation fixes before the exact-path local commit. Push and deployment remain separately gated.
 - Validation passed for inline JavaScript parse, local internal-link sanity, `git diff --check`, and required deployment files.
+
+## 2026-07-18
+
+- Consolidated the external bootstrap business plan into `strategy/current-strategy.md` as the operating strategy source.
+- Recorded that SERP review should be targeted from GSC/page evidence rather than run on every no-op scan, and that backlink outreach should wait until the site has clearer link-worthy assets.
+- Recorded a strategy correction that the placement homepage should act as a hub, not the sole ranking bet for localized placement intent.
+- Recorded a quality correction: existing source-backed pages need answer-first guidance that separates official-source facts, likely-fit conditions, stop conditions, next questions, and remaining parcel-specific unknowns.
+- Ran a capped California query-demand pull through DataForSEO Google Ads `search_volume/live`:
+  - Successful reported task cost: approximately `$0.18`.
+  - 109 processed keyword rows.
+  - 50 known nonzero volume rows.
+  - Raw responses saved under `docs/research/raw/`.
+  - Processed CSV and summary saved under `docs/research/processed/`.
+  - Research report saved at `docs/research/california-tiny-home-query-demand-2026-07-18.md`.
+- California demand finding: broad/commercial state and city terms are materially stronger than explicit placement/zoning terms. The evidence supports improving existing Los Angeles and San Diego source pages before building more city pages, with a possible future California MTH/ADU/placement hub if SERP/GSC evidence supports it.
+- Ran a focused DataForSEO SERP snapshot for `tiny house san diego` in both
+  United States and California locations:
+  - Successful reported task cost: approximately `$0.012`.
+  - Report saved at `docs/research/serp-tiny-house-san-diego-intent-2026-07-18.md`.
+  - Finding: the query is mixed local/commercial intent, with listings,
+    builders, Facebook/community, Airbnb/stay, video, and some official/news
+    results. The San Diego page should be improved as an answer-first local
+    guide, not just a narrow zoning/source memo or generic intent menu.
+- Ran a focused LA/San Diego intent-bucket keyword pull:
+  - Successful reported task cost: approximately `$0.09`.
+  - 50 keywords across broad, buy/listings, builders, communities, stays,
+    ADU/MTH, THOW, and rules/zoning buckets.
+  - Report saved at `docs/research/la-san-diego-addressable-query-volume-2026-07-18.md`.
+  - Implementation brief saved at `briefs/la-san-diego-page-repair-2026-07-18.md`.
+  - Finding: direct legal/placement exact demand is small, but mixed city demand
+    is meaningful enough to repair LA and San Diego into buyer-protective local
+    guides before creating more city pages.
+- Ran a capped build-intent keyword pull through DataForSEO Google Ads
+  `search_volume/live`:
+  - Successful reported task cost: approximately `$0.09`.
+  - Raw response saved at
+    `docs/research/raw/dataforseo-build-intent-keywords-us-2026-07-18.json`.
+  - Processed CSV and summary saved at
+    `docs/research/processed/tiny-home-build-intent-keyword-demand-2026-07-18.csv`
+    and
+    `docs/research/processed/tiny-home-build-intent-keyword-demand-summary-2026-07-18.json`.
+  - Research report saved at
+    `docs/research/tiny-home-build-intent-query-demand-2026-07-18.md`.
+- Added a human-searcher review gate and reusable review prompt, then reviewed
+  the current Los Angeles and San Diego page repairs from target-query POV.
+  Review saved at
+  `reviews/la-san-diego-human-searcher-review-2026-07-18.md`; verdict is
+  `improve`.
+- Applied the human-searcher review fixes to the Los Angeles and San Diego
+  pages:
+  - replaced SERP/page-explanation ledes with direct buyer answers,
+  - added early city/county stop conditions,
+  - added first-action blocks and listing/builder claim tables,
+  - added Los Angeles shelter-village and San Diego community/stay distinctions,
+  - made the bottom CTA local-specific,
+  - added table styling with horizontal overflow protection.
+- Independent implementation review passed with verdict `PASS`; notes saved at
+  `reviews/la-san-diego-human-searcher-implementation-review-2026-07-18.md`.
+- Added beginner / intermediate / advanced tiny-house personas to the SEO
+  Research & Review agent, reusable review prompt, and content principles so
+  broad local pages are reviewed from human searcher experience levels before
+  `launch` / `PASS`.

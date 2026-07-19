@@ -1,10 +1,21 @@
 # Implementation Backlog
 
-Last updated: 2026-07-13
+Last updated: 2026-07-18
 
 ## Ready
 
-- No implementation rerun. The `$20K` page passed SEO review, is captured in `a90434e`, and is authorized for push/deployment with production verification.
+- No active implementation blocker. The Los Angeles and San Diego page repair
+  has been applied and passed human-searcher review in
+  `reviews/la-san-diego-human-searcher-implementation-review-2026-07-18.md`.
+
+## Next Candidate After Repair
+
+- Build a national tiny-home build decision / builder due-diligence asset after
+  the Los Angeles and San Diego repairs pass review.
+- Working concept: `Should You Build, Buy a Kit, Buy a Shell, or Hire a
+  Tiny-Home Builder?`
+- Do not build ADU-builder city pages or a builder directory yet. ADU-builder
+  demand is adjacent and should be separated from tiny-home build intent.
 
 ## Monitor
 
@@ -13,6 +24,15 @@ Last updated: 2026-07-13
 
 ## Completed
 
+- Repaired the existing Los Angeles and San Diego pages using
+  `briefs/la-san-diego-page-repair-2026-07-18.md` and
+  `reviews/la-san-diego-human-searcher-review-2026-07-18.md`.
+- Rebuilt the top halves around human searcher tasks, early city/county stop
+  conditions, listing/builder claim tables, city-specific adjacent-intent notes,
+  and local-specific CTAs.
+- The repaired pages passed independent human-searcher implementation review
+  with verdict `PASS`; detailed notes are in
+  `reviews/la-san-diego-human-searcher-implementation-review-2026-07-18.md`.
 - Built the first `Where Can I Put a Tiny House?` MVP page/tool in `site/index.html` with responsive styling in `site/styles.css`.
 - Added general-only triage output, low-confidence unsupported-location handling, official-source field preservation, and an on-page checklist preview while email provider remains `UNKNOWN`.
 - Added launch-readiness improvements: official-source starter links, buyer-facing local-record note, non-link planned tool cards, and `Page last reviewed: 2026-07-08`.

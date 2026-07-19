@@ -1,0 +1,50 @@
+{
+  "request": {
+    "keyword": "tiny house adu los angeles",
+    "location_name": "United States",
+    "language_name": "English",
+    "device": "desktop",
+    "os": "windows",
+    "depth": 30
+  },
+  "response": {
+    "version": "0.1.20260717",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "21.3613 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "07182155-2024-0139-0000-dbb24b1817c0",
+        "status_code": 40101,
+        "status_message": "Internal SE Server Error.",
+        "time": "21.2854 sec.",
+        "cost": 0.002,
+        "result_count": 0,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "tiny house adu los angeles",
+          "location_name": "United States",
+          "language_name": "English",
+          "device": "desktop",
+          "os": "windows",
+          "depth": 30
+        },
+        "result": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,3300 @@
+{
+  "description": "US volume for explicit California and top-city modified tiny-home queries. v2 removes over-length phrases rejected by DataForSEO.",
+  "request": {
+    "keywords": [
+      "tiny house california",
+      "tiny home california",
+      "tiny house laws california",
+      "tiny home laws california",
+      "tiny house regulations california",
+      "tiny home regulations california",
+      "tiny house zoning california",
+      "tiny home zoning california",
+      "where put tiny house california",
+      "tiny house backyard california",
+      "california tiny house adu",
+      "california movable tiny house adu",
+      "movable tiny house california",
+      "tiny house on wheels california",
+      "tiny home communities california",
+      "tiny house communities california",
+      "tiny homes for sale california",
+      "tiny home builders california",
+      "tiny house builders california",
+      "tiny house los angeles",
+      "tiny home los angeles",
+      "tiny house zoning los angeles",
+      "tiny home regulations los angeles",
+      "tiny house adu los angeles",
+      "movable tiny house los angeles",
+      "tiny house backyard los angeles",
+      "tiny house san diego",
+      "tiny home san diego",
+      "tiny house zoning san diego",
+      "tiny home regulations san diego",
+      "tiny house adu san diego",
+      "movable tiny house san diego",
+      "tiny house backyard san diego",
+      "tiny house san jose",
+      "tiny home san jose",
+      "tiny house zoning san jose",
+      "tiny home regulations san jose",
+      "tiny house adu san jose",
+      "movable tiny house san jose",
+      "tiny house backyard san jose",
+      "tiny house san francisco",
+      "tiny home san francisco",
+      "tiny house zoning san francisco",
+      "tiny home regulations san francisco",
+      "tiny house adu san francisco",
+      "movable tiny house san francisco",
+      "tiny house backyard san francisco",
+      "tiny house fresno",
+      "tiny home fresno",
+      "tiny house zoning fresno",
+      "tiny home regulations fresno",
+      "tiny house adu fresno",
+      "movable tiny house fresno",
+      "tiny house backyard fresno",
+      "tiny house sacramento",
+      "tiny home sacramento",
+      "tiny house zoning sacramento",
+      "tiny home regulations sacramento",
+      "tiny house adu sacramento",
+      "movable tiny house sacramento",
+      "tiny house backyard sacramento",
+      "tiny house long beach",
+      "tiny home long beach",
+      "tiny house zoning long beach",
+      "tiny home regulations long beach",
+      "tiny house adu long beach",
+      "movable tiny house long beach",
+      "tiny house backyard long beach",
+      "tiny house oakland",
+      "tiny home oakland",
+      "tiny house zoning oakland",
+      "tiny home regulations oakland",
+      "tiny house adu oakland",
+      "movable tiny house oakland",
+      "tiny house backyard oakland",
+      "tiny house bakersfield",
+      "tiny home bakersfield",
+      "tiny house zoning bakersfield",
+      "tiny home regulations bakersfield",
+      "tiny house adu bakersfield",
+      "movable tiny house bakersfield",
+      "tiny house backyard bakersfield",
+      "tiny house anaheim",
+      "tiny home anaheim",
+      "tiny house zoning anaheim",
+      "tiny home regulations anaheim",
+      "tiny house adu anaheim",
+      "movable tiny house anaheim",
+      "tiny house backyard anaheim"
+    ],
+    "location_name": "United States",
+    "language_name": "English"
+  },
+  "response": {
+    "version": "0.1.20260717",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "1.7530 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "07181828-2024-0367-0000-369f0e734748",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "1.6926 sec.",
+        "cost": 0.09,
+        "result_count": 89,
+        "path": [
+          "v3",
+          "keywords_data",
+          "google_ads",
+          "search_volume",
+          "live"
+        ],
+        "data": {
+          "api": "keywords_data",
+          "function": "search_volume",
+          "se": "google_ads",
+          "keywords": [
+            "tiny house california",
+            "tiny home california",
+            "tiny house laws california",
+            "tiny home laws california",
+            "tiny house regulations california",
+            "tiny home regulations california",
+            "tiny house zoning california",
+            "tiny home zoning california",
+            "where put tiny house california",
+            "tiny house backyard california",
+            "california tiny house adu",
+            "california movable tiny house adu",
+            "movable tiny house california",
+            "tiny house on wheels california",
+            "tiny home communities california",
+            "tiny house communities california",
+            "tiny homes for sale california",
+            "tiny home builders california",
+            "tiny house builders california",
+            "tiny house los angeles",
+            "tiny home los angeles",
+            "tiny house zoning los angeles",
+            "tiny home regulations los angeles",
+            "tiny house adu los angeles",
+            "movable tiny house los angeles",
+            "tiny house backyard los angeles",
+            "tiny house san diego",
+            "tiny home san diego",
+            "tiny house zoning san diego",
+            "tiny home regulations san diego",
+            "tiny house adu san diego",
+            "movable tiny house san diego",
+            "tiny house backyard san diego",
+            "tiny house san jose",
+            "tiny home san jose",
+            "tiny house zoning san jose",
+            "tiny home regulations san jose",
+            "tiny house adu san jose",
+            "movable tiny house san jose",
+            "tiny house backyard san jose",
+            "tiny house san francisco",
+            "tiny home san francisco",
+            "tiny house zoning san francisco",
+            "tiny home regulations san francisco",
+            "tiny house adu san francisco",
+            "movable tiny house san francisco",
+            "tiny house backyard san francisco",
+            "tiny house fresno",
+            "tiny home fresno",
+            "tiny house zoning fresno",
+            "tiny home regulations fresno",
+            "tiny house adu fresno",
+            "movable tiny house fresno",
+            "tiny house backyard fresno",
+            "tiny house sacramento",
+            "tiny home sacramento",
+            "tiny house zoning sacramento",
+            "tiny home regulations sacramento",
+            "tiny house adu sacramento",
+            "movable tiny house sacramento",
+            "tiny house backyard sacramento",
+            "tiny house long beach",
+            "tiny home long beach",
+            "tiny house zoning long beach",
+            "tiny home regulations long beach",
+            "tiny house adu long beach",
+            "movable tiny house long beach",
+            "tiny house backyard long beach",
+            "tiny house oakland",
+            "tiny home oakland",
+            "tiny house zoning oakland",
+            "tiny home regulations oakland",
+            "tiny house adu oakland",
+            "movable tiny house oakland",
+            "tiny house backyard oakland",
+            "tiny house bakersfield",
+            "tiny home bakersfield",
+            "tiny house zoning bakersfield",
+            "tiny home regulations bakersfield",
+            "tiny house adu bakersfield",
+            "movable tiny house bakersfield",
+            "tiny house backyard bakersfield",
+            "tiny house anaheim",
+            "tiny home anaheim",
+            "tiny house zoning anaheim",
+            "tiny home regulations anaheim",
+            "tiny house adu anaheim",
+            "movable tiny house anaheim",
+            "tiny house backyard anaheim"
+          ],
+          "location_name": "United States",
+          "language_name": "English"
+        },
+        "result": [
+          {
+            "keyword": "tiny house california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 58,
+            "search_volume": 170,
+            "low_top_of_page_bid": 0.64,
+            "high_top_of_page_bid": 3.1,
+            "cpc": 2.08,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 260
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 51,
+            "search_volume": 1600,
+            "low_top_of_page_bid": 0.63,
+            "high_top_of_page_bid": 2.87,
+            "cpc": 2.74,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1900
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house laws california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 1,
+            "search_volume": 40,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home laws california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house regulations california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 30
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home regulations california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 30
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home zoning california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "where put tiny house california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "california tiny house adu",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "california movable tiny house adu",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house on wheels california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 34,
+            "search_volume": 30,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 1.12,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 30
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home communities california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 17,
+            "search_volume": 1300,
+            "low_top_of_page_bid": 0.41,
+            "high_top_of_page_bid": 2.58,
+            "cpc": 2.24,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1600
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house communities california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 17,
+            "search_volume": 1300,
+            "low_top_of_page_bid": 0.41,
+            "high_top_of_page_bid": 2.58,
+            "cpc": 2.24,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1600
+              }
+            ]
+          },
+          {
+            "keyword": "tiny homes for sale california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 64,
+            "search_volume": 1600,
+            "low_top_of_page_bid": 0.49,
+            "high_top_of_page_bid": 2.48,
+            "cpc": 1.52,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1900
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home builders california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 720,
+            "low_top_of_page_bid": 0.66,
+            "high_top_of_page_bid": 3.4,
+            "cpc": 4.3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 480
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house builders california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 720,
+            "low_top_of_page_bid": 0.66,
+            "high_top_of_page_bid": 3.4,
+            "cpc": 4.3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 480
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 38,
+            "search_volume": 720,
+            "low_top_of_page_bid": 0.71,
+            "high_top_of_page_bid": 4.18,
+            "cpc": 2.68,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 720
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 38,
+            "search_volume": 720,
+            "low_top_of_page_bid": 0.71,
+            "high_top_of_page_bid": 4.18,
+            "cpc": 2.68,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 720
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "movable tiny house los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 47,
+            "search_volume": 880,
+            "low_top_of_page_bid": 0.55,
+            "high_top_of_page_bid": 3.25,
+            "cpc": 2.66,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 47,
+            "search_volume": 880,
+            "low_top_of_page_bid": 0.55,
+            "high_top_of_page_bid": 3.25,
+            "cpc": 2.66,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house san jose",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 21,
+            "search_volume": 260,
+            "low_top_of_page_bid": 0.73,
+            "high_top_of_page_bid": 5.11,
+            "cpc": 2.32,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 320
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 210
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home san jose",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 21,
+            "search_volume": 260,
+            "low_top_of_page_bid": 0.73,
+            "high_top_of_page_bid": 5.11,
+            "cpc": 2.32,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 320
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 210
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning san jose",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations san jose",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu san jose",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house san jose",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard san jose",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house san francisco",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 10,
+            "search_volume": 170,
+            "low_top_of_page_bid": 1.12,
+            "high_top_of_page_bid": 7.69,
+            "cpc": 1.15,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 210
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home san francisco",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 10,
+            "search_volume": 170,
+            "low_top_of_page_bid": 1.12,
+            "high_top_of_page_bid": 7.69,
+            "cpc": 1.15,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 210
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning san francisco",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations san francisco",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu san francisco",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house san francisco",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard san francisco",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house fresno",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 60,
+            "search_volume": 260,
+            "low_top_of_page_bid": 0.48,
+            "high_top_of_page_bid": 2.34,
+            "cpc": 1.33,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 320
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 260
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home fresno",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 60,
+            "search_volume": 260,
+            "low_top_of_page_bid": 0.48,
+            "high_top_of_page_bid": 2.34,
+            "cpc": 1.33,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 320
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 260
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning fresno",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations fresno",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu fresno",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house fresno",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard fresno",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house sacramento",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 480,
+            "low_top_of_page_bid": 0.65,
+            "high_top_of_page_bid": 3.12,
+            "cpc": 1.37,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 590
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home sacramento",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 480,
+            "low_top_of_page_bid": 0.65,
+            "high_top_of_page_bid": 3.12,
+            "cpc": 1.37,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 590
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning sacramento",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations sacramento",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu sacramento",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house sacramento",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard sacramento",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house long beach",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home long beach",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house zoning long beach",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations long beach",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu long beach",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house long beach",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard long beach",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house oakland",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 35,
+            "search_volume": 70,
+            "low_top_of_page_bid": 1.37,
+            "high_top_of_page_bid": 8.69,
+            "cpc": 3.27,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 70
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home oakland",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 35,
+            "search_volume": 70,
+            "low_top_of_page_bid": 1.37,
+            "high_top_of_page_bid": 8.69,
+            "cpc": 3.27,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 70
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning oakland",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations oakland",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu oakland",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house oakland",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard oakland",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house bakersfield",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 57,
+            "search_volume": 170,
+            "low_top_of_page_bid": 0.54,
+            "high_top_of_page_bid": 2.62,
+            "cpc": 0.77,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 210
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home bakersfield",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house zoning bakersfield",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations bakersfield",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu bakersfield",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house bakersfield",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard bakersfield",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house anaheim",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home anaheim",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house zoning anaheim",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny home regulations anaheim",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house adu anaheim",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "movable tiny house anaheim",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house backyard anaheim",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          }
+        ]
+      }
+    ]
+  }
+}

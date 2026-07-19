@@ -1,0 +1,1586 @@
+{
+  "description": "California geo-targeted volume for generic tiny-home placement/commercial queries",
+  "request": {
+    "keywords": [
+      "where can i put a tiny house",
+      "can i put a tiny house on my land",
+      "can i put a tiny house in my backyard",
+      "tiny house zoning",
+      "tiny home zoning",
+      "tiny house regulations",
+      "tiny home regulations",
+      "tiny house laws",
+      "tiny home laws",
+      "tiny house adu",
+      "movable tiny house",
+      "tiny house on wheels",
+      "tiny home cost calculator",
+      "tiny house cost calculator",
+      "tiny home communities",
+      "tiny house communities",
+      "tiny home builders",
+      "tiny house builders",
+      "tiny homes for sale",
+      "tiny houses for sale"
+    ],
+    "location_name": "California,United States",
+    "language_name": "English"
+  },
+  "response": {
+    "version": "0.1.20260717",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "7.6750 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "07181827-2024-0367-0000-cf5a7d0fb307",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "7.5274 sec.",
+        "cost": 0.09,
+        "result_count": 20,
+        "path": [
+          "v3",
+          "keywords_data",
+          "google_ads",
+          "search_volume",
+          "live"
+        ],
+        "data": {
+          "api": "keywords_data",
+          "function": "search_volume",
+          "se": "google_ads",
+          "keywords": [
+            "where can i put a tiny house",
+            "can i put a tiny house on my land",
+            "can i put a tiny house in my backyard",
+            "tiny house zoning",
+            "tiny home zoning",
+            "tiny house regulations",
+            "tiny home regulations",
+            "tiny house laws",
+            "tiny home laws",
+            "tiny house adu",
+            "movable tiny house",
+            "tiny house on wheels",
+            "tiny home cost calculator",
+            "tiny house cost calculator",
+            "tiny home communities",
+            "tiny house communities",
+            "tiny home builders",
+            "tiny house builders",
+            "tiny homes for sale",
+            "tiny houses for sale"
+          ],
+          "location_name": "California,United States",
+          "language_name": "English"
+        },
+        "result": [
+          {
+            "keyword": "where can i put a tiny house",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 13,
+            "search_volume": 90,
+            "low_top_of_page_bid": 0.87,
+            "high_top_of_page_bid": 3.5,
+            "cpc": 3.24,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 110
+              }
+            ]
+          },
+          {
+            "keyword": "can i put a tiny house on my land",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "can i put a tiny house in my backyard",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 10,
+            "search_volume": 40,
+            "low_top_of_page_bid": 2.35,
+            "high_top_of_page_bid": 5.47,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 70
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house zoning",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 70,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 110
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home zoning",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 70,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 110
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house regulations",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home regulations",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house laws",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 33,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 2.3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home laws",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 33,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 2.3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house adu",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 90,
+            "low_top_of_page_bid": 0.76,
+            "high_top_of_page_bid": 4.35,
+            "cpc": 3.71,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 170
+              }
+            ]
+          },
+          {
+            "keyword": "movable tiny house",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 390,
+            "low_top_of_page_bid": 0.39,
+            "high_top_of_page_bid": 2.37,
+            "cpc": 0.69,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 320
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 320
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 260
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house on wheels",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 95,
+            "search_volume": 880,
+            "low_top_of_page_bid": 0.32,
+            "high_top_of_page_bid": 1.92,
+            "cpc": 0.57,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 880
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home cost calculator",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 7,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house cost calculator",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 7,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home communities",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 19,
+            "search_volume": 1000,
+            "low_top_of_page_bid": 0.25,
+            "high_top_of_page_bid": 1.96,
+            "cpc": 0.91,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house communities",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 19,
+            "search_volume": 1000,
+            "low_top_of_page_bid": 0.25,
+            "high_top_of_page_bid": 1.96,
+            "cpc": 0.91,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home builders",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 63,
+            "search_volume": 3600,
+            "low_top_of_page_bid": 0.68,
+            "high_top_of_page_bid": 3.69,
+            "cpc": 3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1900
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 6600
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 8100
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house builders",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 63,
+            "search_volume": 3600,
+            "low_top_of_page_bid": 0.68,
+            "high_top_of_page_bid": 3.69,
+            "cpc": 3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1900
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 6600
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 8100
+              }
+            ]
+          },
+          {
+            "keyword": "tiny homes for sale",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 12100,
+            "low_top_of_page_bid": 0.4,
+            "high_top_of_page_bid": 1.88,
+            "cpc": 0.74,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 8100
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 12100
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 12100
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 12100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 14800
+              }
+            ]
+          },
+          {
+            "keyword": "tiny houses for sale",
+            "spell": null,
+            "location_code": 21137,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 2900,
+            "low_top_of_page_bid": 0.36,
+            "high_top_of_page_bid": 1.93,
+            "cpc": 0.64,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1900
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 2400
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 2900
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 2900
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 2900
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 3600
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

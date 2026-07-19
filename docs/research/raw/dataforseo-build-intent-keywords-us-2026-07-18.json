@@ -1,0 +1,3393 @@
+{
+  "description": "US volume for tiny-home build-intent keywords: DIY, plans, kits, builders, contractors, permits, California, Los Angeles, and San Diego.",
+  "request": {
+    "keywords": [
+      "how to build a tiny house",
+      "how to build a tiny home",
+      "build a tiny house",
+      "build a tiny home",
+      "build tiny house on wheels",
+      "how to build a tiny house on wheels",
+      "tiny house plans",
+      "tiny home plans",
+      "tiny house floor plans",
+      "tiny home floor plans",
+      "tiny house kits",
+      "tiny home kits",
+      "tiny house shell",
+      "tiny house trailer",
+      "tiny house builders",
+      "tiny home builders",
+      "tiny house builders near me",
+      "tiny home builders near me",
+      "tiny house builder near me",
+      "tiny home builder near me",
+      "tiny house contractors",
+      "tiny home contractors",
+      "tiny house construction",
+      "tiny home construction",
+      "tiny house building codes",
+      "tiny house permits",
+      "do i need a permit to build a tiny house",
+      "tiny house builders california",
+      "tiny home builders california",
+      "tiny house contractors california",
+      "build tiny house california",
+      "tiny house permit california",
+      "tiny house builders los angeles",
+      "tiny home builders los angeles",
+      "tiny house contractors los angeles",
+      "adu builders los angeles",
+      "backyard home builders los angeles",
+      "build tiny house los angeles",
+      "tiny house permit los angeles",
+      "tiny house builders san diego",
+      "tiny home builders san diego",
+      "tiny house contractors san diego",
+      "adu builders san diego",
+      "backyard home builders san diego",
+      "build tiny house san diego",
+      "tiny house permit san diego"
+    ],
+    "location_name": "United States",
+    "language_name": "English"
+  },
+  "keyword_rows": [
+    {
+      "keyword": "how to build a tiny house",
+      "scope": "general",
+      "bucket": "diy"
+    },
+    {
+      "keyword": "how to build a tiny home",
+      "scope": "general",
+      "bucket": "diy"
+    },
+    {
+      "keyword": "build a tiny house",
+      "scope": "general",
+      "bucket": "diy"
+    },
+    {
+      "keyword": "build a tiny home",
+      "scope": "general",
+      "bucket": "diy"
+    },
+    {
+      "keyword": "build tiny house on wheels",
+      "scope": "general",
+      "bucket": "diy-thow"
+    },
+    {
+      "keyword": "how to build a tiny house on wheels",
+      "scope": "general",
+      "bucket": "diy-thow"
+    },
+    {
+      "keyword": "tiny house plans",
+      "scope": "general",
+      "bucket": "plans"
+    },
+    {
+      "keyword": "tiny home plans",
+      "scope": "general",
+      "bucket": "plans"
+    },
+    {
+      "keyword": "tiny house floor plans",
+      "scope": "general",
+      "bucket": "plans"
+    },
+    {
+      "keyword": "tiny home floor plans",
+      "scope": "general",
+      "bucket": "plans"
+    },
+    {
+      "keyword": "tiny house kits",
+      "scope": "general",
+      "bucket": "kits"
+    },
+    {
+      "keyword": "tiny home kits",
+      "scope": "general",
+      "bucket": "kits"
+    },
+    {
+      "keyword": "tiny house shell",
+      "scope": "general",
+      "bucket": "shell-trailer"
+    },
+    {
+      "keyword": "tiny house trailer",
+      "scope": "general",
+      "bucket": "shell-trailer"
+    },
+    {
+      "keyword": "tiny house builders",
+      "scope": "general",
+      "bucket": "builders"
+    },
+    {
+      "keyword": "tiny home builders",
+      "scope": "general",
+      "bucket": "builders"
+    },
+    {
+      "keyword": "tiny house builders near me",
+      "scope": "general-localized",
+      "bucket": "builders-near-me"
+    },
+    {
+      "keyword": "tiny home builders near me",
+      "scope": "general-localized",
+      "bucket": "builders-near-me"
+    },
+    {
+      "keyword": "tiny house builder near me",
+      "scope": "general-localized",
+      "bucket": "builders-near-me"
+    },
+    {
+      "keyword": "tiny home builder near me",
+      "scope": "general-localized",
+      "bucket": "builders-near-me"
+    },
+    {
+      "keyword": "tiny house contractors",
+      "scope": "general",
+      "bucket": "contractors"
+    },
+    {
+      "keyword": "tiny home contractors",
+      "scope": "general",
+      "bucket": "contractors"
+    },
+    {
+      "keyword": "tiny house construction",
+      "scope": "general",
+      "bucket": "construction"
+    },
+    {
+      "keyword": "tiny home construction",
+      "scope": "general",
+      "bucket": "construction"
+    },
+    {
+      "keyword": "tiny house building codes",
+      "scope": "general",
+      "bucket": "permits-codes"
+    },
+    {
+      "keyword": "tiny house permits",
+      "scope": "general",
+      "bucket": "permits-codes"
+    },
+    {
+      "keyword": "do i need a permit to build a tiny house",
+      "scope": "general",
+      "bucket": "permits-codes"
+    },
+    {
+      "keyword": "tiny house builders california",
+      "scope": "california-modified",
+      "bucket": "builders"
+    },
+    {
+      "keyword": "tiny home builders california",
+      "scope": "california-modified",
+      "bucket": "builders"
+    },
+    {
+      "keyword": "tiny house contractors california",
+      "scope": "california-modified",
+      "bucket": "contractors"
+    },
+    {
+      "keyword": "build tiny house california",
+      "scope": "california-modified",
+      "bucket": "diy"
+    },
+    {
+      "keyword": "tiny house permit california",
+      "scope": "california-modified",
+      "bucket": "permits-codes"
+    },
+    {
+      "keyword": "tiny house builders los angeles",
+      "scope": "local-modified",
+      "bucket": "builders-la"
+    },
+    {
+      "keyword": "tiny home builders los angeles",
+      "scope": "local-modified",
+      "bucket": "builders-la"
+    },
+    {
+      "keyword": "tiny house contractors los angeles",
+      "scope": "local-modified",
+      "bucket": "contractors-la"
+    },
+    {
+      "keyword": "adu builders los angeles",
+      "scope": "local-modified",
+      "bucket": "adu-builders-la"
+    },
+    {
+      "keyword": "backyard home builders los angeles",
+      "scope": "local-modified",
+      "bucket": "adu-builders-la"
+    },
+    {
+      "keyword": "build tiny house los angeles",
+      "scope": "local-modified",
+      "bucket": "diy-la"
+    },
+    {
+      "keyword": "tiny house permit los angeles",
+      "scope": "local-modified",
+      "bucket": "permits-codes-la"
+    },
+    {
+      "keyword": "tiny house builders san diego",
+      "scope": "local-modified",
+      "bucket": "builders-sd"
+    },
+    {
+      "keyword": "tiny home builders san diego",
+      "scope": "local-modified",
+      "bucket": "builders-sd"
+    },
+    {
+      "keyword": "tiny house contractors san diego",
+      "scope": "local-modified",
+      "bucket": "contractors-sd"
+    },
+    {
+      "keyword": "adu builders san diego",
+      "scope": "local-modified",
+      "bucket": "adu-builders-sd"
+    },
+    {
+      "keyword": "backyard home builders san diego",
+      "scope": "local-modified",
+      "bucket": "adu-builders-sd"
+    },
+    {
+      "keyword": "build tiny house san diego",
+      "scope": "local-modified",
+      "bucket": "diy-sd"
+    },
+    {
+      "keyword": "tiny house permit san diego",
+      "scope": "local-modified",
+      "bucket": "permits-codes-sd"
+    }
+  ],
+  "response": {
+    "version": "0.1.20260717",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.4202 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "07182313-2024-0367-0000-87ba7fb817a5",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.3463 sec.",
+        "cost": 0.09,
+        "result_count": 46,
+        "path": [
+          "v3",
+          "keywords_data",
+          "google_ads",
+          "search_volume",
+          "live"
+        ],
+        "data": {
+          "api": "keywords_data",
+          "function": "search_volume",
+          "se": "google_ads",
+          "location_name": "United States",
+          "language_name": "English",
+          "keywords": [
+            "how to build a tiny house",
+            "how to build a tiny home",
+            "build a tiny house",
+            "build a tiny home",
+            "build tiny house on wheels",
+            "how to build a tiny house on wheels",
+            "tiny house plans",
+            "tiny home plans",
+            "tiny house floor plans",
+            "tiny home floor plans",
+            "tiny house kits",
+            "tiny home kits",
+            "tiny house shell",
+            "tiny house trailer",
+            "tiny house builders",
+            "tiny home builders",
+            "tiny house builders near me",
+            "tiny home builders near me",
+            "tiny house builder near me",
+            "tiny home builder near me",
+            "tiny house contractors",
+            "tiny home contractors",
+            "tiny house construction",
+            "tiny home construction",
+            "tiny house building codes",
+            "tiny house permits",
+            "do i need a permit to build a tiny house",
+            "tiny house builders california",
+            "tiny home builders california",
+            "tiny house contractors california",
+            "build tiny house california",
+            "tiny house permit california",
+            "tiny house builders los angeles",
+            "tiny home builders los angeles",
+            "tiny house contractors los angeles",
+            "adu builders los angeles",
+            "backyard home builders los angeles",
+            "build tiny house los angeles",
+            "tiny house permit los angeles",
+            "tiny house builders san diego",
+            "tiny home builders san diego",
+            "tiny house contractors san diego",
+            "adu builders san diego",
+            "backyard home builders san diego",
+            "build tiny house san diego",
+            "tiny house permit san diego"
+          ]
+        },
+        "result": [
+          {
+            "keyword": "how to build a tiny house",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 92,
+            "search_volume": 1900,
+            "low_top_of_page_bid": 0.22,
+            "high_top_of_page_bid": 1.96,
+            "cpc": 0.79,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1900
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 2400
+              }
+            ]
+          },
+          {
+            "keyword": "how to build a tiny home",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 92,
+            "search_volume": 1900,
+            "low_top_of_page_bid": 0.22,
+            "high_top_of_page_bid": 1.96,
+            "cpc": 0.79,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1900
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 2400
+              }
+            ]
+          },
+          {
+            "keyword": "build a tiny house",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 68,
+            "search_volume": 40500,
+            "low_top_of_page_bid": 0.33,
+            "high_top_of_page_bid": 2.51,
+            "cpc": 1.44,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 60500
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 27100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 60500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90500
+              }
+            ]
+          },
+          {
+            "keyword": "build a tiny home",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 68,
+            "search_volume": 40500,
+            "low_top_of_page_bid": 0.33,
+            "high_top_of_page_bid": 2.51,
+            "cpc": 1.44,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 60500
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 27100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 60500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90500
+              }
+            ]
+          },
+          {
+            "keyword": "build tiny house on wheels",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 20,
+            "search_volume": 390,
+            "low_top_of_page_bid": 0.39,
+            "high_top_of_page_bid": 1.91,
+            "cpc": 0.9,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 480
+              }
+            ]
+          },
+          {
+            "keyword": "how to build a tiny house on wheels",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 49,
+            "search_volume": 90,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 0.25,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 170
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house plans",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 27100,
+            "low_top_of_page_bid": 0.05,
+            "high_top_of_page_bid": 0.4,
+            "cpc": 0.22,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40500
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home plans",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 27100,
+            "low_top_of_page_bid": 0.05,
+            "high_top_of_page_bid": 0.4,
+            "cpc": 0.22,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40500
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house floor plans",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 5400,
+            "low_top_of_page_bid": 0.05,
+            "high_top_of_page_bid": 0.54,
+            "cpc": 0.19,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 5400
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 5400
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 5400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 5400
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 6600
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 6600
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 6600
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 6600
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home floor plans",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 27100,
+            "low_top_of_page_bid": 0.05,
+            "high_top_of_page_bid": 0.4,
+            "cpc": 0.22,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40500
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house kits",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 12100,
+            "low_top_of_page_bid": 0.22,
+            "high_top_of_page_bid": 0.71,
+            "cpc": 0.4,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 8100
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 18100
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home kits",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 12100,
+            "low_top_of_page_bid": 0.24,
+            "high_top_of_page_bid": 0.89,
+            "cpc": 0.42,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 8100
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 12100
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 12100
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 12100
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house shell",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 86,
+            "search_volume": 3600,
+            "low_top_of_page_bid": 0.37,
+            "high_top_of_page_bid": 1.43,
+            "cpc": 0.59,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 2400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1900
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house trailer",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 83,
+            "search_volume": 9900,
+            "low_top_of_page_bid": 0.37,
+            "high_top_of_page_bid": 1.68,
+            "cpc": 0.6,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 8100
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 8100
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 8100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 8100
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 8100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 8100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 14800
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house builders",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 68,
+            "search_volume": 40500,
+            "low_top_of_page_bid": 0.33,
+            "high_top_of_page_bid": 2.51,
+            "cpc": 1.44,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 60500
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 27100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 60500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90500
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home builders",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 68,
+            "search_volume": 40500,
+            "low_top_of_page_bid": 0.33,
+            "high_top_of_page_bid": 2.51,
+            "cpc": 1.44,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 60500
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 27100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 60500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90500
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house builders near me",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 85,
+            "search_volume": 4400,
+            "low_top_of_page_bid": 0.45,
+            "high_top_of_page_bid": 2.92,
+            "cpc": 2.09,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 5400
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home builders near me",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 85,
+            "search_volume": 4400,
+            "low_top_of_page_bid": 0.45,
+            "high_top_of_page_bid": 2.92,
+            "cpc": 2.09,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 5400
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house builder near me",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 85,
+            "search_volume": 4400,
+            "low_top_of_page_bid": 0.45,
+            "high_top_of_page_bid": 2.92,
+            "cpc": 2.09,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 5400
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home builder near me",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 85,
+            "search_volume": 4400,
+            "low_top_of_page_bid": 0.45,
+            "high_top_of_page_bid": 2.92,
+            "cpc": 2.09,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 5400
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house contractors",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 68,
+            "search_volume": 40500,
+            "low_top_of_page_bid": 0.33,
+            "high_top_of_page_bid": 2.51,
+            "cpc": 1.44,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 60500
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 27100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 60500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90500
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home contractors",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 68,
+            "search_volume": 40500,
+            "low_top_of_page_bid": 0.33,
+            "high_top_of_page_bid": 2.51,
+            "cpc": 1.44,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 22200
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 60500
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 27100
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40500
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 33100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 49500
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 60500
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90500
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house construction",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 57,
+            "search_volume": 4400,
+            "low_top_of_page_bid": 0.31,
+            "high_top_of_page_bid": 2.94,
+            "cpc": 1.45,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 8100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 8100
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home construction",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 57,
+            "search_volume": 4400,
+            "low_top_of_page_bid": 0.31,
+            "high_top_of_page_bid": 2.94,
+            "cpc": 1.45,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 8100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 8100
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house building codes",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 1600,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 2.53,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 2900
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house permits",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 1,
+            "search_volume": 390,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 320
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 390
+              }
+            ]
+          },
+          {
+            "keyword": "do i need a permit to build a tiny house",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house builders california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 720,
+            "low_top_of_page_bid": 0.66,
+            "high_top_of_page_bid": 3.4,
+            "cpc": 4.3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 480
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home builders california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 720,
+            "low_top_of_page_bid": 0.66,
+            "high_top_of_page_bid": 3.4,
+            "cpc": 4.3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 480
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house contractors california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 14,
+            "search_volume": 30,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 50
+              }
+            ]
+          },
+          {
+            "keyword": "build tiny house california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 720,
+            "low_top_of_page_bid": 0.66,
+            "high_top_of_page_bid": 3.4,
+            "cpc": 4.3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 480
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house permit california",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 2,
+            "search_volume": 20,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house builders los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 56,
+            "search_volume": 50,
+            "low_top_of_page_bid": 1.59,
+            "high_top_of_page_bid": 10,
+            "cpc": 4.81,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home builders los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 56,
+            "search_volume": 50,
+            "low_top_of_page_bid": 1.59,
+            "high_top_of_page_bid": 10,
+            "cpc": 4.81,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house contractors los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "adu builders los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 64,
+            "search_volume": 480,
+            "low_top_of_page_bid": 10.41,
+            "high_top_of_page_bid": 57.55,
+            "cpc": 39,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 320
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 590
+              }
+            ]
+          },
+          {
+            "keyword": "backyard home builders los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "build tiny house los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house permit los angeles",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "tiny house builders san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 78,
+            "search_volume": 90,
+            "low_top_of_page_bid": 0.92,
+            "high_top_of_page_bid": 4.3,
+            "cpc": 3.93,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "tiny home builders san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 78,
+            "search_volume": 90,
+            "low_top_of_page_bid": 0.92,
+            "high_top_of_page_bid": 4.3,
+            "cpc": 3.93,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house contractors san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "adu builders san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 39,
+            "search_volume": 480,
+            "low_top_of_page_bid": 12.78,
+            "high_top_of_page_bid": 42.34,
+            "cpc": 27.15,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 480
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 390
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 590
+              }
+            ]
+          },
+          {
+            "keyword": "backyard home builders san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "build tiny house san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 78,
+            "search_volume": 90,
+            "low_top_of_page_bid": 0.92,
+            "high_top_of_page_bid": 4.3,
+            "cpc": 3.93,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "tiny house permit san diego",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          }
+        ]
+      }
+    ]
+  }
+}

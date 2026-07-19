@@ -4,12 +4,33 @@ Last updated: 2026-07-18
 
 ## Active Priority
 
-Observe the newly released under-$20K guide through validated daily GSC snapshots and choose the next improvement only when search or buyer-protection evidence changes.
+Improve the existing source-backed page format so narrow pages give bounded,
+actionable guidance rather than mostly disclaimers, while continuing to observe
+the newly released under-$20K guide through validated daily GSC snapshots.
 
 The 2026-07-18 authenticated Page indexing review found no technical indexing
 defect: the three excluded URLs are HTTP/www aliases that correctly redirect to
 the HTTPS apex. See `ops/gsc-indexing-review-2026-07-18.md`; do not request
 indexing or validate a fix for these aliases.
+
+California query-demand research completed on 2026-07-18:
+`docs/research/california-tiny-home-query-demand-2026-07-18.md`. It found broad
+California/city tiny-home demand, but low and fragmented exact placement/zoning
+demand. Do not mass-build city pages from volume alone; improve the existing
+source-page format first.
+
+San Diego SERP intent research completed on 2026-07-18:
+`docs/research/serp-tiny-house-san-diego-intent-2026-07-18.md`. It found
+`tiny house san diego` is mixed local/commercial intent, not a pure zoning
+query. Improve the San Diego page as an answer-first local guide, not just a
+cautious source memo or generic intent menu.
+
+LA/San Diego addressable-volume research and repair brief completed on
+2026-07-18:
+`docs/research/la-san-diego-addressable-query-volume-2026-07-18.md` and
+`briefs/la-san-diego-page-repair-2026-07-18.md`. The next implementation work
+should repair the existing LA and San Diego pages before creating new city
+pages.
 
 ## Recently Completed
 
@@ -119,13 +140,14 @@ indexing or validate a fix for these aliases.
 
 ## Ready For SEO Research & Review Agent
 
-- Monitor GSC discovery/indexing for the homepage, support URLs, and cost calculator.
-- After a separately authorized push and verified deployment, monitor whether GSC discovers and indexes `https://tinyhomeclarity.com/tiny-house-under-20k/`.
+- Compare the next validated GSC snapshot with the 2026-07-18 baseline.
+- Monitor whether GSC discovers and indexes `https://tinyhomeclarity.com/tiny-house-under-20k/`.
 - Monitor whether users need official source links visible outside expandable details.
+- Do not treat HTTP or `www` alias exclusions as defects; `ops/gsc-indexing-review-2026-07-18.md` records them as expected redirects.
 
 ## Ready For Implementation Agent
 
-- No `$20K` implementation rerun is required before its reviewed release. Verify the pushed SHA, Pages deployment, live URL, sitemap inclusion, calculator behavior, and buyer-protective caveats.
+- Improve the existing Los Angeles, San Diego, and Georgia source pages before creating more local pages. Add an answer-first structure that separates source-backed facts, likely-fit conditions, stop conditions, next office/question, and remaining parcel-specific unknowns.
 - Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
 - Use static JSON for local records only when manually researched official-source records are available.
 - Add email capture only after the user chooses an email provider.
@@ -138,6 +160,7 @@ indexing or validate a fix for these aliases.
 
 ## Recommended Next Agent
 
-Control Room operator to release the existing independently reviewed commit,
-verify production, then review each new validated GSC snapshot against the
-roadmap. Do not manufacture another page when search evidence is unchanged.
+Control Room operator to use the fast no-op path while release, DNS, deployment,
+and production-invariant evidence remains fresh and unchanged. Review each new
+validated GSC snapshot against the 2026-07-18 baseline and the roadmap. Do not
+manufacture another page when search evidence is unchanged.
