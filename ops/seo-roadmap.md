@@ -9,9 +9,13 @@ provider, and release decisions.
 1. `THC-REL-001` — completed the review-clean local capture in `a90434e`.
 2. `THC-DEP-001` — completed the verified guide release and unattended GSC
    setup on 2026-07-17.
-3. Improve the existing source-backed page format before scaling local pages.
-4. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
-5. Select the next buyer-protection tool only from observed evidence and the
+3. `THC-QUAL-001` — completed the LA/San Diego answer-first repair in
+   `378bd659b042e96f97c6c0f5e8ae55436df6d84a`; Pages run `29682037581`
+   succeeded and production checks passed.
+4. `THC-BUILD-001` — next eligible action: scope the national tiny-home build
+   decision / builder due-diligence asset as a brief only.
+5. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
+6. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
 
 The two-hour Control Room scan does not authorize two-hour content production.
@@ -66,15 +70,39 @@ period, and a no-op is valid.
   creating more local pages or starting backlink outreach. Start with Los
   Angeles and San Diego using
   `briefs/la-san-diego-page-repair-2026-07-18.md`.
+- Release: completed in commit
+  `378bd659b042e96f97c6c0f5e8ae55436df6d84a` on 2026-07-19.
+- Review: independent read-only review returned `PASS_WITH_P3` with no P0-P2
+  findings; the P3 documentation and wording cleanups were applied before the
+  release commit.
+- QA: `git diff --check`, staged `git diff --cached --check`, required site /
+  deployment file checks, LA/SD HTML parse checks, sitemap XML parse, local link
+  check, research artifact size check, and a secret-pattern scan passed.
+  `node tools/seo-qa.mjs` could not run because `tools/seo-qa.mjs` is not
+  present in this checkout.
+- Production: GitHub Pages run `29682037581` completed successfully. The live
+  Los Angeles page, San Diego page, and sitemap returned `HTTP 200`; the live
+  LA/SD pages showed the new human-first opening copy.
+- Result: complete and released. Do not keep `THC-QUAL-001` open in the central
+  ledger.
 
 ## THC-BUILD-001 candidate
 
 - Build-intent research found meaningful general US tiny-home build demand, but
   tiny-home build intent and ADU contractor intent are separate markets with
   some local overlap.
-- Next candidate after the Los Angeles / San Diego repair: scope a national
-  tiny-home build decision / builder due-diligence asset, not a builder
-  directory and not ADU-builder city pages.
+- Next eligible action after the Los Angeles / San Diego repair: scope a
+  national tiny-home build decision / builder due-diligence asset, not a
+  builder directory and not ADU-builder city pages.
 - Working concept: `Should You Build, Buy a Kit, Buy a Shell, or Hire a
   Tiny-Home Builder?`
 - Evidence: `docs/research/tiny-home-build-intent-query-demand-2026-07-18.md`.
+
+## THC-MON-001 observation note
+
+- The 2026-07-19 GSC snapshot is newer than the 2026-07-18 baseline but changed
+  only from 21 to 22 impressions, with 0 clicks, no sitemap change, no unknown
+  inspections, and no indexing-state change.
+- Treat that as observation evidence, not a standalone project action. A
+  measurement action becomes eligible only when a changed snapshot identifies a
+  discovery, indexing, or performance signal worth evaluating.

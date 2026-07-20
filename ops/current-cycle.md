@@ -1,12 +1,17 @@
 # Current Cycle
 
-Last updated: 2026-07-18
+Last updated: 2026-07-20
 
 ## Active Priority
 
-Improve the existing source-backed page format so narrow pages give bounded,
-actionable guidance rather than mostly disclaimers, while continuing to observe
-the newly released under-$20K guide through validated daily GSC snapshots.
+`THC-QUAL-001` is complete and released. The next eligible project action is
+`THC-BUILD-001`: scope a national tiny-home build decision / builder
+due-diligence asset as a reviewed brief only. Do not start implementation,
+create a builder directory, or target ADU-builder city pages from this item.
+
+Continue to observe validated daily GSC snapshots, but do not turn routine
+snapshot drift into a project action unless it identifies a discovery, indexing,
+or performance signal worth evaluating.
 
 The 2026-07-18 authenticated Page indexing review found no technical indexing
 defect: the three excluded URLs are HTTP/www aliases that correctly redirect to
@@ -28,9 +33,14 @@ cautious source memo or generic intent menu.
 LA/San Diego addressable-volume research and repair brief completed on
 2026-07-18:
 `docs/research/la-san-diego-addressable-query-volume-2026-07-18.md` and
-`briefs/la-san-diego-page-repair-2026-07-18.md`. The next implementation work
-should repair the existing LA and San Diego pages before creating new city
-pages.
+`briefs/la-san-diego-page-repair-2026-07-18.md`. The repair shipped in
+`378bd659b042e96f97c6c0f5e8ae55436df6d84a`; do not create new city pages from
+that research alone.
+
+The 2026-07-19 GSC snapshot is newer than the 2026-07-18 baseline but changed
+only from 21 to 22 impressions, with 0 clicks, no sitemap change, no unknown
+inspection rows, and no indexing-state change. Treat it as observation evidence,
+not a standalone action trigger.
 
 ## Recently Completed
 
@@ -41,6 +51,12 @@ pages.
 - Released commit `a90434e` on 2026-07-17. GitHub Pages run `29627141191`
   succeeded for the exact SHA; the live under-$20K guide and sitemap byte-match
   the committed files and retain the reviewed buyer-protective invariants.
+- Released `THC-QUAL-001` in commit
+  `378bd659b042e96f97c6c0f5e8ae55436df6d84a` on 2026-07-19. GitHub Pages run
+  `29682037581` succeeded; the live Los Angeles page, San Diego page, and
+  sitemap returned `HTTP 200`, and the LA/SD pages showed the new human-first
+  opening copy. Independent read-only review returned `PASS_WITH_P3` with no
+  P0-P2 findings; P3 documentation/wording cleanups were applied before commit.
 - Bootstrap repo scaffold created.
 - GitHub Pages workflow prepared.
 - GitHub repo created and pushed: `agarg21/tiny-home-buyer-protection`.
@@ -140,14 +156,20 @@ pages.
 
 ## Ready For SEO Research & Review Agent
 
-- Compare the next validated GSC snapshot with the 2026-07-18 baseline.
+- Scope `THC-BUILD-001` as a brief for a national tiny-home build decision /
+  builder due-diligence asset. Keep it separate from ADU-contractor city demand,
+  builder directories, and implementation work.
+- Compare future validated GSC snapshots with the 2026-07-18 baseline only when
+  changed evidence identifies a discovery, indexing, or performance signal worth
+  evaluating.
 - Monitor whether GSC discovers and indexes `https://tinyhomeclarity.com/tiny-house-under-20k/`.
 - Monitor whether users need official source links visible outside expandable details.
 - Do not treat HTTP or `www` alias exclusions as defects; `ops/gsc-indexing-review-2026-07-18.md` records them as expected redirects.
 
 ## Ready For Implementation Agent
 
-- Improve the existing Los Angeles, San Diego, and Georgia source pages before creating more local pages. Add an answer-first structure that separates source-backed facts, likely-fit conditions, stop conditions, next office/question, and remaining parcel-specific unknowns.
+- No implementation action is currently selected. Wait for a reviewed brief or a
+  material changed-evidence dispatch before changing site files.
 - Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
 - Use static JSON for local records only when manually researched official-source records are available.
 - Add email capture only after the user chooses an email provider.

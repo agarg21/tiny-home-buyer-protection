@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "owner": "Tiny Home Clarity Operator",
-  "last_rescored_on": "2026-07-18",
+  "last_rescored_on": "2026-07-20",
   "next_rescore_due": "2026-07-24",
   "planning_horizon_days": 28,
   "items": [
@@ -114,8 +114,9 @@
       "learning_value": 4,
       "effort": 2,
       "risk": 2,
-      "status": "ready",
+      "status": "completed",
       "selected_on": "2026-07-18",
+      "completed_on": "2026-07-19",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
@@ -145,7 +146,25 @@
       "hypothesis": "Repairing LA and San Diego into answer-first local guides will make them more useful for broad, uncertain city searchers while preserving legal caution.",
       "expected_effect": "Better buyer usefulness and clearer differentiation from vendor/state pages that overclaim; no guarantee of immediate traffic impact.",
       "success_signal": "LA and San Diego pages explain the broad local tiny-house landscape, distinguish listings/builders/communities/stays from legal placement, lead into official-source facts and next verification questions, and imply no parcel approval or legal permission.",
-      "notes": "Use briefs/la-san-diego-page-repair-2026-07-18.md. Addressable query research shows direct placement/rules exact demand is small, but broad and adjacent local demand is meaningful: San Diego broad 880, listings 1300, community 320, rentals 210, THOW 70; Los Angeles broad 720, listings 1600, community 170, rentals 140, ADU/THOW/laws around 10 each. Build-intent research shows national tiny-home build demand is meaningful, but local exact tiny-house builder demand is small and ADU-builder demand is adjacent rather than tiny-home-specific. Do not create new city pages, ADU-builder city pages, or a builder directory before this repair is reviewed."
+      "implementation_state": "released",
+      "review_outcome": "PASS_WITH_P3",
+      "review_cycles": 2,
+      "release_commit": "378bd659b042e96f97c6c0f5e8ae55436df6d84a",
+      "released_on": "2026-07-19",
+      "pages_workflow_run": "29682037581",
+      "qa_evidence": [
+        "git diff --check and staged git diff --cached --check passed",
+        "required site and deployment files were present",
+        "Los Angeles and San Diego HTML parse checks passed",
+        "sitemap XML parse passed",
+        "local link check passed",
+        "research artifact size check passed",
+        "secret-pattern scan found only false positives on policy authorization text",
+        "node tools/seo-qa.mjs was unavailable because tools/seo-qa.mjs is not present in this checkout"
+      ],
+      "production_verification": "GitHub Pages run 29682037581 succeeded for commit 378bd659b042e96f97c6c0f5e8ae55436df6d84a. The live Los Angeles page, San Diego page, and sitemap returned HTTP 200 with last-modified 2026-07-19T09:42:08Z, and the live LA/SD pages showed the new human-first opening copy.",
+      "result": "The LA and San Diego pages were repaired into answer-first local guides, reviewed independently with no P0-P2 findings, pushed to origin/main, deployed successfully, and verified in production.",
+      "notes": "Addressable query research showed direct placement/rules exact demand is small, but broad and adjacent local demand is meaningful: San Diego broad 880, listings 1300, community 320, rentals 210, THOW 70; Los Angeles broad 720, listings 1600, community 170, rentals 140, ADU/THOW/laws around 10 each. The shipped repair preserves legal caution while adding buyer-facing listing, builder, community/stay, stop-condition, and next-verification guidance."
     },
     {
       "id": "THC-BUILD-001",
@@ -157,7 +176,7 @@
       "learning_value": 4,
       "effort": 2,
       "risk": 2,
-      "status": "candidate",
+      "status": "ready",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [],
@@ -173,7 +192,7 @@
       "hypothesis": "A national build decision / builder due-diligence asset can serve broad tiny-home build demand without overclaiming legality or becoming a builder directory.",
       "expected_effect": "Clarifies whether the next product asset should address plans, kits, shells/trailers, builders, contractors, THOW builds, codes, permits, and risk checks.",
       "success_signal": "A reviewed brief defines a useful buyer-protection asset for people deciding whether to build, buy a kit/shell, or hire a tiny-home builder, with explicit separation from ADU-contractor demand.",
-      "notes": "Eligible only after THC-QUAL-001 is reviewed or if new evidence materially changes priority. Do not target ADU-builder city pages from this item."
+      "notes": "Eligible after THC-QUAL-001 completion. Scope a national build decision / builder due-diligence asset only; do not target ADU-builder city pages, create a builder directory, or start implementation without a reviewed brief."
     },
     {
       "id": "THC-MON-001",
@@ -185,7 +204,7 @@
       "learning_value": 4,
       "effort": 1,
       "risk": 1,
-      "status": "ready",
+      "status": "candidate",
       "allowed_during_observation": true,
       "requires_fresh_gsc": true,
       "required_evidence": [
@@ -199,7 +218,7 @@
         "ops/gsc-indexing-review-2026-07-18.md"
       ],
       "success_signal": "A changed read-only snapshot identifies a discovery, indexing, or performance signal worth evaluating without requesting indexing.",
-      "notes": "The first API snapshot is the baseline, not changed evidence. The authenticated browser review collected 2026-07-18 (report updated 2026-07-09) found only three expected protocol/www redirects, all correctly returning 301 to the HTTPS apex; see ops/gsc-indexing-review-2026-07-18.md. Do not request indexing or validate a fix for those aliases. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
+      "notes": "The first API snapshot is the baseline, not changed evidence. The 2026-07-19 snapshot is newer but only moved from 21 to 22 impressions with no clicks, sitemap change, unknown inspections, or indexing-state change; that is observation evidence, not a standalone project action. The authenticated browser review collected 2026-07-18 (report updated 2026-07-09) found only three expected protocol/www redirects, all correctly returning 301 to the HTTPS apex; see ops/gsc-indexing-review-2026-07-18.md. Do not request indexing or validate a fix for those aliases. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
     },
     {
       "id": "THC-RES-001",
