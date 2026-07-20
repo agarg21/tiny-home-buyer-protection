@@ -324,3 +324,41 @@ Implementation:
 - Added reader-level standard to `strategy/content-principles.md`.
 - Updated the Los Angeles and San Diego page openings to start from the human
   question before introducing the ADU/MTH path.
+
+## 2026-07-20 - Scope National Build Asset As Due-Diligence, Not Directory
+
+Decision: scope the next national build-intent asset as a buyer-protection
+decision guide and due-diligence checklist, not a builder directory, ADU
+contractor page, vendor recommendation list, or legal placement answer.
+
+Working concept:
+
+`Should You Build, Buy a Kit, Buy a Shell, or Hire a Tiny-Home Builder?`
+
+Why:
+
+- July 18 DataForSEO build-intent research shows meaningful national demand for
+  build, plans, kits, trailers, shells, builders, and codes, but the broad
+  build/builder/contractor rows are grouped close variants and should not be
+  naively summed.
+- Exact LA/San Diego tiny-house builder demand is small, while ADU-builder
+  demand is adjacent and often conventional-ADU-specific.
+- The useful Tiny Home Clarity wedge is helping readers avoid the wrong build
+  path before paying for plans, a kit, shell, trailer, builder deposit, or ADU
+  contractor quote.
+
+Implementation implication:
+
+- Future implementation should compare plans, kits, shells, trailer/THOW
+  builds, custom tiny-home builders, conventional ADU contractors, and park
+  model/RV-style products by fit, risk, written proof needed, and unresolved
+  local verification.
+- Do not recommend builders/vendors, create a builder directory, state local
+  legal or zoning conclusions, present typical or complete cost claims, add lead
+  generation, or create an indexable page until a separate reviewed
+  implementation action is dispatched.
+
+Evidence:
+
+- `docs/research/tiny-home-build-intent-query-demand-2026-07-18.md`
+- `briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`

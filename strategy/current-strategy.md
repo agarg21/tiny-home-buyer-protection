@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-07-18
+Last updated: 2026-07-20
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -193,13 +193,24 @@ diego` each show around 480/month with very high CPC, but those are adjacent
 ADU-service queries, not tiny-home-specific demand. See
 `docs/research/tiny-home-build-intent-query-demand-2026-07-18.md`.
 
+National build-intent strategy: treat build/hire/buy-a-kit demand as a
+buyer-protection decision problem, not a directory problem. The next scoped
+asset is an internal brief for a national guide tentatively titled `Should You
+Build, Buy a Kit, Buy a Shell, or Hire a Tiny-Home Builder?` It should compare
+plans, kits, shells, trailers/THOWs, custom builders, conventional ADU
+contractors, and park model/RV-style products by risk and verification needs.
+It must not recommend builders, imply a complete price, answer local zoning, or
+merge ADU-contractor demand into tiny-home-builder demand. See
+`briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`.
+
 ## First 5 Assets
 
 1. `Where Can I Put a Tiny House?` interactive placement triage tool and guide.
 2. `Tiny Home Cost / Reality Check Calculator`.
 3. `Can You Build a Tiny House for Under $20K?`.
 4. `Tiny House Toilet Options Calculator`.
-5. `Tiny Home Builder / Vendor Due Diligence Checklist`.
+5. `Should You Build, Buy a Kit, Buy a Shell, or Hire a Tiny-Home Builder?`
+   decision guide and due-diligence checklist.
 
 ## First 90-Day Plan
 

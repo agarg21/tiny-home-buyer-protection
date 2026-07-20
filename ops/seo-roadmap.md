@@ -12,10 +12,12 @@ provider, and release decisions.
 3. `THC-QUAL-001` — completed the LA/San Diego answer-first repair in
    `378bd659b042e96f97c6c0f5e8ae55436df6d84a`; Pages run `29682037581`
    succeeded and production checks passed.
-4. `THC-BUILD-001` — next eligible action: scope the national tiny-home build
-   decision / builder due-diligence asset as a brief only.
-5. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
-6. Select the next buyer-protection tool only from observed evidence and the
+4. `THC-BUILD-001` — completed the national tiny-home build decision / builder
+   due-diligence brief on 2026-07-20.
+5. `THC-BUILD-002` — next candidate: build the reviewed national decision /
+   due-diligence asset in a separate dispatch.
+6. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
+7. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
 
 The two-hour Control Room scan does not authorize two-hour content production.
@@ -86,17 +88,39 @@ period, and a no-op is valid.
 - Result: complete and released. Do not keep `THC-QUAL-001` open in the central
   ledger.
 
-## THC-BUILD-001 candidate
+## THC-BUILD-001 evidence
 
 - Build-intent research found meaningful general US tiny-home build demand, but
   tiny-home build intent and ADU contractor intent are separate markets with
   some local overlap.
-- Next eligible action after the Los Angeles / San Diego repair: scope a
-  national tiny-home build decision / builder due-diligence asset, not a
-  builder directory and not ADU-builder city pages.
+- Completed action: scoped a national tiny-home build decision / builder
+  due-diligence asset as an internal brief only.
 - Working concept: `Should You Build, Buy a Kit, Buy a Shell, or Hire a
   Tiny-Home Builder?`
 - Evidence: `docs/research/tiny-home-build-intent-query-demand-2026-07-18.md`.
+- Brief: `briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`.
+- Review: independent read-only review returned `PASS` with no P0-P2 findings.
+- QA: required-file checks, `git diff --check`, JSON validation, and a
+  no-`site/**` change guard passed.
+- Evidence classification: durable July 18 DataForSEO demand research and the
+  completed `THC-QUAL-001` page-quality handoff selected the brief. The July 20
+  GSC snapshot is fresh read-only monitoring evidence but is not causal support
+  for this research action.
+- Boundaries: do not build a directory, recommend vendors, state legal/zoning
+  conclusions, present typical or complete cost claims, create indexable pages,
+  request indexing, mutate external accounts, or begin implementation from this
+  completed action.
+
+## THC-BUILD-002 candidate
+
+- Next candidate: build the national tiny-home build decision and due-diligence
+  asset from `briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`.
+- This must be a separate implementation dispatch with exact paths, native QA,
+  SERP/searcher POV review, and independent read-only review.
+- The asset should compare plans, kits, shells, trailers/THOWs, custom
+  builders, conventional ADU contractors, and park model/RV-style products by
+  fit, risk, written proof needed, and unresolved local verification.
+- Do not start this work without a separate dispatch.
 
 ## THC-MON-001 observation note
 
