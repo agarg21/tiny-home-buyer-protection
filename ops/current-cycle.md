@@ -1,13 +1,17 @@
 # Current Cycle
 
-Last updated: 2026-07-20
+Last updated: 2026-07-27
 
 ## Active Priority
 
-`THC-QUAL-001` is complete and released. The next eligible project action is
-`THC-BUILD-001`: scope a national tiny-home build decision / builder
-due-diligence asset as a reviewed brief only. Do not start implementation,
-create a builder directory, or target ADU-builder city pages from this item.
+Weekly roadmap re-score completed as a queue-level no-op. No implementation,
+indexing request, outreach, deployment, external-account work, site content, or
+fresh research is selected by this pass.
+
+`THC-BUILD-001` is complete. `THC-BUILD-002` remains the next implementation
+candidate, but it is not selected here. It requires a separate dispatch with
+exact paths, native QA, SERP/searcher POV review, and independent read-only
+review before any `site/**` change.
 
 Continue to observe validated daily GSC snapshots, but do not turn routine
 snapshot drift into a project action unless it identifies a discovery, indexing,
@@ -37,10 +41,11 @@ LA/San Diego addressable-volume research and repair brief completed on
 `378bd659b042e96f97c6c0f5e8ae55436df6d84a`; do not create new city pages from
 that research alone.
 
-The 2026-07-19 GSC snapshot is newer than the 2026-07-18 baseline but changed
-only from 21 to 22 impressions, with 0 clicks, no sitemap change, no unknown
-inspection rows, and no indexing-state change. Treat it as observation evidence,
-not a standalone action trigger.
+The 2026-07-26 GSC snapshot is fresh read-only monitoring evidence with data
+through 2026-07-24, but it is unchanged versus the prior dated 2026-07-25
+snapshot: 30 impressions, 0 clicks, sitemap `Success`, 6 discovered pages, 5 of
+6 priority URLs indexed, and 0 unknown priority URLs. Treat it as observation
+evidence, not a standalone action trigger.
 
 ## Recently Completed
 
@@ -57,6 +62,14 @@ not a standalone action trigger.
   sitemap returned `HTTP 200`, and the LA/SD pages showed the new human-first
   opening copy. Independent read-only review returned `PASS_WITH_P3` with no
   P0-P2 findings; P3 documentation/wording cleanups were applied before commit.
+- Completed `THC-BUILD-001` in commit
+  `68fc013c6b4fb881de6ec3f90d243451c6c6379a` on 2026-07-20. The action scoped
+  the national tiny-home build decision / builder due-diligence asset as an
+  internal reviewed brief only. No site implementation was started.
+- Completed the 2026-07-27 weekly roadmap re-score as a queue-level no-op. The
+  newest GSC snapshot was unchanged versus the prior dated snapshot and did not
+  unlock monitoring, implementation, indexing, outreach, or external-account
+  work.
 - Bootstrap repo scaffold created.
 - GitHub Pages workflow prepared.
 - GitHub repo created and pushed: `agarg21/tiny-home-buyer-protection`.
@@ -156,9 +169,9 @@ not a standalone action trigger.
 
 ## Ready For SEO Research & Review Agent
 
-- Scope `THC-BUILD-001` as a brief for a national tiny-home build decision /
-  builder due-diligence asset. Keep it separate from ADU-contractor city demand,
-  builder directories, and implementation work.
+- No SEO Research & Review action is selected by the 2026-07-27 roadmap
+  re-score. `THC-BUILD-002` remains a candidate for a future implementation
+  dispatch.
 - Compare future validated GSC snapshots with the 2026-07-18 baseline only when
   changed evidence identifies a discovery, indexing, or performance signal worth
   evaluating.
@@ -182,7 +195,8 @@ not a standalone action trigger.
 
 ## Recommended Next Agent
 
-Control Room operator to use the fast no-op path while release, DNS, deployment,
-and production-invariant evidence remains fresh and unchanged. Review each new
-validated GSC snapshot against the 2026-07-18 baseline and the roadmap. Do not
-manufacture another page when search evidence is unchanged.
+Control Room operator to use the fast no-op path while release, DNS,
+deployment, GSC, and production-invariant evidence remains fresh and unchanged.
+Review each new validated GSC snapshot against the roadmap. Dispatch
+`THC-BUILD-002` only under a separate implementation contract; do not
+manufacture work from unchanged monitoring evidence.

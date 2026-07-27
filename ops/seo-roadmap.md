@@ -15,7 +15,8 @@ provider, and release decisions.
 4. `THC-BUILD-001` — completed the national tiny-home build decision / builder
    due-diligence brief on 2026-07-20.
 5. `THC-BUILD-002` — next candidate: build the reviewed national decision /
-   due-diligence asset in a separate dispatch.
+   due-diligence asset in a separate dispatch. It is not selected by the
+   2026-07-27 roadmap re-score.
 6. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
 7. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
@@ -23,6 +24,22 @@ provider, and release decisions.
 The two-hour Control Room scan does not authorize two-hour content production.
 At most one substantive project action may run per day during the proving
 period, and a no-op is valid.
+
+## 2026-07-27 roadmap re-score
+
+- Result: queue-level no-op. The roadmap metadata was refreshed, but no
+  implementation, indexing, research, outreach, deployment, or external-account
+  work was selected.
+- Evidence: newest read-only GSC snapshot collected 2026-07-26 with finalized
+  data through 2026-07-24.
+- GSC comparison: unchanged versus the prior dated 2026-07-25 snapshot: 30
+  impressions, 0 clicks, sitemap `Success`, 6 discovered pages, 5 of 6 priority
+  URLs indexed, 0 unknown priority URLs.
+- Interpretation: monitoring context only, not causal evidence for
+  implementation.
+- Semrush: not called; optional enrichment only and not required for this
+  maintenance pass.
+- Next re-score due: 2026-08-03.
 
 ## THC-REL-001 evidence
 
@@ -121,12 +138,14 @@ period, and a no-op is valid.
   builders, conventional ADU contractors, and park model/RV-style products by
   fit, risk, written proof needed, and unresolved local verification.
 - Do not start this work without a separate dispatch.
+- 2026-07-27 re-score: remains a candidate, not a selected action.
 
 ## THC-MON-001 observation note
 
-- The 2026-07-19 GSC snapshot is newer than the 2026-07-18 baseline but changed
-  only from 21 to 22 impressions, with 0 clicks, no sitemap change, no unknown
-  inspections, and no indexing-state change.
+- The 2026-07-26 GSC snapshot is fresh read-only monitoring evidence with data
+  through 2026-07-24, but it is unchanged versus the prior dated 2026-07-25
+  snapshot: 30 impressions, 0 clicks, sitemap `Success`, 6 discovered pages, 5
+  of 6 priority URLs indexed, and 0 unknown priority URLs.
 - Treat that as observation evidence, not a standalone project action. A
   measurement action becomes eligible only when a changed snapshot identifies a
   discovery, indexing, or performance signal worth evaluating.

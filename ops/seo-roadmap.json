@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "owner": "Tiny Home Clarity Operator",
-  "last_rescored_on": "2026-07-20",
-  "next_rescore_due": "2026-07-24",
+  "last_rescored_on": "2026-07-27",
+  "next_rescore_due": "2026-08-03",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -237,7 +237,7 @@
       "hypothesis": "A buyer-protective national decision guide can serve build, plans, kits, shells, trailer/THOW, builder, and code/permit research intent without becoming a builder directory or overclaiming legal placement.",
       "expected_effect": "Creates a useful review-clean asset for broad build-stage tiny-home searchers and strengthens the site beyond local placement pages.",
       "success_signal": "A future page or tool helps readers compare build paths, collect written proof, identify red flags, and verify local constraints without recommending vendors or implying legal/cost certainty.",
-      "notes": "Future implementation requires a separate dispatch, exact paths, native QA, SERP/searcher POV review, and independent read-only review. No implementation was started by THC-BUILD-001."
+      "notes": "Future implementation requires a separate dispatch, exact paths, native QA, SERP/searcher POV review, and independent read-only review. No implementation was started by THC-BUILD-001. The 2026-07-27 roadmap re-score kept this as a candidate, not a selected action, because the current dispatch is roadmap maintenance only and the newest GSC evidence is unchanged monitoring context."
     },
     {
       "id": "THC-MON-001",
@@ -263,7 +263,7 @@
         "ops/gsc-indexing-review-2026-07-18.md"
       ],
       "success_signal": "A changed read-only snapshot identifies a discovery, indexing, or performance signal worth evaluating without requesting indexing.",
-      "notes": "The first API snapshot is the baseline, not changed evidence. The 2026-07-19 snapshot is newer but only moved from 21 to 22 impressions with no clicks, sitemap change, unknown inspections, or indexing-state change; that is observation evidence, not a standalone project action. The authenticated browser review collected 2026-07-18 (report updated 2026-07-09) found only three expected protocol/www redirects, all correctly returning 301 to the HTTPS apex; see ops/gsc-indexing-review-2026-07-18.md. Do not request indexing or validate a fix for those aliases. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
+      "notes": "The first API snapshot is the baseline, not changed evidence. The 2026-07-26 snapshot is fresh read-only monitoring evidence with data through 2026-07-24, but it is unchanged versus the prior dated 2026-07-25 snapshot: 30 impressions, 0 clicks, sitemap Success with 6 discovered pages, 5 of 6 priority URLs indexed, and 0 unknown priority URLs. That is observation evidence, not a standalone project action. The authenticated browser review collected 2026-07-18 (report updated 2026-07-09) found only three expected protocol/www redirects, all correctly returning 301 to the HTTPS apex; see ops/gsc-indexing-review-2026-07-18.md. Do not request indexing or validate a fix for those aliases. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
     },
     {
       "id": "THC-RES-001",
