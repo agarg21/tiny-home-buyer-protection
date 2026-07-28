@@ -94,6 +94,16 @@ main,
   border-top: 1px solid var(--line);
 }
 
+.san-diego-hero {
+  max-width: 900px;
+}
+
+.san-diego-hero h1 {
+  max-width: 850px;
+  font-size: 3.75rem;
+  line-height: 1.02;
+}
+
 .hero-panel,
 .form-card,
 .result-panel,
@@ -647,6 +657,171 @@ li + li {
   text-underline-offset: 4px;
 }
 
+.jurisdiction-section {
+  padding-top: 28px;
+}
+
+.jurisdiction-routes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.jurisdiction-route {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  gap: 12px;
+  min-height: 148px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--accent);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+}
+
+.jurisdiction-route:hover,
+.jurisdiction-route:focus {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.jurisdiction-route strong,
+.jurisdiction-route small {
+  display: block;
+}
+
+.jurisdiction-route strong {
+  margin-bottom: 8px;
+}
+
+.jurisdiction-route small {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.jurisdiction-route.route-stop {
+  border-top-color: var(--warn);
+}
+
+.route-number {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.route-stop .route-number {
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+
+.route-help {
+  margin: 18px 0 0;
+  color: var(--muted);
+}
+
+.route-help a,
+.term-decoder a {
+  color: var(--accent-dark);
+  font-weight: 800;
+  text-underline-offset: 4px;
+}
+
+.term-decoder {
+  max-width: 860px;
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+}
+
+.term-decoder p {
+  margin: 4px 0 0;
+}
+
+.path-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  align-items: start;
+}
+
+.path-panel {
+  min-width: 0;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--accent);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.path-panel h3 {
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.path-answer {
+  color: var(--muted);
+}
+
+.path-facts {
+  margin: 20px 0;
+}
+
+.path-facts div {
+  grid-template-columns: 120px minmax(0, 1fr);
+}
+
+.question-callout {
+  margin-top: 20px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+}
+
+.question-callout p {
+  margin: 6px 0 0;
+}
+
+.source-block {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.source-block ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.source-block li + li {
+  margin-top: 8px;
+}
+
+.source-block a {
+  color: var(--accent-dark);
+  font-weight: 800;
+  text-underline-offset: 4px;
+}
+
+.confidence-note {
+  margin: 18px 0 0;
+  color: var(--muted);
+}
+
+.route-boundary {
+  max-width: none;
+  margin-top: 22px;
+}
+
 .table-wrap {
   overflow-x: auto;
 }
@@ -887,6 +1062,8 @@ dd {
   .category-grid,
   .source-grid,
   .support-grid,
+  .jurisdiction-routes,
+  .path-comparison,
   .record-example-heading,
   .record-detail-grid,
   .split-panel,
@@ -931,8 +1108,28 @@ dd {
     padding: 26px 0 24px;
   }
 
+  .support-hero {
+    padding: 22px 0 18px;
+  }
+
+  .san-diego-hero {
+    padding: 18px 0 8px;
+  }
+
+  .san-diego-hero .lede {
+    font-size: 1.02rem;
+  }
+
+  .san-diego-hero .freshness-label {
+    display: none;
+  }
+
   h1 {
     font-size: 2.4rem;
+  }
+
+  .san-diego-hero h1 {
+    font-size: 2.35rem;
   }
 
   .lede {
@@ -957,5 +1154,13 @@ dd {
   dl div {
     grid-template-columns: 1fr;
     gap: 2px;
+  }
+
+  .jurisdiction-route {
+    min-height: 0;
+  }
+
+  .path-panel {
+    padding: 20px;
   }
 }

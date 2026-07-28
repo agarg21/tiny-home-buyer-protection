@@ -61,29 +61,29 @@
     "inside_city_limits": "yes",
     "zoning_district": "UNKNOWN",
     "tiny_home_types_covered": [
-      "Movable Tiny House",
-      "Accessory Dwelling Unit (ADU)",
-      "Junior Accessory Dwelling Unit (JADU)"
+      "Movable Tiny House (MTH)"
     ],
     "intended_uses_covered": [
-      "Accessory dwelling unit / companion unit path",
-      "Residential use subject to ADU-related standards"
+      "Separately regulated limited residential use",
+      "Residential use subject to San Diego Municipal Code Section 141.0318"
     ],
     "possible_placement_paths": [
-      "Possible path: Movable Tiny House under San Diego's ADU / companion unit-related framework, if the parcel, zone, structure, access, utilities, coastal/fire/hazard constraints, and permits satisfy current city requirements."
+      "Possible path: Movable Tiny House under San Diego Municipal Code Section 141.0318, if the premises, zone, structure, access, utilities, certification, fire/coastal constraints, and permit satisfy current city requirements."
     ],
     "clearly_allowed": [
-      "San Diego's adopted code update page says the City Council adopted Movable Tiny Homes as a separately regulated residential use within existing companion unit and junior unit regulations.",
-      "The same city page states movable tiny houses fall under the state's ADU definition.",
-      "San Diego Municipal Code Section 141.0302 sets ADU/JADU regulations and lists multiple parcel, zone, rental, size, setback, fire, parking, and other limits."
+      "Current San Diego Municipal Code Section 141.0318 regulates movable tiny houses as a limited use in zones marked L in the applicable use-regulation tables.",
+      "Current Section 141.0318 states that one movable tiny house may be permitted per premises in addition to ADUs and JADUs permitted under the separate ADU section.",
+      "Current Section 141.0318 includes specific DMV, siting, access, utility, certification, fire, coastal, design, and rental requirements."
     ],
     "clearly_not_allowed": [
-      "San Diego Municipal Code Section 141.0302 states ADUs may not be used for rental terms shorter than 31 consecutive days. JADUs are treated differently in that provision."
+      "Current Section 141.0318 states that a movable tiny house may not be used for a rental term of less than 30 consecutive days.",
+      "Current Section 141.0318 prohibits natural-gas connections to a movable tiny house."
     ],
     "unclear": [
       "Whether a specific parcel is eligible.",
-      "Whether the proposed structure meets the current movable tiny house standards.",
-      "How coastal overlay, fire hazard severity, beach impact parking, or other overlays affect a specific site.",
+      "Whether the applicable zone and premises context permit the proposed movable tiny house.",
+      "Whether the proposed structure meets current DMV, certification, access, utility, fire, design, and siting standards.",
+      "How coastal, brush-management, habitat, fire-hazard, beach-impact-parking, or other site constraints apply.",
       "Whether HOA, deed, lender, or insurance constraints apply."
     ],
     "local_office_to_contact": [
@@ -91,20 +91,80 @@
       "City of San Diego Planning Department"
     ],
     "official_source_urls": [
-      "https://www.sandiego.gov/sites/default/files/dsdib403.pdf",
       "https://docs.sandiego.gov/municode/municodechapter14/ch14art01division03.pdf",
-      "https://www.sandiego.gov/planning/work/land-development-code/single-issue-ldc-amendments"
+      "https://www.sandiego.gov/development-services/zoning",
+      "https://www.sandiego.gov/sites/default/files/dsdib403.pdf"
     ],
     "source_quote_or_summary": [
-      "City of San Diego official materials describe movable tiny houses as adopted into companion unit / junior unit regulations and as falling under the state's ADU definition.",
-      "San Diego Municipal Code Section 141.0302 governs ADUs and JADUs and contains restrictions on rental term, lot/zone context, size, setbacks, coastal overlay, fire, parking, owner occupancy, and related requirements.",
-      "Information Bulletin 403 is the city's movable tiny house-specific official bulletin and should be used for implementation details, with current code verified before publishing a high-specificity claim."
+      "The July 2026 San Diego Municipal Code places Movable Tiny Houses in a dedicated Section 141.0318 and treats them as a separately regulated limited use.",
+      "Section 141.0318 includes one-MTH-per-premises language in addition to ADUs/JADUs and lists zone, siting, access, utility, certification, fire, coastal, design, and rental conditions.",
+      "Information Bulletin 403 is dated October 2020. Use the current code where its allocation or other wording differs."
     ],
-    "last_checked_date": "2026-07-08",
+    "last_checked_date": "2026-07-28",
     "confidence_level": "High",
     "notes": [
-      "High confidence for an official San Diego MTH / ADU-related path.",
-      "Do not present this as parcel approval. Surface it as a possible path requiring Development Services verification."
+      "High confidence for the existence and current text of the City Section 141.0318 path.",
+      "Do not present this as parcel approval. Surface it as a possible path requiring City Development Services verification.",
+      "Do not let the October 2020 bulletin override the current July 2026 code."
+    ]
+  },
+  {
+    "record_id": "san-diego-county-ca-thow-dwelling",
+    "state": "California",
+    "city": "UNKNOWN",
+    "county": "San Diego County",
+    "jurisdiction_type": "unincorporated county",
+    "inside_city_limits": "no",
+    "zoning_district": "UNKNOWN",
+    "tiny_home_types_covered": [
+      "Tiny Home on Wheels (THOW)"
+    ],
+    "intended_uses_covered": [
+      "Primary dwelling",
+      "Accessory dwelling"
+    ],
+    "possible_placement_paths": [
+      "Possible path: qualifying THOW as a primary or accessory dwelling in unincorporated San Diego County, if the parcel, density, structure, certification, fire, access, utilities, water, wastewater, inspections, and permits satisfy current County requirements."
+    ],
+    "clearly_allowed": [
+      "County Planning & Development Services guidance says that, since September 4, 2025, the County considers a qualifying THOW a dwelling under the zoning ordinance.",
+      "The County Director's Determination says a qualifying THOW could be used as a primary or accessory dwelling under the current zoning ordinance.",
+      "The County requires a PDS permit, plans, third-party ANSI A119.5 certification, County construction requirements, and required inspections."
+    ],
+    "clearly_not_allowed": [
+      "The County THOW policy does not change the allowed density or number of dwellings on a property.",
+      "County THOW requirements do not apply to park trailers in mobile-home or RV parks.",
+      "County environmental-health guidance says hauled water is not an approved potable-water source for new construction and composting toilets, holding tanks, and portable toilets are not approved wastewater disposal for THOWs."
+    ],
+    "unclear": [
+      "Whether a specific property is in unincorporated County jurisdiction and is a legal lot.",
+      "Whether the property's zoning, density, building type, setbacks, fire access, flood, grading, stormwater, or right-of-way conditions support the project.",
+      "Whether potable water and approved wastewater disposal are feasible.",
+      "Whether the proposed unit's certification and construction satisfy County requirements.",
+      "Whether HOA, deed, lender, or insurance constraints apply."
+    ],
+    "local_office_to_contact": [
+      "County of San Diego Planning & Development Services",
+      "County of San Diego Department of Environmental Health and Quality for water and wastewater questions"
+    ],
+    "official_source_urls": [
+      "https://www.sandiegocounty.gov/content/sdc/pds/bldg/THOW.html",
+      "https://www.sandiegocounty.gov/content/dam/sdc/pds/bldg/THOW.pdf",
+      "https://www.sandiegocounty.gov/content/dam/sdc/deh/lwqd/tinyhomesonwheelsFAQs.pdf",
+      "https://gis-portal.sandiegocounty.gov/arcgis/home/webmap/viewer.html?webmap=61945f9d93a74a618ed55a16cffdc94c"
+    ],
+    "source_quote_or_summary": [
+      "County guidance says a qualifying THOW may be used as a primary or accessory dwelling when specific requirements are met.",
+      "The September 4, 2025 Director's Determination requires ANSI A119.5 certification and lists construction, fire, size, DMV, siting, utility, density, and zoning conditions.",
+      "The County THOW page requires a PDS permit, plans, certification, and inspections, with possible fire, legal-lot, septic, flood, grading, stormwater, electrical, and right-of-way review.",
+      "The County water and wastewater FAQ, revised March 30, 2026, recommends obtaining environmental-health approval and discussing the project with PDS before buying the THOW or land."
+    ],
+    "last_checked_date": "2026-07-28",
+    "confidence_level": "High",
+    "notes": [
+      "High confidence for the existence and stated scope of the unincorporated County THOW path.",
+      "This record does not apply inside the City of San Diego, another incorporated city, Tribal land, or State or Federal land.",
+      "Do not present this as parcel, permit, water, wastewater, fire, or unit approval."
     ]
   },
   {

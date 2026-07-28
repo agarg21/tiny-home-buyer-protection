@@ -13,6 +13,18 @@ durable execution queue; backlog headings do not authorize work.
 - The Master is the only repository writer. Implementation support is read-only
   and does not select work from this backlog.
 
+## Active
+
+- `THC-SD-001`: repair the existing San Diego guide around the current City
+  section 141.0318 path, the separate unincorporated-County THOW determination,
+  and an explicit stop for other incorporated cities.
+- Durable research, page implementation, County source data, exact homepage
+  routing, canonical, and sitemap date are complete in the working tree.
+- Native and responsive browser QA are green. Independent review returned
+  `PASS` in cycle 2; commit, push, Pages, and production verification remain.
+- Do not absorb another local page, the cost calculator, or the national build
+  asset into this transaction.
+
 ## Released
 
 - `THC-HOME-001`: rebuild the homepage placement hub around a source-backed
@@ -32,8 +44,6 @@ durable execution queue; backlog headings do not authorize work.
 ## Candidates, Not Selected
 
 - `THC-BUILD-002`: national build decision / builder due-diligence asset.
-- Record a San Diego City-versus-unincorporated-County freshness repair using
-  the current County THOW path after the homepage.
 - Cost-calculator blank/partial-result repair, Georgia classification repair,
   and under-$20K consolidation/indexing diagnosis remain candidates.
 - Do not build ADU-builder city pages, a builder directory, or a location-page

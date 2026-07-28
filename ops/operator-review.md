@@ -424,3 +424,110 @@ Release:
   handoff, and desktop containment passed.
 
 Release state: production-verified.
+
+## 2026-07-28 - THC-SD-001 Pre-Review Record
+
+Action: repair the existing San Diego guide around distinct City and
+unincorporated County paths.
+
+Base SHA: `8b0013f0d14dfea010636a6afaed8587698dc55b`
+
+Frozen paths:
+
+- `docs/research/san-diego-city-county-tiny-house-refresh-2026-07-28.md`
+- `site/san-diego-tiny-house-adu/index.html`
+- `site/data/local-records.json`
+- `site/index.html`
+- `site/styles.css`
+- `site/sitemap.xml`
+- `status/site-pages.md`
+- `backlog/implementation-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Evidence:
+
+- Durable July 18 DataForSEO demand and rank-order SERP evidence remains
+  primary demand evidence.
+- A dated July 28 public result-type sample confirms mixed official,
+  commercial, community/stay, and third-party answer results.
+- Current July 2026 City code section 141.0318 replaces the page's stale
+  ADU/companion-unit-centered summary.
+- Current County guidance and the September 4, 2025 Director's Determination
+  support a separately scoped primary-or-accessory THOW path in unincorporated
+  County jurisdiction.
+- The July 28 GSC snapshot is monitoring context only.
+
+Read-only research support:
+
+- Thread: `019faa73-88bf-7eb2-ab95-5ded1eb84fc9`
+- Outcome: independently confirmed the jurisdiction-first first screen, current
+  City-code correction, separate County path, incorporated-city boundary,
+  section consolidation, and dated-bulletin risk.
+- This support is advisory and is not the mandatory independent operator
+  review.
+
+Implementation:
+
+- Rebuilt the page around City, unincorporated County, and other incorporated
+  city routes.
+- Kept City and County possible uses, unit proof, property filters, office
+  questions, sources, confidence, and unresolved eligibility separate.
+- Consolidated listing/builder/community/stay warnings and written proof.
+- Added the San Diego canonical and sitemap date.
+- Updated the City record, added the County record, and added exact homepage
+  County matching with a versioned record request.
+
+Preliminary QA:
+
+- 26 native tests passed.
+- Site QA: zero errors, four unchanged canonical warnings.
+- Operator-state QA, JSON, homepage script, and diff checks passed.
+- Responsive browser QA passed at 1440x900, 390x844, and 320x568.
+- Homepage routing passed City, County, Oceanside non-match, unknown
+  jurisdiction, focus, source URL, cache-safe data, and 320px containment.
+- Anti Gravity advisory was attempted but produced no verdict because its
+  headless process could not obtain read-file permission. Unsafe permission
+  bypass was not used.
+
+Independent operator review cycle 1:
+
+- Reviewer: read-only thread `019faa80-89bd-7f12-8bb5-79be29494c91`.
+- Base: `8b0013f0d14dfea010636a6afaed8587698dc55b`.
+- Scope: all 14 declared paths; no undeclared path found.
+- Verdict: `FAIL`.
+- P2: the homepage rationale was placed below the new San Diego decision in
+  `decisions.md`, giving the San Diego entry two `Why` sections.
+- P2: a stale secondary sentence in `ops/current-cycle.md` called
+  `THC-RES-001` active despite the canonical active marker and roadmap naming
+  `THC-SD-001`.
+- P0, P1, and P3: none.
+- Page, source hierarchy, personas, every-section usefulness, routing,
+  technical SEO, accessibility, responsive layout, and native QA passed.
+
+Cycle 1 fixes:
+
+- Restored the homepage rationale to the homepage decision before the San Diego
+  heading.
+- Replaced the stale secondary active sentence with the truthful
+  `THC-SD-001` review/release state.
+
+Independent operator review cycle 2:
+
+- Reviewer: read-only thread `019faa80-89bd-7f12-8bb5-79be29494c91`.
+- Base: `8b0013f0d14dfea010636a6afaed8587698dc55b`.
+- Scope: all 14 declared paths; no undeclared path found.
+- Verdict: `PASS`.
+- The two cycle 1 P2 findings are resolved.
+- P0, P1, P2, and P3: none.
+- Current City and County source claims, jurisdiction boundaries,
+  searcher/persona usefulness, homepage routing, technical SEO, responsive
+  behavior, exact-path scope, and repository narrative consistency passed.
+- The reviewer was independent and read-only; no files were modified.
+
+Release state: review-clean; commit, push, Pages, and production verification
+remain.

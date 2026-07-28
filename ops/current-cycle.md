@@ -2,27 +2,78 @@
 
 Last updated: 2026-07-28
 
-Active action: `none`
+Active action: `THC-SD-001`
 
 Next eligible action: `none`
 
 ## Active Priority
 
-`THC-HOME-001` is complete and review-clean after direct manual user instruction
-and after
-`THC-RES-001` was review-clean and pushed in `2400e13`. This is one bounded
-homepage implementation transaction.
+`THC-SD-001` is a direct-manual research and implementation transaction selected
+on 2026-07-28 after `THC-HOME-001` was production-verified. It repairs the
+existing San Diego URL around the reader's first jurisdiction decision: City
+of San Diego, unincorporated San Diego County, or another incorporated city.
 
-The build must replace the current generic location-looking result with an
-honest buyer decision path, teach home classification before asking for it,
-make the source-backed LA, San Diego, and Georgia routes explicit, remove
-visible internal record/MVP language, merge repeated cautions/checklists, add
-an explicit homepage canonical, and preserve buyer-protective legal/source
-boundaries.
+The action must preserve dated SERP samples and current official City/County
+sources, keep the two source paths separate, give incorporated-city readers no
+false County answer, consolidate repetitive caution/checklist material, and
+update homepage source routing only for an exact supported jurisdiction.
 
-Frozen paths are the 11 exact paths in `ops/seo-roadmap.json`. Do not edit
-another page, local-record data, the deployment workflow, research artifacts,
-indexing, outreach, external accounts, vendors, or cost/legal conclusions.
+Frozen paths are the 14 exact paths in `ops/seo-roadmap.json`. Do not edit
+another page, the deployment workflow, indexing, analytics, outreach, external
+accounts, vendors, typical/complete costs, or parcel-level legal conclusions.
+
+Evidence classification:
+
+- Direct manual user instruction selects the action.
+- Durable July 18 demand/SERP research and the July 28 full-site pack establish
+  the mixed local searcher job and the County freshness gap.
+- Current public SERP and official-source research may support page strategy and
+  factual scope.
+- The 2026-07-28 GSC snapshot remains healthy monitoring context: 30
+  impressions, 0 clicks, six discovered pages, and five of six priority URLs
+  indexed. It does not cause this repair.
+
+Research and implementation result:
+
+- Preserved the July 18 DataForSEO demand and rank-order SERP evidence, then
+  added a dated July 28 public result-type sample and current official source
+  hierarchy in
+  `docs/research/san-diego-city-county-tiny-house-refresh-2026-07-28.md`.
+- Found that the current July 2026 City code has a dedicated Movable Tiny House
+  section 141.0318; the old page and local record incorrectly centered the
+  October 2020 ADU/companion-unit framing.
+- Rebuilt the existing San Diego URL around a first-screen City,
+  unincorporated-County, or other-incorporated-city choice.
+- Kept the City MTH and County THOW source paths, standards, offices,
+  confidence, and unresolved parcel checks visibly separate.
+- Consolidated listing, builder, community, stay, proof, office, and caution
+  material into one claim table and one written-proof workflow.
+- Added an explicit canonical and updated the sitemap lastmod without creating
+  another San Diego URL.
+- Updated the City source record, added a separately scoped County source
+  record, and taught the homepage to match San Diego County only when the user
+  selects unincorporated County.
+- Versioned the homepage record request so returning browsers cannot combine
+  the new HTML with stale source data.
+
+Preliminary QA:
+
+- 26 native tests passed.
+- Site QA: six HTML pages and six sitemap URLs, zero errors, four unchanged
+  missing-canonical warnings.
+- Operator-state QA, roadmap JSON, local-record JSON, homepage script parsing,
+  and `git diff --check` passed.
+- San Diego browser QA passed at 1440x900, 390x844, and 320x568 with no document
+  overflow; the 320 first screen reveals the jurisdiction section.
+- Homepage County, City, Oceanside, unknown-jurisdiction, focus, source URL, and
+  320px result-containment cases passed.
+- Read-only research advisor `019faa73-88bf-7eb2-ab95-5ded1eb84fc9` independently
+  confirmed the jurisdiction-first strategy and current-code correction.
+- Independent read-only review returned `PASS` in cycle 2 after both cycle 1
+  P2 documentation inconsistencies were fixed. Commit, push, Pages, and
+  production verification remain.
+
+`THC-HOME-001` remains complete and production-verified:
 
 Implementation result:
 
@@ -220,8 +271,9 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- `THC-RES-001` is active and has promoted only `THC-HOME-001`; the separate
-  homepage transaction must wait for this research action's review-clean push.
+- `THC-SD-001` is the only active transaction. Its implementation is
+  review-clean and remains inside commit, release, and production-verification
+  gates.
 - `THC-BUILD-002` remains the strongest measured demand candidate, not the
   selected build.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or

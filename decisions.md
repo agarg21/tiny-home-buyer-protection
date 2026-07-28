@@ -485,3 +485,35 @@ Why:
   the human's next decision.
 - Explicit source/general separation is more truthful than presenting every
   location through the same confidence-shaped result.
+
+## 2026-07-28 - San Diego Starts With Jurisdiction, Not ADU Terminology
+
+Decision: the existing San Diego guide will serve the broad local searcher by
+asking whether the property is inside the City of San Diego, in unincorporated
+San Diego County, or in another incorporated city before presenting a
+placement path.
+
+Why:
+
+- Current City Municipal Code section 141.0318 separately regulates Movable
+  Tiny Houses; the page's October 2020 ADU/companion-unit-centered framing is
+  stale.
+- Since September 4, 2025, current County guidance separately treats a
+  qualifying THOW as a possible primary or accessory dwelling in
+  unincorporated County jurisdiction.
+- Broad San Diego search demand mixes listings, builders, communities, stays,
+  and placement questions, but none of those results can substitute for the
+  property jurisdiction.
+
+Implementation boundary:
+
+- Keep City and County standards, possible uses, offices, dates, confidence,
+  and parcel unknowns separate.
+- Give another incorporated city no City or County source match.
+- Keep one buyer-claim table and one pre-payment proof workflow.
+- Use current City code before the dated 2020 bulletin where wording differs.
+- Do not create another San Diego URL or claim parcel approval.
+
+Evidence:
+
+- `docs/research/san-diego-city-county-tiny-house-refresh-2026-07-28.md`

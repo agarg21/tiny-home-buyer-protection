@@ -23,11 +23,44 @@ unreviewed release decisions.
    transactions.
 7. `THC-RES-001` — completed on 2026-07-28 as a review-clean research-only
    full-site decision pack; it promotes only `THC-HOME-001`.
-8. `THC-BUILD-002` — remains a candidate; do not implement it before the
-   homepage repair. It remains the strongest measured demand opportunity.
-9. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
-10. Select the next buyer-protection tool only from observed evidence and the
+8. `THC-HOME-001` — completed and production-verified on 2026-07-28.
+9. `THC-SD-001` — active direct-manual transaction: research and repair the
+   existing San Diego URL around distinct City and unincorporated County paths.
+10. `THC-BUILD-002` — remains the strongest measured demand candidate after
+   the active San Diego freshness repair.
+11. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
+12. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
+
+## THC-SD-001 active scope
+
+- Target the existing San Diego page and its supported homepage routing; do not
+  create a second San Diego URL.
+- Preserve current July 18 demand research, then retain dated public SERP
+  samples and current official City and County sources in
+  `docs/research/san-diego-city-county-tiny-house-refresh-2026-07-28.md`.
+- Rebuild the first screen around one human question: is the property inside
+  the City of San Diego, in unincorporated San Diego County, or in another
+  incorporated city?
+- Keep City and County path summaries, standards, offices, confidence, and
+  unresolved parcel checks visibly separate.
+- Add a County source record and homepage route only if the official evidence
+  supports that exact jurisdiction. Never match another incorporated city.
+- Frozen paths are the 14 exact paths in `ops/seo-roadmap.json`.
+- No other page, indexing, analytics, outreach, external account, vendor
+  recommendation, complete/typical cost claim, or parcel permission conclusion
+  is in scope.
+- Research found that current City section 141.0318 supersedes the page's
+  ADU/companion-unit-centered summary. The County path remains separately based
+  on the September 4, 2025 Director's Determination and current PDS guidance.
+- The implementation rebuilds the page around the three-way jurisdiction
+  decision, merges repeated commercial/caution material, adds a canonical,
+  updates City and County records, and adds exact County routing to the
+  homepage.
+- Native and responsive browser QA are green. Independent read-only review
+  returned `PASS` in cycle 2 after both cycle 1 P2 documentation
+  inconsistencies were fixed. Commit, push, Pages, and production verification
+  remain.
 
 The two-hour Control Room scan does not authorize two-hour content production.
 There is no fixed daily substantive-action limit. Actions remain separate and

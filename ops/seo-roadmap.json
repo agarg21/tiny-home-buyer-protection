@@ -481,6 +481,65 @@
       "pages_workflow_run": "30390104298",
       "production_verification": "GitHub Pages run 30390104298 succeeded for the exact pushed commit. The live homepage returned HTTP 200 and byte-matched site/index.html; the live sitemap byte-matched site/sitemap.xml. Browser checks confirmed the canonical, legacy #tool and #records anchors, no visible internal schema/confidence language, the Los Angeles City source route, the City-to-County stop, focus handoff, and zero desktop overflow.",
       "notes": "Released and production-verified. No other page, local-record data, workflow, research artifact, indexing, outreach, external account, vendor recommendation, typical/complete cost claim, lead generation, or legal conclusion changed."
+    },
+    {
+      "id": "THC-SD-001",
+      "title": "Repair the San Diego guide around distinct City and unincorporated County paths",
+      "kind": "quality-improvement",
+      "lane": "content-and-product",
+      "impact": 4,
+      "confidence": 4,
+      "learning_value": 4,
+      "effort": 2,
+      "risk": 3,
+      "status": "in_progress",
+      "selected_on": "2026-07-28",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/san-diego-tiny-house-adu/",
+        "https://tinyhomeclarity.com/"
+      ],
+      "target_paths": [
+        "docs/research/san-diego-city-county-tiny-house-refresh-2026-07-28.md",
+        "site/san-diego-tiny-house-adu/index.html",
+        "site/data/local-records.json",
+        "site/index.html",
+        "site/styles.css",
+        "site/sitemap.xml",
+        "status/site-pages.md",
+        "backlog/implementation-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "The live San Diego page is a useful City-scoped guide, but broad San Diego searchers can mean the City or unincorporated County. The page currently tells non-City readers to stop and omits the County's current, separately scoped THOW path. The homepage likewise matches only the City source record.",
+      "hypothesis": "A first-screen City-versus-unincorporated-County router, separately sourced path summaries, one shared buyer workflow, and scoped homepage routing will help broad San Diego searchers reach the correct official starting point without collapsing either jurisdiction into blanket permission.",
+      "expected_effect": "The existing URL becomes materially more useful for broad San Diego tiny-house intent, preserves its buyer-protection role, and routes both supported jurisdictions honestly while avoiding a new overlapping page.",
+      "success_signal": "Current SERP and official-source research is durable; beginner, intermediate, and advanced searcher reviews pass; City and unincorporated County paths and exclusions remain distinct; incorporated County cities receive no false source match; homepage routing reflects the new County record; every visible block has a distinct purpose; native, browser, and production QA pass; and an independent reviewer returns PASS or PASS_WITH_P3.",
+      "implementation_state": "review-clean-release-pending",
+      "review_outcome": "PASS",
+      "review_cycles": 2,
+      "reviewer_id": "019faa80-89bd-7f12-8bb5-79be29494c91",
+      "qa_evidence": [
+        "node --test tools/*.test.mjs passed 26 tests",
+        "site QA checked 6 HTML pages and 6 sitemap URLs with 0 errors and 4 known missing-canonical warnings on unchanged pages",
+        "operator-state QA passed with active THC-SD-001 and latest GSC snapshot 2026-07-28",
+        "roadmap JSON, local-record JSON, homepage inline script, and git diff --check passed",
+        "San Diego page passed 1440x900, 390x844, and 320x568 responsive checks with no document overflow and a visible next-section hint at 320px",
+        "homepage routing passed scoped San Diego City and County matches, Oceanside City/County non-matches, unknown-jurisdiction non-match, focus handoff, source links, and 320px County result containment"
+      ],
+      "evidence_classification": "Direct manual user instruction selects this action. Durable July 18 San Diego demand/SERP research and the July 28 full-site decision pack establish the mixed local job and recorded County freshness gap. Current public SERP samples and official City/County sources may support page strategy and factual scope. The July 28 GSC snapshot is healthy monitoring context only and is not causal support.",
+      "result": "Created a durable current-source/SERP refresh; replaced stale City ADU/companion framing with current Section 141.0318; added the separate unincorporated-County THOW path; rebuilt the existing page around a three-way jurisdiction decision; consolidated repeated buyer-protection material; added the canonical and current sitemap date; updated City/County source records; and added exact County matching plus cache-safe record loading to the homepage.",
+      "research_advisor": {
+        "thread_id": "019faa73-88bf-7eb2-ab95-5ded1eb84fc9",
+        "kind": "read-only-seo-research-support",
+        "outcome": "confirmed-jurisdiction-first-strategy-and-current-code-correction"
+      },
+      "notes": "Frozen to the 14 exact paths above. Implementation and preliminary QA are complete. Independent read-only review returned PASS in cycle 2 after both cycle 1 P2 documentation inconsistencies were fixed. Commit, push, Pages, and production verification remain. No other page, location batch, indexing request, external account, analytics, outreach, vendor recommendation, typical or complete cost claim, lead generation, or parcel-level legal conclusion is authorized."
     }
   ]
 }

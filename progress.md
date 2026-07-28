@@ -288,3 +288,30 @@
   visible-copy boundaries, Los Angeles City source route, County stop, focus
   handoff, and desktop containment.
 - Completed `THC-HOME-001` as released and production-verified.
+- Registered `THC-SD-001` at clean aligned base
+  `8b0013f0d14dfea010636a6afaed8587698dc55b` with 14 frozen paths.
+- Preserved July 18 demand/SERP evidence and added current public result-type,
+  City-code, County-determination, jurisdiction-map, and water/wastewater
+  research in
+  `docs/research/san-diego-city-county-tiny-house-refresh-2026-07-28.md`.
+- Corrected the City source model from the dated ADU/companion framing to
+  current Municipal Code section 141.0318.
+- Added a separate unincorporated San Diego County THOW source record based on
+  current County guidance and the September 4, 2025 determination.
+- Rebuilt the San Diego page around City, unincorporated County, and
+  other-incorporated-city routes; consolidated repeated buyer-protection
+  sections; added a canonical; and updated the sitemap date.
+- Added exact County routing to the homepage and versioned its source-data
+  request after adversarial browser QA exposed a stale-cache mismatch.
+- Read-only SEO research advisor
+  `019faa73-88bf-7eb2-ab95-5ded1eb84fc9` independently confirmed the
+  jurisdiction-first strategy and current-code correction.
+- Preliminary native QA passed 26 tests, site QA with 0 errors and four
+  unchanged canonical warnings, operator-state QA, JSON/script parsing, and
+  `git diff --check`.
+- Responsive and functional browser QA passed City/County/other-jurisdiction
+  boundaries, source links, focus, cache-safe records, and desktop/390px/320px
+  containment.
+- Independent read-only operator review cycle 1 found two P2 documentation
+  inconsistencies and no page/source defects. Both were fixed; cycle 2 returned
+  `PASS` with no remaining P0-P3 findings. Release verification remains.

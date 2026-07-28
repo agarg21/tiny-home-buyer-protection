@@ -180,13 +180,14 @@
             </div>
           </article>
           <article>
-            <p class="scope-label">City of San Diego only</p>
-            <h3>San Diego movable tiny house / ADU path</h3>
-            <p>For readers evaluating the City's movable tiny house and companion-unit framework. Unincorporated County guidance is a different path.</p>
-            <p class="source-date">Official sources checked: 2026-07-08</p>
+            <p class="scope-label">Two separately scoped jurisdictions</p>
+            <h3>San Diego City and unincorporated County paths</h3>
+            <p>Compare the City's current Movable Tiny House code with the County's separate primary-or-accessory THOW path before relying on a listing or parcel.</p>
+            <p class="source-date">Official sources checked: 2026-07-28</p>
             <div class="source-actions">
               <a href="./san-diego-tiny-house-adu/">Read the San Diego guide</a>
-              <a href="https://www.sandiego.gov/sites/default/files/dsdib403.pdf">Open the City bulletin</a>
+              <a href="https://docs.sandiego.gov/municode/MuniCodeChapter14/Ch14Art01Division03.pdf">Open the City code</a>
+              <a href="https://www.sandiegocounty.gov/content/sdc/pds/bldg/THOW.html">Open the County guidance</a>
             </div>
           </article>
           <article>
@@ -341,6 +342,15 @@
         return selectedPlace === city || selectedPlace === `cityof${city}`;
       }
 
+      function countyMatches(record, place) {
+        if (!record.county || record.county === "UNKNOWN") {
+          return false;
+        }
+        const county = normalize(record.county).replace(/county$/, "");
+        const selectedPlace = normalize(place).replace(/county$/, "");
+        return selectedPlace === county;
+      }
+
       function getMatchingRecord(state, place, jurisdiction) {
         return localRecords.find((record) => {
           if (!stateMatches(record, state)) {
@@ -349,7 +359,13 @@
           if (record.jurisdiction_type === "state agency classification source") {
             return true;
           }
-          return jurisdiction === "city" && record.jurisdiction_type === "city" && cityMatches(record, place);
+          if (jurisdiction === "city") {
+            return record.jurisdiction_type === "city" && cityMatches(record, place);
+          }
+          if (jurisdiction === "county") {
+            return record.jurisdiction_type === "unincorporated county" && countyMatches(record, place);
+          }
+          return false;
         });
       }
 
@@ -357,6 +373,7 @@
         const paths = {
           "los-angeles-ca-movable-tiny-house-adu": "./los-angeles-tiny-house-adu/",
           "san-diego-ca-movable-tiny-house-adu": "./san-diego-tiny-house-adu/",
+          "san-diego-county-ca-thow-dwelling": "./san-diego-tiny-house-adu/",
           "georgia-dca-tiny-house-classification": "./georgia-tiny-house-classification/"
         };
         return paths[record.record_id] || "";
@@ -365,6 +382,9 @@
       function recordScope(record) {
         if (record.jurisdiction_type === "state agency classification source") {
           return `${record.state} classification source only`;
+        }
+        if (record.jurisdiction_type === "unincorporated county") {
+          return `Unincorporated ${record.county} source path only`;
         }
         return `City of ${record.city} source path only`;
       }
@@ -386,10 +406,11 @@
         const supportPath = supportPagePath(record);
         const sourceUrl = record.official_source_urls[0];
         const isClassification = record.jurisdiction_type === "state agency classification source";
+        const localLabel = record.jurisdiction_type === "unincorporated county" ? "County" : "City";
         return `
           <div class="result-block source-match">
             <p class="scope-label">${escapeHtml(recordScope(record))}</p>
-            <h3>${isClassification ? "Use the state classification guide" : "Use the scoped City source guide"}</h3>
+            <h3>${isClassification ? "Use the state classification guide" : `Use the scoped ${localLabel} source guide`}</h3>
             <p>This source record was checked ${escapeHtml(record.last_checked_date)}. It identifies a possible classification or permit path, not approval for this parcel or unit.</p>
             <div class="source-actions">
               ${supportPath ? `<a href="${escapeHtml(supportPath)}">Read the scoped guide</a>` : ""}
@@ -401,7 +422,7 @@
 
       async function loadLocalRecords() {
         try {
-          const response = await fetch("./data/local-records.json");
+          const response = await fetch("./data/local-records.json?rev=2026-07-28-sd");
           if (!response.ok) {
             throw new Error(`Records request failed: ${response.status}`);
           }
@@ -429,15 +450,16 @@
         const home = homeDetails[homeType] || homeDetails["not-sure"];
         const sourceMatch = getMatchingRecord(rawState, rawPlace, jurisdiction);
         const classificationMatch = sourceMatch?.jurisdiction_type === "state agency classification source";
+        const sourceScope = sourceMatch?.jurisdiction_type === "unincorporated county" ? "County" : "City";
         const resultEyebrow = classificationMatch
           ? "State classification route plus local checks"
           : sourceMatch
-            ? "Source-backed City route plus parcel checks"
+            ? `Source-backed ${sourceScope} route plus parcel checks`
             : "General decision path";
         const statusTitle = classificationMatch
           ? `${sourceMatch.state} state classification guidance is available.`
           : sourceMatch
-            ? "A scoped City source guide matched your details."
+            ? `A scoped ${sourceScope} source guide matched your details.`
             : "No scoped local guide matched these details.";
         const statusDetail = classificationMatch
           ? "Use it to identify the likely home category, then verify siting with the responsible city or county."
