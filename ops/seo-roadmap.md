@@ -24,15 +24,16 @@ unreviewed release decisions.
 7. `THC-RES-001` — completed on 2026-07-28 as a review-clean research-only
    full-site decision pack; it promotes only `THC-HOME-001`.
 8. `THC-HOME-001` — completed and production-verified on 2026-07-28.
-9. `THC-SD-001` — active direct-manual transaction: research and repair the
-   existing San Diego URL around distinct City and unincorporated County paths.
+9. `THC-SD-001` — completed and production-verified on 2026-07-28: researched
+   and repaired the existing San Diego URL around distinct City and
+   unincorporated County paths.
 10. `THC-BUILD-002` — remains the strongest measured demand candidate after
    the active San Diego freshness repair.
 11. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
 12. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
 
-## THC-SD-001 active scope
+## THC-SD-001 completion evidence
 
 - Target the existing San Diego page and its supported homepage routing; do not
   create a second San Diego URL.
@@ -59,8 +60,12 @@ unreviewed release decisions.
   homepage.
 - Native and responsive browser QA are green. Independent read-only review
   returned `PASS` in cycle 2 after both cycle 1 P2 documentation
-  inconsistencies were fixed. Commit, push, Pages, and production verification
-  remain.
+  inconsistencies were fixed.
+- Released in `daaf743d6d35f94659fb776372505ba0c13927b0`; Pages run
+  `30399382114` succeeded.
+- The live homepage, San Diego page, local records, and sitemap byte-matched the
+  reviewed commit. The live canonical, H1, City/County routing,
+  incorporated-city non-match, focus, source links, and 320px layout passed.
 
 The two-hour Control Room scan does not authorize two-hour content production.
 There is no fixed daily substantive-action limit. Actions remain separate and

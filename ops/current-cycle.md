@@ -2,14 +2,14 @@
 
 Last updated: 2026-07-28
 
-Active action: `THC-SD-001`
+Active action: `none`
 
 Next eligible action: `none`
 
-## Active Priority
+## Latest Completed Action
 
-`THC-SD-001` is a direct-manual research and implementation transaction selected
-on 2026-07-28 after `THC-HOME-001` was production-verified. It repairs the
+`THC-SD-001` was a direct-manual research and implementation transaction selected
+on 2026-07-28 after `THC-HOME-001` was production-verified. It repaired the
 existing San Diego URL around the reader's first jurisdiction decision: City
 of San Diego, unincorporated San Diego County, or another incorporated city.
 
@@ -70,8 +70,12 @@ Preliminary QA:
 - Read-only research advisor `019faa73-88bf-7eb2-ab95-5ded1eb84fc9` independently
   confirmed the jurisdiction-first strategy and current-code correction.
 - Independent read-only review returned `PASS` in cycle 2 after both cycle 1
-  P2 documentation inconsistencies were fixed. Commit, push, Pages, and
-  production verification remain.
+  P2 documentation inconsistencies were fixed.
+- Released in `daaf743d6d35f94659fb776372505ba0c13927b0`; Pages run
+  `30399382114` succeeded.
+- The live homepage, San Diego page, local-record data, and sitemap
+  byte-matched the reviewed commit. HTTP, canonical, H1, City/County routing,
+  incorporated-city non-match, focus, and 320px containment checks passed.
 
 `THC-HOME-001` remains complete and production-verified:
 
@@ -271,9 +275,8 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- `THC-SD-001` is the only active transaction. Its implementation is
-  review-clean and remains inside commit, release, and production-verification
-  gates.
+- No substantive transaction is active after the production-verified
+  `THC-SD-001` release.
 - `THC-BUILD-002` remains the strongest measured demand candidate, not the
   selected build.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or

@@ -15,18 +15,16 @@ durable execution queue; backlog headings do not authorize work.
 
 ## Active
 
-- `THC-SD-001`: repair the existing San Diego guide around the current City
-  section 141.0318 path, the separate unincorporated-County THOW determination,
-  and an explicit stop for other incorporated cities.
-- Durable research, page implementation, County source data, exact homepage
-  routing, canonical, and sitemap date are complete in the working tree.
-- Native and responsive browser QA are green. Independent review returned
-  `PASS` in cycle 2; commit, push, Pages, and production verification remain.
-- Do not absorb another local page, the cost calculator, or the national build
-  asset into this transaction.
+- None.
 
 ## Released
 
+- `THC-SD-001`: repaired the existing San Diego guide around current City
+  section 141.0318, the separate unincorporated-County THOW determination, and
+  an explicit stop for other incorporated cities.
+- Research, City/County source data, exact homepage routing, canonical,
+  sitemap, native/browser QA, and independent review passed.
+- Released in `daaf743`; Pages run `30399382114` and production checks passed.
 - `THC-HOME-001`: rebuild the homepage placement hub around a source-backed
   buyer decision path.
 - Exact future scope and acceptance criteria are recorded in

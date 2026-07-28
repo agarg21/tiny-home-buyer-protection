@@ -531,3 +531,18 @@ Independent operator review cycle 2:
 
 Release state: review-clean; commit, push, Pages, and production verification
 remain.
+
+## 2026-07-28 - THC-SD-001 Release Record
+
+- Reviewed implementation commit:
+  `daaf743d6d35f94659fb776372505ba0c13927b0`.
+- Push: `origin/main` accepted the exact reviewed commit.
+- GitHub Pages run: `30399382114`, success.
+- HTTP: the live San Diego URL returned `200`.
+- Byte matches: live homepage, San Diego page, local-record data, and sitemap
+  matched the reviewed repository files.
+- Live browser: canonical, answer-first H1, first-viewport jurisdiction signal,
+  City source route, unincorporated-County source route, incorporated-city
+  non-match, official links, focus handoff, and 320px containment passed.
+
+Release state: production-verified.

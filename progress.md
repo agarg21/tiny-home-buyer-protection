@@ -314,4 +314,9 @@
   containment.
 - Independent read-only operator review cycle 1 found two P2 documentation
   inconsistencies and no page/source defects. Both were fixed; cycle 2 returned
-  `PASS` with no remaining P0-P3 findings. Release verification remains.
+  `PASS` with no remaining P0-P3 findings.
+- Released `THC-SD-001` in
+  `daaf743d6d35f94659fb776372505ba0c13927b0`; Pages run `30399382114`
+  succeeded. Live repository-byte, HTTP, canonical, H1, City/County routing,
+  incorporated-city non-match, focus, source-link, and mobile-containment
+  checks passed.
