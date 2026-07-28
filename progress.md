@@ -278,4 +278,13 @@
   `019faa05-b89c-7700-9eac-48f0b482bbe3` returned `PASS` on cycle 3 with no
   P0-P3 findings.
 - `THC-HOME-001` is review-clean and release-authorized. Final native QA,
-  commit, push, Pages, and production verification remain.
+  commit, push, Pages, and production verification followed.
+- Committed and pushed the exact 11-path review-clean implementation as
+  `7f9ea5f558c288c06d6d18d046a7cc13443a2352`.
+- GitHub Pages run `30390104298` succeeded.
+- The live homepage returned HTTP 200 and byte-matched the committed HTML; the
+  live sitemap byte-matched the committed XML.
+- Production browser checks passed the homepage canonical, legacy anchors,
+  visible-copy boundaries, Los Angeles City source route, County stop, focus
+  handoff, and desktop containment.
+- Completed `THC-HOME-001` as released and production-verified.

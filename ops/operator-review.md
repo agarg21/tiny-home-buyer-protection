@@ -412,5 +412,15 @@ Final QA:
 - Anti Gravity advisory was attempted but produced no verdict because its
   headless reviewer could not obtain its own command permission.
 
-Release state: independently review-clean and authorized. Push, Pages, and
-production verification remain.
+Release:
+
+- Commit: `7f9ea5f558c288c06d6d18d046a7cc13443a2352`
+- Remote: `origin/main` contains the exact reviewed commit.
+- Pages run: `30390104298`, successful.
+- Live homepage: HTTP 200 and byte-identical to `site/index.html`.
+- Live sitemap: byte-identical to `site/sitemap.xml`.
+- Live browser: canonical, `#tool`, `#records`, no visible internal
+  schema/confidence copy, LA City source route, County boundary stop, focus
+  handoff, and desktop containment passed.
+
+Release state: production-verified.

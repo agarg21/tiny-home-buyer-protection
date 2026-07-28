@@ -46,8 +46,16 @@ overflow.
 
 Independent review returned `PASS` on cycle 3 with no P0-P3 findings after
 repetition, mobile first-screen, stale-state, classification wording, and
-adversarial overflow fixes. Release is authorized; push, Pages, and production
-verification remain.
+adversarial overflow fixes.
+
+Release completed:
+
+- Commit: `7f9ea5f558c288c06d6d18d046a7cc13443a2352`
+- Pages run: `30390104298` (`success`)
+- Live homepage: HTTP 200 and byte-matched committed `site/index.html`
+- Live sitemap: byte-matched committed `site/sitemap.xml`
+- Live browser: canonical, legacy anchors, visible-copy boundaries, LA City
+  source route, county stop, focus handoff, and desktop containment passed.
 
 `THC-BUILD-002` remains a candidate and is not selected. No other page revamp,
 fresh keyword/SERP research, indexing request, outreach, external-account work,
@@ -229,6 +237,7 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-After `THC-RES-001` passes independent review and its research-only commit is
-pushed, separately select `THC-HOME-001`. Freeze the 11 paths in its roadmap
-record before editing and do not absorb another page repair.
+`none`. The full-site decision pack records San Diego City versus
+unincorporated-County freshness, calculator behavior, and the national build
+asset as later candidates. Select and freeze one separate action before more
+implementation.

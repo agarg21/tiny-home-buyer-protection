@@ -459,7 +459,7 @@
       "hypothesis": "A first-screen four-factor placement model, beginner-friendly category decoder, honest decision-path output, explicit supported-location routing, and consolidated proof checklist will make the homepage materially more useful without implying parcel approval.",
       "expected_effect": "The homepage becomes a credible buyer-protection hub that helps broad placement searchers choose the next official check and routes local, cost, budget, and future build decisions without fake precision.",
       "success_signal": "Beginner, intermediate, and advanced placement-feasibility reviews pass; every visible block has a distinct reader purpose; unsupported locations never look verified; source-backed local guidance is explicit and statically linked; internal schema/MVP language is absent; native and visual QA pass; and an independent reviewer returns PASS or PASS_WITH_P3.",
-      "implementation_state": "review-clean-release-pending",
+      "implementation_state": "released",
       "review_outcome": "PASS",
       "review_cycles": 3,
       "qa_evidence": [
@@ -475,8 +475,12 @@
       ],
       "evidence_classification": "THC-RES-001 durable demand, bounded July 28 public SERP/ranking-page evidence, full-site section audit, decision-persona review, and direct user feedback select this action. The unchanged July 28 GSC snapshot is monitoring context only.",
       "result": "Rebuilt the homepage around the four factors that change a placement path, moved the category decoder before the checker, replaced generic location-looking output with ordered decision checks, limited local source matches to their actual City/classification scope, added static local routes and an explicit canonical, and removed visible MVP/schema/confidence language plus duplicate checklist/source sections.",
-      "release_state": "authorized-pending-push",
-      "notes": "Implementation and independent review are complete. Standing reviewed-release authorization applies; push, Pages, and production verification remain. No other page, local-record data, workflow, research artifact, indexing, outreach, external account, vendor recommendation, typical/complete cost claim, lead generation, or legal conclusion changed."
+      "release_state": "production-verified",
+      "release_commit": "7f9ea5f558c288c06d6d18d046a7cc13443a2352",
+      "released_on": "2026-07-28",
+      "pages_workflow_run": "30390104298",
+      "production_verification": "GitHub Pages run 30390104298 succeeded for the exact pushed commit. The live homepage returned HTTP 200 and byte-matched site/index.html; the live sitemap byte-matched site/sitemap.xml. Browser checks confirmed the canonical, legacy #tool and #records anchors, no visible internal schema/confidence language, the Los Angeles City source route, the City-to-County stop, focus handoff, and zero desktop overflow.",
+      "notes": "Released and production-verified. No other page, local-record data, workflow, research artifact, indexing, outreach, external account, vendor recommendation, typical/complete cost claim, lead generation, or legal conclusion changed."
     }
   ]
 }

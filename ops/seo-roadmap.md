@@ -241,8 +241,11 @@ another. A no-op remains valid when evidence and user priority are unchanged.
   source matching, static local guide routes, one proof checklist, homepage
   canonical, and updated sitemap date.
 - Independent review returned `PASS` on cycle 3 with no P0-P3 findings. Native
-  and visual QA are green. Release is authorized; push, Pages, and production
-  verification remain.
+  and visual QA are green.
+- Released in `7f9ea5f`; Pages run `30390104298` succeeded. The live homepage
+  and sitemap byte-match the committed files, and the live canonical, legacy
+  anchors, copy boundaries, LA City route, County stop, focus, and containment
+  checks passed.
 
 ## THC-MON-001 observation note
 
