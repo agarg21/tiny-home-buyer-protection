@@ -51,6 +51,9 @@ Operator is the single repository writer for the selected transaction.
   material strategy, research, code, content, or configuration change.
 - Fix P0-P2 for at most three review cycles.
 - Commit and push only review-clean exact-path work under `AGENTS.md`.
+- Run substantive transactions serially. There is no fixed daily commit limit,
+  but a later action may not absorb, bypass review for, or obscure an earlier
+  action.
 
 ## Boundaries
 

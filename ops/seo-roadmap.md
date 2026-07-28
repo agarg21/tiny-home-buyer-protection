@@ -18,17 +18,39 @@ unreviewed release decisions.
    due-diligence brief on 2026-07-20.
 5. `THC-OPS-001` — completed on 2026-07-28: hardened the research,
    persona-review, QA, and operating model without changing `site/**`.
-6. `THC-RES-001` — remains planned as the next research-only full-site decision
-   pack after `THC-OPS-001` is complete and review-clean.
-7. `THC-BUILD-002` — remains a candidate; do not implement it before the
+6. `THC-OPS-002` — completed on 2026-07-28: removed the fixed daily
+   substantive-action limit while preserving serial, independently reviewed
+   transactions.
+7. `THC-RES-001` — remains planned as the next research-only full-site decision
+   pack after `THC-OPS-002` is review-clean, committed, and pushed.
+8. `THC-BUILD-002` — remains a candidate; do not implement it before the
    full-site decision pack tests it against the homepage and other revamp needs.
-8. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
-9. Select the next buyer-protection tool only from observed evidence and the
+9. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
+10. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
 
 The two-hour Control Room scan does not authorize two-hour content production.
-At most one substantive project action may run per day during the proving
-period, and a no-op is valid.
+There is no fixed daily substantive-action limit. Actions remain separate and
+serial: finish and release or stop one registered transaction before selecting
+another. A no-op remains valid when evidence and user priority are unchanged.
+
+## THC-OPS-002 completion evidence
+
+- Selection basis: direct manual user instruction on 2026-07-28.
+- Change: remove the fixed one-substantive-action-per-day rule from every live
+  project protocol surface.
+- Preserved controls: one writer, one registered action at a time, exact paths,
+  dirty-work preservation, native QA, independent read-only review, serial
+  commit/push, and deployment verification when applicable.
+- Prohibited in this action: `site/**`, research, content, indexing, outreach,
+  deployment, or external-account work.
+- Result: all live project protocol surfaces now allow multiple separately
+  reviewed transactions in one day while requiring serial action completion.
+- QA: 26 Node tests, site/state QA, both JSON validations, required-file
+  checks, and `git diff --check` passed.
+- Independent review: cycles 1 and 2 found stale prerequisite/evidence-placement
+  issues; both were corrected. Cycle 3 returned `PASS` with no P0-P3 findings.
+- Release boundary: docs/config only; no deployment applies.
 
 ## THC-OPS-001 completion evidence
 

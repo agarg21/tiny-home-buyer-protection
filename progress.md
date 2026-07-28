@@ -206,3 +206,9 @@
   returned `PASS` on cycle 3 with no P0-P3 findings.
 - Completed `THC-OPS-001` as docs/tools-only work. No deployment applies;
   `THC-RES-001` remains planned and was not started.
+- Registered `THC-OPS-002` after the user explicitly removed the fixed daily
+  substantive-action limit. The replacement keeps transactions serial,
+  exact-path, QA-green, and independently reviewed.
+- Completed `THC-OPS-002` after independent reviewer cycle 3 returned `PASS`
+  with no P0-P3 findings. Native QA passed 26 tests, site/state checks, both
+  JSON validations, required-file checks, and `git diff --check`.

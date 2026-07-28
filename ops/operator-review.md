@@ -139,3 +139,61 @@ Review cycle 3:
   indexing, outreach, or external-account change.
 - Release state: review-clean docs/tools-only commit; push is authorized under
   the standing reviewed-release policy and no deployment applies.
+
+## 2026-07-28 - Remove Fixed Daily Action Limit
+
+Action: `THC-OPS-002`
+
+Selection authority: direct manual user instruction.
+
+Decision:
+
+- Remove the one-substantive-action-per-day limit.
+- Allow multiple separately registered, exact-path, QA-green, independently
+  reviewed transactions in one day.
+- Keep transactions serial. Complete and release or stop one before selecting
+  another.
+
+Scope: the 10 exact protocol and durable-state paths recorded in
+`ops/seo-roadmap.json`. No site, research, content, deployment, indexing,
+outreach, or external-account mutation.
+
+Independent review: pending.
+
+Review cycle 1:
+
+- Reviewer thread: `019fa9de-cb91-7b12-920c-be9b57023b9b`
+- Reviewer title: unavailable
+- Verdict: `FAIL`
+- P0/P1/P3: none.
+- P2: stale prerequisites made `THC-RES-001` appear runnable after
+  `THC-OPS-001` while `THC-OPS-002` remained active.
+- Resolution: name `THC-OPS-002` consistently and require it to be
+  review-clean, committed, and pushed before `THC-RES-001` starts.
+
+Review cycle 2:
+
+- Reviewer thread: `019fa9de-cb91-7b12-920c-be9b57023b9b`
+- Reviewer title: unavailable
+- Verdict: `FAIL`
+- Original cycle-1 finding: resolved.
+- P0/P1/P3: none.
+- P2: cycle-1 evidence was placed under `THC-OPS-001` rather than this action.
+- Resolution: move the evidence intact beneath `THC-OPS-002` and request final
+  cycle 3 review.
+
+Review cycle 3:
+
+- Reviewer thread: `019fa9de-cb91-7b12-920c-be9b57023b9b`
+- Reviewer title: unavailable
+- Reviewer kind: independent subagent
+- Read-only: yes
+- Reviewed base: `cb5a901167ab6dd0a26330470cec35ea624eff8e`
+- Candidate: uncommitted working tree, exactly the 10 target paths in
+  `ops/seo-roadmap.json`
+- Verdict: `PASS`
+- Findings: no P0, P1, P2, or P3.
+- QA: 26 Node tests, site/state QA, operator and roadmap JSON validation,
+  required-file checks, exact-path scope, and `git diff --check` passed.
+- Scope: protocol only; no `site/**` or external mutation.
+- Release state: review-clean docs/config-only commit; no deployment applies.

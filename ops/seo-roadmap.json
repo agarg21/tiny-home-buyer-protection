@@ -273,6 +273,54 @@
       "notes": "Docs/tools only; no deployment applies. THC-RES-001 is next eligible but remains planned and must be separately selected. Do not infer that THC-BUILD-002 or any page revamp is approved."
     },
     {
+      "id": "THC-OPS-002",
+      "title": "Remove the fixed daily substantive-action limit",
+      "kind": "operating-model",
+      "lane": "product-strategy",
+      "impact": 4,
+      "confidence": 5,
+      "learning_value": 2,
+      "effort": 1,
+      "risk": 2,
+      "status": "completed",
+      "selected_on": "2026-07-28",
+      "completed_on": "2026-07-28",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [],
+      "target_paths": [
+        "AGENTS.md",
+        "agents/master-operator.md",
+        "ops/operator.json",
+        "ops/portfolio-operator.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "progress.md",
+        "decisions.md"
+      ],
+      "baseline": "The project protocol allows only one substantive commit per day, which blocks a user-directed manual revamp after a review-clean transaction has already shipped.",
+      "hypothesis": "Removing the fixed daily cap while keeping actions serial, exact-path, QA-green, and independently reviewed will increase speed without weakening transaction accountability.",
+      "expected_effect": "The Master chat can complete multiple separate manual revamp transactions in one day without overlapping writers, bundling action scopes, or bypassing review and release controls.",
+      "success_signal": "All live project protocol surfaces agree that there is no fixed daily limit, serial transaction boundaries remain explicit, native QA passes, and independent review finds no P0-P2 issue.",
+      "implementation_state": "review-clean-docs-only",
+      "review_outcome": "PASS",
+      "review_cycles": 3,
+      "qa_evidence": [
+        "node --test tools/*.test.mjs passed 26 tests",
+        "site QA found 0 errors and 6 known missing-canonical warnings",
+        "operator-state QA passed",
+        "ops/operator.json and ops/seo-roadmap.json parsed",
+        "required deployment files are present",
+        "git diff --check passed",
+        "independent read-only review cycle 3 returned PASS with no P0-P3 findings"
+      ],
+      "evidence_classification": "Direct manual user instruction on 2026-07-28 explicitly removes the one-commit limit and selects manual revamp work. GSC is unrelated monitoring context.",
+      "result": "Removed the fixed daily substantive-action limit from every live project protocol surface while preserving serial action boundaries, exact paths, native QA, independent review, and release controls.",
+      "notes": "Protocol only; no deployment applies. THC-RES-001 may be selected only after the commit containing this record is pushed."
+    },
+    {
       "id": "THC-BUILD-002",
       "title": "Build the national tiny-home build decision and due-diligence asset",
       "kind": "content-and-product",
@@ -353,7 +401,7 @@
         "decisions.md"
       ],
       "success_signal": "A review-clean research-only pack preserves query and exact SERP evidence, ranking-page analysis, evidence-linked decision personas, beginner/intermediate/advanced passes, every-page/every-section audit, architecture, and exactly one promoted implementation action.",
-      "notes": "Run only after THC-OPS-001 is complete. Compare the homepage placement hub, THC-BUILD-002, Georgia classification page, cost calculator, under-$20K page, and the observation-protected LA/San Diego repairs. Reuse durable July 18 DataForSEO evidence and buy only bounded gaps. Do not change site/**, scale location pages, add lead generation, request indexing, or promote more than one action."
+      "notes": "Run only after THC-OPS-002 is review-clean, committed, and pushed. Compare the homepage placement hub, THC-BUILD-002, Georgia classification page, cost calculator, under-$20K page, and the observation-protected LA/San Diego repairs. Reuse durable July 18 DataForSEO evidence and buy only bounded gaps. Do not change site/**, scale location pages, add lead generation, request indexing, or promote more than one action."
     }
   ]
 }

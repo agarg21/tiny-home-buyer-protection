@@ -8,20 +8,20 @@ Next eligible action: `THC-RES-001` (planned; not started)
 
 ## Active Priority
 
-`THC-OPS-001` completed as one bounded operating-model transaction selected by
-direct user instruction. It hardened research, persona review, role ownership,
-page-status records, and native QA without changing `site/**`.
+`THC-OPS-002` completed by direct user instruction. The fixed daily
+substantive-action limit is removed. Transactions remain serial, exact-path,
+QA-green, and independently reviewed.
 
-Independent read-only review passed on cycle 3 with no P0-P3 findings. Native
-QA passed 26 tests, six-page site/sitemap checks with zero errors and six known
-missing-canonical warnings, operator-state QA, JSON validation, required-file
-checks, and `git diff --check`.
+Independent read-only review returned `PASS` on cycle 3 with no P0-P3
+findings. Native QA passed 26 tests, site/state checks, both JSON validations,
+required-file checks, and `git diff --check`. No `site/**`, research, content,
+indexing, outreach, deployment, or external-account work occurred.
 
 `THC-RES-001` remains planned as the next research-only full-site decision pack.
 `THC-BUILD-002` remains a candidate and is not selected. No page revamp, fresh
 keyword/SERP research, indexing request, outreach, deployment, external-account
 work, builder/vendor recommendation, cost claim, or legal/zoning conclusion is
-part of `THC-OPS-001`.
+part of `THC-OPS-002`.
 
 Continue to observe validated daily GSC snapshots, but do not turn routine
 snapshot drift into a project action unless it identifies a discovery, indexing,
@@ -182,8 +182,8 @@ evidence, not a standalone action trigger.
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
 - `THC-RES-001` is the next eligible research-only action after
-  `THC-OPS-001` completes. It requires separate selection and must promote only
-  one later implementation action.
+  `THC-OPS-002` is review-clean, committed, and pushed. It requires separate
+  selection and must promote only one later implementation action.
 - `THC-BUILD-002` remains a candidate to be compared inside that decision pack,
   not the assumed next build.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
@@ -199,5 +199,6 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-Separately select `THC-RES-001` to create the research-only full-site decision
-pack. Do not start research or implementation from this completed transaction.
+After the commit containing the `THC-OPS-002` completion record is pushed,
+separately select `THC-RES-001` to create the research-only full-site decision
+pack.

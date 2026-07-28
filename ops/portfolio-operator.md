@@ -11,11 +11,14 @@ cross-run sensing, normalized private evidence, the action ledger, and the
 portfolio report.
 
 Standing reviewed-release authorization was granted on 2026-07-17. The operator
-may inspect, research, implement, independently review, validate, push one
-exact-path substantive commit per day, and verify its GitHub Pages release. It
-must preserve all pre-existing dirty work, stop on remote divergence, and stop
-when rollback scope is ambiguous. Authenticated Semrush access is optional local
-enrichment, not a reason to stop API-, repository-, public-, or GSC-backed work.
+may inspect, research, implement, independently review, validate, and push
+multiple exact-path substantive transactions in a day. The fixed daily limit
+was removed by direct user instruction on 2026-07-28. Transactions remain
+serial: finish and release or stop one action before selecting the next. The
+operator must preserve all pre-existing dirty work, stop on remote divergence,
+and stop when rollback scope is ambiguous. Authenticated Semrush access is
+optional local enrichment, not a reason to stop API-, repository-, public-, or
+GSC-backed work.
 
 The daily read-only GSC Action is run-start housekeeping. Validate and compare a
 new snapshot with the prior snapshot and roadmap before choosing work. Act when

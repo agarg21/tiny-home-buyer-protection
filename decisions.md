@@ -398,3 +398,26 @@ Implementation:
 - Every later page transaction requires exact paths, first-screen and
   every-section acceptance criteria, native QA, and a different independent
   read-only reviewer.
+
+## 2026-07-28 - Remove Fixed Daily Commit Limit
+
+Decision: remove the one-substantive-action-per-day limit for Tiny Home
+Clarity. Multiple substantive transactions may be completed in one day when
+the user or a valid Control Room dispatch selects them.
+
+Preserved controls:
+
+- one project writer;
+- one registered action in progress at a time;
+- exact paths and dirty-work preservation;
+- native QA and a different independent read-only reviewer;
+- at most three review cycles;
+- separate commits and release evidence for separate actions; and
+- deployment and production verification whenever `site/**` changes.
+
+Why:
+
+- The fixed waiting period slows an active manual revamp without improving the
+  evidence or review quality of an already bounded next transaction.
+- Serial action boundaries provide the useful safety property. A calendar-day
+  quota does not.

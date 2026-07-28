@@ -135,7 +135,13 @@ curl -I https://example.com/sitemap.xml
 - Direct manual user work does not need a dispatch lease, but it still requires
   one recorded action, exact paths, native QA, a different independent
   read-only reviewer, and the same release controls.
-- The user granted standing reviewed-release authorization on 2026-07-17. The operator may create and push at most one exact-path, independently reviewed, QA-green substantive commit per day, then verify the native Pages run and action-specific production invariants. Stop on remote divergence or a production regression whose rollback scope is ambiguous.
+- The user granted standing reviewed-release authorization on 2026-07-17 and
+  removed the fixed daily substantive-action limit on 2026-07-28. Multiple
+  independently reviewed, QA-green transactions may be committed and pushed in
+  one day. Run them serially: complete and release or stop one registered action
+  before selecting the next. Verify the native Pages run and action-specific
+  production invariants whenever deployment applies. Stop on remote divergence
+  or a production regression whose rollback scope is ambiguous.
 - GitHub Actions collects a normalized public-safe GSC snapshot daily. At run start, validate and compare every new snapshot with the prior snapshot and `ops/seo-roadmap.json`. The first snapshot establishes a baseline and cannot satisfy a changed-evidence gate. New data may unlock or reprioritize an item, but an unchanged healthy snapshot is housekeeping and should produce a no-op rather than manufactured work.
 - Never commit GSC credentials, complete raw query exports, country/device rows, or user data. Treat Semrush as optional enrichment; GSC API evidence is the unattended first-party measurement source.
 - A two-hour scan is a sensing cadence, not a content-production quota. Healthy unchanged runs should stop as no-ops.
