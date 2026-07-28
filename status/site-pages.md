@@ -9,23 +9,24 @@ small samples are monitoring context, not a revamp order.
 
 | Page | Primary role | 2026-07-28 GSC overlay | Current state | Review coverage | Remaining / blocker |
 |---|---|---|---|---|---|
-| `https://tinyhomeclarity.com/` | National placement triage tool and hub | 16 impressions, 0 clicks, page-level position 31.94 | Live and indexed | Earlier spec/launch review; current searcher-persona gate exists but no full-site every-section audit | Full-site decision pack must test the first screen, tool usefulness, broad/local intent boundary, repetition, and support-page routing before a revamp is selected. |
+| `https://tinyhomeclarity.com/` | National placement decision hub | 16 impressions, 0 clicks, page-level position 31.94 | Live and indexed; `THC-HOME-001` promoted, not started | Full every-section, decision-persona, and beginner/intermediate/advanced audit completed in `THC-RES-001` | Rebuild the first screen and tool around jurisdiction, classification, use, and land context. Remove fake location precision, visible internal record fields, duplicate cautions/checklists, and weak local routing. |
 | `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/` | Los Angeles mixed-intent buyer-protection and official-source guide | 4 impressions, 0 clicks, page-level position 14 | Live, indexed, and repaired in `THC-QUAL-001` | Searcher-POV and beginner/intermediate/advanced review completed | Observe unless the full-site audit identifies a concrete unmet job or source/freshness defect. Do not infer stable ranking from four impressions. |
-| `https://tinyhomeclarity.com/san-diego-tiny-house-adu/` | San Diego mixed-intent buyer-protection and official-source guide | 3 impressions, 0 clicks, page-level position 21 | Live, indexed, and repaired in `THC-QUAL-001` | Searcher-POV and beginner/intermediate/advanced review completed | Observe unless the full-site audit identifies a concrete unmet job or source/freshness defect. |
-| `https://tinyhomeclarity.com/georgia-tiny-house-classification/` | Georgia structure-classification explainer before local zoning | 5 impressions, 0 clicks, page-level position 22.4 | Live and indexed | Original source/support-page review only | Needs current SERP, decision-persona, every-section, and answer-first usefulness audit before material repair. |
-| `https://tinyhomeclarity.com/tiny-home-cost-calculator/` | Editable all-in planning calculator and seller-quote reality check | 2 impressions, 0 clicks, page-level position 26 | Live and indexed | Calculator brief/review completed before the expanded persona workflow | Needs current calculator SERP, decision-persona, result usefulness, assumptions, mobile interaction, and every-section audit. |
-| `https://tinyhomeclarity.com/tiny-house-under-20k/` | Buyer-protective feasibility checker for under-$20K claims | No page performance row in the current public snapshot | Live; the current URL Inspection row reports not indexed | Brief, calculator-state, claim-safety, visual, and independent review completed | Do not rewrite from absence of impressions. Recheck crawl/index evidence inside the full-site decision pack. |
+| `https://tinyhomeclarity.com/san-diego-tiny-house-adu/` | San Diego mixed-intent buyer-protection and official-source guide | 3 impressions, 0 clicks, page-level position 21 | Live, indexed, and repaired in `THC-QUAL-001` | Searcher-POV, experience-level, and current every-section audit completed | Observe. Record a later City-versus-unincorporated-County freshness repair: current County guidance exposes a distinct THOW path effective September 4, 2025. Do not collapse City and County into one permission claim. |
+| `https://tinyhomeclarity.com/georgia-tiny-house-classification/` | Georgia structure-classification explainer before local zoning | 5 impressions, 0 clicks, page-level position 22.4 | Live and indexed | Current SERP, decision-persona, experience-level, and every-section audit completed | Answer-first repair is justified on human usefulness, but measured query demand remains `UNKNOWN`; keep behind homepage, San Diego, calculator, and build candidates. |
+| `https://tinyhomeclarity.com/tiny-home-cost-calculator/` | Editable all-in planning calculator and seller-quote reality check | 2 impressions, 0 clicks, page-level position 26 | Live and indexed | Current calculator SERP, decision-persona, experience-level, and every-section audit completed | Repair blank/partial-result behavior, possible utility double counting, project-type assumptions, and quote-first progressive disclosure after the homepage. |
+| `https://tinyhomeclarity.com/tiny-house-under-20k/` | Buyer-protective feasibility checker for under-$20K claims | No page performance row in the current public snapshot | Live; the current URL Inspection row reports not indexed | Current SERP, decision-persona, experience-level, and every-section audit completed | Preserve the answer; later consolidate its duplicate budget tool into the cost calculator and fix the blank-state verdict. Do not rewrite from absent impressions. |
 
 ## Planned Decision Surface
 
 `THC-BUILD-002`, the national plans/kits/shells/trailers/builders
-due-diligence asset, is a candidate rather than a selected page. The full-site
-decision pack must compare it with improving the placement hub and existing
-tools before promoting one implementation.
+due-diligence asset, remains the strongest measured demand opportunity and a
+candidate rather than the selected page. `THC-HOME-001` goes first because the
+current primary public entry page has the clearest existing promise/result
+mismatch.
 
-## Next Eligible Research
+## Promoted Implementation
 
-`THC-RES-001`: create one research-only full-site decision pack covering
-current demand, exact SERP samples, ranking pages, evidence-linked decision
-personas, every-page/every-section usefulness, architecture, and exactly one
-promoted implementation action.
+`THC-HOME-001`: rebuild the homepage placement hub around a source-backed
+buyer decision path. The complete research, first-screen promise, section
+dispositions, boundaries, QA, release, and measurement plan are in
+`docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`.

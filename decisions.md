@@ -421,3 +421,40 @@ Why:
   evidence or review quality of an already bounded next transaction.
 - Serial action boundaries provide the useful safety property. A calendar-day
   quota does not.
+
+## 2026-07-28 - Repair The Homepage Before Adding Another National Asset
+
+Decision: promote `THC-HOME-001`, a rebuild of the homepage placement hub,
+before implementing the national build decision asset.
+
+Why:
+
+- The homepage is the primary public entry and has the clearest existing
+  promise/result mismatch: its output looks location-specific while most
+  guidance is generic and low-confidence.
+- Beginners must classify the structure before the page teaches the relevant
+  categories.
+- Visible internal record fields, `MVP` language, duplicate checklists, and
+  repeated cautions make the page feel like an internal artifact rather than a
+  human decision tool.
+- The homepage has the largest current GSC page sample, but the 16 impressions
+  and zero clicks are monitoring context, not proof of a ranking opportunity.
+- The national build decision asset has the strongest measured demand and
+  remains a high-priority candidate. Adding it before repairing the primary
+  entry would preserve the site's weakest first impression.
+
+Implementation implication:
+
+- The first screen should explain the four facts that determine the next
+  placement check: exact jurisdiction, home type, intended use, and land
+  context.
+- Teach classification before asking for it, return an honest decision path,
+  and explicitly separate source-backed locations from general guidance.
+- Do not imply parcel approval, expose internal record fields, recommend
+  vendors, or repeat the same caution through every section.
+- Complete `THC-RES-001` as a review-clean research-only transaction before
+  starting the separately registered homepage action.
+
+Evidence:
+
+- `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`

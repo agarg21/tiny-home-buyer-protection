@@ -87,7 +87,7 @@ Pre-review QA:
 - `ops/seo-roadmap.json` parses.
 - `git diff --check` passes.
 
-Independent review: pending.
+Independent review:
 
 Review cycle 1:
 
@@ -197,3 +197,98 @@ Review cycle 3:
   required-file checks, exact-path scope, and `git diff --check` passed.
 - Scope: protocol only; no `site/**` or external mutation.
 - Release state: review-clean docs/config-only commit; no deployment applies.
+
+## 2026-07-28 - Full-Site Search And Revamp Decision Pack
+
+Action: `THC-RES-001`
+
+Selection authority: direct manual user instruction after `THC-OPS-002` was
+review-clean and pushed.
+
+Evidence classification:
+
+- Durable July 18 DataForSEO demand and intent artifacts are causal research
+  evidence.
+- Current bounded public SERP and ranking-page samples may refine page jobs and
+  architecture.
+- The unchanged July 28 GSC snapshot is monitoring context only.
+
+Scope: the 10 exact research and durable-state paths recorded in
+`ops/seo-roadmap.json`. No `site/**`, implementation, indexing, outreach,
+deployment, external-account mutation, vendor recommendation, cost conclusion,
+or legal/zoning conclusion.
+
+Draft result:
+
+- Compared all six live pages and `THC-BUILD-002` using retained demand,
+  current bounded public SERP/ranking pages, six evidence-linked decision
+  personas, three experience levels, and every-section dispositions.
+- Promoted exactly one action: `THC-HOME-001`, the homepage placement-hub
+  repair.
+- Recorded San Diego's current unincorporated-County THOW path as a later
+  freshness repair without changing the already scoped City page.
+- Made no `site/**` or external-state change.
+
+Independent review:
+
+Review cycle 1:
+
+- Reviewer: thread `019fa9f0-f0e4-7f40-a628-5e258b93af39`
+  (`Feynman`; exact task title unavailable).
+- Verdict: `FAIL`.
+- P2: the SERP sample lacked per-query market, page type, feature
+  availability, overlap, architecture decision, and confidence metadata.
+- P2: decision personas did not preserve specific dated evidence, context,
+  anxiety, decision criteria, and pages served.
+- P2: only the homepage had explicit every-block dispositions while the pack
+  and page-status mirror claimed every-section coverage for all pages.
+
+Cycle 1 fixes:
+
+- Added a reproducible eight-query SERP matrix with retained URLs, page types,
+  market/locale or `UNKNOWN`, feature limits, overlap, architecture decisions,
+  and confidence.
+- Expanded all six decision personas with dated evidence references, context,
+  anxieties, criteria, pages served, and failure boundaries.
+- Added explicit dispositions for every visible and generated block on Los
+  Angeles, San Diego, Georgia, cost calculator, and under-$20K, plus the
+  proposed modules of the unbuilt national asset.
+
+Review cycle 2:
+
+- Reviewer: same independent thread
+  `019fa9f0-f0e4-7f40-a628-5e258b93af39`.
+- Verdict: `FAIL`.
+- P2: the new matrix described overlap with Tiny Home Clarity but did not
+  classify overlap between paired SERP samples as exact URL, domain-only,
+  page-type, or `UNKNOWN`.
+- P3: the San Diego freshness analysis retained the 2020 City bulletin but not
+  the current municipal-code source.
+
+Cycle 2 fixes:
+
+- Added paired-sample overlap classifications to all eight SERP rows, including
+  the exact HomeAdvisor URL overlap and page-type-only local/placement overlap.
+- Added current San Diego Municipal Code section 141.0318, checked 2026-07-28,
+  to the retained sample and City-versus-County narrative.
+
+Review cycle 3:
+
+- Reviewer: same independent read-only thread
+  `019fa9f0-f0e4-7f40-a628-5e258b93af39`.
+- Verdict: `PASS`.
+- Findings: no P0-P3.
+- Verified the paired-sample overlap classifications, current San Diego code
+  source/date, complete cycle history, exact 10-path scope, research-only
+  boundary, and exactly one promoted but unstarted implementation action.
+
+Final QA:
+
+- `node --test tools/*.test.mjs`: 26 tests passed.
+- `node tools/seo-qa.mjs`: 0 errors and six known missing-canonical warnings.
+- `node tools/operator-state-qa.mjs`: 0 errors.
+- Roadmap JSON, required files, exact scope, no-`site/**` guard, and
+  `git diff --check`: passed.
+
+Release state: review-clean research/docs transaction. Push applies; deployment
+does not.

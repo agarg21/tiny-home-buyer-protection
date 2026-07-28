@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-07-27",
   "next_rescore_due": "2026-08-03",
-  "next_eligible_action_id": "THC-RES-001",
+  "next_eligible_action_id": "THC-HOME-001",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -385,12 +385,14 @@
       "learning_value": 4,
       "effort": 2,
       "risk": 2,
-      "status": "planned",
+      "status": "completed",
+      "selected_on": "2026-07-28",
+      "completed_on": "2026-07-28",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [],
       "target_paths": [
-        "docs/research/",
+        "docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md",
         "status/site-pages.md",
         "backlog/implementation-backlog.md",
         "backlog/seo-research-review-backlog.md",
@@ -398,10 +400,66 @@
         "ops/operator-review.md",
         "ops/seo-roadmap.json",
         "ops/seo-roadmap.md",
-        "decisions.md"
+        "decisions.md",
+        "progress.md"
       ],
+      "baseline": "Six live pages and one planned national build asset compete for the next revamp slot. Existing July 18 demand research, July 28 page-level GSC, and uneven persona/every-section review coverage do not yet provide one full-site comparison.",
+      "hypothesis": "A reproducible full-site query, SERP, ranking-page, decision-persona, experience-level, and every-section audit will identify one higher-value page action than choosing from headline volume or chat preference alone.",
+      "expected_effect": "Exactly one separately implementable page action is promoted with a user-first job, evidence basis, first-screen promise, section decisions, claim boundaries, QA, and measurement plan; all other candidates remain observed or deferred.",
       "success_signal": "A review-clean research-only pack preserves query and exact SERP evidence, ranking-page analysis, evidence-linked decision personas, beginner/intermediate/advanced passes, every-page/every-section audit, architecture, and exactly one promoted implementation action.",
-      "notes": "Run only after THC-OPS-002 is review-clean, committed, and pushed. Compare the homepage placement hub, THC-BUILD-002, Georgia classification page, cost calculator, under-$20K page, and the observation-protected LA/San Diego repairs. Reuse durable July 18 DataForSEO evidence and buy only bounded gaps. Do not change site/**, scale location pages, add lead generation, request indexing, or promote more than one action."
+      "implementation_state": "review-clean-research-only",
+      "review_outcome": "PASS",
+      "review_cycles": 3,
+      "qa_evidence": [
+        "node --test tools/*.test.mjs passed 26 tests",
+        "site QA checked 6 HTML pages and 6 sitemap URLs with 0 errors and 6 known missing-canonical warnings",
+        "operator-state QA passed with latest GSC snapshot 2026-07-28",
+        "ops/seo-roadmap.json parsed",
+        "required deployment files are present",
+        "exact 10-path scope and no-site guard passed",
+        "git diff --check passed",
+        "independent read-only review cycle 3 returned PASS with no P0-P3 findings"
+      ],
+      "evidence_classification": "Direct manual user instruction selects the full-site research transaction. Reuse durable July 18 DataForSEO artifacts; collect current public SERP/ranking-page samples only where they determine page strategy. The unchanged July 28 GSC snapshot is monitoring context, not causal support.",
+      "result": "The review-clean full-site decision pack compares all six live pages and the planned national build asset, preserves bounded demand and reproducible paired-SERP/ranking evidence, derives six evidence-linked decision personas, applies three experience-level passes and every-section dispositions, and promotes exactly one separate implementation action: THC-HOME-001.",
+      "notes": "THC-OPS-002 is review-clean and pushed in cb7df778e5cd8f5272a1535f3de6004786a08c20. The homepage is promoted because its location-specific-looking output is mostly generic, it asks beginners to classify before teaching classification, and internal record/MVP language plus repeated cautions weaken the site's primary public entry. THC-BUILD-002 remains the strongest measured demand candidate. No site/**, implementation, indexing, outreach, deployment, external-account, vendor, cost, or legal action occurred."
+    },
+    {
+      "id": "THC-HOME-001",
+      "title": "Rebuild the homepage placement hub around a source-backed buyer decision path",
+      "kind": "quality-improvement",
+      "lane": "content-and-product",
+      "impact": 5,
+      "confidence": 4,
+      "learning_value": 5,
+      "effort": 3,
+      "risk": 2,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/"
+      ],
+      "target_paths": [
+        "site/index.html",
+        "site/styles.css",
+        "site/sitemap.xml",
+        "status/site-pages.md",
+        "backlog/implementation-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "The homepage is the site's primary public entry, but its personalized-looking output is mostly generic, its form asks beginners to classify a tiny home before the page teaches classification, supported locations are unclear, internal record/MVP language is visible, and repeated cautions/checklists displace a useful next action.",
+      "hypothesis": "A first-screen four-factor placement model, beginner-friendly category decoder, honest decision-path output, explicit supported-location routing, and consolidated proof checklist will make the homepage materially more useful without implying parcel approval.",
+      "expected_effect": "The homepage becomes a credible buyer-protection hub that helps broad placement searchers choose the next official check and routes local, cost, budget, and future build decisions without fake precision.",
+      "success_signal": "Beginner, intermediate, and advanced placement-feasibility reviews pass; every visible block has a distinct reader purpose; unsupported locations never look verified; source-backed local guidance is explicit and statically linked; internal schema/MVP language is absent; native and visual QA pass; and an independent reviewer returns PASS or PASS_WITH_P3.",
+      "implementation_state": "promoted-not-started",
+      "evidence_classification": "THC-RES-001 durable demand, bounded July 28 public SERP/ranking-page evidence, full-site section audit, decision-persona review, and direct user feedback select this action. The unchanged July 28 GSC snapshot is monitoring context only.",
+      "notes": "Do not begin until THC-RES-001 is independently reviewed, committed, and pushed. No parcel approval, legal advice, broad local permission claim, vendor recommendation, typical/complete cost claim, lead generation, indexing request, or external-account change."
     }
   ]
 }

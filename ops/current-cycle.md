@@ -4,20 +4,33 @@ Last updated: 2026-07-28
 
 Active action: `none`
 
-Next eligible action: `THC-RES-001` (planned; not started)
+Next eligible action: `THC-HOME-001` (promoted; separately select after the
+`THC-RES-001` commit is pushed)
 
 ## Active Priority
 
-`THC-OPS-002` completed by direct user instruction. The fixed daily
-substantive-action limit is removed. Transactions remain serial, exact-path,
-QA-green, and independently reviewed.
+`THC-RES-001` is complete as one research-only full-site decision transaction.
+It compared all six live pages and the planned national build asset using
+durable demand evidence, current bounded SERP/ranking-page samples,
+evidence-linked decision personas, beginner/intermediate/advanced passes, and
+every-page/every-section audits.
 
-Independent read-only review returned `PASS` on cycle 3 with no P0-P3
-findings. Native QA passed 26 tests, site/state checks, both JSON validations,
-required-file checks, and `git diff --check`. No `site/**`, research, content,
-indexing, outreach, deployment, or external-account work occurred.
+The draft decision pack promotes exactly one separately implementable page
+action: `THC-HOME-001`, a homepage placement-hub repair. It selects the
+homepage because the current personalized-looking output is mostly generic,
+beginners must classify the home before the page teaches classification, and
+internal record/MVP language plus repeated cautions weaken the primary public
+entry.
 
-`THC-RES-001` remains planned as the next research-only full-site decision pack.
+Independent review returned `PASS` on cycle 3 with no P0-P3 findings after
+reproducible SERP-overlap, persona-evidence, every-section, and San Diego
+current-code fixes. Native QA is green. `THC-HOME-001` must not begin before
+the research-only commit is pushed.
+
+No `site/**`, page/content implementation, indexing, outreach, deployment,
+external-account mutation, builder/vendor recommendation, typical/complete cost
+claim, or legal/zoning conclusion is authorized.
+
 `THC-BUILD-002` remains a candidate and is not selected. No page revamp, fresh
 keyword/SERP research, indexing request, outreach, deployment, external-account
 work, builder/vendor recommendation, cost claim, or legal/zoning conclusion is
@@ -181,11 +194,10 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- `THC-RES-001` is the next eligible research-only action after
-  `THC-OPS-002` is review-clean, committed, and pushed. It requires separate
-  selection and must promote only one later implementation action.
-- `THC-BUILD-002` remains a candidate to be compared inside that decision pack,
-  not the assumed next build.
+- `THC-RES-001` is active and has promoted only `THC-HOME-001`; the separate
+  homepage transaction must wait for this research action's review-clean push.
+- `THC-BUILD-002` remains the strongest measured demand candidate, not the
+  selected build.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -199,6 +211,6 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-After the commit containing the `THC-OPS-002` completion record is pushed,
-separately select `THC-RES-001` to create the research-only full-site decision
-pack.
+After `THC-RES-001` passes independent review and its research-only commit is
+pushed, separately select `THC-HOME-001`. Freeze the 11 paths in its roadmap
+record before editing and do not absorb another page repair.

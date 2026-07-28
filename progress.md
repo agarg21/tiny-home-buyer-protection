@@ -212,3 +212,33 @@
 - Completed `THC-OPS-002` after independent reviewer cycle 3 returned `PASS`
   with no P0-P3 findings. Native QA passed 26 tests, site/state checks, both
   JSON validations, required-file checks, and `git diff --check`.
+- Registered research-only action `THC-RES-001` after the protocol transaction
+  was pushed. Its frozen scope contains ten research and durable-state paths
+  and excludes `site/**`.
+- Reused the July 18 DataForSEO demand artifacts, treated the unchanged July 28
+  GSC snapshot as monitoring only, collected a bounded current public SERP and
+  representative ranking-page sample, and audited all six live pages plus the
+  planned national build asset.
+- Derived six evidence-linked decision personas and reviewed beginner,
+  intermediate, and advanced experience needs separately.
+- Recorded every-section dispositions, architecture boundaries, a scored
+  candidate comparison, and one promoted implementation:
+  `THC-HOME-001`, the homepage placement-hub repair.
+- Recorded a later San Diego freshness opportunity around the distinct current
+  unincorporated-County THOW path, but kept the recently repaired City page in
+  observation.
+- Draft research pack:
+  `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`.
+- Independent review cycles 1 and 2 found reproducibility gaps in SERP
+  metadata/overlap, persona evidence, every-section dispositions, and the
+  current San Diego City code source. All P2 findings and the P3 source cleanup
+  were fixed.
+- Independent reviewer thread
+  `019fa9f0-f0e4-7f40-a628-5e258b93af39` returned `PASS` on cycle 3 with no
+  P0-P3 findings.
+- Final native QA passed 26 tests, site QA with 0 errors and 6 known canonical
+  warnings, operator-state QA, roadmap JSON validation, required-file and
+  exact-scope checks, and `git diff --check`.
+- Completed `THC-RES-001` as a review-clean research-only transaction. No page
+  implementation, indexing, deployment, outreach, external-account mutation,
+  vendor recommendation, cost conclusion, or legal conclusion was performed.

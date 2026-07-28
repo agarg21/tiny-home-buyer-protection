@@ -8,16 +8,31 @@ durable execution queue; backlog headings do not authorize work.
 ## Operating Baseline
 
 - `THC-OPS-001`: completed on 2026-07-28 with no `site/**` change.
+- `THC-OPS-002`: completed on 2026-07-28; substantive actions remain serial
+  but no longer have a fixed daily quota.
 - The Master is the only repository writer. Implementation support is read-only
   and does not select work from this backlog.
+
+## Promoted, Not Started
+
+- `THC-HOME-001`: rebuild the homepage placement hub around a source-backed
+  buyer decision path.
+- Exact future scope and acceptance criteria are recorded in
+  `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`.
+- The implementation must remove fake location precision, visible internal
+  record fields, repeated cautions/checklists, and unclear supported-location
+  routing. It must teach classification before asking for it and return an
+  honest next action rather than a generic "low confidence" plan.
+- `THC-RES-001` is review-clean. Do not begin until its separate research-only
+  commit is pushed.
 
 ## Candidates, Not Selected
 
 - `THC-BUILD-002`: national build decision / builder due-diligence asset.
-- Homepage placement-hub repair, Georgia classification repair, cost-calculator
-  repair, and under-$20K indexing/content evaluation are hypotheses only.
-- `THC-RES-001` must compare these surfaces and promote exactly one action
-  before implementation.
+- Record a San Diego City-versus-unincorporated-County freshness repair using
+  the current County THOW path after the homepage.
+- Cost-calculator blank/partial-result repair, Georgia classification repair,
+  and under-$20K consolidation/indexing diagnosis remain candidates.
 - Do not build ADU-builder city pages, a builder directory, or a location-page
   batch.
 

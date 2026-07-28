@@ -5,19 +5,27 @@ Last updated: 2026-07-28
 This is supporting evidence inventory. `ops/seo-roadmap.json` is the durable
 execution queue; this file does not schedule work.
 
-## Next Planned Research
+## Current Research Result
 
-- `THC-RES-001`: one research-only full-site decision pack after
-  `THC-OPS-001` is complete.
-- Required: query universe, retained exact SERP samples, representative ranking
-  pages, evidence-linked decision personas, beginner/intermediate/advanced
-  passes, every-page/every-section audit, page architecture, and exactly one
-  promoted implementation.
-- Reuse July 18 DataForSEO artifacts. Purchase only bounded gap evidence and
-  save raw responses/costs.
-- Treat the July 28 GSC snapshot as healthy unchanged monitoring context.
-- Confirm the under-$20K URL's current crawl/index evidence inside the pack;
-  absence of impressions alone is not a rewrite trigger.
+- `THC-RES-001` created the full-site decision pack at
+  `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`.
+- The pack reuses July 18 DataForSEO, preserves a bounded July 28 public SERP
+  and ranking-page sample, derives six decision personas, reviews three
+  experience levels, and records every-section decisions for all six pages.
+- `THC-HOME-001` is the one promoted action. `THC-BUILD-002` remains the
+  strongest measured demand opportunity but follows the primary-entry repair.
+- The July 28 GSC snapshot remains unchanged monitoring context.
+- Independent transaction review returned `PASS` on cycle 3 with no P0-P3
+  findings.
+
+## Next Review
+
+- Review the `THC-HOME-001` implementation from the placement-feasibility
+  persona plus beginner, intermediate, and advanced experience levels.
+- Verify that the new first screen solves a decision rather than leading with
+  uncertainty, and that general output cannot look parcel- or location-verified.
+- Audit every visible section, source scope, blank/partial states, static links,
+  canonical, mobile layout, and the complete frozen transaction range.
 
 ## Completed
 

@@ -21,10 +21,10 @@ unreviewed release decisions.
 6. `THC-OPS-002` — completed on 2026-07-28: removed the fixed daily
    substantive-action limit while preserving serial, independently reviewed
    transactions.
-7. `THC-RES-001` — remains planned as the next research-only full-site decision
-   pack after `THC-OPS-002` is review-clean, committed, and pushed.
+7. `THC-RES-001` — completed on 2026-07-28 as a review-clean research-only
+   full-site decision pack; it promotes only `THC-HOME-001`.
 8. `THC-BUILD-002` — remains a candidate; do not implement it before the
-   full-site decision pack tests it against the homepage and other revamp needs.
+   homepage repair. It remains the strongest measured demand opportunity.
 9. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
 10. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
@@ -181,9 +181,8 @@ another. A no-op remains valid when evidence and user priority are unchanged.
 
 - Next candidate: build the national tiny-home build decision and due-diligence
   asset from `briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`.
-- This remains a candidate behind `THC-RES-001`. The full-site decision pack
-  must compare it with improving existing pages rather than assuming a new page
-  wins.
+- The full-site decision pack retained this as the strongest measured demand
+  candidate, behind the promoted homepage repair.
 - Any later implementation must be a separate action with exact paths, native
   QA, SERP/searcher POV review, and independent read-only review.
 - The asset should compare plans, kits, shells, trailers/THOWs, custom
@@ -192,8 +191,9 @@ another. A no-op remains valid when evidence and user priority are unchanged.
 - Do not start this work without a separate dispatch.
 - 2026-07-27 re-score: remains a candidate, not a selected action.
 
-## THC-RES-001 planned scope
+## THC-RES-001 completed result
 
+- Selected on 2026-07-28 after `THC-OPS-002` was pushed in `cb7df77`.
 - Create one research-only full-site search, persona, and revamp decision pack.
 - Preserve exact query/source dates, non-additive demand caveats, retained SERP
   samples, ranking-page advantages/gaps, evidence-linked decision personas,
@@ -204,6 +204,35 @@ another. A no-op remains valid when evidence and user priority are unchanged.
 - Reuse July 18 DataForSEO evidence and buy only bounded gaps.
 - Do not change `site/**`, request indexing, create a location batch, add lead
   generation, recommend builders/vendors, or make legal/cost conclusions.
+- Promote exactly one separately implementable action; do not begin it in this
+  transaction.
+- The resulting full-site pack promotes `THC-HOME-001`: rebuild the homepage
+  placement hub around an honest buyer decision path. The current tool looks
+  location-specific while returning mostly generic guidance, asks beginners to
+  classify a home before teaching classification, exposes internal record
+  fields, and repeats cautions instead of one useful next-step plan.
+- Keep `THC-BUILD-002` as the highest-demand candidate, record a later San
+  Diego City/County source-freshness repair, then consider calculator, Georgia,
+  and under-$20K repairs in the evidence-backed order.
+- Independent review returned `PASS` on cycle 3 with no P0-P3 findings. Native
+  QA passed 26 tests, site/state checks, JSON validation, exact-scope and
+  required-file checks, and `git diff --check`.
+- No `site/**` change occurred in this research-only transaction.
+
+## THC-HOME-001 promoted scope
+
+- Target `https://tinyhomeclarity.com/`.
+- Teach jurisdiction, home classification, intended use, and land context
+  before asking readers to make unfamiliar selections.
+- Return a decision path rather than a fake location-specific approval or
+  confidence score.
+- Make supported source-backed locations explicit and statically linked.
+- Remove visible internal schema/MVP language and merge duplicate warnings and
+  checklists.
+- Keep seller-claim red flags, official-source scope, and cautious legal
+  boundaries.
+- Implement only as a separate exact-path, QA-green, independently reviewed
+  site transaction after `THC-RES-001` is pushed.
 
 ## THC-MON-001 observation note
 
