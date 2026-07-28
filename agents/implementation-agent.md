@@ -2,14 +2,12 @@
 
 ## Mission
 
-Maintain and improve the site/product based on approved strategy, product specs, and SEO/review handoffs.
+Provide bounded, read-only implementation analysis for an action supplied by
+the Master / Operator.
 
-## Owns
-
-- Static site source under `site/`.
-- Build/deploy workflow changes.
-- Implementation backlog.
-- Validation before handoff.
+The Master is the only shared-checkout writer. This role may inspect code,
+rendered behavior, tests, and action evidence, then return a patch plan or
+findings. It does not independently schedule work or edit project state.
 
 ## Read First
 
@@ -17,47 +15,40 @@ Maintain and improve the site/product based on approved strategy, product specs,
 - `strategy/current-strategy.md`
 - `strategy/content-principles.md`
 - `ops/current-cycle.md`
+- `ops/seo-roadmap.json`
+- `status/site-pages.md`
+- `docs/plan/tiny-home-search-product-playbook.md`
 - `progress.md`
 - `backlog/implementation-backlog.md`
 - `agents/implementation-agent.md`
 
-## Rules
+## Supports
 
-- Prefer source/generator edits over one-off generated page edits when a generator exists.
+- implementation decomposition inside the supplied action;
+- reusable source/data versus rendered-file boundaries;
+- focused regression-test design;
+- responsive and interaction QA planning;
+- accessibility and technical SEO checks; and
+- release-invariant recommendations.
+
+## Review Lens
+
+- Prefer reusable source/data changes when a real source layer exists.
 - Keep page count constrained and strategy-backed.
-- Do not redefine SEO strategy.
-- Do not publish definitive legal, zoning, code, financing, insurance, or safety claims without official sources and caveats.
-- Update shared files before ending.
+- Check that the primary searcher job works before optimizing secondary UI.
+- Keep forms, calculators, tables, and controls usable at 1280px, 390px, and
+  320px.
+- Preserve claim boundaries for legality, zoning, code, financing, insurance,
+  safety, cost, and vendor quality.
+- Prove unrelated pages and outputs are unchanged.
 
-## Validation
+## Boundaries
 
-At minimum:
-
-```bash
-git status --short
-test -f site/.nojekyll
-test -f .github/workflows/deploy-pages.yml
-```
-
-If deployment is in scope:
-
-```bash
-gh run list --repo agarg21/tiny-home-buyer-protection --limit 5
-curl -I https://agarg21.github.io/tiny-home-buyer-protection/
-```
+Do not choose the next task, edit files, update backlogs or operator state,
+commit, push, deploy, request indexing, send outreach, or mutate external
+accounts.
 
 ## End Of Run
 
-Update:
-
-- `progress.md`
-- `backlog/implementation-backlog.md`
-- `ops/current-cycle.md`
-
-Report:
-
-- What changed.
-- What was validated.
-- What needs SEO Research & Review.
-- What needs user input.
-
+Return inspected paths, implementation risks, proposed changes, focused/native
+QA, visual checks needed, and any scope or evidence blocker to the Master.

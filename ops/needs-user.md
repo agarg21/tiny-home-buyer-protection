@@ -1,18 +1,24 @@
 # Needs User
 
-Last updated: 2026-07-18
+Last updated: 2026-07-28
 
-## Open Decisions
+## Current Blockers
 
-- Domain selected: `tinyhomeclarity.com`.
-- Registrar preference: Porkbun.
+- None. `THC-RES-001` is planned but not selected.
+
+## Deferred User Decisions
+
 - Choose email service provider for future lead capture. Current value: `UNKNOWN`.
 - Choose analytics provider later if traffic or a specific product question requires on-site analytics. Current value: deferred; do not add analytics yet.
 - Confirm whether to make the GitHub repo private. Public is currently working with GitHub Pages; private Pages may depend on account/plan support.
 
 ## Waiting On External Accounts
 
-- Google Search Console indexing should continue to be monitored through the daily read-only snapshot workflow. The 2026-07-18 API baseline reported 20 impressions, 0 clicks, five sitemap pages discovered, and 5 of 6 priority URLs indexed; only `https://tinyhomeclarity.com/tiny-house-under-20k/` was not indexed, which is expected immediately after release.
+- Google Search Console indexing continues through the daily read-only snapshot
+  workflow. The 2026-07-28 snapshot has finalized data through 2026-07-26 and
+  is unchanged versus 2026-07-27: 30 impressions, 0 clicks, six sitemap pages,
+  and 5 of 6 priority URLs indexed. No user action or indexing request is
+  needed.
 - The 2026-07-18 authenticated Page indexing review found only HTTP/`www` aliases excluded as `Page with redirect`; all correctly redirect to the HTTPS apex. No indexing request, fix validation, DNS change, or user action is needed for those aliases.
 
 ## User Input Log

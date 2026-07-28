@@ -1,21 +1,25 @@
 # Implementation Backlog
 
-Last updated: 2026-07-18
+Last updated: 2026-07-28
 
-## Ready
+This is a supporting implementation inventory. `ops/seo-roadmap.json` is the
+durable execution queue; backlog headings do not authorize work.
 
-- No active implementation blocker. The Los Angeles and San Diego page repair
-  has been applied and passed human-searcher review in
-  `reviews/la-san-diego-human-searcher-implementation-review-2026-07-18.md`.
+## Operating Baseline
 
-## Next Candidate After Repair
+- `THC-OPS-001`: completed on 2026-07-28 with no `site/**` change.
+- The Master is the only repository writer. Implementation support is read-only
+  and does not select work from this backlog.
 
-- Build a national tiny-home build decision / builder due-diligence asset after
-  the Los Angeles and San Diego repairs pass review.
-- Working concept: `Should You Build, Buy a Kit, Buy a Shell, or Hire a
-  Tiny-Home Builder?`
-- Do not build ADU-builder city pages or a builder directory yet. ADU-builder
-  demand is adjacent and should be separated from tiny-home build intent.
+## Candidates, Not Selected
+
+- `THC-BUILD-002`: national build decision / builder due-diligence asset.
+- Homepage placement-hub repair, Georgia classification repair, cost-calculator
+  repair, and under-$20K indexing/content evaluation are hypotheses only.
+- `THC-RES-001` must compare these surfaces and promote exactly one action
+  before implementation.
+- Do not build ADU-builder city pages, a builder directory, or a location-page
+  batch.
 
 ## Monitor
 
@@ -56,11 +60,10 @@ Last updated: 2026-07-18
 - `$20K` page review passed with verdict `launch`; no implementation rerun is required before the authorized release.
 - Maintain local records as static JSON for the MVP, preferably `site/data/local-records.json`.
 
-## Infrastructure
+## Infrastructure / Later Gates
 
-- Verify GitHub Pages deployment after initial push.
-- Add `site/CNAME` only after domain purchase.
-- Add sitemap custom-domain URLs after domain setup.
+- GitHub Pages, `site/CNAME`, custom-domain sitemap URLs, HTTPS, and read-only
+  GSC collection are already operational.
 - Analytics is deferred until meaningful traffic or a specific product question requires on-site analytics.
 - Add email capture form after provider choice.
 

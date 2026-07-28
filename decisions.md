@@ -362,3 +362,39 @@ Evidence:
 
 - `docs/research/tiny-home-build-intent-query-demand-2026-07-18.md`
 - `briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`
+
+## 2026-07-28 - Use One Writer And Evidence-To-Page Revamp Transactions
+
+Decision: run the Tiny Home Clarity revamp as a sequence of bounded,
+repository-persisted transactions. The Master / Operator is the only project
+writer. Research, implementation advisory, and final review roles are
+different read-only agents.
+
+Decision: before changing another live page, complete one research-only
+full-site decision pack that compares all six current pages and the planned
+national build asset. It must preserve query and SERP evidence, inspect
+representative ranking pages, derive decision-job personas from evidence,
+review beginner/intermediate/advanced experience levels separately, audit every
+page and section, and promote exactly one implementation action.
+
+Why:
+
+- Recent page feedback showed that source safety alone does not make a page
+  useful to a human with the target search intent.
+- Experience level is important, but it does not identify whether the reader is
+  evaluating a parcel, comparing build paths, checking a quote, or verifying a
+  permit/source path.
+- The site needs a durable page-role baseline and repeatable section-level
+  decisions instead of relying on an active chat's memory.
+- One writer and one promoted action prevent overlapping agents, stale
+  backlogs, and research from silently becoming implementation.
+
+Implementation:
+
+- `THC-OPS-001` establishes the operating contracts, playbook, page-status
+  inventory, review prompt, and deterministic site/state QA.
+- `THC-RES-001` is the next planned research-only action. It may select
+  `THC-BUILD-002` or an existing-page revamp, but must not implement either.
+- Every later page transaction requires exact paths, first-screen and
+  every-section acceptance criteria, native QA, and a different independent
+  read-only reviewer.

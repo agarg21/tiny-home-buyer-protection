@@ -1,17 +1,27 @@
 # Current Cycle
 
-Last updated: 2026-07-27
+Last updated: 2026-07-28
+
+Active action: `none`
+
+Next eligible action: `THC-RES-001` (planned; not started)
 
 ## Active Priority
 
-Weekly roadmap re-score completed as a queue-level no-op. No implementation,
-indexing request, outreach, deployment, external-account work, site content, or
-fresh research is selected by this pass.
+`THC-OPS-001` completed as one bounded operating-model transaction selected by
+direct user instruction. It hardened research, persona review, role ownership,
+page-status records, and native QA without changing `site/**`.
 
-`THC-BUILD-001` is complete. `THC-BUILD-002` remains the next implementation
-candidate, but it is not selected here. It requires a separate dispatch with
-exact paths, native QA, SERP/searcher POV review, and independent read-only
-review before any `site/**` change.
+Independent read-only review passed on cycle 3 with no P0-P3 findings. Native
+QA passed 26 tests, six-page site/sitemap checks with zero errors and six known
+missing-canonical warnings, operator-state QA, JSON validation, required-file
+checks, and `git diff --check`.
+
+`THC-RES-001` remains planned as the next research-only full-site decision pack.
+`THC-BUILD-002` remains a candidate and is not selected. No page revamp, fresh
+keyword/SERP research, indexing request, outreach, deployment, external-account
+work, builder/vendor recommendation, cost claim, or legal/zoning conclusion is
+part of `THC-OPS-001`.
 
 Continue to observe validated daily GSC snapshots, but do not turn routine
 snapshot drift into a project action unless it identifies a discovery, indexing,
@@ -41,8 +51,8 @@ LA/San Diego addressable-volume research and repair brief completed on
 `378bd659b042e96f97c6c0f5e8ae55436df6d84a`; do not create new city pages from
 that research alone.
 
-The 2026-07-26 GSC snapshot is fresh read-only monitoring evidence with data
-through 2026-07-24, but it is unchanged versus the prior dated 2026-07-25
+The 2026-07-28 GSC snapshot is fresh read-only monitoring evidence with data
+through 2026-07-26, but it is unchanged versus the prior dated 2026-07-27
 snapshot: 30 impressions, 0 clicks, sitemap `Success`, 6 discovered pages, 5 of
 6 priority URLs indexed, and 0 unknown priority URLs. Treat it as observation
 evidence, not a standalone action trigger.
@@ -167,36 +177,27 @@ evidence, not a standalone action trigger.
 - SEO Research & Review completed the `$20K` brief/rendered-page review at `reviews/tiny-house-under-20k-review-2026-07-13.md`.
 - `$20K` review verdict: `launch`; no implementation-blocking fixes required before the exact-path local commit. Push and deployment remain separately gated.
 
-## Ready For SEO Research & Review Agent
+## Supporting Roles
 
-- No SEO Research & Review action is selected by the 2026-07-27 roadmap
-  re-score. `THC-BUILD-002` remains a candidate for a future implementation
-  dispatch.
-- Compare future validated GSC snapshots with the 2026-07-18 baseline only when
-  changed evidence identifies a discovery, indexing, or performance signal worth
-  evaluating.
-- Monitor whether GSC discovers and indexes `https://tinyhomeclarity.com/tiny-house-under-20k/`.
-- Monitor whether users need official source links visible outside expandable details.
-- Do not treat HTTP or `www` alias exclusions as defects; `ops/gsc-indexing-review-2026-07-18.md` records them as expected redirects.
-
-## Ready For Implementation Agent
-
-- No implementation action is currently selected. Wait for a reviewed brief or a
-  material changed-evidence dispatch before changing site files.
-- Keep legal/zoning caveats explicit and continue using `UNKNOWN` for unavailable source fields.
-- Use static JSON for local records only when manually researched official-source records are available.
-- Add email capture only after the user chooses an email provider.
-- Do not add analytics.
+- No child-agent repository write is authorized. Research, implementation
+  advisory, and independent review roles are read-only.
+- `THC-RES-001` is the next eligible research-only action after
+  `THC-OPS-001` completes. It requires separate selection and must promote only
+  one later implementation action.
+- `THC-BUILD-002` remains a candidate to be compared inside that decision pack,
+  not the assumed next build.
+- The Control Room continues daily GSC sensing. Changed discovery, indexing, or
+  performance evidence may affect the next research decision but does not
+  independently authorize a page change.
+- Do not treat HTTP or `www` alias exclusions as defects;
+  `ops/gsc-indexing-review-2026-07-18.md` records them as expected redirects.
 
 ## Waiting On User
 
 - Analytics provider is deferred; no provider choice is needed until traffic or a specific product question requires on-site analytics.
 - Confirm email service provider choice before adding lead capture. Current value: `UNKNOWN`.
 
-## Recommended Next Agent
+## Next Eligible Action
 
-Control Room operator to use the fast no-op path while release, DNS,
-deployment, GSC, and production-invariant evidence remains fresh and unchanged.
-Review each new validated GSC snapshot against the roadmap. Dispatch
-`THC-BUILD-002` only under a separate implementation contract; do not
-manufacture work from unchanged monitoring evidence.
+Separately select `THC-RES-001` to create the research-only full-site decision
+pack. Do not start research or implementation from this completed transaction.

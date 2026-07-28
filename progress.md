@@ -169,3 +169,40 @@
   Research & Review agent, reusable review prompt, and content principles so
   broad local pages are reviewed from human searcher experience levels before
   `launch` / `PASS`.
+
+## 2026-07-28
+
+- Registered direct-manual action `THC-OPS-001` to harden the research,
+  persona-review, QA, and operating model without changing `site/**`.
+- Reconciled local `main` with `origin/main` and ingested the July 27 and July
+  28 mechanical GSC snapshot commits. The July 28 snapshot is unchanged versus
+  July 27: 30 impressions, 0 clicks, sitemap `Success`, 6 discovered pages, 5
+  of 6 priority URLs indexed, and 0 unknown priority URLs.
+- Replaced overlapping child-agent write ownership with one project writer:
+  the Master / Operator. Research, implementation advisory, and independent
+  review roles are read-only.
+- Added `docs/plan/tiny-home-search-product-playbook.md` to require bounded
+  query research, retained SERP-overlap samples, representative ranking-page
+  review, evidence-linked decision personas, beginner/intermediate/advanced
+  experience passes, every-page/every-section audits, and exactly one promoted
+  implementation action.
+- Added `status/site-pages.md` as the durable six-page role, review, GSC
+  baseline, and blocker inventory. Daily monitoring remains in dated
+  `ops/gsc-snapshots/` files.
+- Expanded `templates/searcher-pov-review-prompt.md` with decision-job persona,
+  every-section, category-boundary, technical, visual, and first-screen gates.
+- Added independent reviewer instructions plus zero-dependency site and
+  operator-state QA entry points and fixture tests.
+- Initial native QA passed: 21 Node tests, site QA with 0 errors and 6 known
+  missing-canonical warnings, operator-state QA with 0 errors, JSON parsing,
+  required-file checks, and `git diff --check`.
+- Independent read-only review found stale current-cycle/bootstrap authority and
+  adversarial validator gaps in cycles 1 and 2. All P2 findings were fixed with
+  regression coverage.
+- Final native QA passed 26 Node tests, site QA with 0 errors and 6 known
+  missing-canonical warnings, operator-state QA with 0 errors, JSON parsing,
+  required-file checks, and `git diff --check`.
+- Independent reviewer thread `019fa969-1f74-7113-9c5e-92eaa8949696`
+  returned `PASS` on cycle 3 with no P0-P3 findings.
+- Completed `THC-OPS-001` as docs/tools-only work. No deployment applies;
+  `THC-RES-001` remains planned and was not started.

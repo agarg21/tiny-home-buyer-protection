@@ -9,12 +9,31 @@ repaired page.
 - Target query:
 - Secondary queries:
 - Intended searcher:
-- Primary persona: beginner / intermediate / advanced
+- Primary decision-job persona:
+- Primary experience level: beginner / intermediate / advanced
 - Searcher job-to-be-done:
+- Searcher context and anxiety:
+- Decision criteria and failure mode:
+- Evidence basis for the persona:
 - SERP evidence reviewed:
+- Representative ranking pages reviewed:
 - Official/source evidence reviewed:
 
-## Persona Pass
+## Decision-Job Persona Pass
+
+State whether the page primarily serves:
+
+- category/orientation;
+- parcel or placement evaluation;
+- plans/kit/shell/trailer/builder comparison;
+- quote or budget reality checking;
+- advanced permit/source verification; or
+- another evidence-backed job.
+
+Document the job, context, anxieties, decision criteria, failure mode, queries,
+source trace, and other pages that serve it. Do not invent demographics.
+
+## Experience-Level Pass
 
 Review from three angles:
 
@@ -52,6 +71,9 @@ Answer:
 5. Which headings feel written for SEO/internal organization?
 6. Which section is least useful to the intended searcher?
 7. What is missing that the searcher would reasonably expect?
+8. Which uncertainty statements help the decision, and which merely avoid
+   answering?
+9. What would make the searcher distrust or abandon the page?
 
 ## SERP Strategy Pass
 
@@ -63,6 +85,25 @@ Review the top results for the target query and summarize:
 3. Which parts Tiny Home Clarity can serve honestly.
 4. Which parts are adjacent or out of scope.
 5. What our page must do differently to be useful.
+6. What authority, inventory, firsthand experience, or legal role the ranking
+   pages possess that Tiny Home Clarity must not imitate.
+
+## Every-Section Pass
+
+Review every visible block, including hero, opening, tool/form, result, cards,
+tables, checklists, FAQs, sources, trust language, and next-step links.
+
+For each section choose one:
+
+- `keep`
+- `compress`
+- `merge`
+- `move`
+- `replace`
+- `remove`
+
+Explain its user job, persona value, repetition/scan cost, evidence support,
+and whether the page delivers what the section promises.
 
 ## Safety And Source Pass
 
@@ -74,6 +115,24 @@ Check:
 - Source last checked dates are present.
 - Confidence levels are present for local/zoning records.
 - Unknown metrics or facts are marked `UNKNOWN`.
+- Tiny house, THOW, park model, RV, manufactured, modular, foundation, ADU,
+  kit, shell, community, and stay categories are not conflated.
+- Cost examples are not presented as typical, complete, or live unless the
+  evidence and action explicitly support that claim.
+- Vendor or builder comparisons do not imply vetting or recommendation.
+
+## Technical And Visual Pass
+
+Check:
+
+- canonical, indexability, sitemap, title, description, H1, internal links, and
+  structured-data parity;
+- form/tool states and error handling;
+- keyboard and assistive labels;
+- desktop, 390px, and 320px containment and scanability;
+- image/source licensing when media exists; and
+- whether the first screen and important comparison remain usable without
+  incoherent overflow or hidden context.
 
 ## Verdict
 
@@ -83,3 +142,6 @@ Use one:
 - `launch after fixes` / `PASS_WITH_P3`: only non-blocking polish remains.
 - `improve` / `FAIL`: searcher POV, SERP strategy, source support, or claim
   safety has P0-P2 issues.
+
+A safe page cannot receive `PASS` when the primary searcher would bounce,
+cannot identify the answer, or has no useful next action.

@@ -1,19 +1,23 @@
 # SEO Research & Review Backlog
 
-Last updated: 2026-07-18
+Last updated: 2026-07-28
 
-## Ready
+This is supporting evidence inventory. `ops/seo-roadmap.json` is the durable
+execution queue; this file does not schedule work.
 
-- After LA/San Diego repair review, review the proposed national tiny-home
-  build decision / builder due-diligence asset before implementation.
-- `monitor` Recheck GSC indexing/crawl status for:
-  - `https://tinyhomeclarity.com/`
-  - `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/`
-  - `https://tinyhomeclarity.com/san-diego-tiny-house-adu/`
-  - `https://tinyhomeclarity.com/georgia-tiny-house-classification/`
-  - `https://tinyhomeclarity.com/tiny-home-cost-calculator/`
-- `monitor` After a separately authorized push and verified deployment of the `$20K` page, monitor whether GSC discovers and indexes `https://tinyhomeclarity.com/tiny-house-under-20k/`.
-- `monitor` After launch, watch whether users need official source links visible outside expandable record details.
+## Next Planned Research
+
+- `THC-RES-001`: one research-only full-site decision pack after
+  `THC-OPS-001` is complete.
+- Required: query universe, retained exact SERP samples, representative ranking
+  pages, evidence-linked decision personas, beginner/intermediate/advanced
+  passes, every-page/every-section audit, page architecture, and exactly one
+  promoted implementation.
+- Reuse July 18 DataForSEO artifacts. Purchase only bounded gap evidence and
+  save raw responses/costs.
+- Treat the July 28 GSC snapshot as healthy unchanged monitoring context.
+- Confirm the under-$20K URL's current crawl/index evidence inside the pack;
+  absence of impressions alone is not a rewrite trigger.
 
 ## Completed
 

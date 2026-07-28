@@ -3,6 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-07-27",
   "next_rescore_due": "2026-08-03",
+  "next_eligible_action_id": "THC-RES-001",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -211,6 +212,67 @@
       "notes": "Do not target ADU-builder city pages, create a builder directory, recommend vendors, state legal/zoning conclusions, present typical or complete cost claims, create indexable pages, or start implementation from this completed brief action."
     },
     {
+      "id": "THC-OPS-001",
+      "title": "Harden the research, persona-review, QA, and operating model",
+      "kind": "operating-model",
+      "lane": "product-strategy",
+      "impact": 5,
+      "confidence": 5,
+      "learning_value": 4,
+      "effort": 3,
+      "risk": 1,
+      "status": "completed",
+      "selected_on": "2026-07-28",
+      "completed_on": "2026-07-28",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [],
+      "target_paths": [
+        "AGENTS.md",
+        "agents/master-operator.md",
+        "agents/implementation-agent.md",
+        "agents/seo-research-review-agent.md",
+        "agents/operator-review-agent.md",
+        "docs/plan/tiny-home-search-product-playbook.md",
+        "status/README.md",
+        "status/site-pages.md",
+        "templates/searcher-pov-review-prompt.md",
+        "tools/seo-qa.mjs",
+        "tools/seo-qa.test.mjs",
+        "tools/operator-state-qa.mjs",
+        "tools/operator-state-qa.test.mjs",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/chat-bootstrap-prompts.md",
+        "ops/needs-user.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "progress.md",
+        "decisions.md"
+      ],
+      "baseline": "Searcher-POV, beginner/intermediate/advanced, and SERP gates exist, but supporting agents still have overlapping write ownership, the backlogs are stale, there is no durable page-status inventory, and native QA covers GSC collection rather than the published site or operating-state mirrors.",
+      "hypothesis": "A single-writer operating contract, evidence-to-persona research playbook, durable page inventory, and deterministic site/state QA will make the planned revamp reproducible without changing any live page.",
+      "expected_effect": "Future research and page work will arrive as one bounded action with exact paths, evidence-linked decision personas, every-section review, focused QA, and independent review instead of relying on chat memory.",
+      "success_signal": "The operating docs agree on ownership and the next research action; site and operator QA have tested green entry points; all six pages have durable baseline status; independent review finds no P0-P2 issue; and no site path changes.",
+      "implementation_state": "review-clean-docs-only",
+      "review_outcome": "PASS",
+      "review_cycles": 3,
+      "qa_evidence": [
+        "node --test tools/*.test.mjs passed 26 tests",
+        "site QA checked 6 HTML pages and 6 sitemap URLs with 0 errors and 6 known missing-canonical warnings",
+        "operator-state QA passed with newest GSC snapshot 2026-07-28",
+        "ops/seo-roadmap.json parsed",
+        "required deployment files are present",
+        "git diff --check passed",
+        "independent read-only review cycle 3 returned PASS with no P0-P3 findings"
+      ],
+      "evidence_classification": "Direct manual user instruction selects this operating-model action. The 2026-07-28 GSC snapshot is fresh read-only monitoring evidence through 2026-07-26 and is unchanged versus 2026-07-27; it is context, not causal support.",
+      "result": "Established one-writer role contracts, deprecated stale child-writer prompts, added the Tiny-specific evidence-to-page playbook and six-page status baseline, expanded the searcher review stack, and added tested deterministic site and operator-state QA without changing site/**.",
+      "notes": "Docs/tools only; no deployment applies. THC-RES-001 is next eligible but remains planned and must be separately selected. Do not infer that THC-BUILD-002 or any page revamp is approved."
+    },
+    {
       "id": "THC-BUILD-002",
       "title": "Build the national tiny-home build decision and due-diligence asset",
       "kind": "content-and-product",
@@ -267,7 +329,7 @@
     },
     {
       "id": "THC-RES-001",
-      "title": "Choose the next buyer-protection tool from observed user and search evidence",
+      "title": "Create the full-site search, persona, and page-revamp decision pack",
       "kind": "research",
       "lane": "product-strategy",
       "impact": 4,
@@ -280,12 +342,18 @@
       "requires_fresh_gsc": false,
       "target_urls": [],
       "target_paths": [
-        "briefs/",
-        "backlog/",
+        "docs/research/",
+        "status/site-pages.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
         "decisions.md"
       ],
-      "success_signal": "One bounded next tool or page is selected with evidence and explicit legal/source review gates.",
-      "notes": "Do not scale location pages or add lead generation merely to maintain cadence. California demand research found broad/commercial demand but low fragmented exact placement demand; use targeted SERP/GSC evidence before choosing a California hub or additional city pages."
+      "success_signal": "A review-clean research-only pack preserves query and exact SERP evidence, ranking-page analysis, evidence-linked decision personas, beginner/intermediate/advanced passes, every-page/every-section audit, architecture, and exactly one promoted implementation action.",
+      "notes": "Run only after THC-OPS-001 is complete. Compare the homepage placement hub, THC-BUILD-002, Georgia classification page, cost calculator, under-$20K page, and the observation-protected LA/San Diego repairs. Reuse durable July 18 DataForSEO evidence and buy only bounded gaps. Do not change site/**, scale location pages, add lead generation, request indexing, or promote more than one action."
     }
   ]
 }

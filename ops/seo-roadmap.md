@@ -1,8 +1,10 @@
 # Tiny Home Clarity Operator Roadmap
 
-The machine-readable queue is `ops/seo-roadmap.json`. The operator owns routine
-status and evidence updates; the user owns material legal, monetization,
-provider, and release decisions.
+The machine-readable queue is `ops/seo-roadmap.json`. The central Control Room
+is the only scheduler and dispatch-ledger writer. The project Master / Operator
+updates repository state only inside a validated dispatch or direct manual user
+transaction. The user retains material legal, monetization, provider, and
+unreviewed release decisions.
 
 ## Current sequence
 
@@ -14,16 +16,41 @@ provider, and release decisions.
    succeeded and production checks passed.
 4. `THC-BUILD-001` — completed the national tiny-home build decision / builder
    due-diligence brief on 2026-07-20.
-5. `THC-BUILD-002` — next candidate: build the reviewed national decision /
-   due-diligence asset in a separate dispatch. It is not selected by the
-   2026-07-27 roadmap re-score.
-6. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
-7. Select the next buyer-protection tool only from observed evidence and the
+5. `THC-OPS-001` — completed on 2026-07-28: hardened the research,
+   persona-review, QA, and operating model without changing `site/**`.
+6. `THC-RES-001` — remains planned as the next research-only full-site decision
+   pack after `THC-OPS-001` is complete and review-clean.
+7. `THC-BUILD-002` — remains a candidate; do not implement it before the
+   full-site decision pack tests it against the homepage and other revamp needs.
+8. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
+9. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
 
 The two-hour Control Room scan does not authorize two-hour content production.
 At most one substantive project action may run per day during the proving
 period, and a no-op is valid.
+
+## THC-OPS-001 completion evidence
+
+- Selection basis: direct manual user instruction, not GSC cadence.
+- Evidence context: the 2026-07-28 read-only GSC snapshot has finalized data
+  through 2026-07-26 and is unchanged versus the 2026-07-27 snapshot.
+- Transaction boundary: operating docs, role contracts, one reusable research
+  playbook, a six-page baseline status inventory, deterministic site/state QA,
+  backlogs, and decision/progress records.
+- Prohibited in this action: `site/**`, page/content changes, fresh keyword or
+  SERP research, indexing, outreach, deployment, external-account work,
+  builder/vendor recommendations, cost claims, and legal/zoning conclusions.
+- Result: one-writer role contracts, deprecated stale child-writer prompts, a
+  Tiny-specific search/product playbook, a durable six-page status baseline,
+  expanded searcher review, and deterministic site/state QA.
+- Native QA: 26 Node tests passed; six-page site/sitemap QA found zero errors
+  and six known missing-canonical warnings; operator-state QA, JSON,
+  required-file, and diff checks passed.
+- Independent review: cycles 1 and 2 found validator/state contradictions that
+  were fixed with regression tests; cycle 3 returned `PASS` with no P0-P3
+  findings.
+- Release boundary: docs/tools only; no deployment applies.
 
 ## 2026-07-27 roadmap re-score
 
@@ -132,13 +159,29 @@ period, and a no-op is valid.
 
 - Next candidate: build the national tiny-home build decision and due-diligence
   asset from `briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`.
-- This must be a separate implementation dispatch with exact paths, native QA,
-  SERP/searcher POV review, and independent read-only review.
+- This remains a candidate behind `THC-RES-001`. The full-site decision pack
+  must compare it with improving existing pages rather than assuming a new page
+  wins.
+- Any later implementation must be a separate action with exact paths, native
+  QA, SERP/searcher POV review, and independent read-only review.
 - The asset should compare plans, kits, shells, trailers/THOWs, custom
   builders, conventional ADU contractors, and park model/RV-style products by
   fit, risk, written proof needed, and unresolved local verification.
 - Do not start this work without a separate dispatch.
 - 2026-07-27 re-score: remains a candidate, not a selected action.
+
+## THC-RES-001 planned scope
+
+- Create one research-only full-site search, persona, and revamp decision pack.
+- Preserve exact query/source dates, non-additive demand caveats, retained SERP
+  samples, ranking-page advantages/gaps, evidence-linked decision personas,
+  beginner/intermediate/advanced passes, every-page/every-section decisions,
+  architecture, and exactly one promoted implementation.
+- Compare the homepage, planned build asset, Georgia classification page, cost
+  calculator, under-$20K page, and the recently repaired LA/San Diego pages.
+- Reuse July 18 DataForSEO evidence and buy only bounded gaps.
+- Do not change `site/**`, request indexing, create a location batch, add lead
+  generation, recommend builders/vendors, or make legal/cost conclusions.
 
 ## THC-MON-001 observation note
 
