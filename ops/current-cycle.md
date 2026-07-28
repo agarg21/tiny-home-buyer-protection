@@ -4,37 +4,55 @@ Last updated: 2026-07-28
 
 Active action: `none`
 
-Next eligible action: `THC-HOME-001` (promoted; separately select after the
-`THC-RES-001` commit is pushed)
+Next eligible action: `none`
 
 ## Active Priority
 
-`THC-RES-001` is complete as one research-only full-site decision transaction.
-It compared all six live pages and the planned national build asset using
-durable demand evidence, current bounded SERP/ranking-page samples,
-evidence-linked decision personas, beginner/intermediate/advanced passes, and
-every-page/every-section audits.
+`THC-HOME-001` is complete and review-clean after direct manual user instruction
+and after
+`THC-RES-001` was review-clean and pushed in `2400e13`. This is one bounded
+homepage implementation transaction.
 
-The draft decision pack promotes exactly one separately implementable page
-action: `THC-HOME-001`, a homepage placement-hub repair. It selects the
-homepage because the current personalized-looking output is mostly generic,
-beginners must classify the home before the page teaches classification, and
-internal record/MVP language plus repeated cautions weaken the primary public
-entry.
+The build must replace the current generic location-looking result with an
+honest buyer decision path, teach home classification before asking for it,
+make the source-backed LA, San Diego, and Georgia routes explicit, remove
+visible internal record/MVP language, merge repeated cautions/checklists, add
+an explicit homepage canonical, and preserve buyer-protective legal/source
+boundaries.
+
+Frozen paths are the 11 exact paths in `ops/seo-roadmap.json`. Do not edit
+another page, local-record data, the deployment workflow, research artifacts,
+indexing, outreach, external accounts, vendors, or cost/legal conclusions.
+
+Implementation result:
+
+- Replaced the caution-first hero with a direct four-factor placement answer.
+- Moved the category decoder before the checker.
+- Reduced the form to jurisdiction, home type, intended use, and land context.
+- Replaced generic rule buckets, "verification plan," confidence score,
+  `UNKNOWN` fields, and raw record schema with four ordered checks, written
+  proof requests, and pre-payment red flags.
+- LA and San Diego match only when `Inside city limits` is selected; Georgia
+  remains classification-only; unsupported locations receive general decision
+  support without a source or confidence claim.
+- Added static scoped guide links, one proof checklist, live cost routes,
+  homepage canonical, and sitemap lastmod `2026-07-28`.
+
+Final QA: native site/state checks are green. Browser cases passed blank
+validation; LA/SD source routes and city/county boundaries; Georgia
+classification-only; unsupported and escaped input; focus handoff; desktop,
+tablet, 375px, and 320px layout; maximum-length City input; and zero horizontal
+overflow.
 
 Independent review returned `PASS` on cycle 3 with no P0-P3 findings after
-reproducible SERP-overlap, persona-evidence, every-section, and San Diego
-current-code fixes. Native QA is green. `THC-HOME-001` must not begin before
-the research-only commit is pushed.
+repetition, mobile first-screen, stale-state, classification wording, and
+adversarial overflow fixes. Release is authorized; push, Pages, and production
+verification remain.
 
-No `site/**`, page/content implementation, indexing, outreach, deployment,
-external-account mutation, builder/vendor recommendation, typical/complete cost
-claim, or legal/zoning conclusion is authorized.
-
-`THC-BUILD-002` remains a candidate and is not selected. No page revamp, fresh
-keyword/SERP research, indexing request, outreach, deployment, external-account
-work, builder/vendor recommendation, cost claim, or legal/zoning conclusion is
-part of `THC-OPS-002`.
+`THC-BUILD-002` remains a candidate and is not selected. No other page revamp,
+fresh keyword/SERP research, indexing request, outreach, external-account work,
+builder/vendor recommendation, cost claim, or legal/zoning conclusion is part
+of this homepage transaction.
 
 Continue to observe validated daily GSC snapshots, but do not turn routine
 snapshot drift into a project action unless it identifies a discovery, indexing,

@@ -13,7 +13,7 @@ durable execution queue; backlog headings do not authorize work.
 - The Master is the only repository writer. Implementation support is read-only
   and does not select work from this backlog.
 
-## Promoted, Not Started
+## Review-Clean Release
 
 - `THC-HOME-001`: rebuild the homepage placement hub around a source-backed
   buyer decision path.
@@ -23,8 +23,11 @@ durable execution queue; backlog headings do not authorize work.
   record fields, repeated cautions/checklists, and unclear supported-location
   routing. It must teach classification before asking for it and return an
   honest next action rather than a generic "low confidence" plan.
-- `THC-RES-001` is review-clean. Do not begin until its separate research-only
-  commit is pushed.
+- `THC-RES-001` is review-clean and pushed in `2400e13`; the homepage action is
+  now selected. Do not absorb another page repair.
+- Homepage implementation and native/visual QA are complete.
+- Independent review returned `PASS` on cycle 3 with no P0-P3 findings. Push,
+  Pages, and production verification remain.
 
 ## Candidates, Not Selected
 

@@ -242,3 +242,40 @@
 - Completed `THC-RES-001` as a review-clean research-only transaction. No page
   implementation, indexing, deployment, outreach, external-account mutation,
   vendor recommendation, cost conclusion, or legal conclusion was performed.
+- Committed and pushed `THC-RES-001` in `2400e13`.
+- Registered `THC-HOME-001` as the next separate direct-manual implementation
+  transaction at clean base `2400e13765c19c21559b6262932dd27b1d8cee84`.
+- Rebuilt `site/index.html` around a direct four-factor placement answer,
+  beginner-friendly category decoder, reduced checker, ordered decision-path
+  output, scoped source matching, static local guides, one proof checklist, and
+  live cost routes.
+- Removed generic location-looking rule/path output, confidence scoring,
+  visible `UNKNOWN` record fields, public schema/MVP language, duplicate
+  checklist/source sections, and planned-tool cards.
+- Updated shared styles for the four-factor panel, step form, honest result
+  states, scoped sources, and responsive layouts without changing other page
+  behavior.
+- Added the homepage canonical and changed its sitemap lastmod to 2026-07-28.
+- Inline script parsing and native site QA passed; the homepage removed one
+  canonical warning, leaving five known warnings on unchanged pages.
+- Browser QA passed blank validation, LA/SD supported routes, City boundary
+  stops, Georgia classification-only, unsupported and escaped inputs, focus
+  handoff, desktop/mobile layouts, and zero horizontal overflow.
+- Independent review cycle 1 found four P2 issues: repeated factor/proof blocks,
+  a below-fold 320px CTA, unbroken-input overflow, and stale current-cycle
+  authority text. It also found one P3 Georgia status wording issue.
+- Fixed all cycle 1 findings. The 320px primary CTA now ends above 439px and
+  the next section begins at 524px; Georgia is explicitly
+  classification-only; and the generated result links to the single static
+  proof checklist.
+- Independent review cycle 2 found that maximum-length unbroken place input
+  still overflowed inside the City-specific generated step, correcting the
+  narrower general-result QA claim.
+- Applied wrapping to the entire placement result. The exact maximum-length
+  City case now holds document width at 320px with no list-item or title
+  overflow.
+- Independent reviewer thread
+  `019faa05-b89c-7700-9eac-48f0b482bbe3` returned `PASS` on cycle 3 with no
+  P0-P3 findings.
+- `THC-HOME-001` is review-clean and release-authorized. Final native QA,
+  commit, push, Pages, and production verification remain.

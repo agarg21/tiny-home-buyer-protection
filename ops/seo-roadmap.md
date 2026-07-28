@@ -221,6 +221,8 @@ another. A no-op remains valid when evidence and user priority are unchanged.
 
 ## THC-HOME-001 promoted scope
 
+- Selected by direct manual user instruction on 2026-07-28 after the
+  review-clean research commit `2400e13` was pushed.
 - Target `https://tinyhomeclarity.com/`.
 - Teach jurisdiction, home classification, intended use, and land context
   before asking readers to make unfamiliar selections.
@@ -231,8 +233,16 @@ another. A no-op remains valid when evidence and user priority are unchanged.
   checklists.
 - Keep seller-claim red flags, official-source scope, and cautious legal
   boundaries.
-- Implement only as a separate exact-path, QA-green, independently reviewed
-  site transaction after `THC-RES-001` is pushed.
+- Active as one separate exact-path implementation transaction. Native and
+  visual QA plus a different independent read-only review are required before
+  release.
+- Local implementation now has the direct four-factor first screen,
+  category-first checker, ordered decision-path results, exact City/classifier
+  source matching, static local guide routes, one proof checklist, homepage
+  canonical, and updated sitemap date.
+- Independent review returned `PASS` on cycle 3 with no P0-P3 findings. Native
+  and visual QA are green. Release is authorized; push, Pages, and production
+  verification remain.
 
 ## THC-MON-001 observation note
 

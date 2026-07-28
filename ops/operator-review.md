@@ -158,7 +158,7 @@ Scope: the 10 exact protocol and durable-state paths recorded in
 `ops/seo-roadmap.json`. No site, research, content, deployment, indexing,
 outreach, or external-account mutation.
 
-Independent review: pending.
+Independent review:
 
 Review cycle 1:
 
@@ -292,3 +292,125 @@ Final QA:
 
 Release state: review-clean research/docs transaction. Push applies; deployment
 does not.
+
+## 2026-07-28 - Homepage Placement-Hub Repair
+
+Action: `THC-HOME-001`
+
+Selection authority: direct manual user instruction after `THC-RES-001` was
+review-clean and pushed in `2400e13`.
+
+Frozen scope:
+
+- `site/index.html`
+- `site/styles.css`
+- `site/sitemap.xml`
+- `status/site-pages.md`
+- `backlog/implementation-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Boundaries: homepage only. No other page, local-record data, workflow,
+research, indexing, outreach, external account, vendor recommendation, cost
+conclusion, or legal conclusion.
+
+Baseline commit: `2400e13765c19c21559b6262932dd27b1d8cee84`.
+
+Implementation summary:
+
+- Rebuilt the homepage and checker around exact jurisdiction, home category,
+  intended use, and land context.
+- Removed location-looking generic rule/path output, confidence scores,
+  `UNKNOWN` record fields, visible internal schema/MVP language, generic
+  source cards, duplicate checklists, and planned-tool cards.
+- Preserved legacy `#tool` and `#records` anchors required by other pages.
+- Added an explicit homepage canonical and `2026-07-28` sitemap lastmod.
+
+Pre-review QA:
+
+- Inline homepage script parses.
+- Native site QA: 0 errors and five known non-homepage canonical warnings.
+- Operator-state QA: pending final state mirror.
+- Browser: blank native validation; LA/SD supported and city-boundary cases;
+  Georgia classification-only; unsupported route; HTML escaping; keyboard
+  focus handoff; 1440x900, 375x812, and 320x568 layouts; no horizontal
+  overflow.
+
+Independent review:
+
+Review cycle 1:
+
+- Reviewer: thread `019faa05-b89c-7700-9eac-48f0b482bbe3`
+  (`Hume`; exact task title unavailable).
+- Verdict: `FAIL`.
+- P2: the four-factor model and proof requests repeated across hero, form,
+  default result, generated result, and static proof checklist.
+- P2: the 320x568 first screen placed the primary action below the viewport.
+- P2: escaped but unbroken place/state input could widen the mobile document.
+- P2: stale current-cycle text said no site work was authorized during the
+  active homepage transaction.
+- P3: Georgia's top result status sounded like a local source match before the
+  classification-only scope appeared.
+
+Cycle 1 fixes:
+
+- Replaced the default result with one jurisdiction-first action and replaced
+  the generated proof list with a link to the single static proof checklist.
+- Compressed the mobile header/hero, shortened the lede, hid the repeated hero
+  factor panel on small screens, and moved the primary CTA above 439px at
+  320x568; the next section begins at 524px.
+- Added state/place length limits plus result/title containment. A 60-character
+  state and 100-character unbroken place kept document width at 320px in the
+  general-jurisdiction test, but cycle 2 found the City-specific step still
+  overflowed.
+- Removed the stale current-cycle prohibition.
+- Changed Georgia to explicit state-classification status and guide language.
+
+Review cycle 2:
+
+- Reviewer: same independent thread
+  `019faa05-b89c-7700-9eac-48f0b482bbe3`.
+- Verdict: `FAIL`.
+- P2: a 100-character unbroken place with City jurisdiction expanded the
+  320px document to 1073px because the generated jurisdiction step did not
+  inherit the title-only wrapping rule.
+
+Cycle 2 fix:
+
+- Applied `overflow-wrap: anywhere` to the complete placement result so all
+  generated headings, list items, status text, and links contain unbroken
+  input.
+- Exact maximum-length City recheck passed at 320px: document, result title,
+  and City step scroll widths equal their client widths.
+
+Review cycle 3:
+
+- Reviewer: same independent read-only thread
+  `019faa05-b89c-7700-9eac-48f0b482bbe3`.
+- Verdict: `PASS`.
+- Findings: no P0-P3.
+- Verified first-screen action visibility, one proof checklist, source/general
+  distinction, LA/SD City boundaries, Georgia classification-only language,
+  adversarial City input containment, canonical, sitemap, focus, exact scope,
+  state mirrors, and research-to-implementation fidelity.
+
+Final QA:
+
+- `node --test tools/*.test.mjs`: 26 tests passed.
+- `node tools/seo-qa.mjs`: 0 errors and five known canonical warnings on
+  unchanged pages.
+- `node tools/operator-state-qa.mjs`: 0 errors.
+- Homepage inline script, roadmap JSON, required files, exact 11-path scope,
+  and `git diff --check`: passed.
+- Browser: blank; LA/SD City and boundary; Georgia classification-only;
+  unsupported; escaping; focus; maximum-length City input; 1440x900,
+  768x1024, 375x812, and 320x568 layouts; no horizontal overflow.
+- Anti Gravity advisory was attempted but produced no verdict because its
+  headless reviewer could not obtain its own command permission.
+
+Release state: independently review-clean and authorized. Push, Pages, and
+production verification remain.

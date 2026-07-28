@@ -4,363 +4,303 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Where Can I Put a Tiny House? | Tiny Home Clarity</title>
-    <meta name="description" content="Use this tiny house placement triage tool to identify zoning, code, septic, HOA, financing, insurance, and local office checks before buying land or a tiny home.">
+    <meta name="description" content="Find the next tiny house placement checks for your jurisdiction, home type, intended use, and land situation before you buy a home or property.">
+    <link rel="canonical" href="https://tinyhomeclarity.com/">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="./" aria-label="Tiny Home Clarity home">Tiny Home Clarity</a>
       <nav class="site-nav" aria-label="Page sections">
-        <a href="#tool">Tool</a>
-        <a href="#guide">Guide</a>
-        <a href="#sources">Sources</a>
-        <a href="#records">Local records</a>
-        <a href="#checklist">Checklist</a>
+        <a href="#types">Home types</a>
+        <a href="#tool">Placement checker</a>
+        <a href="#records">Local guides</a>
+        <a href="#proof">Proof checklist</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Placement triage tool</p>
+          <p class="eyebrow">Tiny house placement</p>
           <h1>Where Can I Put a Tiny House?</h1>
-          <p class="lede">Get a practical checklist of the rules and local offices to verify before you buy land, order a tiny home, or trust a seller's placement claim.</p>
-          <p class="freshness-label">Page last reviewed: 2026-07-08</p>
+          <p class="lede">A tiny house can work only when four facts line up: exact jurisdiction, home category, intended use, and the property. Check those before you buy.</p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#tool">Start the triage</a>
-            <a class="button secondary" href="#guide">Read the cautions</a>
+            <a class="button primary" href="#tool">Find my next checks</a>
+            <a class="button secondary" href="#records">See source-backed guides</a>
           </div>
         </div>
-        <aside class="hero-panel" aria-label="Important caveats">
-          <h2>What this tool can and cannot do</h2>
-          <ul class="check-list">
-            <li>It can show likely rule buckets and verification steps.</li>
-            <li>It can help you ask better city, county, health, lender, and insurer questions.</li>
-            <li>It cannot determine legal approval, HOA limits, deed restrictions, financing, insurance, septic, or utility acceptance.</li>
-          </ul>
+        <aside class="hero-panel" aria-labelledby="four-checks-title">
+          <p class="eyebrow">The answer changes with</p>
+          <h2 id="four-checks-title">Four facts to settle first</h2>
+          <ol class="factor-list">
+            <li><span>1</span><div><strong>Jurisdiction</strong><small>City, unincorporated county, or another authority</small></div></li>
+            <li><span>2</span><div><strong>Home type</strong><small>THOW, RV, park model, ADU, modular, manufactured, or site-built</small></div></li>
+            <li><span>3</span><div><strong>Intended use</strong><small>Primary home, backyard unit, rental, temporary stay, or community placement</small></div></li>
+            <li><span>4</span><div><strong>Land context</strong><small>Owned parcel, land you may buy, family property, park, or community</small></div></li>
+          </ol>
         </aside>
       </section>
 
-      <section id="tool" class="tool-section" aria-labelledby="tool-title">
+      <section id="types" class="content-section" aria-labelledby="types-title">
         <div class="section-heading">
-          <p class="eyebrow">Interactive MVP</p>
-          <h2 id="tool-title">Build your verification plan</h2>
-          <p>Enter what you know. The result is a planning checklist, not legal advice or placement approval.</p>
+          <p class="eyebrow">Before the placement check</p>
+          <h2 id="types-title">Identify what you are actually buying</h2>
+          <p>"Tiny house" is a marketing term, not one universal legal category. Ask the seller for the documents or labels that show which path the home was built for.</p>
+        </div>
+
+        <div class="category-grid">
+          <article>
+            <p class="category-label">Movable</p>
+            <h3>Tiny house on wheels</h3>
+            <p>May be reviewed as an RV, movable tiny house, accessory unit, or another local category. Ask what certification, plans, and inspection path apply.</p>
+          </article>
+          <article>
+            <p class="category-label">Recreation / park</p>
+            <h3>RV or park model</h3>
+            <p>Often designed for a park, campground, or community. Full-time residential use can be a separate question from where the unit may be parked.</p>
+          </article>
+          <article>
+            <p class="category-label">Built on site</p>
+            <h3>Foundation home or ADU</h3>
+            <p>Usually follows a residential or accessory-dwelling permit path. The lot, primary-home context, building code, utilities, and intended occupancy still matter.</p>
+          </article>
+          <article>
+            <p class="category-label">Factory built</p>
+            <h3>Modular or manufactured</h3>
+            <p>Certification and installation rules can differ from both site-built homes and RVs. Confirm the label and regulatory program before discussing placement.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tool" class="tool-section" aria-labelledby="checker-title">
+        <div class="section-heading">
+          <p class="eyebrow">Placement decision path</p>
+          <h2 id="checker-title">Find your next placement checks</h2>
+          <p>Use what you know now. The result identifies the next questions and shows when Tiny Home Clarity has a matching official-source guide.</p>
         </div>
 
         <div class="tool-grid">
           <form id="placement-form" class="form-card">
-            <div class="field-row">
-              <label for="state">State</label>
-              <input id="state" name="state" type="text" placeholder="Example: North Carolina" autocomplete="address-level1" required>
+            <div class="form-step">
+              <p class="step-label">1. Property location</p>
+              <div class="field-row">
+                <label for="state">State</label>
+                <input id="state" name="state" type="text" maxlength="60" placeholder="Example: California" autocomplete="address-level1" required>
+              </div>
+              <div class="field-row">
+                <label for="place">City or county</label>
+                <input id="place" name="place" type="text" maxlength="100" placeholder="Example: Los Angeles" autocomplete="address-level2" required>
+              </div>
+              <div class="field-row">
+                <label for="jurisdiction">Which government controls the parcel?</label>
+                <select id="jurisdiction" name="jurisdiction" required>
+                  <option value="not-sure">Not sure yet</option>
+                  <option value="city">Inside city limits</option>
+                  <option value="county">Unincorporated county</option>
+                  <option value="other">Park, tribal land, or another authority</option>
+                </select>
+              </div>
             </div>
 
-            <div class="field-row">
-              <label for="place">City or county</label>
-              <input id="place" name="place" type="text" placeholder="Example: Buncombe County" autocomplete="address-level2" required>
+            <div class="form-step">
+              <p class="step-label">2. Home category</p>
+              <div class="field-row">
+                <label for="home-type">What kind of unit is it?</label>
+                <select id="home-type" name="homeType" required>
+                  <option value="not-sure">Not sure yet</option>
+                  <option value="thow">Tiny house on wheels / movable tiny house</option>
+                  <option value="rv">RV or travel trailer</option>
+                  <option value="park-model">Park model RV</option>
+                  <option value="foundation">Site-built foundation tiny home</option>
+                  <option value="adu">Accessory dwelling unit (ADU)</option>
+                  <option value="modular">Modular home</option>
+                  <option value="manufactured">Manufactured home</option>
+                  <option value="cabin">Cabin, shed conversion, or unclear small structure</option>
+                </select>
+              </div>
             </div>
 
-            <div class="field-row">
-              <label for="inside-city">Is the site inside city limits?</label>
-              <select id="inside-city" name="insideCity" required>
-                <option value="not sure">Not sure</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-              </select>
+            <div class="form-step">
+              <p class="step-label">3. Use and land</p>
+              <div class="field-row">
+                <label for="intended-use">How do you want to use it?</label>
+                <select id="intended-use" name="intendedUse" required>
+                  <option value="primary">Full-time primary home</option>
+                  <option value="backyard">Backyard or family housing</option>
+                  <option value="rental">Long- or short-term rental</option>
+                  <option value="part-time">Part-time or vacation use</option>
+                  <option value="temporary">Temporary home while building</option>
+                  <option value="community">Placement in a park or community</option>
+                </select>
+              </div>
+              <div class="field-row">
+                <label for="land">What is the land situation?</label>
+                <select id="land" name="land" required>
+                  <option value="shopping">I may buy land</option>
+                  <option value="own">I own the land</option>
+                  <option value="family">Family or friend owns the land</option>
+                  <option value="community">Park or community placement</option>
+                  <option value="not-sure">Not sure yet</option>
+                </select>
+              </div>
             </div>
 
-            <div class="field-row">
-              <label for="home-type">Tiny home type</label>
-              <select id="home-type" name="homeType" required>
-                <option value="not sure">Not sure</option>
-                <option value="thow">THOW / tiny house on wheels</option>
-                <option value="park-model">Park model RV</option>
-                <option value="rv">RV or travel trailer</option>
-                <option value="foundation">Foundation tiny home</option>
-                <option value="adu">ADU</option>
-                <option value="modular">Modular home</option>
-                <option value="manufactured">Manufactured home</option>
-                <option value="cabin">Small cabin</option>
-              </select>
-            </div>
-
-            <div class="field-row">
-              <label for="intended-use">Intended use</label>
-              <select id="intended-use" name="intendedUse" required>
-                <option value="full-time">Full-time primary residence</option>
-                <option value="part-time">Part-time / vacation</option>
-                <option value="family">Backyard family housing</option>
-                <option value="rental">Rental</option>
-                <option value="temporary">Temporary while building</option>
-                <option value="community">Community / park placement</option>
-              </select>
-            </div>
-
-            <div class="field-row">
-              <label for="land">Land situation</label>
-              <select id="land" name="land" required>
-                <option value="shopping">Shopping for land</option>
-                <option value="own">Own land</option>
-                <option value="family">Family or friend land</option>
-                <option value="community">Tiny home community / RV park</option>
-                <option value="not sure">Not sure</option>
-              </select>
-            </div>
-
-            <fieldset>
-              <legend>Optional constraints to include</legend>
-              <label class="option"><input type="checkbox" name="utilities" value="septic"> Septic, well, or off-grid utilities</label>
-              <label class="option"><input type="checkbox" name="hoa" value="hoa"> HOA or deed restrictions may apply</label>
-              <label class="option"><input type="checkbox" name="finance" value="finance"> Financing or insurance is needed</label>
-              <label class="option"><input type="checkbox" name="used" value="used"> Used, DIY, or owner-built home</label>
-            </fieldset>
-
-            <div class="field-row">
-              <label for="square-feet">Approximate square footage <span>optional</span></label>
-              <input id="square-feet" name="squareFeet" type="number" min="80" max="2000" step="10" placeholder="Example: 399">
-            </div>
-
-            <button class="button primary full" type="submit">Generate triage result</button>
+            <button class="button primary full" type="submit">Show my next checks</button>
           </form>
 
-          <section id="result" class="result-panel" aria-live="polite" aria-labelledby="result-title">
-            <p class="eyebrow">General triage only</p>
-            <h2 id="result-title">Your result will appear here</h2>
-            <p>Use the form to create a checklist. Until official local sources are reviewed for your city or county, confidence stays low.</p>
-            <div class="empty-state">
-              <strong>Default confidence: Low</strong>
-              <span>No official local source has been reviewed for this location yet.</span>
+          <section id="result" class="result-panel placement-result" aria-live="polite" aria-labelledby="result-title">
+            <p class="eyebrow">Start before you shop</p>
+            <h2 id="result-title">Confirm the parcel's exact jurisdiction</h2>
+            <p>A mailing address does not prove which government controls the land. Use the parcel record, county GIS, assessor, or planning office to settle City versus unincorporated County first.</p>
+            <div class="path-status general">
+              <strong>Do this before you rely on a seller or land listing.</strong>
+              <span>The correct office, zoning map, and allowed-use table depend on this boundary.</span>
             </div>
           </section>
         </div>
       </section>
 
-      <section id="guide" class="content-section" aria-labelledby="guide-title">
+      <section id="records" class="content-section" aria-labelledby="local-guides-title">
         <div class="section-heading">
-          <p class="eyebrow">Placement guide</p>
-          <h2 id="guide-title">Tiny house placement usually depends on the category</h2>
-          <p>A seller may call many structures a "tiny home." Local offices often care about a more specific category.</p>
+          <p class="eyebrow">Source-backed coverage</p>
+          <h2 id="local-guides-title">Use a local guide only when its scope matches</h2>
+          <p>These guides summarize official sources for a narrow jurisdiction or classification job. They are not parcel approvals and do not apply outside the scope shown.</p>
         </div>
 
-        <div class="category-grid">
+        <div class="support-grid coverage-grid">
           <article>
-            <h3>THOW or RV-like structure</h3>
-            <p>Possible path: RV park, tiny home community, temporary use permit, or limited accessory use if local rules allow it. Verify whether full-time residential use is treated differently from camping or temporary occupancy.</p>
+            <p class="scope-label">City of Los Angeles only</p>
+            <h3>Los Angeles movable tiny house / ADU path</h3>
+            <p>For readers evaluating the City's documented movable-tiny-house-as-ADU route. Los Angeles County and other cities use separate rules.</p>
+            <p class="source-date">Official sources checked: 2026-07-08</p>
+            <div class="source-actions">
+              <a href="./los-angeles-tiny-house-adu/">Read the Los Angeles guide</a>
+              <a href="https://dbs.lacity.gov/adu">Open the City source</a>
+            </div>
           </article>
           <article>
-            <h3>Park model RV</h3>
-            <p>Possible path: a park, campground, or community designed for park models. Ask whether the local office treats it as an RV, dwelling, accessory structure, or something else for the intended use.</p>
+            <p class="scope-label">City of San Diego only</p>
+            <h3>San Diego movable tiny house / ADU path</h3>
+            <p>For readers evaluating the City's movable tiny house and companion-unit framework. Unincorporated County guidance is a different path.</p>
+            <p class="source-date">Official sources checked: 2026-07-08</p>
+            <div class="source-actions">
+              <a href="./san-diego-tiny-house-adu/">Read the San Diego guide</a>
+              <a href="https://www.sandiego.gov/sites/default/files/dsdib403.pdf">Open the City bulletin</a>
+            </div>
           </article>
           <article>
-            <h3>Foundation tiny home or ADU</h3>
-            <p>Possible path: primary dwelling or accessory dwelling unit if zoning, building code, lot, utility, and occupancy rules fit. Local ADU ordinances and minimum dwelling standards can matter.</p>
-          </article>
-          <article>
-            <h3>Modular or manufactured home</h3>
-            <p>Possible path: manufactured or modular housing rules if the home meets the relevant certification, siting, foundation, zoning, and installation requirements. Confirm the exact classification before purchase.</p>
-          </article>
-        </div>
-
-        <div class="split-panel">
-          <div>
-            <h3>Why city vs county matters</h3>
-            <p>Land outside city limits may still be governed by county zoning, health department rules, state building codes, subdivision covenants, utility districts, fire access rules, and deed restrictions. If a property is inside a city, city zoning may be the first gate.</p>
-          </div>
-          <div>
-            <h3>Why seller claims are not enough</h3>
-            <p>Be careful with claims like "legal anywhere" or "no restrictions." Ask for official ordinance links, the parcel's zoning district, occupancy rules, utility requirements, and written confirmation from the relevant office before relying on the claim.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="sources" class="content-section" aria-labelledby="sources-title">
-        <div class="section-heading">
-          <p class="eyebrow">Official-source starter</p>
-          <h2 id="sources-title">Why this starts with local verification</h2>
-          <p>Official materials do not treat every "tiny home" as one category. These links are starter sources for understanding structure types and agency roles. They do not mean a tiny house is approved at a specific parcel.</p>
-        </div>
-
-        <div class="source-grid">
-          <article>
-            <h3>California HCD ADU handbook</h3>
-            <p>Useful for understanding how tiny homes may intersect with ADU rules only when they fit the relevant ADU definition and local permit path.</p>
-            <a href="https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf">Read the HCD ADU handbook</a>
-          </article>
-          <article>
-            <h3>California HCD Information Bulletin 2016-01</h3>
-            <p>Useful for seeing why a tiny home needs to fit an approved structure category before occupancy questions can be answered.</p>
-            <a href="https://www.hcd.ca.gov/sites/default/files/docs/building-standards/ib-2016-01.pdf">Read the HCD tiny homes bulletin</a>
-          </article>
-          <article>
-            <h3>Georgia DCA tiny house fact sheet</h3>
-            <p>Useful for comparing RV, manufactured, modular, industrialized, and site-built categories while still verifying zoning locally.</p>
-            <a href="https://dca.georgia.gov/document/public-notices/georgiatinyhousefactsheet32824pdf/download">Read the Georgia DCA fact sheet</a>
-          </article>
-          <article>
-            <h3>Texas TDHCA manufactured housing resources</h3>
-            <p>Useful for manufactured housing laws, rules, ownership, records, and licensing when a tiny home may fall into that regulated category.</p>
-            <a href="https://www.tdhca.texas.gov/manufactured-housing-federal-and-state-laws-and-rules">Read the Texas TDHCA resources</a>
+            <p class="scope-label">Georgia classification only</p>
+            <h3>Georgia tiny house categories</h3>
+            <p>For identifying the likely RV, manufactured, modular, or site-built lane before asking a Georgia city or county about local siting.</p>
+            <p class="source-date">Official sources checked: 2026-07-08</p>
+            <div class="source-actions">
+              <a href="./georgia-tiny-house-classification/">Read the Georgia guide</a>
+              <a href="https://dca.georgia.gov/document/public-notices/georgiatinyhousefactsheet32824pdf/download">Open the DCA fact sheet</a>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="records" class="content-section" aria-labelledby="records-title">
-        <div class="section-heading">
-          <p class="eyebrow">Official-source records</p>
-          <h2 id="records-title">MVP source record examples</h2>
-          <p>The MVP now includes a small set of official-source examples. These are source summaries, not a national database and not placement approvals. Unsupported locations still receive general national triage only.</p>
-        </div>
-
-        <div class="record-card">
-          <h3>Published source records</h3>
-          <div id="records-overview" class="records-overview" aria-live="polite">
-            <p class="small-note">Loading official-source example records...</p>
-          </div>
-          <p class="small-note">Los Angeles and San Diego are city examples only, not countywide California guidance. Georgia DCA is a state classification source, not a local placement record or statewide permission result.</p>
-
-          <h3>Local/zoning record fields preserved</h3>
-          <div class="record-grid" role="list" aria-label="Required local record fields">
-            <span role="listitem">record_id</span>
-            <span role="listitem">state</span>
-            <span role="listitem">city</span>
-            <span role="listitem">county</span>
-            <span role="listitem">jurisdiction_type</span>
-            <span role="listitem">inside_city_limits</span>
-            <span role="listitem">zoning_district</span>
-            <span role="listitem">tiny_home_types_covered</span>
-            <span role="listitem">intended_uses_covered</span>
-            <span role="listitem">possible_placement_paths</span>
-            <span role="listitem">clearly_allowed</span>
-            <span role="listitem">clearly_not_allowed</span>
-            <span role="listitem">unclear</span>
-            <span role="listitem">local_office_to_contact</span>
-            <span role="listitem">official_source_urls</span>
-            <span role="listitem">source_quote_or_summary</span>
-            <span role="listitem">last_checked_date</span>
-            <span role="listitem">confidence_level</span>
-            <span role="listitem">notes</span>
-          </div>
-          <p class="small-note">Future records should keep official URLs, source summaries, last checked dates, and confidence levels before they are shown as researched examples.</p>
-        </div>
-      </section>
-
-      <section id="checklist" class="content-section checklist-section" aria-labelledby="checklist-title">
+      <section id="proof" class="content-section checklist-section" aria-labelledby="proof-title">
         <div>
-          <p class="eyebrow">Free checklist preview</p>
-          <h2 id="checklist-title">Tiny Home Placement Verification Checklist</h2>
-          <p>Email capture is not connected yet because the provider is UNKNOWN. For now, use this on-page version before contacting local offices.</p>
+          <p class="eyebrow">Before a deposit or land offer</p>
+          <h2 id="proof-title">Get the decision evidence in writing</h2>
+          <p>Verbal reassurance is hard to use when a permit, utility, lender, insurer, HOA, or seller later disagrees.</p>
         </div>
         <ol class="number-list">
-          <li>Identify whether the parcel is inside city limits, unincorporated county land, a subdivision, a park, or a community.</li>
-          <li>Find the zoning district and allowed residential, accessory, RV, manufactured, modular, temporary, and rental uses.</li>
-          <li>Ask planning or building staff about your specific structure type, intended use, and occupancy length.</li>
-          <li>Ask the health department about septic, water, toilet, and wastewater requirements before buying land.</li>
-          <li>Check HOA documents, deed restrictions, lender conditions, and insurer requirements before signing.</li>
-          <li>Save official URLs, staff names, dates, and written answers in a source log.</li>
+          <li><strong>Parcel authority:</strong> exact jurisdiction, parcel number, zoning district, overlays, and governing office.</li>
+          <li><strong>Home category:</strong> plans, labels, certification, build standard, and the local office's classification.</li>
+          <li><strong>Use and occupancy:</strong> whether the intended primary, accessory, rental, temporary, or park use can be reviewed on that property.</li>
+          <li><strong>Site work:</strong> access, fire, foundation or anchoring, delivery, septic, water, power, grading, and inspections.</li>
+          <li><strong>Seller scope:</strong> what the price includes, excludes, delivers, warrants, and requires someone else to complete.</li>
+          <li><strong>Private constraints:</strong> HOA, deed, lease, lender, and insurer requirements before money becomes nonrefundable.</li>
         </ol>
       </section>
 
       <section class="content-section next-links" aria-labelledby="next-title">
-        <p class="eyebrow">Next tools planned</p>
-        <h2 id="next-title">Related buyer-protection tools</h2>
-        <div class="planned-grid" aria-label="Planned tools">
-          <a href="./tiny-home-cost-calculator/">Tiny Home Cost / Reality Check Calculator <span>live tool</span></a>
-          <article>Tiny Home Builder / Vendor Due Diligence Checklist <span>planned</span></article>
-          <article>Tiny House Toilet Options Calculator <span>planned</span></article>
-          <a href="./tiny-house-under-20k/">Can You Build a Tiny House for Under $20K? <span>live guide</span></a>
+        <p class="eyebrow">Continue your decision</p>
+        <h2 id="next-title">Check cost after the placement path</h2>
+        <div class="planned-grid decision-links">
+          <a href="./tiny-home-cost-calculator/">Compare a seller quote with the larger project budget <span>Tiny Home Cost Calculator</span></a>
+          <a href="./tiny-house-under-20k/">Stress-test what an under-$20K claim leaves out <span>Under-$20K guide</span></a>
+          <a href="#records">Return to the source-backed local guides <span>Los Angeles, San Diego, and Georgia</span></a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Tiny Home Clarity provides planning support, not legal, zoning, code, financing, insurance, or safety advice. Verify decisions with the relevant local office and qualified professionals before purchase.</p>
-      <p>Page last reviewed: 2026-07-08</p>
+      <p>Tiny Home Clarity provides buyer decision support, not legal, zoning, code, financing, insurance, or safety advice. Verify the property, structure, and intended use with the relevant offices and qualified professionals before purchase.</p>
+      <p>Page last reviewed: 2026-07-28</p>
     </footer>
 
     <script>
       const form = document.querySelector("#placement-form");
       const result = document.querySelector("#result");
-      const recordsOverview = document.querySelector("#records-overview");
       let localRecords = [];
 
-      const ruleBuckets = {
-        always: [
-          "Zoning/use rules for the parcel and intended occupancy",
-          "Building department requirements for the structure and installation",
-          "Health department review for septic, water, toilets, and wastewater",
-          "Utility, driveway, access, fire, and address requirements",
-          "HOA, subdivision, deed, lender, and insurance constraints"
-        ],
-        thow: [
-          "RV, camping, temporary-use, or movable dwelling rules",
-          "Whether full-time occupancy is allowed for a wheeled structure"
-        ],
-        "park-model": [
-          "Park model RV placement and occupancy rules",
-          "Community, campground, or park approval requirements"
-        ],
-        rv: [
-          "RV parking, camping, and temporary occupancy rules",
-          "Limits on using an RV as a primary residence"
-        ],
-        foundation: [
-          "Minimum dwelling standards and residential building code path",
-          "Foundation, utility hookup, inspection, and certificate requirements"
-        ],
-        adu: [
-          "Accessory dwelling unit ordinance and owner-occupancy or rental limits",
-          "Setback, size, parking, utility, and address rules for ADUs"
-        ],
-        modular: [
-          "State modular certification, local zoning, foundation, and installation rules",
-          "Inspection handoff between factory certification and local site work"
-        ],
-        manufactured: [
-          "Manufactured housing zoning, HUD-code, installation, and foundation rules",
-          "Park, subdivision, age, width, or design restrictions"
-        ],
-        cabin: [
-          "Cabin, accessory structure, and dwelling conversion rules",
-          "Occupancy limits if the structure is not approved as a residence"
-        ],
-        "not sure": [
-          "Structure classification: ask whether the office treats it as an RV, dwelling, ADU, modular, manufactured home, or accessory structure"
-        ]
+      const homeDetails = {
+        "not-sure": {
+          label: "an unclassified tiny home",
+          check: "Ask the seller for plans, labels, certification, chassis or foundation details, and the standard it was built to. Take those documents to the local building office before discussing placement."
+        },
+        thow: {
+          label: "a tiny house on wheels or movable tiny house",
+          check: "Ask whether the office treats this unit as an RV, movable tiny house, accessory dwelling, or another category, and which certification, anchoring, utility, and inspection rules apply."
+        },
+        rv: {
+          label: "an RV or travel trailer",
+          check: "Ask where RV occupancy is allowed, whether full-time residence is prohibited or time-limited, and whether a park or temporary-use approval is required."
+        },
+        "park-model": {
+          label: "a park model RV",
+          check: "Ask whether the unit must be placed in an approved park or community and whether the intended occupancy is allowed under the park model or RV rules."
+        },
+        foundation: {
+          label: "a site-built foundation tiny home",
+          check: "Ask which residential building-code and zoning path applies, including minimum dwelling, foundation, access, utility, inspection, and occupancy requirements."
+        },
+        adu: {
+          label: "an accessory dwelling unit",
+          check: "Ask whether the parcel and primary-home context qualify for an ADU and which size, setback, utility, address, parking, rental, and permit rules apply."
+        },
+        modular: {
+          label: "a modular home",
+          check: "Ask for the state modular certification and confirm the local zoning, foundation, installation, utility, and site-inspection handoff."
+        },
+        manufactured: {
+          label: "a manufactured home",
+          check: "Ask for the HUD or state labels and confirm manufactured-home zoning, age/design limits, installation, foundation, and inspection requirements."
+        },
+        cabin: {
+          label: "a cabin, shed conversion, or unclear small structure",
+          check: "Ask whether the structure was approved as a dwelling. A shed or cabin sales label does not establish residential code, utility, or occupancy approval."
+        }
       };
 
-      const pathMap = {
-        thow: ["RV park or tiny home community path", "Temporary RV/use permit path", "Rural accessory use path if local rules support that use"],
-        "park-model": ["RV park or tiny home community path", "Park model community path", "Temporary or seasonal-use path if locally allowed"],
-        rv: ["RV park or campground path", "Temporary RV/use permit path", "Seasonal or vacation-use path if locally allowed"],
-        foundation: ["Foundation dwelling path", "Small single-family home path", "ADU path if it is accessory to an existing dwelling"],
-        adu: ["ADU path if the local ordinance allows this structure and use", "Backyard family housing path if occupancy rules fit"],
-        modular: ["Modular home path", "Foundation dwelling path if zoning and site work requirements fit"],
-        manufactured: ["Manufactured home path", "Manufactured home park or approved residential zoning path"],
-        cabin: ["Small cabin path", "Foundation dwelling path if converted and approved for residential occupancy"],
-        "not sure": ["Classification-first path: confirm the structure category before buying or applying"]
+      const useQuestions = {
+        primary: "Can this category be reviewed for full-time primary residential occupancy on this parcel?",
+        backyard: "Can this category be reviewed as an accessory or family dwelling on a parcel with the existing primary home?",
+        rental: "Is this residential use allowed, and do rental term, business-license, occupancy, parking, or tax rules add another approval?",
+        "part-time": "Is part-time occupancy treated as residential use, vacation use, camping, or another time-limited use here?",
+        temporary: "Does this jurisdiction offer a temporary dwelling or construction-housing permit, and what is the time limit?",
+        community: "Is the park or community approved for this unit category and occupancy, and what do the lease, utility, and move-out terms require?"
+      };
+
+      const landActions = {
+        shopping: "Before an offer becomes nonrefundable, verify the parcel's jurisdiction, zoning district, access, utilities, septic or sewer path, overlays, and private restrictions from source documents.",
+        own: "Use the parcel number to obtain the current zoning, overlays, legal-lot status, access, utility, septic or sewer, and permit history from the responsible offices.",
+        family: "The property owner should confirm the parcel facts and private restrictions. Family permission does not replace zoning, building, utility, health, or HOA review.",
+        community: "Request the park or community approval documents, accepted unit standards, lease, utility billing, move-out rules, and written confirmation that this exact unit can enter.",
+        "not-sure": "Identify the exact parcel, park, or community before relying on a placement answer; the controlling rules attach to a real location and intended use."
       };
 
       const redFlags = [
-        "Seller says the tiny home is legal anywhere.",
-        "No official zoning source or local office contact is provided.",
-        "A land listing says no restrictions without confirming city, county, subdivision, HOA, and deed rules.",
-        "A THOW is marketed as a permanent dwelling where only RV or camping rules appear to apply.",
-        "Septic, water, power, fire access, driveway, insurance, or financing assumptions are missing."
+        "The seller says the home is legal anywhere or needs no permit.",
+        "The land listing says there are no restrictions but provides no parcel zoning or jurisdiction source.",
+        "The quote omits delivery, foundation or anchoring, site work, utilities, permits, inspections, or certification.",
+        "Someone treats a stay, community listing, RV parking rule, or product label as proof of full-time residential permission."
       ];
-
-      const baseChecklist = [
-        "Identify whether the parcel is inside city limits or under county jurisdiction.",
-        "Find the zoning district and the allowed uses for that district.",
-        "Ask the planning/building department about the exact tiny home type and intended use.",
-        "Ask the health department about septic, water, toilet, and wastewater requirements.",
-        "Check HOA documents, deed restrictions, and subdivision covenants.",
-        "Ask your lender and insurer before purchase if financing or coverage is needed.",
-        "Save official URLs, staff names, dates, and written answers in a source log."
-      ];
-
-      function listItems(items) {
-        return items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
-      }
 
       function escapeHtml(value) {
         return String(value).replace(/[&<>"']/g, (character) => ({
@@ -372,20 +312,23 @@
         })[character]);
       }
 
+      function listItems(items) {
+        return items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+      }
+
       function normalize(value) {
         return String(value || "").toLowerCase().replace(/[^a-z0-9]/g, "");
       }
 
       function stateMatches(record, state) {
-        const recordState = normalize(record.state);
-        const selectedState = normalize(state);
         const aliases = {
           ca: "california",
           california: "california",
           ga: "georgia",
           georgia: "georgia"
         };
-
+        const recordState = normalize(record.state);
+        const selectedState = normalize(state);
         return recordState === selectedState || aliases[selectedState] === recordState;
       }
 
@@ -393,44 +336,21 @@
         if (!record.city || record.city === "UNKNOWN") {
           return false;
         }
-
         const city = normalize(record.city);
         const selectedPlace = normalize(place);
         return selectedPlace === city || selectedPlace === `cityof${city}`;
       }
 
-      function getMatchingRecords(state, place) {
-        return localRecords.filter((record) => {
+      function getMatchingRecord(state, place, jurisdiction) {
+        return localRecords.find((record) => {
           if (!stateMatches(record, state)) {
             return false;
           }
-
           if (record.jurisdiction_type === "state agency classification source") {
             return true;
           }
-
-          return record.jurisdiction_type === "city" && cityMatches(record, place);
+          return jurisdiction === "city" && record.jurisdiction_type === "city" && cityMatches(record, place);
         });
-      }
-
-      function recordKind(record) {
-        if (record.jurisdiction_type === "state agency classification source") {
-          return "State classification source, not a local placement record";
-        }
-
-        return "City source example, not countywide guidance";
-      }
-
-      function recordTitle(record) {
-        if (record.jurisdiction_type === "state agency classification source") {
-          return `${record.state} classification source`;
-        }
-
-        return `${record.city}, ${record.state} city example`;
-      }
-
-      function sourceLinks(urls) {
-        return urls.map((url) => `<li><a href="${escapeHtml(url)}">${escapeHtml(url)}</a></li>`).join("");
       }
 
       function supportPagePath(record) {
@@ -439,73 +359,44 @@
           "san-diego-ca-movable-tiny-house-adu": "./san-diego-tiny-house-adu/",
           "georgia-dca-tiny-house-classification": "./georgia-tiny-house-classification/"
         };
-
         return paths[record.record_id] || "";
       }
 
-      function supportPageLabel(record) {
+      function recordScope(record) {
         if (record.jurisdiction_type === "state agency classification source") {
-          return "Read the classification explainer";
+          return `${record.state} classification source only`;
         }
-
-        return "Read the city source page";
+        return `City of ${record.city} source path only`;
       }
 
-      function renderRecord(record) {
+      function jurisdictionAction(jurisdiction, place) {
+        if (jurisdiction === "city") {
+          return `Use the parcel number to confirm the zoning district and overlays with ${place} city planning or building staff.`;
+        }
+        if (jurisdiction === "county") {
+          return `Confirm the parcel is in unincorporated county territory, then obtain its zoning district and overlays from the county planning office.`;
+        }
+        if (jurisdiction === "other") {
+          return "Identify the governing authority and obtain both its land-use rules and any separate park, lease, tribal, or federal requirements.";
+        }
+        return "Confirm whether the parcel is inside a city or in unincorporated county territory using the assessor, county GIS, parcel record, or written planning-office confirmation.";
+      }
+
+      function renderSourceMatch(record) {
         const supportPath = supportPagePath(record);
-        const firstSource = record.official_source_urls[0];
-
+        const sourceUrl = record.official_source_urls[0];
+        const isClassification = record.jurisdiction_type === "state agency classification source";
         return `
-          <article class="record-example">
-            <div class="record-example-heading">
-              <div>
-                <p class="record-kind">${escapeHtml(recordKind(record))}</p>
-                <h4>${escapeHtml(recordTitle(record))}</h4>
-              </div>
-              <dl class="record-meta">
-                <div><dt>Last checked</dt><dd>${escapeHtml(record.last_checked_date)}</dd></div>
-                <div><dt>Source confidence</dt><dd>${escapeHtml(record.confidence_level)}</dd></div>
-              </dl>
+          <div class="result-block source-match">
+            <p class="scope-label">${escapeHtml(recordScope(record))}</p>
+            <h3>${isClassification ? "Use the state classification guide" : "Use the scoped City source guide"}</h3>
+            <p>This source record was checked ${escapeHtml(record.last_checked_date)}. It identifies a possible classification or permit path, not approval for this parcel or unit.</p>
+            <div class="source-actions">
+              ${supportPath ? `<a href="${escapeHtml(supportPath)}">Read the scoped guide</a>` : ""}
+              ${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}">Open an official source</a>` : ""}
             </div>
-            <p class="record-caution">Source summary only. This is not parcel approval, not legal advice, and not a promise that your structure or use will qualify. Verify with the local office before purchase.</p>
-            <div class="record-links">
-              ${supportPath ? `<a class="record-page-link" href="${escapeHtml(supportPath)}">${escapeHtml(supportPageLabel(record))}</a>` : ""}
-              ${firstSource ? `<a class="record-visible-source" href="${escapeHtml(firstSource)}">Open an official source</a>` : ""}
-            </div>
-            <div class="record-detail-grid">
-              <div>
-                <h5>Possible path to investigate</h5>
-                <ul>${listItems(record.possible_placement_paths)}</ul>
-              </div>
-              <div>
-                <h5>What still needs verification</h5>
-                <ul>${listItems(record.unclear)}</ul>
-              </div>
-            </div>
-            <details>
-              <summary>Official source summaries and links</summary>
-              <h5>Source summaries</h5>
-              <ul>${listItems(record.source_quote_or_summary)}</ul>
-              <h5>Official source URLs</h5>
-              <ul class="source-url-list">${sourceLinks(record.official_source_urls)}</ul>
-              <h5>Office or agency to contact</h5>
-              <ul>${listItems(record.local_office_to_contact)}</ul>
-            </details>
-          </article>
+          </div>
         `;
-      }
-
-      function renderRecordsOverview(records) {
-        if (!recordsOverview) {
-          return;
-        }
-
-        if (!records.length) {
-          recordsOverview.innerHTML = '<p class="small-note">No official-source example records are loaded yet.</p>';
-          return;
-        }
-
-        recordsOverview.innerHTML = records.map(renderRecord).join("");
       }
 
       async function loadLocalRecords() {
@@ -514,143 +405,83 @@
           if (!response.ok) {
             throw new Error(`Records request failed: ${response.status}`);
           }
-
           localRecords = await response.json();
-          renderRecordsOverview(localRecords);
         } catch (error) {
-          if (recordsOverview) {
-            recordsOverview.innerHTML = '<p class="small-note">Official-source example records could not be loaded. The triage tool still works as general national guidance.</p>';
-          }
+          localRecords = [];
         }
       }
 
-      function getChecked(name) {
-        return Array.from(form.querySelectorAll(`input[name="${name}"]:checked`)).map((input) => input.value);
-      }
+      const recordsPromise = loadLocalRecords();
 
-      function buildResult(event) {
+      async function buildResult(event) {
         event.preventDefault();
+        await recordsPromise;
 
         const data = new FormData(form);
-        const rawState = String(data.get("state") || "").trim() || "UNKNOWN state";
-        const rawPlace = String(data.get("place") || "").trim() || "UNKNOWN city/county";
+        const rawState = String(data.get("state") || "").trim();
+        const rawPlace = String(data.get("place") || "").trim();
         const state = escapeHtml(rawState);
         const place = escapeHtml(rawPlace);
-        const insideCity = data.get("insideCity");
-        const homeType = data.get("homeType");
-        const intendedUse = data.get("intendedUse");
-        const land = data.get("land");
-        const squareFeet = escapeHtml(String(data.get("squareFeet") || "").trim());
-        const constraints = {
-          utilities: getChecked("utilities").length > 0,
-          hoa: getChecked("hoa").length > 0,
-          finance: getChecked("finance").length > 0,
-          used: getChecked("used").length > 0
-        };
+        const jurisdiction = String(data.get("jurisdiction") || "not-sure");
+        const homeType = String(data.get("homeType") || "not-sure");
+        const intendedUse = String(data.get("intendedUse") || "primary");
+        const land = String(data.get("land") || "not-sure");
+        const home = homeDetails[homeType] || homeDetails["not-sure"];
+        const sourceMatch = getMatchingRecord(rawState, rawPlace, jurisdiction);
+        const classificationMatch = sourceMatch?.jurisdiction_type === "state agency classification source";
+        const resultEyebrow = classificationMatch
+          ? "State classification route plus local checks"
+          : sourceMatch
+            ? "Source-backed City route plus parcel checks"
+            : "General decision path";
+        const statusTitle = classificationMatch
+          ? `${sourceMatch.state} state classification guidance is available.`
+          : sourceMatch
+            ? "A scoped City source guide matched your details."
+            : "No scoped local guide matched these details.";
+        const statusDetail = classificationMatch
+          ? "Use it to identify the likely home category, then verify siting with the responsible city or county."
+          : sourceMatch
+            ? "Use that guide for the official-source starting point, then verify the parcel and exact unit."
+            : "Start with jurisdiction and classification. Do not treat the general steps below as local permission.";
 
-        const buckets = [...ruleBuckets.always, ...(ruleBuckets[homeType] || [])];
-        const paths = [...(pathMap[homeType] || pathMap["not sure"])];
-        const checklist = [...baseChecklist];
-        const matchingRecords = getMatchingRecords(rawState, rawPlace);
-        const sourceDates = [...new Set(matchingRecords.map((record) => record.last_checked_date))];
-        const sourceConfidence = [...new Set(matchingRecords.map((record) => `${recordTitle(record)}: ${record.confidence_level}`))];
+        const steps = [
+          jurisdictionAction(jurisdiction, rawPlace),
+          home.check,
+          `Ask the planning or building office: "${useQuestions[intendedUse]}"`,
+          landActions[land]
+        ];
 
-        if (insideCity === "not sure") {
-          checklist.unshift("Confirm city-limit status with the county GIS, assessor, planning office, or city boundary map.");
-        }
-
-        if (intendedUse === "rental") {
-          buckets.push("Short-term rental, landlord, business license, occupancy, and tax rules");
-          checklist.push("Ask whether rental use is regulated separately from owner occupancy.");
-        }
-
-        if (intendedUse === "temporary") {
-          buckets.push("Temporary dwelling, construction housing, camping, and permit time-limit rules");
-          paths.push("Temporary while building path if the local office offers a permit for that use");
-        }
-
-        if (intendedUse === "community" || land === "community") {
-          checklist.push("Request written community or park rules, lease terms, move-out rules, and utility billing details.");
-        }
-
-        if (land === "shopping") {
-          checklist.push("Do not rely on listing copy. Verify parcel zoning, access, utilities, and deed restrictions before an offer becomes nonrefundable.");
-        }
-
-        if (constraints.utilities) {
-          buckets.push("Septic/well/off-grid system approval and maintenance rules");
-          checklist.push("Ask whether composting toilets, wells, greywater, solar, or hauled water are accepted for this use.");
-        }
-
-        if (constraints.hoa) {
-          checklist.push("Read HOA, deed, architectural, minimum-size, parking, and occupancy rules before buying.");
-        }
-
-        if (constraints.finance) {
-          checklist.push("Ask the lender and insurer whether this structure type, land setup, and occupancy plan can be financed or insured.");
-        }
-
-        if (constraints.used) {
-          checklist.push("For used, DIY, or owner-built homes, ask what inspections, certifications, labels, plans, or engineer letters are required.");
-        }
-
-        if (squareFeet) {
-          buckets.push(`Minimum size, room, egress, ceiling height, and occupancy standards for an approximately ${squareFeet} sq ft structure`);
-        }
-
+        result.classList.add("has-result");
         result.innerHTML = `
-          <p class="eyebrow">General triage only</p>
-          <h2 id="result-title">Verification plan for ${place}, ${state}</h2>
-          <div class="confidence">
-            <strong>Personal placement confidence: Low</strong>
-            <span>${matchingRecords.length ? "A matching official-source example exists, but this tool still cannot verify your parcel, structure, use, HOA, lender, insurer, utilities, or permit outcome." : "No matching official local source has been reviewed for this location. Verify with the local planning/building department before purchase."}</span>
+          <p class="eyebrow">${escapeHtml(resultEyebrow)}</p>
+          <h2 id="result-title" tabindex="-1">Next checks for ${place}, ${state}</h2>
+          <p class="result-intro">You are evaluating ${escapeHtml(home.label)}. This result organizes the next decisions; it does not determine whether the parcel or unit will be approved.</p>
+
+          <div class="path-status ${sourceMatch ? "" : "general"}">
+            <strong>${escapeHtml(statusTitle)}</strong>
+            <span>${escapeHtml(statusDetail)}</span>
           </div>
 
           <div class="result-block">
-            <h3>Likely rule buckets to check</h3>
-            <ul>${listItems([...new Set(buckets)])}</ul>
-          </div>
-
-          <div class="result-block">
-            <h3>Possible placement paths to investigate</h3>
-            <ul>${listItems([...new Set(paths.map((path) => `Possible path: ${path}. Verify that the local ordinance allows this structure and use.`))])}</ul>
+            <h3>Do these four checks in order</h3>
+            <ol>${listItems(steps)}</ol>
           </div>
 
           <div class="result-block warning">
-            <h3>Red flags before you buy</h3>
+            <h3>Stop before paying if</h3>
             <ul>${listItems(redFlags)}</ul>
           </div>
 
-          <div class="result-block">
-            <h3>Verification checklist</h3>
-            <ol>${listItems([...new Set(checklist)])}</ol>
-          </div>
+          ${sourceMatch ? renderSourceMatch(sourceMatch) : ""}
 
-          <div class="result-block source-status">
-            <h3>Local record status</h3>
-            <dl>
-              <div><dt>State</dt><dd>${state}</dd></div>
-              <div><dt>City/county</dt><dd>${place}</dd></div>
-              <div><dt>Inside city limits</dt><dd>${insideCity}</dd></div>
-              <div><dt>Tiny home type</dt><dd>${form.elements.homeType.selectedOptions[0].textContent}</dd></div>
-              <div><dt>Intended use</dt><dd>${form.elements.intendedUse.selectedOptions[0].textContent}</dd></div>
-              <div><dt>Official source URLs</dt><dd>${matchingRecords.length ? "See matching source summary below" : "UNKNOWN"}</dd></div>
-              <div><dt>Last checked date</dt><dd>${sourceDates.length ? escapeHtml(sourceDates.join(", ")) : "UNKNOWN"}</dd></div>
-              <div><dt>Source confidence</dt><dd>${sourceConfidence.length ? escapeHtml(sourceConfidence.join("; ")) : "Low"}</dd></div>
-            </dl>
-          </div>
-
-          ${matchingRecords.length ? `
-            <div class="result-block">
-              <h3>Matching official-source example</h3>
-              <p>Use this as a source summary and question prompt only. Los Angeles and San Diego examples apply to those cities only. Georgia DCA is a state classification source, not local placement permission.</p>
-              <div class="records-overview">${matchingRecords.map(renderRecord).join("")}</div>
-            </div>
-          ` : ""}
+          <p class="result-proof-link"><a href="#proof">Use the full written-proof checklist before a deposit or land offer.</a></p>
         `;
+
+        document.querySelector("#result-title").focus({ preventScroll: true });
+        result.scrollIntoView({ behavior: "smooth", block: "nearest" });
       }
 
-      loadLocalRecords();
       form.addEventListener("submit", buildResult);
     </script>
   </body>

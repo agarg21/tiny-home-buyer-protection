@@ -458,3 +458,30 @@ Implementation implication:
 Evidence:
 
 - `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`
+
+## 2026-07-28 - Homepage Returns A Decision Path, Not A Placement Verdict
+
+Decision: the national homepage checker may organize the next placement
+decisions, but it must not label general guidance as a location-specific
+verification plan or assign a personal placement-confidence score.
+
+Implementation:
+
+- Start with exact jurisdiction, home category, intended use, and land context.
+- Teach the major product categories before asking the reader to select one.
+- Return four ordered checks, written-proof requests, and pre-payment red flags.
+- Match Los Angeles and San Diego records only when the user selects City
+  jurisdiction; match Georgia only as state classification guidance.
+- Give unsupported locations general office/classification steps without
+  `UNKNOWN` source fields, confidence labels, or implied research coverage.
+- Keep source-backed guides statically linked with scope and checked dates.
+- Preserve one on-page proof checklist and route only to live related assets.
+
+Why:
+
+- The prior result looked personalized but mostly repeated generic rule
+  buckets and cautions.
+- A source-safe page can still fail when it foregrounds inability instead of
+  the human's next decision.
+- Explicit source/general separation is more truthful than presenting every
+  location through the same confidence-shaped result.
