@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-07-27",
   "next_rescore_due": "2026-08-03",
-  "next_eligible_action_id": null,
+  "next_eligible_action_id": "THC-BUILD-002",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -661,8 +661,9 @@
       "learning_value": 2,
       "effort": 1,
       "risk": 2,
-      "status": "in_progress",
+      "status": "completed",
       "selected_on": "2026-07-29",
+      "completed_on": "2026-07-29",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
@@ -691,7 +692,7 @@
       "hypothesis": "A fresh independent reviewer of the complete inherited diff can determine whether the final monthly-completeness fix and the full quote-first calculator are release-clean without reopening research or redesign.",
       "expected_effect": "If and only if the inherited full candidate receives PASS or PASS_WITH_P3, commit and push the exact review-clean range, verify GitHub Pages and production calculator invariants, and close the held work. Otherwise stop without release.",
       "success_signal": "A different independent read-only reviewer checks the complete 17-path diff from base 38a3654, confirms the original human/searcher and arithmetic contract plus all six monthly-label branches, returns PASS or PASS_WITH_P3, native QA remains green, the exact commit is pushed without divergence, Pages succeeds, and production bytes and calculator behavior pass.",
-      "implementation_state": "review-clean-release-pending",
+      "implementation_state": "released-and-production-verified",
       "evidence_classification": "Direct manual user authorization on 2026-07-29 selects this bounded continuation. The inherited THC-COST-001 research, implementation, QA, and review history are causal evidence. The July 29 GSC snapshot is validated and unchanged versus July 28; it remains monitoring context only.",
       "working_tree_result": "Fresh review cycle 1 found that unresolved starting amounts and contingency could still render as zero and that financing-only input could be discarded. The state model now omits unknown starting and buffer metrics, distinguishes blank from deliberate zero, and returns a partial monthly scenario for coherent financing or recurring inputs without project amounts. Nineteen focused calculator tests and desktop plus 320px browser checks pass.",
       "qa_evidence": [
@@ -726,9 +727,27 @@
             "P3: when every one-time category is resolved but the planning buffer is blank, the safe partial title still says important costs are unknown even though only the buffer assumption is unresolved"
           ],
           "resolution": "Accepted as nonblocking wording debt. The state remains conservative and internally explains that 13 of 13 categories are resolved and the buffer is blank. Do not mix an unreviewed wording edit into the reviewed release candidate."
+        },
+        {
+          "cycle": 3,
+          "reviewer_id": "019fae23-18cf-7a10-bd54-cb104163517e",
+          "read_only": true,
+          "verdict": "PASS_WITH_P3",
+          "findings": [
+            "P3: preserve the recorded buffer-specific partial-title wording improvement for a future separately reviewed action"
+          ],
+          "resolution": "Final frozen-candidate check found no P0-P2 issues, confirmed the exact 17 paths and all durable evidence, and kept the P3 unchanged."
         }
       ],
-      "notes": "Review and release only. Cycle 2 returned PASS_WITH_P3 and made the candidate release-eligible. The one P3 buffer-title wording note is recorded without changing the reviewed site bytes. Inherit the exact 17 dirty paths without redesign or new research. No homepage, under-$20K page, local guide, national build asset, indexing request, analytics, outreach, external account, vendor recommendation, typical/complete cost claim, affordability conclusion, or legal/zoning conclusion is authorized."
+      "review_outcome": "PASS_WITH_P3",
+      "review_cycles": 3,
+      "release_state": "production-verified",
+      "release_commit": "1af1dc2d53fee70dff9b4dfd035ecc9d0ae920c6",
+      "release_base_commit": "f52c1c0b9ce59fc0fb7d291199dfa74c1aa8d80f",
+      "released_on": "2026-07-29",
+      "pages_workflow_run": "30460242431",
+      "production_verification": "GitHub Pages run 30460242431 succeeded for the exact pushed commit. The live calculator HTML, calculator JavaScript, shared stylesheet, and sitemap byte-match repository files and return HTTP 200 where applicable. Production browser checks passed canonical, H1, review date, neutral blank state, quote-only partial state, outside cost without a starting amount, blank versus deliberate-zero buffer, financing-only monthly output, result focus, no console errors, and 320px containment.",
+      "notes": "Released and production-verified. Cycle 2 and final cycle 3 returned PASS_WITH_P3 with no P0-P2 findings. The one buffer-title wording P3 remains recorded for a future separately reviewed action. Frozen to the exact 17 paths; no homepage, under-$20K page, local guide, national build asset, indexing request, analytics, outreach, external account, vendor recommendation, typical/complete cost claim, affordability conclusion, or legal/zoning conclusion changed."
     }
   ]
 }

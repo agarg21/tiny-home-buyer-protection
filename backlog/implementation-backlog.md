@@ -15,10 +15,7 @@ durable execution queue; backlog headings do not authorize work.
 
 ## Active
 
-- `THC-COST-002`: fresh independent review and conditional release of the
-  complete held 17-path calculator candidate. Cycle 2 returned
-  `PASS_WITH_P3`; exact-path commit and production verification are pending.
-  No redesign or research.
+- None.
 
 ## Held Review Candidate
 
@@ -38,6 +35,10 @@ durable execution queue; backlog headings do not authorize work.
 
 ## Released
 
+- `THC-COST-002`: quote-first cost calculator released in `1af1dc2`; Pages run
+  `30460242431` and production byte/interaction checks passed. Independent
+  review returned `PASS_WITH_P3`; one nonblocking buffer-title wording note is
+  deferred to a separate future action.
 - `THC-SD-001`: repaired the existing San Diego guide around current City
   section 141.0318, the separate unincorporated-County THOW determination, and
   an explicit stop for other incorporated cities.

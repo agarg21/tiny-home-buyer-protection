@@ -30,15 +30,14 @@ unreviewed release decisions.
 10. `THC-COST-001` — blocked and unreleased after exhausting three independent
     review cycles; all findings are fixed in the held working tree, but cycle 3
     returned `FAIL`.
-11. `THC-COST-002` — active review-and-release continuation for the complete
-    inherited 17-path calculator candidate.
-12. `THC-BUILD-002` — remains the strongest measured demand candidate after
-    the calculator continuation closes.
+11. `THC-COST-002` — completed and production-verified on 2026-07-29 in
+    `1af1dc2`; Pages run `30460242431` succeeded.
+12. `THC-BUILD-002` — next eligible candidate; it is not active or selected.
 13. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
 14. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
 
-## THC-COST-002 active scope
+## THC-COST-002 completion
 
 - Direct manual authorization on 2026-07-29.
 - The validated July 29 GSC snapshot is unchanged versus July 28 and remains
@@ -62,6 +61,12 @@ unreviewed release decisions.
 - If review-clean, rerun native QA, fetch and require no divergence, commit and
   push the exact 17 paths, verify Pages, and test production bytes and behavior.
 - Do not reopen research, redesign the page, or absorb another page/action.
+- Final cycle 3 returned `PASS_WITH_P3` with no P0-P2 findings and retained the
+  same nonblocking wording note.
+- Released in `1af1dc2d53fee70dff9b4dfd035ecc9d0ae920c6`; Pages run
+  `30460242431` succeeded.
+- Live HTML, calculator JavaScript, stylesheet, and sitemap byte-match the
+  repository. The production interaction and 320px containment matrix passed.
 
 ## THC-COST-001 held result
 

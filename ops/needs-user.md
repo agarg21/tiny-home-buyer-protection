@@ -4,8 +4,7 @@ Last updated: 2026-07-29
 
 ## Current Blockers
 
-- None. `THC-COST-002` independent review returned `PASS_WITH_P3`; standing
-  reviewed-release authorization permits exact-path release verification.
+- None. `THC-COST-002` is released and production-verified.
 
 ## Deferred User Decisions
 
@@ -16,8 +15,8 @@ Last updated: 2026-07-29
 ## Waiting On External Accounts
 
 - Google Search Console indexing continues through the daily read-only snapshot
-  workflow. The 2026-07-28 snapshot has finalized data through 2026-07-26 and
-  is unchanged versus 2026-07-27: 30 impressions, 0 clicks, six sitemap pages,
+  workflow. The 2026-07-29 snapshot has finalized data through 2026-07-27 and
+  is unchanged versus 2026-07-28: 30 impressions, 0 clicks, six sitemap pages,
   and 5 of 6 priority URLs indexed. No user action or indexing request is
   needed.
 - The 2026-07-18 authenticated Page indexing review found only HTTP/`www` aliases excluded as `Page with redirect`; all correctly redirect to the HTTPS apex. No indexing request, fix validation, DNS change, or user action is needed for those aliases.

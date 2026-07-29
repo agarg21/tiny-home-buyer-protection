@@ -613,3 +613,19 @@ Why:
 Release requirement: freeze the complete commit candidate, verify no remote
 divergence, push only the declared paths, then require Pages and production
 byte/behavior checks.
+
+## 2026-07-29 - Release THC-COST-002 And Promote The Next Candidate
+
+Decision: mark the calculator transaction completed and production-verified,
+then name `THC-BUILD-002` as next eligible without selecting or starting it.
+
+Evidence:
+
+- Exact commit `1af1dc2d53fee70dff9b4dfd035ecc9d0ae920c6` is on
+  `origin/main`.
+- Pages run `30460242431` succeeded.
+- Production repository-byte and interaction invariants passed.
+- Final independent review remained `PASS_WITH_P3` with no P0-P2 findings.
+
+Boundary: `THC-BUILD-002` requires its own registered exact-path transaction,
+fresh search/product evidence, native QA, and independent review.

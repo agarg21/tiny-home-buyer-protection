@@ -38,6 +38,8 @@ execution queue; this file does not schedule work.
   17-path diff from base `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`. All cycle
   1 fixes passed. The sole P3 buffer-title note is recorded without reopening
   research or redesign.
+- Final cycle 3 retained `PASS_WITH_P3` with no P0-P2 findings. The reviewed
+  calculator is released and production-verified in `1af1dc2`.
 - Final cycle 3 reviewed the cycle 2 fixes from the quote/budget reality-check
   job plus beginner, intermediate, and advanced experience levels.
 - Verify blank, quote-only, materially partial, explicit-zero, complete,

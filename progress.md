@@ -383,3 +383,12 @@
   before release. The July 29 snapshot validates and is unchanged versus July
   28 except for collection/data-through dates, so it remains monitoring context
   and does not alter the calculator action.
+- Final independent cycle 3 returned `PASS_WITH_P3` with no P0-P2 findings and
+  retained the same nonblocking buffer-title wording note.
+- Committed and pushed the exact 17-path calculator transaction in
+  `1af1dc2d53fee70dff9b4dfd035ecc9d0ae920c6` from aligned base `f52c1c0`.
+  Pages run `30460242431` succeeded.
+- Production calculator HTML, JavaScript, stylesheet, and sitemap byte-match
+  the repository. Live blank, quote-only, outside-cost/no-start,
+  blank-versus-zero buffer, financing-only, focus, console, and 320px
+  containment checks passed.

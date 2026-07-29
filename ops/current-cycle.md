@@ -2,22 +2,21 @@
 
 Last updated: 2026-07-29
 
-Active action: `THC-COST-002`
+Active action: `none`
 
-Next eligible action: `none`
+Next eligible action: `THC-BUILD-002`
 
-## Active Priority
+## Completed Priority
 
 `THC-COST-002` is a direct-manual review-and-release continuation authorized on
 2026-07-29. It inherits the complete uncommitted 17-path `THC-COST-001`
 candidate at origin-aligned base
 `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`.
 
-Scope is review and release only. A fresh independent read-only reviewer must
-review the complete inherited diff, including all prior fixes and the final
-monthly-completeness branches. Only `PASS` or `PASS_WITH_P3` may proceed to
-commit, push, Pages, and production verification. No redesign or new research
-is selected.
+The exact candidate was committed and pushed in
+`1af1dc2d53fee70dff9b4dfd035ecc9d0ae920c6`. Pages run `30460242431`
+succeeded. Production HTML, calculator JavaScript, stylesheet, and sitemap
+byte-match the repository, and the live interaction matrix passed.
 
 Fresh review cycle 1:
 
@@ -38,8 +37,9 @@ Fresh review cycle 1:
   `PASS_WITH_P3`. All cycle 1 findings are resolved. The one P3 note is
   nonblocking wording for the rare all-buckets-resolved, blank-buffer title;
   it is recorded without changing the reviewed site bytes.
-- The candidate is review-clean and release-pending. Exact-path commit, remote
-  alignment, Pages, production bytes, and behavior remain to verify.
+- The candidate became review-clean with `PASS_WITH_P3` and was subsequently
+  released and production-verified. The recorded P3 remains future wording
+  debt, not a production blocker.
 
 ## Prior Held Candidate
 
@@ -392,10 +392,9 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- `THC-COST-002` is the only active substantive transaction. It owns the held
-  exact-path work for a fresh independent review and possible release.
-- `THC-BUILD-002` remains the strongest measured demand candidate, not the
-  selected build.
+- No substantive transaction is active.
+- `THC-BUILD-002` is the next eligible candidate, not an active or selected
+  build. It requires a separate exact-path transaction.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -409,5 +408,6 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`none` while `THC-COST-002` is active. Finish and release or stop this review
-continuation before selecting the national build asset.
+`THC-BUILD-002`: scope and implement the national tiny-home build decision and
+due-diligence asset only in a separate registered transaction with fresh
+query/SERP, searcher-POV, persona, native QA, and independent review gates.
