@@ -27,11 +27,88 @@ unreviewed release decisions.
 9. `THC-SD-001` — completed and production-verified on 2026-07-28: researched
    and repaired the existing San Diego URL around distinct City and
    unincorporated County paths.
-10. `THC-BUILD-002` — remains the strongest measured demand candidate after
-   the active San Diego freshness repair.
-11. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
-12. Select the next buyer-protection tool only from observed evidence and the
+10. `THC-COST-001` — blocked and unreleased after exhausting three independent
+    review cycles; all findings are fixed in the held working tree, but cycle 3
+    returned `FAIL`.
+11. `THC-COST-002` — active review-and-release continuation for the complete
+    inherited 17-path calculator candidate.
+12. `THC-BUILD-002` — remains the strongest measured demand candidate after
+    the calculator continuation closes.
+13. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
+14. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
+
+## THC-COST-002 active scope
+
+- Direct manual authorization on 2026-07-29.
+- The validated July 29 GSC snapshot is unchanged versus July 28 and remains
+  monitoring context only; it does not alter this action.
+- Inherit the complete uncommitted 17-path `THC-COST-001` candidate at
+  origin-aligned base `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`.
+- Use a fresh independent read-only reviewer for the complete diff, human
+  decision job, beginner/intermediate/advanced passes, every-section purpose,
+  calculator state machine, exact arithmetic, monthly completeness, SEO,
+  accessibility, responsive behavior, and durable state.
+- Cycle 1 reviewer `019fae23-18cf-7a10-bd54-cb104163517e` returned `FAIL` with
+  two P2 groups: unresolved starting/buffer values could render as zero while a
+  financing-only scenario was discarded, and two durable mirrors still called
+  `THC-COST-001` active. Both groups are fixed. Nineteen focused tests and
+  45/45 full native tests plus desktop and 320px browser checks pass.
+- Cycle 2 reviewed the complete inherited diff and all cycle 1 fixes, returning
+  `PASS_WITH_P3`. The sole P3 is nonblocking buffer-title wording when all
+  one-time categories are resolved but the buffer is blank. It is recorded
+  without changing the reviewed site candidate.
+- Only `PASS` or `PASS_WITH_P3` may proceed.
+- If review-clean, rerun native QA, fetch and require no divergence, commit and
+  push the exact 17 paths, verify Pages, and test production bytes and behavior.
+- Do not reopen research, redesign the page, or absorb another page/action.
+
+## THC-COST-001 held result
+
+- Repair the existing indexed calculator URL; do not create another cost page.
+- Retain July 29 Semrush UI, public SERP, representative ranking-page, current
+  product-state, persona, and every-section evidence in
+  `docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`.
+- Research and implementation are complete in the working tree. A read-only
+  research advisor returned `FAIL/improve` on the prior live page; the rebuilt
+  tool addresses those P1/P2 issue groups.
+- Make a known quote or working build budget the starting anchor without
+  generating national-average or typical costs.
+- Distinguish unknown, added amount including typed zero, already covered by
+  the starting amount, and not applicable.
+- Blank input must remain neutral. Materially partial input may show known
+  costs and a separate optional buffer, but never as an all-in project
+  estimate.
+- Remove the general-utilities overlap; keep water, wastewater, and electrical
+  costs separate.
+- Add project-path context for turnkey, shell/kit, DIY, foundation/ADU, and
+  park/RV-style products without assigning prices or implying placement.
+- Keep one buyer-protection checklist, compress repeated warnings, add the live
+  under-$20K route, and preserve the placement-tool handoff.
+- Forty-two native tests, site/state QA, JSON, required-file, diff, and
+  desktop/390px/320px local browser checks pass.
+- Independent reviewer `019fad57-656e-73a1-a687-08e4eb1f63fb` returned `FAIL`
+  in cycle 1 with one P1, five P2, and one P3 finding. Exact-value validation,
+  lot-rent applicability/transitions, result order, paired-query SERP evidence,
+  beginner terminology, durable QA state, and the CSS selector collision are
+  fixed.
+- Cycle 2 confirmed those fixes, then returned `FAIL` on visible-cent
+  precision and one unsupported top-nine SERP sentence. Currency and recurring
+  traces now preserve cents with native/browser assertions, and the unsupported
+  sentence is removed.
+- Cycle 3 confirmed every prior fix, then returned `FAIL` because blank or
+  undecided land could still produce an `Entered monthly total`; it also found
+  one stale P3 review instruction. Both are fixed with six native monthly-label
+  branches and a 320px browser pass.
+- The three-cycle cap is exhausted. No commit, push, deployment, or production
+  claim is allowed from this transaction. A separately registered
+  direct-manual continuation with fresh independent review authority is
+  required before release.
+- Frozen paths are the 17 exact paths in `ops/seo-roadmap.json`.
+- No homepage, under-$20K implementation, local guide, build page, analytics,
+  email, indexing, outreach, external account, vendor recommendation,
+  typical/complete price, affordability answer, or legal conclusion is in
+  scope.
 
 ## THC-SD-001 completion evidence
 

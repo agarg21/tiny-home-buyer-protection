@@ -320,3 +320,66 @@
   succeeded. Live repository-byte, HTTP, canonical, H1, City/County routing,
   incorporated-city non-match, focus, source-link, and mobile-containment
   checks passed.
+- Registered direct-manual action `THC-COST-001` on 2026-07-29 at clean,
+  origin-aligned base `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`.
+- Froze 17 exact paths for current query/SERP and ranking-page research,
+  calculator repair, focused tests, and operator/strategy mirrors. No adjacent
+  page implementation or typical/complete cost claim is authorized.
+- Completed the dated calculator research record with current exact-query
+  Semrush evidence, a retained ranking-page sample, prior-state proof,
+  decision-persona and experience-level review, every-section decisions, a
+  four-state input contract, tests, and release invariants.
+- A read-only research advisor returned `FAIL/improve` on the prior live page;
+  its P1/P2 findings are addressed in the working-tree implementation.
+- Rebuilt the calculator as a quote/budget reality check. Blank stays neutral;
+  partial results put unknowns first and keep the optional buffer separate;
+  four bucket states remain traceable; utilities cannot double count a general
+  field; project paths change questions rather than price assumptions; and
+  financing requires coherent inputs.
+- Added sixteen focused native tests. Local desktop, 390px, and 320px browser
+  checks passed the blank, quote-only, four-state, resolved, zero-interest,
+  negative-input, focus, first-viewport, and containment invariants.
+- Full native QA passes 42/42 tests, zero site errors with three pre-existing
+  untouched-page canonical warnings, zero operator-state errors, JSON and
+  required-file checks, and `git diff --check`.
+- Independent reviewer `019fad57-656e-73a1-a687-08e4eb1f63fb` returned `FAIL`
+  in cycle 1 with one P1, five P2, and one P3 finding. Fixed exact-value input
+  constraints, lot-rent applicability and transitions, next-question order,
+  paired-query SERP reproducibility, beginner project-type explanations,
+  durable QA state, and the shared CSS selector collision.
+- Cycle 2 confirmed all cycle 1 fixes and returned `FAIL` on one new P2
+  visible-cent precision issue plus a P3 unsupported top-nine SERP sentence.
+  Fixed exact currency and recurring traces, added native and 320px browser
+  output assertions, and removed the unsupported sentence.
+- Cycle 3 confirmed all prior fixes, then returned `FAIL` on undecided-land
+  monthly completeness plus a stale P3 review instruction. Fixed both: blank
+  or undecided land and rented space without known rent now stay `Known monthly
+  costs`; owned, buying, and rented space with known rent may show `Entered
+  monthly total`. Six native branches and a 320px browser pass confirm it.
+- Stopped `THC-COST-001` without commit, push, or deployment because the third
+  review cycle returned `FAIL` and exhausted the cap. A separate registered
+  continuation with fresh independent review authority is required.
+- Registered direct-manual continuation `THC-COST-002` on 2026-07-29 at
+  origin-aligned base `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`. It inherits
+  the complete 17-path held candidate for fresh independent review and
+  conditional release only.
+- `THC-COST-002` independent review cycle 1 by
+  `019fae23-18cf-7a10-bd54-cb104163517e` returned `FAIL` with two P2 groups and
+  no P0, P1, or P3 findings. Fixed unknown starting and buffer values that
+  could appear as zero, preserved deliberate zero, made coherent
+  financing-only input a partial monthly scenario, and corrected two stale
+  action mirrors.
+- Added three focused regression tests; 19/19 calculator tests pass. Desktop
+  browser checks passed the three repaired states and result focus. A 320px
+  check reported 320px document width, no overflowing elements, and a
+  contained result panel. Full native QA passes 45/45 with zero SEO and
+  operator-state errors. Cycle 2 full-range review is pending.
+- `THC-COST-002` independent cycle 2 returned `PASS_WITH_P3`. It confirmed all
+  cycle 1 fixes, the exact 17-path scope, and the full human, arithmetic, SEO,
+  responsive, test, and operator-state review surface. The sole P3 is
+  nonblocking wording for the all-buckets-resolved, blank-buffer partial title;
+  it is recorded without changing the reviewed site bytes.
+- Fast-forwarded the compatible remote-only GSC snapshot commit `f52c1c0`
+  before release. The July 29 snapshot validates and is unchanged versus July
+  28 except for collection/data-through dates, so it remains monitoring context
+  and does not alter the calculator action.

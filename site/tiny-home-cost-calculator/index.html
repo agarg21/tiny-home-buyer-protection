@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tiny Home Cost Calculator: Reality Check Before You Buy | Tiny Home Clarity</title>
-    <meta name="description" content="Use this tiny home cost calculator to test a rough all-in budget before buying land, ordering a tiny home, or trusting a seller quote.">
+    <meta name="description" content="Compare a tiny home quote with known project costs, keep unknowns visible, and see which written estimates you need before buying.">
+    <link rel="canonical" href="https://tinyhomeclarity.com/tiny-home-cost-calculator/">
     <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
@@ -12,351 +13,362 @@
       <a class="brand" href="../" aria-label="Tiny Home Clarity home">Tiny Home Clarity</a>
       <nav class="site-nav" aria-label="Page sections">
         <a href="#calculator">Calculator</a>
-        <a href="#warnings">Warnings</a>
-        <a href="#checklist">Checklist</a>
+        <a href="#checklist">Quote checklist</a>
+        <a href="#related">Related checks</a>
         <a href="../">Placement tool</a>
       </nav>
     </header>
 
     <main>
-      <section class="hero calculator-hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Cost reality check</p>
-          <h1>Tiny Home Cost Calculator</h1>
-          <p class="lede">Estimate the gap between a tiny home seller quote and the rough all-in project budget after land, delivery, site work, utilities, permits, financing, insurance, and contingency.</p>
-          <p class="freshness-label">Page last reviewed: 2026-07-10</p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#calculator">Start the calculator</a>
-            <a class="button secondary" href="#checklist">Review buyer checklist</a>
-          </div>
-        </div>
-        <aside class="hero-panel" aria-label="Calculator limits">
-          <h2>Planning estimate only</h2>
-          <ul class="check-list">
-            <li>Costs vary by location, structure type, site conditions, utility access, lender, insurer, and local requirements.</li>
-            <li>This calculator cannot determine zoning, permit approval, code compliance, lender approval, insurance eligibility, or final contractor pricing.</li>
-            <li>Blank or zero fields are treated as missing costs, not proof that the cost will be zero.</li>
-          </ul>
-        </aside>
+      <section class="support-hero calculator-hero">
+        <p class="eyebrow">Tiny house quote reality check</p>
+        <h1>Tiny Home Cost Calculator</h1>
+        <p class="lede">Start with a seller quote or build estimate. Total only what you resolve, keep unknowns visible, and see what to get in writing next.</p>
+        <p class="calculator-boundary">No national-average price or affordability, permit, financing, or insurance decision.</p>
+        <p class="freshness-label">Reviewed: 2026-07-29</p>
       </section>
 
-      <section id="calculator" class="tool-section" aria-labelledby="calculator-title">
-        <div class="section-heading">
-          <p class="eyebrow">Interactive calculator</p>
-          <h2 id="calculator-title">Build a rough all-in budget</h2>
-          <p>Enter the numbers you know. Any prefilled value is an editable starter assumption, not a national average or typical cost.</p>
+      <section id="calculator" class="tool-section calculator-section" aria-labelledby="calculator-title">
+        <div class="section-heading calculator-heading">
+          <p class="eyebrow">Use your numbers</p>
+          <h2 id="calculator-title">What does the quote leave out?</h2>
+          <p>Every outside-cost bucket starts as <strong>Unknown</strong>. Resolve it with an added amount, mark it already covered by the starting amount, or mark it not applicable. The calculator never converts a blank into zero.</p>
         </div>
 
         <div class="tool-grid calculator-grid">
-          <form id="cost-form" class="form-card">
-            <fieldset>
-              <legend>Purchase and land</legend>
-              <div class="field-row">
-                <label for="home-quote">Tiny home or structure quote</label>
-                <input id="home-quote" type="number" min="0" step="1000" placeholder="Example: 85000">
+          <form id="cost-form" class="form-card calculator-form">
+            <div class="form-group">
+              <p class="calculator-step-title">1. Set the starting point</p>
+              <div class="cost-input-grid">
+                <div class="field-row">
+                  <label for="starting-mode">What is the starting amount?</label>
+                  <select id="starting-mode" name="starting-mode">
+                    <option value="">Choose one</option>
+                    <option value="quote">Seller or builder quote</option>
+                    <option value="estimate">My itemized build estimate</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="starting-amount">Starting amount <span>USD</span></label>
+                  <input id="starting-amount" name="starting-amount" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Example: 85250">
+                </div>
+                <div class="field-row">
+                  <label for="project-type">What kind of project is it?</label>
+                  <select id="project-type" name="project-type" aria-describedby="project-type-help">
+                    <option value="">Choose one</option>
+                    <option value="finished">Finished home - built and finished by the seller or builder</option>
+                    <option value="shell">Shell or kit - structure or parts you still finish</option>
+                    <option value="diy">DIY - you manage the materials and labor</option>
+                    <option value="used">Used tiny home - an existing unit from a prior owner</option>
+                    <option value="foundation">Foundation home or ADU - a fixed building on a property</option>
+                    <option value="park">Park model or RV-style - a vehicle or recreation category</option>
+                    <option value="unsure">I am not sure yet</option>
+                  </select>
+                  <p id="project-type-help" class="field-help">The seller's label matters because a finished home, shell, fixed building, and vehicle-style product leave different work and documents to verify. Choose unsure if the seller has not defined it.</p>
+                </div>
+                <div class="field-row">
+                  <label for="land-status">What is the land situation?</label>
+                  <select id="land-status" name="land-status">
+                    <option value="">Choose one</option>
+                    <option value="buying">Buying land for this project</option>
+                    <option value="owned">Land already owned / outside this estimate</option>
+                    <option value="renting">Renting a lot or community space</option>
+                    <option value="unknown">Not decided</option>
+                  </select>
+                </div>
               </div>
-              <label class="option"><input id="land-owned" type="checkbox"> Land is already owned or not part of this project</label>
-              <div class="field-row">
-                <label for="land-cost">Land cost</label>
-                <input id="land-cost" type="number" min="0" step="1000" placeholder="Example: 60000">
-              </div>
-            </fieldset>
+              <p class="input-help">Project type changes the written questions, not the price. If the starting amount is still unknown, leave it blank; the result will remain partial.</p>
+            </div>
 
-            <fieldset>
-              <legend>Delivery, site work, and utilities</legend>
-              <div class="field-row">
-                <label for="delivery">Delivery / transport</label>
-                <input id="delivery" type="number" min="0" step="500" placeholder="Enter quote if known">
-              </div>
-              <div class="field-row">
-                <label for="foundation">Foundation, pad, anchoring, or blocking</label>
-                <input id="foundation" type="number" min="0" step="500" placeholder="Enter estimate">
-              </div>
-              <div class="field-row">
-                <label for="site-prep">Driveway, grading, drainage, and site prep</label>
-                <input id="site-prep" type="number" min="0" step="500" placeholder="Enter estimate">
-              </div>
-              <div class="field-row">
-                <label for="utilities">General utility hookups</label>
-                <input id="utilities" type="number" min="0" step="500" placeholder="Enter estimate">
-              </div>
-              <div class="field-row">
-                <label for="septic">Septic or sewer</label>
-                <input id="septic" type="number" min="0" step="500" placeholder="Enter estimate">
-              </div>
-              <div class="field-row">
-                <label for="water">Well or water connection</label>
-                <input id="water" type="number" min="0" step="500" placeholder="Enter estimate">
-              </div>
-              <div class="field-row">
-                <label for="electric">Electrical service</label>
-                <input id="electric" type="number" min="0" step="500" placeholder="Enter estimate">
-              </div>
-            </fieldset>
+            <details class="calculator-details" open>
+              <summary>2. Resolve one-time costs outside the starting amount</summary>
+              <div class="details-body">
+                <p id="bucket-rule" class="input-help">For each line choose: <strong>Unknown</strong>, <strong>Add amount</strong>, <strong>Already covered</strong>, or <strong>Not applicable</strong>. A typed 0 is a resolved amount; it is different from covered or not applicable.</p>
 
-            <fieldset>
-              <legend>Soft costs and carrying costs</legend>
-              <div class="field-row">
-                <label for="permits">Permits, design, engineering, surveys, and inspections</label>
-                <input id="permits" type="number" min="0" step="500" placeholder="Enter estimate">
-              </div>
-              <div class="field-row">
-                <label for="taxes">Sales tax or local taxes, if applicable</label>
-                <input id="taxes" type="number" min="0" step="500" placeholder="Enter estimate">
-              </div>
-              <div class="field-row">
-                <label for="insurance">Monthly insurance estimate</label>
-                <input id="insurance" type="number" min="0" step="25" placeholder="Enter monthly estimate">
-              </div>
-              <div class="field-row">
-                <label for="lot-rent">Monthly land rent or community lot rent</label>
-                <input id="lot-rent" type="number" min="0" step="25" placeholder="Enter monthly rent">
-              </div>
-            </fieldset>
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="completion-status">Completion work</label>
+                    <select id="completion-status" name="completion-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="completion">Completion work amount <span>USD</span></label>
+                    <input id="completion" name="completion" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
 
-            <fieldset>
-              <legend>Financing and contingency</legend>
-              <div class="field-row">
-                <label for="down-payment">Down payment</label>
-                <input id="down-payment" type="number" min="0" step="500" placeholder="Enter cash down">
-              </div>
-              <div class="field-row">
-                <label for="loan-amount">Loan amount</label>
-                <input id="loan-amount" type="number" min="0" step="1000" placeholder="Enter amount financed if known">
-              </div>
-              <div class="field-row">
-                <label for="interest-rate">Interest rate <span>annual percentage</span></label>
-                <input id="interest-rate" type="number" min="0" step="0.1" placeholder="Example: 9.5">
-              </div>
-              <div class="field-row">
-                <label for="loan-term">Loan term <span>years</span></label>
-                <input id="loan-term" type="number" min="1" step="1" placeholder="Example: 15">
-              </div>
-              <div class="field-row">
-                <label for="contingency">Contingency percentage <span>editable starter assumption</span></label>
-                <input id="contingency" type="number" min="0" step="1" value="20">
-                <p class="input-help">This is not a national average, typical cost, expected cost, or guaranteed cost. Change it after local-office and vendor checks.</p>
-              </div>
-            </fieldset>
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="land-cost-status">Land acquisition</label>
+                    <select id="land-cost-status" name="land-cost-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="land">Land acquisition amount <span>USD</span></label>
+                    <input id="land" name="land" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
 
-            <button class="button primary full" type="submit">Calculate rough budget</button>
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="delivery-status">Delivery or transport</label>
+                    <select id="delivery-status" name="delivery-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="delivery">Delivery amount <span>USD</span></label>
+                    <input id="delivery" name="delivery" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="foundation-status">Setup, foundation, pad, or anchoring</label>
+                    <select id="foundation-status" name="foundation-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="foundation">Setup or foundation amount <span>USD</span></label>
+                    <input id="foundation" name="foundation" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="site-prep-status">Driveway, grading, drainage, and site prep</label>
+                    <select id="site-prep-status" name="site-prep-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="site-prep">Site preparation amount <span>USD</span></label>
+                    <input id="site-prep" name="site-prep" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="water-status">Water or well connection</label>
+                    <select id="water-status" name="water-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="water">Water connection amount <span>USD</span></label>
+                    <input id="water" name="water" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="wastewater-status">Wastewater, septic, or sewer</label>
+                    <select id="wastewater-status" name="wastewater-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="wastewater">Wastewater amount <span>USD</span></label>
+                    <input id="wastewater" name="wastewater" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="electric-status">Electrical service</label>
+                    <select id="electric-status" name="electric-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="electric">Electrical service amount <span>USD</span></label>
+                    <input id="electric" name="electric" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="permits-status">Permits and inspections</label>
+                    <select id="permits-status" name="permits-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="permits">Permit and inspection amount <span>USD</span></label>
+                    <input id="permits" name="permits" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="professional-status">Plans, design, engineering, and surveys</label>
+                    <select id="professional-status" name="professional-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="professional">Professional services amount <span>USD</span></label>
+                    <input id="professional" name="professional" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="taxes-status">Taxes, title, registration, or transaction fees</label>
+                    <select id="taxes-status" name="taxes-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="taxes">Taxes and transaction fees amount <span>USD</span></label>
+                    <input id="taxes" name="taxes" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="cost-line">
+                  <div class="field-row">
+                    <label for="other-status">Other documented one-time costs</label>
+                    <select id="other-status" name="other-status">
+                      <option value="unknown">Unknown</option>
+                      <option value="amount">Add amount</option>
+                      <option value="included">Already covered by starting amount</option>
+                      <option value="na">Not applicable</option>
+                    </select>
+                  </div>
+                  <div class="field-row">
+                    <label for="other">Other documented costs amount <span>USD</span></label>
+                    <input id="other" name="other" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                  </div>
+                </div>
+
+                <div class="field-row contingency-row">
+                  <label for="contingency">Planning buffer <span>editable assumption, percent</span></label>
+                  <input id="contingency" name="contingency" type="number" min="0" step="0.01" value="20" inputmode="decimal">
+                  <p class="input-help">Applied only to entered one-time amounts. It is not a national average or expected overrun.</p>
+                </div>
+              </div>
+            </details>
+
+            <details class="calculator-details">
+              <summary>3. Add optional financing and monthly costs</summary>
+              <div class="details-body">
+                <p class="input-help">These fields do not determine whether the project-cost buckets are resolved. A loan payment appears only when amount, annual rate, and term are all entered; an explicit 0% rate is valid.</p>
+                <div class="cost-input-grid">
+                  <div class="field-row">
+                    <label for="loan-amount">Loan amount <span>USD</span></label>
+                    <input id="loan-amount" name="loan-amount" type="number" min="0" step="0.01" inputmode="decimal">
+                  </div>
+                  <div class="field-row">
+                    <label for="interest-rate">Annual interest rate <span>percent</span></label>
+                    <input id="interest-rate" name="interest-rate" type="number" min="0" step="0.01" inputmode="decimal">
+                  </div>
+                  <div class="field-row">
+                    <label for="loan-term">Loan term <span>years</span></label>
+                    <input id="loan-term" name="loan-term" type="number" min="1" step="1" inputmode="numeric">
+                  </div>
+                  <div class="field-row">
+                    <label for="insurance">Monthly insurance <span>USD</span></label>
+                    <input id="insurance" name="insurance" type="number" min="0" step="0.01" inputmode="decimal">
+                  </div>
+                  <div class="field-row">
+                    <label for="lot-rent">Monthly lot or community rent <span>USD</span></label>
+                    <input id="lot-rent" name="lot-rent" type="number" min="0" step="0.01" inputmode="decimal" disabled>
+                    <p class="field-help">Available only when the land situation is renting a lot or community space.</p>
+                  </div>
+                </div>
+              </div>
+            </details>
+
+            <button class="button primary full" type="submit">Review known costs and gaps</button>
           </form>
 
           <section id="cost-result" class="result-panel calculator-result" aria-live="polite" aria-labelledby="result-title">
-            <p class="eyebrow">Rough budget</p>
-            <h2 id="result-title">Your result will appear here</h2>
-            <p>Use the form to compare the visible quote with the broader project budget. This is a planning estimate, not a final bid or approval.</p>
+            <p class="eyebrow">Quote and budget check</p>
+            <h2 id="result-title" tabindex="-1">Your result will appear here</h2>
+            <p>The first result is neutral. A blank form never becomes a zero-dollar estimate.</p>
             <div class="empty-state">
-              <strong>Important</strong>
-              <span>Seller quotes often exclude land, delivery, utilities, permits, site work, financing, insurance, and contingency.</span>
+              <strong>What the result separates</strong>
+              <span>Known added costs, costs already covered, not-applicable items, unresolved buckets, an optional buffer, and coherent financing inputs.</span>
             </div>
           </section>
         </div>
       </section>
 
-      <section id="warnings" class="content-section" aria-labelledby="warnings-title">
-        <div class="section-heading">
-          <p class="eyebrow">Reality check</p>
-          <h2 id="warnings-title">The seller quote is not the whole project cost</h2>
-          <p>A low structure quote can still become an expensive project if the site is hard to serve, the structure is hard to classify, or financing and insurance do not line up.</p>
-        </div>
-
-        <div class="category-grid">
-          <article>
-            <h3>Land and placement</h3>
-            <p>Land cost is only one part of placement. Verify zoning, site access, setbacks, utility availability, deed restrictions, and whether the structure type can be used the way you intend.</p>
-          </article>
-          <article>
-            <h3>Utilities and site work</h3>
-            <p>Driveway, grading, drainage, septic, water, and electrical service can change the budget materially. Get written quotes before making a nonrefundable payment.</p>
-          </article>
-          <article>
-            <h3>Permits and inspections</h3>
-            <p>Permit, design, engineering, survey, inspection, and correction costs depend on local rules and the project path. A seller's quote may not include them.</p>
-          </article>
-          <article>
-            <h3>Financing and insurance</h3>
-            <p>Lenders and insurers may treat a THOW, park model, manufactured home, modular home, ADU, or foundation dwelling differently. Confirm eligibility before assuming a monthly payment.</p>
-          </article>
-        </div>
-      </section>
-
       <section id="checklist" class="content-section checklist-section" aria-labelledby="checklist-title">
         <div>
-          <p class="eyebrow">Before you put money down</p>
-          <h2 id="checklist-title">Buyer-protection checklist</h2>
-          <p>Use this before paying a deposit, buying land, or ordering a home. The goal is to find missing costs while you can still walk away.</p>
+          <p class="eyebrow">Before a deposit or land offer</p>
+          <h2 id="checklist-title">Six questions for a written quote</h2>
+          <p>The calculator organizes your numbers. These questions determine whether the numbers describe the same project.</p>
         </div>
         <ol class="number-list">
-          <li>Ask the seller what is excluded from the quote: delivery, setup, foundation, utility connections, taxes, permits, and inspections.</li>
-          <li>Get written site-work quotes for driveway, grading, drainage, electrical service, water, septic or sewer, and any required foundation or anchoring.</li>
-          <li>Verify the placement path with the planning/building office before relying on the budget.</li>
-          <li>Ask the lender what property type, certification, title, foundation, appraisal, and insurance conditions are required.</li>
-          <li>Ask the insurer what structure category and occupancy type they will cover.</li>
-          <li>Add a contingency, then decide whether the project still makes sense if the expensive unknowns come in high.</li>
+          <li><strong>What exactly is being sold?</strong> Finished home, shell, kit, used unit, park model, RV-style product, or permitted foundation project?</li>
+          <li><strong>What is included in the starting amount?</strong> Plans, appliances, certification, tax, delivery, setup, foundation, utility work, permits, inspections, and corrections?</li>
+          <li><strong>Who owns each handoff?</strong> Seller, transporter, site contractor, utility, designer, engineer, permit applicant, or buyer?</li>
+          <li><strong>Which costs depend on the exact property?</strong> Access, grading, drainage, foundation, water, wastewater, electrical service, fire access, and local review?</li>
+          <li><strong>What can change the price?</strong> Route survey, crane, change orders, material allowances, correction work, storage, delays, and warranty exclusions?</li>
+          <li><strong>Which financing and insurance conditions must be met?</strong> Title, registration, certification, foundation, appraisal, occupancy, location, and property type?</li>
         </ol>
       </section>
 
-      <section class="content-section next-links" aria-labelledby="related-title">
-        <p class="eyebrow">Related checks</p>
-        <h2 id="related-title">Pair cost with placement verification</h2>
-        <div class="support-grid" aria-label="Related pages">
+      <section id="related" class="content-section next-links" aria-labelledby="related-title">
+        <p class="eyebrow">Related decisions</p>
+        <h2 id="related-title">Cost is only useful when the project path is clear</h2>
+        <div class="support-grid calculator-related" aria-label="Related pages">
           <article>
             <h3>Where Can I Put a Tiny House?</h3>
-            <p>Placement triage tool for local verification before buying land or relying on placement claims.</p>
+            <p>Identify jurisdiction, home category, intended use, and property checks before relying on a budget.</p>
             <a href="../">Open the placement tool</a>
           </article>
           <article>
-            <h3>Los Angeles movable tiny houses as ADUs</h3>
-            <p>City source example only. Not Los Angeles County or California-wide guidance.</p>
-            <a href="../los-angeles-tiny-house-adu/">Read the Los Angeles page</a>
-          </article>
-          <article>
-            <h3>San Diego movable tiny houses and ADUs</h3>
-            <p>City source example only. Not San Diego County or California-wide guidance.</p>
-            <a href="../san-diego-tiny-house-adu/">Read the San Diego page</a>
-          </article>
-          <article>
-            <h3>Georgia tiny house classifications</h3>
-            <p>State agency classification source only. Not statewide placement permission.</p>
-            <a href="../georgia-tiny-house-classification/">Read the Georgia page</a>
+            <h3>Can You Build a Tiny House for Under $20K?</h3>
+            <p>Test what a low-budget claim may describe and which major costs it commonly leaves out.</p>
+            <a href="../tiny-house-under-20k/">Check the $20K claim</a>
           </article>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Tiny Home Clarity provides planning support, not legal, zoning, code, financing, insurance, tax, or safety advice. Verify decisions with local offices, vendors, lenders, insurers, and qualified professionals before purchase.</p>
-      <p>Page last reviewed: 2026-07-10</p>
+      <p>Tiny Home Clarity totals user-entered planning numbers. It does not provide typical or complete prices or legal, zoning, code, financing, insurance, tax, or safety advice.</p>
+      <p>Page reviewed: 2026-07-29</p>
     </footer>
 
-    <script>
-      const form = document.querySelector("#cost-form");
-      const result = document.querySelector("#cost-result");
-      const money = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
-
-      function value(id) {
-        const field = document.querySelector(`#${id}`);
-        const parsed = Number(field.value);
-        return Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
-      }
-
-      function monthlyPayment(principal, annualRate, years) {
-        if (principal <= 0 || years <= 0) return 0;
-        const months = years * 12;
-        const monthlyRate = annualRate > 0 ? annualRate / 100 / 12 : 0;
-        if (monthlyRate === 0) return principal / months;
-        return principal * (monthlyRate * (1 + monthlyRate) ** months) / ((1 + monthlyRate) ** months - 1);
-      }
-
-      function listItem(text) {
-        return `<li>${text}</li>`;
-      }
-
-      function renderWarnings(data) {
-        const warnings = [];
-        if (data.homeQuote <= 0) warnings.push("Add the structure quote before treating this as a project budget.");
-        if (!data.landOwned && data.landCost <= 0) warnings.push("Land cost is blank. If land is not already owned, this can hide a major cost.");
-        if (data.delivery <= 0) warnings.push("Delivery or transport is blank. Ask whether the seller quote includes delivery and setup.");
-        if (data.foundation <= 0) warnings.push("Foundation, pad, anchoring, or blocking is blank. Verify what the local office and installer require.");
-        if (data.sitePrep <= 0) warnings.push("Driveway, grading, drainage, and site prep are blank. Site conditions can materially change the budget.");
-        if ((data.utilities + data.septic + data.water + data.electric) <= 0) warnings.push("Utility, water, septic/sewer, and electrical costs are blank. Confirm service availability before buying land.");
-        if (data.permits <= 0) warnings.push("Permits, design, engineering, surveys, and inspections are blank. Ask the local office and professionals what is required.");
-        if (data.insurance <= 0) warnings.push("Insurance is blank. Verify whether the structure type and occupancy can be covered.");
-        if (data.contingency <= 0) warnings.push("Contingency is zero. A project with many unknowns should not be evaluated as if every estimate is final.");
-        if (data.loanAmount > 0 && (data.interestRate <= 0 || data.loanTerm <= 0)) warnings.push("Loan amount is entered, but interest rate or loan term is missing. Monthly payment is not fully calculated.");
-        return warnings;
-      }
-
-      form.addEventListener("submit", (event) => {
-        event.preventDefault();
-
-        const data = {
-          homeQuote: value("home-quote"),
-          landOwned: document.querySelector("#land-owned").checked,
-          landCost: value("land-cost"),
-          delivery: value("delivery"),
-          foundation: value("foundation"),
-          sitePrep: value("site-prep"),
-          utilities: value("utilities"),
-          septic: value("septic"),
-          water: value("water"),
-          electric: value("electric"),
-          permits: value("permits"),
-          taxes: value("taxes"),
-          insurance: value("insurance"),
-          lotRent: value("lot-rent"),
-          downPayment: value("down-payment"),
-          loanAmount: value("loan-amount"),
-          interestRate: value("interest-rate"),
-          loanTerm: value("loan-term"),
-          contingency: value("contingency")
-        };
-
-        const landCost = data.landOwned ? 0 : data.landCost;
-        const hiddenSubtotal = landCost + data.delivery + data.foundation + data.sitePrep + data.utilities + data.septic + data.water + data.electric + data.permits + data.taxes;
-        const subtotalBeforeContingency = data.homeQuote + hiddenSubtotal;
-        const contingencyAmount = subtotalBeforeContingency * (data.contingency / 100);
-        const allInBudget = subtotalBeforeContingency + contingencyAmount;
-        const loanPrincipal = data.loanAmount;
-        const payment = monthlyPayment(loanPrincipal, data.interestRate, data.loanTerm);
-        const carrying = payment + data.insurance + data.lotRent;
-        const cashNeeded = data.downPayment + Math.max(0, allInBudget - data.downPayment - loanPrincipal);
-        const warnings = renderWarnings(data);
-
-        result.innerHTML = `
-          <p class="eyebrow">Rough budget result</p>
-          <h2 id="result-title">${money.format(allInBudget)} estimated all-in project budget</h2>
-          <p>This is a planning estimate based on user-entered numbers and editable assumptions. It is not a bid, appraisal, loan approval, insurance approval, permit approval, or affordability decision.</p>
-
-          <div class="metric-grid">
-            <div class="metric-card"><span class="metric-label">Visible seller quote</span><strong class="metric-value">${money.format(data.homeQuote)}</strong><p class="metric-note">User-entered structure quote only.</p></div>
-            <div class="metric-card"><span class="metric-label">Estimated all-in project budget</span><strong class="metric-value">${money.format(allInBudget)}</strong><p class="metric-note">One-time costs plus contingency.</p></div>
-            <div class="metric-card"><span class="metric-label">Hidden-cost subtotal</span><strong class="metric-value">${money.format(hiddenSubtotal)}</strong><p class="metric-note">One-time costs beyond the structure quote.</p></div>
-            <div class="metric-card"><span class="metric-label">Contingency amount</span><strong class="metric-value">${money.format(contingencyAmount)}</strong><p class="metric-note">${data.contingency}% editable starter assumption.</p></div>
-            <div class="metric-card"><span class="metric-label">Estimated cash before move-in</span><strong class="metric-value">${money.format(cashNeeded)}</strong><p class="metric-note">Down payment plus estimated costs not covered by the loan amount entered.</p></div>
-            <div class="metric-card"><span class="metric-label">Estimated monthly payment</span><strong class="metric-value">${payment > 0 ? money.format(payment) : "UNKNOWN"}</strong><p class="metric-note">Calculated only when loan amount, rate, and term are provided.</p></div>
-            <div class="metric-card"><span class="metric-label">Estimated monthly carrying cost</span><strong class="metric-value">${carrying > 0 ? money.format(carrying) : "UNKNOWN"}</strong><p class="metric-note">Monthly payment plus monthly insurance and lot rent entered.</p></div>
-          </div>
-
-          <div class="result-block">
-            <h3>User-entered numbers</h3>
-            <ul class="check-list">
-              <li>Structure quote: ${money.format(data.homeQuote)}</li>
-              <li>Land cost included: ${data.landOwned ? "No, marked already owned or outside this estimate." : money.format(landCost)}</li>
-              <li>Delivery, site work, utilities, permits, and taxes entered: ${money.format(hiddenSubtotal - landCost)}</li>
-              <li>Down payment: ${money.format(data.downPayment)}</li>
-              <li>Loan amount: ${money.format(data.loanAmount)}</li>
-              <li>Monthly insurance estimate: ${money.format(data.insurance)}</li>
-              <li>Monthly land rent or community lot rent: ${money.format(data.lotRent)}</li>
-            </ul>
-          </div>
-
-          <div class="result-block">
-            <h3>Editable planning assumptions</h3>
-            <ul class="check-list">
-              <li>Contingency percentage: ${data.contingency}% editable starter assumption.</li>
-              <li>Blank or zero major cost buckets are treated as missing information and appear as warnings.</li>
-              <li>No calculator value is a national average, typical cost, expected cost, guaranteed cost, or vendor recommendation.</li>
-            </ul>
-          </div>
-
-          <div class="result-block">
-            <h3>Missing-cost warnings</h3>
-            ${warnings.length ? `<ul class="check-list">${warnings.map(listItem).join("")}</ul>` : "<p>No major blank-field warnings based on this form. Still verify every line item before purchase.</p>"}
-          </div>
-
-          <div class="result-block caution-box">
-            <h3>Buyer-protection red flags</h3>
-            <ul class="check-list">
-              <li>A seller quote that excludes delivery, setup, site work, utilities, or permits.</li>
-              <li>A land purchase before the structure type and intended use have been checked locally.</li>
-              <li>A financing plan that assumes the home, land, title, foundation, insurance, and occupancy all qualify.</li>
-              <li>A project budget with no written site-work quotes and no contingency.</li>
-            </ul>
-          </div>
-        `;
-      });
-    </script>
+    <script type="module" src="./calculator.js"></script>
   </body>
 </html>

@@ -546,3 +546,243 @@ remain.
   non-match, official links, focus handoff, and 320px containment passed.
 
 Release state: production-verified.
+
+## 2026-07-29 - THC-COST-001 Pre-Review Record
+
+Action: repair the existing cost calculator around honest quote-first and
+partial-result states.
+
+Base: `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`
+
+Frozen paths:
+
+- `docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`
+- `site/tiny-home-cost-calculator/index.html`
+- `site/tiny-home-cost-calculator/calculator.js`
+- `site/styles.css`
+- `site/sitemap.xml`
+- `tools/cost-calculator.test.mjs`
+- `strategy/current-strategy.md`
+- `status/site-pages.md`
+- `backlog/implementation-backlog.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/needs-user.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Evidence:
+
+- Direct manual user instruction.
+- July 28 full-site reviewed order after the completed homepage and San Diego
+  actions.
+- July 29 Semrush UI exact-query metrics and current public SERP/ranking-page
+  sample.
+- Reproduced blank `$0 all-in` and quote-only false-all-in live states.
+- July 28 GSC is unchanged monitoring context only.
+
+Advisory tooling:
+
+- Anti Gravity was attempted read-only through `agy --print`.
+- It produced no verdict because headless read-file permission was unavailable.
+- Unsafe permission bypass was not used.
+- Read-only research advisor thread
+  `019fad3f-dbe1-7953-856b-b82658edc919` returned `FAIL/improve` on the prior
+  live page. Its P1/P2 findings informed the current implementation; it is not
+  the independent transaction reviewer.
+
+Human and trust gates:
+
+- No typical/complete price, affordability, vendor recommendation, financing,
+  insurance, permit, code, zoning, or placement conclusion is authorized.
+- Independent read-only review is required after implementation and native/
+  browser QA.
+
+Implementation evidence:
+
+- Fifteen focused calculator tests pass.
+- Local browser checks passed blank, quote-only partial, four-state, resolved,
+  zero-interest, negative-input, and result-focus behavior.
+- Desktop, 390px, and 320px containment passed, with calculator signal visible
+  in the first mobile viewport.
+- Full native QA passes: 41/41 tests; zero SEO QA errors with three
+  pre-existing canonical warnings on untouched pages; zero operator-state
+  errors; valid roadmap JSON; required files present; and `git diff --check`.
+
+### Independent review cycle 1
+
+- Reviewer: `019fad57-656e-73a1-a687-08e4eb1f63fb`
+- Read-only: yes
+- Verdict: `FAIL`
+- P0: none.
+- P1: coarse monetary/APR input steps rejected legitimate exact values.
+- P2: lot rent counted outside rented-space scenarios; the project-specific
+  written question appeared after metrics; paired-query SERP evidence was not
+  reproducible enough; beginner project-type terms lacked plain explanations;
+  durable records still called native QA pending.
+- P3: the calculator reused a site-wide `.form-step` selector with conflicting
+  layout rules.
+
+Cycle 1 fixes:
+
+- Monetary, percentage, insurance, rent, and APR inputs now accept values to
+  two decimal places; loan years remain integer.
+- Lot rent is enabled and counted only for rented-space scenarios, clears on
+  transition away, and is covered for owned, buying, undecided, renting, and
+  renting-to-owned behavior.
+- The project-specific written question now follows partial warnings and
+  precedes metrics.
+- The research record now has a dated two-query US-English desktop SERP matrix,
+  explicit zero-overlap result, confidence limits, and a revised one-URL
+  rationale.
+- Project-type options and visible help explain finished, shell/kit, DIY, used,
+  foundation/ADU, and park-model/RV-style paths.
+- Native QA state is aligned, and the calculator heading selector no longer
+  collides with the site-wide `.form-step` rule.
+- Local 320px browser checks passed exact quote/cost/APR/insurance/rent values,
+  all land-state transitions, result order, focus, and containment.
+
+### Independent review cycle 2
+
+- Reviewer: `019fad57-656e-73a1-a687-08e4eb1f63fb`
+- Read-only: yes
+- Verdict: `FAIL`
+- P0/P1: none.
+- P2: the form accepted cent precision but visible currency formatting rounded
+  quote, cost, recurring, and calculated values to whole dollars.
+- P3: the research claimed zero overlap across nine results while retaining
+  only five ordered results per query.
+- The reviewer confirmed every cycle 1 finding was resolved.
+
+Cycle 2 fixes:
+
+- Visible currency now preserves up to two decimal places.
+- The result trace itemizes calculated payment, entered insurance, and
+  applicable lot rent in addition to quote and outside costs.
+- A fifteenth focused test asserts exact quote, outside cost, subtotal, buffer,
+  payment, insurance, rent, and monthly output strings.
+- A 320px live browser pass confirmed every exact value, result focus, output
+  order, and no horizontal overflow.
+- The unsupported top-nine SERP sentence is removed; the reproducible first-five
+  matrix and its explicit zero-overlap limit remain.
+
+Review state: cycle 2 findings fixed; final cycle 3 independent review remains.
+
+### Independent review cycle 3
+
+- Reviewer: `019fad57-656e-73a1-a687-08e4eb1f63fb`
+- Read-only: yes
+- Verdict: `FAIL`
+- P0/P1: none.
+- P2: blank or undecided land could label coherent financing and insurance as
+  `Entered monthly total` even though lot-rent applicability was unresolved.
+- P3: the review backlog still instructed a cycle 1 re-review.
+- The reviewer confirmed all cycle 1 and cycle 2 findings remained resolved.
+
+Cycle 3 fixes:
+
+- `Entered monthly total` now requires owned land, buying land, or rented space
+  with known rent. Blank or undecided land and rented space without known rent
+  render `Known monthly costs`.
+- Six native branches cover blank, undecided, owned, buying, renting with rent,
+  and renting without rent.
+- A 320px browser pass confirmed the expected monthly label for each branch and
+  no horizontal overflow.
+- The stale backlog review instruction is fixed.
+- Full native QA passes 42/42 tests, including sixteen focused calculator
+  tests.
+
+Review state: all findings are fixed, but the three-cycle review cap is
+exhausted and cycle 3 itself returned `FAIL`. This transaction is not release
+eligible. No commit, push, deployment, or production claim may proceed. A
+separately registered direct-manual continuation with fresh independent review
+authority is required.
+
+## 2026-07-29 - THC-COST-002 Pre-Review Record
+
+Action: independently re-review and conditionally release the complete held
+calculator candidate.
+
+Authority: direct manual user instruction.
+
+Base: `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`
+
+Frozen paths: the same 17 exact paths recorded for `THC-COST-002` in
+`ops/seo-roadmap.json`.
+
+Inherited evidence:
+
+- Complete dated query/SERP, ranking-page, persona, experience-level, and
+  every-section research.
+- All findings from `THC-COST-001` cycles 1-3 fixed in the working tree.
+- 42/42 native tests, zero site QA errors with three pre-existing untouched-page
+  canonical warnings, zero operator-state errors, valid JSON, required files,
+  and `git diff --check`.
+- Desktop, 390px, and 320px browser QA, including exact values, land/rent
+  transitions, all six monthly-label branches, focus, and containment.
+
+Review requirement: a fresh different independent read-only reviewer must
+return `PASS` or `PASS_WITH_P3` on the complete inherited range before release.
+
+### Cycle 1
+
+Reviewer: independent read-only reviewer
+`019fae23-18cf-7a10-bd54-cb104163517e`
+
+Verdict: `FAIL`
+
+Findings:
+
+- P2: unresolved starting amounts and contingency still rendered as zero, while
+  complete financing-only input was discarded instead of returning a partial
+  monthly scenario.
+- P2: `status/site-pages.md` and
+  `backlog/seo-research-review-backlog.md` still described `THC-COST-001` as
+  active instead of the held source for the sole active `THC-COST-002`
+  continuation.
+
+Resolution:
+
+- Added explicit starting, project-amount, and contingency known-state flags.
+  Unknown starting and buffer metrics are omitted; deliberate zero remains a
+  visible resolved value.
+- Coherent financing, insurance, or applicable lot-rent input now returns a
+  partial monthly scenario even when no one-time project amount is entered.
+- Added three focused regression tests. Nineteen of nineteen calculator tests
+  pass; the full native suite passes 45/45.
+- Local browser checks pass for outside cost without a starting amount, blank
+  versus explicit-zero contingency, financing-only monthly output and result
+  focus, and 320px containment without horizontal overflow.
+- Corrected both stale operator mirrors. Cycle 2 must review the complete diff
+  and these fixes.
+
+Release state: blocked pending cycle 2 `PASS` or `PASS_WITH_P3`.
+
+### Cycle 2
+
+Reviewer: independent read-only reviewer
+`019fae23-18cf-7a10-bd54-cb104163517e`
+
+Verdict: `PASS_WITH_P3`
+
+Cycle 1 resolution check: passed. The reviewer independently confirmed that
+unknown starting amounts are omitted, blank and deliberate-zero contingency
+remain distinct, financing or recurring input without project amounts returns
+a partial scenario, both stale mirrors are corrected, and the exact 17-path
+scope and QA matrix pass.
+
+Finding:
+
+- P3 in `site/tiny-home-cost-calculator/calculator.js`: when all 13 one-time
+  categories are resolved but the planning buffer is blank, the safe partial
+  title says important costs are still unknown even though the body correctly
+  identifies only the buffer assumption as unresolved.
+
+Disposition: accept as nonblocking wording debt. Do not change the reviewed
+site candidate in this release transaction.
+
+Release recommendation: eligible for exact-path fetch/divergence, commit,
+push, Pages, and production verification.

@@ -1,12 +1,26 @@
 # SEO Research & Review Backlog
 
-Last updated: 2026-07-28
+Last updated: 2026-07-29
 
 This is supporting evidence inventory. `ops/seo-roadmap.json` is the durable
 execution queue; this file does not schedule work.
 
 ## Current Research Result
 
+- `THC-COST-001` is the held implementation/research source for the bounded
+  query/SERP/ranking-page, quote/budget persona, every-section, and
+  calculator-state refresh.
+- `THC-COST-002` is the sole active review-and-release continuation. It cannot
+  introduce typical/complete costs, vendor recommendations, a second cost
+  page, new research, or redesign.
+- The dated research record is complete at
+  `docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`. It records
+  current exact-query Semrush metrics, a retained representative ranking-page
+  sample, reproduced prior-page failures, personas, four-state semantics,
+  every-section decisions, tests, and release invariants.
+- Read-only research advisor thread
+  `019fad3f-dbe1-7953-856b-b82658edc919` returned `FAIL/improve` on the prior
+  live experience; its P1/P2 findings are addressed in the implementation.
 - `THC-RES-001` created the full-site decision pack at
   `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`.
 - The pack reuses July 18 DataForSEO, preserves a bounded July 28 public SERP
@@ -18,14 +32,32 @@ execution queue; this file does not schedule work.
 - Independent transaction review returned `PASS` on cycle 3 with no P0-P3
   findings.
 
-## Next Review
+## Review Status
 
-- Review the `THC-HOME-001` implementation from the placement-feasibility
-  persona plus beginner, intermediate, and advanced experience levels.
-- Verify that the new first screen solves a decision rather than leading with
-  uncertainty, and that general output cannot look parcel- or location-verified.
-- Audit every visible section, source scope, blank/partial states, static links,
-  canonical, mobile layout, and the complete frozen transaction range.
+- `THC-COST-002` independent cycle 2 returned `PASS_WITH_P3` on the complete
+  17-path diff from base `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`. All cycle
+  1 fixes passed. The sole P3 buffer-title note is recorded without reopening
+  research or redesign.
+- Final cycle 3 reviewed the cycle 2 fixes from the quote/budget reality-check
+  job plus beginner, intermediate, and advanced experience levels.
+- Verify blank, quote-only, materially partial, explicit-zero, complete,
+  financing, and invalid-input states.
+- Audit every visible section, assumption boundary, result order, internal
+  link, canonical, mobile layout, and the complete frozen transaction range.
+- Independent reviewer thread
+  `019fad57-656e-73a1-a687-08e4eb1f63fb` returned `FAIL` in cycle 1 with one
+  P1, five P2, and one P3 finding. Exact-input steps, lot-rent applicability,
+  output order, paired-query SERP evidence, beginner terminology, durable QA
+  state, and the CSS selector collision are fixed for cycle 2.
+- Cycle 2 returned `FAIL` with one new P2 visible-cent precision defect and one
+  P3 unsupported top-nine SERP sentence. Currency traces now preserve cents,
+  recurring inputs are itemized, native/browser assertions cover the exact
+  outputs, and the unsupported sentence is removed for final cycle 3.
+- Cycle 3 confirmed all prior findings resolved, then returned `FAIL` on one
+  new P2 undecided-land monthly-completeness defect and one stale P3 review
+  instruction. Both are fixed, but the three-cycle review cap is exhausted;
+  the transaction is held and cannot release without a separately authorized
+  review-clean continuation.
 
 ## Completed
 

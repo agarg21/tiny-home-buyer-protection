@@ -1,10 +1,127 @@
 # Current Cycle
 
-Last updated: 2026-07-28
+Last updated: 2026-07-29
 
-Active action: `none`
+Active action: `THC-COST-002`
 
 Next eligible action: `none`
+
+## Active Priority
+
+`THC-COST-002` is a direct-manual review-and-release continuation authorized on
+2026-07-29. It inherits the complete uncommitted 17-path `THC-COST-001`
+candidate at origin-aligned base
+`38a3654cff2818a1a6b8390bc0ec4ebf2484262c`.
+
+Scope is review and release only. A fresh independent read-only reviewer must
+review the complete inherited diff, including all prior fixes and the final
+monthly-completeness branches. Only `PASS` or `PASS_WITH_P3` may proceed to
+commit, push, Pages, and production verification. No redesign or new research
+is selected.
+
+Fresh review cycle 1:
+
+- Independent read-only reviewer
+  `019fae23-18cf-7a10-bd54-cb104163517e` returned `FAIL` with two P2 finding
+  groups and no P0, P1, or P3 findings.
+- Unresolved starting amounts and contingency could still render as zero, and
+  coherent financing-only input could be discarded. The calculator now carries
+  explicit known-state flags, omits unknown metrics, keeps blank and deliberate
+  zero distinct, and returns a partial monthly scenario for financing or
+  recurring input without one-time project amounts.
+- Two durable mirrors still described `THC-COST-001` as active. They now
+  identify it as the held source and `THC-COST-002` as the sole active action.
+- Nineteen focused tests pass. Desktop browser checks cover outside cost without
+  a starting amount, blank versus deliberate-zero buffer, and financing-only
+  output. A 320px pass has no horizontal overflow and result focus is correct.
+- Cycle 2 reviewed the complete diff and every cycle 1 fix, returning
+  `PASS_WITH_P3`. All cycle 1 findings are resolved. The one P3 note is
+  nonblocking wording for the rare all-buckets-resolved, blank-buffer title;
+  it is recorded without changing the reviewed site bytes.
+- The candidate is review-clean and release-pending. Exact-path commit, remote
+  alignment, Pages, production bytes, and behavior remain to verify.
+
+## Prior Held Candidate
+
+`THC-COST-001` was a direct-manual research and implementation transaction
+selected on 2026-07-29. It repaired the existing indexed cost calculator around
+one primary job: help a cautious buyer test what a quote or working build
+budget leaves out without inventing a national-average project price.
+
+The frozen 17 paths are recorded in `ops/seo-roadmap.json`. The action covered
+current query demand, SERPs, representative ranking pages, one durable dated
+implementation record, the calculator, styles, sitemap date, focused tests,
+and only the declared strategy/operator mirrors.
+
+It must distinguish blank from explicit zero, refuse a dollar result for an
+all-blank form, label materially incomplete totals as partial, separate utility
+buckets, add project-path context without assigning prices, put missing-cost
+decisions ahead of an incomplete subtotal, and keep all assumptions editable
+and explicit.
+
+No homepage, under-$20K page, local guide, national build page, analytics,
+email, indexing request, outreach, external account, vendor recommendation,
+typical/complete cost claim, affordability conclusion, or legal/zoning
+conclusion is in scope.
+
+Working-tree result:
+
+- Dated research records current exact-query Semrush evidence, a retained
+  ranking-page sample, reproduced prior-page defects, the quote/budget decision
+  persona, beginner/intermediate/advanced passes, every-section decisions, and
+  release invariants.
+- A read-only research advisor returned `FAIL/improve` on the prior live page,
+  with two P1 and three P2 issue groups now addressed.
+- The rebuilt page puts the quote-gap job first, distinguishes unknown, added
+  amount, already covered, and not applicable, separates utilities, adds
+  project-path questions without assigning prices, and keeps optional buffers
+  separate in partial results.
+- Pure calculator logic and nineteen focused tests cover blank, quote-only
+  partial, four-state, resolved, land/rent applicability and transitions,
+  financing including financing-only partial output, exact input and rendered
+  precision, invalid, utility, known versus unknown contingency, monthly
+  completeness, unresolved starting amounts, and result-order branches.
+- Local browser checks passed desktop, 390px, and 320px containment; blank,
+  quote-only, four-state, resolved, zero-interest, negative-input, and result
+  focus behavior.
+- Current full native QA passes 45/45 tests, including 19/19 focused calculator
+  tests, with zero site QA errors and three
+  pre-existing untouched-page canonical warnings, zero operator-state errors,
+  valid roadmap JSON, required-file checks, and `git diff --check`.
+- Independent reviewer thread
+  `019fad57-656e-73a1-a687-08e4eb1f63fb` returned `FAIL` in cycle 1 with one
+  P1, five P2, and one P3 finding. The working tree now fixes exact input
+  validation, lot-rent applicability/transitions, result order, reproducible
+  paired-query SERP evidence, beginner terminology, QA records, and the shared
+  CSS selector.
+- Cycle 2 confirmed every cycle 1 fix, then returned `FAIL` on one new P2
+  visible-cent precision defect and one P3 unsupported top-nine SERP sentence.
+  The result now preserves and itemizes exact quote, outside-cost, subtotal,
+  buffer, payment, insurance, rent, and monthly values; the unsupported
+  sentence is removed. Fifteen native calculator tests and a 320px browser
+  pass verify all exact rendered values.
+- Cycle 3 confirmed every prior fix, then returned `FAIL` on one new P2:
+  blank or undecided land could still label an otherwise coherent recurring
+  sum as `Entered monthly total`. It also found one stale P3 backlog
+  instruction. Both are fixed: monthly output remains `Known monthly costs`
+  until land is owned/bought or rented with known rent, six branches have
+  native coverage, and a 320px browser pass confirms the labels.
+- The review cap is exhausted. Because cycle 3 returned `FAIL`, this
+  transaction is stopped and unreleased even though its findings are fixed and
+  QA is green. A separately registered continuation with fresh independent
+  review authority is required before commit or push.
+
+Evidence classification:
+
+- Direct manual user instruction selects the next action.
+- The July 28 full-site decision pack puts this repair after the now-completed
+  homepage and San Diego actions and records the blank/partial-state defect.
+- July 29 Semrush UI, public SERP samples, and representative ranking pages may
+  refine the query and product strategy.
+- The latest repository GSC snapshot is 2026-07-29, unchanged versus its
+  prior dated snapshot. It is monitoring context only.
+- The central July 28 report predates the completed San Diego release and this
+  direct instruction; it does not block a direct-manual action.
 
 ## Latest Completed Action
 
@@ -29,7 +146,7 @@ Evidence classification:
   the mixed local searcher job and the County freshness gap.
 - Current public SERP and official-source research may support page strategy and
   factual scope.
-- The 2026-07-28 GSC snapshot remains healthy monitoring context: 30
+- The 2026-07-29 GSC snapshot remains healthy monitoring context: 30
   impressions, 0 clicks, six discovered pages, and five of six priority URLs
   indexed. It does not cause this repair.
 
@@ -145,8 +262,8 @@ LA/San Diego addressable-volume research and repair brief completed on
 `378bd659b042e96f97c6c0f5e8ae55436df6d84a`; do not create new city pages from
 that research alone.
 
-The 2026-07-28 GSC snapshot is fresh read-only monitoring evidence with data
-through 2026-07-26, but it is unchanged versus the prior dated 2026-07-27
+The 2026-07-29 GSC snapshot is fresh read-only monitoring evidence with data
+through 2026-07-27, but it is unchanged versus the prior dated 2026-07-28
 snapshot: 30 impressions, 0 clicks, sitemap `Success`, 6 discovered pages, 5 of
 6 priority URLs indexed, and 0 unknown priority URLs. Treat it as observation
 evidence, not a standalone action trigger.
@@ -275,8 +392,8 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- No substantive transaction is active after the production-verified
-  `THC-SD-001` release.
+- `THC-COST-002` is the only active substantive transaction. It owns the held
+  exact-path work for a fresh independent review and possible release.
 - `THC-BUILD-002` remains the strongest measured demand candidate, not the
   selected build.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
@@ -292,7 +409,5 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`none`. The full-site decision pack records San Diego City versus
-unincorporated-County freshness, calculator behavior, and the national build
-asset as later candidates. Select and freeze one separate action before more
-implementation.
+`none` while `THC-COST-002` is active. Finish and release or stop this review
+continuation before selecting the national build asset.

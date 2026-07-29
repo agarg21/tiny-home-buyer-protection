@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-07-20
+Last updated: 2026-07-29
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -37,9 +37,13 @@ Start with high-anxiety, tool-shaped queries where readers need practical decisi
 - `tiny home kits`
 
 Validated early query opportunities from the original business plan and the
-2026-07-07 Semrush review:
+2026-07-07 Semrush review, with the calculator exact query refreshed on
+2026-07-29:
 
-- `tiny home cost calculator`: KD 6% Very easy in Semrush UI.
+- `tiny home cost calculator`: 110 US volume, KD 6% Very easy, informational
+  intent, CPC `$1.02` in the 2026-07-29 Semrush UI.
+- `tiny house cost calculator`: 110 US volume, KD 6% Very easy, informational
+  intent, CPC `$0` in the 2026-07-29 Semrush UI.
 - `where can i put a tiny house`: 320 US volume, KD 16% Easy in Semrush UI.
 - `tiny house zoning`: 390 US volume, KD 19% Easy in Semrush UI.
 - `tiny home zoning`: 260 US volume, KD 19% Easy in Semrush UI.
@@ -49,6 +53,10 @@ Validated early query opportunities from the original business plan and the
 
 These are tool-reported research inputs, not guaranteed traffic. Recheck before
 using them as current live keyword metrics.
+
+The two calculator variants are close synonyms and must not be added as 220
+unique monthly searches. One URL should serve the shared quote/budget
+reality-check job.
 
 Terminology note:
 
@@ -68,8 +76,9 @@ Measured/tool-reported details from the business plan:
 
 Unavailable or not independently rechecked in this repo:
 
-- Current live keyword volume: `UNKNOWN`
-- Current CPC: `UNKNOWN`
+- Current live keyword volume outside the two calculator exact queries:
+  `UNKNOWN`
+- Current CPC outside the two calculator exact queries: `UNKNOWN`
 - Current traffic estimates: `UNKNOWN`
 - Current ranking difficulty beyond business-plan notes: `UNKNOWN`
 - Backlinks needed: `UNKNOWN`
@@ -102,6 +111,9 @@ Use these durable repo files before making strategy or SEO decisions:
 - Current measurement and operator gates:
   `ops/seo-roadmap.json`, `ops/seo-roadmap.md`,
   `ops/gsc-snapshots/`, and the central operator report.
+- Current cost-calculator query, SERP, persona, state, and implementation
+  contract:
+  `docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`.
 
 The original external business plan remains useful historical context, but this
 file is the operating summary.
@@ -202,6 +214,14 @@ contractors, and park model/RV-style products by risk and verification needs.
 It must not recommend builders, imply a complete price, answer local zoning, or
 merge ADU-contractor demand into tiny-home-builder demand. See
 `briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`.
+
+The calculator refresh selected on 2026-07-29 uses a deliberately different
+product strategy from ranking calculators that generate immediate totals from
+national-average or regional assumptions. Tiny Home Clarity should accept the
+reader's quote or working budget, distinguish unknown from explicit zero,
+label partial totals honestly, and surface written quote gaps before any
+subtotal. See
+`docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`.
 
 ## First 5 Assets
 

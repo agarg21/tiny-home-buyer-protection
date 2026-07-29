@@ -517,3 +517,99 @@ Implementation boundary:
 Evidence:
 
 - `docs/research/san-diego-city-county-tiny-house-refresh-2026-07-28.md`
+
+## 2026-07-29 - Repair The Existing Cost Calculator Before Building The National Build Asset
+
+Decision: select `THC-COST-001` as the next serial direct-manual transaction.
+Repair the existing indexed calculator around a quote/budget reality-check job
+before creating the national build decision asset.
+
+Why:
+
+- The reviewed July 28 full-site order puts the calculator after the completed
+  homepage and San Diego actions and before the national build asset.
+- The live calculator has a concrete trust defect: blank input produces a `$0`
+  estimated all-in result, while quote-only input produces an all-in headline
+  despite every major non-structure cost remaining unknown.
+- The existing URL is indexed and already has a clear product role, so repairing
+  it is preferable to creating a new URL.
+- Current query evidence supports a calculator/tool job, while current ranking
+  pages commonly generate defaults or broad averages. Tiny Home Clarity can
+  differentiate through user-entered quote gaps, explicit unknowns, and written
+  verification rather than unsourced typical-price claims.
+
+Boundaries:
+
+- Do not publish national averages, typical/complete prices, affordability
+  conclusions, vendor recommendations, or project-path legality.
+- Do not change the homepage, under-$20K page, local guides, or build asset.
+
+## 2026-07-29 - Hold The Cost Calculator After The Review Cap
+
+Decision: stop `THC-COST-001` without commit, push, or deployment.
+
+Why:
+
+- Independent review cycles 1 and 2 returned actionable failures that were
+  fixed and re-reviewed.
+- Cycle 3 confirmed every prior fix but found one new P2 monthly-completeness
+  defect plus one P3 stale review instruction.
+- Both cycle 3 findings are fixed and QA is green, but the repository protocol
+  caps review at three cycles and permits release only after `PASS` or
+  `PASS_WITH_P3`.
+- A cycle 3 `FAIL` cannot be converted into release authority by a Master
+  self-review.
+
+Next gate:
+
+- Preserve the exact-path working tree.
+- Register a separate direct-manual review-clean continuation before another
+  independent review or any commit/push.
+
+## 2026-07-29 - Register THC-COST-002 As A Review-Only Continuation
+
+Decision: use the user's direct manual authorization to register
+`THC-COST-002` over the complete held 17-path calculator candidate.
+
+Boundary:
+
+- Fresh independent read-only review of the full inherited diff.
+- No new research or redesign.
+- Only `PASS` or `PASS_WITH_P3` may authorize commit and release.
+- Stop without push if the fresh review returns a release-blocking finding.
+
+## 2026-07-29 - Fix THC-COST-002 Cycle 1 Findings Before Re-Review
+
+Decision: resolve both fresh cycle 1 P2 finding groups inside the registered
+17-path continuation and request a complete cycle 2 review.
+
+Why:
+
+- Unknown starting amounts and planning buffers must not appear as deliberate
+  zeroes.
+- Coherent financing or recurring input is useful as a partial monthly
+  scenario even when no one-time project amount is known.
+- Durable mirrors must identify `THC-COST-001` as held and `THC-COST-002` as
+  the sole active action.
+- Nineteen focused and 45 full native tests plus desktop and 320px browser
+  checks pass after the fixes.
+
+Release gate: unchanged. Only cycle 2 `PASS` or `PASS_WITH_P3` may proceed.
+
+## 2026-07-29 - Accept THC-COST-002 Cycle 2 PASS_WITH_P3
+
+Decision: preserve the cycle 2 reviewed calculator bytes and proceed to the
+exact-path release controls.
+
+Why:
+
+- The independent reviewer confirmed every cycle 1 fix and the complete
+  17-path transaction.
+- The sole P3 is a conservative but imperfect partial-result title when all
+  one-time categories are resolved and only the planning buffer is blank.
+- The body remains truthful and identifies the unresolved buffer. Changing the
+  title now would create a new, unreviewed site candidate.
+
+Release requirement: freeze the complete commit candidate, verify no remote
+divergence, push only the declared paths, then require Pages and production
+byte/behavior checks.

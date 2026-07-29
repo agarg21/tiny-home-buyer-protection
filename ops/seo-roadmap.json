@@ -546,6 +546,189 @@
       "pages_workflow_run": "30399382114",
       "production_verification": "GitHub Pages run 30399382114 succeeded for the exact pushed commit. The live homepage, San Diego page, local-record data, and sitemap returned the reviewed bytes; the San Diego URL returned HTTP 200. Live browser checks confirmed the canonical and answer-first H1, 320px containment and first-viewport jurisdiction signal, exact City and unincorporated-County source routes, incorporated-city non-match, official source links, and focus handoff.",
       "notes": "Released and production-verified. Frozen to the 14 exact paths above. Independent read-only review returned PASS in cycle 2 after both cycle 1 P2 documentation inconsistencies were fixed. No other page, location batch, indexing request, external account, analytics, outreach, vendor recommendation, typical or complete cost claim, lead generation, or parcel-level legal conclusion changed."
+    },
+    {
+      "id": "THC-COST-001",
+      "title": "Repair the tiny-home cost calculator around honest quote-first and partial-result states",
+      "kind": "quality-improvement",
+      "lane": "content-and-product",
+      "impact": 4,
+      "confidence": 4,
+      "learning_value": 4,
+      "effort": 3,
+      "risk": 3,
+      "status": "blocked",
+      "selected_on": "2026-07-29",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/tiny-home-cost-calculator/"
+      ],
+      "target_paths": [
+        "docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md",
+        "site/tiny-home-cost-calculator/index.html",
+        "site/tiny-home-cost-calculator/calculator.js",
+        "site/styles.css",
+        "site/sitemap.xml",
+        "tools/cost-calculator.test.mjs",
+        "strategy/current-strategy.md",
+        "status/site-pages.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/needs-user.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "The live calculator ranks as a real indexed tool but submits an all-blank form as a $0 estimated all-in budget and turns an $85,000 quote with every other major bucket blank into a $102,000 estimated all-in budget. The form also risks utility double counting, does not distinguish blank from an explicit zero, lacks project-type context, delays the tool behind a large limits panel, and routes cost readers to weak default local-page follow-ups.",
+      "hypothesis": "A quote-first calculator that keeps unknown, added amount including typed zero, already covered, and not applicable distinct; labels partial totals honestly; separates utility buckets; adapts verification prompts to the project path; and puts missing-cost decisions before any incomplete subtotal will help cautious buyers compare a quote without inventing national-average costs.",
+      "expected_effect": "The existing indexed URL becomes a clearer buyer-protection tool for quote and budget reality checking, with testable blank, partial, resolved-input, financing, and four-state behavior and no implied typical or complete price.",
+      "success_signal": "Current query/SERP and representative ranking-page research is durable; blank input never produces a dollar result; partial inputs never produce an all-in claim; unknown, added amount including typed zero, already covered, and not applicable remain distinct; utility fields cannot double count a general hookup bucket; beginner, intermediate, and advanced quote/budget personas pass; every visible block has a distinct purpose; native, browser, production, and independent review gates pass.",
+      "implementation_state": "held-after-review-cap",
+      "evidence_classification": "Direct manual user instruction selects the next action. The July 28 full-site decision pack explicitly places the calculator repair after the completed homepage and San Diego actions and documents a concrete blank/partial-result defect. Current July 29 Semrush UI and public SERP/ranking-page evidence may refine query intent and page strategy. The unchanged July 28 GSC snapshot is monitoring context only and is not causal support.",
+      "research_advisor": {
+        "thread_id": "019fad3f-dbe1-7953-856b-b82658edc919",
+        "read_only": true,
+        "verdict": "FAIL/improve",
+        "role": "supporting research advice on the prior live page; not the independent transaction reviewer"
+      },
+      "working_tree_result": "The existing URL is rebuilt as a quote and working-budget reality check. Unknown, added amount including typed zero, already covered, and not applicable remain distinct; partial results show unknowns first and keep the optional buffer separate from the known one-time subtotal; project type changes written prompts but not prices; utility buckets are separate; financing appears only from coherent inputs; visible quote, cost, recurring, and calculated currency retains cent precision; undecided land keeps monthly output partial; sixteen focused tests and local responsive browser checks pass.",
+      "qa_evidence": [
+        "node --test tools/*.test.mjs: 42 of 42 tests pass, including 16 focused calculator tests",
+        "node tools/seo-qa.mjs: 0 errors and 3 pre-existing canonical warnings on untouched pages",
+        "node tools/operator-state-qa.mjs: 0 errors",
+        "ops/seo-roadmap.json is valid JSON",
+        "site/.nojekyll and .github/workflows/deploy-pages.yml are present",
+        "git diff --check passes",
+        "local desktop, 390px, and 320px browser checks pass; exact-input, exact-output, land-transition, monthly-completeness, output-order, focus, and containment fixes pass at 320px"
+      ],
+      "review_history": [
+        {
+          "cycle": 1,
+          "reviewer_id": "019fad57-656e-73a1-a687-08e4eb1f63fb",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P1: legitimate exact monetary and APR values were blocked by coarse native step constraints",
+            "P2: lot rent counted outside rented-space scenarios",
+            "P2: the next written project question appeared after metrics",
+            "P2: the paired-query SERP conclusion lacked a reproducible matrix and overlap evidence",
+            "P2: beginner project-type terminology lacked plain explanations",
+            "P2: durable records still called native QA pending",
+            "P3: calculator heading reused a conflicting site-wide form-step selector"
+          ],
+          "resolution": "All P1-P3 findings were fixed in the working tree for cycle 2."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "019fad57-656e-73a1-a687-08e4eb1f63fb",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: accepted cent precision was rounded away in visible quote, cost, recurring, and calculated currency output",
+            "P3: a top-nine SERP overlap statement exceeded the five ordered results retained per query"
+          ],
+          "resolution": "Visible currency and recurring traces now preserve cents with native and 320px browser assertions; the unsupported top-nine sentence is removed."
+        },
+        {
+          "cycle": 3,
+          "reviewer_id": "019fad57-656e-73a1-a687-08e4eb1f63fb",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: blank or undecided land could label otherwise coherent financing and insurance as Entered monthly total even though lot-rent applicability was unresolved",
+            "P3: the review backlog still described cycle 1 rather than the final cycle 3 review"
+          ],
+          "resolution": "Monthly output now stays Known monthly costs for blank or undecided land and rented space without known rent; owned, buying, and rented space with known rent may use Entered monthly total. Six branches have native coverage and passed a 320px browser check. The stale backlog instruction is fixed. The three-cycle review cap is exhausted, so this transaction remains blocked and unreleased despite the fixes."
+        }
+      ],
+      "blockers": [
+        "Independent review cycle 3 returned FAIL before its P2/P3 findings were fixed. The configured three-cycle cap is exhausted, and only PASS or PASS_WITH_P3 may release.",
+        "A separately registered direct-manual continuation with fresh independent review authority is required before this held candidate can be committed or pushed."
+      ],
+      "notes": "Frozen to the 17 exact paths above. Research, implementation, full native QA, and all cycle 1-3 findings are fixed in the working tree, but cycle 3 itself returned FAIL and the review cap is exhausted. No commit, push, deployment, or production claim is permitted in this transaction. No homepage, under-$20K page, local guide, national build page, analytics, email, indexing request, outreach, external account, vendor recommendation, national-average/typical/complete cost claim, affordability conclusion, or legal/zoning conclusion is authorized."
+    },
+    {
+      "id": "THC-COST-002",
+      "title": "Independently re-review and release the held cost-calculator candidate",
+      "kind": "review-and-release",
+      "lane": "content-and-product",
+      "impact": 4,
+      "confidence": 5,
+      "learning_value": 2,
+      "effort": 1,
+      "risk": 2,
+      "status": "in_progress",
+      "selected_on": "2026-07-29",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/tiny-home-cost-calculator/"
+      ],
+      "target_paths": [
+        "docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md",
+        "site/tiny-home-cost-calculator/index.html",
+        "site/tiny-home-cost-calculator/calculator.js",
+        "site/styles.css",
+        "site/sitemap.xml",
+        "tools/cost-calculator.test.mjs",
+        "strategy/current-strategy.md",
+        "status/site-pages.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/needs-user.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "THC-COST-001 left an exact 17-path, uncommitted calculator candidate at clean origin-aligned base 38a3654cff2818a1a6b8390bc0ec4ebf2484262c. All findings from its three review cycles are fixed and 42 native tests plus browser QA pass, but cycle 3 returned FAIL before those final fixes and therefore could not authorize release.",
+      "hypothesis": "A fresh independent reviewer of the complete inherited diff can determine whether the final monthly-completeness fix and the full quote-first calculator are release-clean without reopening research or redesign.",
+      "expected_effect": "If and only if the inherited full candidate receives PASS or PASS_WITH_P3, commit and push the exact review-clean range, verify GitHub Pages and production calculator invariants, and close the held work. Otherwise stop without release.",
+      "success_signal": "A different independent read-only reviewer checks the complete 17-path diff from base 38a3654, confirms the original human/searcher and arithmetic contract plus all six monthly-label branches, returns PASS or PASS_WITH_P3, native QA remains green, the exact commit is pushed without divergence, Pages succeeds, and production bytes and calculator behavior pass.",
+      "implementation_state": "review-clean-release-pending",
+      "evidence_classification": "Direct manual user authorization on 2026-07-29 selects this bounded continuation. The inherited THC-COST-001 research, implementation, QA, and review history are causal evidence. The July 29 GSC snapshot is validated and unchanged versus July 28; it remains monitoring context only.",
+      "working_tree_result": "Fresh review cycle 1 found that unresolved starting amounts and contingency could still render as zero and that financing-only input could be discarded. The state model now omits unknown starting and buffer metrics, distinguishes blank from deliberate zero, and returns a partial monthly scenario for coherent financing or recurring inputs without project amounts. Nineteen focused calculator tests and desktop plus 320px browser checks pass.",
+      "qa_evidence": [
+        "node --test tools/*.test.mjs: 45 of 45 tests pass, including 19 focused calculator tests",
+        "node --test tools/cost-calculator.test.mjs: 19 of 19 focused calculator tests pass",
+        "node tools/seo-qa.mjs: 0 errors and 3 pre-existing canonical warnings on untouched pages",
+        "node tools/operator-state-qa.mjs: 0 errors",
+        "ops/seo-roadmap.json is valid JSON; required files are present; git diff --check passes",
+        "local desktop browser: a 123.45 outside cost with no starting amount omits the starting metric and shows only known outside costs and subtotal",
+        "local desktop browser: blank contingency remains unknown with no zero metric; deliberate 0 renders a separate 0.00 and 0% buffer",
+        "local desktop browser: financing-only input remains partial, omits one-time metrics, shows a 704.41 payment and 831.96 entered monthly total, and moves focus to the result heading",
+        "local 320px browser: document and result panel remain within the viewport with no horizontal overflow"
+      ],
+      "review_history": [
+        {
+          "cycle": 1,
+          "reviewer_id": "019fae23-18cf-7a10-bd54-cb104163517e",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: unresolved starting amounts and contingency still rendered as zero, while complete financing-only input was discarded instead of returning a partial monthly scenario",
+            "P2: status/site-pages.md and backlog/seo-research-review-backlog.md still described THC-COST-001 as active instead of the held source for the sole active THC-COST-002 continuation"
+          ],
+          "resolution": "The calculator now carries explicit known-state flags, omits unresolved metrics, preserves deliberate zero, and accepts coherent financing or recurring inputs as partial scenarios. Three regression tests and desktop plus 320px browser checks pass. Both durable mirrors now identify THC-COST-001 as held and THC-COST-002 as the sole active action."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "019fae23-18cf-7a10-bd54-cb104163517e",
+          "read_only": true,
+          "verdict": "PASS_WITH_P3",
+          "findings": [
+            "P3: when every one-time category is resolved but the planning buffer is blank, the safe partial title still says important costs are unknown even though only the buffer assumption is unresolved"
+          ],
+          "resolution": "Accepted as nonblocking wording debt. The state remains conservative and internally explains that 13 of 13 categories are resolved and the buffer is blank. Do not mix an unreviewed wording edit into the reviewed release candidate."
+        }
+      ],
+      "notes": "Review and release only. Cycle 2 returned PASS_WITH_P3 and made the candidate release-eligible. The one P3 buffer-title wording note is recorded without changing the reviewed site bytes. Inherit the exact 17 dirty paths without redesign or new research. No homepage, under-$20K page, local guide, national build asset, indexing request, analytics, outreach, external account, vendor recommendation, typical/complete cost claim, affordability conclusion, or legal/zoning conclusion is authorized."
     }
   ]
 }

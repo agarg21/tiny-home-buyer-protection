@@ -1,6 +1,6 @@
 # Implementation Backlog
 
-Last updated: 2026-07-28
+Last updated: 2026-07-29
 
 This is a supporting implementation inventory. `ops/seo-roadmap.json` is the
 durable execution queue; backlog headings do not authorize work.
@@ -15,7 +15,26 @@ durable execution queue; backlog headings do not authorize work.
 
 ## Active
 
-- None.
+- `THC-COST-002`: fresh independent review and conditional release of the
+  complete held 17-path calculator candidate. Cycle 2 returned
+  `PASS_WITH_P3`; exact-path commit and production verification are pending.
+  No redesign or research.
+
+## Held Review Candidate
+
+- `THC-COST-001`: repair the existing cost calculator around quote-first input,
+  honest blank/partial/resolved states, four distinct outside-cost states,
+  project-path context, separate utility buckets, progressive disclosure,
+  focused tests, and current searcher/SERP evidence.
+- Research and implementation are complete in the working tree. Nineteen
+  focused calculator tests, inherited full native QA, and responsive browser
+  checks are green. All `THC-COST-001` cycle 1-3 findings and
+  `THC-COST-002` cycle 1 findings are fixed.
+- Cycle 3 itself returned `FAIL`, exhausting the review cap. The candidate is
+  uncommitted and unreleased. `THC-COST-002` now owns the separately registered
+  fresh review-and-release continuation.
+- Frozen to the 17 paths in `ops/seo-roadmap.json`. Do not absorb the under-$20K
+  implementation, homepage, local guides, or national build asset.
 
 ## Released
 
@@ -42,8 +61,8 @@ durable execution queue; backlog headings do not authorize work.
 ## Candidates, Not Selected
 
 - `THC-BUILD-002`: national build decision / builder due-diligence asset.
-- Cost-calculator blank/partial-result repair, Georgia classification repair,
-  and under-$20K consolidation/indexing diagnosis remain candidates.
+- Georgia classification repair and under-$20K consolidation/indexing
+  diagnosis remain candidates after the active calculator transaction.
 - Do not build ADU-builder city pages, a builder directory, or a location-page
   batch.
 

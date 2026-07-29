@@ -268,6 +268,38 @@ h5 {
   align-items: start;
 }
 
+.calculator-hero {
+  max-width: 900px;
+  padding: 42px 0 26px;
+}
+
+.calculator-hero h1 {
+  max-width: 850px;
+  margin-bottom: 14px;
+  font-size: 3.75rem;
+  line-height: 1.02;
+}
+
+.calculator-hero .lede {
+  max-width: 800px;
+}
+
+.calculator-boundary {
+  max-width: 800px;
+  margin-bottom: 14px;
+  padding-left: 14px;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+
+.calculator-section {
+  padding-top: 30px;
+}
+
+.calculator-heading {
+  margin-bottom: 18px;
+}
+
 .form-card,
 .result-panel,
 .record-card {
@@ -281,6 +313,73 @@ h5 {
 
 .calculator-form {
   gap: 22px;
+}
+
+.calculator-step-title {
+  margin: 0;
+  color: var(--accent-dark);
+  font-weight: 850;
+}
+
+.calculator-details {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfdfb;
+}
+
+.calculator-details summary {
+  padding: 15px 16px;
+  color: var(--accent-dark);
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.calculator-details[open] summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.details-body {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.cost-line {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(120px, 0.65fr);
+  gap: 12px;
+  align-items: end;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.cost-line:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.contingency-row {
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.calculator-result .result-block.warning {
+  margin-top: 18px;
+}
+
+.calculator-result .result-block.warning h3 {
+  margin-bottom: 8px;
+}
+
+.calculator-related {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.calculator-form input:disabled,
+.calculator-form select:disabled {
+  background: #edf2ee;
+  color: var(--subtle);
+  cursor: not-allowed;
 }
 
 .form-group {
@@ -1078,7 +1177,8 @@ dd {
   }
 
   .cost-input-grid,
-  .metric-grid {
+  .metric-grid,
+  .calculator-related {
     grid-template-columns: 1fr;
   }
 }
@@ -1149,6 +1249,28 @@ dd {
   .result-panel,
   .record-card {
     padding: 18px;
+  }
+
+  .calculator-hero {
+    padding: 30px 0 20px;
+  }
+
+  .calculator-hero h1 {
+    font-size: 2.55rem;
+    line-height: 1.04;
+  }
+
+  .calculator-hero .lede {
+    font-size: 1.05rem;
+  }
+
+  .calculator-hero .freshness-label {
+    display: none;
+  }
+
+  .cost-line {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   dl div {

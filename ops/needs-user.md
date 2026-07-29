@@ -1,10 +1,11 @@
 # Needs User
 
-Last updated: 2026-07-28
+Last updated: 2026-07-29
 
 ## Current Blockers
 
-- None. `THC-RES-001` is planned but not selected.
+- None. `THC-COST-002` independent review returned `PASS_WITH_P3`; standing
+  reviewed-release authorization permits exact-path release verification.
 
 ## Deferred User Decisions
 
