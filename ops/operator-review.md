@@ -425,6 +425,133 @@ Release:
 
 Release state: production-verified.
 
+## 2026-07-29 - THC-BUILD-002 Pre-Review Record
+
+Action: research, build, independently review, and conditionally release one
+national tiny-house build-options decision and due-diligence page.
+
+Authority: direct manual user instruction.
+
+Base: `7083794c1176a670f6e4997a9cdeaa10ae0466f4`
+
+Target URL: `https://tinyhomeclarity.com/tiny-house-build-options/`
+
+Frozen paths: the 19 exact paths recorded for `THC-BUILD-002` in
+`ops/seo-roadmap.json`.
+
+Required review:
+
+- Current query/SERP overlap and representative ranking-page evidence.
+- Plans/kit/shell/trailer/builder comparison decision persona.
+- Beginner, intermediate, and advanced experience-level passes.
+- Every visible section, first-screen answer, terminology, repetition, claim
+  safety, source scope, internal links, technical SEO, accessibility, and
+  desktop/390px/320px rendering.
+- No vendor recommendation, directory, typical/complete cost, legal/permit
+  conclusion, ADU-demand conflation, or false certification implication.
+
+Local candidate:
+
+- Fresh query, SERP, representative ranking-page, official-source, decision
+  persona, experience-level, and every-section evidence is retained in the two
+  dated research/review records.
+- The page compares all seven paths by responsibility and written proof, uses
+  no JavaScript or intent router, and links to the placement and cost tools.
+- Focused tests pass 6/6; all native tests pass 51/51; SEO QA has zero errors
+  and three known unrelated canonical warnings; operator-state QA and
+  `git diff --check` pass.
+- Browser QA passes at 1440px, 390px, and 320x568/700/844 with no overflow,
+  missing image, console error, unlabeled mobile comparison record, or
+  first-viewport dead end.
+
+Independent review cycle 1:
+
+- Reviewer: `019fb0a9-b3ae-7d61-88aa-029533866535` (`Peirce`), different and
+  read-only.
+- Verdict: `FAIL`.
+- P2: the fresh SERP record was not reproducible enough. Fixed with exact
+  queries, US/English market, collection date, ranking URLs, page types,
+  feature availability, overlap, architecture decisions, and confidence.
+- P2: four available CPC values were incorrectly marked `UNKNOWN`. Restored
+  `$0.19`, `$1.45`, `$2.53`, and `$0.90` from the retained July 18 artifact.
+- P2: the prior 320px QA used an 844px viewport and overstated first-screen
+  visibility at shorter heights. Added a `<=360px` compact first screen and
+  passed 320x568 and 320x700 checks with the comparison eyebrow visible.
+- P3: a mobile card layout retained a false scroll focus stop. Removed the
+  focusable/scrollable semantics and added a focused regression test.
+
+Advisory limitation: Anti Gravity CLI returned no advisory output because its
+headless profile denied its own command permission. No bypass or permission
+weakening was used.
+
+Release state: cycle 1 findings are fixed; cycle 2 independent re-review is
+complete. Cycle 2 verified every cycle 1 fix and returned `FAIL` for one P2:
+`ops/current-cycle.md` said five focused tests instead of the actual six. The
+count is corrected.
+
+Independent review cycle 3:
+
+- The same reviewer confirmed every page, research, persona, claim, responsive,
+  scope, and QA gate and the corrected six-test count.
+- Verdict: `FAIL`.
+- P2: `ops/current-cycle.md` still called cycle 2 pending and
+  `status/site-pages.md` still named cycle 2 as the release gate. Both
+  current-state mirrors are corrected.
+
+Release state: held after the third and final review cycle. No commit, push, or
+deployment is authorized. A separately registered continuation with a fresh
+independent reviewer is required.
+
+## 2026-07-29 - THC-BUILD-003 Pre-Review Record
+
+Action: fresh independent review and conditional release of the exact fixed
+`THC-BUILD-002` candidate.
+
+Authority: direct manual user continuation.
+
+Base: `7083794c1176a670f6e4997a9cdeaa10ae0466f4`
+
+Frozen paths: the same exact 19 paths recorded for `THC-BUILD-003` in
+`ops/seo-roadmap.json`.
+
+Boundaries: no new research, content, design, URL, vendor, price, legal/permit,
+lead-generation, indexing, outreach, or external-account work. A fresh
+different read-only reviewer must review the complete inherited candidate, not
+only prior findings.
+
+Release state: fresh review pending; no commit, push, or deployment is
+authorized yet.
+
+Fresh cycle 1:
+
+- Reviewer: independent read-only
+  `019fb78f-65a1-7e90-b528-8dfac328418f` (`Mendel`).
+- Reviewed base: `7083794c1176a670f6e4997a9cdeaa10ae0466f4`.
+- Verdict: `PASS`.
+- Findings: none.
+- Scope: exactly 19 paths; all searcher, beginner/intermediate/advanced,
+  every-section, evidence, claim, responsive, SEO, accessibility, test, and
+  durable-state gates passed.
+
+Post-review reconciliation: `origin/main` advanced only through automated GSC
+snapshot commit `3b8c3a6`. The compatible commit was fast-forwarded. The
+validated July 30 snapshot is materially unchanged versus July 29 and remains
+monitoring context.
+
+Fresh cycle 2:
+
+- Reviewer: the same independent read-only reviewer
+  `019fb78f-65a1-7e90-b528-8dfac328418f`.
+- Reviewed base: `3b8c3a6e085c4d19d4307a6b328c7de481728416`.
+- Verdict: `PASS`.
+- Findings: none.
+- The reviewer confirmed the automated GSC commit is outside the action diff,
+  exactly 19 frozen paths remain, all current mirrors are truthful, and all
+  page, evidence, persona, claim, responsive, scope, and QA gates remain clean.
+
+Release state: review-clean; final frozen-state verification and exact-path
+commit remain before push.
+
 ## 2026-07-28 - THC-SD-001 Pre-Review Record
 
 Action: repair the existing San Diego guide around distinct City and

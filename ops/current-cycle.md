@@ -2,11 +2,94 @@
 
 Last updated: 2026-07-29
 
-Active action: `none`
+Active action: `THC-BUILD-003`
 
-Next eligible action: `THC-BUILD-002`
+Next eligible action: `none`
 
-## Completed Priority
+## Active Priority
+
+`THC-BUILD-003` is a direct-manual review-and-release continuation selected on
+2026-07-29 after `THC-BUILD-002` stopped at its review cap.
+
+It inherits the exact fixed, uncommitted 19-path build-options candidate at base
+`7083794c1176a670f6e4997a9cdeaa10ae0466f4`. It may run fresh independent
+read-only review, fix any new P0-P2 finding inside those paths, and conditionally
+release. It may not reopen demand research, redesign the page, create another
+URL, expand scope, add vendors or prices, request indexing, or mutate an
+external account.
+
+Only `PASS` or `PASS_WITH_P3` from a fresh reviewer can release.
+
+Fresh review cycle 1:
+
+- Independent read-only reviewer
+  `019fb78f-65a1-7e90-b528-8dfac328418f` returned `PASS` with no findings on
+  the complete 19-path candidate.
+- During review, `origin/main` advanced only through automated GSC snapshot
+  commit `3b8c3a6`. It was fast-forwarded without conflict after the verdict.
+- The validated July 30 snapshot has finalized data through July 28 and is
+  unchanged in material metrics versus July 29: 30 impressions, 0 clicks, six
+  discovered pages, and five of six priority URLs indexed. It remains
+  monitoring context only.
+- Cycle 2 reviewed the reconciled base and updated current-state mirrors and
+  returned `PASS` with no findings. The exact 19-path candidate is review-clean
+  and pending final frozen-state verification before commit.
+
+## Prior Held Candidate
+
+`THC-BUILD-002` was a direct-manual research, implementation, review, and
+release transaction selected on 2026-07-29. It is stopped without release
+after exhausting three independent review cycles without `PASS` or
+`PASS_WITH_P3`.
+
+Target URL: `https://tinyhomeclarity.com/tiny-house-build-options/`
+
+The 19 exact paths are frozen in `ops/seo-roadmap.json`. The page must help a
+beginner-to-intermediate reader compare plans, kits, shells, THOW/trailer
+builds, custom builders, conventional ADU contractors, and park-model/RV-style
+products by responsibility, proof, and failure risk. Fresh SERP, ranking-page,
+official-source, decision-persona, beginner/intermediate/advanced, and
+every-section evidence must shape the title, first screen, comparison, and due
+diligence workflow.
+
+No builder directory, vendor recommendation, typical or complete price, local
+placement or permit conclusion, lead generation, city/state expansion,
+indexing request, outreach, or external-account mutation is authorized.
+
+Local candidate state:
+
+- Fresh evidence is retained in
+  `docs/research/tiny-house-build-options-refresh-2026-07-29.md`; it keeps
+  overlapping DataForSEO rows non-additive and current unavailable metrics
+  `UNKNOWN`.
+- The static page, original worksite image, homepage link, sitemap entry, and
+  six focused contract tests are implemented.
+- Full native tests pass 51/51. SEO QA reports zero errors and only the three
+  known unrelated explicit-canonical warnings. Operator-state QA reports zero
+  errors; `git diff --check` passes.
+- Browser QA passes at 1440px, 390px, and 320x568/700/844. The first screen
+  exposes the next section, the comparison becomes labeled stacked records on
+  narrow screens, no horizontal overflow exists, the image loads, and the
+  console has no warning or error.
+- Independent read-only cycle 1 reviewer
+  `019fb0a9-b3ae-7d61-88aa-029533866535` returned `FAIL` with three P2
+  findings and one P3. The candidate now retains exact SERP queries, market,
+  dates, ranking URLs, overlap, architecture decisions, and confidence;
+  restores four retained CPC values; exposes the comparison at 320x568; and
+  removes the false mobile scroll focus stop. Cycle 2 verified those fixes.
+- Cycle 2 verified every cycle 1 fix and the complete searcher, claim, scope,
+  QA, and responsive surface, then returned `FAIL` for one P2 stale word:
+  this file said five focused tests instead of six. The count is corrected;
+  cycle 3 verified it.
+- Cycle 3 confirmed every page, research, persona, claim, scope, and QA gate,
+  then returned `FAIL` because this file still described cycle 2 as pending
+  and `status/site-pages.md` still named cycle 2 as the release gate. Both
+  current-state mirrors are corrected.
+- The complete candidate remains uncommitted and unreleased. A separate
+  registered continuation with a fresh independent reviewer is required to
+  earn a release verdict.
+
+## Recently Completed Priority
 
 `THC-COST-002` is a direct-manual review-and-release continuation authorized on
 2026-07-29. It inherits the complete uncommitted 17-path `THC-COST-001`
@@ -262,8 +345,9 @@ LA/San Diego addressable-volume research and repair brief completed on
 `378bd659b042e96f97c6c0f5e8ae55436df6d84a`; do not create new city pages from
 that research alone.
 
-The 2026-07-29 GSC snapshot is fresh read-only monitoring evidence with data
-through 2026-07-27, but it is unchanged versus the prior dated 2026-07-28
+The 2026-07-30 GSC snapshot is fresh read-only monitoring evidence with data
+through 2026-07-28, but it is unchanged in material metrics versus the prior
+dated 2026-07-29
 snapshot: 30 impressions, 0 clicks, sitemap `Success`, 6 discovered pages, 5 of
 6 priority URLs indexed, and 0 unknown priority URLs. Treat it as observation
 evidence, not a standalone action trigger.
@@ -392,9 +476,8 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- No substantive transaction is active.
-- `THC-BUILD-002` is the next eligible candidate, not an active or selected
-  build. It requires a separate exact-path transaction.
+- `THC-BUILD-003` is the sole active substantive transaction. It inherits the
+  fixed `THC-BUILD-002` candidate for fresh review and conditional release.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -408,6 +491,5 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`THC-BUILD-002`: scope and implement the national tiny-home build decision and
-due-diligence asset only in a separate registered transaction with fresh
-query/SERP, searcher-POV, persona, native QA, and independent review gates.
+`none` while `THC-BUILD-003` is active. Finish and release or stop this exact
+continuation before selecting another page or repair.

@@ -392,3 +392,55 @@
   the repository. Live blank, quote-only, outside-cost/no-start,
   blank-versus-zero buffer, financing-only, focus, console, and 320px
   containment checks passed.
+- Registered direct-manual `THC-BUILD-002` on 2026-07-29 at clean,
+  origin-aligned base `7083794c1176a670f6e4997a9cdeaa10ae0466f4`.
+- Froze 19 exact paths for one national build-options comparison and
+  due-diligence page, current research/review evidence, an original worksite
+  image, focused tests, homepage/sitemap integration, and operator mirrors.
+  No directory, recommendation, typical/complete cost, legal/permit answer,
+  lead generation, indexing, outreach, or external-account work is authorized.
+- Completed the bounded query/SERP, representative ranking-page,
+  official-source, decision-persona, experience-level, and every-section
+  research refresh for `THC-BUILD-002`.
+- Built the static `/tiny-house-build-options/` candidate with seven distinct
+  responsibility paths, six scope handoffs, seven written document groups,
+  red flags, scoped source notes, and links to the placement and cost tools.
+- Added the original generated worksite image, homepage and sitemap discovery,
+  responsive comparison records, and five focused contract tests.
+- Local QA passes: 50/50 native tests, zero SEO errors with three known
+  unrelated canonical warnings, zero operator-state errors,
+  `git diff --check`, 1440px/390px/320px rendering, no horizontal overflow,
+  loaded image, and no browser warnings or errors. Independent review is
+  pending.
+- Independent cycle 1 reviewer
+  `019fb0a9-b3ae-7d61-88aa-029533866535` returned `FAIL` with three P2
+  findings and one P3. Added an exact reproducible SERP sample, restored four
+  retained CPC values, compacted the <=360px first screen, removed false
+  mobile scroll semantics, and added a regression test.
+- Repaired QA passes 6/6 focused and 51/51 full tests. At 320x568 and 320x700,
+  the comparison eyebrow is visible below the complete first-screen answer and
+  image strip with a 320px document width and no overflowing element. Cycle 2
+  independent re-review is pending.
+- Cycle 2 verified every cycle 1 fix and the full 19-path candidate, then
+  returned `FAIL` for one P2 stale count in `ops/current-cycle.md`: five
+  focused tests instead of six. Corrected that word; final cycle 3 is pending.
+- Cycle 3 confirmed every page, research, persona, claim, scope, responsive,
+  and QA gate but returned `FAIL` because two current-state mirrors still
+  described cycle 2 as pending or as the release gate. Corrected both mirrors.
+- Stopped `THC-BUILD-002` uncommitted and unreleased after exhausting its
+  three-cycle cap. The fixed 19-path candidate requires a separate registered
+  continuation and fresh independent reviewer.
+- Registered `THC-BUILD-003` as the serial fresh-review and conditional-release
+  continuation for the same exact fixed 19 paths at base
+  `7083794c1176a670f6e4997a9cdeaa10ae0466f4`. No new implementation or
+  research is authorized.
+- Fresh independent reviewer
+  `019fb78f-65a1-7e90-b528-8dfac328418f` returned `PASS` with no findings on
+  the complete `THC-BUILD-003` candidate.
+- Fetched and fast-forwarded compatible automated GSC snapshot commit
+  `3b8c3a6`. The validated July 30 snapshot has unchanged material metrics
+  versus July 29 and remains monitoring context. Final reconciled-state review
+  is pending.
+- Fresh cycle 2 reviewed the complete candidate from reconciled base `3b8c3a6`
+  and returned `PASS` with no findings. Exactly 19 frozen paths remain and the
+  candidate is review-clean pending final frozen-state verification and commit.

@@ -15,9 +15,21 @@ durable execution queue; backlog headings do not authorize work.
 
 ## Active
 
-- None.
+- `THC-BUILD-003`: fresh independent review and conditional release of the
+  exact fixed 19-path build-options candidate. No new implementation or
+  research is authorized. Two fresh review cycles returned `PASS`; final
+  frozen-state verification and release remain.
 
-## Held Review Candidate
+## Held Source Candidate
+
+- `THC-BUILD-002`: build one national plans/kits/shells/trailer/builder
+  comparison and due-diligence page at `/tiny-house-build-options/`, with an
+  original worksite image, focused tests, homepage/sitemap integration, and
+  exact-path review/release controls. The exact candidate, local QA, and all
+  findings are complete, but the action exhausted three cycles without a
+  release verdict. A separate continuation is required.
+
+## Prior Held Review Candidate
 
 - `THC-COST-001`: repair the existing cost calculator around quote-first input,
   honest blank/partial/resolved states, four distinct outside-cost states,

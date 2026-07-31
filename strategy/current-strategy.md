@@ -114,6 +114,9 @@ Use these durable repo files before making strategy or SEO decisions:
 - Current cost-calculator query, SERP, persona, state, and implementation
   contract:
   `docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`.
+- Current build-options query, SERP, ranking-page, official-source, persona, and
+  implementation contract:
+  `docs/research/tiny-house-build-options-refresh-2026-07-29.md`.
 
 The original external business plan remains useful historical context, but this
 file is the operating summary.
@@ -206,14 +209,19 @@ ADU-service queries, not tiny-home-specific demand. See
 `docs/research/tiny-home-build-intent-query-demand-2026-07-18.md`.
 
 National build-intent strategy: treat build/hire/buy-a-kit demand as a
-buyer-protection decision problem, not a directory problem. The next scoped
-asset is an internal brief for a national guide tentatively titled `Should You
-Build, Buy a Kit, Buy a Shell, or Hire a Tiny-Home Builder?` It should compare
-plans, kits, shells, trailers/THOWs, custom builders, conventional ADU
-contractors, and park model/RV-style products by risk and verification needs.
-It must not recommend builders, imply a complete price, answer local zoning, or
-merge ADU-contractor demand into tiny-home-builder demand. See
-`briefs/tiny-home-build-decision-due-diligence-2026-07-20.md`.
+buyer-protection decision problem, not a directory problem. `THC-BUILD-002`
+built one held national comparison titled `Tiny House Build Options: Plans,
+Kits, Shells, or a Builder?`; `THC-BUILD-003` is its active fresh-review and
+conditional-release continuation. The candidate compares plans, kits, shells,
+trailers/THOWs, custom builders, conventional ADU contractors, and park
+model/RV-style products by responsibility, written proof, and unresolved
+decisions. Fresh July 29 SERP review confirmed that plan catalogs, product
+sellers, and builder directories dominate the individual commercial queries;
+Tiny Home Clarity's distinct job is to expose scope handoffs before price
+comparison. It must not recommend builders, imply a complete price, answer
+local zoning, or merge ADU-contractor demand into tiny-home-builder demand.
+See `briefs/tiny-home-build-decision-due-diligence-2026-07-20.md` and
+`docs/research/tiny-house-build-options-refresh-2026-07-29.md`.
 
 The calculator refresh selected on 2026-07-29 uses a deliberately different
 product strategy from ranking calculators that generate immediate totals from

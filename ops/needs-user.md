@@ -4,7 +4,10 @@ Last updated: 2026-07-29
 
 ## Current Blockers
 
-- None. `THC-COST-002` is released and production-verified.
+- None. The user directly selected `THC-BUILD-002`; its page, claim, and
+  release boundaries do not require a new provider or external-account choice.
+  `THC-BUILD-003` is the separately registered fresh-review continuation and
+  also requires no new user decision.
 
 ## Deferred User Decisions
 
@@ -15,10 +18,10 @@ Last updated: 2026-07-29
 ## Waiting On External Accounts
 
 - Google Search Console indexing continues through the daily read-only snapshot
-  workflow. The 2026-07-29 snapshot has finalized data through 2026-07-27 and
-  is unchanged versus 2026-07-28: 30 impressions, 0 clicks, six sitemap pages,
-  and 5 of 6 priority URLs indexed. No user action or indexing request is
-  needed.
+  workflow. The 2026-07-30 snapshot has finalized data through 2026-07-28 and
+  is unchanged in material metrics versus 2026-07-29: 30 impressions, 0
+  clicks, six sitemap pages, and 5 of 6 priority URLs indexed. No user action
+  or indexing request is needed.
 - The 2026-07-18 authenticated Page indexing review found only HTTP/`www` aliases excluded as `Page with redirect`; all correctly redirect to the HTTPS apex. No indexing request, fix validation, DNS change, or user action is needed for those aliases.
 
 ## User Input Log

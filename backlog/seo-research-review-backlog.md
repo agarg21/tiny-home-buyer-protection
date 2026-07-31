@@ -7,12 +7,24 @@ execution queue; this file does not schedule work.
 
 ## Current Research Result
 
+- `THC-BUILD-003` is the sole active review-and-release continuation. It
+  inherits the exact fixed `THC-BUILD-002` research and implementation and may
+  not reopen research, content strategy, or page design. Two fresh review
+  cycles returned `PASS`; no research blocker remains.
+
+- `THC-BUILD-002` is held. The bounded July 18 demand refresh, current public
+  SERP/ranking-page and official-source evidence, comparison decision persona,
+  beginner/intermediate/advanced passes, and every-section page contract are
+  complete in the dated research/review records. All review findings are fixed,
+  but the action exhausted three cycles without a release verdict and is held
+  pending a separate continuation.
+
 - `THC-COST-001` is the held implementation/research source for the bounded
   query/SERP/ranking-page, quote/budget persona, every-section, and
   calculator-state refresh.
-- `THC-COST-002` is the sole active review-and-release continuation. It cannot
-  introduce typical/complete costs, vendor recommendations, a second cost
-  page, new research, or redesign.
+- `THC-COST-002` is completed and production-verified. It did not introduce
+  typical/complete costs, vendor recommendations, a second cost page, new
+  research, or redesign.
 - The dated research record is complete at
   `docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`. It records
   current exact-query Semrush metrics, a retained representative ranking-page

@@ -629,3 +629,60 @@ Evidence:
 
 Boundary: `THC-BUILD-002` requires its own registered exact-path transaction,
 fresh search/product evidence, native QA, and independent review.
+
+## 2026-07-29 - Select THC-BUILD-002
+
+Decision: use the user's direct manual instruction to select one national
+tiny-house build-options comparison and due-diligence page.
+
+Primary job: help a reader distinguish plans, kit, shell, trailer/THOW,
+builder, ADU-contractor, and park-model/RV product responsibilities before
+paying.
+
+Boundary: one new URL and the exact 19 paths in `ops/seo-roadmap.json`. No
+intent-router first screen, directory, vendor ranking, typical/complete price,
+local permit answer, lead generation, location expansion, indexing request,
+outreach, or external-account change.
+
+## 2026-07-29 - Implement THC-BUILD-002 As A Responsibility Comparison
+
+Decision: make the page's primary comparison unit the work and proof each path
+transfers to the buyer, not an advertised price, vendor list, or generic
+definition.
+
+Implementation:
+
+- One first-screen answer: compare responsibility before price.
+- Seven paths: plans, kit, shell, THOW/trailer build, custom tiny-home builder,
+  conventional ADU contractor, and park-model/RV-style product.
+- Six project responsibilities, seven written document groups, red flags,
+  scoped source notes, and existing placement/cost next steps.
+- Responsive table-to-record transformation at narrow widths; no intent router
+  or JavaScript is needed.
+
+Boundary: current price, traffic, backlinks, conversions, and exact target-query
+volume remain `UNKNOWN`; a label, model code, VIN record, plan, or standard
+does not become a national placement or occupancy answer.
+
+## 2026-07-29 - Hold THC-BUILD-002 After Review Cap
+
+Decision: stop `THC-BUILD-002` without commit or release after its third
+independent review cycle returned `FAIL`.
+
+Evidence: every page, research, persona, claim, scope, responsive, and native
+QA gate passed in the final review. The remaining P2 was two stale current-state
+sentences about cycle 2. Those sentences are fixed, but the action cannot
+receive a fourth review.
+
+Next gate: a separately registered review-and-release continuation with a fresh
+independent reviewer may inherit the exact fixed 19-path candidate.
+
+## 2026-07-29 - Select THC-BUILD-003
+
+Decision: register a fresh review-and-release continuation for the exact fixed
+`THC-BUILD-002` candidate.
+
+Boundary: same 19 paths and base, fresh different independent reviewer, native
+QA, exact-path commit, Pages, and production checks only. No new research,
+content, design, URL, vendor, price, legal answer, indexing, outreach, or
+external-account mutation.

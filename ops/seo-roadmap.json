@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-07-27",
   "next_rescore_due": "2026-08-03",
-  "next_eligible_action_id": "THC-BUILD-002",
+  "next_eligible_action_id": null,
   "planning_horizon_days": 28,
   "items": [
     {
@@ -330,24 +330,142 @@
       "learning_value": 4,
       "effort": 3,
       "risk": 3,
-      "status": "candidate",
+      "status": "blocked",
+      "selected_on": "2026-07-29",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
-      "target_urls": [],
+      "target_urls": [
+        "https://tinyhomeclarity.com/tiny-house-build-options/"
+      ],
       "target_paths": [
-        "site/",
+        "docs/research/tiny-house-build-options-refresh-2026-07-29.md",
+        "reviews/tiny-house-build-options-searcher-review-2026-07-29.md",
+        "site/tiny-house-build-options/index.html",
+        "site/assets/tiny-house-build-options-worksite.png",
         "site/index.html",
+        "site/styles.css",
         "site/sitemap.xml",
-        "briefs/tiny-home-build-decision-due-diligence-2026-07-20.md",
-        "reviews/",
+        "tools/build-options.test.mjs",
+        "strategy/current-strategy.md",
+        "status/site-pages.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/needs-user.md",
+        "ops/operator-review.md",
         "ops/seo-roadmap.json",
-        "ops/seo-roadmap.md"
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
       ],
       "baseline": "The national build decision / builder due-diligence asset is scoped in an internal brief but not implemented or published.",
       "hypothesis": "A buyer-protective national decision guide can serve build, plans, kits, shells, trailer/THOW, builder, and code/permit research intent without becoming a builder directory or overclaiming legal placement.",
       "expected_effect": "Creates a useful review-clean asset for broad build-stage tiny-home searchers and strengthens the site beyond local placement pages.",
       "success_signal": "A future page or tool helps readers compare build paths, collect written proof, identify red flags, and verify local constraints without recommending vendors or implying legal/cost certainty.",
-      "notes": "Future implementation requires a separate dispatch, exact paths, native QA, SERP/searcher POV review, and independent read-only review. No implementation was started by THC-BUILD-001. The 2026-07-27 roadmap re-score kept this as a candidate, not a selected action, because the current dispatch is roadmap maintenance only and the newest GSC evidence is unchanged monitoring context."
+      "implementation_state": "held-after-review-cap",
+      "evidence_classification": "Direct manual user instruction on 2026-07-29 selects this separately registered implementation. Durable July 18 DataForSEO build-intent research and the completed THC-BUILD-001 brief are causal evidence. Fresh public SERP, representative ranking-page, official-source, decision-persona, experience-level, and every-section evidence must refine the page before release. The validated July 29 GSC snapshot is unchanged versus July 28 and remains monitoring context only.",
+      "review_cycles": [
+        {
+          "cycle": 1,
+          "reviewer_id": "019fb0a9-b3ae-7d61-88aa-029533866535",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: fresh SERP evidence lacked exact ranking URLs, market, overlap, architecture decision, and confidence",
+            "P2: four retained CPC values were incorrectly marked UNKNOWN",
+            "P2: the first-viewport claim did not hold at 320x700",
+            "P3: mobile comparison cards retained a false scroll focus stop"
+          ],
+          "resolution": "Added the reproducible SERP table, restored all four CPC values, compacted the <=360px first screen and passed 320x568/700 checks, removed the false scroll semantics, and added a regression test."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "019fb0a9-b3ae-7d61-88aa-029533866535",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: ops/current-cycle.md said five focused tests while the reviewed suite contains six"
+          ],
+          "resolution": "Corrected the current-cycle count from five to six without rewriting the chronological first-pass QA history."
+        },
+        {
+          "cycle": 3,
+          "reviewer_id": "019fb0a9-b3ae-7d61-88aa-029533866535",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: ops/current-cycle.md still described cycle 2 as pending and status/site-pages.md still named cycle 2 as the release gate"
+          ],
+          "resolution": "Corrected both current-state mirrors. The candidate is held without release because the third and final review cycle did not return PASS or PASS_WITH_P3."
+        }
+      ],
+      "review_outcome": "FAIL",
+      "notes": "The exact 19-path local candidate includes one national comparison and due-diligence page at /tiny-house-build-options/, an original non-vendor worksite image, six focused tests, homepage/sitemap integration, and durable reproducible research/review evidence. Full native tests pass 51/51; SEO and operator-state QA have zero errors; git diff check and 1440px/390px/320x568/700/844 browser checks pass. All cycle 1, 2, and 3 findings are fixed, but cycle 3 returned FAIL and exhausted the action's review cap. The uncommitted candidate is held and unreleased; a separate registered continuation with a fresh independent reviewer is required. Do not create a directory, recommend vendors, publish typical or complete costs, answer parcel legality, imply permits/financing/insurance, add lead generation, request indexing, mutate external accounts, or create city/state pages."
+    },
+    {
+      "id": "THC-BUILD-003",
+      "title": "Review and release the held national build-options candidate",
+      "kind": "review-and-release",
+      "lane": "content-and-product",
+      "impact": 4,
+      "confidence": 4,
+      "learning_value": 2,
+      "effort": 1,
+      "risk": 2,
+      "status": "in_progress",
+      "selected_on": "2026-07-29",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/tiny-house-build-options/"
+      ],
+      "target_paths": [
+        "docs/research/tiny-house-build-options-refresh-2026-07-29.md",
+        "reviews/tiny-house-build-options-searcher-review-2026-07-29.md",
+        "site/tiny-house-build-options/index.html",
+        "site/assets/tiny-house-build-options-worksite.png",
+        "site/index.html",
+        "site/styles.css",
+        "site/sitemap.xml",
+        "tools/build-options.test.mjs",
+        "strategy/current-strategy.md",
+        "status/site-pages.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/needs-user.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "THC-BUILD-002 produced a fixed, native-QA-green 19-path candidate but stopped uncommitted and unreleased after its third review cycle returned FAIL on stale current-state wording.",
+      "hypothesis": "A fresh independent reviewer can evaluate the complete inherited candidate without reopening implementation and provide a clean release verdict if no P0-P2 issue remains.",
+      "expected_effect": "Either release the existing buyer-protective build-options page unchanged after a clean review or retain a precisely bounded blocker without manufacturing new content.",
+      "success_signal": "A fresh different reviewer returns PASS or PASS_WITH_P3 on the complete 19-path candidate, native QA remains green, the exact reviewed commit is pushed, Pages succeeds, and production page, image, links, sitemap, and responsive invariants pass.",
+      "implementation_state": "review-clean-commit-pending",
+      "evidence_classification": "This continuation inherits the durable July 18 demand evidence, July 29 reproducible SERP/source/persona record, fixed implementation, three prior review cycles, and current native/browser QA. No new GSC, demand, SERP, content, or design work is causal or authorized. The July 30 GSC snapshot is unchanged in material metrics versus July 29 and remains monitoring context only.",
+      "review_cycles": [
+        {
+          "cycle": 1,
+          "reviewer_id": "019fb78f-65a1-7e90-b528-8dfac328418f",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "Fresh reviewer found no P0-P3 issue in the complete exact 19-path candidate. Origin advanced afterward only through compatible GSC snapshot commit 3b8c3a6; the reconciled base and monitoring mirrors require a fast final check."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "019fb78f-65a1-7e90-b528-8dfac328418f",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "Reviewed the complete exact 19-path diff from reconciled base 3b8c3a6, confirmed the automated GSC commit is outside the action diff, and found no P0-P3 issue."
+        }
+      ],
+      "review_outcome": "PASS",
+      "notes": "Frozen to the same exact 19 paths as THC-BUILD-002. Fresh reviewer 019fb78f-65a1-7e90-b528-8dfac328418f returned PASS with no findings in cycles 1 and 2. Compatible automated GSC snapshot commit 3b8c3a6 was fast-forwarded between cycles; July 30 material metrics are unchanged versus July 29. The exact candidate is review-clean and pending final frozen-state verification before commit. Do not reopen research, redesign, add a URL, directory, vendor recommendation, typical/complete cost, legal/permit answer, lead generation, indexing request, outreach, or external-account mutation."
     },
     {
       "id": "THC-MON-001",

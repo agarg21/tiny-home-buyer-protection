@@ -32,9 +32,12 @@ unreviewed release decisions.
     returned `FAIL`.
 11. `THC-COST-002` — completed and production-verified on 2026-07-29 in
     `1af1dc2`; Pages run `30460242431` succeeded.
-12. `THC-BUILD-002` — next eligible candidate; it is not active or selected.
-13. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
-14. Select the next buyer-protection tool only from observed evidence and the
+12. `THC-BUILD-002` — held unreleased after exhausting three review cycles;
+    the exact local candidate is fixed but requires a separate continuation.
+13. `THC-BUILD-003` — active direct-manual review-and-release continuation for
+    the exact held 19-path candidate.
+14. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
+15. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
 
 ## THC-COST-002 completion
@@ -67,6 +70,62 @@ unreviewed release decisions.
   `30460242431` succeeded.
 - Live HTML, calculator JavaScript, stylesheet, and sitemap byte-match the
   repository. The production interaction and 320px containment matrix passed.
+
+## THC-BUILD-002 held result
+
+- Target URL: `https://tinyhomeclarity.com/tiny-house-build-options/`.
+- Frozen to the 19 exact paths in `ops/seo-roadmap.json`.
+- Reuse the July 18 build-intent demand artifact and the completed internal
+  brief; refresh public SERPs, representative ranking pages, official sources,
+  decision personas, experience levels, and every-section decisions.
+- Build one comparison and due-diligence surface for plans, kits, shells,
+  THOW/trailer builds, custom builders, ADU contractors, and park-model/RV
+  products. Do not create a generic intent router.
+- No directory, vendor recommendation, typical/complete price, parcel/legal
+  answer, lead generation, location batch, indexing request, outreach, or
+  external-account change.
+- The exact local candidate is implemented with reproducible current evidence,
+  exact ranking URLs and retained CPC values, an original
+  worksite image, one static seven-path comparison, written-proof workflow,
+  homepage/sitemap integration, and six focused tests.
+- Native tests pass 51/51; SEO and operator-state QA have zero errors; desktop,
+  390px, and 320x568/700/844 browser passes have no overflow, image, console,
+  first-viewport, scroll-semantics, or mobile-labeling defect.
+- Cycle 1 reviewer `019fb0a9-b3ae-7d61-88aa-029533866535` returned `FAIL`
+  with three P2 findings and one P3. All are fixed; cycle 2 re-review is
+  complete.
+- Cycle 2 verified every cycle 1 fix and the complete candidate, then returned
+  `FAIL` only because `ops/current-cycle.md` said five focused tests instead of
+  six. The count is corrected.
+- Cycle 3 verified the complete page and every prior fix, then returned `FAIL`
+  because two current-state mirrors still called cycle 2 pending or the
+  release gate. Both are corrected.
+- Native, focused, visual, responsive, SEO, source/link, privacy, and
+  independent review gates pass in substance, but the action exhausted three
+  cycles without `PASS` or `PASS_WITH_P3`. It is held, uncommitted, and
+  unreleased. A separately registered continuation with a fresh reviewer is
+  required.
+
+## THC-BUILD-003 active continuation
+
+- Inherit the exact fixed 19-path `THC-BUILD-002` candidate at base
+  `7083794c1176a670f6e4997a9cdeaa10ae0466f4`.
+- Use a fresh different independent read-only reviewer for the complete
+  candidate, three personas, every section, claims, sources, SEO,
+  accessibility, responsive behavior, tests, and durable state.
+- Do not reopen research, redesign, add a URL, directory, vendor, price,
+  legal/permit answer, lead generation, indexing request, outreach, or external
+  account.
+- Fresh cycle 1 reviewer `019fb78f-65a1-7e90-b528-8dfac328418f` returned
+  `PASS` with no findings on the complete 19-path candidate.
+- Fast-forwarded compatible automated GSC snapshot commit `3b8c3a6`; July 30
+  material metrics are unchanged versus July 29 and remain monitoring context.
+- Cycle 2 reviewed the complete reconciled 19-path diff and returned `PASS`
+  with no findings.
+- The exact candidate is review-clean and pending final frozen-state
+  verification before commit.
+- Only `PASS` or `PASS_WITH_P3` may proceed to exact-path commit, push, Pages,
+  and production verification.
 
 ## THC-COST-001 held result
 
