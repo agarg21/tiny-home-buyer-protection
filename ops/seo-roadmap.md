@@ -34,8 +34,8 @@ unreviewed release decisions.
     `1af1dc2`; Pages run `30460242431` succeeded.
 12. `THC-BUILD-002` — held unreleased after exhausting three review cycles;
     the exact local candidate is fixed but requires a separate continuation.
-13. `THC-BUILD-003` — active direct-manual review-and-release continuation for
-    the exact held 19-path candidate.
+13. `THC-BUILD-003` — completed and production-verified in `1895694`; Pages
+    run `30622059848` succeeded.
 14. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
 15. Select the next buyer-protection tool only from observed evidence and the
    project's skeptical, official-source-backed product strategy.
@@ -106,7 +106,7 @@ unreviewed release decisions.
   unreleased. A separately registered continuation with a fresh reviewer is
   required.
 
-## THC-BUILD-003 active continuation
+## THC-BUILD-003 completion
 
 - Inherit the exact fixed 19-path `THC-BUILD-002` candidate at base
   `7083794c1176a670f6e4997a9cdeaa10ae0466f4`.
@@ -122,10 +122,14 @@ unreviewed release decisions.
   material metrics are unchanged versus July 29 and remain monitoring context.
 - Cycle 2 reviewed the complete reconciled 19-path diff and returned `PASS`
   with no findings.
-- The exact candidate is review-clean and pending final frozen-state
-  verification before commit.
-- Only `PASS` or `PASS_WITH_P3` may proceed to exact-path commit, push, Pages,
-  and production verification.
+- Cycle 3 reviewed the frozen candidate and returned `PASS` with no findings.
+- Committed and pushed the exact 19 paths in
+  `18956949f0fe2748f13f0c71505dadf927a63150` from base `3b8c3a6`.
+- Pages run `30622059848` succeeded. The production page, image, stylesheet,
+  homepage, and sitemap return HTTP 200 and byte-match the repository.
+- Live 1440x900, 390x844, and 320x568 browser checks passed canonical, H1,
+  image, seven-path, mobile-label, first-viewport, containment, and console
+  invariants.
 
 ## THC-COST-001 held result
 

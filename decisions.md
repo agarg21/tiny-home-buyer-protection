@@ -686,3 +686,15 @@ Boundary: same 19 paths and base, fresh different independent reviewer, native
 QA, exact-path commit, Pages, and production checks only. No new research,
 content, design, URL, vendor, price, legal answer, indexing, outreach, or
 external-account mutation.
+
+## 2026-07-31 - Release THC-BUILD-003
+
+Decision: release the exact fixed 19-path build-options candidate after three
+fresh `PASS` reviews.
+
+Evidence: commit `18956949f0fe2748f13f0c71505dadf927a63150`, Pages run
+`30622059848`, production byte matches, and desktop/390px/320x568 browser
+invariants all passed.
+
+Next state: observe through normal GSC snapshots. No indexing request, vendor
+work, outreach, or immediate follow-on page is authorized.

@@ -210,9 +210,9 @@ ADU-service queries, not tiny-home-specific demand. See
 
 National build-intent strategy: treat build/hire/buy-a-kit demand as a
 buyer-protection decision problem, not a directory problem. `THC-BUILD-002`
-built one held national comparison titled `Tiny House Build Options: Plans,
-Kits, Shells, or a Builder?`; `THC-BUILD-003` is its active fresh-review and
-conditional-release continuation. The candidate compares plans, kits, shells,
+built one national comparison titled `Tiny House Build Options: Plans, Kits,
+Shells, or a Builder?`; `THC-BUILD-003` released and production-verified it in
+`1895694`. The page compares plans, kits, shells,
 trailers/THOWs, custom builders, conventional ADU contractors, and park
 model/RV-style products by responsibility, written proof, and unresolved
 decisions. Fresh July 29 SERP review confirmed that plan catalogs, product

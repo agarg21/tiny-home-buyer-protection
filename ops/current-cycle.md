@@ -1,12 +1,12 @@
 # Current Cycle
 
-Last updated: 2026-07-29
+Last updated: 2026-07-31
 
-Active action: `THC-BUILD-003`
+Active action: `none`
 
 Next eligible action: `none`
 
-## Active Priority
+## Completed Priority
 
 `THC-BUILD-003` is a direct-manual review-and-release continuation selected on
 2026-07-29 after `THC-BUILD-002` stopped at its review cap.
@@ -18,7 +18,9 @@ release. It may not reopen demand research, redesign the page, create another
 URL, expand scope, add vendors or prices, request indexing, or mutate an
 external account.
 
-Only `PASS` or `PASS_WITH_P3` from a fresh reviewer can release.
+The exact candidate was committed and pushed in
+`18956949f0fe2748f13f0c71505dadf927a63150` from reconciled base
+`3b8c3a6e085c4d19d4307a6b328c7de481728416`.
 
 Fresh review cycle 1:
 
@@ -32,8 +34,15 @@ Fresh review cycle 1:
   discovered pages, and five of six priority URLs indexed. It remains
   monitoring context only.
 - Cycle 2 reviewed the reconciled base and updated current-state mirrors and
-  returned `PASS` with no findings. The exact 19-path candidate is review-clean
-  and pending final frozen-state verification before commit.
+  returned `PASS` with no findings. At that checkpoint, the exact 19-path
+  candidate was review-clean and awaiting final frozen-state verification.
+- Cycle 3 reviewed the frozen commit candidate and returned `PASS` with no
+  findings.
+- Pages run `30622059848` succeeded. Production page, image, stylesheet,
+  homepage, and sitemap return HTTP 200 and byte-match the repository.
+- Live desktop, 390x844, and 320x568 checks pass canonical, H1, image
+  dimensions, seven comparison paths, mobile card labels, first-viewport
+  continuity, containment, and console invariants.
 
 ## Prior Held Candidate
 
@@ -476,8 +485,8 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- `THC-BUILD-003` is the sole active substantive transaction. It inherits the
-  fixed `THC-BUILD-002` candidate for fresh review and conditional release.
+- No substantive transaction is active. `THC-BUILD-003` is completed and
+  production-verified.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -491,5 +500,6 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`none` while `THC-BUILD-003` is active. Finish and release or stop this exact
-continuation before selecting another page or repair.
+`none`. `THC-MON-001` still requires changed GSC evidence, and the July 30
+snapshot is materially unchanged. Re-score the roadmap on its normal cadence
+or when evidence changes.

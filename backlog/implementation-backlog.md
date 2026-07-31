@@ -13,12 +13,12 @@ durable execution queue; backlog headings do not authorize work.
 - The Master is the only repository writer. Implementation support is read-only
   and does not select work from this backlog.
 
-## Active
+## Recently Completed
 
 - `THC-BUILD-003`: fresh independent review and conditional release of the
   exact fixed 19-path build-options candidate. No new implementation or
-  research is authorized. Two fresh review cycles returned `PASS`; final
-  frozen-state verification and release remain.
+  research was authorized. Three fresh review cycles returned `PASS`; commit
+  `1895694`, Pages run `30622059848`, and production checks passed.
 
 ## Held Source Candidate
 

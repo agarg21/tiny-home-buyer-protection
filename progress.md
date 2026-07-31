@@ -439,8 +439,17 @@
   the complete `THC-BUILD-003` candidate.
 - Fetched and fast-forwarded compatible automated GSC snapshot commit
   `3b8c3a6`. The validated July 30 snapshot has unchanged material metrics
-  versus July 29 and remains monitoring context. Final reconciled-state review
-  is pending.
+  versus July 29 and remains monitoring context. A reconciled-state review was
+  then required.
 - Fresh cycle 2 reviewed the complete candidate from reconciled base `3b8c3a6`
   and returned `PASS` with no findings. Exactly 19 frozen paths remain and the
-  candidate is review-clean pending final frozen-state verification and commit.
+  candidate reached its final frozen-state verification checkpoint.
+- Fresh cycle 3 returned `PASS` with no findings on the frozen candidate.
+- Committed and pushed the exact 19 paths in
+  `18956949f0fe2748f13f0c71505dadf927a63150` from reconciled base `3b8c3a6`.
+- Pages run `30622059848` succeeded. Production page HTML, original image,
+  shared stylesheet, homepage, and sitemap return HTTP 200 and byte-match the
+  repository.
+- Live 1440x900, 390x844, and 320x568 checks passed canonical, H1, image
+  dimensions, seven comparison paths, first-viewport continuity, labeled
+  mobile records, containment, and console invariants.

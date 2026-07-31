@@ -16,7 +16,7 @@ small samples are monitoring context, not a revamp order.
 | `https://tinyhomeclarity.com/georgia-tiny-house-classification/` | Georgia structure-classification explainer before local zoning | 5 impressions, 0 clicks, page-level position 22.4 | Live and indexed | Current SERP, decision-persona, experience-level, and every-section audit completed | Answer-first repair is justified on human usefulness, but measured query demand remains `UNKNOWN`; keep behind homepage, San Diego, calculator, and build candidates. |
 | `https://tinyhomeclarity.com/tiny-home-cost-calculator/` | Quote and build-budget reality check with explicit unknowns | 2 impressions, 0 clicks, page-level position 26 | Live, indexed, and production-verified in `1af1dc2`; Pages run `30460242431` succeeded | Current calculator SERP, decision-persona, beginner/intermediate/advanced, every-section, state-contract, 19 focused and 45 full native tests, local/production browser QA, and three independent review cycles completed | The quote-first tool now keeps unknown and zero distinct, preserves partial states, and supports financing-only monthly output. Production bytes and interaction checks passed. One nonblocking blank-buffer title P3 remains recorded for a future action. |
 | `https://tinyhomeclarity.com/tiny-house-under-20k/` | Buyer-protective feasibility checker for under-$20K claims | No page performance row in the current public snapshot | Live; the current URL Inspection row reports not indexed | Current SERP, decision-persona, experience-level, and every-section audit completed | Preserve the answer; later consolidate its duplicate budget tool into the cost calculator and fix the blank-state verdict. Do not rewrite from absent impressions. |
-| `https://tinyhomeclarity.com/tiny-house-build-options/` | National plans/kits/shells/trailer/builders responsibility comparison | Not live; no GSC evidence | Review-clean local candidate in active `THC-BUILD-003` | Current demand, reproducible SERP/ranking-page, official-source, decision-persona, beginner/intermediate/advanced, every-section, six focused tests, 1440px/390px/320x568/700/844 browser passes, and two fresh `PASS` reviews completed | Final frozen-state verification, exact-path commit, Pages, and production checks remain. |
+| `https://tinyhomeclarity.com/tiny-house-build-options/` | National plans/kits/shells/trailer/builders responsibility comparison | New live URL; no GSC performance evidence yet | Live and production-verified in `1895694`; Pages run `30622059848` succeeded | Current demand, reproducible SERP/ranking-page, official-source, decision-persona, beginner/intermediate/advanced, every-section, six focused tests, 1440px/390px/320x568/700/844 browser passes, and three fresh `PASS` reviews completed | Observe through normal GSC snapshots. Do not request indexing or infer performance before evidence arrives. |
 
 ## Planned Decision Surface
 
@@ -37,6 +37,6 @@ every-section decisions, state contract, tests, and release invariants are in
 `THC-BUILD-002`: the exact local
 `https://tinyhomeclarity.com/tiny-house-build-options/` candidate is built from
 the completed brief and current evidence. Local native and responsive QA pass
-and all findings are fixed, but the candidate is held pending a separately
-registered review-and-release continuation. `THC-BUILD-003` is that active
-continuation.
+and all findings are fixed. The source action remains held because its review
+cap was exhausted; `THC-BUILD-003` supplied the separate continuation and
+production-verified the page.

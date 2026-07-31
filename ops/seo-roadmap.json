@@ -412,8 +412,9 @@
       "learning_value": 2,
       "effort": 1,
       "risk": 2,
-      "status": "in_progress",
+      "status": "completed",
       "selected_on": "2026-07-29",
+      "completed_on": "2026-07-31",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
@@ -444,7 +445,7 @@
       "hypothesis": "A fresh independent reviewer can evaluate the complete inherited candidate without reopening implementation and provide a clean release verdict if no P0-P2 issue remains.",
       "expected_effect": "Either release the existing buyer-protective build-options page unchanged after a clean review or retain a precisely bounded blocker without manufacturing new content.",
       "success_signal": "A fresh different reviewer returns PASS or PASS_WITH_P3 on the complete 19-path candidate, native QA remains green, the exact reviewed commit is pushed, Pages succeeds, and production page, image, links, sitemap, and responsive invariants pass.",
-      "implementation_state": "review-clean-commit-pending",
+      "implementation_state": "released-and-production-verified",
       "evidence_classification": "This continuation inherits the durable July 18 demand evidence, July 29 reproducible SERP/source/persona record, fixed implementation, three prior review cycles, and current native/browser QA. No new GSC, demand, SERP, content, or design work is causal or authorized. The July 30 GSC snapshot is unchanged in material metrics versus July 29 and remains monitoring context only.",
       "review_cycles": [
         {
@@ -462,10 +463,24 @@
           "verdict": "PASS",
           "findings": [],
           "resolution": "Reviewed the complete exact 19-path diff from reconciled base 3b8c3a6, confirmed the automated GSC commit is outside the action diff, and found no P0-P3 issue."
+        },
+        {
+          "cycle": 3,
+          "reviewer_id": "019fb78f-65a1-7e90-b528-8dfac328418f",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "Final frozen-candidate review from base 3b8c3a6 confirmed exactly 19 paths, truthful current state, no site or research change since cycle 2, valid JSON, zero operator-state errors, and a clean diff."
         }
       ],
       "review_outcome": "PASS",
-      "notes": "Frozen to the same exact 19 paths as THC-BUILD-002. Fresh reviewer 019fb78f-65a1-7e90-b528-8dfac328418f returned PASS with no findings in cycles 1 and 2. Compatible automated GSC snapshot commit 3b8c3a6 was fast-forwarded between cycles; July 30 material metrics are unchanged versus July 29. The exact candidate is review-clean and pending final frozen-state verification before commit. Do not reopen research, redesign, add a URL, directory, vendor recommendation, typical/complete cost, legal/permit answer, lead generation, indexing request, outreach, or external-account mutation."
+      "release_state": "production-verified",
+      "release_commit": "18956949f0fe2748f13f0c71505dadf927a63150",
+      "release_base_commit": "3b8c3a6e085c4d19d4307a6b328c7de481728416",
+      "released_on": "2026-07-31",
+      "pages_workflow_run": "30622059848",
+      "production_verification": "GitHub Pages run 30622059848 succeeded for the exact pushed commit. Production page HTML, original image, shared stylesheet, homepage, and sitemap return HTTP 200 and byte-match repository files. Browser checks passed at 1440x900, 390x844, and 320x568 with the canonical, H1, seven comparison paths, declared 1200x800 image, first-viewport continuity, labeled mobile records, no horizontal overflow, and no console warning or error.",
+      "notes": "Released and production-verified. Frozen to the same exact 19 paths as THC-BUILD-002. Fresh reviewer 019fb78f-65a1-7e90-b528-8dfac328418f returned PASS with no findings in all three cycles. Compatible automated GSC snapshot commit 3b8c3a6 was fast-forwarded between cycles; July 30 material metrics are unchanged versus July 29. Commit 18956949f0fe2748f13f0c71505dadf927a63150 is pushed and Pages run 30622059848 succeeded. Do not infer that a directory, vendor recommendation, typical/complete cost, legal/permit answer, lead generation, indexing request, outreach, or external-account mutation occurred."
     },
     {
       "id": "THC-MON-001",
