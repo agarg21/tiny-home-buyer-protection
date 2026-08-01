@@ -494,8 +494,12 @@ Independent review cycle 1:
   zero SEO/operator-state errors, the exact scope, monitor/sitemap parity,
   independent streak/recovery edge checks, and the experience-level evidence.
 
-Release state: review-clean and push-authorized. No deployment is applicable
-because `site/**` is excluded.
+Release:
+
+- Commit: `5e2dbae380705fb8f52d1e0caf3682f770276cb3`.
+- Base: `8c38181543d7be6599bdf825cf4f1a1d2adee4be`.
+- Remote: pushed to `origin/main`.
+- Deployment: not applicable because `site/**` is excluded.
 
 ## 2026-07-29 - THC-BUILD-002 Pre-Review Record
 

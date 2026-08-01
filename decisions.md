@@ -720,3 +720,6 @@ Review outcome: `PASS_WITH_P3` from independent read-only reviewer
 `019fbf70-9256-75e3-85d6-fbff50aa0516`, with no P0-P2 findings. The two P3
 notes are bounded future validator-test and SERP-capture improvements and do not
 block the docs/tools-only release.
+
+Release: the exact reviewed transaction was pushed in
+`5e2dbae380705fb8f52d1e0caf3682f770276cb3`; no deployment applies.

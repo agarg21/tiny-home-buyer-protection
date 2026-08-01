@@ -77,7 +77,9 @@ unreviewed release decisions.
   `019fbf70-9256-75e3-85d6-fbff50aa0516` returned `PASS_WITH_P3` with no P0-P2
   findings. Direct malformed-row validator tests and fuller SERP market/device/
   order capture remain two nonblocking P3 maintenance notes.
-- Release: docs/tools only; push applies and deployment does not.
+- Release: pushed in `5e2dbae380705fb8f52d1e0caf3682f770276cb3`
+  from aligned base `8c38181543d7be6599bdf825cf4f1a1d2adee4be`.
+  Deployment does not apply because no `site/**` path changed.
 
 ## THC-AUTH-001 ready candidate
 

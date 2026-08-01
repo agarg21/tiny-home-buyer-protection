@@ -475,3 +475,6 @@
   findings on the complete 13-path transaction. Two nonblocking P3 notes retain
   future direct malformed-row validator tests and fuller market/device/order
   capture for SERP samples used in page architecture.
+- Committed and pushed the exact 13-path `THC-MON-001` transaction in
+  `5e2dbae380705fb8f52d1e0caf3682f770276cb3` from aligned base `8c38181`.
+  No deployment applies because the action changed no `site/**` path.

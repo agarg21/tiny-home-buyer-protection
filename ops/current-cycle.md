@@ -52,7 +52,10 @@ Independent read-only reviewer
 `019fbf70-9256-75e3-85d6-fbff50aa0516` returned `PASS_WITH_P3` with no P0-P2
 findings. The two P3 notes defer direct malformed-daily-row validator tests and
 more precise SERP market/device/order capture to later bounded maintenance.
-No deployment applies because no `site/**` path changed.
+The exact 13-path transaction was pushed in
+`5e2dbae380705fb8f52d1e0caf3682f770276cb3` from aligned base
+`8c38181543d7be6599bdf825cf4f1a1d2adee4be`. No deployment applies because no
+`site/**` path changed.
 
 ## Prior Completed Priority
 
