@@ -1,11 +1,29 @@
 # SEO Research & Review Backlog
 
-Last updated: 2026-07-29
+Last updated: 2026-08-01
 
 This is supporting evidence inventory. `ops/seo-roadmap.json` is the durable
 execution queue; this file does not schedule work.
 
 ## Current Research Result
+
+- `THC-MON-001` is complete and diagnoses the July 22-29 zero-impression streak as an organic
+  visibility stall rather than a technical outage. Public crawl surfaces,
+  five established indexed pages, manual-action, and security evidence are
+  healthy; GSC reports zero external links. The current public SERP sample does
+  not justify a blanket page rewrite. The complete measured/inferred/unknown
+  record is
+  `docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`.
+- The monitoring patch retains privacy-safe finalized daily rows, detects a
+  seven-day zero-impression streak, and adds the build-options page to routine
+  URL Inspection. Fifty-four native tests pass, all 15 historical snapshots
+  remain valid, and independent review returned `PASS_WITH_P3` with no P0-P2
+  findings.
+- `THC-AUTH-001` is the single proposed next candidate: research and qualify
+  legitimate citation opportunities for existing assets. It must remain an
+  internal plan until separately selected, reviewed, and released; no outreach,
+  backlink placement, paid link, exchange, mass template, or external-account
+  mutation is authorized.
 
 - `THC-BUILD-003` is completed and production-verified. It inherited the exact
   fixed `THC-BUILD-002` research and implementation without reopening research,

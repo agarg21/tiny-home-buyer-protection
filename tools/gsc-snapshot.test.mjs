@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { base64url, finalizedThroughFromProbe, normalizeAggregate, normalizePageRows, performanceWindow, publicPageRows, renderMarkdown, sitemapCounts, sitemapStatus, summarizeInspection, validatePublicSnapshot } from "./gsc-snapshot.mjs";
+import { base64url, dailyVisibilitySummary, finalizedThroughFromProbe, normalizeAggregate, normalizeDailyRows, normalizePageRows, performanceWindow, publicPageRows, renderMarkdown, sitemapCounts, sitemapStatus, summarizeInspection, validatePublicSnapshot } from "./gsc-snapshot.mjs";
 
 test("builds a stable finalized 28-day window ending two days ago", () => {
   assert.deepEqual(performanceWindow(new Date("2026-07-14T12:00:00Z")), {
@@ -86,6 +86,39 @@ test("uses unknown metrics rather than impossible zero position when GSC has no 
   });
 });
 
+test("fills omitted daily API dates with explicit zero rows", () => {
+  assert.deepEqual(
+    normalizeDailyRows(
+      [
+        { keys: ["2026-07-20"], clicks: 0, impressions: 4, ctr: 0, position: 12.345 },
+        { keys: ["2026-07-22"], clicks: 1, impressions: 2, ctr: 0.5, position: 8 },
+      ],
+      { startDate: "2026-07-20", endDate: "2026-07-22" },
+    ),
+    [
+      { date: "2026-07-20", clicks: 0, impressions: 4, ctr_percent: 0, average_position: 12.35 },
+      { date: "2026-07-21", clicks: 0, impressions: 0, ctr_percent: null, average_position: null },
+      { date: "2026-07-22", clicks: 1, impressions: 2, ctr_percent: 50, average_position: 8 },
+    ],
+  );
+});
+
+test("detects a finalized seven-day zero-impression streak", () => {
+  const rows = normalizeDailyRows(
+    [{ keys: ["2026-07-21"], clicks: 0, impressions: 1, ctr: 0, position: 30 }],
+    { startDate: "2026-07-21", endDate: "2026-07-28" },
+  );
+  assert.deepEqual(dailyVisibilitySummary(rows), {
+    trend_status: "zero-impression-streak",
+    recent_window_days: 7,
+    recent_period_start: "2026-07-22",
+    recent_period_end: "2026-07-28",
+    recent_impressions: 0,
+    recent_clicks: 0,
+    consecutive_zero_impression_days: 7,
+  });
+});
+
 test("renders zero-data metrics as UNKNOWN without a percent sign", () => {
   const markdown = renderMarkdown({
     collected_at: "2026-07-14T10:00:00Z",
@@ -107,6 +140,35 @@ test("renders zero-data metrics as UNKNOWN without a percent sign", () => {
   });
   assert.match(markdown, /0 impressions, 0 clicks, UNKNOWN CTR, average position UNKNOWN/);
   assert.doesNotMatch(markdown, /null%|average position null/);
+});
+
+test("renders recent finalized activity and daily rows when available", () => {
+  const dailyRows = normalizeDailyRows(
+    [{ keys: ["2026-07-21"], impressions: 1 }],
+    { startDate: "2026-07-21", endDate: "2026-07-28" },
+  );
+  const markdown = renderMarkdown({
+    collected_at: "2026-07-30T10:00:00Z",
+    data_through: "2026-07-28",
+    collection_mode: "test",
+    gsc: {
+      sitemap_status: "Success",
+      discovered_pages: 7,
+      sitemap_last_read: null,
+      performance: {
+        latest_known_impressions: 1,
+        latest_known_clicks: 0,
+        latest_known_ctr_percent: 0,
+        latest_known_average_position: 30,
+        page_rows: [],
+        daily_summary: dailyVisibilitySummary(dailyRows),
+        daily_rows: dailyRows,
+      },
+      priority_inspection: { indexed: 5, inspected: 7, unknown: 1 },
+    },
+  });
+  assert.match(markdown, /7 consecutive zero-impression days; status zero-impression-streak/);
+  assert.match(markdown, /\| 2026-07-28 \| 0 \| 0 \|/);
 });
 
 test("base64url emits URL-safe unpadded text", () => {

@@ -453,3 +453,25 @@
 - Live 1440x900, 390x844, and 320x568 checks passed canonical, H1, image
   dimensions, seven comparison paths, first-viewport continuity, labeled
   mobile records, containment, and console invariants.
+- Registered direct-manual `THC-MON-001` on 2026-08-01 at clean,
+  origin-aligned base `8c38181` with 13 frozen paths and no `site/**`, indexing,
+  outreach, backlink, or external-account authority.
+- Authenticated GSC daily rows exposed eight finalized zero-impression days
+  from July 22 through July 29. The August 1 rolling snapshot remains 30
+  impressions and 0 clicks, while public crawl surfaces, five established
+  indexed pages, manual-action, and security evidence remain healthy.
+- Recorded the measured/inferred/unknown diagnosis and a bounded current SERP
+  sample in
+  `docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`; no blanket page
+  rewrite is supported.
+- Added the build-options URL to routine GSC inspection and implemented
+  privacy-safe finalized daily rows plus a tested seven-day zero-impression
+  status. Focused tests pass 16/16 and all 15 historical snapshots validate.
+- Promoted `THC-AUTH-001` as a separate ready research-only candidate for
+  legitimate citation opportunities. It is not selected or started, and no
+  outreach or link placement occurred.
+- Independent read-only reviewer
+  `019fbf70-9256-75e3-85d6-fbff50aa0516` returned `PASS_WITH_P3` with no P0-P2
+  findings on the complete 13-path transaction. Two nonblocking P3 notes retain
+  future direct malformed-row validator tests and fuller market/device/order
+  capture for SERP samples used in page architecture.

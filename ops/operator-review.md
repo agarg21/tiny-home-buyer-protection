@@ -425,6 +425,78 @@ Release:
 
 Release state: production-verified.
 
+## 2026-08-01 - THC-MON-001 Visibility Diagnosis And Sensor Hardening
+
+Action: diagnose the verified impression stall, preserve a reproducible
+measured/inferred/unknown research record, and harden unattended GSC sensing.
+
+Exact paths:
+
+- `ops/gsc-monitor.json`
+- `tools/gsc-snapshot.mjs`
+- `tools/gsc-snapshot.test.mjs`
+- `docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`
+- `strategy/current-strategy.md`
+- `status/site-pages.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Evidence:
+
+- Authenticated GSC daily rows show eight finalized zero-impression days from
+  July 22 through July 29, hidden by the unchanged rolling 28-day total.
+- Public preflight, sitemap, established URL Inspection, manual-action, and
+  security evidence are healthy.
+- GSC reports zero external links. Current Semrush authority metrics remain
+  `UNKNOWN` because the account lacked available API units.
+- A bounded 2026-08-01 SERP sample shows placement ambiguity, definition
+  explainers, instant-estimate calculator competition, and mixed San Diego
+  intent; it does not justify a blanket page rewrite.
+
+Implementation:
+
+- Add the seventh live page to routine URL Inspection.
+- Collect a finalized date dimension for the same 28-day window, fill omitted
+  dates as explicit zero rows, retain privacy-safe daily values, and expose a
+  seven-day zero-impression status.
+- Preserve validation compatibility for historical snapshots.
+- Promote `THC-AUTH-001` as a separate research-only candidate; do not perform
+  outreach or link placement here.
+
+Native QA:
+
+- Full native tests: 54/54 pass, including 16/16 focused snapshot tests.
+- Existing public snapshots: 15 validated.
+- SEO QA: 0 errors and 3 unchanged canonical warnings.
+- Operator-state QA: 0 errors.
+- Roadmap and monitor JSON, required files, and `git diff --check`: pass.
+- Optional Anti Gravity advisory: unavailable because its headless process
+  lacked command permission; no advisory verdict was used.
+
+Independent review cycle 1:
+
+- Reviewer: Tiny Home Clarity Operator Review Agent
+  `019fbf70-9256-75e3-85d6-fbff50aa0516`.
+- Read-only: `true`.
+- Base: `8c38181543d7be6599bdf825cf4f1a1d2adee4be`.
+- Scope: all 13 frozen paths.
+- Verdict: `PASS_WITH_P3`; no P0-P2 findings.
+- P3: add direct positive and malformed-row rejection tests for the new
+  `daily_rows` validator in a later monitoring-maintenance action.
+- P3: future SERP evidence that drives page architecture should retain market,
+  device, exact ordering, and every summarized result URL.
+- The reviewer independently observed 54/54 tests, 15/15 snapshot validations,
+  zero SEO/operator-state errors, the exact scope, monitor/sitemap parity,
+  independent streak/recovery edge checks, and the experience-level evidence.
+
+Release state: review-clean and push-authorized. No deployment is applicable
+because `site/**` is excluded.
+
 ## 2026-07-29 - THC-BUILD-002 Pre-Review Record
 
 Action: research, build, independently review, and conditionally release one

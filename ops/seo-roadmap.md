@@ -36,9 +36,63 @@ unreviewed release decisions.
     the exact local candidate is fixed but requires a separate continuation.
 13. `THC-BUILD-003` — completed and production-verified in `1895694`; Pages
     run `30622059848` succeeded.
-14. Compare each new validated GSC snapshot with the 2026-07-18 baseline.
-15. Select the next buyer-protection tool only from observed evidence and the
-   project's skeptical, official-source-backed product strategy.
+14. `THC-MON-001` — completed the review-clean visibility diagnosis and daily
+    GSC sensor hardening on 2026-08-01.
+15. `THC-AUTH-001` — ready but not selected: research and qualify ethical
+    citation opportunities for existing assets; no outreach or link placement.
+16. Select the next buyer-protection tool only from observed evidence and the
+    project's skeptical, official-source-backed product strategy.
+
+## THC-MON-001 completion
+
+- Causal evidence: authenticated read-only GSC daily rows show eight
+  consecutive finalized zero-impression days from July 22 through July 29.
+- Monitoring context: the August 1 API snapshot through July 30 remains flat
+  at 30 rolling impressions, 0 clicks, sitemap `Success`, six discovered
+  pages, and five of six configured URLs indexed.
+- Technical checks: public sitemap, robots, and configured pages return HTTP
+  200; GSC reports no manual action or security issue.
+- Monitoring defect: aggregate-only snapshots hide the zero streak, and the
+  six-URL inspection list omits the live build-options page.
+- Exact scope: the 13 paths frozen in `ops/seo-roadmap.json` only.
+- Output: tested daily trend/streak sensing, complete seven-URL inspection,
+  one dated visibility diagnosis, and at most one separately implementable
+  next action.
+- Prohibited: `site/**`, content rewrites, new URLs, indexing requests,
+  outreach, backlink placement, external-account changes, vendor or builder
+  recommendations, typical/complete costs, and legal/zoning conclusions.
+- Preliminary diagnosis: an organic visibility stall, not a demonstrated
+  technical outage or penalty. The complete measured, inferred, and unknown
+  evidence is in
+  `docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`.
+- Proposed next action: `THC-AUTH-001`, a separately registered internal
+  authority-opportunity qualification plan. It is not started here.
+- Implementation: all seven live URLs are inspected; finalized daily rows fill
+  omitted dates with explicit zeros; a seven-day zero-impression status is
+  stored and rendered; historical snapshots remain valid.
+- QA: 54/54 native tests, 15/15 historical snapshot validations, zero SEO
+  errors, zero operator-state errors, valid JSON, required files, and clean
+  diff checks.
+- Review: independent read-only reviewer
+  `019fbf70-9256-75e3-85d6-fbff50aa0516` returned `PASS_WITH_P3` with no P0-P2
+  findings. Direct malformed-row validator tests and fuller SERP market/device/
+  order capture remain two nonblocking P3 maintenance notes.
+- Release: docs/tools only; push applies and deployment does not.
+
+## THC-AUTH-001 ready candidate
+
+- Selection evidence: seven reviewed live assets, an eight-day finalized
+  zero-impression streak, healthy technical/indexing evidence for established
+  pages, and GSC external-links total of zero.
+- Boundary: research and qualify opportunities only. Each retained opportunity
+  must have a specific cite-worthy existing asset, topical/audience fit,
+  editorial legitimacy, risk classification, and a current public contact or
+  submission path.
+- Prohibited: outreach, backlink placement, paid links, exchanges, private
+  networks, generic directory submissions, mass templates, fabricated
+  partnerships, external-account mutation, and `site/**` changes.
+- Current Semrush authority metrics remain `UNKNOWN`; API units were
+  unavailable and optional enrichment is not a gate.
 
 ## THC-COST-002 completion
 
@@ -432,10 +486,11 @@ another. A no-op remains valid when evidence and user priority are unchanged.
 
 ## THC-MON-001 observation note
 
-- The 2026-07-26 GSC snapshot is fresh read-only monitoring evidence with data
-  through 2026-07-24, but it is unchanged versus the prior dated 2026-07-25
-  snapshot: 30 impressions, 0 clicks, sitemap `Success`, 6 discovered pages, 5
-  of 6 priority URLs indexed, and 0 unknown priority URLs.
-- Treat that as observation evidence, not a standalone project action. A
-  measurement action becomes eligible only when a changed snapshot identifies a
-  discovery, indexing, or performance signal worth evaluating.
+- The 2026-08-01 snapshot through 2026-07-30 is unchanged at the rolling
+  aggregate level versus July 31: 30 impressions, 0 clicks, sitemap `Success`,
+  6 discovered pages, and 5 of 6 configured priority URLs indexed.
+- Authenticated daily rows materially change the interpretation: every
+  finalized day from July 22 through July 29 has zero impressions. This hidden
+  streak selected `THC-MON-001` even though the aggregate sensor was flat.
+- Future snapshots retain privacy-safe daily rows and a zero-streak status and
+  inspect all seven live sitemap URLs, including build options.

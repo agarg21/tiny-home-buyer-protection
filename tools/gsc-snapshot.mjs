@@ -95,6 +95,59 @@ export function normalizeAggregate(row = {}) {
   };
 }
 
+export function normalizeDailyRows(rows = [], window) {
+  if (!window?.startDate || !window?.endDate) {
+    throw new Error("A daily performance window with startDate and endDate is required.");
+  }
+  const rowsByDate = new Map(rows.map((row) => [row.keys?.[0], row]));
+  const current = new Date(`${window.startDate}T00:00:00Z`);
+  const end = new Date(`${window.endDate}T00:00:00Z`);
+  const normalized = [];
+
+  while (current <= end) {
+    const date = isoDate(current);
+    const row = rowsByDate.get(date) ?? {};
+    const impressions = row.impressions ?? 0;
+    normalized.push({
+      date,
+      clicks: row.clicks ?? 0,
+      impressions,
+      ctr_percent: impressions > 0 ? Number(((row.ctr ?? 0) * 100).toFixed(2)) : null,
+      average_position: impressions > 0 ? Number((row.position ?? 0).toFixed(2)) : null,
+    });
+    current.setUTCDate(current.getUTCDate() + 1);
+  }
+
+  return normalized;
+}
+
+export function dailyVisibilitySummary(rows = [], recentWindowDays = 7) {
+  const ordered = [...rows].sort((left, right) => left.date.localeCompare(right.date));
+  const recent = ordered.slice(-recentWindowDays);
+  let consecutiveZeroImpressionDays = 0;
+  for (let index = ordered.length - 1; index >= 0; index -= 1) {
+    if (ordered[index].impressions !== 0) break;
+    consecutiveZeroImpressionDays += 1;
+  }
+  const recentImpressions = recent.reduce((sum, row) => sum + row.impressions, 0);
+  const recentClicks = recent.reduce((sum, row) => sum + row.clicks, 0);
+
+  return {
+    trend_status:
+      consecutiveZeroImpressionDays >= 7
+        ? "zero-impression-streak"
+        : recent.length === 0
+          ? "UNKNOWN"
+          : "activity-observed",
+    recent_window_days: recent.length,
+    recent_period_start: recent[0]?.date ?? null,
+    recent_period_end: recent.at(-1)?.date ?? null,
+    recent_impressions: recentImpressions,
+    recent_clicks: recentClicks,
+    consecutive_zero_impression_days: consecutiveZeroImpressionDays,
+  };
+}
+
 export function validatePublicSnapshot(snapshot, allowedUrls) {
   const required = ["schema_version", "site", "property", "visibility", "collection_mode", "collected_at", "data_through", "gsc"];
   for (const field of required) {
@@ -126,6 +179,25 @@ export function validatePublicSnapshot(snapshot, allowedUrls) {
   for (const url of publicRows) {
     if (!allowedUrls.has(url)) {
       throw new Error(`Snapshot contains a URL outside the checked-in allowlist: ${url}`);
+    }
+  }
+  const dailyRows = snapshot.gsc?.performance?.daily_rows;
+  if (dailyRows !== undefined) {
+    if (!Array.isArray(dailyRows) || dailyRows.length === 0) {
+      throw new Error("Snapshot daily_rows must be a non-empty array when present.");
+    }
+    const dates = dailyRows.map((row) => row.date);
+    if (new Set(dates).size !== dates.length || dates.some((date) => !/^\d{4}-\d{2}-\d{2}$/.test(date))) {
+      throw new Error("Snapshot daily_rows dates must be unique ISO dates.");
+    }
+    if (dates.some((date, index) => index > 0 && date <= dates[index - 1])) {
+      throw new Error("Snapshot daily_rows must be sorted by ascending date.");
+    }
+    if (dates.at(-1) !== snapshot.data_through) {
+      throw new Error("Snapshot daily_rows must end on data_through.");
+    }
+    if (dailyRows.some((row) => !Number.isFinite(row.impressions) || !Number.isFinite(row.clicks))) {
+      throw new Error("Snapshot daily_rows clicks and impressions must be numeric.");
     }
   }
   return true;
@@ -217,6 +289,7 @@ async function publicUrlAllowlist(monitor) {
 export function renderMarkdown(snapshot) {
   const performance = snapshot.gsc.performance;
   const inspection = snapshot.gsc.priority_inspection;
+  const dailySummary = performance.daily_summary;
   const lines = [
     "# Tiny Home Clarity GSC Snapshot",
     "",
@@ -225,6 +298,9 @@ export function renderMarkdown(snapshot) {
     `- Collection mode: ${snapshot.collection_mode}`,
     `- Sitemap: ${snapshot.gsc.sitemap_status}; ${snapshot.gsc.discovered_pages} discovered pages; last read ${snapshot.gsc.sitemap_last_read ?? "UNKNOWN"}`,
     `- 28-day performance: ${performance.latest_known_impressions} impressions, ${performance.latest_known_clicks} clicks, ${performance.latest_known_ctr_percent ?? "UNKNOWN"}${performance.latest_known_ctr_percent === null ? "" : "%"} CTR, average position ${performance.latest_known_average_position ?? "UNKNOWN"}`,
+    ...(dailySummary
+      ? [`- Recent finalized activity: ${dailySummary.recent_impressions} impressions and ${dailySummary.recent_clicks} clicks from ${dailySummary.recent_period_start} through ${dailySummary.recent_period_end}; ${dailySummary.consecutive_zero_impression_days} consecutive zero-impression days; status ${dailySummary.trend_status}`]
+      : []),
     `- Priority URL Inspection: ${inspection.indexed} of ${inspection.inspected} indexed; ${inspection.unknown} unknown`,
     `- Indexing requested: no`,
     "",
@@ -236,6 +312,18 @@ export function renderMarkdown(snapshot) {
   for (const row of performance.page_rows) {
     const ctr = row.ctr_percent === null ? "UNKNOWN" : `${row.ctr_percent}%`;
     lines.push(`| ${row.url} | ${row.clicks} | ${row.impressions} | ${ctr} | ${row.average_position ?? "UNKNOWN"} |`);
+  }
+  if (performance.daily_rows?.length) {
+    lines.push(
+      "",
+      "## Recent finalized daily performance",
+      "",
+      "| Date | Clicks | Impressions |",
+      "|---|---:|---:|",
+    );
+    for (const row of performance.daily_rows.slice(-14)) {
+      lines.push(`| ${row.date} | ${row.clicks} | ${row.impressions} |`);
+    }
   }
   lines.push(
     "",
@@ -273,6 +361,13 @@ export async function collectSnapshot({ credentials, monitor, allowedUrls, now =
     dimensions: ["page"],
     rowLimit: 100,
   });
+  const dailyPayload = await querySearchAnalytics(accessToken, {
+    ...window,
+    dataState: "final",
+    type: "web",
+    dimensions: ["date"],
+    rowLimit: 100,
+  });
   const sitemapPayload = await getSitemap(accessToken, monitor.sitemap);
   const inspectionRows = [];
   for (const url of monitor.urls) {
@@ -280,6 +375,7 @@ export async function collectSnapshot({ credentials, monitor, allowedUrls, now =
   }
 
   const aggregate = normalizeAggregate(aggregatePayload.rows?.[0]);
+  const dailyRows = normalizeDailyRows(dailyPayload.rows, window);
   const counts = sitemapCounts(sitemapPayload);
   const indexed = inspectionRows.filter((item) => item.indexed).length;
   const unknownRows = inspectionRows.filter((item) => item.verdict === "UNKNOWN");
@@ -308,6 +404,8 @@ export async function collectSnapshot({ credentials, monitor, allowedUrls, now =
         ...aggregate,
         snapshot_date: window.endDate,
         page_rows: publicPageRows(pagePayload.rows, allowedUrls),
+        daily_summary: dailyVisibilitySummary(dailyRows),
+        daily_rows: dailyRows,
       },
       priority_inspection: {
         inspected: inspectionRows.length,

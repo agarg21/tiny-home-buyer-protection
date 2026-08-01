@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-07-29
+Last updated: 2026-08-01
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -81,7 +81,7 @@ Unavailable or not independently rechecked in this repo:
 - Current CPC outside the two calculator exact queries: `UNKNOWN`
 - Current traffic estimates: `UNKNOWN`
 - Current ranking difficulty beyond business-plan notes: `UNKNOWN`
-- Backlinks needed: `UNKNOWN`
+- Backlinks needed: `UNKNOWN`; GSC reported 0 external links on 2026-08-01.
 
 ## Product And Tool Wedge
 
@@ -153,6 +153,23 @@ records, clear checklists, and source-backed comparison pages. Begin lightweight
 link opportunity work after the site has several credible assets and GSC shows
 which topics Google is actually testing. Avoid paid/link-scheme tactics and
 generic outreach before the content earns a reason to be cited.
+
+That threshold is now met for bounded authority-opportunity research, not for
+unreviewed outreach. By 2026-08-01 the site had seven live, reviewed assets, GSC
+reported zero external links, and finalized daily performance had stalled at
+zero impressions from July 22 through July 29. Public preflight, sitemap, URL
+Inspection, manual-action, and security evidence remained healthy. Treat this
+as an organic visibility stall and a reason to research legitimate citation
+opportunities for existing assets, not as proof that links are the sole cause.
+See
+`docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`.
+
+The first authority transaction must be an internal qualification plan only.
+Prioritize relevant editorial, official, nonprofit, educational, professional,
+and community resources that have a real reason to cite a specific existing
+asset. Reject paid links, exchanges, private networks, mass templates, generic
+directories, and fabricated partnerships. Outreach and external-account
+mutation require a later separately reviewed action.
 
 Current ranking reality from the 2026-07-18 GSC baseline is weak but
 directional: 20 impressions, 0 clicks, and only small page-level samples. The

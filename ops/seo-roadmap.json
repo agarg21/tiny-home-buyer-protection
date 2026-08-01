@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "owner": "Tiny Home Clarity Operator",
-  "last_rescored_on": "2026-07-27",
-  "next_rescore_due": "2026-08-03",
-  "next_eligible_action_id": null,
+  "last_rescored_on": "2026-08-01",
+  "next_rescore_due": "2026-08-08",
+  "next_eligible_action_id": "THC-AUTH-001",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -484,7 +484,7 @@
     },
     {
       "id": "THC-MON-001",
-      "title": "Refresh indexing and early search evidence for the live support cluster",
+      "title": "Diagnose the impression stall and harden daily GSC visibility sensing",
       "kind": "measurement",
       "lane": "measurement",
       "impact": 3,
@@ -492,21 +492,126 @@
       "learning_value": 4,
       "effort": 1,
       "risk": 1,
-      "status": "candidate",
+      "status": "completed",
+      "selected_on": "2026-08-01",
+      "completed_on": "2026-08-01",
       "allowed_during_observation": true,
       "requires_fresh_gsc": true,
       "required_evidence": [
         "fresh_gsc_snapshot",
-        "changed_gsc_snapshot",
-        "gsc_priority_inspection_rows"
+        "authenticated_gsc_daily_rows",
+        "gsc_priority_inspection_rows",
+        "current_serp_and_ranking_page_evidence",
+        "public_preflight"
       ],
-      "target_urls": [],
+      "target_urls": [
+        "https://tinyhomeclarity.com/",
+        "https://tinyhomeclarity.com/los-angeles-tiny-house-adu/",
+        "https://tinyhomeclarity.com/san-diego-tiny-house-adu/",
+        "https://tinyhomeclarity.com/georgia-tiny-house-classification/",
+        "https://tinyhomeclarity.com/tiny-home-cost-calculator/",
+        "https://tinyhomeclarity.com/tiny-house-under-20k/",
+        "https://tinyhomeclarity.com/tiny-house-build-options/"
+      ],
       "target_paths": [
-        "ops/gsc-snapshots/",
-        "ops/gsc-indexing-review-2026-07-18.md"
+        "ops/gsc-monitor.json",
+        "tools/gsc-snapshot.mjs",
+        "tools/gsc-snapshot.test.mjs",
+        "docs/research/tiny-home-visibility-diagnosis-2026-08-01.md",
+        "strategy/current-strategy.md",
+        "status/site-pages.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
       ],
-      "success_signal": "A changed read-only snapshot identifies a discovery, indexing, or performance signal worth evaluating without requesting indexing.",
-      "notes": "The first API snapshot is the baseline, not changed evidence. The 2026-07-26 snapshot is fresh read-only monitoring evidence with data through 2026-07-24, but it is unchanged versus the prior dated 2026-07-25 snapshot: 30 impressions, 0 clicks, sitemap Success with 6 discovered pages, 5 of 6 priority URLs indexed, and 0 unknown priority URLs. That is observation evidence, not a standalone project action. The authenticated browser review collected 2026-07-18 (report updated 2026-07-09) found only three expected protocol/www redirects, all correctly returning 301 to the HTTPS apex; see ops/gsc-indexing-review-2026-07-18.md. Do not request indexing or validate a fix for those aliases. Semrush is optional enrichment and must not block a GSC/public evidence refresh."
+      "baseline": "The August 1 API snapshot is healthy and unchanged at the 28-day aggregate level through July 30, but authenticated GSC daily rows show zero impressions on every finalized day from July 22 through July 29. The current collector does not retain daily rows or a zero-impression streak, and its six-URL inspection list omits the newly released build-options page.",
+      "hypothesis": "Daily finalized trend evidence plus complete seven-URL inspection coverage will distinguish a technical/indexing outage from an organic visibility stall, while a bounded current-SERP and authority review can identify one evidence-backed recovery action without rewriting pages blindly.",
+      "expected_effect": "Future snapshots expose recent daily impressions and a consecutive-zero-day signal, inspect every live sitemap page, and the dated diagnosis classifies technical health, searcher/SERP fit, and authority evidence before promoting at most one separately implementable action.",
+      "success_signal": "The monitor records privacy-safe finalized daily rows and a tested zero-impression streak, inspects all seven live URLs, existing snapshots remain valid, the diagnosis preserves exact evidence and uncertainty, native QA passes, and a different independent read-only reviewer returns PASS or PASS_WITH_P3.",
+      "implementation_state": "review-clean-diagnosis-and-sensor-complete",
+      "evidence_classification": "Direct manual user authorization on 2026-08-01 selects this action. The August 1 API snapshot through July 30 is fresh monitoring evidence but unchanged in aggregate. Authenticated read-only GSC daily rows collected on August 1 are causal changed evidence: eight consecutive finalized zero-impression days from July 22 through July 29. URL Inspection, public preflight, current SERPs/ranking pages, and GSC Links may diagnose the stall. Semrush is optional enrichment.",
+      "review_cycles": [
+        {
+          "cycle": 1,
+          "reviewer_id": "019fbf70-9256-75e3-85d6-fbff50aa0516",
+          "reviewer_title": "Tiny Home Clarity Operator Review Agent",
+          "read_only": true,
+          "base_sha": "8c38181543d7be6599bdf825cf4f1a1d2adee4be",
+          "verdict": "PASS_WITH_P3",
+          "findings": [
+            {
+              "severity": "P3",
+              "paths": [
+                "tools/gsc-snapshot.mjs",
+                "tools/gsc-snapshot.test.mjs"
+              ],
+              "summary": "The daily_rows validator is exercised indirectly but lacks direct positive and malformed-row rejection tests; add bounded coverage in a later monitoring-maintenance transaction."
+            },
+            {
+              "severity": "P3",
+              "paths": [
+                "docs/research/tiny-home-visibility-diagnosis-2026-08-01.md"
+              ],
+              "summary": "The bounded SERP sample records queries, date, URLs, intent, and confidence but not market, device, exact ordering, or every summarized result URL; tighten this before a future sample drives page architecture."
+            }
+          ],
+          "resolution": "Accepted as nonblocking future maintenance. No P0-P2 findings exist, and neither note changes the visibility diagnosis or sensor behavior."
+        }
+      ],
+      "review_outcome": "PASS_WITH_P3",
+      "release_state": "review-clean-push-authorized",
+      "notes": "Completed as a review-clean 13-path docs/tools transaction. The sensor adds privacy-safe finalized daily rows, seven-day zero-impression status, and all seven live URLs to routine inspection; 54 native tests and 15 historical snapshot validations pass. The diagnosis rejects a technical outage on current evidence and promotes only the separate research-only THC-AUTH-001 candidate. Independent reviewer 019fbf70-9256-75e3-85d6-fbff50aa0516 returned PASS_WITH_P3 with no P0-P2 findings. No site/** change, content rewrite, new URL, indexing request, outreach, backlink placement, external-account mutation, vendor recommendation, typical or complete cost claim, or legal/zoning conclusion occurred."
+    },
+    {
+      "id": "THC-AUTH-001",
+      "title": "Research and qualify ethical citation opportunities for existing assets",
+      "kind": "research",
+      "lane": "authority",
+      "impact": 4,
+      "confidence": 3,
+      "learning_value": 4,
+      "effort": 2,
+      "risk": 2,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "required_evidence": [
+        "completed_visibility_diagnosis",
+        "current_gsc_external_link_evidence",
+        "existing_asset_inventory",
+        "current_public_opportunity_research"
+      ],
+      "target_urls": [
+        "https://tinyhomeclarity.com/",
+        "https://tinyhomeclarity.com/los-angeles-tiny-house-adu/",
+        "https://tinyhomeclarity.com/san-diego-tiny-house-adu/",
+        "https://tinyhomeclarity.com/georgia-tiny-house-classification/",
+        "https://tinyhomeclarity.com/tiny-home-cost-calculator/",
+        "https://tinyhomeclarity.com/tiny-house-under-20k/",
+        "https://tinyhomeclarity.com/tiny-house-build-options/"
+      ],
+      "target_paths": [
+        "docs/research/tiny-home-authority-opportunity-plan-2026-08.md",
+        "strategy/current-strategy.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "GSC finalized daily rows show zero impressions from July 22 through July 29 while crawl, sitemap, established indexing, manual-action, and security evidence remain healthy. GSC reports zero external links, seven reviewed assets are live, and current Semrush authority metrics are UNKNOWN because API units were unavailable.",
+      "hypothesis": "A bounded, ethical opportunity qualification pass can identify which existing buyer-protection assets have a legitimate reason to earn citations and whether any relevant editorial, official, nonprofit, educational, professional, or community resource is worth a later human-reviewed outreach action.",
+      "expected_effect": "The project gains a prioritized evidence-backed authority plan without buying links, sending outreach, creating accounts, or manufacturing more content before distribution fit is understood.",
+      "success_signal": "Each retained opportunity has current public evidence, topical and audience fit, a specific cite-worthy existing asset, an editorially legitimate contact or submission path, risk classification, and a recommended pursue/hold/reject decision; independent review returns PASS or PASS_WITH_P3.",
+      "implementation_state": "ready-research-only",
+      "evidence_classification": "The completed THC-MON-001 visibility diagnosis and GSC external-links total of zero are causal selection evidence. The zero-link count does not prove that authority is the sole cause. Fresh public opportunity evidence must be collected inside the separately selected action; Semrush remains optional enrichment.",
+      "notes": "Ready but not selected or started. Internal reviewed plan only. No site/** change, new page, content rewrite, outreach, backlink placement, paid link, link exchange, private network, generic directory submission, external-account mutation, fabricated relationship, vendor recommendation, cost claim, or legal/zoning conclusion is authorized. Exact paths must be re-declared when selected."
     },
     {
       "id": "THC-RES-001",

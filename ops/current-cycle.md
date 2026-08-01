@@ -1,12 +1,60 @@
 # Current Cycle
 
-Last updated: 2026-07-31
+Last updated: 2026-08-01
 
 Active action: `none`
 
-Next eligible action: `none`
+Next eligible action: `THC-AUTH-001`
 
 ## Completed Priority
+
+`THC-MON-001` is a completed direct-manual research and monitoring transaction
+selected on 2026-08-01 after the user asked to act on the verified impression
+stall.
+
+The August 1 API snapshot is unchanged at the rolling 28-day level: 30
+impressions, 0 clicks, sitemap `Success`, six discovered pages, and five of six
+configured priority URLs indexed. Authenticated read-only GSC daily rows expose
+the hidden material signal: every finalized day from July 22 through July 29
+has zero impressions. The live public preflight is healthy, GSC reports no
+manual action or security issue, and five established pages remain indexed, so
+the current diagnosis is an organic visibility stall rather than a technical
+outage.
+
+Frozen exact paths:
+
+- `ops/gsc-monitor.json`
+- `tools/gsc-snapshot.mjs`
+- `tools/gsc-snapshot.test.mjs`
+- `docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`
+- `strategy/current-strategy.md`
+- `status/site-pages.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+This transaction may add privacy-safe finalized daily rows and streak sensing,
+add the build-options URL to automated inspection, retain current SERP and
+authority evidence, and promote at most one separate next action. It may not
+change `site/**`, request indexing, send outreach, place backlinks, mutate an
+external account, or implement the promoted action.
+
+The implementation adds all seven live URLs to routine inspection, stores
+privacy-safe finalized daily rows, fills dates omitted by the API, and reports
+a seven-day zero-impression status. Fifty-four native tests pass, all 15
+historical snapshots validate, and SEO/operator-state QA reports zero errors.
+
+Independent read-only reviewer
+`019fbf70-9256-75e3-85d6-fbff50aa0516` returned `PASS_WITH_P3` with no P0-P2
+findings. The two P3 notes defer direct malformed-daily-row validator tests and
+more precise SERP market/device/order capture to later bounded maintenance.
+No deployment applies because no `site/**` path changed.
+
+## Prior Completed Priority
 
 `THC-BUILD-003` is a direct-manual review-and-release continuation selected on
 2026-07-29 after `THC-BUILD-002` stopped at its review cap.
@@ -485,8 +533,8 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- No substantive transaction is active. `THC-BUILD-003` is completed and
-  production-verified.
+- No substantive transaction is active. `THC-MON-001` is review-clean and
+  complete; `THC-AUTH-001` remains ready but unselected.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -500,6 +548,8 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`none`. `THC-MON-001` still requires changed GSC evidence, and the July 30
-snapshot is materially unchanged. Re-score the roadmap on its normal cadence
-or when evidence changes.
+`THC-AUTH-001`: after `THC-MON-001` completes, separately register a bounded
+research-only plan for legitimate citation opportunities tied to the seven
+existing assets. Do not start outreach, place links, pay or exchange for links,
+submit generic directories, mutate external accounts, or create content in the
+current transaction.

@@ -698,3 +698,25 @@ invariants all passed.
 
 Next state: observe through normal GSC snapshots. No indexing request, vendor
 work, outreach, or immediate follow-on page is authorized.
+
+## 2026-08-01 - Diagnose The Impression Stall Before Rewriting Pages
+
+Decision: register `THC-MON-001` as a 13-path research and monitoring action.
+Treat eight finalized zero-impression days as a material organic visibility
+stall, while rejecting a technical outage, site-wide deindexing, manual action,
+or security incident on current evidence.
+
+Why: the rolling 28-day total stayed at 30 impressions and hid the daily stop.
+Five established pages remain indexed, public crawl surfaces are healthy, and
+GSC reports zero external links. Current search-result samples show selective
+intent mismatch but no evidence-backed order to rewrite all pages.
+
+Next gate: after native QA and independent review, complete the sensor and
+diagnosis transaction. Then `THC-AUTH-001` may separately research legitimate
+citation opportunities for existing assets. No outreach or backlink placement
+is authorized by this decision.
+
+Review outcome: `PASS_WITH_P3` from independent read-only reviewer
+`019fbf70-9256-75e3-85d6-fbff50aa0516`, with no P0-P2 findings. The two P3
+notes are bounded future validator-test and SERP-capture improvements and do not
+block the docs/tools-only release.
