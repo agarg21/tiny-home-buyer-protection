@@ -534,3 +534,29 @@
 - Independent read-only deferral reviewer
   `019fcc61-9f49-7052-8cac-d83fce94804e` returned `PASS` with no P0-P3
   findings on the complete 11-path product-priority reconciliation.
+- Registered direct-manual `THC-PROD-001` on 2026-08-04 at clean,
+  origin-aligned base `63307fe` with twelve frozen paths and no site,
+  implementation, outreach, indexing, account, vendor, cost, or legal
+  authority.
+- Compared builder/vendor due diligence, quote comparison, and parcel/land due
+  diligence using current Semrush estimates, public search and representative
+  ranking pages, community questions, official-source roles, the seven-page
+  overlap audit, decision personas, experience levels, and every-section
+  product contracts.
+- Promoted only the separately implementable `THC-LAND-001` candidate: a
+  client-side, printable pre-offer parcel evidence workflow that provides no
+  legal or buildability verdict. No `site/**` implementation has begun.
+- Independent reviewer `019fcc94-81c5-7ea2-b165-377dca84e4a0` returned `FAIL`
+  in cycle 1 with three P2 findings. Replaced the broken FWS URL, added three
+  reproducible land-query result samples, excluded inventory-first `where to
+  buy` intent, and synchronized the active transaction state.
+- Cycle 2 returned `PASS_WITH_P3` with all P0-P2 findings resolved. The sole P3
+  transaction-close wording note is fixed. Native QA passes 54/54 tests, zero
+  SEO errors with three known warnings, zero operator-state errors, valid
+  JSON, required files, exact scope, and `git diff --check`.
+- Closed `THC-PROD-001` as review-clean research-only work and marked
+  `THC-LAND-001` ready but unselected. No site implementation, deployment, or
+  external action occurred.
+- Frozen-state cycle 3 returned `PASS_WITH_P3` with no P0-P2 finding. Corrected
+  its one P3 duplicate selected/completed heading; the three-cycle review cap
+  is complete.

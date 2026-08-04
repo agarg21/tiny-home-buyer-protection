@@ -1,5 +1,84 @@
 # Operator Review
 
+## 2026-08-04 - Next User-Value Product Audit
+
+Action: `THC-PROD-001`
+
+Selection authority: direct manual user instruction. No Control Room dispatch
+lease applies.
+
+Frozen boundary: the twelve exact paths in `ops/current-cycle.md`. Research
+and internal brief only; no `site/**`, implementation, outreach, indexing,
+external-account mutation, vendor recommendation, typical or complete cost
+claim, or legal/zoning conclusion.
+
+Evidence classification:
+
+- The user's direction to prioritize a genuinely useful product is causal.
+- Current 2026-08-04 Semrush UI estimates, public search and representative
+  ranking pages, community questions, official-source roles, and existing-page
+  overlap are product-selection evidence.
+- Keyword provider totals are third-party, non-additive estimates.
+- The August 3 GSC snapshot is extremely weak monitoring context and does not
+  select the product.
+
+Research result:
+
+- Promote only `THC-LAND-001`, a parcel-specific pre-offer evidence workflow.
+- Hold standalone builder/vendor due diligence because the broad intent is
+  commercial and the buyer-protection job overlaps the build-options page.
+- Hold standalone quote comparison because demand is weak or ambiguous and
+  the cost calculator already owns quote-gap analysis.
+- Do not start implementation in this transaction.
+
+Native QA before cycle 1:
+
+- 54/54 tests passed.
+- SEO QA reported 0 errors and the 3 known canonical warnings on untouched
+  pages.
+- Operator-state QA reported 0 errors.
+- Roadmap JSON parsed, required files were present, exact scope matched twelve
+  paths, and `git diff --check` passed.
+
+Independent review cycle 1:
+
+- Reviewer: `019fcc94-81c5-7ea2-b165-377dca84e4a0` (read-only; title
+  unavailable).
+- Verdict: `FAIL`.
+- P0/P1/P3: none.
+- P2: the FWS URL redirected to an unrelated page; land SERP samples lacked
+  reproducible query/market/page-type/intent/decision fields; and supporting
+  state called the active action completed or unselected.
+- Resolution: use the verified current FWS NWI URL and retain its regulatory
+  limitation; add three bounded land-query samples and explicitly exclude
+  `where to buy` inventory intent from the primary target; synchronize the
+  active pre-review state and refresh the already-read August 3 GSC overlay.
+
+Independent review cycle 2:
+
+- Same read-only reviewer and complete twelve-path scope.
+- Verdict: `PASS_WITH_P3`.
+- All cycle 1 P2 findings are resolved; no P0-P2 finding remains.
+- P3: current-cycle still described native QA as pending and roadmap Markdown
+  used stale ready-state wording.
+- Resolution: close `THC-PROD-001` as review-clean research-only, record the
+  green QA, and make `THC-LAND-001` ready but unselected in every current-state
+  mirror.
+
+Independent review cycle 3:
+
+- Same read-only reviewer and complete twelve-path scope.
+- Verdict: `PASS_WITH_P3`.
+- All P0-P2 findings remain resolved.
+- P3: one duplicate current-cycle section still called the completed action
+  selected.
+- Resolution: rename the duplicate section and describe `THC-PROD-001` as
+  completed and `THC-LAND-001` as ready but unselected.
+
+Final state: native QA remains green, no `site/**` path changed, and no
+deployment applies. The three-cycle review cap is complete with
+`PASS_WITH_P3` and no P0-P2 finding.
+
 ## 2026-07-27 - Weekly Roadmap Re-Score
 
 Action: `roadmap-rescore-2026-07-24`

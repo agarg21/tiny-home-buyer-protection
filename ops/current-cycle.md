@@ -4,7 +4,66 @@ Last updated: 2026-08-04
 
 Active action: `none`
 
-Next eligible action: `THC-PROD-001`
+Next eligible action: `THC-LAND-001`
+
+## Latest Completed Priority
+
+`THC-PROD-001` is a direct-manual, research-only user-value transaction
+selected on 2026-08-04 at clean, origin-aligned base
+`63307fe9440e50e19d7fc2420c2ac945a6395881`.
+
+Frozen exact paths:
+
+- `docs/research/tiny-home-next-user-value-audit-2026-08.md`
+- `briefs/tiny-home-next-user-value-brief-2026-08.md`
+- `strategy/current-strategy.md`
+- `backlog/implementation-backlog.md`
+- `backlog/seo-research-review-backlog.md`
+- `status/site-pages.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Compare builder/vendor due diligence, quote comparison, and land/placement
+verification using current query and SERP evidence, representative ranking
+pages, current-site overlap, buyer decision jobs, community questions, and
+beginner/intermediate/advanced usefulness. Promote at most one separately
+implementable action with a first-screen promise and every-section contract.
+
+No `site/**`, implementation, outreach, indexing, external-account mutation,
+vendor recommendation, typical or complete cost claim, or legal/zoning
+conclusion is authorized.
+
+Research result: the parcel-specific pre-offer land evidence workflow is the
+only candidate that clears the product gate. Current demand is modest and the
+wider land variation set contains substantial listings intent, but the user
+decision job is high-stakes, ranking pages are mainly narrative guides, and no
+current Tiny Home Clarity page organizes one parcel's evidence. Generic
+builder due diligence materially overlaps the build-options page; standalone
+quote comparison overlaps the cost calculator and has weak, ambiguous exact
+demand.
+
+Next action: `THC-LAND-001`, a separately selected implementation at
+`/buying-land-for-a-tiny-house/`. Native QA is green and independent review
+returned `PASS_WITH_P3`; the action is ready but unselected. No implementation
+has begun.
+
+Evidence and the every-section contract are in:
+
+- `docs/research/tiny-home-next-user-value-audit-2026-08.md`
+- `briefs/tiny-home-next-user-value-brief-2026-08.md`
+
+Independent reviewer `019fcc94-81c5-7ea2-b165-377dca84e4a0` returned `FAIL`
+in cycle 1 with three P2 findings. The broken FWS URL, non-reproducible land
+SERP samples, and contradictory pre-review state were fixed. Cycles 2 and 3
+returned `PASS_WITH_P3`; their two P3 close-state wording notes are corrected.
+
+Native QA passes 54/54 tests, zero SEO errors with three known canonical
+warnings, zero operator-state errors, valid JSON, required files, exact
+twelve-path scope, and `git diff --check`.
 
 ## Latest Disposition
 
@@ -65,15 +124,15 @@ decision on the preserved recipient, subject, and body.
 Independent deferral reviewer `019fcc61-9f49-7052-8cac-d83fce94804e`
 returned `PASS` with no P0-P3 findings on the complete 11-path reconciliation.
 
-## Next Product Priority
+## Completed Product Research
 
-`THC-PROD-001` is ready but unselected. It is a research-only user-value gate:
+`THC-PROD-001` is completed. Its research-only user-value gate was to:
 identify one real buyer decision job from current demand, SERPs, ranking pages,
 community questions, and existing-page overlap; define a useful first-screen
 answer and concrete next step; test it across decision personas and beginner,
 intermediate, and advanced experience; and give every proposed section a clear
-reader purpose. Promote at most one implementation action. Do not change
-`site/**` in that research transaction.
+reader purpose. It promoted only the ready, unselected `THC-LAND-001` action
+and changed no `site/**` path.
 
 ## Latest Completed Priority
 
@@ -672,8 +731,8 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- No transaction is active. `THC-PROD-001` is ready but unselected, and
-  supporting research and independent review roles remain read-only.
+- No transaction is active. `THC-LAND-001` is ready but unselected; supporting
+  research and independent review roles remain read-only.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -687,5 +746,6 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`THC-PROD-001`, a research-only user-value gate. It is ready but unselected;
-the next transaction must redeclare exact paths before work begins.
+`THC-LAND-001` is ready but unselected. Select it only as a separate exact-path
+transaction; do not infer implementation authority from the completed research
+or this queue state.

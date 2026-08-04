@@ -792,3 +792,28 @@ use current demand, SERP/ranking-page evidence, current-page overlap, decision
 personas, experience levels, and every-section review to promote at most one
 bounded implementation action. No site or outreach work occurs in this
 reconciliation.
+
+## 2026-08-04 - Promote A Parcel-Specific Pre-Offer Land Check
+
+Decision: `THC-PROD-001` rejects standalone builder/vendor due diligence and
+quote comparison as the next products and promotes only `THC-LAND-001`, a
+separately implementable parcel-specific land evidence workflow.
+
+Why: builder search demand is large but commercial, exact due-diligence
+questions are weak in current estimates, and the live build-options page
+already owns provider scope, written proof, and red flags. Quote demand is weak
+and ambiguous, while the cost calculator already starts with a seller or
+builder quote. Land demand is modest, but the pre-offer parcel job is distinct,
+high-stakes, repeatedly visible in community questions, and not completed by
+the broad homepage triage or narrative ranking pages.
+
+Boundary: the future tool may organize unknown, claim-only, source-saved, and
+conflicting evidence. It may not list land, transmit addresses, recommend a
+vendor, calculate typical costs, or call a parcel legal, approved, or
+buildable. This research transaction changes no `site/**` path and does not
+start `THC-LAND-001`.
+
+Review: cycle 1 returned `FAIL` with three P2 findings. The official wetlands
+source, query-level result samples, inventory-intent exclusion, and durable
+state were corrected. Cycles 2 and 3 returned `PASS_WITH_P3`; no P0-P2 finding
+remains. `THC-LAND-001` is ready but unselected.

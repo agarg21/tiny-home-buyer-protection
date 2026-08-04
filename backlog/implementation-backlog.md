@@ -15,6 +15,12 @@ durable execution queue; backlog headings do not authorize work.
 
 ## Recently Completed
 
+- `THC-PROD-001`: compared builder/vendor due diligence, quote comparison, and
+  parcel/land due diligence using current demand, reproducible ranking-page
+  samples, community questions, current-site overlap, decision personas,
+  experience levels, and every-section usefulness. It promotes only the
+  separately implementable `THC-LAND-001`; cycle 2 returned `PASS_WITH_P3`
+  after all cycle 1 P2 findings were fixed. No site work occurred.
 - `THC-BUILD-003`: fresh independent review and conditional release of the
   exact fixed 19-path build-options candidate. No new implementation or
   research was authorized. Three fresh review cycles returned `PASS`; commit
@@ -71,13 +77,17 @@ durable execution queue; backlog headings do not authorize work.
 - Independent review returned `PASS` on cycle 3 with no P0-P3 findings.
 - Released in `7f9ea5f`; Pages run `30390104298` and production checks passed.
 
+## Ready, Not Selected
+
+- `THC-LAND-001`: build one client-side, printable pre-offer parcel evidence
+  workflow at `/buying-land-for-a-tiny-house/` from
+  `briefs/tiny-home-next-user-value-brief-2026-08.md`. It must distinguish
+  unknown, claim-only, source-saved, and conflicting evidence; return no legal
+  or buildability verdict; and keep listings, address collection, provider
+  recommendations, costs, accounts, and external actions out of scope.
+
 ## Candidates, Not Selected
 
-- `THC-PROD-001`: research and define one genuinely useful buyer-protection
-  asset before selecting another site implementation. The research must start
-  from a real decision job, current search and ranking-page evidence, current
-  site overlap, and beginner/intermediate/advanced usefulness. No `site/**`
-  work is authorized by the backlog item itself.
 - `THC-BUILD-002`: national build decision / builder due-diligence asset.
 - Georgia classification repair and under-$20K consolidation/indexing
   diagnosis remain candidates after the active calculator transaction.

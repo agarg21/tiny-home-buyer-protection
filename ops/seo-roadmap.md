@@ -42,8 +42,10 @@ unreviewed release decisions.
     on 2026-08-03; no outreach or link placement.
 16. `THC-AUTH-002` — review-clean BAC draft deferred unsent by the user on
     2026-08-04; no approval request or external contact remains active.
-17. `THC-PROD-001` — ready but unselected research-only user-value gate for one
-    evidence-backed buyer-protection product action.
+17. `THC-PROD-001` — completed review-clean research on 2026-08-04; it
+    promotes only the parcel-specific `THC-LAND-001` action.
+18. `THC-LAND-001` — ready but unselected: a client-side pre-offer parcel
+    evidence workflow at `/buying-land-for-a-tiny-house/`.
 
 ## THC-MON-001 completion
 
@@ -154,19 +156,33 @@ unreviewed release decisions.
   `site/**`, indexing request, account creation, vendor recommendation, cost
   claim, or legal/zoning conclusion.
 
-## THC-PROD-001 next eligible research
+## THC-PROD-001 completion
 
-- Research-only; ready but unselected.
+- Research-only; selected with the 12 exact paths in `ops/seo-roadmap.json`.
 - Start from one observed buyer decision job, not a keyword headline or content
   quota.
 - Use current query, SERP, ranking-page, community-question, and existing-page
   overlap evidence with explicit uncertainty and non-additive demand handling.
 - Define the first-screen answer, concrete next action, decision personas,
   beginner/intermediate/advanced usefulness, and every-section purpose.
-- Promote at most one implementation action only if the proposed asset is
-  useful without relying on a backlink, lead form, or ranking promise.
+- Result: promote only `THC-LAND-001`. Parcel/land diligence has modest distinct
+  demand, a repeated high-stakes buyer job, and a gap between the homepage's
+  broad placement triage and one parcel's evidence file.
+- Do not promote standalone builder due diligence or quote comparison. Those
+  jobs materially overlap the build-options page and cost calculator.
+- Proposed product: a client-side, printable workflow that separates unknown,
+  claim-only, source-saved, and conflicting evidence and produces an unresolved
+  question file without a legal or buildability verdict.
+- Review: cycle 1 returned `FAIL` with three P2 findings. The FWS URL,
+  reproducible land-query samples, inventory-intent exclusion, and current
+  state were fixed. Cycles 2 and 3 returned `PASS_WITH_P3`; their two P3
+  transaction-close wording notes are synchronized in the completed state.
+- QA: 54/54 tests, zero SEO errors with three known warnings, zero
+  operator-state errors, valid JSON, required files, exact scope, and clean
+  diff checks.
+- `THC-LAND-001` is ready but unselected; no implementation is started here.
 - No `site/**`, outreach, indexing, external account, vendor recommendation,
-  cost claim, or legal/zoning conclusion is authorized by this ready state.
+  cost claim, or legal/zoning conclusion was authorized by this transaction.
 
 ## THC-COST-002 completion
 

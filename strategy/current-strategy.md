@@ -196,6 +196,26 @@ promote one implementation action only when the asset can be useful without
 relying on a future backlink, lead form, or ranking claim. This is a quality
 gate, not a requirement to manufacture another page.
 
+The 2026-08-04 `THC-PROD-001` audit clears that gate for one product only: a
+parcel-specific, pre-offer land evidence workflow. Current Semrush estimates
+show modest informational demand for `land for tiny house` and `buying land for
+a tiny house`, while the wider variation set is dominated by land-and-home
+listings. Representative ranking pages are narrative guides and checklists;
+community questions repeatedly expose the higher-stakes job of deciding what
+must be verified before buying a particular parcel. The current homepage owns
+broad placement triage but does not organize one parcel's written evidence.
+See `docs/research/tiny-home-next-user-value-audit-2026-08.md`.
+
+Build that next only as a separately reviewed action. It should produce a
+client-side, printable evidence and unresolved-question file for exact parcel,
+jurisdiction, home category and use, private restrictions and access,
+wastewater and water, utilities, and material site constraints. It must not
+list land, collect an address, recommend vendors, calculate typical costs, or
+declare a parcel legal, approved, or buildable. Keep builder due diligence in
+the build-options page and quote-gap work in the cost calculator; standalone
+versions would duplicate stronger existing products. The implementation
+contract is `briefs/tiny-home-next-user-value-brief-2026-08.md`.
+
 Current ranking reality from the 2026-07-18 GSC baseline is weak but
 directional: 20 impressions, 0 clicks, and only small page-level samples. The
 Los Angeles and San Diego official-source pages have the best early average

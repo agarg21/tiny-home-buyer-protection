@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-01",
   "next_rescore_due": "2026-08-08",
-  "next_eligible_action_id": "THC-PROD-001",
+  "next_eligible_action_id": "THC-LAND-001",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -709,7 +709,9 @@
       "learning_value": 5,
       "effort": 2,
       "risk": 2,
-      "status": "ready",
+      "status": "completed",
+      "selected_on": "2026-08-04",
+      "completed_on": "2026-08-04",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "required_evidence": [
@@ -743,9 +745,77 @@
         "status": "not-required",
         "approval_required_for": null
       },
-      "implementation_state": "ready-unselected-research-only",
-      "evidence_classification": "The user's direct 2026-08-04 priority decision is causal evidence for product research before outreach. The August 3 GSC snapshot remains weak but unchanged monitoring context and does not select the asset. Current query, SERP, ranking-page, community-question, and page evidence must be collected or explicitly marked UNKNOWN when the action is selected.",
-      "notes": "Ready but unselected. Exact paths must be redeclared when selected. This item does not authorize site/** changes, product implementation, outreach, indexing, external-account mutation, vendor recommendations, typical or complete cost claims, or legal/zoning conclusions."
+      "implementation_state": "review-clean-research-only",
+      "review_outcome": "PASS_WITH_P3",
+      "review_cycles": 3,
+      "reviewer_id": "019fcc94-81c5-7ea2-b165-377dca84e4a0",
+      "qa_evidence": [
+        "node --test tools/*.test.mjs passed 54 tests",
+        "node tools/seo-qa.mjs reported 0 errors and 3 known canonical warnings on untouched pages",
+        "node tools/operator-state-qa.mjs reported 0 errors",
+        "ops/seo-roadmap.json parsed",
+        "required deployment files are present",
+        "exact 12-path scope and no-site guard passed",
+        "git diff --check passed",
+        "independent read-only review cycles 2 and 3 returned PASS_WITH_P3 after all cycle 1 P2 findings were fixed"
+      ],
+      "evidence_classification": "The user's direct 2026-08-04 priority decision is causal evidence for product research before outreach. The August 3 GSC snapshot remains weak monitoring context and does not select the asset. Current 2026-08-04 Semrush UI estimates, public search and representative ranking-page samples, community questions, official source roles, and the seven-page overlap audit are product-selection evidence. Third-party keyword estimates are non-additive and do not promise traffic.",
+      "result": "The research compares builder/vendor due diligence, quote comparison, and parcel/land due diligence. It rejects standalone builder and quote assets because they substantially overlap the live build-options page and cost calculator. It promotes one parcel-specific pre-offer evidence workflow that helps a reader distinguish documented facts, claims, conflicts, and unresolved questions without issuing a legal or buildability verdict.",
+      "notes": "Selected by direct user instruction on 2026-08-04 at clean, origin-aligned base 63307fe9440e50e19d7fc2420c2ac945a6395881 with the 12 exact paths above. The research result promotes only THC-LAND-001 as a separate implementation candidate. This item does not authorize site/** changes, product implementation, outreach, indexing, external-account mutation, vendor recommendations, typical or complete cost claims, or legal/zoning conclusions."
+    },
+    {
+      "id": "THC-LAND-001",
+      "title": "Build a pre-offer tiny-house parcel evidence workflow",
+      "kind": "content-and-product",
+      "lane": "content-and-product",
+      "impact": 5,
+      "confidence": 4,
+      "learning_value": 5,
+      "effort": 3,
+      "risk": 3,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "required_evidence": [
+        "completed_THC-PROD-001_audit",
+        "current_query_and_representative_ranking_page_sample",
+        "parcel_decision_personas_and_experience_levels",
+        "first_screen_every_section_and_tool_state_contract"
+      ],
+      "target_urls": [
+        "https://tinyhomeclarity.com/buying-land-for-a-tiny-house/"
+      ],
+      "target_paths": [
+        "docs/research/tiny-house-land-pre-offer-implementation-2026-08.md",
+        "site/buying-land-for-a-tiny-house/index.html",
+        "site/buying-land-for-a-tiny-house/land-checker.js",
+        "site/index.html",
+        "site/styles.css",
+        "site/sitemap.xml",
+        "tools/land-checker.test.mjs",
+        "strategy/current-strategy.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "status/site-pages.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "The homepage provides broad placement triage, but the seven-page site has no parcel-specific workflow for organizing evidence before a land offer or tiny-home purchase becomes difficult to unwind.",
+      "hypothesis": "A client-side, printable pre-offer workflow can help land shoppers and parcel-under-consideration buyers distinguish official or professional evidence from claims, conflicts, and unresolved questions without pretending to approve the parcel.",
+      "expected_effect": "Create a distinct buyer-protection decision surface for modest informational land demand and a repeated high-stakes community job. Traffic, rankings, and completion rates remain UNKNOWN until observed.",
+      "success_signal": "A reader can record parcel context and evidence states, receive a useful unresolved-question file, and print it without an account, address transmission, legal/buildability verdict, vendor recommendation, or cost claim; native, responsive, persona, every-section, independent, deployment, and production QA pass.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required",
+        "approval_required_for": null
+      },
+      "implementation_state": "ready-not-selected",
+      "evidence_classification": "The completed THC-PROD-001 audit is causal product evidence. The August 3 GSC snapshot is weak monitoring context only. Semrush values are third-party estimates and overlapping keyword totals must not be summed as unique demand.",
+      "notes": "Ready but unselected after THC-PROD-001 passed independent review. Select only as a separate direct-manual or valid Control Room transaction. No listings, address lookup or transmission, analytics, account, database, outreach, indexing request, vendor recommendation, typical or complete cost claim, or legal/zoning/buildability conclusion is authorized."
     },
     {
       "id": "THC-RES-001",

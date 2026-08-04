@@ -7,6 +7,22 @@ execution queue; this file does not schedule work.
 
 ## Current Research Result
 
+- `THC-PROD-001` completed its review-clean user-value comparison. Builder
+  demand is large but commercial and substantially covered by the live
+  build-options page;
+  exact builder-question demand is zero in the current Semrush estimate. The
+  quote phrase is weak and ambiguous, and the live cost calculator already
+  owns quote-gap analysis. Parcel/land diligence has modest distinct demand, a
+  repeated high-stakes community job, and a clear gap between broad homepage
+  triage and one parcel's pre-offer evidence file. The audit is
+  `docs/research/tiny-home-next-user-value-audit-2026-08.md`.
+- `THC-LAND-001` is the sole ready implementation action, not selected or
+  started. Before any release, review the first-screen answer, worksheet state
+  machine, source-role caveats, every visible section, all three decision
+  personas, beginner, intermediate, and advanced usefulness, print output, and
+  mobile behavior.
+  The complete contract is
+  `briefs/tiny-home-next-user-value-brief-2026-08.md`.
 - `THC-AUTH-001` completed its public opportunity qualification. The internal
   plan retains one pursue-later
   opportunity, six holds, and explicit paid/promotional/credential-mismatch
@@ -22,12 +38,8 @@ execution queue; this file does not schedule work.
   draft in the authority outreach log as a possible later experiment. No
   approval request, email-account access, external contact, follow-up, or held
   prospect is active.
-- The next ready but unselected action is `THC-PROD-001`, a research-only
-  user-value gate. It must inspect real decision demand, current SERPs and
-  ranking pages, existing-page overlap, decision personas, and beginner,
-  intermediate, and advanced usefulness; then promote at most one bounded
-  product implementation with a first-screen promise and every-section
-  contract. It does not authorize `site/**` changes.
+- The BAC outreach draft remains deferred. Completion of product research or a
+  later land product does not authorize outreach.
 - `THC-MON-001` is complete and diagnoses the July 22-29 zero-impression streak as an organic
   visibility stall rather than a technical outage. Public crawl surfaces,
   five established indexed pages, manual-action, and security evidence are
@@ -41,8 +53,9 @@ execution queue; this file does not schedule work.
   remain valid, and independent review returned `PASS_WITH_P3` with no P0-P2
   findings.
 - `THC-AUTH-001` is review-clean and complete. `THC-AUTH-002` is deferred and
-  unsent. `THC-PROD-001` is the sole ready next action; no external contact or
-  product implementation is authorized by this backlog state.
+  unsent. `THC-PROD-001` is review-clean and promotes only the ready but
+  unselected `THC-LAND-001`; no external contact or site implementation is
+  authorized by this backlog state.
 
 - `THC-BUILD-003` is completed and production-verified. It inherited the exact
   fixed `THC-BUILD-002` research and implementation without reopening research,
