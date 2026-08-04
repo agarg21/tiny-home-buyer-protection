@@ -425,6 +425,111 @@ Release:
 
 Release state: production-verified.
 
+## 2026-08-04 - One BAC Library Message Draft
+
+Action: `THC-AUTH-002`
+
+Selection authority: direct manual user request. No Control Room dispatch lease
+applies.
+
+Base: `df9a33edae978e162f297d6a5b7657e5d66cace5`, clean and aligned with
+`origin/main` before selection.
+
+Evidence classification:
+
+- The review-clean `THC-AUTH-001` plan is causal selection evidence. It
+  retained one editorial fit: the BAC Library's curated Tiny Houses guide and
+  the canonical placement hub.
+- No newer GSC snapshot or central decision exists. The validated August 3
+  snapshot is unchanged monitoring context. The central operator report is
+  stale from July 28 and does not override the current local roadmap.
+- The BAC Library page checked on August 4 describes curated research guides
+  and publishes `library@the-bac.edu` as a public organizational contact. The
+  Tiny Houses guide was checked on August 3; the August 4 refresh returned HTTP
+  429, not changed evidence.
+
+Frozen exact paths:
+
+- `docs/research/tiny-home-authority-outreach-log-2026-08.md`
+- `ops/current-cycle.md`
+- `ops/needs-user.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Draft result:
+
+- Public organizational recipient: `library@the-bac.edu`
+- Subject: `Resource suggestion for your Tiny Houses research guide`
+- One resource: `https://tinyhomeclarity.com/`
+- Message: discloses ownership, describes the four-factor placement workflow,
+  preserves legal uncertainty, asks for editorial consideration, and states
+  that no paid, affiliate, or reciprocal arrangement exists.
+- State: not sent and not entered into an email account.
+
+Human gate:
+
+- Independent review must return `PASS` or `PASS_WITH_P3` first.
+- The user must then explicitly approve the exact recipient, subject, and body.
+- Silence or a general request to continue is not approval to send.
+- Any approved send is limited to one message with no follow-up or second
+  prospect.
+
+Pre-review QA:
+
+- Required `.nojekyll` and Pages workflow files are present.
+- `node --test tools/*.test.mjs`: 54/54 tests passed.
+- `node tools/seo-qa.mjs`: seven HTML pages and seven sitemap URLs, zero
+  errors, and three known missing-canonical warnings.
+- `node tools/operator-state-qa.mjs`: zero errors; active action
+  `THC-AUTH-002`; latest snapshot `2026-08-03`.
+- `node tools/gsc-snapshot.mjs --validate-existing`: all 17 public snapshots
+  validate.
+- `ops/seo-roadmap.json` parses.
+- `git diff --check` passes.
+- The working tree contains only the eight frozen paths.
+
+Independent review cycle 1:
+
+- Reviewer: independent read-only thread
+  `019fcc53-0002-7193-b368-2cecad75de2f`
+- Reviewer title: unavailable
+- Reviewed base: `df9a33edae978e162f297d6a5b7657e5d66cace5`
+- Verdict: `PASS`
+- Findings: no P0-P3.
+- Confirmed recipient legitimacy, guide/resource fit, beginner/intermediate/
+  advanced usefulness, natural tone, accurate four-factor description, legal
+  uncertainty, ownership disclosure, editorial framing, and absence of
+  pressure, payment, reciprocity, tracking, credentials, follow-up, or another
+  prospect.
+- Confirmed all eight exact paths and the explicit review-then-user-approval
+  gate. No email account was accessed or mutated, and nothing was sent.
+
+Independent review cycle 2:
+
+- Reviewer: independent read-only thread
+  `019fcc53-0002-7193-b368-2cecad75de2f`
+- Reviewer title: unavailable
+- Reviewed base: `df9a33edae978e162f297d6a5b7657e5d66cace5`
+- Verdict: `PASS`
+- Findings: no P0-P3.
+- Confirmed the recipient, subject, and body are unchanged from cycle 1; the
+  cycle 1 result is faithfully recorded; the human gate remains
+  `pending-user-approval`; and nothing in the eight-path final state implies a
+  send or email-account access.
+- Confirmed `THC-AUTH-002` remains the sole active action, the next eligible
+  action is `none`, and native QA and exact-path scope remain green.
+
+Advisory note: Anti Gravity was attempted but produced no verdict because its
+headless process could not obtain command permission. That control was not
+bypassed; the required independent reviewer returned `PASS`.
+
+Release state: final-state review-clean draft eligible for exact-path commit and
+push, then explicit user approval. No deployment applies, and no send is
+authorized.
+
 ## 2026-08-03 - Ethical Citation Opportunity Qualification
 
 Action: `THC-AUTH-001`

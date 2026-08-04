@@ -752,3 +752,26 @@ Release: the exact reviewed nine-path transaction was pushed in
 Next gate: `THC-AUTH-002` is ready but unselected. It may prepare one
 transparent BAC librarian suggestion and may send only after the user approves
 the exact recipient, subject, and body. It must stop after that one contact.
+
+## 2026-08-04 - Draft One BAC Library Resource Suggestion
+
+Decision: select `THC-AUTH-002` as an eight-path draft-only transaction from
+clean, origin-aligned base `df9a33e`. Prepare one message for public
+organizational address `library@the-bac.edu`, independently review the exact
+recipient, subject, and body, and stop at the human gate.
+
+Evidence: the review-clean `THC-AUTH-001` plan retained only the BAC Library's
+curated Tiny Houses guide and the canonical placement hub for a pilot. No newer
+GSC snapshot or central decision exists; the August 3 snapshot is monitoring
+context, and the central July 28 report is stale.
+
+Boundary: no send, email-account mutation, held prospect, follow-up, payment,
+reciprocity, backlink or ranking request, content, `site/**`, indexing, vendor,
+cost, or legal/zoning action. The exact draft must be review-clean and then
+explicitly approved by the user before any send.
+
+Review result: independent read-only reviewer
+`019fcc53-0002-7193-b368-2cecad75de2f` returned `PASS` with no P0-P3 findings in
+both the substantive and final-state review cycles. The exact recipient,
+subject, and body are now eligible for user approval; no send or email-account
+mutation occurred.

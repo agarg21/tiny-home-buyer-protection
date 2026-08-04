@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-01",
   "next_rescore_due": "2026-08-08",
-  "next_eligible_action_id": "THC-AUTH-002",
+  "next_eligible_action_id": null,
   "planning_horizon_days": 28,
   "items": [
     {
@@ -198,7 +198,7 @@
       "success_signal": "A reviewed brief defines a useful buyer-protection asset for people deciding whether to build, buy a kit/shell, or hire a tiny-home builder, with explicit separation from ADU-contractor demand.",
       "implementation_state": "brief-scoped",
       "review_outcome": "PASS",
-      "review_cycles": 1,
+      "review_cycles": 2,
       "qa_evidence": [
         "test -f site/.nojekyll passed",
         "test -f .github/workflows/deploy-pages.yml passed",
@@ -646,7 +646,8 @@
       "learning_value": 4,
       "effort": 1,
       "risk": 2,
-      "status": "ready",
+      "status": "in_progress",
+      "selected_on": "2026-08-04",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "required_evidence": [
@@ -661,6 +662,7 @@
       "target_paths": [
         "docs/research/tiny-home-authority-outreach-log-2026-08.md",
         "ops/current-cycle.md",
+        "ops/needs-user.md",
         "ops/operator-review.md",
         "ops/seo-roadmap.json",
         "ops/seo-roadmap.md",
@@ -673,12 +675,16 @@
       "success_signal": "The exact recipient, subject, and body are independently reviewed and shown to the user; nothing is sent without explicit approval; at most one organizational contact is sent and durably logged; the action stops without contacting held prospects.",
       "human_gate": {
         "required": true,
-        "status": "pending",
+        "status": "pending-user-approval",
         "approval_required_for": "the exact public organizational recipient, subject, and message body before send"
       },
-      "implementation_state": "ready-unselected-human-gated",
-      "evidence_classification": "The review-clean THC-AUTH-001 opportunity plan is causal selection evidence. Current GSC performance remains monitoring context and does not justify broader outreach. Any response, no response, citation, referral traffic, or ranking effect must be observed rather than assumed.",
-      "notes": "Ready but not selected. Exact paths must be re-declared when selected. One BAC library contact only. No held prospect, paid or reciprocal link, directory submission, generic template, new content, site/** change, indexing request, vendor recommendation, cost claim, legal/zoning conclusion, account creation, or send without explicit user approval is authorized."
+      "implementation_state": "review-clean-draft-awaiting-user-approval",
+      "evidence_classification": "The user's direct manual request on 2026-08-04 selects the review-clean THC-AUTH-001 opportunity for one message draft. That plan is causal selection evidence. The unchanged August 3 GSC snapshot is monitoring context and does not justify broader outreach. The central July 28 report is stale relative to the current local roadmap. Any response, no response, citation, referral traffic, or ranking effect must be observed rather than assumed.",
+      "result": "One plain-text draft is preserved in docs/research/tiny-home-authority-outreach-log-2026-08.md for public organizational recipient library@the-bac.edu with subject 'Resource suggestion for your Tiny Houses research guide'. It discloses ownership, names one resource, describes the four-factor placement workflow, preserves legal uncertainty, and states that no paid, affiliate, or reciprocal arrangement exists. It has not been sent or entered into an email account.",
+      "review_cycles": 1,
+      "review_outcome": "PASS",
+      "reviewer_id": "019fcc53-0002-7193-b368-2cecad75de2f",
+      "notes": "Selected on 2026-08-04 at clean, origin-aligned base df9a33edae978e162f297d6a5b7657e5d66cace5 and frozen to the eight exact paths above. Independent reviewer 019fcc53-0002-7193-b368-2cecad75de2f returned PASS with no P0-P3 findings in both the substantive and final-state review cycles. The review-clean draft now awaits explicit user approval of the exact recipient, subject, and body. No send is authorized. No held prospect, follow-up, paid or reciprocal link, directory submission, generic template, new content, site/** change, indexing request, vendor recommendation, cost claim, legal/zoning conclusion, or account mutation is authorized."
     },
     {
       "id": "THC-RES-001",

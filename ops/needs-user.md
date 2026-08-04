@@ -1,13 +1,15 @@
 # Needs User
 
-Last updated: 2026-07-29
+Last updated: 2026-08-04
 
 ## Current Blockers
 
-- None. The user directly selected `THC-BUILD-002`; its page, claim, and
-  release boundaries do not require a new provider or external-account choice.
-  `THC-BUILD-003` is the separately registered fresh-review continuation and
-  also requires no new user decision.
+- `THC-AUTH-002` has one exact BAC Library message draft at
+  `docs/research/tiny-home-authority-outreach-log-2026-08.md`. Independent
+  review returned `PASS` with no findings. Approval is now requested for public recipient
+  `library@the-bac.edu`, subject `Resource suggestion for your Tiny Houses
+  research guide`, and the exact reviewed body before any send. Silence or a
+  general request to continue is not approval to send.
 
 ## Deferred User Decisions
 

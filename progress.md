@@ -513,3 +513,14 @@
 - Committed and pushed the exact nine-path `THC-AUTH-001` transaction in
   `3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28` from aligned base `c6e795d`. No
   deployment applies because no `site/**` path changed.
+- Registered direct-manual `THC-AUTH-002` on 2026-08-04 at clean,
+  origin-aligned base `df9a33e` with eight frozen paths. No newer GSC snapshot
+  or central decision exists; the August 3 snapshot remains monitoring context.
+- Drafted one plain-text BAC Library resource suggestion for public
+  organizational address `library@the-bac.edu` in
+  `docs/research/tiny-home-authority-outreach-log-2026-08.md`. The exact draft
+  has not been sent or entered into an email account.
+- Independent reviewer `019fcc53-0002-7193-b368-2cecad75de2f` returned `PASS`
+  with no P0-P3 findings in both the substantive and final-state review cycles
+  on the complete eight-path draft transaction. The exact user approval gate
+  is now open; no send is authorized until approval.

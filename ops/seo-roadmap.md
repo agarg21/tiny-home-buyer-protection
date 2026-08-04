@@ -40,8 +40,8 @@ unreviewed release decisions.
     GSC sensor hardening on 2026-08-01.
 15. `THC-AUTH-001` — completed review-clean ethical citation-opportunity plan
     on 2026-08-03; no outreach or link placement.
-16. `THC-AUTH-002` — ready but unselected human-gated one-contact BAC library
-    resource-suggestion pilot.
+16. `THC-AUTH-002` — active direct-manual draft-only transaction selected on
+    2026-08-04; no email send is authorized before the human gate.
 17. Select the next buyer-protection tool only from observed evidence and the
     project's skeptical, official-source-backed product strategy.
 
@@ -126,12 +126,23 @@ unreviewed release decisions.
   after the user approves the exact recipient, subject, and body. It is ready
   but not selected.
 
-## THC-AUTH-002 ready candidate
+## THC-AUTH-002 active transaction
 
 - One public organizational recipient: Boston Architectural College Library.
 - One asset: the canonical placement hub.
+- Exact scope: the eight paths frozen in `ops/seo-roadmap.json`, from aligned
+  base `df9a33edae978e162f297d6a5b7657e5d66cace5`.
+- Current evidence: no newer GSC snapshot or central decision exists. The
+  August 3 snapshot is unchanged monitoring context, and the July 28 central
+  report is stale relative to the reviewed local roadmap.
 - Human gate: show the exact recipient, subject, and body to the user and obtain
   explicit approval before send.
+- Draft state: the exact plain-text message is preserved in
+  `docs/research/tiny-home-authority-outreach-log-2026-08.md`; it has not been
+  sent or entered into an email account. Independent reviewer
+  `019fcc53-0002-7193-b368-2cecad75de2f` returned `PASS` with no P0-P3 findings
+  in both the substantive and final-state review cycles. The exact user
+  approval gate is now open.
 - Stop after one contact, including after rejection or no response. Do not
   contact the six held prospects.
 - Success is truthful delivery and learning. A reply, citation, referral visit,

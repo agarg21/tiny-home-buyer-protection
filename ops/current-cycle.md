@@ -1,10 +1,57 @@
 # Current Cycle
 
-Last updated: 2026-08-03
+Last updated: 2026-08-04
 
-Active action: `none`
+Active action: `THC-AUTH-002`
 
-Next eligible action: `THC-AUTH-002`
+Next eligible action: `none`
+
+## Active Priority
+
+`THC-AUTH-002` is a direct-manual, draft-only authority transaction selected
+on 2026-08-04 at clean, origin-aligned base
+`df9a33edae978e162f297d6a5b7657e5d66cace5`.
+
+Its job is to prepare one plain-text resource suggestion for the Boston
+Architectural College Library, independently review the exact recipient,
+subject, and body, and then stop at the human approval gate. The user has not
+approved a final message or send.
+
+Frozen exact paths:
+
+- `docs/research/tiny-home-authority-outreach-log-2026-08.md`
+- `ops/current-cycle.md`
+- `ops/needs-user.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+The causal evidence is the review-clean `THC-AUTH-001` plan, which retained
+only the BAC Library's curated Tiny Houses guide and the canonical placement
+hub for this pilot. The August 3 GSC snapshot remains unchanged monitoring
+context; no newer snapshot or central decision exists. The central operator
+report is stale from July 28 and does not override the current local roadmap.
+
+This transaction may draft and review one message for public organizational
+address `library@the-bac.edu`. It may not send email, create or mutate an
+account, contact another prospect, follow up, offer payment or reciprocity,
+request a backlink or ranking favor, create content, change `site/**`, request
+indexing, recommend a vendor, make a cost claim, or state a legal/zoning
+conclusion. Sending requires a later explicit user approval of the exact
+recipient, subject, and body.
+
+Draft result: the exact recipient, subject, and body are preserved in
+`docs/research/tiny-home-authority-outreach-log-2026-08.md`. The note discloses
+that Apoorva Garg maintains Tiny Home Clarity, describes the homepage's four
+placement checks without making a legal claim, asks for editorial
+consideration, and states that no paid, affiliate, or reciprocal arrangement
+exists. It has not been sent or entered into an email account. Independent
+reviewer `019fcc53-0002-7193-b368-2cecad75de2f` returned `PASS` in both the
+substantive and final-state review cycles, with no P0-P3 findings. The exact
+user approval gate is now open; no send is authorized until the user explicitly
+approves the preserved recipient, subject, and body.
 
 ## Latest Completed Priority
 
@@ -604,9 +651,9 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- No substantive transaction is active. `THC-AUTH-001` is review-clean and
-  complete; `THC-AUTH-002` is ready but unselected. Supporting research and
-  independent review roles remain read-only.
+- `THC-AUTH-002` is the sole active transaction and is draft-only until its
+  human gate is satisfied. Supporting research and independent review roles
+  remain read-only.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -620,9 +667,5 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`THC-AUTH-002`: separately register the bounded one-contact BAC librarian
-pilot. Prepare one transparent organizational resource suggestion, show the
-user the exact recipient, subject, and body, and send only after explicit user
-approval. Stop after that contact; do not contact held prospects, buy or
-exchange links, submit directories, create content, change `site/**`, or mutate
-another external account.
+`none` while `THC-AUTH-002` is active. Complete the reviewed message draft and
+obtain explicit user approval before any send; do not select another action.
