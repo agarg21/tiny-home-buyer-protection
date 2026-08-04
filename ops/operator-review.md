@@ -530,6 +530,65 @@ Release state: final-state review-clean draft eligible for exact-path commit and
 push, then explicit user approval. No deployment applies, and no send is
 authorized.
 
+### User Redirect And Deferral Reconciliation
+
+On 2026-08-04, after the reviewed draft was pushed but before any send, the
+user directed the project to put the BAC experiment in the backlog and focus
+first on building something genuinely useful for readers.
+
+Expanded exact paths for this direct-manual continuation:
+
+- `strategy/current-strategy.md`
+- `backlog/implementation-backlog.md`
+- `backlog/seo-research-review-backlog.md`
+- `docs/research/tiny-home-authority-outreach-log-2026-08.md`
+- `ops/current-cycle.md`
+- `ops/needs-user.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Candidate disposition:
+
+- `THC-AUTH-002` becomes deferred, review-clean, and unsent. Its exact draft is
+  retained, but the prior approval request is closed.
+- `THC-PROD-001` becomes the sole ready next action, research-only and
+  unselected. It must establish one real decision job, a useful first-screen
+  answer, a concrete next action, decision personas, experience-level value,
+  current-page overlap, and every-section purpose before promoting at most one
+  implementation.
+- No `site/**`, product implementation, outreach, indexing, deployment, or
+  external-account mutation is included.
+
+Review requirement: a fresh different independent read-only reviewer must
+confirm the 11-path state is internally consistent, the BAC draft is unchanged
+and unsent, no approval is requested, the user-value gate is concrete without
+preselecting a page, and native QA passes. Only `PASS` or `PASS_WITH_P3` may be
+pushed. No deployment applies.
+
+Independent deferral review cycle 3:
+
+- Reviewer: independent read-only thread
+  `019fcc61-9f49-7052-8cac-d83fce94804e`
+- Reviewer title: unavailable
+- Reviewed base: `fc35988fc3cf55dd44080ef60c94d9f7503586da`
+- Verdict: `PASS`
+- Findings: no P0-P3.
+- Confirmed the BAC recipient, subject, and body are unchanged; the draft is
+  deferred and unsent; no approval request remains; and historical eligibility
+  language is clearly chronological rather than current authority.
+- Confirmed no action is active, `THC-PROD-001` is the sole ready and next
+  eligible action, the user-value gate is concrete without preselecting a page,
+  and the diff contains exactly the 11 declared paths with no `site/**` or
+  external mutation.
+- Independently passed 54/54 native tests, zero operator-state and SEO errors,
+  all 17 GSC snapshot validations, roadmap JSON, required-file, and diff checks.
+
+Release state: review-clean docs-only reconciliation eligible for exact-path
+commit and push. No deployment or outreach applies.
+
 ## 2026-08-03 - Ethical Citation Opportunity Qualification
 
 Action: `THC-AUTH-001`

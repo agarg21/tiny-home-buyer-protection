@@ -4,15 +4,14 @@ Last updated: 2026-08-04
 
 ## Current Blockers
 
-- `THC-AUTH-002` has one exact BAC Library message draft at
-  `docs/research/tiny-home-authority-outreach-log-2026-08.md`. Independent
-  review returned `PASS` with no findings. Approval is now requested for public recipient
-  `library@the-bac.edu`, subject `Resource suggestion for your Tiny Houses
-  research guide`, and the exact reviewed body before any send. Silence or a
-  general request to continue is not approval to send.
+- None. The user deferred the review-clean BAC Library draft before any send on
+  2026-08-04. No outreach approval is requested.
 
 ## Deferred User Decisions
 
+- Revisit the BAC Library resource suggestion only after a separate direct
+  user decision. Product completion does not automatically reopen or approve
+  the send.
 - Choose email service provider for future lead capture. Current value: `UNKNOWN`.
 - Choose analytics provider later if traffic or a specific product question requires on-site analytics. Current value: deferred; do not add analytics yet.
 - Confirm whether to make the GitHub repo private. Public is currently working with GitHub Pages; private Pages may depend on account/plan support.

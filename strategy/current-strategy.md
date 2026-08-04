@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-08-03
+Last updated: 2026-08-04
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -181,12 +181,20 @@ local asset, or have unproven distribution. Paid registries, sponsored/link
 placements, link-led guest posting, and personal-story outlets are rejected.
 See `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`.
 
-The only supported follow-on is a separately registered, human-gated pilot
-that prepares one transparent suggestion to the BAC librarian, shows the exact
-recipient, subject, and body to the user, and stops after one approved send.
-The ask must be editorial evaluation of the placement hub, not a backlink,
-endorsement, partnership, or ranking favor. A rejection or no response is a
-valid learning result. Do not expand to the held list without new evidence.
+The BAC pilot produced one review-clean draft, but the user deferred it before
+any send on 2026-08-04. Preserve it as a possible later experiment, not as the
+current growth priority. No approval remains requested, no email was entered
+into an account, and no outreach should resume without a new direct user
+decision.
+
+Product usefulness now precedes authority outreach. The next product research
+must identify one real buyer decision job from current query, SERP,
+ranking-page, community-question, and existing-page evidence; define a useful
+first-screen answer and concrete next action; review beginner, intermediate,
+and advanced needs; and specify the purpose of every proposed section. It may
+promote one implementation action only when the asset can be useful without
+relying on a future backlink, lead form, or ranking claim. This is a quality
+gate, not a requirement to manufacture another page.
 
 Current ranking reality from the 2026-07-18 GSC baseline is weak but
 directional: 20 impressions, 0 clicks, and only small page-level samples. The

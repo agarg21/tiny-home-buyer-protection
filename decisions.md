@@ -775,3 +775,20 @@ Review result: independent read-only reviewer
 both the substantive and final-state review cycles. The exact recipient,
 subject, and body are now eligible for user approval; no send or email-account
 mutation occurred.
+
+## 2026-08-04 - Put BAC Outreach Behind Product Usefulness
+
+Decision: defer `THC-AUTH-002` before any send. Preserve its review-clean draft
+as a possible later experiment, close the approval request, and do not treat a
+future product release as automatic permission to contact the library.
+
+Why: one editorial citation could be useful, but it is not the site's primary
+value proposition and will not repair weak usefulness or ranking fit by itself.
+The project should first prove that it can identify and build a genuinely useful
+buyer-protection asset for a real decision job.
+
+Next gate: `THC-PROD-001` is ready but unselected as research-only work. It must
+use current demand, SERP/ranking-page evidence, current-page overlap, decision
+personas, experience levels, and every-section review to promote at most one
+bounded implementation action. No site or outreach work occurs in this
+reconciliation.

@@ -4,7 +4,7 @@ Action: `THC-AUTH-002`
 
 Last updated: 2026-08-04
 
-Status: `REVIEW_CLEAN_NOT_SENT_AWAITING_USER_APPROVAL`
+Status: `REVIEW_CLEAN_DEFERRED_UNSENT`
 
 ## Frozen Pilot
 
@@ -76,16 +76,20 @@ https://tinyhomeclarity.com/
 - The subject and body are short enough for a librarian to evaluate without
   reading a generic pitch deck or new article.
 
-## Human Gate
+## User Decision
 
 This draft has not been sent or entered into an email account. Independent
 read-only reviewer `019fcc53-0002-7193-b368-2cecad75de2f` returned `PASS` with
 no P0-P3 findings in both the substantive and final-state review cycles on the
-complete eight-path transaction. The user must now explicitly approve this
-exact recipient, subject, and body. Any edit to those fields requires the
-reviewed draft to be updated before approval.
+complete draft transaction.
 
-Silence, a request to continue working, or approval of the general outreach
-idea is not approval to send. After one approved send, the action must stop. A
-rejection, no response, or editorial feedback does not authorize a follow-up or
-another prospect.
+On 2026-08-04 the user chose to put this experiment in the backlog and focus
+first on building something genuinely useful for readers. The prior approval
+request is closed. Preserve the exact draft for possible later reconsideration,
+but do not send it, enter it into an email account, or treat product completion
+as automatic permission to resume outreach.
+
+A later send would require a new direct user decision on the exact recipient,
+subject, and body. Silence, product completion, or a general request to continue
+working is not approval. If later reauthorized, the action still stops after
+one contact with no follow-up or second prospect.

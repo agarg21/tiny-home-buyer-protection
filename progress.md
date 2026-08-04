@@ -524,3 +524,13 @@
   with no P0-P3 findings in both the substantive and final-state review cycles
   on the complete eight-path draft transaction. The exact user approval gate
   is now open; no send is authorized until approval.
+- User redirected `THC-AUTH-002` before any send on 2026-08-04. The reviewed
+  draft is retained but deferred, the approval request is closed, and no email
+  account or external state was accessed.
+- Added `THC-PROD-001` as the sole ready next action: research one real buyer
+  decision surface and promote at most one human-useful implementation only
+  after query/SERP/ranking-page, persona, experience-level, and every-section
+  review. No `site/**` implementation is included in this reconciliation.
+- Independent read-only deferral reviewer
+  `019fcc61-9f49-7052-8cac-d83fce94804e` returned `PASS` with no P0-P3
+  findings on the complete 11-path product-priority reconciliation.

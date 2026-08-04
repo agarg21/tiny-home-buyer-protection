@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-01",
   "next_rescore_due": "2026-08-08",
-  "next_eligible_action_id": null,
+  "next_eligible_action_id": "THC-PROD-001",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -198,7 +198,7 @@
       "success_signal": "A reviewed brief defines a useful buyer-protection asset for people deciding whether to build, buy a kit/shell, or hire a tiny-home builder, with explicit separation from ADU-contractor demand.",
       "implementation_state": "brief-scoped",
       "review_outcome": "PASS",
-      "review_cycles": 2,
+      "review_cycles": 1,
       "qa_evidence": [
         "test -f site/.nojekyll passed",
         "test -f .github/workflows/deploy-pages.yml passed",
@@ -646,8 +646,9 @@
       "learning_value": 4,
       "effort": 1,
       "risk": 2,
-      "status": "in_progress",
+      "status": "deferred",
       "selected_on": "2026-08-04",
+      "deferred_on": "2026-08-04",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "required_evidence": [
@@ -660,6 +661,9 @@
         "https://tinyhomeclarity.com/"
       ],
       "target_paths": [
+        "strategy/current-strategy.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
         "docs/research/tiny-home-authority-outreach-log-2026-08.md",
         "ops/current-cycle.md",
         "ops/needs-user.md",
@@ -675,16 +679,73 @@
       "success_signal": "The exact recipient, subject, and body are independently reviewed and shown to the user; nothing is sent without explicit approval; at most one organizational contact is sent and durably logged; the action stops without contacting held prospects.",
       "human_gate": {
         "required": true,
-        "status": "pending-user-approval",
+        "status": "deferred-by-user",
         "approval_required_for": "the exact public organizational recipient, subject, and message body before send"
       },
-      "implementation_state": "review-clean-draft-awaiting-user-approval",
-      "evidence_classification": "The user's direct manual request on 2026-08-04 selects the review-clean THC-AUTH-001 opportunity for one message draft. That plan is causal selection evidence. The unchanged August 3 GSC snapshot is monitoring context and does not justify broader outreach. The central July 28 report is stale relative to the current local roadmap. Any response, no response, citation, referral traffic, or ranking effect must be observed rather than assumed.",
-      "result": "One plain-text draft is preserved in docs/research/tiny-home-authority-outreach-log-2026-08.md for public organizational recipient library@the-bac.edu with subject 'Resource suggestion for your Tiny Houses research guide'. It discloses ownership, names one resource, describes the four-factor placement workflow, preserves legal uncertainty, and states that no paid, affiliate, or reciprocal arrangement exists. It has not been sent or entered into an email account.",
-      "review_cycles": 1,
+      "implementation_state": "review-clean-draft-deferred-unsent",
+      "evidence_classification": "The user's direct manual request on 2026-08-04 selected the review-clean THC-AUTH-001 opportunity for one message draft. The user's later direct decision on 2026-08-04 is causal evidence to defer that pilot and prioritize product usefulness. The unchanged August 3 GSC snapshot is monitoring context and does not justify outreach or a specific product. The central July 28 report is stale relative to the current local roadmap.",
+      "result": "One review-clean plain-text draft is preserved in docs/research/tiny-home-authority-outreach-log-2026-08.md for public organizational recipient library@the-bac.edu. The user deferred it before any send and closed the approval request. It has not been sent or entered into an email account, and product completion will not automatically authorize it.",
+      "review_cycles": 3,
       "review_outcome": "PASS",
-      "reviewer_id": "019fcc53-0002-7193-b368-2cecad75de2f",
-      "notes": "Selected on 2026-08-04 at clean, origin-aligned base df9a33edae978e162f297d6a5b7657e5d66cace5 and frozen to the eight exact paths above. Independent reviewer 019fcc53-0002-7193-b368-2cecad75de2f returned PASS with no P0-P3 findings in both the substantive and final-state review cycles. The review-clean draft now awaits explicit user approval of the exact recipient, subject, and body. No send is authorized. No held prospect, follow-up, paid or reciprocal link, directory submission, generic template, new content, site/** change, indexing request, vendor recommendation, cost claim, legal/zoning conclusion, or account mutation is authorized."
+      "reviewer_id": "019fcc61-9f49-7052-8cac-d83fce94804e",
+      "deferral_review": {
+        "cycle": 3,
+        "reviewer_id": "019fcc61-9f49-7052-8cac-d83fce94804e",
+        "reviewer_title": null,
+        "read_only": true,
+        "base_sha": "fc35988fc3cf55dd44080ef60c94d9f7503586da",
+        "verdict": "PASS",
+        "findings": []
+      },
+      "notes": "Selected on 2026-08-04 at clean, origin-aligned base df9a33edae978e162f297d6a5b7657e5d66cace5 and expanded by direct user instruction to the 11 exact paths above before touching the added paths. Independent reviewer 019fcc53-0002-7193-b368-2cecad75de2f returned PASS with no P0-P3 findings in both draft review cycles. The user then deferred the review-clean draft before any send and prioritized product usefulness. Independent deferral reviewer 019fcc61-9f49-7052-8cac-d83fce94804e returned PASS with no P0-P3 findings on the complete 11-path reconciliation. No approval request remains active. A later send requires a new direct user decision. No held prospect, follow-up, paid or reciprocal link, directory submission, generic template, new content, site/** change, indexing request, vendor recommendation, cost claim, legal/zoning conclusion, or account mutation is authorized."
+    },
+    {
+      "id": "THC-PROD-001",
+      "title": "Research and define the next genuinely useful buyer-protection asset",
+      "kind": "product-research",
+      "lane": "content-and-product",
+      "impact": 5,
+      "confidence": 4,
+      "learning_value": 5,
+      "effort": 2,
+      "risk": 2,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "required_evidence": [
+        "one_observed_buyer_decision_job",
+        "current_query_serp_and_ranking_page_sample",
+        "existing_page_overlap_audit",
+        "decision_persona_and_experience_level_review",
+        "first_screen_and_every_section_contract"
+      ],
+      "target_urls": [],
+      "target_paths": [
+        "docs/research/tiny-home-next-user-value-audit-2026-08.md",
+        "briefs/tiny-home-next-user-value-brief-2026-08.md",
+        "strategy/current-strategy.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "status/site-pages.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "The site has seven reviewed public assets but extremely weak search visibility. The user explicitly prioritized proving reader usefulness before authority outreach. Current evidence does not yet select a specific new page or repair.",
+      "hypothesis": "A bounded searcher-problem, SERP, ranking-page, persona, experience-level, and existing-page audit can identify one product action that solves a concrete buyer decision better than another generic article or premature outreach.",
+      "expected_effect": "Produce one implementation-ready user-value brief or a truthful no-build result if no candidate clears the quality and evidence gates. No traffic or ranking effect is promised by the research itself.",
+      "success_signal": "The research defines one primary decision job, a useful first-screen answer, a concrete next action, source and claim boundaries, beginner/intermediate/advanced usefulness, every-section purpose, current-page overlap, native QA, and at most one separately implementable action.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required",
+        "approval_required_for": null
+      },
+      "implementation_state": "ready-unselected-research-only",
+      "evidence_classification": "The user's direct 2026-08-04 priority decision is causal evidence for product research before outreach. The August 3 GSC snapshot remains weak but unchanged monitoring context and does not select the asset. Current query, SERP, ranking-page, community-question, and page evidence must be collected or explicitly marked UNKNOWN when the action is selected.",
+      "notes": "Ready but unselected. Exact paths must be redeclared when selected. This item does not authorize site/** changes, product implementation, outreach, indexing, external-account mutation, vendor recommendations, typical or complete cost claims, or legal/zoning conclusions."
     },
     {
       "id": "THC-RES-001",

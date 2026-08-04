@@ -2,23 +2,27 @@
 
 Last updated: 2026-08-04
 
-Active action: `THC-AUTH-002`
+Active action: `none`
 
-Next eligible action: `none`
+Next eligible action: `THC-PROD-001`
 
-## Active Priority
+## Latest Disposition
 
-`THC-AUTH-002` is a direct-manual, draft-only authority transaction selected
+`THC-AUTH-002` was a direct-manual, draft-only authority transaction selected
 on 2026-08-04 at clean, origin-aligned base
 `df9a33edae978e162f297d6a5b7657e5d66cace5`.
 
-Its job is to prepare one plain-text resource suggestion for the Boston
-Architectural College Library, independently review the exact recipient,
-subject, and body, and then stop at the human approval gate. The user has not
-approved a final message or send.
+It produced one review-clean plain-text resource suggestion for the Boston
+Architectural College Library. Before any send, the user chose on 2026-08-04 to
+put the experiment in the backlog and focus first on building something
+genuinely useful for readers. The action is deferred, unsent, and no longer
+awaits approval.
 
 Frozen exact paths:
 
+- `strategy/current-strategy.md`
+- `backlog/implementation-backlog.md`
+- `backlog/seo-research-review-backlog.md`
 - `docs/research/tiny-home-authority-outreach-log-2026-08.md`
 - `ops/current-cycle.md`
 - `ops/needs-user.md`
@@ -28,19 +32,24 @@ Frozen exact paths:
 - `decisions.md`
 - `progress.md`
 
+The user redirected this transaction on 2026-08-04 before any send.
+The expanded 11-path scope may preserve the reviewed draft, defer the outreach
+in the supporting backlogs, remove the approval blocker, and restore the next
+eligible action to user-facing product research. It still authorizes no email
+send, external-account access, site change, or product implementation.
+
 The causal evidence is the review-clean `THC-AUTH-001` plan, which retained
 only the BAC Library's curated Tiny Houses guide and the canonical placement
 hub for this pilot. The August 3 GSC snapshot remains unchanged monitoring
 context; no newer snapshot or central decision exists. The central operator
 report is stale from July 28 and does not override the current local roadmap.
 
-This transaction may draft and review one message for public organizational
-address `library@the-bac.edu`. It may not send email, create or mutate an
-account, contact another prospect, follow up, offer payment or reciprocity,
-request a backlink or ranking favor, create content, change `site/**`, request
-indexing, recommend a vendor, make a cost claim, or state a legal/zoning
-conclusion. Sending requires a later explicit user approval of the exact
-recipient, subject, and body.
+This transaction preserved and reviewed one message for public organizational
+address `library@the-bac.edu`, then deferred it at the user's direction. It did
+not send email, create or mutate an account, contact another prospect, follow
+up, offer payment or reciprocity, request a backlink or ranking favor, create
+content, change `site/**`, request indexing, recommend a vendor, make a cost
+claim, or state a legal/zoning conclusion.
 
 Draft result: the exact recipient, subject, and body are preserved in
 `docs/research/tiny-home-authority-outreach-log-2026-08.md`. The note discloses
@@ -49,9 +58,22 @@ placement checks without making a legal claim, asks for editorial
 consideration, and states that no paid, affiliate, or reciprocal arrangement
 exists. It has not been sent or entered into an email account. Independent
 reviewer `019fcc53-0002-7193-b368-2cecad75de2f` returned `PASS` in both the
-substantive and final-state review cycles, with no P0-P3 findings. The exact
-user approval gate is now open; no send is authorized until the user explicitly
-approves the preserved recipient, subject, and body.
+substantive and final-state review cycles, with no P0-P3 findings. The prior
+approval gate is closed by deferral. A later send requires a new direct user
+decision on the preserved recipient, subject, and body.
+
+Independent deferral reviewer `019fcc61-9f49-7052-8cac-d83fce94804e`
+returned `PASS` with no P0-P3 findings on the complete 11-path reconciliation.
+
+## Next Product Priority
+
+`THC-PROD-001` is ready but unselected. It is a research-only user-value gate:
+identify one real buyer decision job from current demand, SERPs, ranking pages,
+community questions, and existing-page overlap; define a useful first-screen
+answer and concrete next step; test it across decision personas and beginner,
+intermediate, and advanced experience; and give every proposed section a clear
+reader purpose. Promote at most one implementation action. Do not change
+`site/**` in that research transaction.
 
 ## Latest Completed Priority
 
@@ -102,11 +124,10 @@ promotional registries, link-led guest posts, and personal-story routes are
 rejected. The full evidence ledger is
 `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`.
 
-Next ready action after this review-clean completion: `THC-AUTH-002`, a
-separately registered, human-gated one-contact BAC librarian pilot. It may show
-the user one exact recipient, subject, and body and send only after explicit
-approval. It must stop after that contact. It is ready but not selected, and no
-external contact is authorized by `THC-AUTH-001`.
+At the time of this review-clean completion, `THC-AUTH-002` was the next ready
+human-gated pilot. It was later selected, drafted, reviewed, and deferred unsent
+by the user on 2026-08-04. No external contact was authorized by
+`THC-AUTH-001`.
 
 Native QA passes 54/54 tests, zero SEO errors with three known canonical
 warnings, zero operator-state errors, all 17 historical snapshot validations,
@@ -651,9 +672,8 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- `THC-AUTH-002` is the sole active transaction and is draft-only until its
-  human gate is satisfied. Supporting research and independent review roles
-  remain read-only.
+- No transaction is active. `THC-PROD-001` is ready but unselected, and
+  supporting research and independent review roles remain read-only.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -667,5 +687,5 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`none` while `THC-AUTH-002` is active. Complete the reviewed message draft and
-obtain explicit user approval before any send; do not select another action.
+`THC-PROD-001`, a research-only user-value gate. It is ready but unselected;
+the next transaction must redeclare exact paths before work begins.

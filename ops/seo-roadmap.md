@@ -40,10 +40,10 @@ unreviewed release decisions.
     GSC sensor hardening on 2026-08-01.
 15. `THC-AUTH-001` — completed review-clean ethical citation-opportunity plan
     on 2026-08-03; no outreach or link placement.
-16. `THC-AUTH-002` — active direct-manual draft-only transaction selected on
-    2026-08-04; no email send is authorized before the human gate.
-17. Select the next buyer-protection tool only from observed evidence and the
-    project's skeptical, official-source-backed product strategy.
+16. `THC-AUTH-002` — review-clean BAC draft deferred unsent by the user on
+    2026-08-04; no approval request or external contact remains active.
+17. `THC-PROD-001` — ready but unselected research-only user-value gate for one
+    evidence-backed buyer-protection product action.
 
 ## THC-MON-001 completion
 
@@ -121,28 +121,31 @@ unreviewed release decisions.
   `3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28` from aligned base
   `c6e795d4d52cb881bfc75ee06f6986253205d4c8`. Deployment does not apply because
   no `site/**` path changed.
-- Follow-on: `THC-AUTH-002`, a separate human-gated one-contact
-  pilot. It may prepare one transparent BAC librarian suggestion and send only
-  after the user approves the exact recipient, subject, and body. It is ready
-  but not selected.
+- Historical follow-on: `THC-AUTH-002` was the separate human-gated
+  one-contact pilot promoted by this research. It was later selected, drafted,
+  reviewed, and deferred unsent by the user on 2026-08-04.
 
-## THC-AUTH-002 active transaction
+## THC-AUTH-002 deferred transaction
 
 - One public organizational recipient: Boston Architectural College Library.
 - One asset: the canonical placement hub.
-- Exact scope: the eight paths frozen in `ops/seo-roadmap.json`, from aligned
+- Exact scope: the 11 paths frozen in `ops/seo-roadmap.json`, from aligned
   base `df9a33edae978e162f297d6a5b7657e5d66cace5`.
+- User redirect: before any send, the user asked to backlog this pilot and
+  prioritize building something genuinely useful. The transaction scope was
+  therefore expanded to the 11 exact paths in `ops/seo-roadmap.json` for a
+  reviewed, docs-only deferral and product-priority reconciliation.
 - Current evidence: no newer GSC snapshot or central decision exists. The
   August 3 snapshot is unchanged monitoring context, and the July 28 central
   report is stale relative to the reviewed local roadmap.
-- Human gate: show the exact recipient, subject, and body to the user and obtain
-  explicit approval before send.
+- User decision: defer the experiment and prioritize a genuinely useful
+  user-facing product before considering outreach.
 - Draft state: the exact plain-text message is preserved in
   `docs/research/tiny-home-authority-outreach-log-2026-08.md`; it has not been
   sent or entered into an email account. Independent reviewer
   `019fcc53-0002-7193-b368-2cecad75de2f` returned `PASS` with no P0-P3 findings
-  in both the substantive and final-state review cycles. The exact user
-  approval gate is now open.
+  in both the substantive and final-state review cycles. No approval is
+  requested. A later send requires a new direct user decision.
 - Stop after one contact, including after rejection or no response. Do not
   contact the six held prospects.
 - Success is truthful delivery and learning. A reply, citation, referral visit,
@@ -150,6 +153,20 @@ unreviewed release decisions.
 - No payment, reciprocity, directory submission, generic template, new content,
   `site/**`, indexing request, account creation, vendor recommendation, cost
   claim, or legal/zoning conclusion.
+
+## THC-PROD-001 next eligible research
+
+- Research-only; ready but unselected.
+- Start from one observed buyer decision job, not a keyword headline or content
+  quota.
+- Use current query, SERP, ranking-page, community-question, and existing-page
+  overlap evidence with explicit uncertainty and non-additive demand handling.
+- Define the first-screen answer, concrete next action, decision personas,
+  beginner/intermediate/advanced usefulness, and every-section purpose.
+- Promote at most one implementation action only if the proposed asset is
+  useful without relying on a backlink, lead form, or ranking promise.
+- No `site/**`, outreach, indexing, external account, vendor recommendation,
+  cost claim, or legal/zoning conclusion is authorized by this ready state.
 
 ## THC-COST-002 completion
 

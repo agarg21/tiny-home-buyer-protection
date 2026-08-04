@@ -1,6 +1,6 @@
 # Implementation Backlog
 
-Last updated: 2026-07-29
+Last updated: 2026-08-04
 
 This is a supporting implementation inventory. `ops/seo-roadmap.json` is the
 durable execution queue; backlog headings do not authorize work.
@@ -73,6 +73,11 @@ durable execution queue; backlog headings do not authorize work.
 
 ## Candidates, Not Selected
 
+- `THC-PROD-001`: research and define one genuinely useful buyer-protection
+  asset before selecting another site implementation. The research must start
+  from a real decision job, current search and ranking-page evidence, current
+  site overlap, and beginner/intermediate/advanced usefulness. No `site/**`
+  work is authorized by the backlog item itself.
 - `THC-BUILD-002`: national build decision / builder due-diligence asset.
 - Georgia classification repair and under-$20K consolidation/indexing
   diagnosis remain candidates after the active calculator transaction.
@@ -129,3 +134,6 @@ durable execution queue; backlog headings do not authorize work.
 
 - Tiny House Toilet Options Calculator.
 - Tiny Home Builder / Vendor Due Diligence Checklist.
+- The review-clean BAC librarian suggestion remains deferred until the project
+  clears the `THC-PROD-001` usefulness gate and the user separately chooses to
+  revisit outreach.

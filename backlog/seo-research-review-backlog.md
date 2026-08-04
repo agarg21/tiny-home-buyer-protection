@@ -1,6 +1,6 @@
 # SEO Research & Review Backlog
 
-Last updated: 2026-08-03
+Last updated: 2026-08-04
 
 This is supporting evidence inventory. `ops/seo-roadmap.json` is the durable
 execution queue; this file does not schedule work.
@@ -17,11 +17,17 @@ execution queue; this file does not schedule work.
   `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`. Independent
   cycle 2 and final completed-state cycle 3 reviews returned `PASS` with no
   P0-P3 findings after both cycle 1 P2 evidence groups were fixed.
-- The next ready but unselected action is `THC-AUTH-002`: a separate
-  human-gated pilot
-  that may prepare one transparent BAC library resource suggestion and may
-  send it only after the user approves the exact recipient, subject, and body.
-  It must stop after that contact and cannot roll into the held prospect list.
+- `THC-AUTH-002` produced one independently reviewed BAC Library draft, but the
+  user deferred the pilot before any send on 2026-08-04. Preserve the exact
+  draft in the authority outreach log as a possible later experiment. No
+  approval request, email-account access, external contact, follow-up, or held
+  prospect is active.
+- The next ready but unselected action is `THC-PROD-001`, a research-only
+  user-value gate. It must inspect real decision demand, current SERPs and
+  ranking pages, existing-page overlap, decision personas, and beginner,
+  intermediate, and advanced usefulness; then promote at most one bounded
+  product implementation with a first-screen promise and every-section
+  contract. It does not authorize `site/**` changes.
 - `THC-MON-001` is complete and diagnoses the July 22-29 zero-impression streak as an organic
   visibility stall rather than a technical outage. Public crawl surfaces,
   five established indexed pages, manual-action, and security evidence are
@@ -34,9 +40,9 @@ execution queue; this file does not schedule work.
   URL Inspection. Fifty-four native tests pass, all 15 historical snapshots
   remain valid, and independent review returned `PASS_WITH_P3` with no P0-P2
   findings.
-- `THC-AUTH-001` is review-clean and complete. `THC-AUTH-002` is not selected,
-  and no external contact is authorized until its exact paths are registered
-  and its human gate is satisfied.
+- `THC-AUTH-001` is review-clean and complete. `THC-AUTH-002` is deferred and
+  unsent. `THC-PROD-001` is the sole ready next action; no external contact or
+  product implementation is authorized by this backlog state.
 
 - `THC-BUILD-003` is completed and production-verified. It inherited the exact
   fixed `THC-BUILD-002` research and implementation without reopening research,
