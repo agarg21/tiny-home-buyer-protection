@@ -547,8 +547,15 @@ Cycle 1 resolution:
   the stop-after-one rule, all prior evidence fixes, exact nine-path scope, and
   green native QA.
 
-Release state: review-clean and eligible for exact-path docs-only commit and
-push. No deployment is applicable because `site/**` is prohibited.
+Release:
+
+- Exact reviewed commit:
+  `3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28`
+- Base: `c6e795d4d52cb881bfc75ee06f6986253205d4c8`
+- Remote: `origin/main` contains the reviewed commit.
+- Deployment: not applicable because no `site/**` path changed.
+
+Release state: pushed, no deployment.
 
 ## 2026-08-01 - THC-MON-001 Visibility Diagnosis And Sensor Hardening
 

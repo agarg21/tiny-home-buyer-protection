@@ -510,3 +510,6 @@
 - Closed `THC-AUTH-001` as review-clean research-only work and marked
   `THC-AUTH-002` ready but unselected. Its one-contact BAC library send requires
   explicit user approval of the exact recipient, subject, and body.
+- Committed and pushed the exact nine-path `THC-AUTH-001` transaction in
+  `3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28` from aligned base `c6e795d`. No
+  deployment applies because no `site/**` path changed.

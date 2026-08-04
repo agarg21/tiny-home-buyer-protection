@@ -117,6 +117,10 @@ unreviewed release decisions.
 - QA: 54/54 tests, zero SEO errors with three known canonical warnings, zero
   operator-state errors, all 17 GSC snapshots validated, valid JSON, required
   files, exact nine-path scope, and clean diff checks.
+- Release: the exact reviewed transaction was pushed in
+  `3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28` from aligned base
+  `c6e795d4d52cb881bfc75ee06f6986253205d4c8`. Deployment does not apply because
+  no `site/**` path changed.
 - Follow-on: `THC-AUTH-002`, a separate human-gated one-contact
   pilot. It may prepare one transparent BAC librarian suggestion and send only
   after the user approves the exact recipient, subject, and body. It is ready

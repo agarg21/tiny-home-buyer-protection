@@ -627,10 +627,14 @@
         "ops/seo-roadmap.json parsed",
         "exact nine-path scope and git diff --check passed"
       ],
-      "review_cycles": 2,
+      "review_cycles": 3,
       "review_outcome": "PASS",
       "reviewer_id": "019fc80e-9063-7a43-b144-c9e7313a8fe2",
-      "notes": "Selected on 2026-08-03 at clean, origin-aligned base c6e795d4d52cb881bfc75ee06f6986253205d4c8 and frozen to the nine exact paths above. Independent cycle 1 review returned FAIL with two P2 evidence groups; the GSC indexing-state and current Dwell/Tiny House Expedition classification findings were fixed. Cycle 2 returned PASS with no P0-P3 findings. Final cycle 3 returned PASS with no findings on the completed roadmap state and human-gated next action. The sole follow-on is separately registered human-gated THC-AUTH-002; it is ready but not selected or authorized here. No site/** change, new page, content rewrite, outreach, backlink placement, paid link, link exchange, private network, generic directory submission, external-account mutation, fabricated relationship, vendor recommendation, cost claim, or legal/zoning conclusion occurred."
+      "release_state": "pushed-no-deployment",
+      "release_commit": "3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28",
+      "release_base_commit": "c6e795d4d52cb881bfc75ee06f6986253205d4c8",
+      "released_on": "2026-08-03",
+      "notes": "Selected on 2026-08-03 at clean, origin-aligned base c6e795d4d52cb881bfc75ee06f6986253205d4c8 and frozen to the nine exact paths above. Independent cycle 1 review returned FAIL with two P2 evidence groups; the GSC indexing-state and current Dwell/Tiny House Expedition classification findings were fixed. Cycle 2 returned PASS with no P0-P3 findings. Final cycle 3 returned PASS with no findings on the completed roadmap state and human-gated next action. The exact reviewed transaction was pushed in 3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28; no deployment applies. The sole follow-on is separately registered human-gated THC-AUTH-002; it is ready but not selected or authorized here. No site/** change, new page, content rewrite, outreach, backlink placement, paid link, link exchange, private network, generic directory submission, external-account mutation, fabricated relationship, vendor recommendation, cost claim, or legal/zoning conclusion occurred."
     },
     {
       "id": "THC-AUTH-002",

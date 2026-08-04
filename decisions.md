@@ -746,6 +746,9 @@ indexing-state merge and stale/incomplete Dwell and Tiny House Expedition
 evidence were fixed. Independent cycle 2 returned `PASS` with no P0-P3
 findings; final completed-state cycle 3 also returned `PASS` with no findings.
 
+Release: the exact reviewed nine-path transaction was pushed in
+`3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28`; no deployment applies.
+
 Next gate: `THC-AUTH-002` is ready but unselected. It may prepare one
 transparent BAC librarian suggestion and may send only after the user approves
 the exact recipient, subject, and body. It must stop after that one contact.

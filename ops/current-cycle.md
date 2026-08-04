@@ -69,6 +69,11 @@ in cycle 1 with two P2 evidence groups; both were fixed. Cycle 2 returned
 `PASS` with no P0-P3 findings. Final cycle 3 returned `PASS` with no findings
 on the completed roadmap state and human-gated next action.
 
+The exact nine-path reviewed transaction was committed and pushed in
+`3bf5ce5e9c244c5373a53a8d6a15ce5c2cf57c28` from aligned base
+`c6e795d4d52cb881bfc75ee06f6986253205d4c8`. Deployment does not apply because
+no `site/**` path changed.
+
 ## Completed Priority
 
 `THC-MON-001` is a completed direct-manual research and monitoring transaction
