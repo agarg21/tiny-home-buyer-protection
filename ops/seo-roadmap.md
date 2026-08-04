@@ -38,9 +38,11 @@ unreviewed release decisions.
     run `30622059848` succeeded.
 14. `THC-MON-001` — completed the review-clean visibility diagnosis and daily
     GSC sensor hardening on 2026-08-01.
-15. `THC-AUTH-001` — ready but not selected: research and qualify ethical
-    citation opportunities for existing assets; no outreach or link placement.
-16. Select the next buyer-protection tool only from observed evidence and the
+15. `THC-AUTH-001` — completed review-clean ethical citation-opportunity plan
+    on 2026-08-03; no outreach or link placement.
+16. `THC-AUTH-002` — ready but unselected human-gated one-contact BAC library
+    resource-suggestion pilot.
+17. Select the next buyer-protection tool only from observed evidence and the
     project's skeptical, official-source-backed product strategy.
 
 ## THC-MON-001 completion
@@ -81,11 +83,19 @@ unreviewed release decisions.
   from aligned base `8c38181543d7be6599bdf825cf4f1a1d2adee4be`.
   Deployment does not apply because no `site/**` path changed.
 
-## THC-AUTH-001 ready candidate
+## THC-AUTH-001 completion
 
 - Selection evidence: seven reviewed live assets, an eight-day finalized
-  zero-impression streak, healthy technical/indexing evidence for established
-  pages, and GSC external-links total of zero.
+  zero-impression streak followed by only two isolated impressions, healthy
+  public crawl and sitemap discovery, and GSC external-links total of zero.
+- Current context: the August 3 snapshot through August 1 reports 32 rolling
+  impressions and 0 clicks. The sitemap reports seven discovered URLs; URL
+  Inspection reports five indexed URLs, the under-$20K URL as unknown to
+  Google, and the build-options URL as discovered-currently-not-indexed. It is
+  evidence of sitemap discovery and tiny residual testing, not meaningful
+  visibility recovery.
+- Exact scope: the nine paths frozen in `ops/seo-roadmap.json`, from aligned
+  base `c6e795d4d52cb881bfc75ee06f6986253205d4c8`.
 - Boundary: research and qualify opportunities only. Each retained opportunity
   must have a specific cite-worthy existing asset, topical/audience fit,
   editorial legitimacy, risk classification, and a current public contact or
@@ -95,6 +105,36 @@ unreviewed release decisions.
   partnerships, external-account mutation, and `site/**` changes.
 - Current Semrush authority metrics remain `UNKNOWN`; API units were
   unavailable and optional enrichment is not a gate.
+- Research result: retain only Boston Architectural College Library's curated
+  Tiny Houses guide for a later pilot. Its current guide has a visible gap for
+  the canonical homepage's placement due-diligence job and the library exposes
+  a public contact. Six candidates are held; paid, promotional, link-led, and
+  credential-mismatch routes are rejected.
+- Review: cycle 1 `FAIL` had two P2 evidence groups. The GSC indexing-state
+  merge and stale/incomplete Dwell and Tiny House Expedition evidence were
+  fixed. Independent cycle 2 and final completed-state cycle 3 returned `PASS`
+  with no P0-P3 findings.
+- QA: 54/54 tests, zero SEO errors with three known canonical warnings, zero
+  operator-state errors, all 17 GSC snapshots validated, valid JSON, required
+  files, exact nine-path scope, and clean diff checks.
+- Follow-on: `THC-AUTH-002`, a separate human-gated one-contact
+  pilot. It may prepare one transparent BAC librarian suggestion and send only
+  after the user approves the exact recipient, subject, and body. It is ready
+  but not selected.
+
+## THC-AUTH-002 ready candidate
+
+- One public organizational recipient: Boston Architectural College Library.
+- One asset: the canonical placement hub.
+- Human gate: show the exact recipient, subject, and body to the user and obtain
+  explicit approval before send.
+- Stop after one contact, including after rejection or no response. Do not
+  contact the six held prospects.
+- Success is truthful delivery and learning. A reply, citation, referral visit,
+  or ranking effect remains `UNKNOWN` until observed.
+- No payment, reciprocity, directory submission, generic template, new content,
+  `site/**`, indexing request, account creation, vendor recommendation, cost
+  claim, or legal/zoning conclusion.
 
 ## THC-COST-002 completion
 

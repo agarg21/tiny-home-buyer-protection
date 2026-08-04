@@ -478,3 +478,35 @@
 - Committed and pushed the exact 13-path `THC-MON-001` transaction in
   `5e2dbae380705fb8f52d1e0caf3682f770276cb3` from aligned base `8c38181`.
   No deployment applies because the action changed no `site/**` path.
+- Registered direct-manual `THC-AUTH-001` on 2026-08-03 at clean,
+  origin-aligned base `c6e795d` with nine frozen paths and no site, content,
+  indexing, outreach, link-placement, payment, account, vendor, cost, or legal
+  authority.
+- Validated the August 2 and August 3 GSC snapshots. Two isolated impressions
+  ended the prior zero streak, but the August 3 snapshot remains extremely
+  weak at 32 rolling impressions and 0 clicks. The sitemap reports seven
+  discovered URLs; URL Inspection reports five indexed URLs, the under-$20K
+  URL as unknown to Google, and the build-options URL as
+  discovered-currently-not-indexed. Public preflight passes for all seven URLs.
+- Audited the seven existing assets and current public resource, contact,
+  membership, advertising, guest-post, and submission pages. Retained one
+  pursue-later fit, held six conditional candidates, and rejected paid,
+  promotional, link-led, or credential-mismatch routes in
+  `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`.
+- The sole supported follow-on is a separately reviewed, human-gated
+  one-contact suggestion to Boston Architectural College Library. No outreach,
+  submission, external-account mutation, or link placement occurred.
+- Independent reviewer `019fc80e-9063-7a43-b144-c9e7313a8fe2` returned `FAIL`
+  in cycle 1 with two P2 evidence groups. Corrected the merged GSC indexing
+  states, replaced stale Dwell evidence, evaluated Tiny House Expedition's
+  relevant directory, moved it to hold, and synchronized six holds.
+- Cycle 2 returned `PASS` with no P0-P3 findings. Native QA passes 54/54 tests,
+  zero SEO errors with three known canonical warnings, zero operator-state
+  errors, all 17 historical snapshot validations, valid JSON, required files,
+  exact nine-path scope, and `git diff --check`.
+- Final cycle 3 returned `PASS` with no findings on the completed roadmap state,
+  exact message-approval gate, sole BAC organizational recipient, and
+  stop-after-one boundary.
+- Closed `THC-AUTH-001` as review-clean research-only work and marked
+  `THC-AUTH-002` ready but unselected. Its one-contact BAC library send requires
+  explicit user approval of the exact recipient, subject, and body.

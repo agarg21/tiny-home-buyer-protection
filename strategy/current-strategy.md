@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-08-01
+Last updated: 2026-08-03
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -170,6 +170,23 @@ and community resources that have a real reason to cite a specific existing
 asset. Reject paid links, exchanges, private networks, mass templates, generic
 directories, and fabricated partnerships. Outreach and external-account
 mutation require a later separately reviewed action.
+
+The 2026-08-03 qualification pass found one high-confidence editorial fit:
+Boston Architectural College Library's public, curated Tiny Houses research
+guide lacks a beginner-facing placement due-diligence tool, while the current
+homepage fills that job without claiming a legal answer. Six other resources
+remain on hold because they require a personal relationship, sit inside a
+commercial membership ecosystem, lack a clear editorial route, need a stronger
+local asset, or have unproven distribution. Paid registries, sponsored/link
+placements, link-led guest posting, and personal-story outlets are rejected.
+See `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`.
+
+The only supported follow-on is a separately registered, human-gated pilot
+that prepares one transparent suggestion to the BAC librarian, shows the exact
+recipient, subject, and body to the user, and stops after one approved send.
+The ask must be editorial evaluation of the placement hub, not a backlink,
+endorsement, partnership, or ranking favor. A rejection or no response is a
+valid learning result. Do not expand to the held list without new evidence.
 
 Current ranking reality from the 2026-07-18 GSC baseline is weak but
 directional: 20 impressions, 0 clicks, and only small page-level samples. The

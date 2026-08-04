@@ -723,3 +723,29 @@ block the docs/tools-only release.
 
 Release: the exact reviewed transaction was pushed in
 `5e2dbae380705fb8f52d1e0caf3682f770276cb3`; no deployment applies.
+
+## 2026-08-03 - Qualify One Ethical Citation Opportunity
+
+Decision: register `THC-AUTH-001` as a nine-path, research-only transaction and
+retain only Boston Architectural College Library's Tiny Houses research guide
+for a possible later contact.
+
+Why: the library guide is publicly curated, serves a built-environment
+research audience, lacks a beginner-facing placement due-diligence tool, and
+has a current public organizational contact. The canonical homepage fills that
+job without offering a legal answer. Six other candidates require a stronger
+relationship, clearer editorial route, stronger local asset, or demonstrated
+distribution. Paid registries, sponsored/link placements, link-led guest posts,
+and personal-story credential mismatches are rejected.
+
+Boundary: no outreach, submission, link placement, account change, new content,
+site change, indexing request, payment, exchange, or fabricated relationship.
+
+Review result: cycle 1 returned `FAIL` with two P2 evidence groups. The GSC
+indexing-state merge and stale/incomplete Dwell and Tiny House Expedition
+evidence were fixed. Independent cycle 2 returned `PASS` with no P0-P3
+findings; final completed-state cycle 3 also returned `PASS` with no findings.
+
+Next gate: `THC-AUTH-002` is ready but unselected. It may prepare one
+transparent BAC librarian suggestion and may send only after the user approves
+the exact recipient, subject, and body. It must stop after that one contact.

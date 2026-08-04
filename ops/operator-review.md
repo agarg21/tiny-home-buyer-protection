@@ -425,6 +425,131 @@ Release:
 
 Release state: production-verified.
 
+## 2026-08-03 - Ethical Citation Opportunity Qualification
+
+Action: `THC-AUTH-001`
+
+Selection authority: direct manual user instruction. No Control Room dispatch
+lease applies.
+
+Reviewed evidence:
+
+- The completed `THC-MON-001` visibility diagnosis and August 1 GSC external
+  links total of zero selected a bounded authority-research action. Zero links
+  do not prove that authority is the sole cause of weak visibility.
+- The validated August 2 and August 3 GSC snapshots are monitoring context. Two
+  isolated impressions ended the prior zero streak, while the August 3
+  snapshot remains weak at 32 rolling impressions and 0 clicks. The sitemap
+  reports seven discovered URLs; URL Inspection reports five indexed URLs, the
+  under-$20K URL as unknown to Google, and the build-options URL as
+  discovered-currently-not-indexed.
+- Public preflight passes for all seven URLs. Current Semrush authority,
+  traffic, and backlink metrics remain `UNKNOWN`; optional enrichment was not
+  a gate.
+- Current public candidate pages, contact paths, membership terms, advertising
+  terms, guest-post rules, and submission rules were checked on 2026-08-03.
+
+Candidate decision:
+
+- Retain one pursue-later fit: Boston Architectural College Library's public,
+  curated Tiny Houses guide for possible evaluation of the canonical placement
+  hub.
+- Hold six candidates whose relationship, editorial route, asset readiness,
+  or distribution evidence is insufficient.
+- Reject paid registries, sponsored/link placements, link-led guest posting,
+  and outlets requiring personal tiny-house stories or project credentials.
+- Propose only `THC-AUTH-002`, a separately registered, human-gated one-contact
+  BAC librarian pilot. No outreach is authorized in the current transaction.
+
+Frozen exact paths:
+
+- `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`
+- `strategy/current-strategy.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Pre-review QA:
+
+- Required `.nojekyll` and Pages workflow files are present.
+- `node --test tools/*.test.mjs`: 54/54 tests passed.
+- `node tools/seo-qa.mjs`: seven HTML pages and seven sitemap URLs, zero
+  errors, and three known missing-canonical warnings.
+- `node tools/operator-state-qa.mjs`: zero errors; active action
+  `THC-AUTH-001`; latest snapshot `2026-08-03`.
+- All 17 historical GSC snapshots validate.
+- `ops/seo-roadmap.json` parses.
+- `git diff --check` passes.
+- The working tree contains only the nine frozen action paths.
+- Anti Gravity advisory was attempted but produced no verdict because its
+  headless process could not obtain read-file permission. It was not bypassed;
+  the required independent Codex reviewer remains the release gate.
+
+### Independent review cycle 1
+
+- Reviewer: independent read-only thread
+  `019fc80e-9063-7a43-b144-c9e7313a8fe2`
+- Reviewer title: unavailable
+- Reviewed base: `c6e795d4d52cb881bfc75ee06f6986253205d4c8`
+- Verdict: `FAIL`
+- P0/P1/P3: none.
+- P2: the plan and mirrors merged the under-$20K URL's `URL is unknown
+  to Google` state with the build-options URL's `Discovered - currently not
+  indexed` state.
+- P2: the Dwell reject relied on an expired 2020 submission route despite a
+  current July 2026 pitch policy, and Tiny House Expedition was rejected from
+  its home/project feature route without evaluating its directly relevant
+  Advocacy & Legal Resources directory.
+- The reviewer confirmed the BAC contact, resource gap, placement-hub fit,
+  experience-level usefulness, ethical boundary, human gate, and one-contact
+  stopping rule.
+
+Cycle 1 resolution:
+
+- Preserve the seven sitemap-discovered URLs separately from URL Inspection's
+  five indexed, one unknown-to-Google, and one
+  discovered-currently-not-indexed states across every current mirror.
+- Replace Dwell's stale evidence with its current editorial pitch policy. Keep
+  it rejected because the route seeks an actual project or an original
+  reported piece, essay, analysis, or guide, not evaluation of an existing
+  independent tool.
+- Move Tiny House Expedition to `hold`: its directory has a relevant Advocacy
+  & Legal Resources section, but no neutral no-fee resource-suggestion path was
+  verified and its feature form asks for a home, community, experience, or
+  project.
+- Update the synchronized hold count from five to six.
+
+### Independent review cycle 2
+
+- Reviewer: same independent read-only thread
+  `019fc80e-9063-7a43-b144-c9e7313a8fe2`
+- Reviewed base: `c6e795d4d52cb881bfc75ee06f6986253205d4c8`
+- Verdict: `PASS`
+- Findings: no P0-P3.
+- Confirmed both cycle 1 P2 groups resolved, one pursue and six holds
+  synchronized, BAC opportunity truth and experience-level usefulness, exact
+  human gate and stopping rule, full nine-path scope, and green native QA.
+
+### Independent review cycle 3
+
+- Reviewer: same independent read-only thread
+  `019fc80e-9063-7a43-b144-c9e7313a8fe2`
+- Reviewed base: `c6e795d4d52cb881bfc75ee06f6986253205d4c8`
+- Verdict: `PASS`
+- Findings: no P0-P3.
+- Confirmed `THC-AUTH-001` truthfully completed, no active action,
+  `THC-AUTH-002` as the sole ready but unselected item, seven unique target
+  paths, a pending exact-message human gate, one BAC organizational contact,
+  the stop-after-one rule, all prior evidence fixes, exact nine-path scope, and
+  green native QA.
+
+Release state: review-clean and eligible for exact-path docs-only commit and
+push. No deployment is applicable because `site/**` is prohibited.
+
 ## 2026-08-01 - THC-MON-001 Visibility Diagnosis And Sensor Hardening
 
 Action: diagnose the verified impression stall, preserve a reproducible

@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-01",
   "next_rescore_due": "2026-08-08",
-  "next_eligible_action_id": "THC-AUTH-001",
+  "next_eligible_action_id": "THC-AUTH-002",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -149,7 +149,7 @@
       "success_signal": "LA and San Diego pages explain the broad local tiny-house landscape, distinguish listings/builders/communities/stays from legal placement, lead into official-source facts and next verification questions, and imply no parcel approval or legal permission.",
       "implementation_state": "released",
       "review_outcome": "PASS_WITH_P3",
-      "review_cycles": 2,
+      "review_cycles": 3,
       "release_commit": "378bd659b042e96f97c6c0f5e8ae55436df6d84a",
       "released_on": "2026-07-19",
       "pages_workflow_run": "29682037581",
@@ -579,7 +579,9 @@
       "learning_value": 4,
       "effort": 2,
       "risk": 2,
-      "status": "ready",
+      "status": "completed",
+      "selected_on": "2026-08-03",
+      "completed_on": "2026-08-03",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "required_evidence": [
@@ -608,13 +610,71 @@
         "decisions.md",
         "progress.md"
       ],
-      "baseline": "GSC finalized daily rows show zero impressions from July 22 through July 29 while crawl, sitemap, established indexing, manual-action, and security evidence remain healthy. GSC reports zero external links, seven reviewed assets are live, and current Semrush authority metrics are UNKNOWN because API units were unavailable.",
+      "baseline": "GSC finalized daily rows showed zero impressions from July 22 through July 29, followed by one impression on July 30 and one on August 1 at average positions 91 and 99. The August 3 snapshot reports 32 rolling impressions and 0 clicks. The sitemap reports seven discovered URLs; URL Inspection reports five indexed URLs, the under-$20K URL as unknown to Google, and the build-options URL as discovered-currently-not-indexed. Public crawl health is green. GSC reported zero external links on August 1, seven reviewed assets are live, and current Semrush authority metrics are UNKNOWN because API units were unavailable.",
       "hypothesis": "A bounded, ethical opportunity qualification pass can identify which existing buyer-protection assets have a legitimate reason to earn citations and whether any relevant editorial, official, nonprofit, educational, professional, or community resource is worth a later human-reviewed outreach action.",
       "expected_effect": "The project gains a prioritized evidence-backed authority plan without buying links, sending outreach, creating accounts, or manufacturing more content before distribution fit is understood.",
       "success_signal": "Each retained opportunity has current public evidence, topical and audience fit, a specific cite-worthy existing asset, an editorially legitimate contact or submission path, risk classification, and a recommended pursue/hold/reject decision; independent review returns PASS or PASS_WITH_P3.",
-      "implementation_state": "ready-research-only",
-      "evidence_classification": "The completed THC-MON-001 visibility diagnosis and GSC external-links total of zero are causal selection evidence. The zero-link count does not prove that authority is the sole cause. Fresh public opportunity evidence must be collected inside the separately selected action; Semrush remains optional enrichment.",
-      "notes": "Ready but not selected or started. Internal reviewed plan only. No site/** change, new page, content rewrite, outreach, backlink placement, paid link, link exchange, private network, generic directory submission, external-account mutation, fabricated relationship, vendor recommendation, cost claim, or legal/zoning conclusion is authorized. Exact paths must be re-declared when selected."
+      "implementation_state": "review-clean-research-only",
+      "evidence_classification": "Direct manual user authorization on 2026-08-03 selects this action. The completed THC-MON-001 visibility diagnosis and GSC external-links total of zero are causal selection evidence. August 2-3 monitoring shows two isolated impressions after the zero streak, all seven sitemap URLs discovered, five indexed, the under-$20K URL unknown to Google, and the build-options URL discovered-currently-not-indexed; this is current context and does not establish recovery. The zero-link count does not prove that authority is the sole cause. Fresh public opportunity evidence must be collected inside this action; Semrush remains optional enrichment.",
+      "result": "The public qualification pass retains one pursue-later opportunity: Boston Architectural College Library's curated Tiny Houses research guide has a visible gap for the canonical placement hub's beginner-facing due-diligence job and a current public library contact. Six other resources are held; paid registries, sponsored/link placements, link-led guest posts, and personal-story credential mismatches are rejected. No outreach, submission, account change, or link placement occurred.",
+      "qa_evidence": [
+        "test -f site/.nojekyll passed",
+        "test -f .github/workflows/deploy-pages.yml passed",
+        "node --test tools/*.test.mjs passed 54 tests",
+        "node tools/seo-qa.mjs checked seven HTML pages and seven sitemap URLs with zero errors and three known canonical warnings",
+        "node tools/operator-state-qa.mjs passed with latest GSC snapshot 2026-08-03",
+        "node tools/gsc-snapshot.mjs --validate-existing validated 17 snapshots",
+        "ops/seo-roadmap.json parsed",
+        "exact nine-path scope and git diff --check passed"
+      ],
+      "review_cycles": 2,
+      "review_outcome": "PASS",
+      "reviewer_id": "019fc80e-9063-7a43-b144-c9e7313a8fe2",
+      "notes": "Selected on 2026-08-03 at clean, origin-aligned base c6e795d4d52cb881bfc75ee06f6986253205d4c8 and frozen to the nine exact paths above. Independent cycle 1 review returned FAIL with two P2 evidence groups; the GSC indexing-state and current Dwell/Tiny House Expedition classification findings were fixed. Cycle 2 returned PASS with no P0-P3 findings. Final cycle 3 returned PASS with no findings on the completed roadmap state and human-gated next action. The sole follow-on is separately registered human-gated THC-AUTH-002; it is ready but not selected or authorized here. No site/** change, new page, content rewrite, outreach, backlink placement, paid link, link exchange, private network, generic directory submission, external-account mutation, fabricated relationship, vendor recommendation, cost claim, or legal/zoning conclusion occurred."
+    },
+    {
+      "id": "THC-AUTH-002",
+      "title": "Run one human-approved BAC library resource-suggestion pilot",
+      "kind": "authority-outreach",
+      "lane": "authority",
+      "impact": 3,
+      "confidence": 3,
+      "learning_value": 4,
+      "effort": 1,
+      "risk": 2,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "required_evidence": [
+        "completed_THC_AUTH_001_opportunity_plan",
+        "review_clean_BAC_resource_gap",
+        "explicit_user_approval_of_recipient_subject_and_body"
+      ],
+      "target_urls": [
+        "https://the-bac.libguides.com/tiny-houses/onlineresources",
+        "https://tinyhomeclarity.com/"
+      ],
+      "target_paths": [
+        "docs/research/tiny-home-authority-outreach-log-2026-08.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "THC-AUTH-001 retained one high-confidence editorial fit: Boston Architectural College Library's public curated Tiny Houses guide lacks a beginner-facing placement due-diligence tool, the canonical homepage fills that job without claiming a legal answer, and the library exposes a current public organizational contact.",
+      "hypothesis": "One transparent, editor-first suggestion may earn an editorial evaluation or a useful rejection/no-response signal without manufacturing content, buying or exchanging links, or expanding into mass outreach.",
+      "expected_effect": "The project learns whether a credible built-environment librarian considers the placement hub useful enough for the existing guide; a link, reply, referral visit, or ranking change is not promised.",
+      "success_signal": "The exact recipient, subject, and body are independently reviewed and shown to the user; nothing is sent without explicit approval; at most one organizational contact is sent and durably logged; the action stops without contacting held prospects.",
+      "human_gate": {
+        "required": true,
+        "status": "pending",
+        "approval_required_for": "the exact public organizational recipient, subject, and message body before send"
+      },
+      "implementation_state": "ready-unselected-human-gated",
+      "evidence_classification": "The review-clean THC-AUTH-001 opportunity plan is causal selection evidence. Current GSC performance remains monitoring context and does not justify broader outreach. Any response, no response, citation, referral traffic, or ranking effect must be observed rather than assumed.",
+      "notes": "Ready but not selected. Exact paths must be re-declared when selected. One BAC library contact only. No held prospect, paid or reciprocal link, directory submission, generic template, new content, site/** change, indexing request, vendor recommendation, cost claim, legal/zoning conclusion, account creation, or send without explicit user approval is authorized."
     },
     {
       "id": "THC-RES-001",

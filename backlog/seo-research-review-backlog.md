@@ -1,12 +1,27 @@
 # SEO Research & Review Backlog
 
-Last updated: 2026-08-01
+Last updated: 2026-08-03
 
 This is supporting evidence inventory. `ops/seo-roadmap.json` is the durable
 execution queue; this file does not schedule work.
 
 ## Current Research Result
 
+- `THC-AUTH-001` completed its public opportunity qualification. The internal
+  plan retains one pursue-later
+  opportunity, six holds, and explicit paid/promotional/credential-mismatch
+  rejects. Boston Architectural College Library's curated Tiny Houses guide is
+  the sole high-confidence fit for the canonical placement hub. No outreach,
+  submission, account change, or link placement occurred. The evidence ledger
+  and one-contact stopping rule are in
+  `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`. Independent
+  cycle 2 and final completed-state cycle 3 reviews returned `PASS` with no
+  P0-P3 findings after both cycle 1 P2 evidence groups were fixed.
+- The next ready but unselected action is `THC-AUTH-002`: a separate
+  human-gated pilot
+  that may prepare one transparent BAC library resource suggestion and may
+  send it only after the user approves the exact recipient, subject, and body.
+  It must stop after that contact and cannot roll into the held prospect list.
 - `THC-MON-001` is complete and diagnoses the July 22-29 zero-impression streak as an organic
   visibility stall rather than a technical outage. Public crawl surfaces,
   five established indexed pages, manual-action, and security evidence are
@@ -19,11 +34,9 @@ execution queue; this file does not schedule work.
   URL Inspection. Fifty-four native tests pass, all 15 historical snapshots
   remain valid, and independent review returned `PASS_WITH_P3` with no P0-P2
   findings.
-- `THC-AUTH-001` is the single proposed next candidate: research and qualify
-  legitimate citation opportunities for existing assets. It must remain an
-  internal plan until separately selected, reviewed, and released; no outreach,
-  backlink placement, paid link, exchange, mass template, or external-account
-  mutation is authorized.
+- `THC-AUTH-001` is review-clean and complete. `THC-AUTH-002` is not selected,
+  and no external contact is authorized until its exact paths are registered
+  and its human gate is satisfied.
 
 - `THC-BUILD-003` is completed and production-verified. It inherited the exact
   fixed `THC-BUILD-002` research and implementation without reopening research,

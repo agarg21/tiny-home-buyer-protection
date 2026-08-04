@@ -1,10 +1,73 @@
 # Current Cycle
 
-Last updated: 2026-08-01
+Last updated: 2026-08-03
 
 Active action: `none`
 
-Next eligible action: `THC-AUTH-001`
+Next eligible action: `THC-AUTH-002`
+
+## Latest Completed Priority
+
+`THC-AUTH-001` is a direct-manual research-only transaction selected on
+2026-08-03 at clean, origin-aligned base
+`c6e795d4d52cb881bfc75ee06f6986253205d4c8`.
+
+Its job is to qualify whether any legitimate editorial, official, nonprofit,
+educational, professional, or community resource has a real reason to cite one
+of the seven existing buyer-protection assets. The output is an internal plan,
+not outreach.
+
+Frozen exact paths:
+
+- `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`
+- `strategy/current-strategy.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Current GSC context: the August 3 snapshot has finalized data through August 1
+and reports 32 rolling impressions and 0 clicks. The sitemap reports seven
+discovered URLs; URL Inspection reports five indexed URLs, the under-$20K URL
+as unknown to Google, and the build-options URL as discovered-currently-not-
+indexed. The new daily sensor shows one impression on July 30 and one on August
+1, so the prior zero streak has technically ended, but visibility remains
+extremely weak. Public preflight is green for all seven URLs. GSC's August 1
+external-links total was zero; current Semrush authority metrics remain
+`UNKNOWN`.
+
+This transaction may inspect public resources and contact/submission paths,
+classify pursue/hold/reject opportunities, and preserve one later human-gated
+recommendation. It may not change `site/**`, create content, send outreach,
+submit a directory or form, place or buy links, exchange links, create an
+account, fabricate a relationship, recommend a vendor, make a cost claim, or
+state a legal/zoning conclusion.
+
+Research result: one opportunity is qualified for a later bounded pilot. The
+Boston Architectural College Library maintains a public, librarian-curated
+Tiny Houses guide with a visible gap for a beginner-facing placement
+due-diligence tool. The canonical homepage fills that job while routing readers
+to official verification. Six other resources are held, and paid placements,
+promotional registries, link-led guest posts, and personal-story routes are
+rejected. The full evidence ledger is
+`docs/research/tiny-home-authority-opportunity-plan-2026-08.md`.
+
+Next ready action after this review-clean completion: `THC-AUTH-002`, a
+separately registered, human-gated one-contact BAC librarian pilot. It may show
+the user one exact recipient, subject, and body and send only after explicit
+approval. It must stop after that contact. It is ready but not selected, and no
+external contact is authorized by `THC-AUTH-001`.
+
+Native QA passes 54/54 tests, zero SEO errors with three known canonical
+warnings, zero operator-state errors, all 17 historical snapshot validations,
+valid roadmap JSON, required files, exact scope, and `git diff --check`.
+Independent reviewer `019fc80e-9063-7a43-b144-c9e7313a8fe2` returned `FAIL`
+in cycle 1 with two P2 evidence groups; both were fixed. Cycle 2 returned
+`PASS` with no P0-P3 findings. Final cycle 3 returned `PASS` with no findings
+on the completed roadmap state and human-gated next action.
 
 ## Completed Priority
 
@@ -536,8 +599,9 @@ evidence, not a standalone action trigger.
 
 - No child-agent repository write is authorized. Research, implementation
   advisory, and independent review roles are read-only.
-- No substantive transaction is active. `THC-MON-001` is review-clean and
-  complete; `THC-AUTH-001` remains ready but unselected.
+- No substantive transaction is active. `THC-AUTH-001` is review-clean and
+  complete; `THC-AUTH-002` is ready but unselected. Supporting research and
+  independent review roles remain read-only.
 - The Control Room continues daily GSC sensing. Changed discovery, indexing, or
   performance evidence may affect the next research decision but does not
   independently authorize a page change.
@@ -551,8 +615,9 @@ evidence, not a standalone action trigger.
 
 ## Next Eligible Action
 
-`THC-AUTH-001`: after `THC-MON-001` completes, separately register a bounded
-research-only plan for legitimate citation opportunities tied to the seven
-existing assets. Do not start outreach, place links, pay or exchange for links,
-submit generic directories, mutate external accounts, or create content in the
-current transaction.
+`THC-AUTH-002`: separately register the bounded one-contact BAC librarian
+pilot. Prepare one transparent organizational resource suggestion, show the
+user the exact recipient, subject, and body, and send only after explicit user
+approval. Stop after that contact; do not contact held prospects, buy or
+exchange links, submit directories, create content, change `site/**`, or mutate
+another external account.
