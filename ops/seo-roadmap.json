@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "owner": "Tiny Home Clarity Operator",
-  "last_rescored_on": "2026-08-01",
-  "next_rescore_due": "2026-08-08",
+  "last_rescored_on": "2026-08-06",
+  "next_rescore_due": "2026-08-13",
   "next_eligible_action_id": "THC-LAND-001",
   "planning_horizon_days": 28,
   "items": [
@@ -807,6 +807,7 @@
       "baseline": "The homepage provides broad placement triage, but the seven-page site has no parcel-specific workflow for organizing evidence before a land offer or tiny-home purchase becomes difficult to unwind.",
       "hypothesis": "A client-side, printable pre-offer workflow can help land shoppers and parcel-under-consideration buyers distinguish official or professional evidence from claims, conflicts, and unresolved questions without pretending to approve the parcel.",
       "expected_effect": "Create a distinct buyer-protection decision surface for modest informational land demand and a repeated high-stakes community job. Traffic, rankings, and completion rates remain UNKNOWN until observed.",
+      "observation_window": "After a separately reviewed and production-verified release, hold new indexable-page publication for 90 days. Use an approximately 30-day crawl/index checkpoint, 60-day query-testing checkpoint, and 90-day portfolio decision; interrupt only for a material technical/indexing defect, official-source change, repeated query/page evidence exposing a specific unmet job, or a new direct user decision.",
       "success_signal": "A reader can record parcel context and evidence states, receive a useful unresolved-question file, and print it without an account, address transmission, legal/buildability verdict, vendor recommendation, or cost claim; native, responsive, persona, every-section, independent, deployment, and production QA pass.",
       "human_gate": {
         "required": false,
@@ -815,7 +816,57 @@
       },
       "implementation_state": "ready-not-selected",
       "evidence_classification": "The completed THC-PROD-001 audit is causal product evidence. The August 3 GSC snapshot is weak monitoring context only. Semrush values are third-party estimates and overlapping keyword totals must not be summed as unique demand.",
-      "notes": "Ready but unselected after THC-PROD-001 passed independent review. Select only as a separate direct-manual or valid Control Room transaction. No listings, address lookup or transmission, analytics, account, database, outreach, indexing request, vendor recommendation, typical or complete cost claim, or legal/zoning/buildability conclusion is authorized."
+      "notes": "Ready but unselected after THC-PROD-001 passed independent review. Select only as a separate direct-manual or valid Control Room transaction. Its verified release starts the 90-day portfolio observation clock; this strategy transaction does not. No listings, address lookup or transmission, analytics, account, database, outreach, indexing request, vendor recommendation, typical or complete cost claim, or legal/zoning/buildability conclusion is authorized."
+    },
+    {
+      "id": "THC-STATUS-001",
+      "title": "Refresh page status and adopt a finite build-then-observe phase",
+      "kind": "strategy-maintenance",
+      "lane": "product-strategy",
+      "impact": 3,
+      "confidence": 5,
+      "learning_value": 4,
+      "effort": 1,
+      "risk": 1,
+      "status": "completed",
+      "selected_on": "2026-08-06",
+      "completed_on": "2026-08-06",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": true,
+      "target_urls": [],
+      "target_paths": [
+        "status/site-pages.md",
+        "strategy/current-strategy.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "Seven reviewed public assets are in the sitemap, but the durable page inventory still uses the August 3 snapshot and describes the under-$20K page as unknown. The August 6 snapshot through August 4 reports seven discovered URLs, five indexed URLs, both remaining URLs discovered-currently-not-indexed, 32 impressions, and 0 clicks. The user proposes completing a small high-quality portfolio and then allowing it to mature for a few months.",
+      "hypothesis": "One distinct land workflow followed by a finite 90-day publication hold will create a cleaner test of indexing, query fit, and early search potential than either continuous page production or indefinite passive waiting.",
+      "expected_effect": "No immediate traffic or ranking effect. The repository gains a truthful page inventory, one explicit next implementation, and dated evidence gates for deciding whether to deepen, repair, investigate, or pause the project.",
+      "success_signal": "Every public URL has a current role, indexing and performance state, review/release state, and next decision; THC-LAND-001 remains the only ready implementation; the post-release observation window and exception gates are consistent across strategy and roadmap state.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required",
+        "approval_required_for": null
+      },
+      "implementation_state": "review-clean-docs-only",
+      "review_outcome": "PASS",
+      "review_cycles": 1,
+      "reviewer_id": "antigravity-cli",
+      "qa_evidence": [
+        "node --test tools/*.test.mjs passed 54 tests",
+        "node tools/seo-qa.mjs reported 0 errors and 3 known canonical warnings on untouched pages",
+        "node tools/operator-state-qa.mjs reported 0 errors",
+        "ops/seo-roadmap.json parsed; required files were present; exact eight-path scope and git diff --check passed",
+        "independent read-only Anti Gravity CLI review returned PASS with no P0-P3 findings"
+      ],
+      "evidence_classification": "The user's 2026-08-06 direction is causal strategy evidence. The August 6 and August 5 public-safe GSC snapshots are current monitoring evidence and materially clarify the under-$20K indexing state without showing traffic recovery. Family Tripwise's city-status convention is a process reference, not causal evidence for Tiny Home Clarity performance.",
+      "result": "Refreshed the durable seven-page inventory to the August 6 GSC state, replaced the obsolete launch calendar with the actual validation portfolio, kept THC-LAND-001 as the sole ready implementation, and adopted a 90-day post-release publication hold with explicit observation and exception gates.",
+      "notes": "Direct-manual transaction completed from clean, origin-aligned base 36fa86e51606aea0ec9aeab7d5a744ddc157276f. Independent read-only Anti Gravity CLI review returned PASS with no findings. No site/** change, page implementation, indexing request, research pull, external-account mutation, outreach, deployment, vendor recommendation, cost claim, or legal/zoning conclusion occurred."
     },
     {
       "id": "THC-RES-001",

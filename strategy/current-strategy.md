@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-08-04
+Last updated: 2026-08-06
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -293,40 +293,50 @@ label partial totals honestly, and surface written quote gaps before any
 subtotal. See
 `docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`.
 
-## First 5 Assets
+## Current Validation Portfolio
 
-1. `Where Can I Put a Tiny House?` interactive placement triage tool and guide.
-2. `Tiny Home Cost / Reality Check Calculator`.
-3. `Can You Build a Tiny House for Under $20K?`.
-4. `Tiny House Toilet Options Calculator`.
-5. `Should You Build, Buy a Kit, Buy a Shell, or Hire a Tiny-Home Builder?`
-   decision guide and due-diligence checklist.
+The original launch list has been superseded by the actual reviewed portfolio.
+As of 2026-08-06, seven public assets are in the sitemap:
 
-## First 90-Day Plan
+1. National placement decision hub.
+2. Los Angeles official-source buyer guide.
+3. San Diego jurisdiction-first buyer guide.
+4. Georgia structure-classification guide.
+5. Quote-first tiny-home cost calculator.
+6. Under-$20K feasibility checker.
+7. Plans, kits, shells, trailers, and builder responsibility comparison.
 
-Month 1:
+Five are indexed. The under-$20K and build-options pages are discovered but not
+indexed. The finalized rolling GSC window through 2026-08-04 reports 32
+impressions and 0 clicks. This is too little evidence for page-level causal
+conclusions, but enough to reject open-ended publication as a substitute for
+product quality.
 
-- Build brand/site foundation.
-- Publish `Where Can I Put a Tiny House?`.
-- Publish `Tiny Home Cost / Reality Check Calculator`.
-- Set up Google Search Console after domain purchase.
-- Submit sitemap.
-- Start official source records for 5 states.
+The only additional product currently justified by completed research is
+`THC-LAND-001`: a client-side, printable pre-offer parcel evidence workflow.
+It remains ready but unselected and must pass its own implementation, persona,
+native, independent, deployment, and production review.
 
-Month 2:
+## Next 90-Day Validation Plan
 
-- Publish `Can You Build a Tiny House for Under $20K?`.
-- Publish `Tiny House Toilet Options Calculator`.
-- Create free email capture workbook.
-- Begin outreach to tiny home communities/builders for verification quotes.
+1. Complete `THC-LAND-001` only if separately selected. Do not add a second
+   page merely to meet a publication count.
+2. After its verified release, freeze new indexable page publication for 90
+   days while daily read-only GSC sensing continues.
+3. Treat the existing eight-page portfolio as the product test. Preserve page
+   roles and avoid broad rewrites from tiny samples.
+4. Allow an exception only for a technical/indexing defect, an official-source
+   change, a repeated query/page signal exposing a concrete unmet job, or a new
+   direct user decision.
+5. At the 90-day checkpoint, decide whether to deepen a visible query cluster,
+   repair search promise/usefulness, investigate persistent discovery failure,
+   or pause the project.
 
-Month 3:
-
-- Publish `Tiny Home Builder / Vendor Due Diligence Checklist`.
-- Publish 3-5 manually researched state/local pages only where official sources are available.
-- Improve internal links.
-- Review early GSC impressions.
-- Decide which long-tail pages to build next.
+Intermediate readings are diagnostic, not content deadlines. Around day 30,
+check crawl/index coverage. Around day 60, look for repeated page/query testing
+and first clicks. At day 90, make the portfolio decision. Keyword-tool volume,
+page-average position, and isolated impressions must not be treated as
+guaranteed traffic or stable rank.
 
 ## Monetization Phases
 

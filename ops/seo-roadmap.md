@@ -45,7 +45,42 @@ unreviewed release decisions.
 17. `THC-PROD-001` — completed review-clean research on 2026-08-04; it
     promotes only the parcel-specific `THC-LAND-001` action.
 18. `THC-LAND-001` — ready but unselected: a client-side pre-offer parcel
-    evidence workflow at `/buying-land-for-a-tiny-house/`.
+    evidence workflow at `/buying-land-for-a-tiny-house/`; its eventual
+    verified release starts a 90-day portfolio observation period.
+19. `THC-STATUS-001` — completed on 2026-08-06 as an eight-path, docs-only page
+    status and finite build-then-observe reconciliation. It created no page and
+    did not start `THC-LAND-001`.
+
+## THC-STATUS-001 completion
+
+- Direct manual user instruction; no Control Room lease applies.
+- Exact scope: the eight paths frozen in `ops/seo-roadmap.json`, from clean,
+  origin-aligned base `36fa86e51606aea0ec9aeab7d5a744ddc157276f`.
+- Current evidence: the August 6 snapshot is finalized through August 4 and
+  reports 32 impressions, 0 clicks, seven sitemap-discovered URLs, and five of
+  seven indexed. The under-$20K and build-options pages are both
+  `Discovered - currently not indexed`; neither is collector-unknown.
+- Decision: keep `THC-LAND-001` as the only ready implementation. If later
+  reviewed and production-verified, its release starts a 90-day hold on new
+  indexable page publication.
+- During the hold, daily GSC sensing continues. Around day 30 inspect crawl and
+  indexing, around day 60 inspect repeated query/page testing and clicks, and
+  at day 90 choose whether to deepen, repair, investigate, or pause.
+- Interrupt only for a material technical/indexing defect, official-source
+  change, repeated query/page evidence exposing a specific unmet job, or a new
+  direct user decision.
+- Family Tripwise's durable city status convention is a process reference, not
+  evidence that Tiny should copy its page count or publication cadence.
+- No `site/**`, new content, research pull, indexing request, outreach,
+  external account, deployment, vendor recommendation, cost claim, or legal/
+  zoning conclusion is authorized.
+- Native QA: 54/54 tests, zero SEO errors with three known warnings on
+  untouched pages, zero operator-state errors, valid JSON, required files,
+  exact eight-path scope, and clean diff checks.
+- Independent review: Anti Gravity CLI through `agy --print` returned `PASS`
+  with no P0-P3 findings in cycle 1.
+- Result: review-clean and complete; `THC-LAND-001` remains the sole ready next
+  action and is not started. No deployment applies.
 
 ## THC-MON-001 completion
 

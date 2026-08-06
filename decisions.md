@@ -817,3 +817,36 @@ Review: cycle 1 returned `FAIL` with three P2 findings. The official wetlands
 source, query-level result samples, inventory-intent exclusion, and durable
 state were corrected. Cycles 2 and 3 returned `PASS_WITH_P3`; no P0-P2 finding
 remains. `THC-LAND-001` is ready but unselected.
+
+## 2026-08-06 - Finish The Bounded Product Set, Then Observe For 90 Days
+
+Decision: treat the seven current public assets plus the separately eligible
+`THC-LAND-001` parcel workflow as the bounded validation portfolio. Do not add
+another page merely to reach a content count. If the land workflow is later
+reviewed and production-verified, hold new indexable-page publication for 90
+days from that release.
+
+Why: the August 6 GSC snapshot through August 4 reports seven discovered URLs,
+five indexed, 32 impressions, and 0 clicks. The under-$20K and build-options
+pages are both discovered but not indexed. Current samples are too small for
+causal page judgments, while the completed product audit identifies only the
+land workflow as a distinct unmet buyer decision job. More publication now
+would make the test noisier without evidence that another page is useful.
+
+Check crawl/index coverage around day 30, repeated page/query testing and first
+clicks around day 60, and the portfolio's potential at day 90. At that final
+checkpoint, choose whether to deepen a visible cluster, repair query promise or
+usefulness, investigate persistent discovery failure, or pause the project.
+
+Exception: a material technical/indexing defect, official-source change,
+repeated query/page evidence exposing a concrete unmet job, or new direct user
+decision may justify an earlier separately reviewed action. Daily sensing is
+not a publication quota.
+
+Boundary: `THC-STATUS-001` is docs-only and does not start `THC-LAND-001`,
+change `site/**`, request indexing, run outreach, mutate an account, deploy, or
+make a vendor, cost, legal, zoning, or buildability claim.
+
+Review: 54/54 native tests and operator/SEO/JSON/scope/diff checks pass.
+Independent read-only Anti Gravity CLI review returned `PASS` with no P0-P3
+findings. The docs-only transaction is complete; no deployment applies.
