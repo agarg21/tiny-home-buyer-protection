@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "site": "tiny-home-clarity",
+  "property": "sc-domain:tinyhomeclarity.com",
+  "visibility": "public-summary",
+  "collection_mode": "search-console-api-readonly",
+  "collected_at": "2026-08-08T11:03:46.617Z",
+  "data_through": "2026-08-06",
+  "requested_period_end": "2026-08-06",
+  "completeness": "finalized-conservative",
+  "finalization_basis": "conservative-two-day-lag",
+  "gsc": {
+    "sitemap_status": "Success",
+    "sitemap_last_read": "2026-08-07T13:05:18.959Z",
+    "sitemap_errors": 0,
+    "sitemap_warnings": 0,
+    "discovered_pages": 7,
+    "discovered_videos": 0,
+    "performance": {
+      "status": "finalized",
+      "period_start": "2026-07-10",
+      "period_end": "2026-08-06",
+      "latest_known_impressions": 23,
+      "latest_known_clicks": 0,
+      "latest_known_ctr_percent": 0,
+      "latest_known_average_position": 38.04,
+      "snapshot_date": "2026-08-06",
+      "page_rows": [
+        {
+          "url": "https://tinyhomeclarity.com/",
+          "clicks": 0,
+          "impressions": 8,
+          "ctr_percent": 0,
+          "average_position": 61.63
+        },
+        {
+          "url": "https://tinyhomeclarity.com/georgia-tiny-house-classification/",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr_percent": 0,
+          "average_position": 22.4
+        },
+        {
+          "url": "https://tinyhomeclarity.com/los-angeles-tiny-house-adu/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr_percent": 0,
+          "average_position": 14
+        },
+        {
+          "url": "https://tinyhomeclarity.com/san-diego-tiny-house-adu/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr_percent": 0,
+          "average_position": 40.5
+        },
+        {
+          "url": "https://tinyhomeclarity.com/tiny-home-cost-calculator/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr_percent": 0,
+          "average_position": 26
+        }
+      ],
+      "daily_summary": {
+        "trend_status": "activity-observed",
+        "recent_window_days": 7,
+        "recent_period_start": "2026-07-31",
+        "recent_period_end": "2026-08-06",
+        "recent_impressions": 1,
+        "recent_clicks": 0,
+        "consecutive_zero_impression_days": 5
+      },
+      "daily_rows": [
+        {
+          "date": "2026-07-10",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr_percent": 0,
+          "average_position": 99
+        },
+        {
+          "date": "2026-07-11",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-12",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-13",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr_percent": 0,
+          "average_position": 27
+        },
+        {
+          "date": "2026-07-14",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr_percent": 0,
+          "average_position": 18
+        },
+        {
+          "date": "2026-07-15",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr_percent": 0,
+          "average_position": 26.5
+        },
+        {
+          "date": "2026-07-16",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr_percent": 0,
+          "average_position": 11
+        },
+        {
+          "date": "2026-07-17",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr_percent": 0,
+          "average_position": 98
+        },
+        {
+          "date": "2026-07-18",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr_percent": 0,
+          "average_position": 30
+        },
+        {
+          "date": "2026-07-19",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-20",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr_percent": 0,
+          "average_position": 15.75
+        },
+        {
+          "date": "2026-07-21",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr_percent": 0,
+          "average_position": 10
+        },
+        {
+          "date": "2026-07-22",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-23",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-24",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-25",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-26",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-27",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-28",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-29",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-07-30",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr_percent": 0,
+          "average_position": 91
+        },
+        {
+          "date": "2026-07-31",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-08-01",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr_percent": 0,
+          "average_position": 99
+        },
+        {
+          "date": "2026-08-02",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-08-03",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-08-04",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-08-05",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        },
+        {
+          "date": "2026-08-06",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "average_position": null
+        }
+      ]
+    },
+    "priority_inspection": {
+      "inspected": 7,
+      "indexed": 5,
+      "not_indexed": 2,
+      "not_indexed_urls": [
+        "https://tinyhomeclarity.com/tiny-house-under-20k/",
+        "https://tinyhomeclarity.com/tiny-house-build-options/"
+      ],
+      "unknown": 0,
+      "unknown_urls": [],
+      "indexing_requested": false,
+      "urls": [
+        {
+          "url": "https://tinyhomeclarity.com/",
+          "indexed": true,
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "robots_txt_state": "ALLOWED",
+          "last_crawl_time": "2026-07-30T03:32:56Z"
+        },
+        {
+          "url": "https://tinyhomeclarity.com/los-angeles-tiny-house-adu/",
+          "indexed": true,
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "robots_txt_state": "ALLOWED",
+          "last_crawl_time": "2026-07-12T03:30:18Z"
+        },
+        {
+          "url": "https://tinyhomeclarity.com/san-diego-tiny-house-adu/",
+          "indexed": true,
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "robots_txt_state": "ALLOWED",
+          "last_crawl_time": "2026-07-24T20:58:44Z"
+        },
+        {
+          "url": "https://tinyhomeclarity.com/georgia-tiny-house-classification/",
+          "indexed": true,
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "robots_txt_state": "ALLOWED",
+          "last_crawl_time": "2026-07-24T21:55:55Z"
+        },
+        {
+          "url": "https://tinyhomeclarity.com/tiny-home-cost-calculator/",
+          "indexed": true,
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "robots_txt_state": "ALLOWED",
+          "last_crawl_time": "2026-07-21T16:19:14Z"
+        },
+        {
+          "url": "https://tinyhomeclarity.com/tiny-house-under-20k/",
+          "indexed": false,
+          "verdict": "NEUTRAL",
+          "coverage_state": "URL is unknown to Google",
+          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "last_crawl_time": null
+        },
+        {
+          "url": "https://tinyhomeclarity.com/tiny-house-build-options/",
+          "indexed": false,
+          "verdict": "NEUTRAL",
+          "coverage_state": "Discovered - currently not indexed",
+          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "last_crawl_time": null
+        }
+      ]
+    }
+  },
+  "private_fields_omitted": [
+    "credentials",
+    "complete raw query rows",
+    "country and device rows"
+  ]
+}
