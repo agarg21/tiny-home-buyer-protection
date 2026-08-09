@@ -1,159 +1,66 @@
-# SEO Research & Review Backlog
+# SEO Research And Review Backlog
 
-Last updated: 2026-08-04
+Last updated: 2026-08-09
 
-This is supporting evidence inventory. `ops/seo-roadmap.json` is the durable
-execution queue; this file does not schedule work.
+This is supporting evidence inventory, not a scheduler. The machine-readable
+queue is `ops/seo-roadmap.json`.
 
-## Current Research Result
+## Current Review-Ready Work
 
-- `THC-PROD-001` completed its review-clean user-value comparison. Builder
-  demand is large but commercial and substantially covered by the live
-  build-options page;
-  exact builder-question demand is zero in the current Semrush estimate. The
-  quote phrase is weak and ambiguous, and the live cost calculator already
-  owns quote-gap analysis. Parcel/land diligence has modest distinct demand, a
-  repeated high-stakes community job, and a clear gap between broad homepage
-  triage and one parcel's pre-offer evidence file. The audit is
-  `docs/research/tiny-home-next-user-value-audit-2026-08.md`.
-- `THC-LAND-001` is the sole ready implementation action, not selected or
-  started. Before any release, review the first-screen answer, worksheet state
-  machine, source-role caveats, every visible section, all three decision
-  personas, beginner, intermediate, and advanced usefulness, print output, and
-  mobile behavior.
-  The complete contract is
-  `briefs/tiny-home-next-user-value-brief-2026-08.md`.
-- `THC-AUTH-001` completed its public opportunity qualification. The internal
-  plan retains one pursue-later
-  opportunity, six holds, and explicit paid/promotional/credential-mismatch
-  rejects. Boston Architectural College Library's curated Tiny Houses guide is
-  the sole high-confidence fit for the canonical placement hub. No outreach,
-  submission, account change, or link placement occurred. The evidence ledger
-  and one-contact stopping rule are in
-  `docs/research/tiny-home-authority-opportunity-plan-2026-08.md`. Independent
-  cycle 2 and final completed-state cycle 3 reviews returned `PASS` with no
-  P0-P3 findings after both cycle 1 P2 evidence groups were fixed.
-- `THC-AUTH-002` produced one independently reviewed BAC Library draft, but the
-  user deferred the pilot before any send on 2026-08-04. Preserve the exact
-  draft in the authority outreach log as a possible later experiment. No
-  approval request, email-account access, external contact, follow-up, or held
-  prospect is active.
-- The BAC outreach draft remains deferred. Completion of product research or a
-  later land product does not authorize outreach.
-- `THC-MON-001` is complete and diagnoses the July 22-29 zero-impression streak as an organic
-  visibility stall rather than a technical outage. Public crawl surfaces,
-  five established indexed pages, manual-action, and security evidence are
-  healthy; GSC reports zero external links. The current public SERP sample does
-  not justify a blanket page rewrite. The complete measured/inferred/unknown
-  record is
-  `docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`.
-- The monitoring patch retains privacy-safe finalized daily rows, detects a
-  seven-day zero-impression streak, and adds the build-options page to routine
-  URL Inspection. Fifty-four native tests pass, all 15 historical snapshots
-  remain valid, and independent review returned `PASS_WITH_P3` with no P0-P2
-  findings.
-- `THC-AUTH-001` is review-clean and complete. `THC-AUTH-002` is deferred and
-  unsent. `THC-PROD-001` is review-clean and promotes only the ready but
-  unselected `THC-LAND-001`; no external contact or site implementation is
-  authorized by this backlog state.
+### `THC-LAND-001`
 
-- `THC-BUILD-003` is completed and production-verified. It inherited the exact
-  fixed `THC-BUILD-002` research and implementation without reopening research,
-  content strategy, or page design. Three fresh review cycles returned `PASS`;
-  no research blocker remains.
+If selected, review the implementation against:
 
-- `THC-BUILD-002` is held. The bounded July 18 demand refresh, current public
-  SERP/ranking-page and official-source evidence, comparison decision persona,
-  beginner/intermediate/advanced passes, and every-section page contract are
-  complete in the dated research/review records. All review findings are fixed,
-  but the action exhausted three cycles without a release verdict and remains
-  held. `THC-BUILD-003` supplied the required separate continuation.
+- `docs/research/tiny-home-next-user-value-audit-2026-08.md`;
+- `briefs/tiny-home-next-user-value-brief-2026-08.md`;
+- its exact target query/SERP/ranking-page evidence;
+- parcel decision personas and beginner/intermediate/advanced needs;
+- the first-screen promise and every-section contract;
+- realistic blank, partial, conflict, resolved, print, and reset states; and
+- source-role, privacy, legal/buildability, responsive, and accessibility
+  boundaries.
 
-- `THC-COST-001` is the held implementation/research source for the bounded
-  query/SERP/ranking-page, quote/budget persona, every-section, and
-  calculator-state refresh.
-- `THC-COST-002` is completed and production-verified. It did not introduce
-  typical/complete costs, vendor recommendations, a second cost page, new
-  research, or redesign.
-- The dated research record is complete at
-  `docs/research/tiny-home-cost-calculator-refresh-2026-07-29.md`. It records
-  current exact-query Semrush metrics, a retained representative ranking-page
-  sample, reproduced prior-page failures, personas, four-state semantics,
-  every-section decisions, tests, and release invariants.
-- Read-only research advisor thread
-  `019fad3f-dbe1-7953-856b-b82658edc919` returned `FAIL/improve` on the prior
-  live experience; its P1/P2 findings are addressed in the implementation.
-- `THC-RES-001` created the full-site decision pack at
-  `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`.
-- The pack reuses July 18 DataForSEO, preserves a bounded July 28 public SERP
-  and ranking-page sample, derives six decision personas, reviews three
-  experience levels, and records every-section decisions for all six pages.
-- `THC-HOME-001` is the one promoted action. `THC-BUILD-002` remains the
-  strongest measured demand opportunity but follows the primary-entry repair.
-- The July 28 GSC snapshot remains unchanged monitoring context.
-- Independent transaction review returned `PASS` on cycle 3 with no P0-P3
-  findings.
+The reviewer must fail the page at P2 if it is generic, topic-swappable,
+primarily paraphrases source material, uses uncertainty to avoid helping, or
+cannot produce a concrete artifact and next action for the primary searcher.
 
-## Review Status
+## Current Monitoring Context
 
-- `THC-COST-002` independent cycle 2 returned `PASS_WITH_P3` on the complete
-  17-path diff from base `38a3654cff2818a1a6b8390bc0ec4ebf2484262c`. All cycle
-  1 fixes passed. The sole P3 buffer-title note is recorded without reopening
-  research or redesign.
-- Final cycle 3 retained `PASS_WITH_P3` with no P0-P2 findings. The reviewed
-  calculator is released and production-verified in `1af1dc2`.
-- Final cycle 3 reviewed the cycle 2 fixes from the quote/budget reality-check
-  job plus beginner, intermediate, and advanced experience levels.
-- Verify blank, quote-only, materially partial, explicit-zero, complete,
-  financing, and invalid-input states.
-- Audit every visible section, assumption boundary, result order, internal
-  link, canonical, mobile layout, and the complete frozen transaction range.
-- Independent reviewer thread
-  `019fad57-656e-73a1-a687-08e4eb1f63fb` returned `FAIL` in cycle 1 with one
-  P1, five P2, and one P3 finding. Exact-input steps, lot-rent applicability,
-  output order, paired-query SERP evidence, beginner terminology, durable QA
-  state, and the CSS selector collision are fixed for cycle 2.
-- Cycle 2 returned `FAIL` with one new P2 visible-cent precision defect and one
-  P3 unsupported top-nine SERP sentence. Currency traces now preserve cents,
-  recurring inputs are itemized, native/browser assertions cover the exact
-  outputs, and the unsupported sentence is removed for final cycle 3.
-- Cycle 3 confirmed all prior findings resolved, then returned `FAIL` on one
-  new P2 undecided-land monthly-completeness defect and one stale P3 review
-  instruction. Both are fixed, but the three-cycle review cap is exhausted;
-  the transaction is held and cannot release without a separately authorized
-  review-clean continuation.
+The August 9 snapshot reports seven discovered pages, five indexed, 21 rolling
+impressions, 0 clicks, and six consecutive finalized zero-impression days.
+This is weak visibility, not proof that every page should be rewritten.
 
-## Completed
+Potential future research becomes eligible only when current evidence exposes:
 
-- Reviewed the repaired Los Angeles and San Diego pages from human-searcher POV.
-  Initial verdict was `improve`; after implementation fixes, independent review
-  verdict was `PASS`. Detailed notes are in
-  `reviews/la-san-diego-human-searcher-review-2026-07-18.md` and
-  `reviews/la-san-diego-human-searcher-implementation-review-2026-07-18.md`.
-- Reviewed the `$20K` brief and rendered page. Verdict: `launch`; brief was implementation-ready and rendered page has no must-fix issues. Detailed notes are in `reviews/tiny-house-under-20k-review-2026-07-13.md`.
-- Reviewed the Tiny Home Cost Calculator. Verdict: `launch`. Detailed notes are in `reviews/tiny-home-cost-calculator-review-2026-07-11.md`.
-- Confirmed the calculator separates user-entered numbers from editable assumptions and warnings, avoids cost/legal/approval guarantees, links correctly from the homepage, and is included in the sitemap.
-- Rechecked GSC on 2026-07-13: sitemap status `Success`, last read July 11, 2026, with 5 discovered pages; homepage and Los Angeles are indexed; San Diego, Georgia, and cost calculator are discovered from the sitemap but not indexed yet. Indexing requests were submitted for San Diego, Georgia, and the cost calculator.
-- Reviewed the first constrained support cluster. Verdict: `launch`. Detailed notes are in `reviews/local-source-support-pages-review-2026-07-09.md`.
-- Confirmed Los Angeles and San Diego support pages are city-only examples, Georgia is classification-only, Austin is absent, homepage record links make sense, and sitemap entries use `2026-07-09` lastmod dates.
-- Reviewed rendered official-source records in `site/data/local-records.json`, `site/index.html`, and `site/styles.css`. Verdict: `launch`. Detailed notes are in `reviews/rendered-official-source-records-review-2026-07-08.md`.
-- Confirmed approved records are implemented, Austin is absent, Los Angeles/San Diego are city-only examples, Georgia DCA is classification-only, and unsupported locations remain low-confidence with `UNKNOWN` source fields.
-- Rechecked GSC sitemap status on 2026-07-08: sitemap remains `Success` with 1 discovered page.
-- Created first official-source record set for the placement tool: Los Angeles, San Diego, and Georgia DCA classification. Detailed records are in `reviews/official-source-records-where-can-i-put-a-tiny-house-2026-07-08.md`.
-- Deferred Austin pending deeper reconciliation of current HOME/ADU/tiny-home/THOW code paths.
-- Rechecked GSC sitemap status on 2026-07-08: `https://tinyhomeclarity.com/sitemap.xml` now shows `Success`, last read July 8, 2026, with 1 discovered page.
-- Final-reviewed the current working-tree MVP at `site/index.html` and `site/styles.css` before launch. Detailed notes are in `reviews/where-can-i-put-a-tiny-house-launch-review-2026-07-08.md`.
-- Confirmed Implementation applied the prior official-source starter section, buyer-facing local-record note, non-link planned cards, freshness label, and cautious legal/zoning language.
-- Built a first official-source local/source record shortlist prioritizing source clarity over broad state coverage.
-- Recommended final public brand and contrast fixes; Implementation applied them before launch.
-- Reviewed `briefs/where-can-i-put-a-tiny-house-product-spec.md` and the built MVP in `site/index.html` for search intent fit, usefulness, source requirements, cautious-buyer trust, index-worthiness, and implementation readiness.
-- Validated the first target query cluster with Semrush UI, manual SERP review, and official-source spot checks. Detailed notes are in `reviews/where-can-i-put-a-tiny-house-spec-review-2026-07-07.md`.
-- Used Anti Gravity CLI via `agy` as an advisory second opinion for the first product spec review.
-- Recommended the built MVP as `improve` before final launch, then keep indexed if the working triage and source-caution improvements remain in place.
+- a repeated query/page mismatch;
+- a crawl or indexing state needing diagnosis;
+- a source-freshness or factual-scope change;
+- a current-page usefulness gap visible in rendered review;
+- cannibalization or internal-discovery evidence; or
+- an authority opportunity tied to a genuinely cite-worthy current asset.
 
-## Later
+## Not Eligible
 
-- Review domain/brand recommendation for trust and SERP fit.
-- Build a current keyword snapshot for the first 5 assets without inventing missing metrics.
-- Create a competitor/SERP review for placement and zoning queries.
-- Define local-data source standards for the first 5 states.
+- another broad keyword snapshot without a decision question;
+- mass city/state research;
+- generic competitor summaries;
+- a content calendar or article quota;
+- builder, vendor, community, or land recommendations without vetting;
+- outreach or link placement; and
+- research whose only output is “write an article.”
+
+`no-build` is a successful research result when no candidate has a defensible
+usefulness delta.
+
+## Deferred
+
+- The review-clean BAC Library suggestion remains unsent and requires a new
+  direct user decision.
+- Analytics, email capture, monetization, and partner workflows remain outside
+  current research priority.
+
+## History
+
+Completed research, review cycles, and historical GSC observations remain in
+dated artifacts, the roadmap, `ops/operator-review.md`, `decisions.md`, and
+`progress.md`. Do not copy their full chronology into this file.

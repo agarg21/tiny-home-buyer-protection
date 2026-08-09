@@ -1,6 +1,6 @@
 # Content Principles
 
-Last updated: 2026-07-18
+Last updated: 2026-08-09
 
 ## Voice
 
@@ -67,6 +67,40 @@ A page deserves to be indexed only if it helps a reader make or verify a decisio
 - Useful comparison framework.
 - Specific, source-backed caveats.
 
+## Anti-Generic Standard
+
+An accurate page is not automatically a useful page. Every new or materially
+repaired indexable page must add a concrete usefulness delta that a target
+searcher can recognize in the rendered experience.
+
+At least one concrete output must carry the page's primary job:
+
+- a calculation or stateful result tied to the reader's inputs;
+- a source-backed decision path that narrows what to verify next;
+- a grounded comparison that exposes responsibility, exclusions, or tradeoffs;
+- a reusable evidence file, checklist, or template tied to a real decision; or
+- an original table or dataset with a clear user action.
+
+Treat any of the following as a material usefulness failure when it dominates
+the page or materially weakens the primary searcher job:
+
+- the page remains coherent after swapping in a different topic or city name;
+- most of the page paraphrases common advice or ranking pages;
+- headings describe the page, the site's taxonomy, or SEO intent instead of the
+  reader's decision;
+- caveats repeatedly avoid answering without narrowing the next verification;
+- sections add nothing to comprehension, evidence, safety, trust,
+  accessibility, navigation, the reader's decision, or the concrete output; or
+- the page offers no concrete artifact, result, or next action.
+
+Claim safety, technical SEO, word count, design polish, and source volume do not
+compensate for this failure. Prefer `no-build`, consolidation, or a narrower
+tool state when the usefulness delta cannot be demonstrated.
+
+The removal test is also an editing tool. Compress or remove an isolated weak
+section without failing an otherwise useful page. It becomes page-level P2 only
+when weak sections materially obscure or dilute the primary job.
+
 ## Human Searcher Standard
 
 Do not build pages from the site's internal taxonomy first. Build from the
@@ -97,8 +131,8 @@ reader-facing:
 - "What this search usually means."
 - "Source summary" when the user needs a short answer first.
 
-If a page is safe but not useful from the target searcher's point of view, it is
-not ready.
+If a page is safe but generic, vague, or not useful from the target searcher's
+point of view, it has a P2 usefulness failure and is not ready.
 
 Review broad tiny-house queries against three reader levels:
 

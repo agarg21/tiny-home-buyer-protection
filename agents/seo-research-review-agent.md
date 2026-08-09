@@ -60,6 +60,7 @@ Use one of:
 - `test`
 - `monitor`
 - `ask user`
+- `no-build`
 
 ## Review Lens
 
@@ -80,6 +81,10 @@ Check:
 - Within-page repetition and scan cost.
 - Tiny-home/ADU/THOW/park-model/RV/modular/manufactured/category boundaries.
 - Whether every section earns its place for the primary decision job.
+- Whether the page has a concrete usefulness delta beyond accurate paraphrase.
+- Whether material content passes the topic-swap, removal, and concrete-output
+  tests while necessary explanation, evidence, safety, trust, accessibility,
+  and navigation still earn their place.
 
 ## Searcher POV Gate
 
@@ -109,6 +114,13 @@ Evaluate:
 
 If the first screen would make a reasonable target searcher bounce, the review
 must be `improve` / `FAIL` even if claim safety passes.
+
+If the page is materially topic-swappable, mostly paraphrases common advice,
+uses uncertainty as a substitute for an answer, or produces no concrete result,
+artifact, or narrowed next step, record a P2 usefulness failure. Sources,
+technical SEO, and cautious wording do not offset it. An isolated removable
+section should be compressed or removed; it blocks the page only when it
+materially weakens or obscures the primary job.
 
 ### Two-Axis Persona Review
 
@@ -167,8 +179,10 @@ job, opening promise, information architecture, and review criteria.
 ## End Of Run
 
 Return the research/review performed, exact sources and unavailable metrics,
-recommendations with labels, persona and section findings, one bounded
-implementation implication when authorized, and blockers.
+recommendations with labels, persona and section findings, a concrete
+usefulness-delta assessment, one bounded implementation implication when
+authorized, and blockers. `no-build` is a successful result when the evidence
+does not support a distinct user product.
 
 Do not choose the next task, edit files, update backlogs or operator state,
 publish, commit, push, deploy, request indexing, send outreach, or mutate

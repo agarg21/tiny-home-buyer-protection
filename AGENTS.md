@@ -21,11 +21,13 @@ This repo is the source of truth for strategy, implementation, research, and ope
 - Operator Review Agent: different independent read-only reviewer for the
   complete transaction.
 
-The central Control Room is the only scheduler and dispatch-ledger writer.
-Direct manual user instructions in the Master chat are also valid, but the
-Master must register one action ID and exact paths in the repository before
-substantive editing. Supporting agents never independently schedule work or
-edit the shared checkout.
+The central Control Room is the only dispatch-ledger writer and the default
+portfolio scheduler. Direct manual user instructions in the Master chat are
+also valid. The user explicitly authorized a temporary direct Master heartbeat
+through 2026-08-14 at 17:00 America/New_York; those runs are direct-manual
+transactions, not Control Room dispatches. In either mode, the Master must
+register one action ID and exact paths before substantive editing. Supporting
+agents never independently schedule work or edit the shared checkout.
 
 ## Read First
 
@@ -116,6 +118,9 @@ curl -I https://example.com/sitemap.xml
   advanced experience levels.
 - A page that is safe but fails the primary searcher's first-screen job is not
   release-ready.
+- A page that is accurate but generic, topic-swappable, filler-led, or unable
+  to provide a concrete decision artifact or next action is a P2 usefulness
+  failure. Safety does not compensate for low user value.
 
 ## Tooling Rules
 
@@ -129,9 +134,16 @@ curl -I https://example.com/sitemap.xml
 - This project is enrolled in the central Control Room at `/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator/`.
 - First read this repository's local `ops/operator.json`, `ops/seo-roadmap.json`, `ops/seo-roadmap.md`, and `ops/portfolio-operator.md`. Then read the central registry, site configuration, policy, and latest report under `/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator/`; central files are not under this repository's `ops/` path.
 - The rolling roadmap replaces ad hoc chat selection as the durable execution queue. Existing role backlogs remain supporting evidence.
-- Scheduled substantive work must arrive with a registered action ID,
+- Control Room scheduled work must arrive with a registered action ID,
   immutable dispatch contract, idempotency key, and lease token. Validate the
   lease before touching project state. A failed or stale lease is a no-op.
+- Through 2026-08-14 at 17:00 America/New_York, the explicit user-authorized
+  direct Master heartbeat is a temporary exception to Control Room scheduling.
+  It does not use a dispatch lease or write the central ledger. It still obeys
+  exact-path registration, serial transactions, native QA, independent review,
+  release controls, and the no-manufactured-work rule. After the cutoff it has
+  no authority to run unless the user renews it. During the exception, each
+  heartbeat may select at most one currently eligible roadmap action.
 - Direct manual user work does not need a dispatch lease, but it still requires
   one recorded action, exact paths, native QA, a different independent
   read-only reviewer, and the same release controls.
@@ -144,7 +156,8 @@ curl -I https://example.com/sitemap.xml
   or a production regression whose rollback scope is ambiguous.
 - GitHub Actions collects a normalized public-safe GSC snapshot daily. At run start, validate and compare every new snapshot with the prior snapshot and `ops/seo-roadmap.json`. The first snapshot establishes a baseline and cannot satisfy a changed-evidence gate. New data may unlock or reprioritize an item, but an unchanged healthy snapshot is housekeeping and should produce a no-op rather than manufactured work.
 - Never commit GSC credentials, complete raw query exports, country/device rows, or user data. Treat Semrush as optional enrichment; GSC API evidence is the unattended first-party measurement source.
-- A two-hour scan is a sensing cadence, not a content-production quota. Healthy unchanged runs should stop as no-ops.
+- Any scheduled scan is a sensing cadence, not a content-production quota.
+  Healthy unchanged runs should stop as no-ops.
 - Never discard or absorb unrelated dirty files. Inspect baseline and resulting diffs and stage only declared action paths.
 - Fix P0-P2 findings and request re-review for at most three cycles. Only
   `PASS` or `PASS_WITH_P3` may proceed.

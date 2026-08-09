@@ -1,149 +1,68 @@
 # Implementation Backlog
 
-Last updated: 2026-08-04
+Last updated: 2026-08-09
 
-This is a supporting implementation inventory. `ops/seo-roadmap.json` is the
-durable execution queue; backlog headings do not authorize work.
-
-## Operating Baseline
-
-- `THC-OPS-001`: completed on 2026-07-28 with no `site/**` change.
-- `THC-OPS-002`: completed on 2026-07-28; substantive actions remain serial
-  but no longer have a fixed daily quota.
-- The Master is the only repository writer. Implementation support is read-only
-  and does not select work from this backlog.
-
-## Recently Completed
-
-- `THC-PROD-001`: compared builder/vendor due diligence, quote comparison, and
-  parcel/land due diligence using current demand, reproducible ranking-page
-  samples, community questions, current-site overlap, decision personas,
-  experience levels, and every-section usefulness. It promotes only the
-  separately implementable `THC-LAND-001`; cycle 2 returned `PASS_WITH_P3`
-  after all cycle 1 P2 findings were fixed. No site work occurred.
-- `THC-BUILD-003`: fresh independent review and conditional release of the
-  exact fixed 19-path build-options candidate. No new implementation or
-  research was authorized. Three fresh review cycles returned `PASS`; commit
-  `1895694`, Pages run `30622059848`, and production checks passed.
-
-## Held Source Candidate
-
-- `THC-BUILD-002`: build one national plans/kits/shells/trailer/builder
-  comparison and due-diligence page at `/tiny-house-build-options/`, with an
-  original worksite image, focused tests, homepage/sitemap integration, and
-  exact-path review/release controls. The exact candidate, local QA, and all
-  findings are complete, but the action exhausted three cycles without a
-  release verdict. A separate continuation is required.
-
-## Prior Held Review Candidate
-
-- `THC-COST-001`: repair the existing cost calculator around quote-first input,
-  honest blank/partial/resolved states, four distinct outside-cost states,
-  project-path context, separate utility buckets, progressive disclosure,
-  focused tests, and current searcher/SERP evidence.
-- Research and implementation are complete in the working tree. Nineteen
-  focused calculator tests, inherited full native QA, and responsive browser
-  checks are green. All `THC-COST-001` cycle 1-3 findings and
-  `THC-COST-002` cycle 1 findings are fixed.
-- Cycle 3 itself returned `FAIL`, exhausting the review cap. The candidate is
-  uncommitted and unreleased. `THC-COST-002` now owns the separately registered
-  fresh review-and-release continuation.
-- Frozen to the 17 paths in `ops/seo-roadmap.json`. Do not absorb the under-$20K
-  implementation, homepage, local guides, or national build asset.
-
-## Released
-
-- `THC-COST-002`: quote-first cost calculator released in `1af1dc2`; Pages run
-  `30460242431` and production byte/interaction checks passed. Independent
-  review returned `PASS_WITH_P3`; one nonblocking buffer-title wording note is
-  deferred to a separate future action.
-- `THC-SD-001`: repaired the existing San Diego guide around current City
-  section 141.0318, the separate unincorporated-County THOW determination, and
-  an explicit stop for other incorporated cities.
-- Research, City/County source data, exact homepage routing, canonical,
-  sitemap, native/browser QA, and independent review passed.
-- Released in `daaf743`; Pages run `30399382114` and production checks passed.
-- `THC-HOME-001`: rebuild the homepage placement hub around a source-backed
-  buyer decision path.
-- Exact future scope and acceptance criteria are recorded in
-  `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`.
-- The implementation must remove fake location precision, visible internal
-  record fields, repeated cautions/checklists, and unclear supported-location
-  routing. It must teach classification before asking for it and return an
-  honest next action rather than a generic "low confidence" plan.
-- `THC-RES-001` is review-clean and pushed in `2400e13`; the homepage action is
-  now selected. Do not absorb another page repair.
-- Homepage implementation and native/visual QA are complete.
-- Independent review returned `PASS` on cycle 3 with no P0-P3 findings.
-- Released in `7f9ea5f`; Pages run `30390104298` and production checks passed.
+This is a supporting inventory. It never authorizes work. Only a `ready` item
+selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
 ## Ready, Not Selected
 
-- `THC-LAND-001`: build one client-side, printable pre-offer parcel evidence
-  workflow at `/buying-land-for-a-tiny-house/` from
-  `briefs/tiny-home-next-user-value-brief-2026-08.md`. It must distinguish
-  unknown, claim-only, source-saved, and conflicting evidence; return no legal
-  or buildability verdict; and keep listings, address collection, provider
-  recommendations, costs, accounts, and external actions out of scope.
+### `THC-LAND-001`
 
-## Candidates, Not Selected
+Build one client-side, printable pre-offer parcel evidence workflow at
+`/buying-land-for-a-tiny-house/` from
+`briefs/tiny-home-next-user-value-brief-2026-08.md`.
 
-- `THC-BUILD-002`: national build decision / builder due-diligence asset.
-- Georgia classification repair and under-$20K consolidation/indexing
-  diagnosis remain candidates after the active calculator transaction.
-- Do not build ADU-builder city pages, a builder directory, or a location-page
-  batch.
+The implementation must:
 
-## Monitor
+- distinguish unknown, claim-only, source-saved, and conflicting evidence;
+- produce a useful unresolved-question/evidence file;
+- work for beginner, intermediate, and advanced parcel evaluators;
+- store and transmit no address or user-entered data;
+- issue no legal, approval, or buildability verdict; and
+- exclude listings, vendor recommendations, typical/complete costs, accounts,
+  lead capture, outreach, and indexing requests.
 
-- Keep the MVP as general national triage plus a small number of official-source examples. Do not create state pages or broad state-level permission claims.
-- Optional polish: align homepage `Page last reviewed` labels to `2026-07-09` on the next homepage edit if the operator wants the support-cluster link update reflected in homepage freshness.
+Before release it needs current source checks, focused and full native QA,
+rendered desktop/mobile interaction checks, every-section human review, and a
+different independent read-only reviewer.
 
-## Completed
+## Current Portfolio
 
-- Repaired the existing Los Angeles and San Diego pages using
-  `briefs/la-san-diego-page-repair-2026-07-18.md` and
-  `reviews/la-san-diego-human-searcher-review-2026-07-18.md`.
-- Rebuilt the top halves around human searcher tasks, early city/county stop
-  conditions, listing/builder claim tables, city-specific adjacent-intent notes,
-  and local-specific CTAs.
-- The repaired pages passed independent human-searcher implementation review
-  with verdict `PASS`; detailed notes are in
-  `reviews/la-san-diego-human-searcher-implementation-review-2026-07-18.md`.
-- Built the first `Where Can I Put a Tiny House?` MVP page/tool in `site/index.html` with responsive styling in `site/styles.css`.
-- Added general-only triage output, low-confidence unsupported-location handling, official-source field preservation, and an on-page checklist preview while email provider remains `UNKNOWN`.
-- Added launch-readiness improvements: official-source starter links, buyer-facing local-record note, non-link planned tool cards, and `Page last reviewed: 2026-07-08`.
-- Applied final launch fixes: public-facing site brand is now `Tiny Home Clarity`, and `--subtle` was darkened to `#59665d` for contrast.
-- Added the approved first official-source records to `site/data/local-records.json`: Los Angeles MTH-as-ADU, San Diego MTH/ADU-related path, and Georgia DCA state classification.
-- Updated record rendering so Los Angeles and San Diego are city examples only, Georgia DCA is a state classification source, and unsupported locations keep low-confidence general triage.
-- Built the first constrained support cluster from `briefs/local-source-support-pages-2026-07-09.md`: Los Angeles, San Diego, and Georgia classification pages.
-- Linked homepage official-source record cards to the matching support pages and made one official source link visible by default on each card.
-- Added the three support page URLs to `site/sitemap.xml` with `2026-07-09` lastmod dates.
-- Built the `Tiny Home Cost Calculator` page from `briefs/tiny-home-cost-calculator-2026-07-10.md`.
-- Linked the homepage planned cost-calculator card to the live calculator and kept unrelated planned assets as non-link cards.
-- Added the cost-calculator URL to `site/sitemap.xml` with `2026-07-10` lastmod.
-- Built the `Can You Build a Tiny House for Under $20K?` page from `briefs/tiny-house-under-20k-2026-07-13.md`.
-- Linked the homepage planned `$20K` card to the local candidate page and kept unrelated planned assets as non-link cards; it becomes live only after an authorized deployment.
-- Added the `$20K` page URL to `site/sitemap.xml` with `2026-07-13` lastmod.
+Seven reviewed public assets are listed in `status/site-pages.md`. Existing
+pages are observed rather than continually rewritten. A current-page repair is
+eligible only when durable evidence identifies a specific defect or unmet
+searcher job.
 
-## Needs SEO Research & Review
+After a verified `THC-LAND-001` release, no additional indexable page is
+published for 90 days unless an explicit exception in the roadmap is met.
 
-- No active implementation blocker from SEO review. Rendered official-source record review passed with verdict `launch`.
-- Support-cluster review passed with verdict `launch`; no implementation rerun is required before Master commits/pushes.
-- `$20K` page review passed with verdict `launch`; no implementation rerun is required before the authorized release.
-- Maintain local records as static JSON for the MVP, preferably `site/data/local-records.json`.
+## Not Eligible
 
-## Infrastructure / Later Gates
+These ideas are not ready and must not be inferred as work from this file:
 
-- GitHub Pages, `site/CNAME`, custom-domain sitemap URLs, HTTPS, and read-only
-  GSC collection are already operational.
-- Analytics is deferred until meaningful traffic or a specific product question requires on-site analytics.
-- Add email capture form after provider choice.
+- a toilet-options calculator;
+- a standalone builder/vendor due-diligence page;
+- a generic quote-comparison page;
+- Georgia expansion or generic state pages;
+- city or `near me` page batches;
+- builder, community, land, or vendor directories;
+- another cost page; and
+- generic inspiration, lifestyle, or informational articles.
 
-## Later Product Work
+The build-options page and cost calculator already own overlapping decision
+jobs. The Georgia and under-$20K pages remain observation or consolidation
+candidates only; neither is roadmap-ready.
 
-- Tiny House Toilet Options Calculator.
-- Tiny Home Builder / Vendor Due Diligence Checklist.
-- The review-clean BAC librarian suggestion remains deferred until the project
-  clears the `THC-PROD-001` usefulness gate and the user separately chooses to
-  revisit outreach.
+## Deferred Human Decisions
+
+- BAC Library outreach is preserved but unsent. Product completion does not
+  authorize it.
+- Analytics and email capture wait for a specific measurement/product need and
+  provider decision.
+
+## History
+
+Completed implementation and release evidence remains in the roadmap,
+`status/site-pages.md`, `ops/operator-review.md`, `decisions.md`, and
+`progress.md`. Do not duplicate that archive here.

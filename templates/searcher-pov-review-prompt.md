@@ -18,6 +18,10 @@ repaired page.
 - SERP evidence reviewed:
 - Representative ranking pages reviewed:
 - Official/source evidence reviewed:
+- Concrete usefulness delta versus current/ranking pages:
+- Concrete result, comparison, evidence artifact, or narrowed next step:
+- Realistic rendered scenarios exercised:
+- `No-build` or consolidation alternative considered:
 
 ## Decision-Job Persona Pass
 
@@ -75,6 +79,34 @@ Answer:
    answering?
 9. What would make the searcher distrust or abandon the page?
 
+## Anti-Generic Pass
+
+This gate is non-compensable. A page cannot pass it through cautious claims,
+more sources, longer copy, technical SEO, or visual polish.
+
+Answer:
+
+1. **Topic-swap:** could another topic or city name replace the subject while
+   most headings and advice remain coherent?
+2. **Paraphrase:** does the page mainly restate common advice or the ranking
+   pages without improving the decision?
+3. **Concrete output:** what exact result, comparison, evidence file, reusable
+   checklist, or narrowed next step does the reader receive?
+4. **Removal:** which sections contribute nothing to comprehension, evidence,
+   safety, trust, accessibility, navigation, the output, or the reader's
+   decision?
+5. **Uncertainty:** which caveats narrow verification, and which merely avoid an
+   answer?
+6. **Rendered reality:** does the first viewport deliver the primary job, and
+   do realistic tool states produce useful, honest outcomes?
+
+Record a P2 usefulness failure when material or dominant page content is
+topic-swappable, mostly paraphrase, filler-led, uncertainty-led without
+narrowing the decision, or the page has no concrete output. Compress or remove
+an isolated weak section; it blocks release only when it materially weakens or
+obscures the primary job. Recommend `no-build`, consolidation, or a narrower
+tool state when the page-level failure cannot be fixed within the action.
+
 ## SERP Strategy Pass
 
 Review the top results for the target query and summarize:
@@ -128,6 +160,8 @@ Check:
 - canonical, indexability, sitemap, title, description, H1, internal links, and
   structured-data parity;
 - form/tool states and error handling;
+- realistic beginner, intermediate, advanced, blank, incomplete, conflicting,
+  and unresolved tool states;
 - keyboard and assistive labels;
 - desktop, 390px, and 320px containment and scanability;
 - image/source licensing when media exists; and
@@ -144,4 +178,5 @@ Use one:
   safety has P0-P2 issues.
 
 A safe page cannot receive `PASS` when the primary searcher would bounce,
-cannot identify the answer, or has no useful next action.
+cannot identify the answer, has no useful next action, or has a material
+page-level anti-generic failure. Generic-but-safe page content is P2.

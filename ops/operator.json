@@ -6,10 +6,19 @@
   "autonomy": "reviewed-release",
   "control_room": "/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator",
   "central_config": "config/sites/tiny-home-clarity.json",
-  "scan_interval_hours": 2,
   "substantive_action_cadence": "uncapped-serial-reviewed-transactions",
   "pilot_review_on": "2026-07-19",
   "release_policy": "Standing authorization granted 2026-07-17 for exact-path, independently reviewed, QA-green pushes and GitHub Pages deployments. Verify the pushed SHA and action-specific production invariants; stop on divergence or ambiguous rollback scope.",
+  "scheduled_execution": {
+    "mode": "temporary-direct-master-heartbeat",
+    "authorized_on": "2026-08-09",
+    "timezone": "America/New_York",
+    "local_times": ["09:00", "17:00"],
+    "ends_at": "2026-08-14T17:00:00-04:00",
+    "authoritative_schedule_fields": ["timezone", "local_times", "ends_at"],
+    "control_room_dispatch_required": false,
+    "after_cutoff": "manual-only-until-user-renews"
+  },
   "cloud_readiness": {
     "mode": "hybrid",
     "cloud_capabilities": ["github", "public-web", "gsc-readonly-api", "dataforseo", "repository-qa"],

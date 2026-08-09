@@ -30,7 +30,9 @@ evidence, scope, or regression problems. It never edits the checkout.
    provenance, non-additive demand treatment, page boundaries, and the single
    promoted action.
 5. For a page, run the Searcher POV, decision-persona, every-section,
-   evidence/claim, technical SEO, accessibility, and responsive visual passes.
+   anti-generic, evidence/claim, technical SEO, accessibility, and responsive
+   visual passes on the rendered page. For tools, exercise realistic beginner,
+   intermediate, advanced, blank, incomplete, and conflicting states.
 6. Independently run the relevant native QA when practical.
 7. Return structured findings and one verdict. Do not silently fix anything.
 
@@ -41,6 +43,15 @@ intermediate, and advanced experience levels. A technically safe page fails if
 its primary searcher would bounce, cannot identify the answer, or has no useful
 next action.
 
+Also fail a page at P2 when material or dominant content is topic-swappable,
+mainly paraphrases common advice, uses caveats to avoid a useful answer, or the
+page lacks a concrete result, artifact, or narrowed next step. Compress or
+remove an isolated weak section; it blocks release only when it materially
+weakens the primary job or contributes nothing to comprehension, evidence,
+safety, trust, accessibility, navigation, or output. Source coverage, technical
+SEO, visual polish, and cautious wording cannot compensate for a page-level
+usefulness failure.
+
 Use `templates/searcher-pov-review-prompt.md`. Review every visible section and
 label it `keep`, `compress`, `merge`, `move`, `replace`, or `remove`.
 
@@ -50,7 +61,8 @@ label it `keep`, `compress`, `merge`, `move`, `replace`, or `remove`.
 - `P1`: likely functional failure, serious misleading claim, or major
   regression.
 - `P2`: material usefulness, evidence, SEO, accessibility, scope, or
-  maintainability problem that must be fixed before release.
+  maintainability problem that must be fixed before release. Generic-but-safe
+  or topic-swappable page content is explicitly P2.
 - `P3`: worthwhile non-blocking improvement.
 
 Each finding must include the action ID, path and line when applicable,

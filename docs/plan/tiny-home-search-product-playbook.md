@@ -2,7 +2,7 @@
 
 Status: operating guide
 
-Prepared: 2026-07-28
+Prepared: 2026-07-28; last updated: 2026-08-09
 
 Owner: Tiny Home Clarity Master / Operator
 
@@ -33,13 +33,18 @@ overstating legality, cost, vendor quality, or personal experience.
    failure modes. Experience level is a second review axis.
 7. Audit every current page and every visible section before choosing a revamp.
 8. Prefer improving an existing page before creating a new URL.
-9. Promote exactly one implementation action from a research transaction.
+9. Promote at most one implementation action from a research transaction;
+   `no-build` is valid.
 10. Keep source-backed answers direct. Uncertainty should narrow the next step,
     not make the page useless.
 11. Keep the default view useful before requiring a reader to classify
     themselves or configure a tool.
 12. Let changed evidence, a concrete product gap, or direct user instruction
     trigger work. Scan cadence alone does not.
+13. Treat generic-but-safe content as a P2 usefulness failure. Safety,
+    technical SEO, source count, length, and polish cannot compensate for a
+    missing human-usefulness delta.
+14. Accept `no-build` as a successful research or review result.
 
 ## Stage 0: Operating Gate
 
@@ -71,10 +76,37 @@ Write down:
 - job-to-be-done;
 - first-screen question and answer;
 - next action the reader should be able to take;
+- concrete result, comparison, evidence artifact, or narrowed decision the
+  page will produce;
+- usefulness delta versus current Tiny Home Clarity pages and representative
+  ranking pages;
 - adjacent intents the page should route or exclude; and
 - claims that require official, local, transactional, or human evidence.
 
 Do not select a page from one headline-volume query alone.
+
+### Non-Compensable Usefulness Gate
+
+Before promoting a page, answer all five tests:
+
+1. **Topic-swap test:** would the structure and advice still read coherently if
+   the topic or city name were replaced? If yes, it is too generic.
+2. **Paraphrase test:** does the page mostly restate common advice or ranking
+   pages without making a decision easier? If yes, it adds no product value.
+3. **Output test:** what concrete result, comparison, evidence file, checklist,
+   or narrowed next step does the reader leave with?
+4. **Removal test:** which sections add nothing to comprehension, evidence,
+   safety, trust, accessibility, navigation, the reader's decision, or the
+   concrete output? Compress, remove, or replace them. An isolated weak section
+   is not automatically a page-level failure.
+5. **Rendered-state test:** does the first viewport and, for tools, each
+   realistic input/result state deliver the promised job in human terms?
+
+A cautious page that repeatedly says what it cannot verify still fails when it
+does not narrow the decision. Page-level P2 applies when generic content is
+material or dominant, obscures the primary job, or leaves no concrete output.
+When these tests cannot pass, consolidate, noindex, monitor, or record
+`no-build` instead of creating an indexable URL.
 
 ## Stage 2: Build The Query Universe
 
@@ -225,11 +257,14 @@ Before proposing a new URL, answer:
 3. Which page could it cannibalize?
 4. Can it receive useful internal links?
 5. Can official/source evidence and a refresh workflow keep it useful?
+6. What concrete usefulness delta survives the topic-swap, paraphrase, output,
+   removal, and rendered-state tests?
 
 ## Stage 8: Promote One Action
 
-Promote exactly one bounded action unless the user explicitly authorizes a
-larger batch.
+Promote at most one bounded action unless the user explicitly authorizes a
+larger batch. `No-build` is a valid completed outcome when no candidate passes
+the usefulness and evidence gates.
 
 Define:
 
@@ -243,6 +278,10 @@ Define:
 - native, focused, visual, privacy, and independent-review QA;
 - release invariants; and
 - measurement plan.
+
+The action must name its concrete user output and define realistic rendered
+scenarios that prove it works for the primary decision persona and the relevant
+beginner, intermediate, and advanced experience levels.
 
 Do not promote a new local-page batch, builder directory, vendor
 recommendation, complete/typical cost claim, legal conclusion, or external
@@ -260,9 +299,13 @@ account mutation without the explicit gate required by `AGENTS.md`.
 7. Run focused tests, all repository tests, site QA, state QA, JSON validation,
    responsive browser checks, interaction checks, source/link checks, privacy
    checks, and `git diff --check` as applicable.
-8. Invoke a different independent read-only reviewer on the complete diff.
-9. Fix P0-P2 and re-review for at most three cycles.
-10. Proceed only on `PASS` or `PASS_WITH_P3`.
+8. Inspect the rendered first viewport and every visible section as the target
+   searcher; source-only review is insufficient for page work.
+9. For tools, exercise realistic beginner, intermediate, advanced, blank,
+   incomplete, conflicting, and unresolved states.
+10. Invoke a different independent read-only reviewer on the complete diff.
+11. Fix P0-P2 and re-review for at most three cycles.
+12. Proceed only on `PASS` or `PASS_WITH_P3`.
 
 ## Stage 10: Release And Close
 
@@ -277,9 +320,15 @@ For deployable work, verify the native Pages run, pushed SHA/release marker,
 production SEO availability, and action-specific content or behavior
 invariants.
 
-Keep post-release workflow and production evidence in the Control Room
-handback. Do not create a repository-only backfill commit unless separately
-requested or dispatched.
+For a Control Room dispatch, keep post-release workflow and production evidence
+in its handback. A deployable direct-manual action must predeclare exact
+release-closeout paths in its frozen scope. After push, deployment, and
+production verification, the Master may add only mechanical release evidence
+to those paths, rerun applicable state and diff QA, obtain independent
+read-only review of the closeout and complete action range, and push one
+exact-path closeout commit under the same registered action. This controlled
+closeout is part of the original transaction; an ad hoc historical backfill
+still requires separate authority.
 
 ## Stage 11: Measure
 
@@ -314,6 +363,7 @@ Every substantive page receives:
 - every-section editorial review;
 - evidence, freshness, and claim-safety review;
 - repetition and scan-friction review;
+- topic-swap, paraphrase, concrete-output, removal, and rendered-state review;
 - terminology, classification, and ADU/tiny-home boundary review;
 - internal-link and cannibalization review;
 - technical SEO and structured-data review;

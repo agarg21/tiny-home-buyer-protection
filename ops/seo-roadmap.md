@@ -1,10 +1,12 @@
 # Tiny Home Clarity Operator Roadmap
 
 The machine-readable queue is `ops/seo-roadmap.json`. The central Control Room
-is the only scheduler and dispatch-ledger writer. The project Master / Operator
-updates repository state only inside a validated dispatch or direct manual user
-transaction. The user retains material legal, monetization, provider, and
-unreviewed release decisions.
+is the only writer of its dispatch ledger and remains the default portfolio
+scheduler. The project Master / Operator updates repository state only inside a
+validated dispatch or direct manual user transaction. By direct user authority,
+the temporary 09:00/17:00 Master heartbeat through 2026-08-14 17:00 ET is
+direct-manual, not a Control Room dispatch. The user retains material legal,
+monetization, provider, and unreviewed release decisions.
 
 ## Current sequence
 
@@ -50,6 +52,38 @@ unreviewed release decisions.
 19. `THC-STATUS-001` — completed on 2026-08-06 as an eight-path, docs-only page
     status and finite build-then-observe reconciliation. It created no page and
     did not start `THC-LAND-001`.
+20. `THC-OPS-003` — completed on 2026-08-09 as a 20-path docs-only operating
+    cleanup. It aligned the temporary direct Master heartbeat, simplified
+    current state/backlogs, and made material generic-but-safe content a P2
+    failure.
+
+## THC-OPS-003 completion
+
+- Direct manual user instruction; no Control Room lease applies.
+- Base: clean and origin-aligned at
+  `5f66a88da471d265079c9d721b68340a5a6463f3`.
+- Exact scope: the 20 paths frozen in `ops/seo-roadmap.json`.
+- Fresh monitoring context: the August 9 snapshot through August 7 reports 21
+  rolling impressions, 0 clicks, seven discovered pages, five indexed, and six
+  consecutive zero-impression days. It does not select a page action.
+- Goal: remove scheduler/state/backlog contradictions and require a rendered,
+  non-generic usefulness delta before any page can pass review.
+- Result: fixed local heartbeat times and cutoff are authoritative; current
+  cycle and both supporting backlogs are concise; research, implementation, and
+  final review now apply topic-swap, paraphrase, output, removal, rendered, and
+  realistic-state tests. Useful explanation, evidence, safety, trust,
+  accessibility, and navigation can still earn their place.
+- Native QA: 54/54 tests, zero SEO errors with three known warnings on untouched
+  pages, zero operator-state errors, valid JSON, required files, exact scope,
+  and clean diff checks.
+- Independent review: cycles 1 and 2 returned bounded P2/P3 findings, all fixed;
+  reviewer `019fcc94-81c5-7ea2-b165-377dca84e4a0` returned `PASS` with no
+  findings in final cycle 3.
+- `THC-LAND-001` remains the sole next eligible action and was not started.
+- No deployment applies because no `site/**` path changed.
+- No `site/**`, implementation, fresh keyword/SERP research, indexing request,
+  outreach, external account, analytics, deployment, vendor recommendation,
+  cost claim, or legal/zoning/buildability conclusion.
 
 ## THC-STATUS-001 completion
 

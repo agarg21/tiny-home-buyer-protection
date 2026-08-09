@@ -1,5 +1,95 @@
 # Operator Review
 
+## 2026-08-09 - Operating-State And Anti-Generic Gate Cleanup
+
+Action: `THC-OPS-003`
+
+Selection authority: direct manual user instruction. No Control Room dispatch
+lease applies.
+
+Frozen boundary: the twenty exact paths in `ops/current-cycle.md`. Operating,
+strategy, agent, review, and queue documentation only; no `site/**`, page
+implementation, fresh keyword/SERP research, indexing request, outreach,
+external-account mutation, analytics, deployment, vendor recommendation,
+typical or complete cost claim, or legal/zoning/buildability conclusion.
+
+Evidence classification:
+
+- The user's direction to make the repository easier to evolve while preventing
+  generic pages is causal operating-model evidence.
+- The August 9 public-safe GSC snapshot, finalized through August 7, is current
+  monitoring context: 21 impressions, 0 clicks, seven discovered URLs, five
+  indexed URLs, and six consecutive zero-impression days.
+- The monitoring evidence does not establish a technical outage, select a page
+  rewrite, or justify a new URL.
+- Existing page feedback and review history support a non-compensable human
+  usefulness gate without requiring fresh SEO research.
+
+Candidate state:
+
+- `ops/current-cycle.md` is a concise current-state handoff; durable transaction
+  history remains in the roadmap, this file, `decisions.md`, and `progress.md`.
+- Both supporting backlogs contain only current eligibility and explicit holds;
+  they do not independently authorize work.
+- The temporary direct Master heartbeat is represented consistently and expires
+  after 2026-08-14 17:00 ET unless the user renews it.
+- New or materially repaired pages fail at P2 when they are safe but generic,
+  topic-swappable, paraphrase-led, filler-led, uncertainty-led without a
+  narrowed decision, or unable to produce a concrete output or next action.
+- Rendered first-screen, every-section, and realistic tool-state review is
+  mandatory. `No-build` is a valid successful outcome.
+
+Native QA:
+
+- 54/54 tests passed.
+- SEO QA reported 0 errors and 3 known canonical warnings on untouched pages.
+- Operator-state QA reported 0 errors.
+- Both JSON files parsed; required files were present; the diff matched the
+  twenty frozen paths; and `git diff --check` passed.
+
+Independent review cycle 1:
+
+- Reviewer: read-only subagent
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0`, different from the Master.
+- Verdict: `FAIL`.
+- P2: removed the contradictory 12-hour interval and made fixed local times and
+  cutoff authoritative.
+- P2: limited roadmap self-selection to at most one eligible action per
+  temporary heartbeat through the exact cutoff.
+- P2: narrowed the removal test so useful explanation, evidence, safety, trust,
+  accessibility, and navigation can earn their place; page-level failure now
+  requires material harm to the primary job.
+- P2: replaced stale pending QA text with the green evidence above.
+- P3: updated the modified bootstrap guidance date.
+- All cycle 1 findings were confirmed resolved in cycle 2.
+
+Independent review cycle 2:
+
+- Reviewer: the same independent read-only subagent
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0`; it remains different from the
+  Master.
+- Verdict: `FAIL`.
+- P2: direct-manual deployable actions had no coherent durable path for evidence
+  that exists only after deployment. The playbook now requires predeclared
+  closeout paths and authorizes one mechanical, QA-green, independently
+  reviewed exact-path closeout commit under the same action.
+- P3: replaced stale "fixes in progress" wording with accurate cycle state.
+- All cycle 2 fixes were applied before final review.
+
+Independent review cycle 3:
+
+- Reviewer: independent read-only subagent
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0`.
+- Verdict: `PASS`.
+- Findings: none.
+- The reviewer confirmed all cycle 1 and cycle 2 findings resolved, exact
+  twenty-path scope, coherent direct-manual release closeout, green native QA,
+  and no site or external mutation.
+
+Final state: `THC-OPS-003` is review-clean and complete. No `site/**` path
+changed, so deployment does not apply. `THC-LAND-001` remains the sole next
+eligible action and has not started.
+
 ## 2026-08-06 - Page Status And Validation-Phase Reconciliation
 
 Action: `THC-STATUS-001`

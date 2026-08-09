@@ -850,3 +850,38 @@ make a vendor, cost, legal, zoning, or buildability claim.
 Review: 54/54 native tests and operator/SEO/JSON/scope/diff checks pass.
 Independent read-only Anti Gravity CLI review returned `PASS` with no P0-P3
 findings. The docs-only transaction is complete; no deployment applies.
+
+## 2026-08-09 - Treat Generic-But-Safe Pages As Release Failures
+
+Decision: keep Tiny Home Clarity as a deliberately small product portfolio and
+make human usefulness non-compensable in every page transaction. A new or
+materially repaired page must give the primary searcher a concrete result,
+grounded comparison, evidence artifact, reusable decision aid, or narrowed next
+step in the rendered experience.
+
+Why: the repository already has strong safety and persona rules, but cautious
+wording, sources, technical SEO, or a polished layout can still produce a page
+that feels generic to a real searcher. Repeating what cannot be verified is not
+buyer protection unless it narrows what the reader should verify and why.
+
+Gate: apply topic-swap, paraphrase, concrete-output, removal, first-viewport,
+every-section, and realistic-state tests. Generic, topic-swappable, filler-led,
+or uncertainty-led content is P2 even when technically correct. `No-build`,
+consolidation, or a narrower tool state is preferable when the usefulness delta
+cannot be shown.
+
+Operating cleanup: use `ops/current-cycle.md` for current state only, keep both
+role backlogs non-authoritative and limited to current eligibility, and treat
+the user-authorized 09:00/17:00 heartbeat through 2026-08-14 17:00 ET as
+temporary direct-manual authority. It creates no Control Room lease or ledger
+entry and expires unless renewed.
+
+Boundary: `THC-OPS-003` changes operating documentation only. It does not start
+`THC-LAND-001`, change `site/**`, run fresh research, request indexing, perform
+outreach, mutate an account, deploy, or make a vendor, cost, legal, zoning, or
+buildability claim.
+
+Review result: cycles 1 and 2 found bounded schedule, authority, removal-test,
+state, and release-closeout issues; all were fixed. Independent reviewer
+`019fcc94-81c5-7ea2-b165-377dca84e4a0` returned `PASS` with no findings in
+final cycle 3. Native QA is green and no deployment applies.

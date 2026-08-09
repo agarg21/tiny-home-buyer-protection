@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-08-06
+Last updated: 2026-08-09
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -93,6 +93,14 @@ Build pages that are useful even before the site has authority:
 - Comparison tables.
 - Buyer due diligence workbooks.
 - Official-source local verification records.
+
+In the short term, treat this as a deliberately small product portfolio, not a
+publishing program. A new or repaired page must improve a real human decision
+in the rendered experience and produce a concrete result, comparison,
+evidence artifact, or narrowed next step. Accurate but generic prose,
+topic-swappable local copy, and repeated uncertainty language are release
+failures, not acceptable placeholders. A review-clean `no-build` decision is
+better than another page that merely covers a keyword.
 
 The first product spec is `briefs/where-can-i-put-a-tiny-house-product-spec.md`.
 
@@ -296,7 +304,7 @@ subtotal. See
 ## Current Validation Portfolio
 
 The original launch list has been superseded by the actual reviewed portfolio.
-As of 2026-08-06, seven public assets are in the sitemap:
+As of 2026-08-09, seven public assets are in the sitemap:
 
 1. National placement decision hub.
 2. Los Angeles official-source buyer guide.
@@ -307,10 +315,10 @@ As of 2026-08-06, seven public assets are in the sitemap:
 7. Plans, kits, shells, trailers, and builder responsibility comparison.
 
 Five are indexed. The under-$20K and build-options pages are discovered but not
-indexed. The finalized rolling GSC window through 2026-08-04 reports 32
-impressions and 0 clicks. This is too little evidence for page-level causal
-conclusions, but enough to reject open-ended publication as a substitute for
-product quality.
+indexed. The finalized rolling GSC window through 2026-08-07 reports 21
+impressions and 0 clicks, including six consecutive zero-impression days. This
+is too little evidence for page-level causal conclusions, but enough to reject
+open-ended publication as a substitute for product quality.
 
 The only additional product currently justified by completed research is
 `THC-LAND-001`: a client-side, printable pre-offer parcel evidence workflow.

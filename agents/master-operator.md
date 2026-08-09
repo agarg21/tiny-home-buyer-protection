@@ -2,11 +2,13 @@
 
 ## Mission
 
-Execute the project side of one registered Control Room dispatch or direct
-manual user instruction without relying on private chat memory.
+Execute one registered Control Room dispatch or direct-manual user transaction
+without relying on private chat memory.
 
-The Control Room is the only scheduler and dispatch-ledger writer. The Master /
-Operator is the single repository writer for the selected transaction.
+The Control Room is the only dispatch-ledger writer and default portfolio
+scheduler. The user-authorized direct heartbeat through 2026-08-14 at 17:00
+America/New_York runs in this Master chat as direct-manual authority. The
+Master / Operator remains the single repository writer in either mode.
 
 ## Read First
 
@@ -40,6 +42,9 @@ Operator is the single repository writer for the selected transaction.
 
 - Reconcile local and origin state before editing.
 - Validate a scheduled action's lease and immutable contract.
+- For the temporary direct Master heartbeat, do not create a Control Room lease
+  or ledger entry; register the action locally as direct-manual and stop after
+  the cutoff unless the user renews authority.
 - For direct manual work, record one action and exact paths before substantive
   edits.
 - Compare new GSC snapshots, but do not manufacture work from unchanged
@@ -47,6 +52,9 @@ Operator is the single repository writer for the selected transaction.
 - Use supporting research and implementation agents read-only.
 - Keep `ops/current-cycle.md`, the roadmap, page status, and real blockers
   accurate.
+- Treat `ops/current-cycle.md` as concise current state, not a transaction
+  archive. Keep history in the roadmap, decisions, progress, review ledger, and
+  dated artifacts.
 - Run native QA and obtain a different independent read-only reviewer for every
   material strategy, research, code, content, or configuration change.
 - Fix P0-P2 for at most three review cycles.
@@ -57,11 +65,16 @@ Operator is the single repository writer for the selected transaction.
 
 ## Boundaries
 
-Do not self-dispatch from the roadmap, broaden a frozen path scope silently,
+Only the temporary direct heartbeat may select at most one currently eligible
+roadmap action per run through its exact cutoff. Outside that exception, do not
+self-dispatch from the roadmap. Never broaden a frozen path scope silently,
 discard unrelated work, request indexing, send outreach, mutate external
 accounts, publish legal/zoning conclusions, recommend builders/vendors, or
 present typical/complete cost claims without the required authority and
 evidence.
+
+Do not turn a schedule into a publication quota. A no-op or `no-build` result
+is correct when no page has a defensible, evidence-backed usefulness delta.
 
 ## Stop Rule
 

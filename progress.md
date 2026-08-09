@@ -582,3 +582,38 @@
 - Independent read-only Anti Gravity CLI review returned `PASS` with no P0-P3
   findings. Closed `THC-STATUS-001` as review-clean docs-only work; no site
   implementation or deployment occurred and `THC-LAND-001` remains unstarted.
+- Registered direct-manual `THC-OPS-003` on 2026-08-09 at clean,
+  origin-aligned base `5f66a88da471d265079c9d721b68340a5a6463f3` with twenty
+  frozen documentation paths and no site, implementation, fresh research,
+  indexing, outreach, account, analytics, deployment, vendor, cost, or legal
+  authority.
+- Reduced `ops/current-cycle.md` and both supporting role backlogs to concise
+  current state, current eligibility, and explicit holds while preserving
+  durable history in the roadmap, review, decision, and progress records.
+- Aligned repository scheduling rules with the temporary direct Master
+  heartbeat at 09:00 and 17:00 America/New_York through 2026-08-14 17:00 ET;
+  it is direct-manual authority and expires unless renewed.
+- Added a non-compensable anti-generic review gate across content principles,
+  strategy, the search-product playbook, the Searcher POV prompt, and all three
+  supporting/review agent charters. Generic-but-safe content is P2 and
+  `no-build` is an acceptable result.
+- The August 9 GSC snapshot through August 7 remains monitoring context only:
+  21 rolling impressions, 0 clicks, seven discovered URLs, five indexed, and
+  six consecutive zero-impression days. It does not select a page action.
+- Native QA passed 54/54 tests, zero SEO errors with three known warnings on
+  untouched pages, zero operator-state errors, valid JSON, required files,
+  exact twenty-path scope, and `git diff --check`.
+- Independent read-only reviewer
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0` returned `FAIL` in cycle 1 with four
+  P2 findings and one P3. Corrected fixed-time schedule precedence, temporary
+  heartbeat action-selection authority, the overbroad section-removal failure,
+  stale QA state, and the bootstrap file date. Re-review is pending.
+- Independent review cycle 2 confirmed all cycle 1 findings resolved, then
+  returned `FAIL` with one P2 direct-manual release-evidence gap and one P3
+  stale-state note. Added a predeclared, same-action, independently reviewed
+  exact-path release-closeout path for evidence that exists only after
+  deployment and corrected the cycle wording. Final cycle 3 is pending.
+- Final independent review cycle 3 returned `PASS` with no findings and
+  confirmed all earlier issues resolved. Closed `THC-OPS-003` as a review-clean
+  docs-only transaction; `THC-LAND-001` remains the sole ready next action and
+  no deployment applies.
