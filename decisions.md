@@ -885,3 +885,31 @@ Review result: cycles 1 and 2 found bounded schedule, authority, removal-test,
 state, and release-closeout issues; all were fixed. Independent reviewer
 `019fcc94-81c5-7ea2-b165-377dca84e4a0` returned `PASS` with no findings in
 final cycle 3. Native QA is green and no deployment applies.
+
+## 2026-08-10 - Build The Parcel File, Not Another Advice Article
+
+Decision: select `THC-LAND-001` and implement one client-side pre-offer parcel
+evidence workflow at `/buying-land-for-a-tiny-house/`. Its primary job is to
+help a reader considering a particular listing, parcel, or offer distinguish
+what is unknown, merely claimed, retained from a source, or conflicting, then
+print the unresolved file before money becomes harder to recover.
+
+Why: completed August 4 research found modest but distinct land diligence
+demand, repeated high-stakes community questions, and a product gap not owned
+by the broad placement hub, build-responsibility comparison, or cost
+calculator. A worksheet that changes its next action by transaction stage and
+evidence state has a defensible usefulness delta; another general narrative
+page does not.
+
+Boundary: the candidate stores and transmits no worksheet data, asks for no
+full address, lists no property or vendor, makes no typical/complete cost
+claim, and does not call a parcel legal, approved, zoned, permitted, or
+buildable. Independent review and verified production release remain required.
+Only the verified release starts the 90-day publication hold.
+
+Review result: cycle 1 found one P1 and three P2 buyer-protection/evidence
+issues; all were fixed. Independent cycle 2 returned `PASS` with no P0-P3
+findings on the complete seventeen-path candidate. The page remains unreleased
+until the reviewed commit, Pages run, and production invariants pass.
+
+Final cycle 3 returned `PASS` with no P0-P3 findings on the frozen transaction.

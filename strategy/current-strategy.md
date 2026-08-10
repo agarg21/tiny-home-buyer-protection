@@ -322,13 +322,16 @@ open-ended publication as a substitute for product quality.
 
 The only additional product currently justified by completed research is
 `THC-LAND-001`: a client-side, printable pre-offer parcel evidence workflow.
-It remains ready but unselected and must pass its own implementation, persona,
-native, independent, deployment, and production review.
+Its selected local release candidate now produces an unresolved parcel file
+from explicit evidence states without transmitting an address or issuing a
+parcel verdict. It passed independent review and still must pass deployment
+and production verification before it is public or starts the observation
+clock.
 
 ## Next 90-Day Validation Plan
 
-1. Complete `THC-LAND-001` only if separately selected. Do not add a second
-   page merely to meet a publication count.
+1. Complete verified release of the independently reviewed `THC-LAND-001`
+   candidate. Do not add a second page merely to meet a publication count.
 2. After its verified release, freeze new indexable page publication for 90
    days while daily read-only GSC sensing continues.
 3. Treat the existing eight-page portfolio as the product test. Preserve page

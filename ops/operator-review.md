@@ -1,5 +1,122 @@
 # Operator Review
 
+## 2026-08-10 - Pre-Offer Parcel Evidence Workflow
+
+Action: `THC-LAND-001`
+
+Selection authority: the user-authorized direct Master heartbeat. No Control
+Room dispatch lease or central-ledger write applies.
+
+Frozen boundary: the seventeen exact paths in `ops/current-cycle.md`. One
+client-side, printable parcel evidence workflow plus its tests, discovery,
+implementation evidence, and durable operator state. No listings, full-address
+collection or transmission, analytics, account, database, outreach, indexing
+request, external-account mutation, vendor recommendation, typical/complete
+cost claim, or legal/zoning/buildability conclusion.
+
+Evidence classification:
+
+- Completed `THC-PROD-001` demand, SERP, representative ranking-page,
+  community-question, page-overlap, persona, and experience-level research is
+  causal product evidence.
+- The reviewed brief at
+  `briefs/tiny-home-next-user-value-brief-2026-08.md` defines the primary
+  parcel/listing/offer job and product contract.
+- The August 9 GSC snapshot through August 7 is monitoring context only: 21
+  impressions, 0 clicks, seven discovered URLs, five indexed URLs, and six
+  consecutive zero-impression days. It neither selects nor cancels this
+  already-qualified action.
+
+Candidate state:
+
+- The page leads with the parcel-specific decision and translates listing
+  claims into evidence requests before explaining broader context.
+- The worksheet distinguishes `Unknown`, `Claim only`, `Source saved`, and
+  `Conflict`, and moves unresolved critical evidence into a money-deadline stop
+  bucket only at offer/contract stages.
+- The reader receives a printable parcel file with context, unresolved items,
+  retained evidence and source limits, without a score or parcel verdict.
+- Client-side code makes no network request or storage call. The optional
+  label explicitly rejects a full address.
+- Four official national sources are presented as screening/education inputs,
+  each with a visible limitation rather than as approval evidence.
+
+Pre-review QA:
+
+- `tools/land-checker.test.mjs` passed 14 focused tests after cycle 1 fixes.
+- Preliminary SEO QA reported 0 errors and 3 known canonical warnings on
+  untouched pages.
+- Blank, browsing, offer-deadline, retained-source, escaped-input, reset, and
+  result-focus browser states passed; the offer scenario routed four unresolved
+  critical items to stop, ten noncritical items to investigate, and one saved
+  source to recorded evidence.
+- Rendered 1440x900, 390x844, and short 320x568 views had no horizontal
+  overflow. The short 320 first screen showed the direct answer, both actions,
+  and the next-section cue.
+- Browser console warnings/errors were empty. Populated headless-Chrome print
+  verification produced an isolated five-page parcel file; required content,
+  absence of form/article controls, and first/last-page layout passed.
+
+Full native QA:
+
+- 68/68 tests passed after cycle 1 fixes.
+- SEO QA reported 8 HTML pages, 8 sitemap URLs, 0 errors, and 3 known
+  canonical warnings on untouched pages.
+- Operator-state QA reported 0 errors.
+- Roadmap JSON parsed; required deployment files were present; the dirty set
+  matched the seventeen frozen paths; and `git diff --check` passed.
+
+Independent review cycle 1:
+
+- Reviewer: read-only subagent
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0`, different from the Master.
+- Verdict: `FAIL`.
+- P1: `Source saved` with a blank reference could clear all unresolved rows.
+  Fixed by requiring a nonblank source/document reference before a row counts
+  as recorded, retaining missing-reference rows in the correct stop/investigate
+  bucket, adding an amber state and label, and adding browsing/offer tests.
+- P2: the first screen did not explicitly reject inventory intent. Fixed with
+  an early `does not list land` boundary and post-discovery use statement.
+- P2: the August 9 status overlay retained an incorrect aggregate position,
+  old homepage row, and stale URL Inspection labels. Fixed to mirror 21
+  impressions, position 32.24, homepage 6 impressions at 49.17, and the two
+  sitemap-discovered URLs that URL Inspection calls unknown to Google.
+- P2: only the blank print surface had been verified. Fixed by printing a
+  populated offer scenario with claim, conflict, sources, notes, unresolved
+  items, limitations, timestamp, and URL. Text assertions and first/last-page
+  visual checks passed across the isolated five-page file with no controls or
+  clipping.
+- All cycle 1 findings were fixed before cycle 2.
+
+Independent review cycle 2:
+
+- Reviewer: the same independent read-only subagent
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0`; it remains different from the
+  Master.
+- Verdict: `PASS`.
+- Findings: none.
+- All cycle 1 findings are resolved. The reviewer passed the primary parcel/
+  listing/offer job; early-browser, parcel-buyer, advanced-verifier, beginner,
+  intermediate, and advanced lenses; every section; anti-generic and removal
+  gates; privacy and safety; responsive and realistic states; populated print;
+  and the repository/release boundaries.
+- The reviewer independently reproduced 68/68 tests, 0 SEO errors with 3 known
+  warnings on untouched pages, 0 operator-state errors, valid JSON, required
+  files, exact seventeen-path scope, and clean diff checks.
+
+Independent review cycle 3:
+
+- Reviewer: independent read-only subagent
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0`.
+- Verdict: `PASS`.
+- Findings: none.
+- The frozen complete transaction retained every cycle 1 fix, passed all
+  persona, experience, section, state, source, privacy, responsive, print, and
+  release gates, and reproduced 68/68 tests plus all site/state checks.
+
+Final state: review-clean and unreleased. Commit/push, Pages, and production
+verification remain.
+
 ## 2026-08-09 - Operating-State And Anti-Generic Gate Cleanup
 
 Action: `THC-OPS-003`

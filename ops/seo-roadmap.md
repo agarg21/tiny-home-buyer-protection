@@ -46,9 +46,9 @@ monetization, provider, and unreviewed release decisions.
     2026-08-04; no approval request or external contact remains active.
 17. `THC-PROD-001` — completed review-clean research on 2026-08-04; it
     promotes only the parcel-specific `THC-LAND-001` action.
-18. `THC-LAND-001` — ready but unselected: a client-side pre-offer parcel
-    evidence workflow at `/buying-land-for-a-tiny-house/`; its eventual
-    verified release starts a 90-day portfolio observation period.
+18. `THC-LAND-001` — selected on 2026-08-10: build a client-side pre-offer
+    parcel evidence workflow at `/buying-land-for-a-tiny-house/`; its verified
+    release starts a 90-day portfolio observation period.
 19. `THC-STATUS-001` — completed on 2026-08-06 as an eight-path, docs-only page
     status and finite build-then-observe reconciliation. It created no page and
     did not start `THC-LAND-001`.
@@ -56,6 +56,49 @@ monetization, provider, and unreviewed release decisions.
     cleanup. It aligned the temporary direct Master heartbeat, simplified
     current state/backlogs, and made material generic-but-safe content a P2
     failure.
+
+## THC-LAND-001 selected transaction
+
+- Direct-manual authority: the temporary Master heartbeat; no Control Room
+  lease or central-ledger write applies.
+- Base: clean and origin-aligned at
+  `7e6ad2dd33119d7c567515261a312af894861820`.
+- Exact scope: the seventeen paths frozen in `ops/seo-roadmap.json`; the
+  status, roadmap, review, decision, and progress paths are also the
+  predeclared release-closeout paths for mechanical post-deployment evidence.
+- Causal evidence: completed `THC-PROD-001` research and
+  `briefs/tiny-home-next-user-value-brief-2026-08.md`.
+- Monitoring context: the August 9 GSC snapshot through August 7 reports 21
+  impressions, 0 clicks, seven discovered pages, five indexed, and six
+  consecutive zero-impression days. It does not select or cancel this action.
+- Output: one account-free, client-side, printable parcel evidence and
+  unresolved-question workflow. It distinguishes unknown, claim-only,
+  source-saved, and conflicting evidence without a legal/buildability verdict.
+- Candidate state: implementation is complete locally. The page, client-only
+  worksheet, homepage discovery link, sitemap entry, styles, focused tests,
+  and implementation record are present; no push or deployment has occurred.
+- Rendered QA: 1440, 390, and short 320 views have no horizontal overflow; the
+  short 320 first screen shows the answer, first action, and next-section cue.
+  Blank, browsing, offer-deadline, retained-source, escaped-input, reset, and
+  focus states pass. A headless print check produces the parcel file only.
+- Review cycle 1: independent reviewer
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0` returned `FAIL` with one P1 and three
+  P2 findings. Fixed missing-reference source self-attestation, the first-screen
+  land-inventory boundary, August 9 GSC status fidelity, and populated-print
+  verification.
+- Review cycle 2: the same independent read-only reviewer checked the complete
+  seventeen-path candidate and returned `PASS` with no P0-P3 findings,
+  independently reproducing 68/68 tests and all site/state checks. The
+  candidate remains unreleased.
+- Final review cycle 3: the reviewer returned `PASS` with no P0-P3 findings on
+  the frozen complete transaction. Commit/push, Pages, and production
+  verification remain.
+- Required review: rendered first screen, every section, primary decision
+  personas, beginner/intermediate/advanced experience levels, realistic tool
+  states, native QA, independent review, Pages, and production invariants.
+- Boundary: no listings, full-address collection or transmission, analytics,
+  accounts, database, outreach, indexing request, vendors, typical/complete
+  costs, or legal/zoning/buildability conclusion.
 
 ## THC-OPS-003 completion
 

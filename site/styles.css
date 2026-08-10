@@ -423,7 +423,8 @@ label span {
 }
 
 input,
-select {
+select,
+textarea {
   width: 100%;
   min-height: 42px;
   border: 1px solid #cbd8d0;
@@ -434,12 +435,430 @@ select {
   padding: 9px 10px;
 }
 
+textarea {
+  min-height: 76px;
+  resize: vertical;
+}
+
 input:focus,
 select:focus,
 button:focus,
 a:focus {
   outline: 3px solid rgba(31, 107, 74, 0.22);
   outline-offset: 2px;
+}
+
+.land-page {
+  --land-accent: #6b3140;
+  --land-soft: #f5eaed;
+  --land-line: #decbd0;
+}
+
+.land-page .eyebrow {
+  color: var(--land-accent);
+  letter-spacing: 0;
+}
+
+.land-hero {
+  max-width: 980px;
+  padding: 42px 0 38px;
+  border-top: 1px solid var(--line);
+}
+
+.land-hero h1 {
+  max-width: 960px;
+  margin-bottom: 20px;
+  font-size: 3.75rem;
+  line-height: 1.02;
+}
+
+.land-answer {
+  max-width: 880px;
+  margin: 0;
+  padding: 15px 18px;
+  border-left: 4px solid var(--land-accent);
+  background: var(--land-soft);
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.land-answer strong {
+  color: var(--ink);
+}
+
+.land-boundary {
+  max-width: 820px;
+  margin: 16px 0 0;
+  color: var(--muted);
+}
+
+.land-stop-section {
+  padding-top: 34px;
+}
+
+.land-stop-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.land-stop-grid li {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 11px;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid var(--land-line);
+  border-top: 4px solid var(--land-accent);
+  border-radius: 7px;
+  background: var(--panel);
+}
+
+.land-stop-grid li > span {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--land-soft);
+  color: var(--land-accent);
+  font-weight: 900;
+}
+
+.land-stop-grid p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.land-tool-section {
+  padding-top: 38px;
+}
+
+.land-tool-heading {
+  max-width: 900px;
+}
+
+.land-tool-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(340px, 0.85fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.land-form {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+}
+
+.land-context-card,
+.land-notes-card,
+.evidence-group {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--panel);
+}
+
+.land-context-card {
+  padding: 20px;
+}
+
+.land-context-card > legend {
+  padding: 0 8px;
+  color: var(--land-accent);
+  font-size: 1.1rem;
+}
+
+.land-context-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.evidence-groups {
+  display: grid;
+  gap: 14px;
+}
+
+.evidence-group {
+  overflow: hidden;
+}
+
+.evidence-group > summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  color: var(--land-accent);
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.evidence-group > summary span {
+  color: var(--subtle);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.evidence-group[open] > summary {
+  border-bottom: 1px solid var(--line);
+  background: var(--land-soft);
+}
+
+.evidence-group-body {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.evidence-row {
+  gap: 12px;
+  padding: 16px;
+  border-left: 4px solid var(--line);
+  background: #fbfdfb;
+}
+
+.evidence-row[data-state="claim"] {
+  border-left-color: #9b621b;
+  background: #fff9ed;
+}
+
+.evidence-row[data-state="source-missing"] {
+  border-left-color: #9b621b;
+  background: #fff9ed;
+}
+
+.evidence-row[data-state="source"] {
+  border-left-color: var(--accent);
+  background: #f1f8f4;
+}
+
+.evidence-row[data-state="conflict"] {
+  border-left-color: var(--land-accent);
+  background: var(--land-soft);
+}
+
+.evidence-row legend {
+  max-width: 94%;
+  padding: 0 6px;
+}
+
+.evidence-row legend span {
+  display: inline-block;
+  margin-left: 6px;
+  color: var(--land-accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.evidence-question,
+.source-limit {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.evidence-input-grid {
+  display: grid;
+  grid-template-columns: minmax(130px, 0.55fr) minmax(220px, 1.45fr);
+  gap: 12px;
+}
+
+.evidence-notes-field {
+  grid-column: 1 / -1;
+}
+
+.land-notes-card {
+  padding: 18px;
+}
+
+.land-form-actions,
+.result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.land-result {
+  position: sticky;
+  top: 18px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.land-result.has-result {
+  position: static;
+}
+
+.parcel-context-summary {
+  margin: 18px 0;
+  border-top: 1px solid var(--line);
+}
+
+.parcel-context-summary div {
+  grid-template-columns: minmax(135px, 0.38fr) minmax(0, 1fr);
+}
+
+.result-bucket {
+  margin-top: 16px;
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--subtle);
+  border-radius: 7px;
+  background: var(--paper);
+}
+
+.result-bucket h3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.result-bucket h3 span {
+  color: var(--subtle);
+}
+
+.bucket-stop {
+  border-color: #e5bec7;
+  border-left-color: var(--land-accent);
+  background: var(--land-soft);
+}
+
+.bucket-investigate {
+  border-color: #ecd6b8;
+  border-left-color: #9b621b;
+  background: #fff9ed;
+}
+
+.bucket-recorded {
+  border-color: #cbe0d3;
+  border-left-color: var(--accent);
+  background: #f1f8f4;
+}
+
+.bucket-empty {
+  margin: 0;
+  color: var(--muted);
+}
+
+.evidence-ledger {
+  margin-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.evidence-ledger > summary {
+  padding: 16px 0;
+  color: var(--land-accent);
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.evidence-summary-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.evidence-summary {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--subtle);
+  border-radius: 6px;
+  background: var(--panel);
+}
+
+.evidence-summary.state-source {
+  border-left-color: var(--accent);
+}
+
+.evidence-summary.state-claim {
+  border-left-color: #9b621b;
+}
+
+.evidence-summary.state-source-missing {
+  border-left-color: #9b621b;
+}
+
+.evidence-summary.state-conflict {
+  border-left-color: var(--land-accent);
+}
+
+.evidence-summary-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.evidence-summary-heading h4 {
+  margin: 0;
+}
+
+.evidence-summary-heading span {
+  color: var(--subtle);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.evidence-summary dl {
+  margin: 8px 0;
+}
+
+.evidence-summary dl div,
+.evidence-summary dl {
+  font-size: 0.9rem;
+}
+
+.evidence-summary p,
+.print-source {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.preserve-lines {
+  white-space: pre-wrap;
+}
+
+.result-actions {
+  margin-top: 18px;
+}
+
+.office-table {
+  min-width: 960px;
+}
+
+.office-table tbody th {
+  background: #fbfdfb;
+  color: var(--ink);
+  font-size: 0.95rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.claim-check-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.claim-check-grid article {
+  padding: 17px;
+  border: 1px solid var(--land-line);
+  border-top: 4px solid var(--land-accent);
+  border-radius: 7px;
+  background: var(--panel);
+}
+
+.claim-check-grid p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.land-source-grid article {
+  border-top-color: var(--land-accent);
 }
 
 fieldset {
@@ -1374,6 +1793,19 @@ dd {
 }
 
 @media (max-width: 900px) {
+  .land-stop-grid,
+  .claim-check-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .land-tool-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .land-result {
+    position: static;
+  }
+
   .build-table-wrap {
     overflow: visible;
   }
@@ -1560,6 +1992,54 @@ dd {
     display: none;
   }
 
+  .land-hero {
+    padding: 22px 0 18px;
+  }
+
+  .land-hero h1 {
+    margin-bottom: 12px;
+    font-size: 2.35rem;
+    line-height: 1.03;
+  }
+
+  .land-answer {
+    padding: 12px 13px;
+    font-size: 0.98rem;
+  }
+
+  .land-boundary {
+    margin-top: 12px;
+    font-size: 0.94rem;
+  }
+
+  .land-hero .freshness-label {
+    display: none;
+  }
+
+  .land-stop-grid,
+  .claim-check-grid,
+  .land-context-grid,
+  .evidence-input-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .evidence-notes-field {
+    grid-column: auto;
+  }
+
+  .evidence-group > summary {
+    padding: 14px;
+  }
+
+  .evidence-group-body,
+  .evidence-row {
+    padding: 13px;
+  }
+
+  .parcel-context-summary div {
+    grid-template-columns: 1fr;
+  }
+
   .responsibility-list li {
     grid-template-columns: 1fr;
     gap: 5px;
@@ -1606,6 +2086,59 @@ dd {
 }
 
 @media (max-width: 360px) {
+  .land-page .site-nav {
+    display: none;
+  }
+
+  .land-page .site-header {
+    padding: 10px 0;
+  }
+
+  .land-hero {
+    padding: 12px 0 10px;
+  }
+
+  .land-hero .eyebrow {
+    margin-bottom: 7px;
+    font-size: 0.7rem;
+  }
+
+  .land-hero h1 {
+    margin-bottom: 9px;
+    font-size: 2rem;
+    line-height: 1.02;
+  }
+
+  .land-answer {
+    padding: 9px 10px;
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
+  .land-boundary {
+    margin: 9px 0 0;
+    font-size: 0.84rem;
+    line-height: 1.35;
+  }
+
+  .land-hero .hero-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+    margin-top: 10px;
+  }
+
+  .land-hero .button {
+    min-height: 38px;
+    padding: 7px;
+    font-size: 0.82rem;
+    line-height: 1.2;
+  }
+
+  .land-stop-section {
+    padding-top: 18px;
+  }
+
   .build-options-page .site-nav {
     display: none;
   }
@@ -1657,5 +2190,79 @@ dd {
 
   .build-hero-media img {
     height: 44px;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0.55in;
+  }
+
+  body {
+    background: #ffffff;
+    color: #000000;
+    font-size: 10pt;
+  }
+
+  body > * {
+    display: none !important;
+  }
+
+  body > main,
+  #worksheet,
+  .land-tool-grid,
+  #land-result,
+  #land-result .print-file {
+    display: block !important;
+  }
+
+  body > main > :not(#worksheet),
+  #worksheet > :not(.land-tool-grid),
+  .land-tool-grid > :not(#land-result),
+  .no-print {
+    display: none !important;
+  }
+
+  main,
+  #worksheet,
+  #land-result {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  #land-result-title {
+    outline: 0 !important;
+  }
+
+  .print-file details,
+  .print-file .evidence-ledger {
+    display: block;
+  }
+
+  .evidence-summary-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .print-file .evidence-summary-heading {
+    display: block;
+  }
+
+  .print-file .evidence-summary-heading span {
+    display: block;
+    margin-top: 4px;
+  }
+
+  .evidence-summary,
+  .result-bucket,
+  .parcel-context-summary {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+
+  a {
+    text-decoration: none;
   }
 }

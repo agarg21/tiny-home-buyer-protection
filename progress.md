@@ -617,3 +617,45 @@
   confirmed all earlier issues resolved. Closed `THC-OPS-003` as a review-clean
   docs-only transaction; `THC-LAND-001` remains the sole ready next action and
   no deployment applies.
+- Registered direct-manual `THC-LAND-001` on 2026-08-10 at clean,
+  origin-aligned base `7e6ad2dd33119d7c567515261a312af894861820` with seventeen
+  frozen implementation, test, discovery, research, and operator-state paths.
+- Built the parcel-specific pre-offer page and client-side evidence worksheet,
+  distinguishing unknown, claim-only, source-saved, and conflicting evidence
+  across parcel identity, authority, home/use, title/access, water/wastewater,
+  utilities, and site constraints.
+- Added a printable unresolved file, money-deadline stop routing, retained-
+  source limitations, homepage discovery, sitemap inclusion, focused tests,
+  and an implementation evidence record. The page collects no full address,
+  sends or stores no data, and gives no parcel verdict.
+- Focused tests passed 12/12. Rendered 1440, 390, and short 320 views pass
+  without horizontal overflow; blank, browsing, offer, retained-source,
+  escaping, reset, and focus states pass with no console warnings/errors. A
+  real headless print check exposed and then verified the fix for an overly
+  broad six-page print output; the parcel-file surface now prints alone.
+- Pre-review full native QA passed 66/66 tests, eight pages/eight sitemap URLs with zero
+  SEO errors and three known warnings on untouched pages, zero operator-state
+  errors, valid JSON, required deployment files, exact scope, and clean diff
+  checks. Independent read-only review remains pending before any commit, push,
+  Pages run, or production claim.
+- Independent review cycle 1 by
+  `019fcc94-81c5-7ea2-b165-377dca84e4a0` returned `FAIL` with one P1 and three
+  P2 findings: blank-reference `Source saved` self-attestation, missing
+  first-screen inventory boundary, inaccurate August 9 GSC mirror, and missing
+  populated-print verification.
+- Fixed all cycle 1 findings. A nonblank retained reference is now required for
+  recorded evidence with browsing/offer regressions; the first screen says the
+  page does not list land; GSC status mirrors the snapshot; and an actual
+  populated offer file passed text/isolation/pagination plus first/last-page
+  visual checks across five unclipped pages. The four cited official URLs also
+  returned HTTP 200 on 2026-08-10.
+- Post-fix native QA passes 68/68 tests, zero SEO errors with three known
+  warnings on untouched pages, zero operator-state errors, valid JSON, required
+  files, exact scope, and clean diff checks.
+- Independent review cycle 2 checked the complete seventeen-path candidate and
+  returned `PASS` with no P0-P3 findings. The reviewer independently reproduced
+  68/68 tests and all SEO, operator-state, JSON, required-file, scope, and diff
+  checks. Final frozen-state review and release remain.
+- Final independent cycle 3 returned `PASS` with no P0-P3 findings on the
+  frozen complete transaction. The review cap is complete; reviewed release
+  remains.

@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-06",
   "next_rescore_due": "2026-08-13",
-  "next_eligible_action_id": "THC-LAND-001",
+  "next_eligible_action_id": "none",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -773,7 +773,8 @@
       "learning_value": 5,
       "effort": 3,
       "risk": 3,
-      "status": "ready",
+      "status": "in_progress",
+      "selected_on": "2026-08-10",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "required_evidence": [
@@ -814,9 +815,27 @@
         "status": "not-required",
         "approval_required_for": null
       },
-      "implementation_state": "ready-not-selected",
-      "evidence_classification": "The completed THC-PROD-001 audit is causal product evidence. The August 3 GSC snapshot is weak monitoring context only. Semrush values are third-party estimates and overlapping keyword totals must not be summed as unique demand.",
-      "notes": "Ready but unselected after THC-PROD-001 passed independent review. Select only as a separate direct-manual or valid Control Room transaction. Its verified release starts the 90-day portfolio observation clock; this strategy transaction does not. No listings, address lookup or transmission, analytics, account, database, outreach, indexing request, vendor recommendation, typical or complete cost claim, or legal/zoning/buildability conclusion is authorized."
+      "implementation_state": "review-clean-release-candidate",
+      "review_outcome": "PASS",
+      "review_cycles": 3,
+      "reviewer_id": "019fcc94-81c5-7ea2-b165-377dca84e4a0",
+      "qa_evidence": [
+        "tools/land-checker.test.mjs passed 14 focused logic, state, missing-source enforcement, escaping, privacy, print, first-screen, source, and discovery tests",
+        "preliminary SEO QA reported 0 errors and 3 known canonical warnings on untouched pages",
+        "rendered 1440x900, 390x844, and short 320x568 checks passed without horizontal overflow; the short first screen shows the answer, first action, and next-section cue",
+        "blank, browsing, offer-deadline, Source saved, escaped-input, reset, and result-focus browser states passed with no console warnings or errors",
+        "a populated offer scenario printed as an isolated five-page parcel file retaining claim, conflict, two sources, notes, stop/investigate items, limitations, timestamp, and URL while excluding form/article controls; visual first and last pages had no clipping",
+        "Source saved without a reference remained unresolved with 5 offer-stage stops and 0 recorded rows; adding the parcel source changed only that row to recorded and reduced the stop count to 4",
+        "FEMA, NRCS, FWS, and EPA cited URLs all returned HTTP 200 after redirects on 2026-08-10",
+        "node --test tools/*.test.mjs passed all 68 tests after cycle 1 fixes",
+        "node tools/seo-qa.mjs reported 8 HTML pages, 8 sitemap URLs, 0 errors, and 3 known canonical warnings on untouched pages",
+        "node tools/operator-state-qa.mjs reported 0 errors",
+        "ops/seo-roadmap.json parsed; required deployment files were present; the dirty set matched the seventeen frozen paths; git diff --check passed",
+        "independent read-only review cycle 2 returned PASS with no P0-P3 findings after all cycle 1 P1/P2 findings were fixed and independently reproduced native QA",
+        "final independent read-only cycle 3 returned PASS with no P0-P3 findings on the frozen complete transaction"
+      ],
+      "evidence_classification": "The completed THC-PROD-001 audit and reviewed implementation brief are causal product evidence. The August 9 GSC snapshot through August 7 is fresh monitoring context only and does not select or cancel this already-qualified action. Semrush values are third-party estimates and overlapping keyword totals must not be summed as unique demand.",
+      "notes": "Selected by the user-authorized direct Master heartbeat on 2026-08-10 from clean, origin-aligned base 7e6ad2dd33119d7c567515261a312af894861820. The seventeen target_paths are frozen. Independent review cycle 1 returned FAIL with one P1 and three P2 findings; all were fixed, and cycles 2 and final cycle 3 returned PASS with no P0-P3 findings. The candidate remains unreleased pending reviewed commit/push, Pages, and production verification. The status, roadmap, review, decision, and progress paths in that set are predeclared release-closeout paths for mechanical post-deployment evidence under the same action. No listings, address lookup or transmission, analytics, account, database, outreach, indexing request, vendor recommendation, typical or complete cost claim, or legal/zoning/buildability conclusion is authorized."
     },
     {
       "id": "THC-STATUS-001",

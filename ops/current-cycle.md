@@ -1,63 +1,83 @@
 # Current Cycle
 
-Last updated: 2026-08-09
+Last updated: 2026-08-10
 
-Active action: `none`
+Active action: `THC-LAND-001`
 
-Next eligible action: `THC-LAND-001`
+Next eligible action: `none`
 
-## Most Recent Transaction
+## Active Transaction
 
-`THC-OPS-003` completed as a direct-manual, docs-only operating-model cleanup
-from clean, origin-aligned base
-`5f66a88da471d265079c9d721b68340a5a6463f3`.
+`THC-LAND-001` is selected by the user-authorized direct Master heartbeat from
+clean, origin-aligned base
+`7e6ad2dd33119d7c567515261a312af894861820`.
 
 Frozen exact paths:
 
-- `AGENTS.md`
-- `agents/master-operator.md`
-- `agents/implementation-agent.md`
-- `agents/seo-research-review-agent.md`
-- `agents/operator-review-agent.md`
-- `strategy/content-principles.md`
+- `docs/research/tiny-house-land-pre-offer-implementation-2026-08.md`
+- `site/buying-land-for-a-tiny-house/index.html`
+- `site/buying-land-for-a-tiny-house/land-checker.js`
+- `site/index.html`
+- `site/styles.css`
+- `site/sitemap.xml`
+- `tools/land-checker.test.mjs`
 - `strategy/current-strategy.md`
-- `docs/plan/tiny-home-search-product-playbook.md`
-- `templates/searcher-pov-review-prompt.md`
-- `ops/operator.json`
-- `ops/portfolio-operator.md`
-- `ops/chat-bootstrap-prompts.md`
-- `ops/current-cycle.md`
 - `backlog/implementation-backlog.md`
 - `backlog/seo-research-review-backlog.md`
+- `status/site-pages.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
 - `ops/seo-roadmap.json`
 - `ops/seo-roadmap.md`
-- `ops/operator-review.md`
 - `decisions.md`
 - `progress.md`
 
-Result:
+The status, roadmap, review, decision, and progress paths above are also the
+predeclared release-closeout paths for mechanical deployment and production
+evidence under this same action.
 
-- align durable scheduling rules with the user-authorized direct Master
-  heartbeat through 2026-08-14 at 17:00 America/New_York;
-- keep this file and the supporting backlogs concise and non-contradictory;
-- make generic-but-safe content a P2 release failure; and
-- require a rendered first-screen, concrete usefulness delta, realistic output,
-  and every-section human-value review before page release.
+Purpose:
 
-Boundary: no `site/**`, implementation, fresh keyword/SERP research, indexing
-request, outreach, external-account mutation, analytics, deployment, vendor
-recommendation, typical/complete cost claim, or legal/zoning/buildability
-conclusion.
+- build one parcel-specific pre-offer evidence workflow;
+- let a reader distinguish `Unknown`, `Claim only`, `Source saved`, and
+  `Conflict` for the exact parcel and intended tiny-home path;
+- produce a printable unresolved-question file without an account or data
+  transmission; and
+- give no legal, zoning, approval, buildability, vendor, or cost verdict.
 
-Native QA is green: 54/54 tests, zero SEO errors with three known warnings on
-untouched pages, zero operator-state errors, valid JSON, required files, exact
-scope, and `git diff --check`. Independent review cycles 1 and 2 identified six
-P2/P3 issues; all were fixed. Final cycle 3 returned `PASS` with no findings.
-No `site/**` path changed, so deployment does not apply.
+Boundary: no land listings, address lookup or full-address collection,
+analytics, account, database, outreach, indexing request, external-account
+mutation, vendor recommendation, typical/complete cost claim, or legal/zoning/
+buildability conclusion.
+
+Implementation and pre-review QA state:
+
+- the static page, client-side worksheet, homepage discovery link, sitemap row,
+  stylesheet, focused tests, and implementation record are complete;
+- blank, browsing, offer-deadline, source-saved, escaping, reset, and result-
+  focus states pass;
+- `Source saved` without a nonblank retained reference stays unresolved; adding
+  the reference moves only that row into recorded evidence;
+- rendered 1440, 390, and short 320 views pass without horizontal overflow;
+  the short 320 view shows the direct answer, first action, and next-section
+  cue;
+- a populated five-page headless print retains claims, conflicts, sources,
+  notes, unresolved items, limitations, timestamp, and URL while excluding the
+  form and article;
+  and
+- focused tests and preliminary SEO QA pass.
+
+Full native QA is green: 68/68 tests, eight HTML pages and eight sitemap URLs
+with 0 SEO errors and 3 known warnings on untouched pages, 0 operator-state
+errors, valid roadmap JSON, required deployment files, and `git diff --check`.
+Independent review cycles 2 and final cycle 3 returned `PASS` with no P0-P3
+findings after all cycle 1 P1/P2 findings were fixed. The reviewed commit,
+push, Pages, and production verification remain pending.
 
 ## Current Evidence
 
-The August 9 public-safe GSC snapshot is finalized through August 7:
+The August 9 public-safe GSC snapshot at
+`ops/gsc-snapshots/2026-08-09.md` is finalized through August 7:
 
 - sitemap `Success` with seven discovered pages;
 - five of seven priority URLs indexed;
@@ -70,8 +90,9 @@ select a page rewrite, or justify another URL.
 
 ## Current Product State
 
-- Seven reviewed public assets are in the sitemap. See `status/site-pages.md`.
-- `THC-LAND-001` is the sole ready implementation and remains unselected.
+- Seven reviewed public assets are live. The checked-in sitemap now also
+  contains the unreleased `THC-LAND-001` candidate; see `status/site-pages.md`.
+- `THC-LAND-001` is the sole selected implementation and is not yet public.
 - Its completed brief is `briefs/tiny-home-next-user-value-brief-2026-08.md`.
 - A verified land-workflow release starts the 90-day hold on additional
   indexable pages.
@@ -86,8 +107,8 @@ select a page rewrite, or justify another URL.
 The user authorized this permanent Master chat to run directly at 09:00 and
 17:00 America/New_York through 2026-08-14 at 17:00. Those heartbeat runs are
 direct-manual transactions and do not require a Control Room lease. Each may
-select at most one substantive action and must use the fast no-op path when
-evidence is healthy and unchanged.
+select at most one substantive action. Unchanged monitoring evidence permits a
+no-op only when no active, ready, or otherwise due action has satisfied gates.
 
 After the cutoff, no scheduled project work is authorized unless the user
 renews it. Central Control Room enrollment remains available for later

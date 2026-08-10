@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buying Land for a Tiny House? Check the Parcel Before You Offer</title>
+    <meta name="description" content="Turn a tiny-house land listing or parcel into a printable file of evidence, claims, conflicts, and questions to resolve before an offer.">
+    <link rel="canonical" href="https://tinyhomeclarity.com/buying-land-for-a-tiny-house/">
+    <link rel="stylesheet" href="../styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Tiny House Parcel Evidence Worksheet",
+        "url": "https://tinyhomeclarity.com/buying-land-for-a-tiny-house/",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "isAccessibleForFree": true,
+        "description": "A client-side worksheet for recording parcel evidence, claims, conflicts, and unresolved questions before a tiny-house land offer."
+      }
+    </script>
+  </head>
+  <body class="land-page">
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="Tiny Home Clarity home">Tiny Home Clarity</a>
+      <nav class="site-nav" aria-label="Page sections">
+        <a href="#worksheet">Parcel check</a>
+        <a href="#documents">Documents</a>
+        <a href="#listing-claims">Listing claims</a>
+        <a href="../">Placement tool</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="land-hero" aria-labelledby="page-title">
+        <p class="eyebrow">Pre-offer parcel evidence worksheet</p>
+        <h1 id="page-title">Buying Land for a Tiny House? Check the Parcel Before You Offer</h1>
+        <p class="land-answer"><strong>Do not treat “unrestricted,” “tiny-home friendly,” or “utilities nearby” as proof.</strong> Before money is at risk, retain evidence for the exact parcel and government, intended home and use, legal access and restrictions, wastewater and water, utilities, and site constraints.</p>
+        <p class="land-boundary">This page does not list land. Use it after finding a parcel or listing. It organizes evidence; it does not decide legality, approval, or buildability.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#worksheet">Start the parcel check</a>
+          <a class="button secondary" href="#documents">See documents to request</a>
+        </div>
+        <p class="freshness-label">Reviewed: 2026-08-10</p>
+      </section>
+
+      <section id="start" class="content-section land-stop-section" aria-labelledby="stop-checks-title">
+        <div class="section-heading">
+          <p class="eyebrow">Start here</p>
+          <h2 id="stop-checks-title">Four things to name before you rely on a listing</h2>
+          <p>A mailing address, seller label, or county name can point to the wrong rules. Tie every later answer to the same parcel, authority, home, and intended use.</p>
+        </div>
+        <ol class="land-stop-grid">
+          <li><span>1</span><div><strong>Exact parcel</strong><p>Save the APN or another private label and the assessor or GIS record. Do not enter a full address here.</p></div></li>
+          <li><span>2</span><div><strong>Controlling government</strong><p>Identify the incorporated city, unincorporated county, or other authority that controls this parcel.</p></div></li>
+          <li><span>3</span><div><strong>Home category</strong><p>Name the actual foundation dwelling, ADU, manufactured home, movable tiny house, park model, or RV path.</p></div></li>
+          <li><span>4</span><div><strong>Intended use</strong><p>State whether the plan is primary, accessory, rental, or temporary/RV occupancy.</p></div></li>
+        </ol>
+      </section>
+
+      <section id="worksheet" class="tool-section land-tool-section" aria-labelledby="worksheet-title">
+        <div class="section-heading land-tool-heading">
+          <p class="eyebrow">Build your evidence file</p>
+          <h2 id="worksheet-title">What is documented, claimed, conflicting, or still unknown?</h2>
+          <p>Use <strong>Claim only</strong> for listing, seller, builder, or verbal statements without retained proof. Use <strong>Source saved</strong> only when you kept the official record, written response, document, or qualified report.</p>
+        </div>
+
+        <div class="land-tool-grid">
+          <form id="land-check-form" class="land-form">
+            <fieldset class="land-context-card">
+              <legend>Project context</legend>
+              <div class="land-context-grid">
+                <div class="field-row">
+                  <label for="parcel-label">Private parcel label <span>optional</span></label>
+                  <input id="parcel-label" name="parcel-label" type="text" maxlength="80" autocomplete="off" placeholder="Example: APN ending 4421 or Parcel A">
+                  <p class="input-help">Use an APN fragment or your own label, not a full street address. Nothing is transmitted or saved by this page.</p>
+                </div>
+                <div class="field-row">
+                  <label for="parcel-stage">Where are you in the decision?</label>
+                  <select id="parcel-stage" name="parcel-stage">
+                    <option value="">Choose one</option>
+                    <option value="browsing">Browsing land</option>
+                    <option value="specific">Specific parcel under consideration</option>
+                    <option value="offer">Offer drafted or earnest money approaching</option>
+                    <option value="contract">Under contract</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="jurisdiction-known">Controlling government</label>
+                  <select id="jurisdiction-known" name="jurisdiction-known">
+                    <option value="">Choose one</option>
+                    <option value="known">Identified and tied to this parcel</option>
+                    <option value="unknown">Still unknown</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="home-category">Home category</label>
+                  <select id="home-category" name="home-category">
+                    <option value="">Choose one</option>
+                    <option value="foundation">Foundation dwelling</option>
+                    <option value="thow">Movable tiny house / THOW</option>
+                    <option value="manufactured">Manufactured home</option>
+                    <option value="park">Park model / RV</option>
+                    <option value="adu">ADU</option>
+                    <option value="unresolved">Unresolved</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="intended-use">Intended use</label>
+                  <select id="intended-use" name="intended-use">
+                    <option value="">Choose one</option>
+                    <option value="primary">Primary dwelling</option>
+                    <option value="accessory">Accessory dwelling</option>
+                    <option value="temporary">Temporary / RV use</option>
+                    <option value="rental">Rental use</option>
+                    <option value="unresolved">Unresolved</option>
+                  </select>
+                </div>
+              </div>
+            </fieldset>
+
+            <div id="evidence-groups" class="evidence-groups" aria-label="Parcel evidence checks"></div>
+            <noscript><p class="warning-panel">JavaScript is required to use the worksheet. The documents, office map, listing-claim checks, and screening sources below remain available.</p></noscript>
+
+            <div class="field-row land-notes-card">
+              <label for="general-notes">General parcel questions or offer deadline</label>
+              <textarea id="general-notes" name="general-notes" rows="4" maxlength="1200" placeholder="Record the deadline, exact unanswered question, or document you are waiting for."></textarea>
+            </div>
+
+            <div class="land-form-actions">
+              <button class="button primary" type="submit">Build my unresolved file</button>
+              <button class="button secondary" type="reset">Clear worksheet</button>
+            </div>
+          </form>
+
+          <section id="land-result" class="result-panel land-result" aria-live="polite" aria-labelledby="land-result-title">
+            <p class="eyebrow">Your parcel file</p>
+            <h2 id="land-result-title" tabindex="-1">Start with the project context</h2>
+            <p>Select the parcel stage, controlling government status, home category, or intended use. A blank worksheet does not produce a parcel verdict.</p>
+            <div class="empty-state">
+              <strong>No score and no hidden assumption</strong>
+              <span>The worksheet will order missing evidence only after you begin.</span>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="documents" class="content-section" aria-labelledby="documents-title">
+        <div class="section-heading">
+          <p class="eyebrow">Ask the source that controls the answer</p>
+          <h2 id="documents-title">Documents and offices for a parcel file</h2>
+          <p>There is no single national office for a tiny-house parcel. Use the exact parcel and proposed home/use when requesting a written response.</p>
+        </div>
+        <div class="table-wrap" aria-label="Parcel questions, sources, and evidence to retain">
+          <table class="claim-table office-table">
+            <thead><tr><th scope="col">Question</th><th scope="col">Start with</th><th scope="col">Retain</th><th scope="col">Still unresolved</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Which parcel and government?</th><td>Assessor or GIS; municipal boundary source</td><td>APN record, boundary/jurisdiction screen, source date</td><td>Survey accuracy and which office controls each review</td></tr>
+              <tr><th scope="row">Can this home/use follow a review path?</th><td>Planning/zoning and building/code offices</td><td>Written response tied to category, use, parcel, zoning, and overlays</td><td>Plans, applications, conditions, inspections, and final approval</td></tr>
+              <tr><th scope="row">What private rules apply?</th><td>Recorder, title source, deed, HOA or architectural body</td><td>Current deed, covenants, exceptions, HOA/design documents</td><td>Interpretation, enforceability, consent, and lender/insurer terms</td></tr>
+              <tr><th scope="row">Is access documented and usable?</th><td>Title/easement records, survey, road authority</td><td>Recorded access, maintenance terms, frontage, current survey as needed</td><td>Physical delivery, utility, construction, and fire access</td></tr>
+              <tr><th scope="row">What wastewater path applies?</th><td>Health, wastewater, sewer provider, or qualified designer</td><td>Service confirmation, records, tests, design or inspection requirements</td><td>Capacity, final design acceptance, connection, and permit</td></tr>
+              <tr><th scope="row">What water and utilities are available?</th><td>Serving utility or qualified well source</td><td>Written availability, extension assumptions, easements, service requirements</td><td>Capacity, cost, design, upgrades, deposits, and construction</td></tr>
+              <tr><th scope="row">What site constraints matter?</th><td>Local records plus survey/site, soil, drainage, fire, or environmental professionals as needed</td><td>Maps, reports, site observations, source dates, and conflicts</td><td>Field conditions, engineering, mitigation, and local acceptance</td></tr>
+              <tr><th scope="row">Can the home reach and fit the site?</th><td>Transporter, installer, road/bridge authority, fire office as applicable</td><td>Route assumptions, dimensions, turning/setup area, overhead and bridge limits</td><td>Final route, equipment plan, site preparation, and emergency access</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="listing-claims" class="content-section" aria-labelledby="listing-claims-title">
+        <div class="section-heading">
+          <p class="eyebrow">Translate sales shorthand into evidence requests</p>
+          <h2 id="listing-claims-title">Listing phrases that prove very little</h2>
+          <p>These phrases may describe a real advantage. They are not enough to risk earnest money without the underlying parcel-specific evidence.</p>
+        </div>
+        <div class="claim-check-grid">
+          <article><h3>“Unrestricted”</h3><p>Ask which recorded restrictions were searched, whether an HOA or architectural review exists, and which public zoning and building rules still apply.</p></article>
+          <article><h3>“Tiny-home friendly”</h3><p>Ask which exact home category and intended use were discussed with which controlling office, for this parcel, and when.</p></article>
+          <article><h3>“Utilities nearby”</h3><p>Ask the serving provider for written availability, extension responsibility, easements, capacity, and unresolved construction.</p></article>
+          <article><h3>“Road access”</h3><p>Ask for recorded legal access and maintenance terms, then separately verify delivery, utility, construction, and emergency use.</p></article>
+          <article><h3>“Perc available”</h3><p>Ask for the actual report, parcel match, date, proposed system, current local requirements, and what design or approval remains.</p></article>
+          <article><h3>“Owner financing”</h3><p>Review price, title, lien position, default terms, balloon payment, due diligence, cancellation, and professional/legal review before relying on easy financing.</p></article>
+        </div>
+      </section>
+
+      <section id="screening-sources" class="content-section" aria-labelledby="screening-title">
+        <div class="section-heading">
+          <p class="eyebrow">National screening, not parcel approval</p>
+          <h2 id="screening-title">Use these maps and guides without overreading them</h2>
+        </div>
+        <div class="source-grid land-source-grid">
+          <article><h3>FEMA Flood Map Service Center</h3><p>Screen mapped flood hazards. It does not establish site elevation, drainage, insurance terms, or local approval.</p><a href="https://msc.fema.gov/portal/home">Open FEMA flood maps</a></article>
+          <article><h3>USDA NRCS Web Soil Survey</h3><p>Review generalized soil-survey data for an area. It does not replace field testing, engineering, septic evaluation, or local acceptance.</p><a href="https://www.nrcs.usda.gov/resources/data-and-reports/web-soil-survey">Open Web Soil Survey</a></article>
+          <article><h3>FWS Wetlands Mapper</h3><p>Screen biological wetlands data. It does not establish regulatory jurisdiction or a development boundary.</p><a href="https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper">Open Wetlands Mapper</a></article>
+          <article><h3>EPA septic guide for homebuyers</h3><p>Understand inspection and maintenance questions, then use the local health or wastewater authority for the parcel path.</p><a href="https://www.epa.gov/septic/new-homebuyers-brochure-and-guide-septic-systems">Open the EPA guide</a></article>
+        </div>
+      </section>
+
+      <section id="continue" class="content-section next-links" aria-labelledby="continue-title">
+        <p class="eyebrow">Continue the same project</p>
+        <h2 id="continue-title">Take unresolved placement, product, and money questions to the right tool</h2>
+        <div class="planned-grid decision-links">
+          <a href="../">Classify the home, use, and jurisdiction before asking whether placement may have a path <span>Where Can I Put a Tiny House?</span></a>
+          <a href="../tiny-house-build-options/">Compare who owns plans, code path, completion, delivery, setup, and corrections <span>Tiny House Build Options</span></a>
+          <a href="../tiny-home-cost-calculator/">Keep unknown land, site, utility, permit, and delivery amounts out of a false total <span>Tiny Home Cost Calculator</span></a>
+          <a href="../san-diego-tiny-house-adu/">See why a city, an unincorporated county, and other incorporated cities can require different sources <span>San Diego jurisdiction example</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>This worksheet provides buyer decision support, not legal, zoning, code, title, survey, engineering, environmental, wastewater, financing, insurance, tax, or safety advice. Verify the exact parcel, home, intended use, and transaction with the controlling sources and qualified professionals.</p>
+      <p>No address or worksheet data is transmitted or stored by this page. Page reviewed: 2026-08-10.</p>
+    </footer>
+
+    <script type="module" src="./land-checker.js"></script>
+  </body>
+</html>

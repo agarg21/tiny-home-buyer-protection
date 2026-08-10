@@ -1,15 +1,15 @@
 # Implementation Backlog
 
-Last updated: 2026-08-09
+Last updated: 2026-08-10
 
 This is a supporting inventory. It never authorizes work. Only a `ready` item
 selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
-## Ready, Not Selected
+## Active, Selected
 
 ### `THC-LAND-001`
 
-Build one client-side, printable pre-offer parcel evidence workflow at
+The local candidate builds one client-side, printable pre-offer parcel evidence workflow at
 `/buying-land-for-a-tiny-house/` from
 `briefs/tiny-home-next-user-value-brief-2026-08.md`.
 
@@ -23,9 +23,11 @@ The implementation must:
 - exclude listings, vendor recommendations, typical/complete costs, accounts,
   lead capture, outreach, and indexing requests.
 
-Before release it needs current source checks, focused and full native QA,
-rendered desktop/mobile interaction checks, every-section human review, and a
-different independent read-only reviewer.
+Current source checks, focused logic tests, full native QA, desktop/mobile
+interaction checks, realistic worksheet states, and print output are complete.
+Independent read-only cycles 2 and final cycle 3 returned `PASS` with no P0-P3
+findings. Reviewed commit/push, Pages, and production verification remain
+before release.
 
 ## Current Portfolio
 
