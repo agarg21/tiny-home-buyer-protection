@@ -7,25 +7,9 @@ queue is `ops/seo-roadmap.json`.
 
 ## Current Review-Ready Work
 
-### `THC-LAND-001`
-
-Review the selected implementation against:
-
-- `docs/research/tiny-home-next-user-value-audit-2026-08.md`;
-- `briefs/tiny-home-next-user-value-brief-2026-08.md`;
-- its exact target query/SERP/ranking-page evidence;
-- parcel decision personas and beginner/intermediate/advanced needs;
-- the first-screen promise and every-section contract;
-- realistic blank, partial, conflict, resolved, print, and reset states; and
-- source-role, privacy, legal/buildability, responsive, and accessibility
-  boundaries.
-
-The reviewer must fail the page at P2 if it is generic, topic-swappable,
-primarily paraphrases source material, uses uncertainty to avoid helping, or
-cannot produce a concrete artifact and next action for the primary searcher.
-
-Independent read-only cycles 2 and final cycle 3 returned `PASS` with no P0-P3
-findings after all cycle 1 fixes. The candidate is not public.
+None. `THC-LAND-001` completed three review cycles, was released in
+`b9760e93fb43ea7560963ef419e9b80421bc642b`, and is now observed rather than
+rewritten without new evidence.
 
 ## Current Monitoring Context
 

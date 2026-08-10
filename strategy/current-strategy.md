@@ -304,7 +304,7 @@ subtotal. See
 ## Current Validation Portfolio
 
 The original launch list has been superseded by the actual reviewed portfolio.
-As of 2026-08-09, seven public assets are in the sitemap:
+As of 2026-08-10, eight public assets are in the sitemap:
 
 1. National placement decision hub.
 2. Los Angeles official-source buyer guide.
@@ -313,39 +313,37 @@ As of 2026-08-09, seven public assets are in the sitemap:
 5. Quote-first tiny-home cost calculator.
 6. Under-$20K feasibility checker.
 7. Plans, kits, shells, trailers, and builder responsibility comparison.
+8. Pre-offer parcel evidence and unresolved-question workflow.
 
-Five are indexed. The under-$20K and build-options pages are discovered but not
-indexed. The finalized rolling GSC window through 2026-08-07 reports 21
+Five of the seven URLs in the latest GSC inspection are indexed. The under-$20K
+and build-options pages are sitemap-discovered but unknown to Google in URL
+Inspection; the new land workflow is not yet in the dated GSC evidence. The
+finalized rolling window through 2026-08-07 reports 21
 impressions and 0 clicks, including six consecutive zero-impression days. This
 is too little evidence for page-level causal conclusions, but enough to reject
 open-ended publication as a substitute for product quality.
 
-The only additional product currently justified by completed research is
-`THC-LAND-001`: a client-side, printable pre-offer parcel evidence workflow.
-Its selected local release candidate now produces an unresolved parcel file
-from explicit evidence states without transmitting an address or issuing a
-parcel verdict. It passed independent review and still must pass deployment
-and production verification before it is public or starts the observation
-clock.
+`THC-LAND-001` is released and production-verified. Its client-side workflow
+produces an unresolved parcel file from explicit evidence states without
+transmitting an address or issuing a parcel verdict. This completes the bounded
+eight-product validation portfolio.
 
 ## Next 90-Day Validation Plan
 
-1. Complete verified release of the independently reviewed `THC-LAND-001`
-   candidate. Do not add a second page merely to meet a publication count.
-2. After its verified release, freeze new indexable page publication for 90
-   days while daily read-only GSC sensing continues.
-3. Treat the existing eight-page portfolio as the product test. Preserve page
+1. Freeze new indexable page publication through 2026-11-08 while daily
+   read-only GSC sensing continues.
+2. Treat the existing eight-page portfolio as the product test. Preserve page
    roles and avoid broad rewrites from tiny samples.
-4. Allow an exception only for a technical/indexing defect, an official-source
+3. Allow an exception only for a technical/indexing defect, an official-source
    change, a repeated query/page signal exposing a concrete unmet job, or a new
    direct user decision.
-5. At the 90-day checkpoint, decide whether to deepen a visible query cluster,
+4. At the 90-day checkpoint, decide whether to deepen a visible query cluster,
    repair search promise/usefulness, investigate persistent discovery failure,
    or pause the project.
 
-Intermediate readings are diagnostic, not content deadlines. Around day 30,
-check crawl/index coverage. Around day 60, look for repeated page/query testing
-and first clicks. At day 90, make the portfolio decision. Keyword-tool volume,
+Intermediate readings are diagnostic, not content deadlines. Check crawl/index
+coverage around 2026-09-09, repeated page/query testing and first clicks around
+2026-10-09, and make the portfolio decision on 2026-11-08. Keyword-tool volume,
 page-average position, and isolated impressions must not be treated as
 guaranteed traffic or stable rank.
 

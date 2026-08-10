@@ -117,6 +117,28 @@ Independent review cycle 3:
 Final state: review-clean and unreleased. Commit/push, Pages, and production
 verification remain.
 
+Release closeout:
+
+- Review-clean commit
+  `b9760e93fb43ea7560963ef419e9b80421bc642b` was pushed to `origin/main` from
+  a non-diverged exact seventeen-path range.
+- GitHub Pages run `31395122993` succeeded for that exact commit.
+- The live page, module, homepage, and sitemap returned HTTP 200. Canonical,
+  H1, first-screen no-inventory/no-verdict boundary, homepage discovery, and
+  sitemap invariants passed.
+- Live 320x568 rendering showed both actions and the `Start here` cue without
+  horizontal overflow. The blank state stayed neutral.
+- On production, offer-stage `Source saved` without a reference stayed at five
+  stops and zero recorded with the missing-reference prompt; adding the county
+  GIS reference changed only that row to four stops and one recorded. The print
+  action remained present and browser console warnings/errors were empty.
+- `THC-LAND-001` is released and production-verified. The 90-day publication
+  hold runs from 2026-08-10 through 2026-11-08. No indexing request or external
+  account mutation occurred.
+- Scheduled GSC run `31383905353` timed out during one read-only API request and
+  produced no snapshot. Credentials were present and collector tests passed;
+  one transient timeout does not select a repair, but recurrence would.
+
 ## 2026-08-09 - Operating-State And Anti-Generic Gate Cleanup
 
 Action: `THC-OPS-003`

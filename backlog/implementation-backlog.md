@@ -5,39 +5,20 @@ Last updated: 2026-08-10
 This is a supporting inventory. It never authorizes work. Only a `ready` item
 selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
-## Active, Selected
+## Ready, Not Selected
 
-### `THC-LAND-001`
-
-The local candidate builds one client-side, printable pre-offer parcel evidence workflow at
-`/buying-land-for-a-tiny-house/` from
-`briefs/tiny-home-next-user-value-brief-2026-08.md`.
-
-The implementation must:
-
-- distinguish unknown, claim-only, source-saved, and conflicting evidence;
-- produce a useful unresolved-question/evidence file;
-- work for beginner, intermediate, and advanced parcel evaluators;
-- store and transmit no address or user-entered data;
-- issue no legal, approval, or buildability verdict; and
-- exclude listings, vendor recommendations, typical/complete costs, accounts,
-  lead capture, outreach, and indexing requests.
-
-Current source checks, focused logic tests, full native QA, desktop/mobile
-interaction checks, realistic worksheet states, and print output are complete.
-Independent read-only cycles 2 and final cycle 3 returned `PASS` with no P0-P3
-findings. Reviewed commit/push, Pages, and production verification remain
-before release.
+None. `THC-LAND-001` is released and the 90-day publication hold is active
+through 2026-11-08.
 
 ## Current Portfolio
 
-Seven reviewed public assets are listed in `status/site-pages.md`. Existing
+Eight reviewed public assets are listed in `status/site-pages.md`. Existing
 pages are observed rather than continually rewritten. A current-page repair is
 eligible only when durable evidence identifies a specific defect or unmet
 searcher job.
 
-After a verified `THC-LAND-001` release, no additional indexable page is
-published for 90 days unless an explicit exception in the roadmap is met.
+No additional indexable page is published during the hold unless an explicit
+exception in the roadmap is met.
 
 ## Not Eligible
 

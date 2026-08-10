@@ -46,9 +46,9 @@ monetization, provider, and unreviewed release decisions.
     2026-08-04; no approval request or external contact remains active.
 17. `THC-PROD-001` — completed review-clean research on 2026-08-04; it
     promotes only the parcel-specific `THC-LAND-001` action.
-18. `THC-LAND-001` — selected on 2026-08-10: build a client-side pre-offer
-    parcel evidence workflow at `/buying-land-for-a-tiny-house/`; its verified
-    release starts a 90-day portfolio observation period.
+18. `THC-LAND-001` — completed and production-verified on 2026-08-10 in
+    `b9760e9`; Pages run `31395122993` succeeded and the 90-day portfolio
+    observation period is active through 2026-11-08.
 19. `THC-STATUS-001` — completed on 2026-08-06 as an eight-path, docs-only page
     status and finite build-then-observe reconciliation. It created no page and
     did not start `THC-LAND-001`.
@@ -57,7 +57,7 @@ monetization, provider, and unreviewed release decisions.
     current state/backlogs, and made material generic-but-safe content a P2
     failure.
 
-## THC-LAND-001 selected transaction
+## THC-LAND-001 completion
 
 - Direct-manual authority: the temporary Master heartbeat; no Control Room
   lease or central-ledger write applies.
@@ -74,9 +74,9 @@ monetization, provider, and unreviewed release decisions.
 - Output: one account-free, client-side, printable parcel evidence and
   unresolved-question workflow. It distinguishes unknown, claim-only,
   source-saved, and conflicting evidence without a legal/buildability verdict.
-- Candidate state: implementation is complete locally. The page, client-only
-  worksheet, homepage discovery link, sitemap entry, styles, focused tests,
-  and implementation record are present; no push or deployment has occurred.
+- Implementation checkpoint before release: the page, client-only worksheet,
+  homepage discovery link, sitemap entry, styles, focused tests, and
+  implementation record were complete locally with no push or deployment yet.
 - Rendered QA: 1440, 390, and short 320 views have no horizontal overflow; the
   short 320 first screen shows the answer, first action, and next-section cue.
   Blank, browsing, offer-deadline, retained-source, escaped-input, reset, and
@@ -88,11 +88,19 @@ monetization, provider, and unreviewed release decisions.
   verification.
 - Review cycle 2: the same independent read-only reviewer checked the complete
   seventeen-path candidate and returned `PASS` with no P0-P3 findings,
-  independently reproducing 68/68 tests and all site/state checks. The
-  candidate remains unreleased.
+  independently reproducing 68/68 tests and all site/state checks. At that
+  review checkpoint, the candidate remained unreleased.
 - Final review cycle 3: the reviewer returned `PASS` with no P0-P3 findings on
-  the frozen complete transaction. Commit/push, Pages, and production
-  verification remain.
+  the frozen complete transaction.
+- Release: commit `b9760e93fb43ea7560963ef419e9b80421bc642b` was pushed without
+  divergence; Pages run `31395122993` succeeded.
+- Production: page, module, homepage, and sitemap returned HTTP 200; canonical,
+  H1, boundary, discovery, sitemap, short-mobile, blank-state, missing-source,
+  retained-source, print-action, and console invariants passed.
+- Observation: new indexable-page publication is held through 2026-11-08;
+  30/60/90-day checkpoints are 2026-09-09, 2026-10-09, and 2026-11-08.
+- Sensor note: August 10 GSC run `31383905353` timed out on one read-only API
+  request and produced no snapshot. Treat as transient unless it repeats.
 - Required review: rendered first screen, every section, primary decision
   personas, beginner/intermediate/advanced experience levels, realistic tool
   states, native QA, independent review, Pages, and production invariants.

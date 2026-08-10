@@ -659,3 +659,16 @@
 - Final independent cycle 3 returned `PASS` with no P0-P3 findings on the
   frozen complete transaction. The review cap is complete; reviewed release
   remains.
+- Committed the exact seventeen-path review-clean implementation as
+  `b9760e93fb43ea7560963ef419e9b80421bc642b`, fetched immediately before push,
+  confirmed no remote divergence, and pushed it to `origin/main`.
+- GitHub Pages run `31395122993` succeeded. The live page, module, homepage,
+  and sitemap returned HTTP 200 and passed canonical, H1, first-screen boundary,
+  homepage discovery, sitemap, 320px, blank-state, source-reference transition,
+  print-action, and console invariants.
+- Completed `THC-LAND-001` and started the 90-day no-new-indexable-page hold
+  through 2026-11-08, with 2026-09-09 crawl/index and 2026-10-09 query-testing
+  checkpoints. No next action is eligible from current evidence.
+- Recorded scheduled GSC run `31383905353` as a transient read-only API timeout
+  with no new snapshot. Credentials and collector tests were healthy; retry is
+  left to the next daily run unless failure recurs.

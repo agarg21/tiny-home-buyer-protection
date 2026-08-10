@@ -913,3 +913,15 @@ findings on the complete seventeen-path candidate. The page remains unreleased
 until the reviewed commit, Pages run, and production invariants pass.
 
 Final cycle 3 returned `PASS` with no P0-P3 findings on the frozen transaction.
+
+Release: push review-clean commit
+`b9760e93fb43ea7560963ef419e9b80421bc642b`. Pages run `31395122993` and the
+predeclared production invariants passed. Start the 90-day no-new-page hold on
+2026-08-10 through 2026-11-08; the 30- and 60-day checkpoints are 2026-09-09
+and 2026-10-09. Keep `next_eligible_action_id` at `none` unless an exception
+gate is met.
+
+Monitoring note: scheduled GSC run `31383905353` timed out during one read-only
+API request and produced no August 10 snapshot. Credentials and collector tests
+were healthy. Do not manufacture a repair from one transient failure; escalate
+only if the sensor fails again.

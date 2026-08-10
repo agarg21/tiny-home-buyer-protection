@@ -2,77 +2,29 @@
 
 Last updated: 2026-08-10
 
-Active action: `THC-LAND-001`
+Active action: `none`
 
 Next eligible action: `none`
 
-## Active Transaction
+## Most Recent Transaction
 
-`THC-LAND-001` is selected by the user-authorized direct Master heartbeat from
-clean, origin-aligned base
+`THC-LAND-001` completed from clean, origin-aligned base
 `7e6ad2dd33119d7c567515261a312af894861820`.
 
-Frozen exact paths:
-
-- `docs/research/tiny-house-land-pre-offer-implementation-2026-08.md`
-- `site/buying-land-for-a-tiny-house/index.html`
-- `site/buying-land-for-a-tiny-house/land-checker.js`
-- `site/index.html`
-- `site/styles.css`
-- `site/sitemap.xml`
-- `tools/land-checker.test.mjs`
-- `strategy/current-strategy.md`
-- `backlog/implementation-backlog.md`
-- `backlog/seo-research-review-backlog.md`
-- `status/site-pages.md`
-- `ops/current-cycle.md`
-- `ops/operator-review.md`
-- `ops/seo-roadmap.json`
-- `ops/seo-roadmap.md`
-- `decisions.md`
-- `progress.md`
-
-The status, roadmap, review, decision, and progress paths above are also the
-predeclared release-closeout paths for mechanical deployment and production
-evidence under this same action.
-
-Purpose:
-
-- build one parcel-specific pre-offer evidence workflow;
-- let a reader distinguish `Unknown`, `Claim only`, `Source saved`, and
-  `Conflict` for the exact parcel and intended tiny-home path;
-- produce a printable unresolved-question file without an account or data
-  transmission; and
-- give no legal, zoning, approval, buildability, vendor, or cost verdict.
-
-Boundary: no land listings, address lookup or full-address collection,
-analytics, account, database, outreach, indexing request, external-account
-mutation, vendor recommendation, typical/complete cost claim, or legal/zoning/
-buildability conclusion.
-
-Implementation and pre-review QA state:
-
-- the static page, client-side worksheet, homepage discovery link, sitemap row,
-  stylesheet, focused tests, and implementation record are complete;
-- blank, browsing, offer-deadline, source-saved, escaping, reset, and result-
-  focus states pass;
-- `Source saved` without a nonblank retained reference stays unresolved; adding
-  the reference moves only that row into recorded evidence;
-- rendered 1440, 390, and short 320 views pass without horizontal overflow;
-  the short 320 view shows the direct answer, first action, and next-section
-  cue;
-- a populated five-page headless print retains claims, conflicts, sources,
-  notes, unresolved items, limitations, timestamp, and URL while excluding the
-  form and article;
-  and
-- focused tests and preliminary SEO QA pass.
-
-Full native QA is green: 68/68 tests, eight HTML pages and eight sitemap URLs
-with 0 SEO errors and 3 known warnings on untouched pages, 0 operator-state
-errors, valid roadmap JSON, required deployment files, and `git diff --check`.
-Independent review cycles 2 and final cycle 3 returned `PASS` with no P0-P3
-findings after all cycle 1 P1/P2 findings were fixed. The reviewed commit,
-push, Pages, and production verification remain pending.
+- Release commit: `b9760e93fb43ea7560963ef419e9b80421bc642b`.
+- Native QA: 68/68 tests, 0 SEO errors with 3 known warnings on untouched
+  pages, 0 operator-state errors, valid JSON, required files, exact scope, and
+  clean diff checks.
+- Independent review: cycle 1 findings fixed; cycles 2 and final cycle 3
+  returned `PASS` with no P0-P3 findings.
+- Deployment: Pages run `31395122993` succeeded for the exact release commit.
+- Production: page, module, homepage, and sitemap returned HTTP 200; canonical,
+  H1, first-screen boundary, homepage discovery, and sitemap invariants passed.
+  Live 320px rendering and the missing-reference `5 stops / 0 recorded` to
+  retained-reference `4 stops / 1 recorded` interaction passed with no console
+  warnings/errors.
+- Observation: no new indexable page through 2026-11-08 unless a roadmap
+  exception is satisfied.
 
 ## Current Evidence
 
@@ -88,14 +40,17 @@ The August 9 public-safe GSC snapshot at
 This is fresh monitoring context. It does not identify a technical outage,
 select a page rewrite, or justify another URL.
 
+The scheduled August 10 GSC run `31383905353` produced no snapshot because one
+read-only API call timed out. Credentials were present and all collector tests
+passed. Treat one timeout as a transient monitoring alert; the next daily run
+should retry. A repeated failure can qualify a separate technical action.
+
 ## Current Product State
 
-- Seven reviewed public assets are live. The checked-in sitemap now also
-  contains the unreleased `THC-LAND-001` candidate; see `status/site-pages.md`.
-- `THC-LAND-001` is the sole selected implementation and is not yet public.
+- Eight reviewed public assets are live; see `status/site-pages.md`.
+- `THC-LAND-001` is released and starts the observation hold.
 - Its completed brief is `briefs/tiny-home-next-user-value-brief-2026-08.md`.
-- A verified land-workflow release starts the 90-day hold on additional
-  indexable pages.
+- The 90-day hold on additional indexable pages runs through 2026-11-08.
 - During the hold, current pages change only for a concrete technical,
   discovery, query-fit, first-screen usefulness, source-freshness,
   internal-discovery, or trust/authority gap.

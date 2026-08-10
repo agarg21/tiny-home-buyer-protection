@@ -37,15 +37,13 @@ a technical outage or site-wide rewrite.
 | `https://tinyhomeclarity.com/tiny-home-cost-calculator/` | Quote and build-budget reality check with explicit unknowns | 2 impressions, 0 clicks, page-average position 26; indexed; last crawled July 21 | Live and production-verified in `1af1dc2`; Pages run `30460242431` passed | Current SERP, persona, experience-level, state, native, browser, production, and independent review complete | Observe. Retain the recorded nonblocking blank-buffer-title P3 for a later evidence-led action. |
 | `https://tinyhomeclarity.com/tiny-house-under-20k/` | Buyer-protective feasibility checker for under-$20K claims | No page row; sitemap-discovered; URL Inspection says `URL is unknown to Google`; never crawled in current inspection evidence | Live and in the sitemap | SERP, decision-persona, experience-level, and every-section audit complete | Observe discovery. Do not request indexing repeatedly or rewrite from absent performance. Later consolidation into the cost calculator remains a held quality option. |
 | `https://tinyhomeclarity.com/tiny-house-build-options/` | National plans/kits/shells/trailer/builders responsibility comparison | No page row; sitemap-discovered; URL Inspection says `URL is unknown to Google`; never crawled in current inspection evidence | Live and production-verified in `1895694`; Pages run `30622059848` passed | Demand, SERP/ranking-page, official-source, persona, experience-level, every-section, native, browser, and independent review complete | Observe discovery. Do not request indexing or infer performance before the page is crawled and measured. |
-| `https://tinyhomeclarity.com/buying-land-for-a-tiny-house/` | Parcel-specific pre-offer evidence and unresolved-question workflow | Not in the August 9 sitemap or GSC evidence | Review-clean local `THC-LAND-001` release candidate; not yet public or measured | Demand/SERP/user-job brief, persona and experience matrix, focused logic tests, rendered desktop/mobile states, privacy, populated print, native QA, and independent cycle 2 `PASS` | Complete reviewed push, Pages, and production verification. Its verified release starts the 90-day publication hold. |
+| `https://tinyhomeclarity.com/buying-land-for-a-tiny-house/` | Parcel-specific pre-offer evidence and unresolved-question workflow | Not in the August 9 sitemap or GSC evidence | Live and production-verified in `b9760e9`; Pages run `31395122993` passed | Demand/SERP/user-job brief, persona and experience matrix, focused logic tests, rendered desktop/mobile states, privacy, populated print, native QA, and independent cycles 2/3 `PASS` | Observe crawl, index, and query testing. Do not rewrite from absent early performance. |
 
 ## Build Then Observe Phase
 
-The current portfolio is seven reviewed public assets plus the selected local
-`THC-LAND-001` release candidate. It is the only additional page justified by
-completed product research. If it passes independent review and production
-verification, the default is a 90-day portfolio observation period from its
-release date with no further indexable page publication.
+The current portfolio is eight reviewed public assets. The verified
+`THC-LAND-001` release starts the 90-day portfolio observation period from
+2026-08-10 through 2026-11-08 with no further indexable page publication.
 
 The daily GSC sensor continues during that period. A new content action may
 interrupt the hold only for a material technical/indexing defect, an official
@@ -60,16 +58,16 @@ or a new direct user decision. The formal 90-day review should decide among:
 - pause the project if indexed pages still show no durable search testing and
   no credible authority or direct-use signal.
 
-## Planned Decision Surface
+## Released Decision Surface
 
 `THC-LAND-001` is the sole product promoted by the 2026-08-04 user-value
-audit. Its local candidate at `/buying-land-for-a-tiny-house/` is a
+audit. Its live page at `/buying-land-for-a-tiny-house/` is a
 parcel-specific, pre-offer evidence workflow, distinct from the homepage's
 broad placement triage, the build-options responsibility comparison, and the
 quote-first cost calculator. It organizes unknown, claim-only, source-saved,
 and conflicting evidence without declaring a parcel legal, approved, or
-buildable. Its eventual verified release, not the local implementation,
-starts the 90-day portfolio observation clock.
+buildable. Commit `b9760e93fb43ea7560963ef419e9b80421bc642b` and Pages run
+`31395122993` were production-verified on 2026-08-10.
 
 `THC-COST-001` remains the held implementation/research source and
 `THC-COST-002` is released. `THC-BUILD-002` produced one fixed national

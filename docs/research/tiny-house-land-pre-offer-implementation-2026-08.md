@@ -167,3 +167,15 @@ production verification.
 Final cycle 3 reviewed the frozen complete transaction and returned `PASS`
 with no P0-P3 findings. It confirmed all cycle 1 fixes, the recorded review
 history, current QA counts, unreleased state, and `none` next-action marker.
+
+## Release
+
+Review-clean commit `b9760e93fb43ea7560963ef419e9b80421bc642b` was pushed to
+`origin/main` without divergence. GitHub Pages run `31395122993` succeeded.
+The live page, module, homepage, and sitemap returned HTTP 200 and passed the
+canonical, H1, first-screen boundary, discovery, sitemap, 320px, blank-state,
+missing-reference, retained-reference, print-action, and console invariants.
+
+The production-verified release starts the no-new-indexable-page observation
+hold on 2026-08-10 through 2026-11-08. No indexing request, outreach, analytics,
+or external-account mutation occurred.

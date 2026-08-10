@@ -773,8 +773,9 @@
       "learning_value": 5,
       "effort": 3,
       "risk": 3,
-      "status": "in_progress",
+      "status": "completed",
       "selected_on": "2026-08-10",
+      "completed_on": "2026-08-10",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "required_evidence": [
@@ -808,17 +809,24 @@
       "baseline": "The homepage provides broad placement triage, but the seven-page site has no parcel-specific workflow for organizing evidence before a land offer or tiny-home purchase becomes difficult to unwind.",
       "hypothesis": "A client-side, printable pre-offer workflow can help land shoppers and parcel-under-consideration buyers distinguish official or professional evidence from claims, conflicts, and unresolved questions without pretending to approve the parcel.",
       "expected_effect": "Create a distinct buyer-protection decision surface for modest informational land demand and a repeated high-stakes community job. Traffic, rankings, and completion rates remain UNKNOWN until observed.",
-      "observation_window": "After a separately reviewed and production-verified release, hold new indexable-page publication for 90 days. Use an approximately 30-day crawl/index checkpoint, 60-day query-testing checkpoint, and 90-day portfolio decision; interrupt only for a material technical/indexing defect, official-source change, repeated query/page evidence exposing a specific unmet job, or a new direct user decision.",
+      "observation_window": "Active from the production-verified 2026-08-10 release through 2026-11-08. Check crawl/index coverage around 2026-09-09, repeated query testing and first clicks around 2026-10-09, and make the portfolio decision on 2026-11-08; interrupt only for a material technical/indexing defect, official-source change, repeated query/page evidence exposing a specific unmet job, or a new direct user decision.",
       "success_signal": "A reader can record parcel context and evidence states, receive a useful unresolved-question file, and print it without an account, address transmission, legal/buildability verdict, vendor recommendation, or cost claim; native, responsive, persona, every-section, independent, deployment, and production QA pass.",
       "human_gate": {
         "required": false,
         "status": "not-required",
         "approval_required_for": null
       },
-      "implementation_state": "review-clean-release-candidate",
+      "implementation_state": "released-production-verified",
       "review_outcome": "PASS",
       "review_cycles": 3,
       "reviewer_id": "019fcc94-81c5-7ea2-b165-377dca84e4a0",
+      "release_state": "released-production-verified",
+      "release_commit": "b9760e93fb43ea7560963ef419e9b80421bc642b",
+      "released_on": "2026-08-10",
+      "pages_workflow_run": "31395122993",
+      "production_verification": "The live page, module, homepage, and sitemap returned HTTP 200. Canonical, H1, no-inventory/no-verdict boundary, homepage discovery, sitemap, 320px first-screen, blank-state, missing-reference 5-stop/0-recorded, retained-reference 4-stop/1-recorded, print-action, and no-console-warning/error invariants passed.",
+      "observation_started_on": "2026-08-10",
+      "observation_ends_on": "2026-11-08",
       "qa_evidence": [
         "tools/land-checker.test.mjs passed 14 focused logic, state, missing-source enforcement, escaping, privacy, print, first-screen, source, and discovery tests",
         "preliminary SEO QA reported 0 errors and 3 known canonical warnings on untouched pages",
@@ -835,7 +843,8 @@
         "final independent read-only cycle 3 returned PASS with no P0-P3 findings on the frozen complete transaction"
       ],
       "evidence_classification": "The completed THC-PROD-001 audit and reviewed implementation brief are causal product evidence. The August 9 GSC snapshot through August 7 is fresh monitoring context only and does not select or cancel this already-qualified action. Semrush values are third-party estimates and overlapping keyword totals must not be summed as unique demand.",
-      "notes": "Selected by the user-authorized direct Master heartbeat on 2026-08-10 from clean, origin-aligned base 7e6ad2dd33119d7c567515261a312af894861820. The seventeen target_paths are frozen. Independent review cycle 1 returned FAIL with one P1 and three P2 findings; all were fixed, and cycles 2 and final cycle 3 returned PASS with no P0-P3 findings. The candidate remains unreleased pending reviewed commit/push, Pages, and production verification. The status, roadmap, review, decision, and progress paths in that set are predeclared release-closeout paths for mechanical post-deployment evidence under the same action. No listings, address lookup or transmission, analytics, account, database, outreach, indexing request, vendor recommendation, typical or complete cost claim, or legal/zoning/buildability conclusion is authorized."
+      "result": "Released one client-side pre-offer parcel evidence workflow that requires retained source references, produces a printable unresolved file, and gives no parcel verdict. Review-clean commit b9760e9, Pages run 31395122993, and production interaction invariants passed.",
+      "notes": "Selected by the user-authorized direct Master heartbeat on 2026-08-10 from clean, origin-aligned base 7e6ad2dd33119d7c567515261a312af894861820. The seventeen target_paths were frozen. Independent review cycle 1 returned FAIL with one P1 and three P2 findings; all were fixed, and cycles 2 and final cycle 3 returned PASS with no P0-P3 findings. The review-clean candidate was pushed and production-verified. The 90-day hold is active through 2026-11-08. Scheduled GSC run 31383905353 timed out during one read-only API request and produced no snapshot; treat it as transient unless repeated. No listings, address lookup or transmission, analytics, account, database, outreach, indexing request, vendor recommendation, typical or complete cost claim, or legal/zoning/buildability conclusion occurred."
     },
     {
       "id": "THC-STATUS-001",
