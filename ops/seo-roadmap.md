@@ -56,6 +56,35 @@ monetization, provider, and unreviewed release decisions.
     cleanup. It aligned the temporary direct Master heartbeat, simplified
     current state/backlogs, and made material generic-but-safe content a P2
     failure.
+21. `THC-MON-002` — active as a ten-path reconciliation of the recovered daily
+    GSC sensor, August 11 monitoring state, and the omitted land-workflow URL
+    in read-only inspection. It authorizes no page, indexing, deployment,
+    outreach, or external-account change.
+
+## THC-MON-002 candidate
+
+- Authority: direct Master heartbeat; no Control Room lease or ledger write.
+- Base: clean local `main` fast-forwarded to origin snapshot commit `93cdf69`.
+- Evidence: run `31486530514` recovered after the prior one-run timeout. The
+  August 11 snapshot through August 9 reports 22 impressions, 0 clicks, five
+  of seven inspected URLs indexed, one impression on August 9, and both
+  outstanding URLs discovered-currently-not-indexed.
+- Defect: the live land workflow is the eighth sitemap URL but was absent from
+  `ops/gsc-monitor.json`, so scheduled URL Inspection could not observe it.
+- Candidate: add the land URL and enforce exact sitemap/monitor parity in
+  operator-state QA with regression coverage.
+- Decision: keep the 90-day hold and `next_eligible_action_id` at `none`; the
+  new evidence does not select a page rewrite, URL, indexing request, or
+  outreach.
+- Scope: the ten exact paths frozen in `ops/current-cycle.md`; no `site/**` or
+  external mutation.
+- QA: 24 focused tests, 24 snapshot validations, zero operator-state errors,
+  valid JSON, and clean diff checks pass after the cycle 1 P3 fix.
+- Review cycle 1: independent reviewer
+  `019ff0ef-59a5-7f12-96c4-ee46cec533a9` returned `PASS_WITH_P3` with no
+  P0-P2 finding. Its duplicate-monitor regression P3 is fixed.
+- Final review/release: pending. This is a push-only monitoring/config
+  transaction; Pages deployment is not applicable.
 
 ## THC-LAND-001 completion
 

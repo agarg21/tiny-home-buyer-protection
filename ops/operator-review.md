@@ -1,5 +1,65 @@
 # Operator Review
 
+## 2026-08-11 - GSC Recovery And Priority-URL Coverage
+
+Action: `THC-MON-002`
+
+Selection authority: the user-authorized direct Master heartbeat. No Control
+Room dispatch lease or central-ledger write applies.
+
+Frozen boundary: the ten exact paths in `ops/current-cycle.md`. Reconcile the
+successful GSC retry, current inspection labels, and one omitted read-only
+priority URL; add a repository invariant that keeps the sitemap and monitor in
+exact sync. No `site/**`, content, fresh keyword/SERP research, indexing
+request, deployment, outreach, external account, analytics, vendor
+recommendation, cost claim, or legal/zoning/buildability conclusion.
+
+Evidence classification:
+
+- Scheduled run `31486530514` succeeded after the prior run's one-request
+  timeout and committed the validated August 11 snapshot in `93cdf69`.
+- The snapshot is finalized through August 9: 22 rolling impressions, 0
+  clicks, average position 35.32, one impression on August 9, five of seven
+  inspected URLs indexed, and both outstanding URLs now
+  `Discovered - currently not indexed`.
+- This is fresh read-only monitoring evidence. It closes the transient sensor
+  alert and corrects indexing labels, but does not select content work.
+- Comparing the eight-URL sitemap with the seven-URL monitor exposed the land
+  workflow omission. That is causal evidence for this bounded sensor fix.
+
+Candidate state:
+
+- `ops/gsc-monitor.json` includes all eight sitemap URLs, including
+  `/buying-land-for-a-tiny-house/`.
+- Operator-state QA requires exact sitemap/monitor parity and rejects missing,
+  stale, or duplicate monitor URLs.
+- The page-status and current-cycle mirrors use the August 11 metrics and
+  distinguish GSC's seven discovered pages at its August 7 sitemap read from
+  the eight URLs currently published.
+- The 90-day publication hold remains active and no next action is eligible.
+
+Pre-review QA:
+
+- 24 focused GSC and operator-state tests passed after the cycle 1 P3 fix.
+- All 24 public-safe GSC snapshots validated.
+- Operator-state QA reported 0 errors with `THC-MON-002` active and August 11
+  as the latest snapshot.
+- Both JSON files parsed and `git diff --check` passed.
+
+Independent review cycle 1:
+
+- Reviewer: read-only subagent
+  `019ff0ef-59a5-7f12-96c4-ee46cec533a9`, different from the Master.
+- Verdict: `PASS_WITH_P3`.
+- P3: duplicate monitor URLs were rejected in code but lacked a focused
+  regression assertion. Added the exact duplicate case; it now passes.
+- No P0-P2 finding. Snapshot interpretation, sensor recovery, exact monitor/
+  sitemap parity, current mirrors, boundaries, and native QA all passed.
+
+Final independent re-review: pending after the P3 fix.
+
+Final state: candidate only; no commit, push, or external action yet.
+
 ## 2026-08-10 - Pre-Offer Parcel Evidence Workflow
 
 Action: `THC-LAND-001`

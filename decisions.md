@@ -925,3 +925,28 @@ Monitoring note: scheduled GSC run `31383905353` timed out during one read-only
 API request and produced no August 10 snapshot. Credentials and collector tests
 were healthy. Do not manufacture a repair from one transient failure; escalate
 only if the sensor fails again.
+
+## 2026-08-11 - Restore Complete Read-Only Inspection Coverage
+
+Decision: use `THC-MON-002` to reconcile the successful GSC retry and add the
+released land workflow to the priority URL Inspection allowlist. Enforce exact
+parity between current sitemap URLs and `ops/gsc-monitor.json` so later releases
+cannot silently escape page-level monitoring.
+
+Why: scheduled run `31486530514` succeeded and committed the August 11 snapshot
+in `93cdf69`, proving the prior timeout was transient. The same comparison
+showed a real monitoring gap: the live sitemap has eight URLs, while the sensor
+inspected only the seven URLs configured before the land workflow shipped.
+
+Evidence decision: 22 rolling impressions, one impression on August 9, and the
+under-$20K/build-options transition to discovered-currently-not-indexed are
+monitoring progress, not causal evidence for content work. Keep the 90-day
+publication hold and `next_eligible_action_id: none`.
+
+Boundary: this ten-path transaction changes read-only monitoring configuration,
+tests, and durable state only. It does not change `site/**`, request indexing,
+deploy Pages, run outreach, mutate an external account, add analytics, or make
+a vendor, cost, legal, zoning, or buildability claim.
+
+Review/release: native candidate QA is green. Independent review and a
+review-clean push remain required; deployment is not applicable.

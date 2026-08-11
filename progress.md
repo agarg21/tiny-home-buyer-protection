@@ -672,3 +672,16 @@
 - Recorded scheduled GSC run `31383905353` as a transient read-only API timeout
   with no new snapshot. Credentials and collector tests were healthy; retry is
   left to the next daily run unless failure recurs.
+- Fast-forwarded successful scheduled GSC run `31486530514` and snapshot commit
+  `93cdf69` on 2026-08-11. The retry closes the August 10 timeout as transient;
+  the snapshot through August 9 reports 22 impressions, 0 clicks, one
+  impression on August 9, five of seven inspected URLs indexed, and both
+  outstanding URLs discovered-currently-not-indexed.
+- Registered direct-manual `THC-MON-002` and found that the released land
+  workflow was absent from the seven-URL read-only inspection allowlist. The
+  ten-path candidate adds all eight sitemap URLs and a tested exact-parity
+  invariant. Twenty-four focused tests, all 24 snapshot validations,
+  operator-state QA, JSON, and diff checks pass; independent review is pending.
+- Independent reviewer `019ff0ef-59a5-7f12-96c4-ee46cec533a9` returned
+  `PASS_WITH_P3` in cycle 1 with no P0-P2 finding. Added its requested focused
+  duplicate-monitor regression; final re-review is pending.

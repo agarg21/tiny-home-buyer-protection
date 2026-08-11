@@ -28,6 +28,9 @@ function fixture() {
   ].join("\n"));
   fs.writeFileSync(path.join(root, "ops", "gsc-snapshots", "2026-07-28.json"), "{}");
   fs.writeFileSync(path.join(root, "site", "sitemap.xml"), "<urlset><url><loc>https://tinyhomeclarity.com/</loc></url></urlset>");
+  fs.writeFileSync(path.join(root, "ops", "gsc-monitor.json"), JSON.stringify({
+    urls: ["https://tinyhomeclarity.com/"],
+  }));
   fs.writeFileSync(path.join(root, "status", "site-pages.md"), "https://tinyhomeclarity.com/\n");
   return root;
 }
@@ -93,6 +96,33 @@ test("rejects blocked action as next eligible", () => {
   assert.match(
     auditOperatorState({ repoDir: root }).errors.join("\n"),
     /next_eligible_action_id TEST-002 has ineligible status blocked/,
+  );
+  fs.rmSync(root, { recursive: true, force: true });
+});
+
+test("rejects missing and non-sitemap GSC monitor URLs", () => {
+  const root = fixture();
+  fs.writeFileSync(
+    path.join(root, "site", "sitemap.xml"),
+    "<urlset><url><loc>https://tinyhomeclarity.com/</loc></url><url><loc>https://tinyhomeclarity.com/new-page/</loc></url></urlset>",
+  );
+  fs.writeFileSync(path.join(root, "ops", "gsc-monitor.json"), JSON.stringify({
+    urls: ["https://tinyhomeclarity.com/", "https://tinyhomeclarity.com/retired-page/"],
+  }));
+  const errors = auditOperatorState({ repoDir: root }).errors.join("\n");
+  assert.match(errors, /gsc-monitor\.json is missing sitemap URL https:\/\/tinyhomeclarity\.com\/new-page\//);
+  assert.match(errors, /gsc-monitor\.json contains non-sitemap URL https:\/\/tinyhomeclarity\.com\/retired-page\//);
+  fs.rmSync(root, { recursive: true, force: true });
+});
+
+test("rejects duplicate GSC monitor URLs", () => {
+  const root = fixture();
+  fs.writeFileSync(path.join(root, "ops", "gsc-monitor.json"), JSON.stringify({
+    urls: ["https://tinyhomeclarity.com/", "https://tinyhomeclarity.com/"],
+  }));
+  assert.match(
+    auditOperatorState({ repoDir: root }).errors.join("\n"),
+    /duplicate GSC monitor URLs: https:\/\/tinyhomeclarity\.com\//,
   );
   fs.rmSync(root, { recursive: true, force: true });
 });

@@ -1,10 +1,54 @@
 # Current Cycle
 
-Last updated: 2026-08-10
+Last updated: 2026-08-11
 
-Active action: `none`
+Active action: `THC-MON-002`
 
 Next eligible action: `none`
+
+## Registered Boundary
+
+`THC-MON-002` is a direct-manual reconciliation of the recovered daily GSC
+sensor, the August 11 public-safe snapshot, and the newly exposed priority-URL
+coverage gap. Its exact paths are:
+
+- `ops/current-cycle.md`
+- `status/site-pages.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `progress.md`
+- `decisions.md`
+- `ops/gsc-monitor.json`
+- `tools/operator-state-qa.mjs`
+- `tools/operator-state-qa.test.mjs`
+
+No `site/**`, content, fresh keyword/SERP research, indexing request,
+deployment, outreach, external-account mutation, analytics, vendor
+recommendation, cost claim, or legal/zoning/buildability conclusion is in
+scope. The only functional change is read-only monitoring coverage and its
+repository invariant.
+
+## Current Transaction
+
+The August 11 snapshot commit `93cdf69` was fast-forwarded from a clean,
+non-diverged checkout. Scheduled run `31486530514` succeeded, so the August 10
+timeout is closed as a one-run transient failure.
+
+The snapshot is finalized through August 9:
+
+- sitemap `Success` with seven discovered pages at its August 7 read;
+- five of seven inspected URLs indexed;
+- 22 rolling impressions, 0 clicks, and average position 35.32;
+- one impression on August 9, ending the prior consecutive-zero streak; and
+- the under-$20K and build-options URLs both `Discovered - currently not
+  indexed`.
+
+The successful retry also showed that the August 10 land release was absent
+from `ops/gsc-monitor.json`. The candidate adds all eight sitemap URLs to the
+read-only inspection allowlist and makes exact sitemap/monitor parity a tested
+operator-state invariant. One impression and ordinary discovery progress do
+not select a page rewrite, new URL, indexing request, or outreach.
 
 ## Most Recent Transaction
 
@@ -28,22 +72,12 @@ Next eligible action: `none`
 
 ## Current Evidence
 
-The August 9 public-safe GSC snapshot at
-`ops/gsc-snapshots/2026-08-09.md` is finalized through August 7:
-
-- sitemap `Success` with seven discovered pages;
-- five of seven priority URLs indexed;
-- 21 rolling impressions and 0 clicks;
-- six consecutive finalized zero-impression days; and
-- no indexing request.
-
-This is fresh monitoring context. It does not identify a technical outage,
-select a page rewrite, or justify another URL.
-
-The scheduled August 10 GSC run `31383905353` produced no snapshot because one
-read-only API call timed out. Credentials were present and all collector tests
-passed. Treat one timeout as a transient monitoring alert; the next daily run
-should retry. A repeated failure can qualify a separate technical action.
+The August 11 public-safe GSC snapshot at
+`ops/gsc-snapshots/2026-08-11.md` is fresh monitoring context. It confirms the
+sensor recovered and improves inspection coverage labels, but it does not
+identify a production outage, support a page-level causal conclusion, or
+justify another URL. The new land workflow should first appear in priority
+inspection after this monitoring correction reaches the next scheduled run.
 
 ## Current Product State
 

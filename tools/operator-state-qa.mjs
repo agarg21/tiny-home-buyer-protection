@@ -40,6 +40,8 @@ export function auditOperatorState({ repoDir = process.cwd() } = {}) {
   const currentCycle = read(repoDir, "ops/current-cycle.md");
   const statusPath = path.join(repoDir, "status", "site-pages.md");
   const status = fs.existsSync(statusPath) ? fs.readFileSync(statusPath, "utf8") : "";
+  const monitorPath = path.join(repoDir, "ops", "gsc-monitor.json");
+  const sitemap = sitemapUrls(repoDir);
 
   if (!Array.isArray(roadmap.items)) errors.push("ops/seo-roadmap.json items must be an array");
   const items = Array.isArray(roadmap.items) ? roadmap.items : [];
@@ -96,8 +98,23 @@ export function auditOperatorState({ repoDir = process.cwd() } = {}) {
 
   if (!status) errors.push("missing status/site-pages.md");
   else {
-    for (const url of sitemapUrls(repoDir)) {
+    for (const url of sitemap) {
       if (!status.includes(url)) errors.push(`status/site-pages.md is missing sitemap URL ${url}`);
+    }
+  }
+
+  if (!fs.existsSync(monitorPath)) {
+    errors.push("missing ops/gsc-monitor.json");
+  } else {
+    const monitor = JSON.parse(fs.readFileSync(monitorPath, "utf8"));
+    const monitored = Array.isArray(monitor.urls) ? monitor.urls : [];
+    const duplicates = monitored.filter((url, index) => monitored.indexOf(url) !== index);
+    if (duplicates.length) errors.push(`duplicate GSC monitor URLs: ${[...new Set(duplicates)].join(", ")}`);
+    for (const url of sitemap) {
+      if (!monitored.includes(url)) errors.push(`ops/gsc-monitor.json is missing sitemap URL ${url}`);
+    }
+    for (const url of monitored) {
+      if (!sitemap.includes(url)) errors.push(`ops/gsc-monitor.json contains non-sitemap URL ${url}`);
     }
   }
 

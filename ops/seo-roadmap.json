@@ -1331,6 +1331,66 @@
       "pages_workflow_run": "30460242431",
       "production_verification": "GitHub Pages run 30460242431 succeeded for the exact pushed commit. The live calculator HTML, calculator JavaScript, shared stylesheet, and sitemap byte-match repository files and return HTTP 200 where applicable. Production browser checks passed canonical, H1, review date, neutral blank state, quote-only partial state, outside cost without a starting amount, blank versus deliberate-zero buffer, financing-only monthly output, result focus, no console errors, and 320px containment.",
       "notes": "Released and production-verified. Cycle 2 and final cycle 3 returned PASS_WITH_P3 with no P0-P2 findings. The one buffer-title wording P3 remains recorded for a future separately reviewed action. Frozen to the exact 17 paths; no homepage, under-$20K page, local guide, national build asset, indexing request, analytics, outreach, external account, vendor recommendation, typical/complete cost claim, affordability conclusion, or legal/zoning conclusion changed."
+    },
+    {
+      "id": "THC-MON-002",
+      "title": "Reconcile the recovered GSC sensor and current indexing labels",
+      "kind": "monitoring-reconciliation",
+      "lane": "measurement-and-operations",
+      "impact": 2,
+      "confidence": 5,
+      "learning_value": 2,
+      "effort": 1,
+      "risk": 1,
+      "status": "in_progress",
+      "selected_on": "2026-08-11",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": true,
+      "target_urls": [],
+      "target_paths": [
+        "ops/current-cycle.md",
+        "status/site-pages.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "progress.md",
+        "decisions.md",
+        "ops/gsc-monitor.json",
+        "tools/operator-state-qa.mjs",
+        "tools/operator-state-qa.test.mjs"
+      ],
+      "baseline": "The August 10 scheduled GSC run timed out and produced no snapshot. Current-state files still describe a pending retry and label the under-$20K and build-options URLs as unknown to Google. The successful August 11 retry also reveals that the live land workflow is in the sitemap but absent from the seven-URL read-only inspection allowlist.",
+      "hypothesis": "Reconciling the successful retry, changed inspection labels, and missing monitor URL will keep durable state truthful and restore complete page-level sensing without converting one impression or ordinary discovery progress into content work.",
+      "expected_effect": "Record the recovered sensor and August 11 metrics, inspect all eight sitemap URLs on the next scheduled run, and enforce sitemap-to-monitor parity while preserving the 90-day observation hold and no eligible implementation action.",
+      "success_signal": "The newest snapshot validates, its monitoring changes are mirrored accurately, the failed-run alert is closed as recovered, every sitemap URL is in the read-only monitor allowlist, the parity regression test and native QA pass, and no page or external action is selected.",
+      "evidence_classification": "The August 11 public-safe GSC snapshot is fresh read-only monitoring evidence. Its successful collection closes the one-run timeout alert; its one new impression and inspection-label changes are not causal evidence for a page rewrite, new URL, indexing request, or outreach.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required",
+        "approval_required_for": null
+      },
+      "qa_evidence": [
+        "24 focused GSC snapshot and operator-state tests passed after the cycle 1 P3 fix",
+        "all 24 public-safe GSC snapshot files validated",
+        "operator-state QA reported 0 errors with THC-MON-002 active and 2026-08-11 as the latest snapshot",
+        "ops/gsc-monitor.json and ops/seo-roadmap.json parsed as valid JSON",
+        "git diff --check passed"
+      ],
+      "working_tree_result": "The eight sitemap URLs now match the read-only priority inspection allowlist exactly. Operator-state QA rejects missing, stale, or duplicate monitor URLs. Durable state mirrors the recovered run and August 11 evidence while keeping the 90-day publication hold and no eligible next action.",
+      "review_history": [
+        {
+          "cycle": 1,
+          "reviewer_id": "019ff0ef-59a5-7f12-96c4-ee46cec533a9",
+          "read_only": true,
+          "verdict": "PASS_WITH_P3",
+          "findings": [
+            "P3: duplicate monitor URLs were rejected in operator-state QA but lacked a focused regression assertion"
+          ],
+          "resolution": "Added a focused duplicate-monitor fixture and assertion. No P0-P2 finding was reported."
+        }
+      ],
+      "implementation_state": "final-review-pending",
+      "notes": "Selected by the user-authorized direct Master heartbeat from clean, origin-aligned snapshot commit 93cdf69a891ae8197a491fcf2996ea21b4e4aecb. Initially registered against seven durable-state paths, then explicitly expanded to the ten exact paths above before touching the newly exposed monitor/config test scope. Cycle 1 returned PASS_WITH_P3; its sole duplicate-test P3 is fixed. Final re-review and reviewed push remain pending; no deployment applies."
     }
   ]
 }
