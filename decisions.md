@@ -948,5 +948,9 @@ tests, and durable state only. It does not change `site/**`, request indexing,
 deploy Pages, run outreach, mutate an external account, add analytics, or make
 a vendor, cost, legal, zoning, or buildability claim.
 
-Review/release: native candidate QA is green. Independent review and a
-review-clean push remain required; deployment is not applicable.
+Review/release: cycle 1 returned `PASS_WITH_P3`; its duplicate-monitor test P3
+was fixed. Cycle 2 returned `PASS` with no findings. The exact reviewed change
+was pushed and remotely verified in
+`fcd3ce5b0dfe95c564b11b69047966e9e650092b`. Deployment is not applicable;
+final closeout review cycle 3 returned `PASS` with no findings on the complete
+action range. All review findings are resolved.

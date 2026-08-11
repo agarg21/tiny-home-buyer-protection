@@ -2,55 +2,33 @@
 
 Last updated: 2026-08-11
 
-Active action: `THC-MON-002`
+Active action: `none`
 
 Next eligible action: `none`
 
-## Registered Boundary
-
-`THC-MON-002` is a direct-manual reconciliation of the recovered daily GSC
-sensor, the August 11 public-safe snapshot, and the newly exposed priority-URL
-coverage gap. Its exact paths are:
-
-- `ops/current-cycle.md`
-- `status/site-pages.md`
-- `ops/operator-review.md`
-- `ops/seo-roadmap.json`
-- `ops/seo-roadmap.md`
-- `progress.md`
-- `decisions.md`
-- `ops/gsc-monitor.json`
-- `tools/operator-state-qa.mjs`
-- `tools/operator-state-qa.test.mjs`
-
-No `site/**`, content, fresh keyword/SERP research, indexing request,
-deployment, outreach, external-account mutation, analytics, vendor
-recommendation, cost claim, or legal/zoning/buildability conclusion is in
-scope. The only functional change is read-only monitoring coverage and its
-repository invariant.
-
-## Current Transaction
-
-The August 11 snapshot commit `93cdf69` was fast-forwarded from a clean,
-non-diverged checkout. Scheduled run `31486530514` succeeded, so the August 10
-timeout is closed as a one-run transient failure.
-
-The snapshot is finalized through August 9:
-
-- sitemap `Success` with seven discovered pages at its August 7 read;
-- five of seven inspected URLs indexed;
-- 22 rolling impressions, 0 clicks, and average position 35.32;
-- one impression on August 9, ending the prior consecutive-zero streak; and
-- the under-$20K and build-options URLs both `Discovered - currently not
-  indexed`.
-
-The successful retry also showed that the August 10 land release was absent
-from `ops/gsc-monitor.json`. The candidate adds all eight sitemap URLs to the
-read-only inspection allowlist and makes exact sitemap/monitor parity a tested
-operator-state invariant. One impression and ordinary discovery progress do
-not select a page rewrite, new URL, indexing request, or outreach.
-
 ## Most Recent Transaction
+
+`THC-MON-002` completed from clean, origin-aligned snapshot base `93cdf69`.
+
+- Scheduled run `31486530514` recovered after the prior one-run timeout and
+  committed a validated August 11 snapshot finalized through August 9.
+- The snapshot reports 22 impressions, 0 clicks, five of seven inspected URLs
+  indexed, one impression on August 9, and both outstanding URLs
+  discovered-currently-not-indexed.
+- The land workflow was missing from the priority inspection allowlist. Commit
+  `fcd3ce5b0dfe95c564b11b69047966e9e650092b` adds all eight sitemap URLs and a
+  tested exact sitemap/monitor parity invariant.
+- Native QA passed 70/70 tests, 24 snapshot validations, zero SEO errors with
+  three known warnings, zero operator-state errors, valid JSON, required files,
+  exact scope, and clean diff checks.
+- Independent review cycle 1 returned `PASS_WITH_P3`; its duplicate-monitor
+  regression P3 was fixed. Cycles 2 and final closeout cycle 3 returned `PASS`
+  with no findings.
+- The reviewed commit was pushed and remotely verified. No `site/**` path
+  changed, so Pages deployment is not applicable.
+- The 90-day publication hold remains active and no next action is eligible.
+
+## Prior Product Transaction
 
 `THC-LAND-001` completed from clean, origin-aligned base
 `7e6ad2dd33119d7c567515261a312af894861820`.
