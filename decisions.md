@@ -992,3 +992,24 @@ Review result: cycle 1 found one P2 contradictory no-op instruction in the
 authoritative portfolio handoff. The scope was declared and expanded to
 twenty-one paths before fixing it. Cycle 2 returned `PASS` with no findings;
 native QA is green and no deployment applies.
+
+## 2026-08-12: Georgia Needs A Human-First, Source-Current Repair
+
+`THC-REV-001` reproduced the July 28 Georgia first-screen finding on desktop,
+390px, and 320px. The page is cautious but opens like a source record: it leads
+with limitations and internal confidence/scope metadata before explaining the
+four categories or the first local question. This is a human-value defect for
+beginners and a weaker-than-necessary path for intermediate readers.
+
+The review also found causal freshness evidence. Georgia's current mandatory
+residential code is the 2024 IRC with Georgia amendments, effective January 1,
+2026, and the amendments include changes to Appendix BB, Tiny Houses. The live
+page still uses older 2012 IRC / Appendix Q framing. Do not infer statewide
+Appendix BB enforcement from the amendment packet; require DCA or local written
+confirmation.
+
+Decision: promote `THC-GA-001` as the sole future repair. Keep the existing URL,
+replace the opening with a direct statewide-versus-local answer and four-
+category proof decoder, compress repeated cautions, and give ordered local
+questions. Do not build a Georgia county directory or claim statewide
+permission. The page's five GSC impressions are monitoring context only.

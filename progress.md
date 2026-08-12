@@ -735,3 +735,33 @@
   reviewer verified the complete base-to-release range, exact five-path
   closeout, remote SHA, no-deployment state, `THC-REV-001` selection, and all
   QA. Its sole stale-cycle wording P3 is fixed in the mechanical closeout.
+
+## 2026-08-12 - Georgia Human Review Candidate
+
+- Registered `THC-REV-001` from clean, origin-aligned base `caaf10d` as a
+  research-only ten-path transaction.
+- Reproduced the Georgia guide's source-first, limitation-first opening at
+  desktop, 390px, and 320px. The page had no horizontal overflow; the defect is
+  information order and human usefulness.
+- Sampled current Georgia-intent results and confirmed that broad searches ask
+  a placement question. The page's defensible answer is a classification
+  decoder that leads to the correct local question, not a statewide allowed-
+  counties guide.
+- Rechecked Georgia DCA sources and found that the current mandatory residential
+  code is the 2024 IRC with Georgia amendments, effective January 1, 2026. The
+  current amendment packet modifies Appendix BB, while the live page still
+  uses older Appendix Q framing.
+- Recorded `repair` in
+  `docs/research/georgia-tiny-house-human-review-2026-08.md` and promoted only
+  `THC-GA-001` for separate implementation. No `site/**`, indexing, deployment,
+  outreach, community posting, or external account changed.
+- Native QA passed: 70/70 tests, all 25 public snapshots, zero SEO errors with
+  three known canonical warnings, zero operator-state errors, valid JSON,
+  required files, exact scope, and whitespace checks.
+- Independent cycle 1 returned `FAIL` with one P2 evidence-classification
+  inconsistency and one P3 combined section disposition. Page age is now timing
+  context, the actual causal evidence is explicit, and the checklist uses the
+  single disposition `Merge`.
+- Cycle 2 returned `PASS` with no findings and independently reproduced all
+  native QA. `THC-REV-001` is review-clean and complete; `THC-GA-001` is the
+  sole ready next action. Push remains pending and deployment does not apply.

@@ -62,9 +62,56 @@ monetization, provider, and unreviewed release decisions.
 22. `THC-OPS-004` — completed: added a finite human-value research rotation
     for the observation period and a draft-only, user-gated community-answer
     lane. No site or external-account mutation is in scope.
-23. `THC-REV-001` — ready after `THC-OPS-004`: research-only re-verification of
-    the unresolved Georgia first-screen beginner gap. It cannot edit the page
-    or use five impressions as implementation evidence.
+23. `THC-REV-001` — completed: research-only re-verification reproduced the
+    unresolved Georgia first-screen beginner gap and found a current official-
+    source change. Cycle 2 returned `PASS`; no page changed.
+24. `THC-GA-001` — ready: repair the existing Georgia page with an answer-
+    first four-category decoder and current 2024 IRC / 2026 amendment context.
+    Do not create a new URL or statewide/county permission guide.
+
+## THC-REV-001 active contract
+
+- Authority: direct Master heartbeat; no Control Room lease or ledger write.
+- Base: clean, origin-aligned `caaf10d`.
+- Scope: the ten exact paths in `ops/current-cycle.md`; no `site/**` or external
+  mutation.
+- Causal evidence: the July 28 audit's unresolved first-screen beginner gap.
+  Current rendered, official-source, and SERP evidence may confirm, narrow, or
+  reject it.
+- Monitoring context: August 12 GSC reports five impressions and average
+  position 22.4 for the page, but no public-safe query row. This does not select
+  implementation.
+- Output: one durable research disposition and at most one separately
+  implementable future action.
+
+## THC-REV-001 candidate result
+
+- Disposition: `repair`; no public page changed.
+- Human-value evidence: desktop, 390px, and 320px production checks reproduced
+  a first screen dominated by source metadata and limitations. The four
+  categories and first local question still arrive too late.
+- Source-freshness evidence: Georgia's current mandatory residential code is
+  the 2024 IRC with Georgia amendments, effective January 1, 2026. Its amendment
+  packet modifies Appendix BB, while the live page still uses older Appendix Q
+  framing.
+- Claim boundary: the reviewed official text does not establish a statewide
+  placement answer or prove that Appendix BB is enforced by every authority.
+- SERP fit: broad Georgia searches are placement questions. The page's narrow
+  defensible role is to decode classification before the reader asks the
+  correct city or county question.
+- Promoted action: `THC-GA-001` only. Cycle 1 findings were fixed and cycle 2
+  returned `PASS`, so it is ready for a separate transaction.
+
+## THC-GA-001 proposed contract
+
+- Repair the existing `/georgia-tiny-house-classification/` page; no new URL.
+- Lead with the statewide-versus-local answer, then a four-row category / proof
+  / next-question decoder.
+- Use current DCA sources and state precisely what remains unverified.
+- Pass beginner, intermediate, advanced, every-section, source, desktop,
+  mobile, 320px, native, independent, and production review.
+- No county directory, statewide placement claim, indexing request, vendor or
+  cost recommendation, outreach, or external mutation.
 
 ## THC-OPS-004 completion
 

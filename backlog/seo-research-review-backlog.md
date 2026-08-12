@@ -7,17 +7,21 @@ queue is `ops/seo-roadmap.json`.
 
 ## Current Review-Ready Work
 
-`THC-REV-001`: research-only human review of the current Georgia
-classification guide. The durable July 28 full-site audit found that its first
-screen was poor for beginners and led with source/record framing instead of
-translating Georgia's structure categories and the next local check. Recheck
-the current rendered page, current official source, current SERP, all three
-experience levels, and every section. Return `keep`, `repair`,
-`consolidate`, `needs-evidence`, or `no-build`; do not edit `site/**`.
+No second research action is ready while the separately implementable Georgia
+repair promoted by `THC-REV-001` is unresolved.
+
+The completed Georgia research record is
+`docs/research/georgia-tiny-house-human-review-2026-08.md`. It returned
+`repair` after reproducing the first-screen beginner gap and finding a current
+official-source freshness issue. It did not edit `site/**` or use low GSC
+volume as implementation evidence.
 
 The current community candidate and draft are in
 `docs/research/community-question-candidates-2026-08.md`. They remain
 draft-only and are not the next selected action.
+
+The next research surface remains the under-$20K checker, but it stays held
+behind the Georgia implementation decision. Do not run both lanes at once.
 
 ## Current Monitoring Context
 

@@ -1,5 +1,95 @@
 # Operator Review
 
+## 2026-08-12 - Georgia Human-Value And Source-Freshness Review
+
+Action: `THC-REV-001`
+
+Selection authority: the user-authorized direct Master heartbeat. No Control
+Room lease or central-ledger write applies.
+
+Frozen boundary: the ten exact paths in `ops/current-cycle.md`. Research and
+durable state only. No `site/**`, page edit, new URL, indexing request,
+deployment, outreach, community post, external account, vendor recommendation,
+typical/complete cost claim, or legal/zoning/buildability conclusion.
+
+Evidence classification:
+
+- The July 28 audit's unresolved first-screen beginner finding is causal review
+  evidence.
+- August 12 desktop, 390px, and 320px production checks reproduced the source-
+  first, inability-first opening without horizontal overflow.
+- Current Georgia DCA sources show the mandatory residential code is now the
+  2024 IRC with Georgia amendments, effective January 1, 2026, and that the
+  amendment packet modifies Appendix BB. This makes the page's older Appendix
+  Q explanation a causal source-freshness issue.
+- The packet's general appendix rule and Appendix BB amendments do not by
+  themselves establish statewide Appendix BB enforcement. That remains an
+  explicit question for DCA or the authority having jurisdiction.
+- The August 12 GSC row remains five impressions, zero clicks, and average
+  position 22.4. It is unchanged monitoring context, not implementation
+  evidence.
+
+Candidate result:
+
+- Disposition: `repair` the existing URL in a separate action.
+- Replace the source-summary first screen with a direct statewide-versus-local
+  answer, a four-category evidence decoder, and an ordered local question.
+- Replace older 2012 IRC / Appendix Q framing with current source-bound 2024
+  IRC / 2026 amendment context and explicit Appendix BB uncertainty.
+- Keep one Georgia classification URL. Do not create a county directory or
+  claim statewide placement permission.
+- Promote only `THC-GA-001`; do not implement it in this research action.
+
+Pre-review QA passed: 70/70 tests, all 25 public-safe GSC snapshot files, zero
+SEO errors with three known canonical warnings, zero operator-state errors,
+valid roadmap JSON, both required files, exact ten-path scope, and whitespace
+checks.
+
+The Anti Gravity advisory CLI was available but produced no review because its
+headless command permission was denied. No advisory result is claimed.
+
+### Independent review cycle 1
+
+- Reviewer: independent read-only subagent
+  `019ff7d2-1353-7272-8a33-023daecc693d`.
+- Verdict: `FAIL`.
+- P0/P1: none.
+- P2: the machine-readable roadmap incorrectly named current page age as causal
+  evidence even though the governing rule says age alone is insufficient.
+- P3: the every-section table used the combined disposition `Rewrite / merge`
+  instead of one allowed disposition.
+- Resolution: the roadmap now identifies the unresolved July finding,
+  reproduced August rendering, and current official-source change as causal;
+  page age is timing context only. The checklist now uses the single
+  disposition `Merge`, with rewrite detail in the requirement column.
+- Independent verification: exact ten-path scope, current Georgia code claims,
+  explicit Appendix BB uncertainty, point-in-time SERP limits, live desktop/
+  390px/320px rendering, decision persona, all three experience levels,
+  anti-generic test, every-section logic, `repair` disposition, and sole
+  `THC-GA-001` promotion otherwise passed. Independent native QA matched the
+  pre-review results.
+
+### Independent review cycle 2
+
+- Reviewer: independent read-only subagent
+  `019ff7d2-1353-7272-8a33-023daecc693d`.
+- Verdict: `PASS`.
+- Findings: none.
+- Resolution check: passed. The reviewer confirmed page age is timing context,
+  the single `Merge` disposition is valid, and the cycle 1 ledger is accurate.
+- Complete review: exact ten-path scope, no `site/**`, current Georgia source
+  claims, bounded Appendix BB conclusion, point-in-time SERP interpretation,
+  repair evidence independent of GSC, all personas and experience levels,
+  anti-generic and every-section requirements, and sole `THC-GA-001` promotion
+  passed.
+- Independent QA: 70/70 tests, all 25 snapshots, zero SEO errors with three
+  known warnings, zero operator-state errors, valid JSON, required files,
+  exact scope, and whitespace checks.
+
+Candidate state: review-clean and complete. Push is pending; deployment is not
+applicable. A final mechanical review will cover the complete released range
+and predeclared closeout paths.
+
 ## 2026-08-12 - Human-Value Research Rotation And Community Draft Gate
 
 Action: `THC-OPS-004`

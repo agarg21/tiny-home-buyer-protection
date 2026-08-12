@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-06",
   "next_rescore_due": "2026-08-13",
-  "next_eligible_action_id": "THC-REV-001",
+  "next_eligible_action_id": "THC-GA-001",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -1526,13 +1526,15 @@
       "learning_value": 4,
       "effort": 2,
       "risk": 2,
-      "status": "ready",
+      "status": "completed",
+      "selected_on": "2026-08-12",
+      "completed_on": "2026-08-12",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
         "https://tinyhomeclarity.com/georgia-tiny-house-classification/"
       ],
-      "proposed_paths": [
+      "target_paths": [
         "docs/research/georgia-tiny-house-human-review-2026-08.md",
         "status/research-rotation.md",
         "status/site-pages.md",
@@ -1548,15 +1550,93 @@
       "hypothesis": "A current rendered, SERP, official-source, persona, and every-section review can determine whether the gap still exists and whether the right disposition is keep, repair, consolidate, needs-evidence, or no-build without touching the live page.",
       "expected_effect": "Produce one reproducible research record and at most one separately implementable recommendation. Do not infer a rewrite from five impressions or average position.",
       "success_signal": "The current page, relevant official Georgia source, bounded current SERP, beginner/intermediate/advanced needs, every visible section, and page-role overlap are reviewed; evidence and unknowns are preserved; one disposition is recorded; native QA and independent review pass; no site or external mutation occurs.",
-      "evidence_classification": "The unresolved July 28 human-review finding and current page age are causal review evidence. The August 12 GSC sample is monitoring context only and cannot select implementation.",
+      "evidence_classification": "The unresolved July 28 human-review finding, reproduced August 12 rendering, and current official-source change are causal review evidence. Page age is timing context only. The August 12 GSC sample is monitoring context only and cannot select implementation.",
+      "working_tree_result": "Candidate disposition is repair. Desktop, 390px, and 320px production checks reproduced a source-first and inability-first opening that delays the four categories and first local question. Current Georgia DCA sources show the mandatory residential code is now the 2024 IRC with Georgia amendments, effective January 1, 2026, and the amendment packet modifies Appendix BB; the live page still uses older Appendix Q framing. The official text reviewed does not prove statewide Appendix BB enforcement, so the future page must preserve that question for DCA or the authority having jurisdiction. One future action, THC-GA-001, is promoted without a site edit.",
       "human_gate": {
         "required": false,
         "status": "not-required-for-research-only",
         "approval_required_for": null
       },
-      "implementation_state": "unselected-research-only",
+      "qa_evidence": [
+        "node --test tools/*.test.mjs: 70 of 70 tests pass",
+        "node tools/gsc-snapshot.mjs --validate-existing: all 25 public-safe snapshot files validate",
+        "node tools/seo-qa.mjs: 8 pages, 0 errors, and 3 known canonical warnings",
+        "node tools/operator-state-qa.mjs: 0 errors",
+        "ops/seo-roadmap.json is valid JSON; required files are present; exact ten-path scope and git diff --check pass",
+        "production rendering at 1280px, 390px, and 320px reproduces the first-screen usefulness gap without horizontal overflow"
+      ],
+      "review_history": [
+        {
+          "cycle": 1,
+          "reviewer_id": "019ff7d2-1353-7272-8a33-023daecc693d",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: current page age was incorrectly classified as causal evidence in ops/seo-roadmap.json",
+            "P3: the every-section table used the combined disposition Rewrite / merge"
+          ],
+          "resolution": "Classified page age as timing context, named the unresolved July finding, reproduced August rendering, and official-source change as causal, and changed the checklist to the single Merge disposition."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "019ff7d2-1353-7272-8a33-023daecc693d",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "The reviewer confirmed both cycle 1 findings resolved and independently passed the complete ten-path evidence, source, SERP, persona, experience-level, every-section, scope, next-action, and native QA review."
+        }
+      ],
+      "review_outcome": "PASS",
+      "review_cycles": 2,
+      "implementation_state": "review-clean-research-only",
+      "release_state": "unreleased",
+      "deployment_applicable": false,
+      "notes": "Completed from clean, origin-aligned base caaf10d42c333a450d7e8e58c43d28341a9273f6 and frozen to the ten exact paths above. Cycle 1 findings were fixed and cycle 2 returned PASS. No site edit, new page, indexing request, deployment, outreach, account mutation, vendor recommendation, cost claim, or legal/zoning/buildability conclusion occurred. Push remains pending."
+    },
+    {
+      "id": "THC-GA-001",
+      "title": "Repair the existing Georgia classification guide for human usefulness and current sources",
+      "kind": "content-repair",
+      "lane": "existing-page-human-value",
+      "impact": 3,
+      "confidence": 5,
+      "learning_value": 3,
+      "effort": 2,
+      "risk": 3,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/georgia-tiny-house-classification/"
+      ],
+      "proposed_paths": [
+        "docs/research/georgia-tiny-house-human-review-2026-08.md",
+        "site/georgia-tiny-house-classification/index.html",
+        "site/sitemap.xml",
+        "status/research-rotation.md",
+        "status/site-pages.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "THC-REV-001 reproduced the July 28 first-screen beginner gap and found a material official-source freshness issue: the current page uses older Appendix Q framing while Georgia's current residential-code context is the 2024 IRC with 2026 amendments that modify Appendix BB.",
+      "hypothesis": "A direct statewide-versus-local answer, four-category evidence decoder, ordered local question script, and precise current-source note can make the existing page useful to a real Georgia buyer without pretending to answer parcel permission.",
+      "expected_effect": "A beginner can identify the likely evidence path and first local question from the first screen; intermediate and advanced readers can distinguish seller labels, state categories, code context, and local authority without repeated inability language.",
+      "success_signal": "The repaired existing URL passes decision-persona, beginner/intermediate/advanced, every-section, source, claim-scope, desktop, 390px, 320px, native, independent, and production review; it includes an explicit canonical and current sitemap lastmod; no new URL or external mutation occurs.",
+      "evidence_classification": "The August 12 rendered human review and current DCA source change are causal implementation evidence. The page's five impressions and average position are monitoring context only.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required-for-bounded-existing-page-repair",
+        "approval_required_for": null
+      },
+      "implementation_state": "ready-unselected",
       "release_state": "not-started",
-      "notes": "Ready after THC-OPS-004 completes. Exact paths must be frozen again when selected. No site edit, new page, indexing request, deployment, outreach, account mutation, vendor recommendation, cost claim, or legal/zoning/buildability conclusion is authorized."
+      "notes": "Promoted as the one separately implementable future action by review-clean THC-REV-001. Exact paths must be frozen again at selection. No county directory, statewide placement answer, new URL, indexing request, vendor recommendation, cost claim, outreach, or external-account mutation is authorized."
     }
   ]
 }

@@ -4,9 +4,55 @@ Last updated: 2026-08-12
 
 Active action: `none`
 
-Next eligible action: `THC-REV-001`
+Next eligible action: `THC-GA-001`
 
 ## Most Recent Transaction
+
+`THC-REV-001` completed as a direct-manual, research-only review of the current
+Georgia classification guide. It returned `repair` after reproducing the
+first-screen beginner gap and finding a material official-source change.
+
+Exact paths:
+
+- `docs/research/georgia-tiny-house-human-review-2026-08.md`
+- `status/research-rotation.md`
+- `status/site-pages.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Base: clean, origin-aligned
+`caaf10d42c333a450d7e8e58c43d28341a9273f6`.
+
+Result: keep one Georgia URL and promote `THC-GA-001` as the sole separately
+implementable answer-first/source-current repair. The current mandatory
+residential-code context is 2024 IRC with Georgia amendments effective January
+1, 2026; the future page must not infer statewide Appendix BB enforcement from
+the amendment packet.
+
+Review: independent read-only reviewer
+`019ff7d2-1353-7272-8a33-023daecc693d` returned `FAIL` in cycle 1 with one P2
+and one P3. Both were fixed. Cycle 2 returned `PASS` with no findings and
+independently reproduced all native QA.
+
+QA: 70/70 tests; all 25 public GSC snapshots; zero SEO errors with three known
+canonical warnings; zero operator-state errors; valid JSON; required files;
+exact ten-path scope; and whitespace checks.
+
+Release: review-clean docs/research candidate; push pending. Deployment does
+not apply because no site or Pages workflow path changed.
+
+Boundaries: research and durable state only. No `site/**`, page edit, new URL,
+indexing request, deployment, outreach, community post, external account,
+vendor recommendation, typical/complete cost claim, or legal/zoning/
+buildability conclusion. The result may promote at most one separately
+implementable future action.
+
+## Prior Completed Transaction
 
 `THC-OPS-004` completed as a direct-manual, docs/research-only operating
 transaction.
