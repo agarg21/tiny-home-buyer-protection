@@ -726,3 +726,12 @@
   known untouched-page canonical warnings, valid JSON, required files, exact
   scope, and whitespace checks. The docs/research transaction is review-clean;
   push remains.
+- Committed the exact twenty-one-path candidate as
+  `3530d12261f5db14b151f1fe7187c3c4a9f329d0`, fetched immediately before push,
+  confirmed no remote divergence, pushed to `origin/main`, and verified the
+  remote at the exact commit. No site path changed, so deployment does not
+  apply. Final mechanical closeout review remains.
+- Final closeout cycle 3 returned `PASS_WITH_P3` with no P0-P2 findings. The
+  reviewer verified the complete base-to-release range, exact five-path
+  closeout, remote SHA, no-deployment state, `THC-REV-001` selection, and all
+  QA. Its sole stale-cycle wording P3 is fixed in the mechanical closeout.

@@ -47,8 +47,8 @@ Candidate state:
 - The current Reddit answer draft gives a quote-first category and evidence-
   state method without a site link, numeric range, vendor, or local conclusion.
 
-Independent review cycle 1 is complete; cycle 2 is pending on the complete
-twenty-one-path working tree.
+Independent review cycles 1 and 2 are complete; final mechanical closeout
+review is pending on the complete range and predeclared closeout paths.
 
 ### Independent review cycle 1
 
@@ -77,8 +77,35 @@ twenty-one-path working tree.
   known warnings, zero operator-state errors, valid roadmap JSON, required
   deployment files, and tracked/untracked whitespace checks passed.
 
-Release state: review-clean docs/research only; push pending. No deployment is
-applicable.
+Release:
+
+- Review-clean commit
+  `3530d12261f5db14b151f1fe7187c3c4a9f329d0` was pushed from non-diverged base
+  `e13f05deff87e1cadbfaccd3ca30728c0bbc7df0`.
+- `origin/main` was remotely verified at the exact commit.
+- No `site/**` or Pages workflow path changed, so deployment is not applicable.
+- The final mechanical closeout review below covers the complete action range
+  and these predeclared state paths.
+
+### Independent review cycle 3
+
+- Reviewer: independent read-only subagent
+  `019ff61d-1820-7c72-9d3e-05e7c8ae1737`.
+- Verdict: `PASS_WITH_P3`.
+- P0-P2: none.
+- P3: the review ledger still called cycle 2 pending immediately before its
+  recorded cycle 2 `PASS`. The exact wording is corrected in this mechanical
+  closeout.
+- Release verification: commit `3530d12` is the direct child of base
+  `e13f05d`; local, tracking, and remote `main` all match the release; the
+  commit contains exactly twenty-one action paths; closeout contains exactly
+  five predeclared paths; and deployment is correctly not applicable.
+- QA: 70/70 tests, all 25 public snapshots, zero SEO errors with three known
+  warnings, zero operator-state errors, valid roadmap/operator JSON, required
+  files, and complete-range whitespace checks passed independently.
+
+Final state: released, review-clean, and complete. `THC-REV-001` is the sole
+next eligible research action.
 
 ## 2026-08-11 - GSC Recovery And Priority-URL Coverage
 

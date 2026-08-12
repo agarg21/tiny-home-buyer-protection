@@ -90,8 +90,11 @@ monetization, provider, and unreviewed release decisions.
   and whitespace checks pass.
 - Review: cycle 1 returned `FAIL` with one P2 stale no-op rule. The scope was
   explicitly expanded before fixing it. Independent cycle 2 returned `PASS`
-  with no findings on all twenty-one paths.
-- Release: review-clean push pending; no deployment applies.
+  with no findings on all twenty-one paths. Final closeout cycle 3 returned
+  `PASS_WITH_P3`; its sole stale-cycle wording P3 is fixed.
+- Release: review-clean commit
+  `3530d12261f5db14b151f1fe7187c3c4a9f329d0` was pushed and remotely verified
+  from base `e13f05d`. No deployment applies.
 
 ## THC-MON-002 completion
 

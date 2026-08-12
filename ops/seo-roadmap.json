@@ -1493,14 +1493,28 @@
           "verdict": "PASS",
           "findings": [],
           "resolution": "The reviewer confirmed the cycle 1 P2 resolved, exact twenty-one-path scope, truthful Georgia research selection, robust community human gate, and all applicable native QA."
+        },
+        {
+          "cycle": 3,
+          "reviewer_id": "019ff61d-1820-7c72-9d3e-05e7c8ae1737",
+          "read_only": true,
+          "verdict": "PASS_WITH_P3",
+          "findings": [
+            "P3: ops/operator-review.md still said cycle 2 was pending immediately before its recorded cycle 2 PASS"
+          ],
+          "resolution": "Applied the reviewer's exact wording correction in the mechanical closeout. The reviewer independently verified the complete base-to-release range, five closeout paths, remote SHA, no-deployment state, next research action, and all native QA."
         }
       ],
-      "review_outcome": "PASS",
-      "review_cycles": 2,
+      "review_outcome": "PASS_WITH_P3",
+      "review_cycles": 3,
       "implementation_state": "review-clean-docs-and-research-only",
-      "release_state": "review-clean-push-pending",
+      "release_state": "pushed-no-deployment-applicable",
       "deployment_applicable": false,
-      "notes": "Initially frozen to twenty exact paths. Independent review cycle 1 exposed a conflicting authoritative no-op rule in ops/portfolio-operator.md, so the scope was explicitly expanded to twenty-one paths before editing it. Cycle 2 returned PASS with no findings. No site path, page implementation, indexing request, outreach, external-account mutation, vendor recommendation, typical/complete cost claim, or legal/zoning/buildability conclusion occurred."
+      "release_commit": "3530d12261f5db14b151f1fe7187c3c4a9f329d0",
+      "release_base_commit": "e13f05deff87e1cadbfaccd3ca30728c0bbc7df0",
+      "released_on": "2026-08-12",
+      "remote_verified": true,
+      "notes": "Initially frozen to twenty exact paths. Independent review cycle 1 exposed a conflicting authoritative no-op rule in ops/portfolio-operator.md, so the scope was explicitly expanded to twenty-one paths before editing it. Cycle 2 returned PASS with no findings. Commit 3530d12261f5db14b151f1fe7187c3c4a9f329d0 was pushed and remotely verified. No site path, page implementation, indexing request, outreach, external-account mutation, vendor recommendation, typical/complete cost claim, or legal/zoning/buildability conclusion occurred."
     },
     {
       "id": "THC-REV-001",
