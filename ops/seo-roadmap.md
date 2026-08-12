@@ -69,7 +69,7 @@ monetization, provider, and unreviewed release decisions.
     first four-category decoder and current 2024 IRC / 2026 amendment context.
     Do not create a new URL or statewide/county permission guide.
 
-## THC-REV-001 active contract
+## THC-REV-001 frozen contract
 
 - Authority: direct Master heartbeat; no Control Room lease or ledger write.
 - Base: clean, origin-aligned `caaf10d`.
@@ -84,7 +84,7 @@ monetization, provider, and unreviewed release decisions.
 - Output: one durable research disposition and at most one separately
   implementable future action.
 
-## THC-REV-001 candidate result
+## THC-REV-001 completed result
 
 - Disposition: `repair`; no public page changed.
 - Human-value evidence: desktop, 390px, and 320px production checks reproduced
@@ -101,6 +101,10 @@ monetization, provider, and unreviewed release decisions.
   correct city or county question.
 - Promoted action: `THC-GA-001` only. Cycle 1 findings were fixed and cycle 2
   returned `PASS`, so it is ready for a separate transaction.
+- Release: docs/research commit `ec2d0d8` was pushed from non-diverged base
+  `caaf10d` and remotely verified. No deployment applies. Final mechanical
+  review returned `PASS_WITH_P3` with no P0-P2 findings; its two stale heading
+  labels are corrected in the closeout.
 
 ## THC-GA-001 proposed contract
 

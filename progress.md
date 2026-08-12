@@ -764,4 +764,11 @@
   single disposition `Merge`.
 - Cycle 2 returned `PASS` with no findings and independently reproduced all
   native QA. `THC-REV-001` is review-clean and complete; `THC-GA-001` is the
-  sole ready next action. Push remains pending and deployment does not apply.
+  sole ready next action.
+- Committed the exact ten-path research/state range as
+  `ec2d0d8688a5d534437316e156ce2752a38a4564`, fetched immediately before push,
+  confirmed no divergence, pushed to `origin/main`, and verified the remote at
+  the exact commit. No site path changed, so deployment does not apply. Final
+  mechanical cycle 3 returned `PASS_WITH_P3` with no P0-P2 findings. Its sole
+  stale-heading P3 is corrected in the five-path closeout; the transaction is
+  complete and `THC-GA-001` remains the sole ready next action.

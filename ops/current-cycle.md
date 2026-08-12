@@ -43,8 +43,12 @@ QA: 70/70 tests; all 25 public GSC snapshots; zero SEO errors with three known
 canonical warnings; zero operator-state errors; valid JSON; required files;
 exact ten-path scope; and whitespace checks.
 
-Release: review-clean docs/research candidate; push pending. Deployment does
-not apply because no site or Pages workflow path changed.
+Release: review-clean commit
+`ec2d0d8688a5d534437316e156ce2752a38a4564` was pushed from non-diverged base
+`caaf10d42c333a450d7e8e58c43d28341a9273f6` and remotely verified. Deployment
+does not apply because no site or Pages workflow path changed. Final mechanical
+cycle 3 returned `PASS_WITH_P3` with no P0-P2 findings; its stale-heading P3 is
+corrected in the closeout.
 
 Boundaries: research and durable state only. No `site/**`, page edit, new URL,
 indexing request, deployment, outreach, community post, external account,

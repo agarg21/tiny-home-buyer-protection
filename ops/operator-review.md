@@ -86,9 +86,36 @@ headless command permission was denied. No advisory result is claimed.
   known warnings, zero operator-state errors, valid JSON, required files,
   exact scope, and whitespace checks.
 
-Candidate state: review-clean and complete. Push is pending; deployment is not
-applicable. A final mechanical review will cover the complete released range
-and predeclared closeout paths.
+Release:
+
+- Review-clean commit
+  `ec2d0d8688a5d534437316e156ce2752a38a4564` was pushed from non-diverged base
+  `caaf10d42c333a450d7e8e58c43d28341a9273f6`.
+- `origin/main` was remotely verified at the exact commit.
+- No `site/**` or Pages workflow path changed, so deployment is not applicable.
+- Final mechanical cycle 3 covers the complete base-to-release range and the
+  five predeclared closeout paths below.
+
+### Independent review cycle 3
+
+- Reviewer: independent read-only subagent
+  `019ff7d2-1353-7272-8a33-023daecc693d`.
+- Verdict: `PASS_WITH_P3`.
+- P0-P2: none.
+- P3: `ops/seo-roadmap.md` still called the completed action contract `active`
+  and its disposition a `candidate result`.
+- Resolution: renamed the two headings `frozen contract` and `completed
+  result` in this mechanical closeout.
+- Release verification: `ec2d0d8` is a direct child of `caaf10d`; the commit
+  contains exactly the ten registered paths; the closeout contains exactly five
+  predeclared paths; local, tracking, and remote `main` all matched the release;
+  and no deployment applies.
+- QA: 70/70 tests, all 25 public snapshots, zero SEO errors with three known
+  warnings, zero operator-state errors, valid JSON, required files, exact
+  committed/closeout scope, and whitespace checks passed independently.
+
+Final state: released, review-clean, and complete. `THC-GA-001` is the sole
+ready next action.
 
 ## 2026-08-12 - Human-Value Research Rotation And Community Draft Gate
 
