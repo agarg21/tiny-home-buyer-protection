@@ -17,7 +17,17 @@
     "ends_at": "2026-08-14T17:00:00-04:00",
     "authoritative_schedule_fields": ["timezone", "local_times", "ends_at"],
     "control_room_dispatch_required": false,
-    "after_cutoff": "manual-only-until-user-renews"
+    "after_cutoff": "manual-only-until-user-renews",
+    "productive_lanes": [
+      "existing-page-human-review",
+      "query-and-serp-investigation",
+      "official-source-freshness",
+      "internal-usefulness-and-handoffs",
+      "community-question-research"
+    ],
+    "research_rotation": "status/research-rotation.md",
+    "community_answer_mode": "draft-only-user-approval-required-for-external-action",
+    "no_op_condition": "No repository divergence, new evidence, due sensor, active/ready action, or due bounded research question with satisfied gates."
   },
   "cloud_readiness": {
     "mode": "hybrid",

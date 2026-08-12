@@ -343,10 +343,37 @@ Continue only when:
 - a technical or trust defect preempts normal order; or
 - the user directly changes priority.
 
+## Stage 12: Research During Observation
+
+An observation hold stops speculative publication, not bounded learning. After
+new snapshots and due deterministic sensors are reconciled, consult
+`status/research-rotation.md`. Select at most one real human question from:
+
+- an existing page's rendered first-screen, persona, or every-section gap;
+- a query/SERP mismatch that may change a current page's job;
+- a material official-source freshness risk;
+- internal overlap, cannibalization, or weak product handoff; or
+- a recent community question that can receive a high-quality standalone
+  answer.
+
+Freeze a research-only action before starting. Preserve the current page,
+query, sources, personas, section dispositions, unknowns, and one result:
+`keep`, `repair`, `consolidate`, `needs-evidence`, `draft-answer`, or
+`no-build`. Promote at most one future action. Low impressions alone cannot
+select a rewrite, and a research result cannot silently become implementation.
+
+Community work is draft-only. Use
+`templates/community-answer-review-prompt.md`; the answer must work without a
+site link, sound human, avoid invented experience and unsupported claims, and
+disclose any proposed affiliation. The user must approve the exact answer and
+destination before any external action.
+
 ## Required Durable Artifacts
 
 - one full-site or cluster decision pack under `docs/research/`;
 - `status/site-pages.md` as the durable page-role and implementation baseline;
+- `status/research-rotation.md` as the due bounded research view during an
+  observation hold;
 - implementation-ready every-section audits;
 - source/evidence records for volatile or trust-sensitive claims;
 - roadmap and supporting backlogs linked by action ID;

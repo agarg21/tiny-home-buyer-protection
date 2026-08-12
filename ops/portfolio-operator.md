@@ -30,11 +30,17 @@ optional local enrichment, not a reason to stop API-, repository-, public-, or
 GSC-backed work.
 
 The read-only GSC Action is run-start housekeeping. Validate and compare a new
-snapshot with the prior snapshot and roadmap before choosing work. Act when the
-evidence changes a gate or decision; otherwise record a healthy no-op. A
-heartbeat may complete at most one substantive action, and its cadence is never
-evidence that a page should be created or rewritten.
+snapshot with the prior snapshot and roadmap before choosing work. Changed GSC
+may change a gate or decision, but unchanged GSC does not cancel an active,
+ready, or otherwise due bounded research/review action whose evidence and gates
+are already satisfied. Record a healthy no-op only when repository alignment,
+new evidence, due sensors, active/ready actions, and the human-value research
+rotation expose no work. A heartbeat may complete at most one substantive
+action, and its cadence is never evidence that a page should be created or
+rewritten.
 The first dated snapshot establishes the baseline; it is not changed evidence.
 When the current sensor and release evidence remain fresh and their inputs are
-unchanged, use the fast no-op path without repeating DNS, deployment, or
-production byte-match checks.
+unchanged, do not repeat DNS, deployment, or production byte-match checks. That
+fast housekeeping path does not bypass a due page review, source-freshness
+check, query/SERP investigation, internal-usefulness review, or draft-only
+community-question action selected under `status/research-rotation.md`.

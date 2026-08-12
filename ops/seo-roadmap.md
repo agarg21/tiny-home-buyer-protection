@@ -59,6 +59,39 @@ monetization, provider, and unreviewed release decisions.
 21. `THC-MON-002` — completed in `fcd3ce5`: reconciled the recovered daily GSC
     sensor and August 11 monitoring state, added the omitted land-workflow URL
     to read-only inspection, and enforced exact sitemap/monitor parity.
+22. `THC-OPS-004` — completed: added a finite human-value research rotation
+    for the observation period and a draft-only, user-gated community-answer
+    lane. No site or external-account mutation is in scope.
+23. `THC-REV-001` — ready after `THC-OPS-004`: research-only re-verification of
+    the unresolved Georgia first-screen beginner gap. It cannot edit the page
+    or use five impressions as implementation evidence.
+
+## THC-OPS-004 completion
+
+- Authority: direct Master heartbeat and the user's August 12 direction; no
+  Control Room lease or central-ledger write.
+- Scope: the twenty-one exact paths in `ops/current-cycle.md`. Cycle 1 review
+  exposed a stale authoritative no-op rule, so `ops/portfolio-operator.md` was
+  declared before editing and added as the sole scope expansion.
+- Causal evidence: the user wants scheduled work to review existing pages and
+  answer real community questions only when the answer is genuinely useful.
+- Monitoring context: the validated August 12 snapshot through August 10 has
+  18 impressions, 0 clicks, five indexed URLs, and three discovered-currently-
+  not-indexed URLs across the complete eight-URL monitor. It does not select a
+  rewrite or new page.
+- Output boundary: operating protocol, rotation status, and one draft-only
+  candidate record. No page, indexing request, outreach, Reddit action, link
+  placement, vendor recommendation, cost claim, or legal conclusion.
+- Result: a finite five-lane research rotation, a draft-only community-answer
+  contract, one high-fit standalone candidate draft, and one promoted
+  research-only Georgia review. No site or external action occurred.
+- QA: 70/70 tests, 25 snapshot validations, zero SEO errors with three known
+  warnings, zero operator-state errors, valid JSON, required files, exact scope,
+  and whitespace checks pass.
+- Review: cycle 1 returned `FAIL` with one P2 stale no-op rule. The scope was
+  explicitly expanded before fixing it. Independent cycle 2 returned `PASS`
+  with no findings on all twenty-one paths.
+- Release: review-clean push pending; no deployment applies.
 
 ## THC-MON-002 completion
 

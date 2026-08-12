@@ -954,3 +954,41 @@ was pushed and remotely verified in
 `fcd3ce5b0dfe95c564b11b69047966e9e650092b`. Deployment is not applicable;
 final closeout review cycle 3 returned `PASS` with no findings on the complete
 action range. All review findings are resolved.
+
+## 2026-08-12 - Make Observation Productive Without Manufacturing Pages
+
+Decision: the 90-day publication hold blocks speculative indexable pages and
+low-impression rewrites, not useful research. Scheduled direct-Master runs may
+rotate across existing-page human review, query/SERP investigation,
+official-source freshness, internal usefulness/handoffs, and recent community
+questions. Every run starts with one bounded human question and records one
+disposition: `keep`, `repair`, `consolidate`, `needs-evidence`,
+`draft-answer`, or `no-build`.
+
+First due review: `THC-REV-001` will re-verify the unresolved Georgia
+classification first-screen gap identified in the July 28 full-site audit. It
+is research-only and cannot edit the page. The under-$20K consolidation review
+remains next in the rotation because the durable evidence orders Georgia first.
+
+Community boundary: a candidate answer must help without a Tiny Home Clarity
+link, sound like one informed human rather than a brand, avoid invented
+experience and unsupported cost/legal/vendor claims, and give a concrete next
+step. Research and drafting do not authorize external action. The user must
+approve the exact answer and destination before any post, comment, vote,
+message, link insertion, or account action.
+
+Monitoring decision: the August 12 snapshot verifies all eight sitemap URLs
+are inspected, with five indexed and three discovered-currently-not-indexed.
+Its 18 impressions and 0 clicks remain context only; they neither select nor
+cancel the due Georgia research review.
+
+Boundary: `THC-OPS-004` was initially frozen to twenty docs/research/state
+paths and expanded to twenty-one before fixing the reviewer-identified handoff.
+It makes no site change, indexing request, deployment, outreach, account
+mutation, vendor recommendation, typical/complete cost claim, or legal/zoning/
+buildability conclusion.
+
+Review result: cycle 1 found one P2 contradictory no-op instruction in the
+authoritative portfolio handoff. The scope was declared and expanded to
+twenty-one paths before fixing it. Cycle 2 returned `PASS` with no findings;
+native QA is green and no deployment applies.

@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-06",
   "next_rescore_due": "2026-08-13",
-  "next_eligible_action_id": "none",
+  "next_eligible_action_id": "THC-REV-001",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -1416,6 +1416,133 @@
       "remote_verified": true,
       "deployment_applicable": false,
       "notes": "Selected by the user-authorized direct Master heartbeat from clean, origin-aligned snapshot commit 93cdf69a891ae8197a491fcf2996ea21b4e4aecb. Initially registered against seven durable-state paths, then explicitly expanded to the ten exact paths above before touching the newly exposed monitor/config test scope. Cycle 1 returned PASS_WITH_P3; its sole duplicate-test P3 is fixed. Cycles 2 and final closeout cycle 3 returned PASS with no findings. Commit fcd3ce5b0dfe95c564b11b69047966e9e650092b was pushed and remotely verified. No site paths changed, so deployment does not apply."
+    },
+    {
+      "id": "THC-OPS-004",
+      "title": "Add a human-value research rotation and draft-only community-answer gate",
+      "kind": "operating-model",
+      "lane": "research-and-quality",
+      "impact": 4,
+      "confidence": 5,
+      "learning_value": 5,
+      "effort": 2,
+      "risk": 2,
+      "status": "completed",
+      "selected_on": "2026-08-12",
+      "completed_on": "2026-08-12",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [],
+      "target_paths": [
+        "AGENTS.md",
+        "strategy/current-strategy.md",
+        "strategy/content-principles.md",
+        "status/site-pages.md",
+        "status/research-rotation.md",
+        "ops/operator.json",
+        "ops/portfolio-operator.md",
+        "ops/current-cycle.md",
+        "ops/needs-user.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "docs/plan/tiny-home-search-product-playbook.md",
+        "agents/master-operator.md",
+        "agents/seo-research-review-agent.md",
+        "agents/operator-review-agent.md",
+        "backlog/seo-research-review-backlog.md",
+        "templates/community-answer-review-prompt.md",
+        "docs/research/community-question-candidates-2026-08.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "The temporary heartbeat can sense GSC and execute qualified roadmap work, but the 90-day publication hold has no durable research rotation. Existing-page review, source/query investigation, and high-quality community-answer drafting can provide human value without publishing pages or mutating external accounts, yet current state treats unchanged GSC plus no implementation action as a blanket no-op.",
+      "hypothesis": "A finite due-review rotation and strict draft-only community-answer gate will let scheduled runs learn from real reader problems and improve the existing portfolio without manufacturing content, rewriting from low impressions, or posting promotional answers.",
+      "expected_effect": "Define due research lanes, make no-build and keep decisions durable, preserve one recent high-fit community question as a draft candidate, and promote at most one bounded research-only review for a later transaction.",
+      "success_signal": "The repository distinguishes observation from inactivity; every research run has a bounded human question and disposition; community answers must stand alone, sound human, disclose any affiliation, and remain unposted without exact user approval; August 12 GSC state is reconciled; native QA and independent review pass; no site or external mutation occurs.",
+      "evidence_classification": "The user's August 12 direction is causal operating-model evidence. Existing page-review history and one recent public community question demonstrate useful research lanes. The validated August 12 GSC snapshot is monitoring context that verifies eight-URL coverage but does not select content work.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required-for-draft-only-transaction",
+        "approval_required_for": "Any exact Reddit or other community post, comment, vote, message, link insertion, or account action."
+      },
+      "qa_evidence": [
+        "70/70 native tests passed",
+        "all 25 public-safe GSC snapshots validated",
+        "SEO QA reported 8 pages, 0 errors, and 3 known canonical warnings on untouched pages",
+        "operator-state QA reported 0 errors with latest GSC 2026-08-12",
+        "ops/seo-roadmap.json and ops/operator.json parsed as valid JSON",
+        "required deployment files are present",
+        "exact twenty-one-path scope and tracked/untracked whitespace checks passed"
+      ],
+      "review_history": [
+        {
+          "cycle": 1,
+          "reviewer_id": "019ff61d-1820-7c72-9d3e-05e7c8ae1737",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: ops/portfolio-operator.md still converted unchanged GSC into an unconditional no-op even when a due evidence-qualified research review existed"
+          ],
+          "resolution": "Declared ops/portfolio-operator.md before editing, expanded the frozen scope from twenty to twenty-one paths, and aligned the authoritative no-op rule with active, ready, and due bounded research."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "019ff61d-1820-7c72-9d3e-05e7c8ae1737",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "The reviewer confirmed the cycle 1 P2 resolved, exact twenty-one-path scope, truthful Georgia research selection, robust community human gate, and all applicable native QA."
+        }
+      ],
+      "review_outcome": "PASS",
+      "review_cycles": 2,
+      "implementation_state": "review-clean-docs-and-research-only",
+      "release_state": "review-clean-push-pending",
+      "deployment_applicable": false,
+      "notes": "Initially frozen to twenty exact paths. Independent review cycle 1 exposed a conflicting authoritative no-op rule in ops/portfolio-operator.md, so the scope was explicitly expanded to twenty-one paths before editing it. Cycle 2 returned PASS with no findings. No site path, page implementation, indexing request, outreach, external-account mutation, vendor recommendation, typical/complete cost claim, or legal/zoning/buildability conclusion occurred."
+    },
+    {
+      "id": "THC-REV-001",
+      "title": "Research the unresolved human-value gap on the Georgia classification guide",
+      "kind": "research",
+      "lane": "existing-page-human-review",
+      "impact": 3,
+      "confidence": 4,
+      "learning_value": 4,
+      "effort": 2,
+      "risk": 2,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/georgia-tiny-house-classification/"
+      ],
+      "proposed_paths": [
+        "docs/research/georgia-tiny-house-human-review-2026-08.md",
+        "status/research-rotation.md",
+        "status/site-pages.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "The July 28 full-site audit found the current Georgia guide poor for beginners: its first screen leads with record/source framing, does not plainly translate the four structure categories, and delays the next local question. The page was last materially changed July 9 and the finding has not been re-verified through a dedicated action.",
+      "hypothesis": "A current rendered, SERP, official-source, persona, and every-section review can determine whether the gap still exists and whether the right disposition is keep, repair, consolidate, needs-evidence, or no-build without touching the live page.",
+      "expected_effect": "Produce one reproducible research record and at most one separately implementable recommendation. Do not infer a rewrite from five impressions or average position.",
+      "success_signal": "The current page, relevant official Georgia source, bounded current SERP, beginner/intermediate/advanced needs, every visible section, and page-role overlap are reviewed; evidence and unknowns are preserved; one disposition is recorded; native QA and independent review pass; no site or external mutation occurs.",
+      "evidence_classification": "The unresolved July 28 human-review finding and current page age are causal review evidence. The August 12 GSC sample is monitoring context only and cannot select implementation.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required-for-research-only",
+        "approval_required_for": null
+      },
+      "implementation_state": "unselected-research-only",
+      "release_state": "not-started",
+      "notes": "Ready after THC-OPS-004 completes. Exact paths must be frozen again when selected. No site edit, new page, indexing request, deployment, outreach, account mutation, vendor recommendation, cost claim, or legal/zoning/buildability conclusion is authorized."
     }
   ]
 }

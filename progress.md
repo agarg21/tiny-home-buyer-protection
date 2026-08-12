@@ -693,3 +693,36 @@
 - Final review cycle 3 returned `PASS` with no findings on the complete action
   range and six-path mechanical closeout. All findings are resolved and the
   transaction is complete after the closeout commit/push.
+- Fast-forwarded the clean repository to the August 12 scheduled snapshot
+  commit `e13f05d`. All 25 public-safe snapshot files validate. The newest
+  finalized evidence through August 10 reports 18 impressions, 0 clicks, eight
+  discovered/inspected URLs, five indexed, and the under-$20K, build-options,
+  and land-workflow URLs discovered-currently-not-indexed.
+- Registered direct-manual `THC-OPS-004` on 2026-08-12 at clean,
+  origin-aligned base `e13f05deff87e1cadbfaccd3ca30728c0bbc7df0` with twenty
+  frozen docs/research/state paths and no site, indexing, external-account,
+  outreach, deployment, vendor, cost, or legal authority.
+- Added a finite observation-period research rotation covering existing-page
+  human review, query/SERP investigation, official-source freshness, internal
+  usefulness/handoffs, and community-question research. Each run must preserve
+  one bounded human question and one disposition; it is not a publication
+  quota.
+- Added a community-answer review gate and one draft-only July 29 Reddit
+  candidate about estimating total tiny-home placement cost. The draft stands
+  alone without a site link, numeric range, vendor recommendation, personal
+  experience claim, or local legal conclusion. Any external action remains
+  user-gated.
+- Promoted only `THC-REV-001`, a research-only recheck of the unresolved
+  Georgia first-screen beginner gap found in the July 28 full-site audit. No
+  page edit is authorized. Native QA and independent review remain pending.
+- Independent reviewer `019ff61d-1820-7c72-9d3e-05e7c8ae1737` returned
+  `FAIL` in cycle 1 with one P2: the authoritative portfolio handoff still made
+  unchanged GSC an unconditional no-op. Expanded the frozen scope from twenty
+  to twenty-one paths before touching `ops/portfolio-operator.md`; cycle 2
+  must verify the full fix.
+- Independent cycle 2 returned `PASS` with no findings on the complete
+  twenty-one-path candidate. It independently reproduced 70/70 tests, all 25
+  snapshot validations, zero SEO/operator-state errors apart from the three
+  known untouched-page canonical warnings, valid JSON, required files, exact
+  scope, and whitespace checks. The docs/research transaction is review-clean;
+  push remains.

@@ -17,6 +17,7 @@ project state.
 - `ops/current-cycle.md`
 - `ops/seo-roadmap.json`
 - `status/site-pages.md`
+- `status/research-rotation.md`
 - `docs/plan/tiny-home-search-product-playbook.md`
 - `progress.md`
 - `decisions.md`
@@ -43,9 +44,14 @@ project state.
 - Separate measured data, estimates, assumptions, opinions, and monitoring
   context.
 - Treat community evidence as qualitative question/failure evidence only.
+- For a community-answer contract, use
+  `templates/community-answer-review-prompt.md`; require standalone usefulness,
+  human language, no invented experience, and plain affiliation disclosure if
+  a site link is proposed.
 - Mark unavailable metrics `UNKNOWN`.
 - Return at most one promoted action when the supplied research contract allows
   promotion.
+- Never treat a draft answer as posting authority.
 
 ## Recommendation Labels
 
@@ -61,6 +67,10 @@ Use one of:
 - `monitor`
 - `ask user`
 - `no-build`
+
+For observation-period page research, also record one durable disposition:
+`keep`, `repair`, `consolidate`, or `needs-evidence`. For community work, use
+`draft-answer` or `no-answer` in addition to the recommendation label.
 
 ## Review Lens
 

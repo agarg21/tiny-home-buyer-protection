@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-08-09
+Last updated: 2026-08-12
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -304,7 +304,7 @@ subtotal. See
 ## Current Validation Portfolio
 
 The original launch list has been superseded by the actual reviewed portfolio.
-As of 2026-08-10, eight public assets are in the sitemap:
+As of 2026-08-12, eight public assets are in the sitemap:
 
 1. National placement decision hub.
 2. Los Angeles official-source buyer guide.
@@ -315,13 +315,12 @@ As of 2026-08-10, eight public assets are in the sitemap:
 7. Plans, kits, shells, trailers, and builder responsibility comparison.
 8. Pre-offer parcel evidence and unresolved-question workflow.
 
-Five of the seven URLs in the latest GSC inspection are indexed. The under-$20K
-and build-options pages are sitemap-discovered but unknown to Google in URL
-Inspection; the new land workflow is not yet in the dated GSC evidence. The
-finalized rolling window through 2026-08-07 reports 21
-impressions and 0 clicks, including six consecutive zero-impression days. This
-is too little evidence for page-level causal conclusions, but enough to reject
-open-ended publication as a substitute for product quality.
+The August 12 GSC snapshot now inspects all eight URLs. Five are indexed; the
+under-$20K, build-options, and land-workflow pages are discovered-currently-
+not-indexed. The finalized rolling window through 2026-08-10 reports 18
+impressions and 0 clicks. This is too little evidence for page-level causal
+conclusions, but enough to reject open-ended publication as a substitute for
+product quality.
 
 `THC-LAND-001` is released and production-verified. Its client-side workflow
 produces an unresolved parcel file from explicit evidence states without
@@ -334,10 +333,15 @@ eight-product validation portfolio.
    read-only GSC sensing continues.
 2. Treat the existing eight-page portfolio as the product test. Preserve page
    roles and avoid broad rewrites from tiny samples.
-3. Allow an exception only for a technical/indexing defect, an official-source
+3. Keep learning during the hold through bounded existing-page review,
+   query/SERP investigation, official-source freshness checks, internal
+   usefulness/handoff review, and draft-only analysis of real community
+   questions. Use `status/research-rotation.md`; one review is not permission
+   to implement or publish.
+4. Allow an exception only for a technical/indexing defect, an official-source
    change, a repeated query/page signal exposing a concrete unmet job, or a new
    direct user decision.
-4. At the 90-day checkpoint, decide whether to deepen a visible query cluster,
+5. At the 90-day checkpoint, decide whether to deepen a visible query cluster,
    repair search promise/usefulness, investigate persistent discovery failure,
    or pause the project.
 
@@ -346,6 +350,22 @@ coverage around 2026-09-09, repeated page/query testing and first clicks around
 2026-10-09, and make the portfolio decision on 2026-11-08. Keyword-tool volume,
 page-average position, and isolated impressions must not be treated as
 guaranteed traffic or stable rank.
+
+### Productive Observation Work
+
+Observation blocks speculative publication, not useful research. A scheduled
+run may review one existing page from a real searcher's point of view, recheck a
+material SERP or official source, inspect an internal handoff, or preserve and
+draft an answer to a recent community question. The output must be a durable
+decision, not activity for its own sake.
+
+Community answers are service first. They must answer the question without a
+Tiny Home Clarity link, sound like one informed person rather than a brand, and
+avoid fake experience, unsupported ranges, vendor promotion, and local legal
+claims. A relevant site link is optional, must add work-saving value beyond the
+answer, and requires plain affiliation disclosure. Drafting is allowed;
+posting or any account mutation requires the user's approval of the exact text
+and destination.
 
 ## Monetization Phases
 

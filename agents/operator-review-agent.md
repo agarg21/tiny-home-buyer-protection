@@ -29,12 +29,16 @@ evidence, scope, or regression problems. It never edits the checkout.
 4. For research, verify query/source reproducibility, SERP samples, persona
    provenance, non-additive demand treatment, page boundaries, and the single
    promoted action.
-5. For a page, run the Searcher POV, decision-persona, every-section,
+5. For a community draft, verify exact question fit, recency, standalone value,
+   human voice, no invented experience, no unsupported local/cost/vendor claim,
+   link necessity and disclosure, and the external-action human gate in
+   `templates/community-answer-review-prompt.md`.
+6. For a page, run the Searcher POV, decision-persona, every-section,
    anti-generic, evidence/claim, technical SEO, accessibility, and responsive
    visual passes on the rendered page. For tools, exercise realistic beginner,
    intermediate, advanced, blank, incomplete, and conflicting states.
-6. Independently run the relevant native QA when practical.
-7. Return structured findings and one verdict. Do not silently fix anything.
+7. Independently run the relevant native QA when practical.
+8. Return structured findings and one verdict. Do not silently fix anything.
 
 ## Searcher And Persona Standard
 

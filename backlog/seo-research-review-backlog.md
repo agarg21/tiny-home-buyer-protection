@@ -1,20 +1,29 @@
 # SEO Research And Review Backlog
 
-Last updated: 2026-08-10
+Last updated: 2026-08-12
 
 This is supporting evidence inventory, not a scheduler. The machine-readable
 queue is `ops/seo-roadmap.json`.
 
 ## Current Review-Ready Work
 
-None. `THC-LAND-001` completed three review cycles, was released in
-`b9760e93fb43ea7560963ef419e9b80421bc642b`, and is now observed rather than
-rewritten without new evidence.
+`THC-REV-001`: research-only human review of the current Georgia
+classification guide. The durable July 28 full-site audit found that its first
+screen was poor for beginners and led with source/record framing instead of
+translating Georgia's structure categories and the next local check. Recheck
+the current rendered page, current official source, current SERP, all three
+experience levels, and every section. Return `keep`, `repair`,
+`consolidate`, `needs-evidence`, or `no-build`; do not edit `site/**`.
+
+The current community candidate and draft are in
+`docs/research/community-question-candidates-2026-08.md`. They remain
+draft-only and are not the next selected action.
 
 ## Current Monitoring Context
 
-The August 9 snapshot reports seven discovered pages, five indexed, 21 rolling
-impressions, 0 clicks, and six consecutive finalized zero-impression days.
+The August 12 snapshot through August 10 reports eight discovered/inspected
+pages, five indexed, 18 rolling impressions, and 0 clicks. The under-$20K,
+build-options, and land-workflow URLs are discovered-currently-not-indexed.
 This is weak visibility, not proof that every page should be rewritten.
 
 Potential future research becomes eligible only when current evidence exposes:

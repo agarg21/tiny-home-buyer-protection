@@ -1,5 +1,85 @@
 # Operator Review
 
+## 2026-08-12 - Human-Value Research Rotation And Community Draft Gate
+
+Action: `THC-OPS-004`
+
+Selection authority: the user-authorized direct Master heartbeat plus the
+user's August 12 direction to use scheduled work for existing-page research
+and genuinely useful, human-sounding community answers. No Control Room lease
+or central-ledger write applies.
+
+Frozen boundary: initially the twenty exact paths in `ops/current-cycle.md`.
+Cycle 1 exposed one contradictory authoritative handoff, so
+`ops/portfolio-operator.md` was declared before editing and became the sole
+scope expansion, for twenty-one exact paths total. Add a finite
+research rotation, community-answer review contract, one draft-only candidate,
+and current GSC/state reconciliation. No `site/**`, page repair, new indexable
+page, indexing request, deployment, outreach, Reddit post/comment/vote/message,
+external account, link placement, vendor recommendation, typical/complete cost
+claim, or legal/zoning/buildability conclusion.
+
+Evidence classification:
+
+- The user's direction is causal operating-model evidence.
+- The July 28 full-site audit contains an unresolved Georgia first-screen
+  beginner gap and explicitly ranks that work ahead of under-$20K
+  consolidation. This selects only a later research review, not a page edit.
+- A recent July 29 Reddit question asks for a method to estimate total tiny-home
+  placement cost. It is qualitative user-job evidence and supports one
+  draft-only answer candidate, not outreach or a backlink action.
+- The validated August 12 GSC snapshot through August 10 has 18 impressions, 0
+  clicks, eight discovered/inspected URLs, five indexed, and three
+  discovered-currently-not-indexed. It verifies complete monitoring coverage
+  but does not select implementation.
+
+Candidate state:
+
+- `status/research-rotation.md` defines five selection lanes and one-result
+  dispositions instead of a content calendar.
+- `THC-REV-001` is the sole next eligible action and is research-only. It must
+  recheck the Georgia page, source, SERP, personas, and sections before any
+  implementation decision.
+- The community template requires standalone value, exact question fit, human
+  voice, no invented experience, no unsupported claim, optional disclosed
+  affiliation only when a link earns inclusion, and exact user approval before
+  any external action.
+- The current Reddit answer draft gives a quote-first category and evidence-
+  state method without a site link, numeric range, vendor, or local conclusion.
+
+Independent review cycle 1 is complete; cycle 2 is pending on the complete
+twenty-one-path working tree.
+
+### Independent review cycle 1
+
+- Reviewer: independent read-only subagent
+  `019ff61d-1820-7c72-9d3e-05e7c8ae1737`.
+- Verdict: `FAIL`.
+- P0/P1: none.
+- P2: `ops/portfolio-operator.md` still made unchanged GSC an unconditional
+  no-op even when a due evidence-qualified research review exists.
+- P3: none.
+- Resolution: explicitly expanded the frozen scope before touching the file
+  and aligned its housekeeping/no-op rule with active, ready, and due bounded
+  research. Cycle 2 must review the complete twenty-one-path candidate.
+
+### Independent review cycle 2
+
+- Reviewer: independent read-only subagent
+  `019ff61d-1820-7c72-9d3e-05e7c8ae1737`.
+- Verdict: `PASS`.
+- Findings: none.
+- Resolution check: passed. The reviewer confirmed the cycle 1 P2 fixed,
+  exact twenty-one-path scope, no `site/**` or undeclared changes, truthful
+  research-only Georgia selection, and the standalone draft/exact-user-
+  approval community gate.
+- Independent QA: 70/70 tests, all 25 snapshots, zero SEO errors with three
+  known warnings, zero operator-state errors, valid roadmap JSON, required
+  deployment files, and tracked/untracked whitespace checks passed.
+
+Release state: review-clean docs/research only; push pending. No deployment is
+applicable.
+
 ## 2026-08-11 - GSC Recovery And Priority-URL Coverage
 
 Action: `THC-MON-002`

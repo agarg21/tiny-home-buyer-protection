@@ -1,6 +1,6 @@
 # Needs User
 
-Last updated: 2026-08-04
+Last updated: 2026-08-12
 
 ## Current Blockers
 
@@ -12,6 +12,10 @@ Last updated: 2026-08-04
 - Revisit the BAC Library resource suggestion only after a separate direct
   user decision. Product completion does not automatically reopen or approve
   the send.
+- Approve the exact answer and destination before any Reddit or other public
+  community post, comment, vote, message, link insertion, or account action.
+  Research and drafts may proceed without requesting approval; no current
+  candidate has posting authority.
 - Choose email service provider for future lead capture. Current value: `UNKNOWN`.
 - Choose analytics provider later if traffic or a specific product question requires on-site analytics. Current value: deferred; do not add analytics yet.
 - Confirm whether to make the GitHub repo private. Public is currently working with GitHub Pages; private Pages may depend on account/plan support.
@@ -19,10 +23,10 @@ Last updated: 2026-08-04
 ## Waiting On External Accounts
 
 - Google Search Console indexing continues through the daily read-only snapshot
-  workflow. The 2026-07-30 snapshot has finalized data through 2026-07-28 and
-  is unchanged in material metrics versus 2026-07-29: 30 impressions, 0
-  clicks, six sitemap pages, and 5 of 6 priority URLs indexed. No user action
-  or indexing request is needed.
+  workflow. The 2026-08-12 snapshot is finalized through 2026-08-10: 18
+  impressions, 0 clicks, eight sitemap pages, five indexed URLs, and three
+  discovered-currently-not-indexed URLs. No user action or indexing request is
+  needed.
 - The 2026-07-18 authenticated Page indexing review found only HTTP/`www` aliases excluded as `Page with redirect`; all correctly redirect to the HTTPS apex. No indexing request, fix validation, DNS change, or user action is needed for those aliases.
 
 ## User Input Log

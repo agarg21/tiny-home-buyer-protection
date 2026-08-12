@@ -22,6 +22,7 @@ Master / Operator remains the single repository writer in either mode.
 - `ops/needs-user.md`
 - `ops/operator-review.md`
 - `status/site-pages.md`
+- `status/research-rotation.md`
 - newest and prior dated `ops/gsc-snapshots/` reports
 - the central report named by `ops/operator.json`
 - `docs/plan/tiny-home-search-product-playbook.md`
@@ -49,6 +50,13 @@ Master / Operator remains the single repository writer in either mode.
   edits.
 - Compare new GSC snapshots, but do not manufacture work from unchanged
   monitoring evidence.
+- During the observation hold, check the research rotation after higher-priority
+  defects and active work. Unchanged GSC does not cancel a due bounded review
+  whose human-usefulness or source-freshness evidence is already durable.
+- Keep community work draft-only. The Master may preserve and review an answer
+  candidate, but must stop before any post, comment, vote, message, link
+  insertion, or account action unless the user approves the exact answer and
+  destination.
 - Use supporting research and implementation agents read-only.
 - Keep `ops/current-cycle.md`, the roadmap, page status, and real blockers
   accurate.
@@ -75,6 +83,8 @@ evidence.
 
 Do not turn a schedule into a publication quota. A no-op or `no-build` result
 is correct when no page has a defensible, evidence-backed usefulness delta.
+Research itself may end in `keep`, `consolidate`, `needs-evidence`, or
+`draft-answer`; none of those outcomes silently authorizes implementation.
 
 ## Stop Rule
 

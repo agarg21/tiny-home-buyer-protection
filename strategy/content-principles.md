@@ -1,6 +1,6 @@
 # Content Principles
 
-Last updated: 2026-08-09
+Last updated: 2026-08-12
 
 ## Voice
 
@@ -162,3 +162,21 @@ The SERP review should identify:
 
 SERP evidence does not override claim safety or official-source requirements.
 It decides page strategy; official sources decide what we can safely say.
+
+## Community Answer Standard
+
+Public questions can reveal real reader jobs and can be answered during the
+observation period, but they are not a backlink channel or posting quota.
+
+Only draft an answer when Tiny Home Clarity can add specific value from current
+evidence. The answer must stand alone without a site link, answer the person's
+question early, sound like one informed human helping another, give an ordered
+next step, and avoid invented experience, local facts, cost ranges, vendor
+recommendations, or legal conclusions.
+
+Use `templates/community-answer-review-prompt.md`. A generic, padded,
+topic-swappable, promotional, or link-dependent answer is P2. If a site link
+would genuinely save work, disclose the relationship plainly; never hide the
+affiliation. Research and drafting do not authorize a post. The user must
+approve the exact answer and destination before any public comment, post,
+vote, message, or account action.

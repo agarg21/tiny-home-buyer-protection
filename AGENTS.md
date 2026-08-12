@@ -121,6 +121,14 @@ curl -I https://example.com/sitemap.xml
 - A page that is accurate but generic, topic-swappable, filler-led, or unable
   to provide a concrete decision artifact or next action is a P2 usefulness
   failure. Safety does not compensate for low user value.
+- During an observation hold, bounded research and existing-page review may
+  continue from `status/research-rotation.md`. Each run must start with one
+  human question and end with `keep`, `repair`, `consolidate`,
+  `needs-evidence`, `draft-answer`, or `no-build`; it is not a content quota.
+- Community answers are draft-only unless the user approves the exact answer
+  and destination. Use `templates/community-answer-review-prompt.md`; require
+  standalone value, human language, no invented experience, and plain
+  affiliation disclosure for any Tiny Home Clarity link.
 
 ## Tooling Rules
 
@@ -157,7 +165,9 @@ curl -I https://example.com/sitemap.xml
 - GitHub Actions collects a normalized public-safe GSC snapshot daily. At run start, validate and compare every new snapshot with the prior snapshot and `ops/seo-roadmap.json`. The first snapshot establishes a baseline and cannot satisfy a changed-evidence gate. New data may unlock or reprioritize an item, but an unchanged healthy snapshot is housekeeping and should produce a no-op rather than manufactured work.
 - Never commit GSC credentials, complete raw query exports, country/device rows, or user data. Treat Semrush as optional enrichment; GSC API evidence is the unattended first-party measurement source.
 - Any scheduled scan is a sensing cadence, not a content-production quota.
-  Healthy unchanged runs should stop as no-ops.
+  Healthy unchanged runs should stop as no-ops only when there is no active,
+  ready, or due research/review action with satisfied gates. Unchanged GSC does
+  not cancel an unresolved human-usefulness or source-freshness review.
 - Never discard or absorb unrelated dirty files. Inspect baseline and resulting diffs and stage only declared action paths.
 - Fix P0-P2 findings and request re-review for at most three cycles. Only
   `PASS` or `PASS_WITH_P3` may proceed.

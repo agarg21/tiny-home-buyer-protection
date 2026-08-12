@@ -1,12 +1,75 @@
 # Current Cycle
 
-Last updated: 2026-08-11
+Last updated: 2026-08-12
 
 Active action: `none`
 
-Next eligible action: `none`
+Next eligible action: `THC-REV-001`
 
 ## Most Recent Transaction
+
+`THC-OPS-004` completed as a direct-manual, docs/research-only operating
+transaction.
+It makes the observation period productive without turning it into a page or
+posting quota: rotate bounded human reviews across existing pages, investigate
+query/SERP or official-source gaps when due, and preserve recent community
+questions as draft-only answer candidates.
+
+Exact paths:
+
+- `AGENTS.md`
+- `strategy/current-strategy.md`
+- `strategy/content-principles.md`
+- `status/site-pages.md`
+- `status/research-rotation.md`
+- `ops/operator.json`
+- `ops/portfolio-operator.md`
+- `ops/current-cycle.md`
+- `ops/needs-user.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `docs/plan/tiny-home-search-product-playbook.md`
+- `agents/master-operator.md`
+- `agents/seo-research-review-agent.md`
+- `agents/operator-review-agent.md`
+- `backlog/seo-research-review-backlog.md`
+- `templates/community-answer-review-prompt.md`
+- `docs/research/community-question-candidates-2026-08.md`
+- `decisions.md`
+- `progress.md`
+
+Scope note: cycle 1 independent review found that the authoritative portfolio
+handoff still converted unchanged GSC into an unconditional no-op. The scope
+was explicitly expanded from twenty to twenty-one paths before editing that
+file; no other boundary changed.
+
+Boundaries: no `site/**`, new indexable page, page repair, indexing request,
+external account, outreach, Reddit post/comment/vote/message, vendor
+recommendation, typical/complete cost claim, or legal/zoning/buildability
+conclusion. Any later community post requires the user's approval of the exact
+answer and destination.
+
+- The validated August 12 snapshot confirms complete eight-URL monitoring,
+  five indexed URLs, three discovered-currently-not-indexed URLs, 18 rolling
+  impressions, and 0 clicks. It did not select implementation.
+- The research rotation now supports existing-page, query/SERP, source,
+  internal-handoff, and community-question work without creating a content
+  quota.
+- One recent Reddit question has a standalone, link-free draft answer. It was
+  not posted and remains exact-user-approval gated.
+- `THC-REV-001` is the sole next action: a research-only recheck of the durable
+  Georgia first-screen beginner gap. No page edit is authorized.
+- Native QA passed 70/70 tests, all 25 snapshot validations, zero SEO errors
+  with three known warnings, zero operator-state errors, valid JSON, required
+  files, exact scope, and clean whitespace checks.
+- Independent cycle 1 returned `FAIL` with one P2 stale no-op rule. The scope
+  was declared and expanded before fixing it. Cycle 2 returned `PASS` with no
+  findings on the complete twenty-one-path candidate.
+- Release state: review-clean docs/research only; push pending. Deployment is
+  not applicable.
+
+## Prior Monitoring Transaction
 
 `THC-MON-002` completed from clean, origin-aligned snapshot base `93cdf69`.
 
@@ -26,7 +89,7 @@ Next eligible action: `none`
   with no findings.
 - The reviewed commit was pushed and remotely verified. No `site/**` path
   changed, so Pages deployment is not applicable.
-- The 90-day publication hold remains active and no next action is eligible.
+- The 90-day publication hold remains active.
 
 ## Prior Product Transaction
 
@@ -50,12 +113,13 @@ Next eligible action: `none`
 
 ## Current Evidence
 
-The August 11 public-safe GSC snapshot at
-`ops/gsc-snapshots/2026-08-11.md` is fresh monitoring context. It confirms the
-sensor recovered and improves inspection coverage labels, but it does not
-identify a production outage, support a page-level causal conclusion, or
-justify another URL. The new land workflow should first appear in priority
-inspection after this monitoring correction reaches the next scheduled run.
+The August 12 public-safe GSC snapshot at
+`ops/gsc-snapshots/2026-08-12.md` is fresh monitoring context through August
+10. It confirms all eight sitemap URLs are now inspected: five are indexed and
+the under-$20K, build-options, and land-workflow URLs are discovered-currently-
+not-indexed. Rolling performance is 18 impressions and 0 clicks. This verifies
+the monitoring fix but does not identify a production outage or select a page
+rewrite.
 
 ## Current Product State
 
