@@ -27,8 +27,8 @@ reason is already durable.
 
 | Priority | Surface | Last material human evidence | Due question | State |
 |---|---|---|---|---|
-| 1 | Georgia classification guide | 2026-08-12 dedicated rendered, SERP, official-source, persona, and every-section review; sources rechecked 2026-08-13 | Does the registered repair resolve the first-screen and stale-code-context findings without implying parcel permission? | `THC-GA-001` candidate is review-clean; release and production verification remain. Do not repeat the research. |
-| 2 | Under-$20K checker | 2026-07-28 audit; current page last materially changed 2026-07-17 | Is its duplicate calculator still a distinct decision aid, or should the page be consolidated with the quote-first cost calculator? Diagnose architecture and discovery without treating non-indexing as proof of a copy defect. | Hold until `THC-GA-001` completes or stops. |
+| 1 | Georgia classification guide | 2026-08-13 released answer-first repair and live desktop/390px/320px verification | Does the narrow category-card heading need a bounded responsive fix? | `THC-GA-001` released. Production found one P3: the card row header inherits desktop 19% width at 390px/320px. `THC-GA-RESP-001` is the sole ready follow-up; no content re-research is needed. |
+| 2 | Under-$20K checker | 2026-07-28 audit; current page last materially changed 2026-07-17 | Is its duplicate calculator still a distinct decision aid, or should the page be consolidated with the quote-first cost calculator? Diagnose architecture and discovery without treating non-indexing as proof of a copy defect. | Hold behind the bounded Georgia responsive-polish action. |
 | 3 | Los Angeles guide | 2026-07-19 answer-first repair | Is there a current source, repetition, first-screen, or query-fit gap beyond the already reviewed City/County boundary? | Observe; no due gap. |
 | 4 | Homepage, San Diego, cost calculator, build options, and land workflow | Reviewed or materially changed 2026-07-28 through 2026-08-10 | Has a source, rendered state, internal handoff, or repeated query signal changed? | Observe until a concrete trigger or the 30/60/90-day checkpoints. |
 
@@ -55,9 +55,9 @@ remain fresh.
 
 ## Most Recent Result
 
-`THC-REV-001` returned `repair`, and `THC-GA-001` has built the bounded
-existing-page candidate. The durable record is
+`THC-REV-001` returned `repair`, and `THC-GA-001` released the bounded
+existing-page result. The durable record is
 `docs/research/georgia-tiny-house-human-review-2026-08.md`. The causal evidence
 is a reproduced human first-screen failure plus a current official-source
-change, not the small GSC sample. Release and production verification must
-finish before the rotation advances.
+change, not the small GSC sample. The only next work is the production-observed
+P3 card-header width fix; do not repeat the content research.

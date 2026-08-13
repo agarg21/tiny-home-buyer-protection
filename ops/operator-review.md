@@ -69,6 +69,24 @@ review history, active/release-pending state, browser limitation, exact sixteen-
 path scope, and recorded QA across the complete base-to-working-tree range.
 The candidate is review-clean. Release and production evidence remain.
 
+Release: committed the exact sixteen reviewed paths as
+`d5904f6945bd3dd7a9a504dde8edebe9055552c3`, fetched immediately before push,
+confirmed no divergence, pushed to `origin/main`, and verified the remote SHA.
+Pages run `31706219634` succeeded.
+
+Production: the live page and sitemap returned HTTP 200. Canonical, H1, exact
+four-category mapping, seven official source links, 2024 IRC / January 1, 2026
+and Appendix BB boundary wording, August 13 sitemap date, absence of Appendix
+Q, and no console errors passed. Desktop, 390px, and 320px had no horizontal
+overflow; the direct answer and all four category names were present on the
+first screen.
+
+Production P3: the responsive category-card row header inherits the desktop
+19% width at 390px and 320px, making long category titles wrap one word per
+line. The card remains readable and contained, so release is not blocked.
+`THC-GA-RESP-001` is the sole next eligible bounded polish action. No content,
+source, claim, or URL expansion is authorized by that follow-up.
+
 ## 2026-08-12 - Georgia Human-Value And Source-Freshness Review
 
 Action: `THC-REV-001`

@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-13",
   "next_rescore_due": "2026-08-20",
-  "next_eligible_action_id": "none",
+  "next_eligible_action_id": "THC-GA-RESP-001",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -1617,8 +1617,9 @@
       "learning_value": 3,
       "effort": 2,
       "risk": 3,
-      "status": "in_progress",
+      "status": "completed",
       "selected_on": "2026-08-13",
+      "completed_on": "2026-08-13",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
@@ -1694,9 +1695,68 @@
       ],
       "review_outcome": "PASS",
       "review_cycles": 3,
-      "implementation_state": "review-clean",
-      "release_state": "release-pending",
-      "notes": "Selected by the August 13 direct Master heartbeat from clean, origin-aligned snapshot base 973357881e200d5df0f844955c8ff1df2751a0d7 and frozen to the sixteen exact paths above. The answer-first, four-category, current-source existing-page candidate and focused regression test are review-clean. Cycle 1 returned PASS; frozen-state cycle 2 found two P2 stale-state mirrors and both were fixed without changing public behavior; final cycle 3 returned PASS with no findings. Local browser rendering was blocked and remains a production invariant. Release and production verification remain. The August 13 GSC snapshot is monitoring context only. No county directory, statewide placement answer, new URL, indexing request, vendor recommendation, cost claim, outreach, or external-account mutation is authorized."
+      "implementation_state": "released",
+      "release_state": "production-verified-with-p3",
+      "deployment_applicable": true,
+      "release_commit": "d5904f6945bd3dd7a9a504dde8edebe9055552c3",
+      "release_base_commit": "973357881e200d5df0f844955c8ff1df2751a0d7",
+      "pages_run_id": 31706219634,
+      "released_on": "2026-08-13",
+      "remote_verified": true,
+      "production_verification": [
+        "Live Georgia page and sitemap returned HTTP 200",
+        "Canonical, H1, exact four-category mapping, seven official links, current-code and Appendix BB boundary, sitemap date, and absence of Appendix Q passed",
+        "Desktop 1280px, mobile 390px, and narrow 320px had no horizontal overflow and no console warnings or errors",
+        "The direct answer and all four category names were present on the first screen"
+      ],
+      "production_findings": [
+        "P3: at 390px and 320px the category-card row header inherits the desktop 19% width, causing long category names to wrap one word per line; the card remains contained and readable"
+      ],
+      "notes": "Selected by the August 13 direct Master heartbeat from clean, origin-aligned snapshot base 973357881e200d5df0f844955c8ff1df2751a0d7 and frozen to the sixteen exact paths above. The answer-first, four-category, current-source existing-page repair was review-clean after three cycles, committed as d5904f6945bd3dd7a9a504dde8edebe9055552c3, pushed, deployed by successful Pages run 31706219634, and production-verified. One nonblocking responsive-card header-width P3 remains and is isolated to THC-GA-RESP-001. The August 13 GSC snapshot is monitoring context only. No county directory, statewide placement answer, new URL, indexing request, vendor recommendation, cost claim, outreach, or external-account mutation occurred."
+    },
+    {
+      "id": "THC-GA-RESP-001",
+      "title": "Correct the narrow Georgia category-card heading on mobile",
+      "kind": "responsive-polish",
+      "lane": "existing-page-human-value",
+      "impact": 2,
+      "confidence": 5,
+      "learning_value": 1,
+      "effort": 1,
+      "risk": 1,
+      "status": "ready",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/georgia-tiny-house-classification/"
+      ],
+      "proposed_paths": [
+        "site/styles.css",
+        "tools/georgia-guide.test.mjs",
+        "status/site-pages.md",
+        "status/research-rotation.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "Live 390px and 320px production checks after THC-GA-001 showed that .georgia-classification-table tbody th retains the desktop 19% width inside a full-width responsive card, causing long category labels to wrap one word per line. The cards remain readable and horizontally contained.",
+      "hypothesis": "A narrow responsive width override plus a regression assertion can make category headings use the full card width without changing the reviewed content, desktop table, claims, or URL set.",
+      "expected_effect": "At 390px and 320px each category heading spans the card width and wraps naturally, while the evidence, non-proof, and next-question labels remain intact and the page has no horizontal overflow.",
+      "success_signal": "Focused and full native QA pass; independent read-only review returns PASS or PASS_WITH_P3; live 390px and 320px category-card headings span the card width with no overflow or console errors; desktop table behavior remains unchanged.",
+      "evidence_classification": "The live production screenshot and computed-width check are causal responsive evidence. GSC is unrelated monitoring context and is not required.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required-for-bounded-existing-page-polish",
+        "approval_required_for": null
+      },
+      "implementation_state": "ready-unselected",
+      "release_state": "not-started",
+      "notes": "Promoted from the one nonblocking production P3 found while closing THC-GA-001. Future selection must freeze exact paths again. Do not rewrite page content, change claims or sources, add a URL, request indexing, or perform external work."
     }
   ]
 }

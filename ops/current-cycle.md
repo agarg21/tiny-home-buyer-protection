@@ -2,13 +2,13 @@
 
 Last updated: 2026-08-13
 
-Active action: `THC-GA-001`
+Active action: `none`
 
-Next eligible action: `none`
+Next eligible action: `THC-GA-RESP-001`
 
-## Active Transaction
+## Most Recent Completed Transaction
 
-`THC-GA-001` is a direct-manual repair of the existing Georgia classification
+`THC-GA-001` completed as a direct-manual repair of the existing Georgia classification
 guide. It implements the reviewed `THC-REV-001` answer-first, four-category,
 and current-source contract without creating a new URL.
 
@@ -78,10 +78,20 @@ evidence section still presented August 12 metrics. Both are fixed; final cycle
 sixteen-path range. Browser rendering was unavailable locally and is not
 claimed; it remains a production invariant.
 
-Release: review-clean candidate pending commit, push, Pages, and predeclared
-production verification.
+Release: exact sixteen-path commit
+`d5904f6945bd3dd7a9a504dde8edebe9055552c3` was pushed and remotely verified.
+Pages run `31706219634` succeeded. The live page and sitemap return HTTP 200;
+canonical, H1, four exact categories, seven official links, current-code and
+Appendix BB boundaries, sitemap date, no Appendix Q, no console errors, and no
+horizontal overflow passed at desktop, 390px, and 320px.
 
-## Most Recent Completed Transaction
+Production P3: at 390px and 320px the category-card row header inherits the
+desktop 19% width, so category names wrap much more narrowly than the card. The
+text remains readable and contained, but the visual result is not polished.
+Promote only `THC-GA-RESP-001` as the next bounded existing-page repair; do not
+change it in this completed transaction after the review cap.
+
+## Prior Completed Transaction
 
 `THC-REV-001` completed as a direct-manual, research-only review of the current
 Georgia classification guide. It returned `repair` after reproducing the

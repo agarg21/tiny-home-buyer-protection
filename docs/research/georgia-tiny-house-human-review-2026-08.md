@@ -286,3 +286,18 @@ usefulness, every-section value, exact four-category mapping, claim boundaries,
 semantic structure, responsive source contract, metadata, internal handoffs,
 and durable state. Rendered desktop, 390px, and 320px checks remain a release-
 time production invariant rather than a local candidate claim.
+
+## Release Result
+
+Commit `d5904f6945bd3dd7a9a504dde8edebe9055552c3` was pushed and deployed by
+successful Pages run `31706219634`. The live page and sitemap returned HTTP
+200. Production checks passed the canonical, H1, exact category mapping, seven
+official links, current-code and Appendix BB boundary, sitemap date, removal of
+Appendix Q, console, and horizontal-containment invariants at desktop, 390px,
+and 320px.
+
+One production P3 remains: the category row header keeps its desktop 19% width
+inside the responsive card, so long category names wrap one word per line at
+390px and 320px. The card is contained and readable, but not polished. The
+separate `THC-GA-RESP-001` action may change only the responsive width behavior
+and its regression coverage; it must not reopen the content or source strategy.

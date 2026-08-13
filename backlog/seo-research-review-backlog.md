@@ -7,8 +7,8 @@ queue is `ops/seo-roadmap.json`.
 
 ## Current Review-Ready Work
 
-No second research action is ready while the registered Georgia repair
-promoted by `THC-REV-001` awaits release and production verification.
+No second research action is ready while the bounded Georgia responsive-polish
+follow-up is next. The content repair promoted by `THC-REV-001` is released.
 
 The completed Georgia research record is
 `docs/research/georgia-tiny-house-human-review-2026-08.md`. It returned

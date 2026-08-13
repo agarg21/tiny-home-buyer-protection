@@ -30,7 +30,18 @@
   still called review pending, and `ops/current-cycle.md` still labeled August
   12 metrics current. Both are fixed without changing public behavior. Final
   cycle 3 returned `PASS` with no P0-P3 findings on the complete sixteen-path
-  range. Release and production verification remain.
+  range.
+- Committed and pushed the exact review-clean range as
+  `d5904f6945bd3dd7a9a504dde8edebe9055552c3`; Pages run `31706219634`
+  succeeded and the remote SHA matches.
+- The live page and sitemap return HTTP 200. Production passed canonical, H1,
+  exact category mapping, seven official links, current-code and Appendix BB
+  boundary, sitemap date, no Appendix Q, no console errors, and no horizontal
+  overflow at desktop, 390px, and 320px.
+- Recorded one nonblocking production P3: mobile card row headers retain the
+  desktop 19% width, so category names wrap one word per line. Promoted only
+  `THC-GA-RESP-001` as the next bounded responsive-polish action; it cannot
+  reopen content or add a URL.
 
 ## 2026-07-07
 

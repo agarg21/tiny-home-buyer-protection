@@ -7,15 +7,18 @@ selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
 ## Active
 
-`THC-GA-001` is the one registered existing-page repair. Its answer-first,
-four-category, current-source candidate is built within the sixteen frozen
-paths and independent review returned `PASS`. Release and production
-verification remain. Do not select a second implementation action while it is
-active.
+None. `THC-GA-001` is released.
 
 ## Ready, Not Selected
 
-None. The 90-day publication hold remains active through 2026-11-08.
+`THC-GA-RESP-001` is ready as a narrow responsive-polish repair for the existing
+Georgia page. Production at 390px and 320px showed that the category-card row
+header inherits the desktop 19% width, causing one-word-per-line category
+titles. The content remains readable and there is no overflow. The future action
+may correct that width and strengthen its regression test; it may not rewrite
+the page or expand the URL set.
+
+The 90-day publication hold remains active through 2026-11-08.
 
 ## Current Portfolio
 

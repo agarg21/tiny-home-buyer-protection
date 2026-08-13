@@ -1031,3 +1031,16 @@ Boundary: keep one URL. Do not create a county directory, give statewide
 placement permission, state a legal or buildability conclusion, recommend a
 vendor, present a typical or complete cost, request indexing, post externally,
 or mutate an external account.
+
+## 2026-08-13 - Release Georgia Repair And Isolate Mobile Polish
+
+Decision: release the review-clean Georgia answer-first repair at
+`d5904f6945bd3dd7a9a504dde8edebe9055552c3`. Production confirms the reader
+answer, four-category evidence workflow, source and claim boundaries, metadata,
+and horizontal containment.
+
+One nonblocking production P3 remains: category-card headings inherit the
+desktop 19% row-header width at 390px and 320px. Preserve the released content
+and promote only `THC-GA-RESP-001` for a later responsive width correction and
+regression test. Do not combine that polish with new content, local expansion,
+or another URL.

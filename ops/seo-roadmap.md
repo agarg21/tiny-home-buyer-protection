@@ -65,9 +65,12 @@ monetization, provider, and unreviewed release decisions.
 23. `THC-REV-001` — completed: research-only re-verification reproduced the
     unresolved Georgia first-screen beginner gap and found a current official-
     source change. Cycle 2 returned `PASS`; no page changed.
-24. `THC-GA-001` — in progress: repair the existing Georgia page with an answer-
+24. `THC-GA-001` — completed: repaired the existing Georgia page with an answer-
     first four-category decoder and current 2024 IRC / 2026 amendment context.
     Do not create a new URL or statewide/county permission guide.
+25. `THC-GA-RESP-001` — ready: correct the production-observed narrow category-
+    card heading at 390px and 320px without reopening page content or adding a
+    URL.
 
 ## THC-REV-001 frozen contract
 
@@ -117,7 +120,7 @@ monetization, provider, and unreviewed release decisions.
 - No county directory, statewide placement claim, indexing request, vendor or
   cost recommendation, outreach, or external mutation.
 
-## THC-GA-001 active contract
+## THC-GA-001 completed result
 
 - Authority: August 13 direct Master heartbeat; no Control Room lease or
   central-ledger write.
@@ -142,9 +145,18 @@ monetization, provider, and unreviewed release decisions.
   after correcting one stale GSC snapshot pointer. Frozen-state cycle 2 then
   returned `FAIL` with two P2 stale-mirror findings; both are fixed without a
   public behavior change. Final cycle 3 returned `PASS` with no P0-P3 findings
-  on the complete sixteen-path range. Release and production verification
-  remain. Local `file:` browser rendering was blocked by browser security and
-  is not claimed as passed.
+  on the complete sixteen-path range.
+- Release: exact commit `d5904f6` was remotely verified and Pages run
+  `31706219634` succeeded. The live page and sitemap returned HTTP 200;
+  canonical, H1, category mapping, sources, current-code/Appendix BB wording,
+  sitemap date, no Appendix Q, console, and desktop/390px/320px containment
+  checks passed. Local `file:` browser rendering was blocked, so rendered checks
+  were completed against production.
+- Production P3: at 390px and 320px the responsive card's row header retains
+  the desktop 19% width, producing one-word-per-line category headings. It is
+  readable and contained but visually weak. `THC-GA-RESP-001` is the sole ready
+  next action and may address only that responsive behavior plus regression
+  coverage.
 
 ## THC-OPS-004 completion
 

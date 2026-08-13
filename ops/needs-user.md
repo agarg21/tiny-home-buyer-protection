@@ -6,6 +6,9 @@ Last updated: 2026-08-13
 
 - None. The user deferred the review-clean BAC Library draft before any send on
   2026-08-04. No outreach approval is requested.
+- The released Georgia guide has one nonblocking responsive-polish P3 queued as
+  `THC-GA-RESP-001`; it needs no user decision and does not affect claim safety
+  or page containment.
 
 ## Deferred User Decisions
 
