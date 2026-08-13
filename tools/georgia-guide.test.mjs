@@ -9,6 +9,33 @@ const page = readFileSync(
 const styles = readFileSync(new URL("../site/styles.css", import.meta.url), "utf8");
 const sitemap = readFileSync(new URL("../site/sitemap.xml", import.meta.url), "utf8");
 
+function extractAtRuleBlocks(css, prelude) {
+  const blocks = [];
+  let cursor = 0;
+
+  while (cursor < css.length) {
+    const start = css.indexOf(prelude, cursor);
+    if (start === -1) break;
+
+    const openingBrace = css.indexOf("{", start + prelude.length);
+    assert.notEqual(openingBrace, -1, `${prelude} must have an opening brace`);
+
+    let depth = 1;
+    let index = openingBrace + 1;
+    while (index < css.length && depth > 0) {
+      if (css[index] === "{") depth += 1;
+      if (css[index] === "}") depth -= 1;
+      index += 1;
+    }
+
+    assert.equal(depth, 0, `${prelude} must have balanced braces`);
+    blocks.push(css.slice(openingBrace + 1, index - 1));
+    cursor = index;
+  }
+
+  return blocks;
+}
+
 test("Georgia guide has one canonical and an answer-first opening", () => {
   assert.match(
     page,
@@ -82,6 +109,22 @@ test("page routes the next decision without adding a Georgia county directory", 
 });
 
 test("decoder becomes labeled cards on narrow screens and sitemap date is current", () => {
+  const firstMediaRule = styles.indexOf("@media");
+  assert.notEqual(firstMediaRule, -1);
+  const desktopStyles = styles.slice(0, firstMediaRule);
+  const mobileBlocks = extractAtRuleBlocks(styles, "@media (max-width: 900px)");
+
+  assert.match(
+    desktopStyles,
+    /\.georgia-classification-table tbody th\s*\{[^}]*width: 19%;/
+  );
+  assert.equal(mobileBlocks.length, 2);
+  assert.ok(
+    mobileBlocks.some((block) =>
+      /\.georgia-classification-table tbody th\s*\{[^}]*width: 100%;/.test(block)
+    ),
+    "the full-width row header must stay inside a 900px media block"
+  );
   assert.match(styles, /\.georgia-classification-table thead\s*\{/);
   assert.match(styles, /content: "Evidence to request";/);
   assert.match(styles, /content: "Does not prove";/);

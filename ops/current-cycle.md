@@ -2,9 +2,85 @@
 
 Last updated: 2026-08-13
 
-Active action: `none`
+Active action: `THC-GA-RESP-001`
 
-Next eligible action: `THC-GA-RESP-001`
+Next eligible action: `none`
+
+## Active Transaction
+
+`THC-GA-RESP-001` is a direct-manual, existing-page responsive-polish action.
+It corrects only the narrow Georgia category-card heading observed on the live
+390px and 320px layouts after `THC-GA-001` released.
+
+Exact paths:
+
+- `site/styles.css`
+- `tools/georgia-guide.test.mjs`
+- `status/site-pages.md`
+- `status/research-rotation.md`
+- `backlog/implementation-backlog.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Base: clean, origin-aligned
+`d8669d73d2f40ed2f62ec91c14a86a925e844812`.
+
+Evidence classification:
+
+- Causal: live computed-width and screenshot evidence at 390px and 320px shows
+  the responsive row header retains the desktop 19% width and wraps long
+  category labels one word per line.
+- Monitoring only: no newer GSC snapshot exists. All 26 checked-in public-safe
+  snapshots validate, and August 13 remains the current evidence.
+
+Required result: at widths up to 900px the category row header spans the full
+card width and wraps naturally; the evidence, non-proof, and next-question
+labels remain unchanged; desktop table behavior, page content, sources, claims,
+metadata, and URLs remain unchanged.
+
+Predeclared release invariants: exact pushed SHA; successful Pages run; live
+desktop table retains its intended 19% row-header column; live 390px and 320px
+card headings span the card width; no horizontal overflow or console errors;
+all four category labels and three responsive cell labels remain present.
+
+Boundaries: no HTML/content/source/claim/sitemap/URL change, no new indexable
+page, indexing request, research expansion, outreach, community post, external
+account mutation, vendor recommendation, cost claim, or legal/zoning/
+buildability conclusion.
+
+Candidate result: the responsive selector now explicitly overrides the row
+header to `width: 100%` at widths up to 900px. The focused test requires that
+same-specificity rule. Local rendered checks show the desktop header remains
+212.61px of a 1120px table, while the mobile header spans 364px of a 366px card
+at 390px and 294px of a 296px card at 320px. All three responsive labels remain,
+horizontal overflow is absent, and the preview console is clean.
+
+Native QA is green: 6/6 focused tests, 76/76 full tests, all 26 GSC snapshots,
+zero SEO errors with two known untouched warnings, zero operator-state errors,
+valid JSON, required files, exact scope, and whitespace checks. Independent
+review, release, and production verification remain.
+
+Independent review cycle 1: `FAIL` with one P2 regression-test finding. The
+CSS and all rendered states passed, but the original `[\\s\\S]*?` assertion
+could cross a media-block boundary. The test now extracts balanced at-rule
+blocks, separately requires the desktop `19%` declaration before any media
+rule, and requires the `100%` declaration inside one of the two 900px blocks.
+Independent cycle 2 confirmed the test fix but returned `FAIL` with one P2
+current-state finding: three mirrors still said full QA was pending. Those
+mirrors now record QA as green.
+
+Independent review cycle 3: `PASS` with no P0-P3 findings. The reviewer
+confirmed both prior P2 findings resolved, exact twelve-path scope, green QA,
+desktop/mobile declarations and rendering, excluded surfaces, and truthful
+release-pending state.
+
+Release: review-clean candidate pending commit, push, Pages, and predeclared
+production verification.
 
 ## Most Recent Completed Transaction
 

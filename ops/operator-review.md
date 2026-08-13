@@ -1,5 +1,77 @@
 # Operator Review
 
+## 2026-08-13 - Georgia Responsive Category-Heading Polish
+
+Action: `THC-GA-RESP-001`
+
+Selection authority: the user-authorized direct Master heartbeat. No Control
+Room lease or central-ledger write applies.
+
+Base: clean, origin-aligned
+`d8669d73d2f40ed2f62ec91c14a86a925e844812`.
+
+Frozen boundary: the twelve exact paths in `ops/current-cycle.md`. Correct only
+the production-observed responsive row-header width and strengthen its focused
+regression coverage. No HTML, content, source, claim, metadata, sitemap, URL,
+indexing, external-account, or outreach change is authorized.
+
+Evidence classification: live 390px and 320px screenshot and computed-width
+checks are causal. August 13 GSC remains unchanged monitoring context only.
+
+Candidate: added one same-specificity `width: 100%` override inside the existing
+900px Georgia table-to-card breakpoint and one focused assertion that requires
+that exact responsive rule. No HTML or other CSS behavior changed.
+
+Local rendered evidence:
+
+- desktop 1280px: row header remains 212.61px in a 1120px table (`19%` intent);
+- 390px: row header spans 364px of the 366px card;
+- 320px: row header spans 294px of the 296px card;
+- all four cards remain contained, all three responsive labels remain, and no
+  console warning/error or horizontal overflow occurred.
+
+Native QA is green: 6/6 focused tests, 76/76 full tests, all 26 GSC snapshots,
+zero SEO errors with two known unchanged-page warnings, zero operator-state
+errors, valid JSON, required files, exact scope, and whitespace checks.
+Release and production evidence remain.
+
+Independent review cycle 1:
+
+- Reviewer ID: `THC-GA-RESP-001-C1-CODEX-20260813`;
+- read-only reviewer task: `019ffcf1-9981-7030-b097-ab458849db6d`;
+- verdict: `FAIL` with one P2 and no P0/P1/P3 findings;
+- finding: the focused `[\\s\\S]*?` regex could cross a media-block boundary,
+  so it did not reliably prove the mobile declaration remained scoped;
+- resolution: replace it with balanced-brace at-rule extraction, require the
+  desktop `19%` rule before media queries, and require the mobile `100%` rule
+  inside an actual 900px block.
+
+The reviewer independently passed the CSS cascade, exact scope, 6/6 focused
+tests, 76/76 full tests, SEO/operator/JSON/files/diff checks, desktop/901px/
+900px/390px/320px rendering, labels, containment, and clean console.
+
+Independent review cycle 2:
+
+- Reviewer ID: `THC-GA-RESP-001-C2-CODEX-20260813`;
+- verdict: `FAIL` with one P2 and no P0/P1/P3 findings;
+- the balanced-brace test fix and all QA/rendered behavior passed;
+- finding: `ops/current-cycle.md`, this review entry, and
+  `status/research-rotation.md` still called full QA pending after it passed;
+- resolution: all three current mirrors now record native QA as green while
+  leaving final review, release, and production verification pending.
+
+Independent review cycle 3:
+
+- Reviewer ID: `THC-GA-RESP-001-C3-CODEX-20260813`;
+- verdict: `PASS` with no P0-P3 findings;
+- verified both prior P2 findings resolved, exact twelve-path scope, green QA,
+  balanced-brace desktop/mobile regression coverage, independently rendered
+  widths, labels, containment, clean console, excluded surfaces, and truthful
+  release-pending state.
+
+The candidate is review-clean. Commit, push, Pages, and production verification
+remain.
+
 ## 2026-08-13 - Georgia Answer-First And Current-Source Repair
 
 Action: `THC-GA-001`

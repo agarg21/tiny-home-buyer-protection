@@ -1,5 +1,30 @@
 # Progress
 
+## 2026-08-13 - Georgia Responsive Polish Registered
+
+- Confirmed the repository is clean and origin-aligned at
+  `d8669d73d2f40ed2f62ec91c14a86a925e844812`.
+- No newer GSC snapshot exists; all 26 public-safe snapshots validate and
+  August 13 remains monitoring context only.
+- Registered `THC-GA-RESP-001` on twelve exact paths from the live 390px/320px
+  row-header width defect. The action may change only responsive CSS, focused
+  regression coverage, and durable state/history mirrors.
+- Added one same-specificity responsive `width: 100%` override and a focused
+  regression assertion. Local rendering preserved the desktop 19% table column,
+  gave the row header effectively full card width at 390px and 320px, retained
+  all responsive labels, and showed no overflow or console errors.
+- Independent cycle 1 returned `FAIL` with one P2 test weakness: the initial
+  regex could cross a media-block boundary. Replaced it with balanced-brace
+  media-block extraction plus separate desktop `19%` and scoped mobile `100%`
+  assertions; the production CSS did not need another change.
+- Cycle 2 passed the test fix but returned `FAIL` with one P2 stale-QA-state
+  inconsistency across three current mirrors. Updated each to record native QA
+  green while preserving final review and release as pending; no CSS or test
+  change was needed.
+- Final cycle 3 returned `PASS` with no P0-P3 findings on the complete twelve-
+  path range. The responsive candidate is review-clean; release and production
+  verification remain.
+
 ## 2026-08-13 - Georgia Existing-Page Repair Candidate
 
 - Fast-forwarded the clean checkout to the understood daily GSC snapshot commit

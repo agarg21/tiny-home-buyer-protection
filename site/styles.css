@@ -1986,6 +1986,7 @@ dd {
   }
 
   .georgia-classification-table tbody th {
+    width: 100%;
     padding: 14px;
     border-bottom: 1px solid var(--line);
     background: var(--accent-soft);

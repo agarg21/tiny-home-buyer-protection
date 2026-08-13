@@ -68,7 +68,7 @@ monetization, provider, and unreviewed release decisions.
 24. `THC-GA-001` — completed: repaired the existing Georgia page with an answer-
     first four-category decoder and current 2024 IRC / 2026 amendment context.
     Do not create a new URL or statewide/county permission guide.
-25. `THC-GA-RESP-001` — ready: correct the production-observed narrow category-
+25. `THC-GA-RESP-001` — in progress: correct the production-observed narrow category-
     card heading at 390px and 320px without reopening page content or adding a
     URL.
 
@@ -156,7 +156,34 @@ monetization, provider, and unreviewed release decisions.
   the desktop 19% width, producing one-word-per-line category headings. It is
   readable and contained but visually weak. `THC-GA-RESP-001` is the sole ready
   next action and may address only that responsive behavior plus regression
-  coverage.
+    coverage.
+
+## THC-GA-RESP-001 active contract
+
+- Authority: August 13 direct Master heartbeat; no Control Room lease or
+  central-ledger write.
+- Base: clean, origin-aligned `d8669d7`.
+- Scope: the twelve exact paths in `ops/current-cycle.md`.
+- Causal evidence: live 390px and 320px screenshot and computed-width checks
+  show that the category-card row header retains the desktop 19% width.
+- Monitoring context: no new GSC snapshot exists; all 26 checked-in snapshots
+  validate and August 13 remains current.
+- Required result: override the row header to full card width only in the
+  responsive layout and add a regression assertion. Preserve desktop table
+  behavior, content, sources, claims, metadata, sitemap, and URL set.
+- Release invariants: live desktop 19% row header, live 390px/320px full-width
+  card heading, no overflow or console errors, four category labels, and three
+  responsive cell labels.
+- Candidate: one same-specificity mobile `width: 100%` override and one focused
+  regression assertion are built. Local rendering preserves desktop table
+  width and gives the header effectively full card width at 390px/320px with no
+  overflow or console errors. Cycle 1 returned `FAIL` with one P2 because the
+  initial test regex could cross a media-block boundary. It now uses balanced-
+  brace block extraction and separately asserts desktop `19%` and scoped mobile
+  `100%`. Cycle 2 passed that fix but returned `FAIL` with one P2 because three
+  current mirrors still called full QA pending; they now record QA green. Final
+  cycle 3 returned `PASS` with no P0-P3 findings on the complete twelve-path
+  range. Release and production verification remain.
 
 ## THC-OPS-004 completion
 

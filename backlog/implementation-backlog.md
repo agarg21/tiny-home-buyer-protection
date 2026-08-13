@@ -7,16 +7,15 @@ selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
 ## Active
 
-None. `THC-GA-001` is released.
+`THC-GA-RESP-001` is registered on twelve exact paths. It may correct only the
+responsive Georgia category-card heading width and strengthen its regression
+test. The candidate passes focused and local desktop/390px/320px checks;
+final independent review returned `PASS`; release and production verification
+remain. No content, source, claim, metadata, sitemap, or URL change is in scope.
 
 ## Ready, Not Selected
 
-`THC-GA-RESP-001` is ready as a narrow responsive-polish repair for the existing
-Georgia page. Production at 390px and 320px showed that the category-card row
-header inherits the desktop 19% width, causing one-word-per-line category
-titles. The content remains readable and there is no overflow. The future action
-may correct that width and strengthen its regression test; it may not rewrite
-the page or expand the URL set.
+None while `THC-GA-RESP-001` is active.
 
 The 90-day publication hold remains active through 2026-11-08.
 

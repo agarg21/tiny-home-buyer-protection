@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-13",
   "next_rescore_due": "2026-08-20",
-  "next_eligible_action_id": "THC-GA-RESP-001",
+  "next_eligible_action_id": "none",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -1724,13 +1724,14 @@
       "learning_value": 1,
       "effort": 1,
       "risk": 1,
-      "status": "ready",
+      "status": "in_progress",
+      "selected_on": "2026-08-13",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
         "https://tinyhomeclarity.com/georgia-tiny-house-classification/"
       ],
-      "proposed_paths": [
+      "target_paths": [
         "site/styles.css",
         "tools/georgia-guide.test.mjs",
         "status/site-pages.md",
@@ -1754,9 +1755,44 @@
         "status": "not-required-for-bounded-existing-page-polish",
         "approval_required_for": null
       },
-      "implementation_state": "ready-unselected",
-      "release_state": "not-started",
-      "notes": "Promoted from the one nonblocking production P3 found while closing THC-GA-001. Future selection must freeze exact paths again. Do not rewrite page content, change claims or sources, add a URL, request indexing, or perform external work."
+      "review_history": [
+        {
+          "cycle": 1,
+          "reviewer_id": "THC-GA-RESP-001-C1-CODEX-20260813",
+          "reviewer_task_id": "019ffcf1-9981-7030-b097-ab458849db6d",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: tools/georgia-guide.test.mjs used a cross-block regex that did not reliably prove width: 100% remained inside the max-width: 900px media block"
+          ],
+          "resolution": "Replaced the cross-block regex with balanced-brace at-rule extraction, separately required the desktop 19% declaration before media rules, and required the 100% declaration inside an actual 900px block. No production CSS change was needed."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "THC-GA-RESP-001-C2-CODEX-20260813",
+          "reviewer_task_id": "019ffcf1-9981-7030-b097-ab458849db6d",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: ops/current-cycle.md, ops/operator-review.md, and status/research-rotation.md still described full native QA as pending after both the original and post-fix QA passed"
+          ],
+          "resolution": "Updated all three current mirrors to record native QA as green while leaving final independent review, release, and production verification pending. No CSS or test change was needed."
+        },
+        {
+          "cycle": 3,
+          "reviewer_id": "THC-GA-RESP-001-C3-CODEX-20260813",
+          "reviewer_task_id": "019ffcf1-9981-7030-b097-ab458849db6d",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "The reviewer confirmed both prior findings resolved, exact twelve-path scope, green QA, balanced-brace desktop/mobile regression coverage, rendered widths, labels, containment, clean console, excluded surfaces, and truthful release-pending state."
+        }
+      ],
+      "review_outcome": "PASS",
+      "review_cycles": 3,
+      "implementation_state": "review-clean",
+      "release_state": "release-pending",
+      "notes": "Selected by the August 13 direct Master heartbeat from clean, origin-aligned base d8669d73d2f40ed2f62ec91c14a86a925e844812 and frozen to the twelve exact paths above. The same-specificity responsive width override is review-clean. Cycle 1 found and resolved one P2 cross-media-block test weakness. Cycle 2 passed the fix but found one P2 stale-QA-state inconsistency; all mirrors now record native QA green. Final cycle 3 returned PASS with no findings. Release and production verification remain. Live 390px/320px evidence is causal; GSC is unchanged monitoring context. Do not rewrite page content, change claims or sources, add a URL, request indexing, or perform external work."
     }
   ]
 }

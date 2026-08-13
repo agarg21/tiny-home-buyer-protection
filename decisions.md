@@ -1044,3 +1044,16 @@ desktop 19% row-header width at 390px and 320px. Preserve the released content
 and promote only `THC-GA-RESP-001` for a later responsive width correction and
 regression test. Do not combine that polish with new content, local expansion,
 or another URL.
+
+## 2026-08-13 - Select The Bounded Georgia Responsive Fix
+
+Decision: select `THC-GA-RESP-001` from clean, aligned base `d8669d7` and freeze
+it to twelve exact paths. Correct only the responsive category-card row-header
+width and add a focused regression assertion.
+
+Why: the defect was observed directly in production at 390px and 320px. It is
+a concrete visual usefulness issue, not a GSC-driven rewrite or a reason to
+reopen the reviewed page content.
+
+Boundary: preserve the desktop table, all page text, sources, claims, metadata,
+sitemap, and URLs. No indexing or external action.
