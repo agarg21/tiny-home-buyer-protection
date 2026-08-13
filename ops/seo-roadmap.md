@@ -68,9 +68,12 @@ monetization, provider, and unreviewed release decisions.
 24. `THC-GA-001` — completed: repaired the existing Georgia page with an answer-
     first four-category decoder and current 2024 IRC / 2026 amendment context.
     Do not create a new URL or statewide/county permission guide.
-25. `THC-GA-RESP-001` — in progress: correct the production-observed narrow category-
-    card heading at 390px and 320px without reopening page content or adding a
-    URL.
+25. `THC-GA-RESP-001` — completed and production-verified in `4ca8565`; Pages
+    run `31744910489` succeeded and the responsive card heading now spans the
+    card without changing desktop behavior or page content.
+26. `THC-REV-002` — ready, not selected: review whether the under-$20K checker
+    remains a distinct decision aid or should be consolidated with the quote-
+    first cost calculator. Research only; non-indexing does not select a rewrite.
 
 ## THC-REV-001 frozen contract
 
@@ -158,7 +161,7 @@ monetization, provider, and unreviewed release decisions.
   next action and may address only that responsive behavior plus regression
     coverage.
 
-## THC-GA-RESP-001 active contract
+## THC-GA-RESP-001 completed result
 
 - Authority: August 13 direct Master heartbeat; no Control Room lease or
   central-ledger write.
@@ -183,7 +186,25 @@ monetization, provider, and unreviewed release decisions.
   `100%`. Cycle 2 passed that fix but returned `FAIL` with one P2 because three
   current mirrors still called full QA pending; they now record QA green. Final
   cycle 3 returned `PASS` with no P0-P3 findings on the complete twelve-path
-  range. Release and production verification remain.
+  range.
+- Release: exact commit `4ca8565` was pushed from non-diverged base `d8669d7`
+  and remotely verified. Pages run `31744910489` succeeded for that SHA.
+  Production at 1280px and 901px retains the desktop table and 19% row-header
+  width; 900px, 390px, and 320px use the card layout with full-width headings,
+  all labels, no horizontal overflow, and no console errors.
+
+## THC-REV-002 next contract
+
+- State: ready, not selected or started.
+- Question: does the under-$20K checker provide a distinct decision artifact,
+  or does its calculator duplicate the quote-first cost calculator closely
+  enough that consolidation would better serve a real reader?
+- Evidence: the July 28 portfolio audit recorded the overlap as unresolved.
+  Current non-indexing and low GSC visibility are monitoring context only.
+- Output: research-only `keep`, `repair`, `consolidate`, `needs-evidence`, or
+  `no-build`, with at most one separately implementable future action.
+- Boundary: no `site/**` edit, new URL, indexing request, cost conclusion,
+  outreach, community post, or external mutation in the research transaction.
 
 ## THC-OPS-004 completion
 

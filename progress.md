@@ -1,6 +1,6 @@
 # Progress
 
-## 2026-08-13 - Georgia Responsive Polish Registered
+## 2026-08-13 - Georgia Responsive Polish Released
 
 - Confirmed the repository is clean and origin-aligned at
   `d8669d73d2f40ed2f62ec91c14a86a925e844812`.
@@ -22,8 +22,16 @@
   green while preserving final review and release as pending; no CSS or test
   change was needed.
 - Final cycle 3 returned `PASS` with no P0-P3 findings on the complete twelve-
-  path range. The responsive candidate is review-clean; release and production
-  verification remain.
+  path range.
+- Committed and pushed the exact review-clean range as
+  `4ca8565de2cde9827ef6d52f917028616fa4d96c`; remote alignment passed and Pages
+  run `31744910489` succeeded for that SHA.
+- Production checks at 1280px, 901px, 900px, 390px, and 320px passed the exact
+  breakpoint, full-width mobile heading, label, overflow, and console
+  invariants. `THC-GA-RESP-001` is complete.
+- Promoted only research-only `THC-REV-002` as the next eligible action. It may
+  diagnose the under-$20K/cost-calculator overlap but cannot infer a rewrite
+  from non-indexing or start implementation in the same run.
 
 ## 2026-08-13 - Georgia Existing-Page Repair Candidate
 

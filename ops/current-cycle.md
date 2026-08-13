@@ -2,11 +2,11 @@
 
 Last updated: 2026-08-13
 
-Active action: `THC-GA-RESP-001`
+Active action: `none`
 
-Next eligible action: `none`
+Next eligible action: `THC-REV-002`
 
-## Active Transaction
+## Most Recent Completed Transaction
 
 `THC-GA-RESP-001` is a direct-manual, existing-page responsive-polish action.
 It corrects only the narrow Georgia category-card heading observed on the live
@@ -62,8 +62,7 @@ horizontal overflow is absent, and the preview console is clean.
 
 Native QA is green: 6/6 focused tests, 76/76 full tests, all 26 GSC snapshots,
 zero SEO errors with two known untouched warnings, zero operator-state errors,
-valid JSON, required files, exact scope, and whitespace checks. Independent
-review, release, and production verification remain.
+valid JSON, required files, exact scope, and whitespace checks.
 
 Independent review cycle 1: `FAIL` with one P2 regression-test finding. The
 CSS and all rendered states passed, but the original `[\\s\\S]*?` assertion
@@ -79,10 +78,21 @@ confirmed both prior P2 findings resolved, exact twelve-path scope, green QA,
 desktop/mobile declarations and rendering, excluded surfaces, and truthful
 release-pending state.
 
-Release: review-clean candidate pending commit, push, Pages, and predeclared
-production verification.
+Release: exact twelve-path commit
+`4ca8565de2cde9827ef6d52f917028616fa4d96c` was pushed and remotely verified.
+GitHub Pages run `31744910489` succeeded for that SHA. Production checks passed
+at 1280px, 901px, 900px, 390px, and 320px: desktop retains the 19% table
+column, the card layout begins at 900px, mobile row headers span the cards, all
+four category labels and three responsive labels remain, horizontal overflow
+is absent, and the console is clean.
 
-## Most Recent Completed Transaction
+The next eligible action is research-only `THC-REV-002`: determine whether the
+under-$20K checker still owns a distinct human decision job or should be
+consolidated with the quote-first cost calculator. Non-indexing is monitoring
+context, not evidence for a rewrite. Do not start that review in this
+transaction.
+
+## Prior Completed Transaction
 
 `THC-GA-001` completed as a direct-manual repair of the existing Georgia classification
 guide. It implements the reviewed `THC-REV-001` answer-first, four-category,

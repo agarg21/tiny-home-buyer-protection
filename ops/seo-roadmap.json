@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-13",
   "next_rescore_due": "2026-08-20",
-  "next_eligible_action_id": "none",
+  "next_eligible_action_id": "THC-REV-002",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -1724,8 +1724,9 @@
       "learning_value": 1,
       "effort": 1,
       "risk": 1,
-      "status": "in_progress",
+      "status": "completed",
       "selected_on": "2026-08-13",
+      "completed_on": "2026-08-13",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
@@ -1790,9 +1791,64 @@
       ],
       "review_outcome": "PASS",
       "review_cycles": 3,
-      "implementation_state": "review-clean",
-      "release_state": "release-pending",
-      "notes": "Selected by the August 13 direct Master heartbeat from clean, origin-aligned base d8669d73d2f40ed2f62ec91c14a86a925e844812 and frozen to the twelve exact paths above. The same-specificity responsive width override is review-clean. Cycle 1 found and resolved one P2 cross-media-block test weakness. Cycle 2 passed the fix but found one P2 stale-QA-state inconsistency; all mirrors now record native QA green. Final cycle 3 returned PASS with no findings. Release and production verification remain. Live 390px/320px evidence is causal; GSC is unchanged monitoring context. Do not rewrite page content, change claims or sources, add a URL, request indexing, or perform external work."
+      "implementation_state": "released",
+      "release_state": "production-verified",
+      "deployment_applicable": true,
+      "release_commit": "4ca8565de2cde9827ef6d52f917028616fa4d96c",
+      "release_base_commit": "d8669d73d2f40ed2f62ec91c14a86a925e844812",
+      "pages_run_id": 31744910489,
+      "released_on": "2026-08-13",
+      "remote_verified": true,
+      "production_verification": [
+        "GitHub Pages run 31744910489 succeeded for exact commit 4ca8565de2cde9827ef6d52f917028616fa4d96c",
+        "At 1280px and 901px the live page retained table layout and the intended 19% row-header width",
+        "At 900px, 390px, and 320px the live page used card layout and each row header spanned effectively the full card width",
+        "All four category labels and three responsive labels remained present with no horizontal overflow or console errors"
+      ],
+      "notes": "Selected by the August 13 direct Master heartbeat from clean, origin-aligned base d8669d73d2f40ed2f62ec91c14a86a925e844812 and frozen to the twelve exact paths above. The same-specificity responsive width override is released and production-verified in 4ca8565de2cde9827ef6d52f917028616fa4d96c after successful Pages run 31744910489. Cycle 1 found and resolved one P2 cross-media-block test weakness. Cycle 2 passed the fix but found one P2 stale-QA-state inconsistency; all mirrors now record native QA green. Final cycle 3 returned PASS with no findings. Live breakpoint, width, label, overflow, and console checks passed. GSC is unchanged monitoring context. No page content, source, claim, metadata, sitemap, URL, indexing, or external-account surface changed."
+    },
+    {
+      "id": "THC-REV-002",
+      "title": "Review whether the under-$20K checker should remain distinct from the cost calculator",
+      "kind": "research-review",
+      "lane": "existing-page-human-value",
+      "impact": 3,
+      "confidence": 4,
+      "learning_value": 4,
+      "effort": 2,
+      "risk": 1,
+      "status": "ready",
+      "selected_on": null,
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "target_urls": [
+        "https://tinyhomeclarity.com/tiny-house-under-20k/",
+        "https://tinyhomeclarity.com/tiny-home-cost-calculator/"
+      ],
+      "target_paths": [
+        "docs/research/tiny-house-under-20k-consolidation-review-2026-08.md",
+        "status/site-pages.md",
+        "status/research-rotation.md",
+        "backlog/implementation-backlog.md",
+        "backlog/seo-research-review-backlog.md",
+        "ops/current-cycle.md",
+        "ops/operator-review.md",
+        "ops/seo-roadmap.json",
+        "ops/seo-roadmap.md",
+        "decisions.md",
+        "progress.md"
+      ],
+      "baseline": "The July 28 portfolio audit identified unresolved overlap between the under-$20K page's allocation checker and the quote-first cost calculator. The under-$20K URL is currently discovered but not indexed, while the cost calculator is indexed; those monitoring states do not establish whether either product should change.",
+      "hypothesis": "A bounded rendered, SERP, persona, every-section, state-model, and internal-handoff review can determine whether the under-$20K checker solves a distinct reader job or should be consolidated, without treating non-indexing or low impressions as causal evidence.",
+      "expected_effect": "Produce one durable keep, repair, consolidate, needs-evidence, or no-build decision and at most one separately implementable future action. No public page changes in the research transaction.",
+      "success_signal": "Both current pages and realistic tool states are compared from decision-persona and beginner/intermediate/advanced perspectives; current query intent and representative ranking pages are sampled; duplication, unique value, handoffs, and unknowns are recorded; native QA and independent review pass; no site or external mutation occurs.",
+      "evidence_classification": "The unresolved July 28 human-value overlap finding is causal research evidence. Current GSC indexing and performance are monitoring context only and cannot select a rewrite, consolidation, or indexing request.",
+      "human_gate": {
+        "required": false,
+        "status": "not-required-for-research-only",
+        "approval_required_for": null
+      },
+      "notes": "Ready but not selected after THC-GA-RESP-001 completed. The future transaction is research-only and may promote at most one separately reviewed action. It may not edit site paths, create a page, state an affordability or complete-cost conclusion, request indexing, post externally, or mutate an external account."
     }
   ]
 }

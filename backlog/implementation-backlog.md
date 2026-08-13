@@ -7,15 +7,12 @@ selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
 ## Active
 
-`THC-GA-RESP-001` is registered on twelve exact paths. It may correct only the
-responsive Georgia category-card heading width and strengthen its regression
-test. The candidate passes focused and local desktop/390px/320px checks;
-final independent review returned `PASS`; release and production verification
-remain. No content, source, claim, metadata, sitemap, or URL change is in scope.
+None. `THC-GA-RESP-001` is released and production-verified in `4ca8565` with
+Pages run `31744910489`.
 
 ## Ready, Not Selected
 
-None while `THC-GA-RESP-001` is active.
+None. `THC-REV-002` is research-only and cannot authorize a page change.
 
 The 90-day publication hold remains active through 2026-11-08.
 

@@ -1057,3 +1057,20 @@ reopen the reviewed page content.
 
 Boundary: preserve the desktop table, all page text, sources, claims, metadata,
 sitemap, and URLs. No indexing or external action.
+
+## 2026-08-13 - Release Georgia Responsive Fix And Return To Research
+
+Decision: release `THC-GA-RESP-001` as exact reviewed commit `4ca8565`. Pages
+run `31744910489` and production checks confirm the desktop table is unchanged,
+the 900px breakpoint is exact, and mobile category headings now span their
+cards without overflow or console errors.
+
+Next: make research-only `THC-REV-002` the sole next eligible action. It should
+decide whether the under-$20K checker provides a distinct decision artifact or
+should be consolidated with the quote-first cost calculator. Its discovered-
+currently-not-indexed state is monitoring context, not causal evidence for a
+rewrite.
+
+Boundary: no second action starts in this transaction. The review may later
+return `keep`, `repair`, `consolidate`, `needs-evidence`, or `no-build`; only a
+separate registered and reviewed action may change a public page.

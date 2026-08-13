@@ -7,9 +7,11 @@ queue is `ops/seo-roadmap.json`.
 
 ## Current Review-Ready Work
 
-No second research action is ready while the bounded Georgia responsive-polish
-follow-up awaits release and production verification. Its independent review is
-complete. The content repair promoted by `THC-REV-001` is released.
+`THC-REV-002` is the sole next eligible research action, not yet selected. It
+will review whether the under-$20K checker owns a distinct human decision job
+or should be consolidated with the quote-first cost calculator. It must not
+infer a rewrite from non-indexing or create a second implementation in the same
+transaction.
 
 The completed Georgia research record is
 `docs/research/georgia-tiny-house-human-review-2026-08.md`. It returned
@@ -21,8 +23,9 @@ The current community candidate and draft are in
 `docs/research/community-question-candidates-2026-08.md`. They remain
 draft-only and are not the next selected action.
 
-The next research surface remains the under-$20K checker, but it stays held
-behind the Georgia implementation decision. Do not run both lanes at once.
+The Georgia responsive follow-up is released and production-verified. Georgia
+returns to observation while the under-$20K overlap question becomes the next
+bounded research lane.
 
 ## Current Monitoring Context
 

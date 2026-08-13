@@ -33,7 +33,6 @@ Local rendered evidence:
 Native QA is green: 6/6 focused tests, 76/76 full tests, all 26 GSC snapshots,
 zero SEO errors with two known unchanged-page warnings, zero operator-state
 errors, valid JSON, required files, exact scope, and whitespace checks.
-Release and production evidence remain.
 
 Independent review cycle 1:
 
@@ -69,8 +68,21 @@ Independent review cycle 3:
   widths, labels, containment, clean console, excluded surfaces, and truthful
   release-pending state.
 
-The candidate is review-clean. Commit, push, Pages, and production verification
-remain.
+Release evidence:
+
+- exact reviewed commit: `4ca8565de2cde9827ef6d52f917028616fa4d96c`;
+- reviewed base: `d8669d73d2f40ed2f62ec91c14a86a925e844812`;
+- remote alignment verified after push;
+- GitHub Pages run `31744910489` completed successfully for the exact commit;
+- production desktop checks at 1280px and 901px retain table behavior and the
+  intended 19% row-header width;
+- production checks at 900px, 390px, and 320px use the card layout and give the
+  row header effectively full card width;
+- all four category labels and three responsive labels remain, with no
+  horizontal overflow or console errors.
+
+Verdict: released and production-verified. No HTML, content, source, claim,
+metadata, sitemap, URL, indexing, or external-account surface changed.
 
 ## 2026-08-13 - Georgia Answer-First And Current-Source Repair
 
