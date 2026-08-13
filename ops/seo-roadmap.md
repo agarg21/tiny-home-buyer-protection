@@ -65,7 +65,7 @@ monetization, provider, and unreviewed release decisions.
 23. `THC-REV-001` — completed: research-only re-verification reproduced the
     unresolved Georgia first-screen beginner gap and found a current official-
     source change. Cycle 2 returned `PASS`; no page changed.
-24. `THC-GA-001` — ready: repair the existing Georgia page with an answer-
+24. `THC-GA-001` — in progress: repair the existing Georgia page with an answer-
     first four-category decoder and current 2024 IRC / 2026 amendment context.
     Do not create a new URL or statewide/county permission guide.
 
@@ -116,6 +116,35 @@ monetization, provider, and unreviewed release decisions.
   mobile, 320px, native, independent, and production review.
 - No county directory, statewide placement claim, indexing request, vendor or
   cost recommendation, outreach, or external mutation.
+
+## THC-GA-001 active contract
+
+- Authority: August 13 direct Master heartbeat; no Control Room lease or
+  central-ledger write.
+- Base: clean, origin-aligned `9733578` after the understood GSC-only
+  fast-forward.
+- Scope: the sixteen exact paths in `ops/current-cycle.md`, including
+  predeclared release-closeout mirrors.
+- Causal evidence: review-clean `THC-REV-001` first-screen and official-source
+  findings.
+- Monitoring context: August 13 GSC through August 11 has 16 impressions, zero
+  clicks, five of eight URLs indexed, and four Georgia impressions at average
+  position 18.25. This does not select copy or claims.
+- Output and boundary: repair one existing URL, add focused regression coverage,
+  and verify production. No new page, indexing request, outreach, external
+  mutation, county directory, statewide permission claim, vendor
+  recommendation, or typical/complete cost claim.
+- Candidate: the answer-first four-category decoder, authority question script,
+  current-code boundary, official-source roles, canonical, sitemap date, and
+  focused tests are built. Native QA passes and independent read-only reviewer
+  ID `68eb0f7a-2b1c-495e-a091-785b40ecdc6c` in task
+  `019ffb4e-8662-7813-85c9-4c11f25d490e` returned `PASS` with no P0-P3 findings
+  after correcting one stale GSC snapshot pointer. Frozen-state cycle 2 then
+  returned `FAIL` with two P2 stale-mirror findings; both are fixed without a
+  public behavior change. Final cycle 3 returned `PASS` with no P0-P3 findings
+  on the complete sixteen-path range. Release and production verification
+  remain. Local `file:` browser rendering was blocked by browser security and
+  is not claimed as passed.
 
 ## THC-OPS-004 completion
 

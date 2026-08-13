@@ -1,14 +1,21 @@
 # Implementation Backlog
 
-Last updated: 2026-08-10
+Last updated: 2026-08-13
 
 This is a supporting inventory. It never authorizes work. Only a `ready` item
 selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
+## Active
+
+`THC-GA-001` is the one registered existing-page repair. Its answer-first,
+four-category, current-source candidate is built within the sixteen frozen
+paths and independent review returned `PASS`. Release and production
+verification remain. Do not select a second implementation action while it is
+active.
+
 ## Ready, Not Selected
 
-None. `THC-LAND-001` is released and the 90-day publication hold is active
-through 2026-11-08.
+None. The 90-day publication hold remains active through 2026-11-08.
 
 ## Current Portfolio
 
@@ -27,15 +34,16 @@ These ideas are not ready and must not be inferred as work from this file:
 - a toilet-options calculator;
 - a standalone builder/vendor due-diligence page;
 - a generic quote-comparison page;
-- Georgia expansion or generic state pages;
+- Georgia expansion or generic state pages beyond the registered repair of the
+  existing classification guide;
 - city or `near me` page batches;
 - builder, community, land, or vendor directories;
 - another cost page; and
 - generic inspiration, lifestyle, or informational articles.
 
 The build-options page and cost calculator already own overlapping decision
-jobs. The Georgia and under-$20K pages remain observation or consolidation
-candidates only; neither is roadmap-ready.
+jobs. The under-$20K page remains an observation or consolidation candidate;
+it is not roadmap-ready.
 
 ## Deferred Human Decisions
 

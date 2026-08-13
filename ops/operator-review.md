@@ -1,5 +1,74 @@
 # Operator Review
 
+## 2026-08-13 - Georgia Answer-First And Current-Source Repair
+
+Action: `THC-GA-001`
+
+Selection authority: the user-authorized direct Master heartbeat. No Control
+Room lease or central-ledger write applies.
+
+Frozen boundary: the sixteen exact paths in `ops/current-cycle.md`. Repair the
+existing Georgia URL, add responsive decoder styling and focused regression
+coverage, update discovery/research/state, and use the predeclared operator
+paths for mechanical release closeout.
+
+Evidence classification:
+
+- Review-clean `THC-REV-001` is causal: it reproduced the source-first,
+  limitation-first opening and verified that the live Appendix Q explanation
+  trails current Georgia source context.
+- Official sources rechecked August 13 confirm the four DCA categories, the
+  current 2024 IRC with Georgia amendments effective January 1, 2026, current
+  manufactured-home HUD-label/installation evidence, and DCA industrialized-
+  building insignia/site-control boundaries.
+- The 2026 amendment packet modifies Appendix BB but the reviewed text does not
+  itself prove statewide enforcement. The page must tell readers to ask DCA or
+  the authority having jurisdiction for the written code/adoption path.
+- August 13 GSC is monitoring context only and does not select the repair.
+
+Candidate result: the existing page now opens with the statewide-versus-local
+answer and all four category names, then provides a category/evidence/non-proof/
+next-question decoder, an ordered authority script, current 2024 IRC / 2026
+Appendix BB context, concise stop conditions, scoped official sources, a
+canonical, and an August 13 sitemap date. Focused tests pass. The in-app browser
+blocked the local `file:` preview, so no pre-review visual claim is made.
+
+Native QA:
+
+- focused Georgia guide tests: 6/6 pass;
+- full tests: 76/76 pass;
+- all 26 public-safe GSC snapshots validate;
+- SEO QA: eight pages, zero errors, and only the two known untouched-page
+  canonical warnings;
+- operator-state QA: zero errors with `THC-GA-001` active and August 13 GSC;
+- valid roadmap JSON, required deployment files, exact sixteen-path scope,
+  seven official source HTTP 200 responses, and whitespace checks.
+
+Independent review cycle 1: read-only reviewer ID
+`68eb0f7a-2b1c-495e-a091-785b40ecdc6c` in reviewer task
+`019ffb4e-8662-7813-85c9-4c11f25d490e` returned `PASS` with no P0-P3 findings.
+During review it identified one stale August 12 snapshot pointer beside August
+13 metrics; the pointer was corrected before the final verdict. The reviewer
+verified the primary decision persona, beginner/intermediate/advanced readers,
+every section, exact four-category mapping, claim fidelity, semantic and
+responsive source contract, metadata, handoffs, scope, state, and QA.
+
+Residual limitation: browser security blocked the local `file:` preview.
+Rendered desktop, 390px, and 320px containment and console checks are not
+claimed locally and remain predeclared production invariants.
+
+Independent review cycle 2: `FAIL` with two P2 stale-state findings. The SEO
+review backlog still called independent review pending, and the lower `Current
+Evidence` section in `ops/current-cycle.md` still presented August 12 metrics
+as current. Both are corrected to the completed-review and August 13 state.
+No public-page, CSS, sitemap, or test behavior changed.
+
+Independent review cycle 3: `PASS` with no P0-P3 findings. The reviewer verified
+both cycle 2 P2 findings resolved, reviewer identity and task provenance,
+review history, active/release-pending state, browser limitation, exact sixteen-
+path scope, and recorded QA across the complete base-to-working-tree range.
+The candidate is review-clean. Release and production evidence remain.
+
 ## 2026-08-12 - Georgia Human-Value And Source-Freshness Review
 
 Action: `THC-REV-001`

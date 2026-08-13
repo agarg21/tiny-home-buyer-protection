@@ -1013,3 +1013,21 @@ replace the opening with a direct statewide-versus-local answer and four-
 category proof decoder, compress repeated cautions, and give ordered local
 questions. Do not build a Georgia county directory or claim statewide
 permission. The page's five GSC impressions are monitoring context only.
+
+## 2026-08-13 - Build The Georgia Answer Around The Buyer's Evidence Trail
+
+Decision: implement `THC-GA-001` on the existing Georgia URL as a four-category
+proof decoder and ordered local question script. Lead with the statewide-versus-
+local answer, then show which labels or documents support each category and
+what those documents do not prove.
+
+Why: the reviewed defect is not lack of caution. It is that a reader had to
+work through source metadata and repeated uncertainty before learning how to
+identify the home or ask the next useful question. Current DCA and OCI sources
+support a category and evidence workflow while requiring local written answers
+for parcel, use, code path, and Appendix BB enforcement.
+
+Boundary: keep one URL. Do not create a county directory, give statewide
+placement permission, state a legal or buildability conclusion, recommend a
+vendor, present a typical or complete cost, request indexing, post externally,
+or mutate an external account.

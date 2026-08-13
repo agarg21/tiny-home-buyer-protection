@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "owner": "Tiny Home Clarity Operator",
-  "last_rescored_on": "2026-08-06",
-  "next_rescore_due": "2026-08-13",
-  "next_eligible_action_id": "THC-GA-001",
+  "last_rescored_on": "2026-08-13",
+  "next_rescore_due": "2026-08-20",
+  "next_eligible_action_id": "none",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -1617,21 +1617,25 @@
       "learning_value": 3,
       "effort": 2,
       "risk": 3,
-      "status": "ready",
+      "status": "in_progress",
+      "selected_on": "2026-08-13",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
         "https://tinyhomeclarity.com/georgia-tiny-house-classification/"
       ],
-      "proposed_paths": [
+      "target_paths": [
         "docs/research/georgia-tiny-house-human-review-2026-08.md",
         "site/georgia-tiny-house-classification/index.html",
+        "site/styles.css",
         "site/sitemap.xml",
+        "tools/georgia-guide.test.mjs",
         "status/research-rotation.md",
         "status/site-pages.md",
         "backlog/implementation-backlog.md",
         "backlog/seo-research-review-backlog.md",
         "ops/current-cycle.md",
+        "ops/needs-user.md",
         "ops/operator-review.md",
         "ops/seo-roadmap.json",
         "ops/seo-roadmap.md",
@@ -1648,9 +1652,51 @@
         "status": "not-required-for-bounded-existing-page-repair",
         "approval_required_for": null
       },
-      "implementation_state": "ready-unselected",
-      "release_state": "not-started",
-      "notes": "Promoted as the one separately implementable future action by review-clean THC-REV-001. Exact paths must be frozen again at selection. No county directory, statewide placement answer, new URL, indexing request, vendor recommendation, cost claim, outreach, or external-account mutation is authorized."
+      "qa_evidence": [
+        "node --test tools/georgia-guide.test.mjs: 6 of 6 tests pass",
+        "node --test tools/*.test.mjs: 76 of 76 tests pass",
+        "node tools/gsc-snapshot.mjs --validate-existing: all 26 public-safe snapshot files validate",
+        "node tools/seo-qa.mjs: 8 pages, 0 errors, and 2 known untouched-page canonical warnings",
+        "node tools/operator-state-qa.mjs: 0 errors",
+        "ops/seo-roadmap.json is valid JSON; required files, exact sixteen-path scope, seven official source HTTP checks, and git diff --check pass"
+      ],
+      "review_history": [
+        {
+          "cycle": 1,
+          "reviewer_id": "68eb0f7a-2b1c-495e-a091-785b40ecdc6c",
+          "reviewer_task_id": "019ffb4e-8662-7813-85c9-4c11f25d490e",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "The reviewer identified one stale GSC snapshot pointer during review; it was fixed before the final PASS. The final verdict found no P0-P3 issues and independently passed the decision-persona, experience-level, every-section, source, claim, scope, responsive-source, metadata, state, and QA review."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "68eb0f7a-2b1c-495e-a091-785b40ecdc6c",
+          "reviewer_task_id": "019ffb4e-8662-7813-85c9-4c11f25d490e",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: backlog/seo-research-review-backlog.md still said independent review was underway after cycle 1 PASS",
+            "P2: ops/current-cycle.md still labeled August 12 and 18-impression evidence as current after the August 13 snapshot"
+          ],
+          "resolution": "Updated the backlog to leave only release and production verification pending, and updated the current-evidence section to the August 13 snapshot through August 11 with 16 impressions. No site, CSS, sitemap, or test behavior changed."
+        },
+        {
+          "cycle": 3,
+          "reviewer_id": "68eb0f7a-2b1c-495e-a091-785b40ecdc6c",
+          "reviewer_task_id": "019ffb4e-8662-7813-85c9-4c11f25d490e",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "The reviewer verified both cycle 2 findings resolved, reviewer identity and task provenance, review history, active and release-pending state, browser limitation, exact sixteen-path scope, and recorded QA across the complete base-to-working-tree range."
+        }
+      ],
+      "review_outcome": "PASS",
+      "review_cycles": 3,
+      "implementation_state": "review-clean",
+      "release_state": "release-pending",
+      "notes": "Selected by the August 13 direct Master heartbeat from clean, origin-aligned snapshot base 973357881e200d5df0f844955c8ff1df2751a0d7 and frozen to the sixteen exact paths above. The answer-first, four-category, current-source existing-page candidate and focused regression test are review-clean. Cycle 1 returned PASS; frozen-state cycle 2 found two P2 stale-state mirrors and both were fixed without changing public behavior; final cycle 3 returned PASS with no findings. Local browser rendering was blocked and remains a production invariant. Release and production verification remain. The August 13 GSC snapshot is monitoring context only. No county directory, statewide placement answer, new URL, indexing request, vendor recommendation, cost claim, outreach, or external-account mutation is authorized."
     }
   ]
 }

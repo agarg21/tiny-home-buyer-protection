@@ -1,5 +1,37 @@
 # Progress
 
+## 2026-08-13 - Georgia Existing-Page Repair Candidate
+
+- Fast-forwarded the clean checkout to the understood daily GSC snapshot commit
+  `9733578`; the snapshot through August 11 reports 16 impressions, 0 clicks,
+  five of eight URLs indexed, and four Georgia impressions at page-average
+  position 18.25. It is monitoring context only.
+- Registered `THC-GA-001` at full base
+  `973357881e200d5df0f844955c8ff1df2751a0d7` with sixteen exact paths.
+- Rechecked the bounded DCA and Georgia OCI sources and built the answer-first
+  existing-page candidate: four-category proof decoder, ordered local questions,
+  current 2024 IRC / 2026 Appendix BB context, stop conditions, source roles,
+  canonical, and current sitemap date.
+- Added focused regression coverage for exact category mapping, accessible
+  table structure, source and claim boundaries, internal handoffs, responsive
+  card labels, and sitemap freshness. Focused tests pass.
+- The in-app browser blocked the local `file:` preview, so pre-review visual and
+  console verification is not claimed. Release and production verification
+  remain.
+- Native QA passed: 6/6 focused tests, 76/76 full tests, all 26 GSC snapshots,
+  zero SEO errors with two known untouched-page canonical warnings, zero
+  operator-state errors, valid JSON, required files, exact scope, seven live
+  official source links, and whitespace checks.
+- Independent read-only reviewer ID
+  `68eb0f7a-2b1c-495e-a091-785b40ecdc6c` in task
+  `019ffb4e-8662-7813-85c9-4c11f25d490e` caught one stale GSC source pointer;
+  it was fixed before the reviewer returned `PASS` with no P0-P3 findings.
+  Frozen-state cycle 2 then found two P2 stale mirrors: the SEO research backlog
+  still called review pending, and `ops/current-cycle.md` still labeled August
+  12 metrics current. Both are fixed without changing public behavior. Final
+  cycle 3 returned `PASS` with no P0-P3 findings on the complete sixteen-path
+  range. Release and production verification remain.
+
 ## 2026-07-07
 
 - Created initial repo scaffold for Tiny Homes Buyer Protection.

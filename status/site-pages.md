@@ -1,10 +1,10 @@
 # Tiny Home Clarity Page Status
 
-Last updated: 2026-08-12
+Last updated: 2026-08-13
 
 Sources:
 
-- Current public-safe GSC snapshot: `ops/gsc-snapshots/2026-08-12.md`
+- Current public-safe GSC snapshot: `ops/gsc-snapshots/2026-08-13.md`
 - Visibility diagnosis: `docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`
 - Full-site decision pack: `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`
 - Georgia human review: `docs/research/georgia-tiny-house-human-review-2026-08.md`
@@ -16,23 +16,23 @@ changes. Daily search evidence remains in `ops/gsc-snapshots/`. Page-level
 average position is not a query-specific rank, and third-party demand estimates
 are directional rather than guaranteed traffic.
 
-## August 12 Monitoring Overlay
+## August 13 Monitoring Overlay
 
-The August 12 snapshot is finalized through August 10. The sitemap is
-successful with eight discovered URLs, no errors or warnings, and an August 12
-read. All eight URLs are now inspected: five are indexed and the under-$20K,
+The August 13 snapshot is finalized through August 11. The sitemap is
+successful with eight discovered URLs, no errors or warnings, and an August 13
+read. All eight URLs remain inspected: five are indexed and the under-$20K,
 build-options, and land-workflow URLs are `Discovered - currently not indexed`.
-Rolling performance is 18 impressions, 0 clicks, and page-average position
-37.17. The latest seven-day window has one impression and no click. This is
+Rolling performance is 16 impressions, 0 clicks, and page-average position
+43.56. The latest seven-day window has one impression and no click. This is
 healthy early discovery and complete sensor coverage, not evidence for a
 production outage or a page rewrite.
 
-| Page | Primary role | August 12 GSC signal | Current state | Review coverage | Next eligible decision |
+| Page | Primary role | August 13 GSC signal | Current state | Review coverage | Next eligible decision |
 |---|---|---|---|---|---|
 | `https://tinyhomeclarity.com/` | National placement decision hub | 4 impressions, 0 clicks, page-average position 50.75; indexed; last crawled July 30 | Live and released in `7f9ea5f`; Pages run `30390104298` passed | Full every-section, decision-persona, experience-level, browser, and independent review | Observe query fit. Change only for a verified usefulness, source-freshness, or technical defect. |
 | `https://tinyhomeclarity.com/los-angeles-tiny-house-adu/` | Los Angeles mixed-intent buyer-protection and official-source guide | 2 impressions, 0 clicks, page-average position 20; indexed; last crawled July 12 | Live and repaired in `THC-QUAL-001` | Searcher-POV and beginner/intermediate/advanced review complete | Observe. Two impressions cannot establish a stable rank or justify another rewrite. |
 | `https://tinyhomeclarity.com/san-diego-tiny-house-adu/` | San Diego jurisdiction-first buyer-protection and official-source guide | 5 impressions, 0 clicks, page-average position 52.4; indexed; last crawled July 24 | Live and production-verified in `daaf743`; Pages run `30399382114` passed | SERP, official-source, persona, experience-level, every-section, responsive, routing, and independent review complete | Observe. Revisit only for a source change, a concrete reader gap, or material query evidence. |
-| `https://tinyhomeclarity.com/georgia-tiny-house-classification/` | Georgia structure-classification explainer before local zoning | 5 impressions, 0 clicks, page-average position 22.4; indexed; last crawled July 24 | Live and indexed; existing page unchanged by `THC-REV-001` | August 12 rendered/SERP/persona/every-section review reproduced the poor beginner first screen and found the 2012 IRC / Appendix Q note trails Georgia's current 2024 IRC / 2026 amendment context | `THC-GA-001` is the one promoted answer-first/source-current repair. The causal evidence is human usefulness and official-source freshness, not the GSC sample. |
+| `https://tinyhomeclarity.com/georgia-tiny-house-classification/` | Georgia structure-classification and proof decoder before local zoning | 4 impressions, 0 clicks, page-average position 18.25; indexed; last crawled July 24 | Existing live page remains indexed; `THC-GA-001` answer-first/source-current candidate is review-clean but not released | August 12 rendered/SERP/persona/every-section review; August 13 source recheck, focused tests, full QA, and independent `PASS`. Production verification remains. | Finish or stop the registered repair. The causal evidence is human usefulness and official-source freshness, not the GSC sample. |
 | `https://tinyhomeclarity.com/tiny-home-cost-calculator/` | Quote and build-budget reality check with explicit unknowns | 2 impressions, 0 clicks, page-average position 26; indexed; last crawled July 21 | Live and production-verified in `1af1dc2`; Pages run `30460242431` passed | Current SERP, persona, experience-level, state, native, browser, production, and independent review complete | Observe. Retain the recorded nonblocking blank-buffer-title P3 for a later evidence-led action. |
 | `https://tinyhomeclarity.com/tiny-house-under-20k/` | Buyer-protective feasibility checker for under-$20K claims | No page row; sitemap-discovered; URL Inspection says `Discovered - currently not indexed`; no crawl time in current inspection evidence | Live and in the sitemap | SERP, decision-persona, experience-level, and every-section audit complete | Observe discovery. Do not request indexing repeatedly or rewrite from absent performance. Later consolidation into the cost calculator remains a held quality option. |
 | `https://tinyhomeclarity.com/tiny-house-build-options/` | National plans/kits/shells/trailer/builders responsibility comparison | No page row; sitemap-discovered; URL Inspection says `Discovered - currently not indexed`; no crawl time in current inspection evidence | Live and production-verified in `1895694`; Pages run `30622059848` passed | Demand, SERP/ranking-page, official-source, persona, experience-level, every-section, native, browser, and independent review complete | Observe discovery. Do not request indexing or infer performance before the page is crawled and measured. |

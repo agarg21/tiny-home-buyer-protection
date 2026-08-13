@@ -1,12 +1,87 @@
 # Current Cycle
 
-Last updated: 2026-08-12
+Last updated: 2026-08-13
 
-Active action: `none`
+Active action: `THC-GA-001`
 
-Next eligible action: `THC-GA-001`
+Next eligible action: `none`
 
-## Most Recent Transaction
+## Active Transaction
+
+`THC-GA-001` is a direct-manual repair of the existing Georgia classification
+guide. It implements the reviewed `THC-REV-001` answer-first, four-category,
+and current-source contract without creating a new URL.
+
+Exact paths:
+
+- `docs/research/georgia-tiny-house-human-review-2026-08.md`
+- `site/georgia-tiny-house-classification/index.html`
+- `site/styles.css`
+- `site/sitemap.xml`
+- `tools/georgia-guide.test.mjs`
+- `status/research-rotation.md`
+- `status/site-pages.md`
+- `backlog/implementation-backlog.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/needs-user.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Base: clean, origin-aligned
+`973357881e200d5df0f844955c8ff1df2751a0d7` after the understood August 13
+GSC-only fast-forward.
+
+Evidence classification:
+
+- Causal: review-clean `THC-REV-001` reproduced the first-screen usefulness
+  failure and documented the current Georgia code/source change.
+- Monitoring only: the August 13 snapshot through August 11 reports 16
+  impressions, zero clicks, five of eight URLs indexed, and four Georgia
+  impressions at average position 18.25. Rolling-window movement does not
+  select or change this implementation.
+
+Required result: a direct statewide-versus-local answer, four-category proof
+decoder, ordered jurisdiction/authority questions, current 2024 IRC / 2026
+amendment sources, explicit Appendix BB uncertainty, one concise scope
+boundary, canonical, and current sitemap date.
+
+Predeclared release invariants: exact pushed SHA; successful native Pages run;
+production HTTP 200; expected canonical, H1, four categories, current-code and
+Appendix BB wording, source links, and sitemap date; desktop, 390px, and 320px
+first-screen/decoder containment; no console errors; no stale Appendix Q page
+copy.
+
+Boundaries: existing URL only. No new indexable page, county directory,
+statewide placement answer, indexing request, outreach, community post,
+external account, vendor recommendation, typical/complete cost claim, or
+legal/zoning/buildability conclusion.
+
+Candidate QA: 6/6 focused Georgia tests and 76/76 full tests pass; all 26 public-
+safe GSC snapshots validate; SEO QA has zero errors and only the two known
+untouched-page canonical warnings; operator-state QA has zero errors; JSON,
+required files, exact scope, source HTTP checks, and whitespace checks pass.
+
+Independent review: read-only reviewer ID
+`68eb0f7a-2b1c-495e-a091-785b40ecdc6c` in reviewer task
+`019ffb4e-8662-7813-85c9-4c11f25d490e` returned `PASS` with no P0-P3 findings
+after one stale August 12 GSC pointer was fixed. The reviewer checked the
+decision persona, beginner/intermediate/advanced levels, every section, four-
+category mapping, claim scope, responsive source contract, metadata, internal
+handoffs, state, and QA. Frozen-state cycle 2 then found two P2 stale-state
+mirrors: one still called independent review pending and a lower current-
+evidence section still presented August 12 metrics. Both are fixed; final cycle
+3 returned `PASS` with no P0-P3 findings on the complete base-to-working-tree
+sixteen-path range. Browser rendering was unavailable locally and is not
+claimed; it remains a production invariant.
+
+Release: review-clean candidate pending commit, push, Pages, and predeclared
+production verification.
+
+## Most Recent Completed Transaction
 
 `THC-REV-001` completed as a direct-manual, research-only review of the current
 Georgia classification guide. It returned `repair` after reproducing the
@@ -165,11 +240,11 @@ answer and destination.
 
 ## Current Evidence
 
-The August 12 public-safe GSC snapshot at
-`ops/gsc-snapshots/2026-08-12.md` is fresh monitoring context through August
-10. It confirms all eight sitemap URLs are now inspected: five are indexed and
+The August 13 public-safe GSC snapshot at
+`ops/gsc-snapshots/2026-08-13.md` is fresh monitoring context through August
+11. It confirms all eight sitemap URLs remain inspected: five are indexed and
 the under-$20K, build-options, and land-workflow URLs are discovered-currently-
-not-indexed. Rolling performance is 18 impressions and 0 clicks. This verifies
+not-indexed. Rolling performance is 16 impressions and 0 clicks. This verifies
 the monitoring fix but does not identify a production outage or select a page
 rewrite.
 

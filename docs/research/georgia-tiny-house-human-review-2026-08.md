@@ -1,6 +1,6 @@
 # Georgia Tiny House Human Review
 
-Date: 2026-08-12
+Date: 2026-08-12; implementation source recheck: 2026-08-13
 
 Action: `THC-REV-001`
 
@@ -242,3 +242,47 @@ native QA, pass desktop/mobile/320px rendered checks, receive independent
 persona/every-section/source review, and verify the live release. It must not
 create a new URL, county directory, statewide placement answer, indexing
 request, vendor recommendation, cost claim, outreach, or external mutation.
+
+## THC-GA-001 Implementation Candidate
+
+Selected 2026-08-13 from clean, origin-aligned base
+`973357881e200d5df0f844955c8ff1df2751a0d7`.
+
+The candidate keeps the existing URL and replaces the source-record opening
+with the reviewed reader workflow:
+
+- a direct statewide-versus-local answer and the four category names on the
+  first screen;
+- a four-row category / evidence / non-proof / next-question decoder;
+- six ordered questions to use before a deposit, delivery, land contingency,
+  or construction commitment;
+- current 2024 IRC / January 1, 2026 context with the Appendix BB adoption and
+  enforcement question left for a written authority answer;
+- one concise classification boundary, four stop conditions, and role-specific
+  official sources; and
+- an explicit canonical plus an August 13 sitemap date.
+
+The DCA fact-sheet, current-code, announcement, amendment-packet, enforcement,
+and industrialized-building sources and the Georgia OCI manufactured-housing
+source were rechecked on August 13. They support the page's category, code-
+edition, label/insignia, and state-versus-local boundaries. They do not support
+a statewide placement or Appendix BB enforcement conclusion.
+
+Focused regression coverage verifies the answer-first opening, exact category-
+to-row mapping, accessible headers, current-code wording, official links,
+internal handoffs, prohibited claims, responsive card labels, and sitemap date.
+The in-app browser's security policy blocked the local `file:` preview, so no
+new candidate screenshot or console claim is recorded before independent
+review and production verification.
+
+Native QA passed with 76 of 76 tests, all 26 public-safe GSC snapshots,
+zero SEO errors and the two known untouched-page canonical warnings, zero
+operator-state errors, valid roadmap JSON, required files, exact scope, and
+whitespace checks. All seven official source URLs returned HTTP 200.
+
+Independent read-only review returned `PASS` with no P0-P3 findings. It
+separately verified the primary decision job, beginner/intermediate/advanced
+usefulness, every-section value, exact four-category mapping, claim boundaries,
+semantic structure, responsive source contract, metadata, internal handoffs,
+and durable state. Rendered desktop, 390px, and 320px checks remain a release-
+time production invariant rather than a local candidate claim.

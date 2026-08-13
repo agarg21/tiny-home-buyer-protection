@@ -1,14 +1,14 @@
 # SEO Research And Review Backlog
 
-Last updated: 2026-08-12
+Last updated: 2026-08-13
 
 This is supporting evidence inventory, not a scheduler. The machine-readable
 queue is `ops/seo-roadmap.json`.
 
 ## Current Review-Ready Work
 
-No second research action is ready while the separately implementable Georgia
-repair promoted by `THC-REV-001` is unresolved.
+No second research action is ready while the registered Georgia repair
+promoted by `THC-REV-001` awaits release and production verification.
 
 The completed Georgia research record is
 `docs/research/georgia-tiny-house-human-review-2026-08.md`. It returned
@@ -25,8 +25,8 @@ behind the Georgia implementation decision. Do not run both lanes at once.
 
 ## Current Monitoring Context
 
-The August 12 snapshot through August 10 reports eight discovered/inspected
-pages, five indexed, 18 rolling impressions, and 0 clicks. The under-$20K,
+The August 13 snapshot through August 11 reports eight discovered/inspected
+pages, five indexed, 16 rolling impressions, and 0 clicks. The under-$20K,
 build-options, and land-workflow URLs are discovered-currently-not-indexed.
 This is weak visibility, not proof that every page should be rewritten.
 
