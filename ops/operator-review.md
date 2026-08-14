@@ -83,8 +83,10 @@ Independent review cycle 3:
 Final review outcome: cycle 3 `PASS`. `THC-UNDER-001` is the sole next eligible
 action, but no implementation began in this transaction.
 
-Release state: docs/research-only, push-only review-clean commit pending. No
-deployment applies because no `site/**` or Pages workflow path changed.
+Release state: docs/research-only commit
+`1ceb99d0d32d2f9a632aa07b502499ba053a1d3b` was pushed to `main` and remotely
+verified. No deployment applies because no `site/**` or Pages workflow path
+changed.
 
 ## 2026-08-13 - Georgia Responsive Category-Heading Polish
 

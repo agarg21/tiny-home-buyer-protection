@@ -40,8 +40,9 @@
 - Final frozen-state reviewer `THC-REV-002-C3-CODEX-20260814` returned `PASS`
   with no findings and confirmed the complete eleven-path state is release-
   clean.
-- Release state is push-only because no site or Pages workflow path changed;
-  the review-clean commit is pending.
+- Review-clean docs/research commit `1ceb99d` was pushed to `main` and remotely
+  verified. Release is push-only; no site or Pages workflow path changed, so no
+  deployment applies.
 
 ## 2026-08-13 - Georgia Responsive Polish Released
 

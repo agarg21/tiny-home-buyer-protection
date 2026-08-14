@@ -83,8 +83,9 @@ Final frozen-state reviewer `THC-REV-002-C3-CODEX-20260814` in the same task
 returned `PASS` with no findings and confirmed the complete eleven-path state
 is release-clean.
 
-Release state: docs/research-only, push-only review-clean commit pending. No
-deployment applies.
+Release state: docs/research-only commit
+`1ceb99d0d32d2f9a632aa07b502499ba053a1d3b` was pushed to `main` and remotely
+verified. No deployment applies.
 
 ## Prior Completed Transaction
 
