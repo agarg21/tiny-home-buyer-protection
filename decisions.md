@@ -1074,3 +1074,29 @@ rewrite.
 Boundary: no second action starts in this transaction. The review may later
 return `keep`, `repair`, `consolidate`, `needs-evidence`, or `no-build`; only a
 separate registered and reviewed action may change a public page.
+
+## 2026-08-14 - Keep The Under-$20K Question, Remove Duplicate Arithmetic
+
+Decision from review-clean `THC-REV-002`: keep the existing under-$20K URL because
+the reproducible public-web sample, durable July 28 audit, and live first screen
+support a distinct feasibility and claim-scope job. Do not consolidate the
+whole page into the general cost calculator.
+
+The current under-$20K allocation form should not survive a later repair.
+Blank and structure-only states can headline `Within $20K` while major costs
+remain unresolved. Native `min=0` validation blocks negative submission, so no
+negative-calculation defect is claimed. The full cost calculator already models
+dollar inputs more safely with neutral blank and explicit partial states.
+
+The current search sample is corroborating rather than sole causal evidence. It
+uses the OpenAI public web-search interface, retains each exact query's first
+five response-order results, and records pairwise overlap, observable result
+types, architecture signals, unknown market/Google feature state, and
+confidence. The durable July 28 audit and live product-state comparison carry
+the core decision.
+
+Promote only `THC-UNDER-001` as the ready future existing-page repair: replace duplicate
+arithmetic with a claim-scope evidence check, compress repetition, route actual
+numbers to the full calculator, and add the missing canonical. This decision
+does not authorize implementation, an indexing request, a cost or affordability
+conclusion, a new URL, or any external action.

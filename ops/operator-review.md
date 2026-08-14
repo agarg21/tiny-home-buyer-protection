@@ -1,5 +1,91 @@
 # Operator Review
 
+## 2026-08-14 - Under-$20K And Cost-Calculator Architecture Review
+
+Action: `THC-REV-002`
+
+Selection authority: the user-authorized direct Master heartbeat. No Control
+Room lease or central-ledger write applies.
+
+Base: clean, origin-aligned
+`3340f60d5fd3d4c2ea963496dc4aa674cd744bf6` after the understood August 14
+GSC-only fast-forward.
+
+Frozen boundary: the eleven exact paths in `ops/current-cycle.md`. Research
+only; no `site/**`, indexing, deployment, outreach, post, external-account,
+vendor, typical/complete cost, affordability, or legal/zoning/buildability
+authority.
+
+Disposition: `repair`. Keep the existing under-$20K direct-answer
+page, but replace its duplicate budget-summing tool in a later transaction.
+A blank production submission headlines `Within $20K` with `$0` entered and
+twelve unresolved buckets. A structure-only `$20,000` submission uses the same
+headline with eleven unresolved buckets. Native `min=0` validation blocks a
+negative submission and produces no new result; the prior blank result remained
+visible during the check. The full cost calculator instead keeps blank neutral
+and labels a quote-only scenario partial with unknowns first.
+
+The 2026-08-14 OpenAI public web-search sample retains each exact query's first
+five interface results, observable result types, pairwise exact-URL/domain/page-
+type overlap, architecture decision, and confidence. It corroborates separate
+jobs: the exact under-$20K question is answer/evidence led, the short query is
+shopping/listing led, and the calculator query is tool/cost-guide led. Market,
+locale, device, personalization, Google feature state, exact volume, CPC,
+difficulty, ranking, and traffic remain `UNKNOWN`.
+
+The completed review promotes only `THC-UNDER-001` for a later existing-page
+repair. It does not start implementation. Anti Gravity advisory review was attempted
+twice but produced no output because the headless CLI denied its own command
+permission.
+
+Native QA passed before review.
+
+Independent review cycle 1:
+
+- Reviewer ID: `THC-REV-002-C1-CODEX-20260814`
+- Reviewer task: `01a00065-9c44-71e2-99f7-ab5e03b382e8`
+- Mode: different independent read-only reviewer
+- Verdict: `FAIL`
+- P2: the record incorrectly said a negative input was normalized and
+  submitted. Corrected to the observed native validation block and no new
+  result.
+- P2: the current search sample was not reproducible enough to drive
+  architecture. Corrected with the actual search surface, separate exact
+  queries, first-five response order, visible result types, pairwise overlap,
+  architecture signals, limitations, and confidence. The sample is now
+  corroborating evidence; the live product states and retained July 28 audit
+  remain the causal core.
+
+Independent review cycle 2:
+
+- Reviewer ID: `THC-REV-002-C2-CODEX-20260814`
+- Reviewer task: `01a00065-9c44-71e2-99f7-ab5e03b382e8`
+- Mode: same different independent read-only reviewer
+- Verdict: `PASS`
+- Findings: none
+- Resolution: both prior P2s are resolved. The reviewer passed the complete
+  eleven-path product decision, personas, experience levels, every-section
+  dispositions, evidence classes, sole future promotion, future target paths,
+  JSON/Markdown consistency, QA evidence, and no-site/no-external-mutation
+  boundary.
+
+Independent review cycle 3:
+
+- Reviewer ID: `THC-REV-002-C3-CODEX-20260814`
+- Reviewer task: `01a00065-9c44-71e2-99f7-ab5e03b382e8`
+- Mode: final frozen-state, different independent read-only reviewer
+- Verdict: `PASS`
+- Findings: none
+- Resolution: the reviewer confirmed completed/ready/active state, all
+  JSON/Markdown/status/backlog mirrors, exact eleven-path scope, all native QA,
+  and no site or external mutation are release-clean.
+
+Final review outcome: cycle 3 `PASS`. `THC-UNDER-001` is the sole next eligible
+action, but no implementation began in this transaction.
+
+Release state: docs/research-only, push-only review-clean commit pending. No
+deployment applies because no `site/**` or Pages workflow path changed.
+
 ## 2026-08-13 - Georgia Responsive Category-Heading Polish
 
 Action: `THC-GA-RESP-001`

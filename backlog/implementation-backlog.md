@@ -1,6 +1,6 @@
 # Implementation Backlog
 
-Last updated: 2026-08-13
+Last updated: 2026-08-14
 
 This is a supporting inventory. It never authorizes work. Only a `ready` item
 selected from `ops/seo-roadmap.json` by the Master may enter implementation.
@@ -12,7 +12,13 @@ Pages run `31744910489`.
 
 ## Ready, Not Selected
 
-None. `THC-REV-002` is research-only and cannot authorize a page change.
+`THC-UNDER-001` is the sole ready, not-selected action. Review-clean
+`THC-REV-002` found a specific existing-page defect: the under-$20K page's
+blank and structure-only states produce a positive headline before unresolved
+cost warnings, while its arithmetic duplicates the full calculator. The later
+repair keeps the URL, replaces duplicate arithmetic with a claim-scope evidence
+check, routes dollar modeling to the full calculator, compresses repetition,
+and adds the missing canonical.
 
 The 90-day publication hold remains active through 2026-11-08.
 
@@ -40,9 +46,10 @@ These ideas are not ready and must not be inferred as work from this file:
 - another cost page; and
 - generic inspiration, lifestyle, or informational articles.
 
-The build-options page and cost calculator already own overlapping decision
-jobs. The under-$20K page remains an observation or consolidation candidate;
-it is not roadmap-ready.
+The build-options page and cost calculator already own their responsibility and
+quote-modeling jobs. The under-$20K page retains a distinct feasibility-
+question role, but its duplicate arithmetic is a ready repair, not active
+implementation.
 
 ## Deferred Human Decisions
 

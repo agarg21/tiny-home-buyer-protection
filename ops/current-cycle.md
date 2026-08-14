@@ -1,12 +1,92 @@
 # Current Cycle
 
-Last updated: 2026-08-13
+Last updated: 2026-08-14
 
 Active action: `none`
 
-Next eligible action: `THC-REV-002`
+Next eligible action: `THC-UNDER-001`
 
 ## Most Recent Completed Transaction
+
+`THC-REV-002` completed a direct-manual, research-only review of whether the current
+under-$20K checker provides a distinct human decision artifact or should be
+consolidated with the quote-first cost calculator.
+
+Exact paths:
+
+- `docs/research/tiny-house-under-20k-consolidation-review-2026-08.md`
+- `status/site-pages.md`
+- `status/research-rotation.md`
+- `backlog/implementation-backlog.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Base: clean, origin-aligned
+`3340f60d5fd3d4c2ea963496dc4aa674cd744bf6` after the understood August 14
+GSC-only fast-forward.
+
+Evidence classification:
+
+- Causal for research: the July 28 portfolio review preserved an unresolved
+  product-overlap question between the two calculators.
+- Monitoring only: the August 14 GSC snapshot validates and adds one finalized
+  impression on August 12. It reports 15 rolling impressions, 0 clicks, five
+  of eight URLs indexed, and no performance row for the under-$20K page. This
+  does not select a rewrite, consolidation, or indexing request.
+
+Required result: compare the two rendered pages and realistic tool states,
+sample current query/SERP intent and representative ranking pages, review the
+decision job across beginner/intermediate/advanced readers, label every
+section, preserve unknown metrics, and return one of `keep`, `repair`,
+`consolidate`, `needs-evidence`, or `no-build` with at most one separately
+implementable future action.
+
+Boundaries: research only. No `site/**` edit, new URL, indexing request,
+outreach, community post, external-account mutation, vendor recommendation,
+typical/complete cost claim, affordability conclusion, or legal/zoning/
+buildability conclusion.
+
+Result: `repair`. A reproducible public-web sample corroborates a
+distinct direct-feasibility job for the under-$20K URL, while the calculator
+query is tool and cost-guide led. The live under-$20K opening answers the
+intended question, but its duplicate allocation form returns `Within $20K` for
+blank and structure-only states before later warnings undo the headline. Native
+`min=0` validation blocks a negative submission; no negative-calculation defect
+was reproduced. The live cost calculator correctly keeps a blank result neutral
+and labels a quote-only scenario partial with unknowns first.
+
+Promoted future action: `THC-UNDER-001` only. Keep the URL and direct answer;
+replace the duplicate arithmetic with a claim-scope evidence check, route
+actual dollar modeling to the cost calculator, compress repetition, and add the
+missing canonical. It is ready but was not started in this transaction.
+
+Research record:
+`docs/research/tiny-house-under-20k-consolidation-review-2026-08.md`.
+
+Anti Gravity advisory review was attempted twice in read-only plan mode but
+the headless CLI denied its own command permission and returned no analysis.
+No advisory output influenced the disposition.
+
+Native QA passed. Independent cycle 1 returned `FAIL` with two
+P2 documentation findings: the negative-input behavior was misstated, and the
+current search sample lacked a reproducible surface, ordered per-query results,
+overlap classification, and confidence. Both were corrected in the frozen
+paths. Cycle 2 reviewer
+`THC-REV-002-C2-CODEX-20260814` in independent read-only task
+`01a00065-9c44-71e2-99f7-ab5e03b382e8` returned `PASS` with no findings.
+Final frozen-state reviewer `THC-REV-002-C3-CODEX-20260814` in the same task
+returned `PASS` with no findings and confirmed the complete eleven-path state
+is release-clean.
+
+Release state: docs/research-only, push-only review-clean commit pending. No
+deployment applies.
+
+## Prior Completed Transaction
 
 `THC-GA-RESP-001` is a direct-manual, existing-page responsive-polish action.
 It corrects only the narrow Georgia category-card heading observed on the live

@@ -1,5 +1,48 @@
 # Progress
 
+## 2026-08-14 - Under-$20K Architecture Review Completed
+
+- Fast-forwarded the clean checkout to understood GSC-only commit `3340f60`.
+  All 27 public-safe snapshots validate. August 14 through August 12 reports 15
+  impressions, 0 clicks, five of eight URLs indexed, and one new finalized
+  impression on August 12; it is monitoring context only.
+- Registered research-only `THC-REV-002` on eleven exact paths with no
+  `site/**`, indexing, deployment, outreach, post, account, vendor, cost-
+  conclusion, or legal/zoning/buildability authority.
+- Ran three exact queries separately through the OpenAI public web-search
+  interface and retained each first-five response-order sample, observable
+  result types, pairwise overlap, architecture signal, limitations, and
+  confidence. Exact under-$20K intent is answer/evidence led, the short query is
+  shopping/listing led, and calculator intent is tool/cost-guide led. Market,
+  Google feature state, volume, CPC, difficulty, ranking, and traffic remain
+  `UNKNOWN`.
+- Production rendering confirms the under-$20K opening answers the intended
+  question. Its duplicate calculator is materially weaker: a blank submission
+  headlines `Within $20K` with `$0` entered, and a structure-only `$20,000`
+  state uses the same headline with eleven unresolved buckets. Native `min=0`
+  validation blocks negative submission and produces no new result.
+- The full calculator keeps blank neutral and labels a quote-only `$20,000`
+  scenario partial with unknowns first. Both pages produced no observed console
+  warning/error; fresh 390px first screens were contained.
+- Disposition is `repair`: keep the under-$20K URL and direct answer,
+  replace duplicate arithmetic with a claim-scope evidence check, and route
+  actual dollar modeling to the full calculator. `THC-UNDER-001` is the sole
+  ready future action; it was not implemented in this transaction.
+- Anti Gravity advisory review was attempted twice but returned no output
+  because its headless command permission was denied. Native QA passed.
+- Independent review cycle 1 returned `FAIL` with two P2 record defects: the
+  negative-input behavior was misstated and the current search sample was not
+  reproducible enough. Both were corrected in the frozen paths.
+- Independent reviewer `THC-REV-002-C2-CODEX-20260814` in read-only task
+  `01a00065-9c44-71e2-99f7-ab5e03b382e8` returned cycle 2 `PASS` with no
+  findings. The transaction completed with no site, deployment, indexing, post,
+  or external-account action.
+- Final frozen-state reviewer `THC-REV-002-C3-CODEX-20260814` returned `PASS`
+  with no findings and confirmed the complete eleven-path state is release-
+  clean.
+- Release state is push-only because no site or Pages workflow path changed;
+  the review-clean commit is pending.
+
 ## 2026-08-13 - Georgia Responsive Polish Released
 
 - Confirmed the repository is clean and origin-aligned at

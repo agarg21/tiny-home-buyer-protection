@@ -71,9 +71,12 @@ monetization, provider, and unreviewed release decisions.
 25. `THC-GA-RESP-001` — completed and production-verified in `4ca8565`; Pages
     run `31744910489` succeeded and the responsive card heading now spans the
     card without changing desktop behavior or page content.
-26. `THC-REV-002` — ready, not selected: review whether the under-$20K checker
-    remains a distinct decision aid or should be consolidated with the quote-
-    first cost calculator. Research only; non-indexing does not select a rewrite.
+26. `THC-REV-002` — completed review-clean with cycle 2 `PASS`: keep the
+    distinct under-$20K direct-answer URL, but replace its duplicate arithmetic
+    in a later action. Research only; non-indexing did not select the repair.
+27. `THC-UNDER-001` — ready, not selected: repair the existing under-$20K page
+    as a claim-scope evidence check and route dollar modeling to the full cost
+    calculator. No new URL.
 
 ## THC-REV-001 frozen contract
 
@@ -193,9 +196,10 @@ monetization, provider, and unreviewed release decisions.
   width; 900px, 390px, and 320px use the card layout with full-width headings,
   all labels, no horizontal overflow, and no console errors.
 
-## THC-REV-002 next contract
+## THC-REV-002 completed result
 
-- State: ready, not selected or started.
+- State: selected on 2026-08-14 at clean, origin-aligned base `3340f60` after
+  the understood GSC-only fast-forward; frozen to eleven exact paths.
 - Question: does the under-$20K checker provide a distinct decision artifact,
   or does its calculator duplicate the quote-first cost calculator closely
   enough that consolidation would better serve a real reader?
@@ -205,6 +209,32 @@ monetization, provider, and unreviewed release decisions.
   `no-build`, with at most one separately implementable future action.
 - Boundary: no `site/**` edit, new URL, indexing request, cost conclusion,
   outreach, community post, or external mutation in the research transaction.
+- Disposition: `repair`. Keep the existing URL and direct answer.
+  Replace only the duplicate allocation tool in a later transaction because
+  blank and structure-only states can headline `Within $20K` while major costs
+  remain unresolved. Native browser validation blocks negative submission; no
+  negative-calculation defect was reproduced. The full calculator already
+  handles blank and quote-only partial states safely.
+- Search architecture: a reproducible OpenAI public web-search sample retains
+  each query's first five interface results, observable types, pairwise
+  overlap, limitations, and confidence. It corroborates direct-answer,
+  shopping/listing, and calculator/tool jobs; the live product-state comparison
+  and July 28 audit remain the causal core.
+- Promoted action: `THC-UNDER-001` only, status `ready` but not selected. No
+  implementation began in this transaction.
+- Review cycle 1: independent task
+  `01a00065-9c44-71e2-99f7-ab5e03b382e8` returned `FAIL` with two P2 record
+  defects. Both the negative-input description and search-sample
+  reproducibility were corrected.
+- Review cycle 2: reviewer
+  `THC-REV-002-C2-CODEX-20260814` in the same different independent read-only
+  task returned `PASS` with no findings. Both prior P2s are resolved, native QA
+  is green, and no site or external mutation occurred.
+- Final frozen-state cycle 3: reviewer
+  `THC-REV-002-C3-CODEX-20260814` in the same task returned `PASS` with no
+  findings and confirmed the complete eleven-path state is release-clean.
+- Release state: docs/research-only, push-only review-clean commit pending. No
+  deployment applies.
 
 ## THC-OPS-004 completion
 

@@ -1,6 +1,6 @@
 # Human-Value Research Rotation
 
-Last updated: 2026-08-13
+Last updated: 2026-08-14
 
 This is the due-work view for research during the 90-day publication hold. It
 is not a content calendar. Each run starts with one real reader question,
@@ -27,7 +27,7 @@ reason is already durable.
 
 | Priority | Surface | Last material human evidence | Due question | State |
 |---|---|---|---|---|
-| 1 | Under-$20K checker | 2026-07-28 audit; current page last materially changed 2026-07-17 | Is its duplicate calculator still a distinct decision aid, or should the page be consolidated with the quote-first cost calculator? Diagnose architecture and discovery without treating non-indexing as proof of a copy defect. | `THC-REV-002` is the sole next eligible research action. It is not selected or started. |
+| 1 | Under-$20K checker | 2026-08-14 reproducible public-web, rendered, state, persona, every-section, and architecture review; cycle 2 `PASS` | Is its duplicate calculator still a distinct decision aid, or should the page be consolidated with the quote-first cost calculator? Diagnose architecture and discovery without treating non-indexing as proof of a copy defect. | Completed result is `repair`: keep the question-specific URL, replace its flawed duplicate arithmetic with a claim-scope evidence check, and route numbers to the full calculator. `THC-UNDER-001` is ready but not selected. |
 | 2 | Los Angeles guide | 2026-07-19 answer-first repair | Is there a current source, repetition, first-screen, or query-fit gap beyond the already reviewed City/County boundary? | Observe; no due gap. |
 | 3 | Homepage, San Diego, Georgia, cost calculator, build options, and land workflow | Reviewed or materially changed 2026-07-28 through 2026-08-13 | Has a source, rendered state, internal handoff, or repeated query signal changed? | Observe until a concrete trigger or the 30/60/90-day checkpoints. |
 
@@ -54,10 +54,11 @@ remain fresh.
 
 ## Most Recent Result
 
-`THC-REV-001` returned `repair`, `THC-GA-001` released the bounded
-existing-page result, and `THC-GA-RESP-001` released the production-observed
-mobile heading polish in `4ca8565`. The durable research record is
-`docs/research/georgia-tiny-house-human-review-2026-08.md`. The causal evidence
-is a reproduced human first-screen failure plus a current official-source
-change, not the small GSC sample. Georgia returns to observation; do not repeat
-the content research while its inputs remain fresh.
+`THC-REV-002` returned `repair` and passed independent cycle 2. Its durable
+record is
+`docs/research/tiny-house-under-20k-consolidation-review-2026-08.md`. The causal
+core is the retained July 28 overlap finding plus the reproduced blank and
+structure-only product states; current public-web results corroborate distinct
+page jobs, and GSC non-indexing remains monitoring only. `THC-UNDER-001` is the
+sole ready future action. Do not repeat this research while its inputs remain
+fresh.
