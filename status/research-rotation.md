@@ -27,7 +27,7 @@ reason is already durable.
 
 | Priority | Surface | Last material human evidence | Due question | State |
 |---|---|---|---|---|
-| 1 | Under-$20K checker | 2026-08-14 review-clean architecture decision plus 2026-08-22 focused, rendered, and three-cycle semantic review evidence | What does a `$20,000` claim actually cover, and what proof is missing before a buyer should rely on it? | `THC-UNDER-001` is review-clean after final cycle 3 `PASS`. The candidate keeps the URL, replaces duplicate arithmetic with a claim-scope evidence check, and routes numbers to the full calculator. Commit, Pages, and production verification remain. |
+| 1 | Under-$20K checker | 2026-08-22 production-verified repair with focused, rendered, and three-cycle semantic review evidence | What does a `$20,000` claim actually cover, and what proof is missing before a buyer should rely on it? | Released in `195ec8c`; Pages run `32600565832` and production invariants pass. Observe until evidence changes. |
 | 2 | Los Angeles guide | 2026-07-19 answer-first repair | Is there a current source, repetition, first-screen, or query-fit gap beyond the already reviewed City/County boundary? | Observe; no due gap. |
 | 3 | Homepage, San Diego, Georgia, cost calculator, build options, and land workflow | Reviewed or materially changed 2026-07-28 through 2026-08-13 | Has a source, rendered state, internal handoff, or repeated query signal changed? | Observe until a concrete trigger or the 30/60/90-day checkpoints. |
 
@@ -54,9 +54,8 @@ remain fresh.
 
 ## Most Recent Result
 
-`THC-REV-002` returned `repair` and passed independent review. Its durable
-record is
-`docs/research/tiny-house-under-20k-consolidation-review-2026-08.md`. Active
-`THC-UNDER-001` now implements that decision without repeating the research.
+`THC-REV-002` returned `repair`; completed `THC-UNDER-001` implements that
+decision in production-verified commit `195ec8c`. Its durable research record
+is `docs/research/tiny-house-under-20k-consolidation-review-2026-08.md`.
 August 22 GSC non-indexing remains monitoring only. No later research lane is
-selected while this transaction remains active.
+selected until roadmap or evidence changes.

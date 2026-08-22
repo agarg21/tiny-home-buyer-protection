@@ -1152,3 +1152,7 @@ scope that is explicitly excluded or not applicable is a conflict, while an
 unanswered required scope remains missing evidence rather than a contradiction.
 When both claim object and proof are unresolved, define what the number buys
 before asking the reader to upgrade the proof.
+
+Release decision: ship the exact review-clean result in `195ec8c`. Pages run
+`32600565832` and declared production invariants pass. Return the page to
+observation; no next action becomes eligible from low visibility alone.

@@ -1,6 +1,6 @@
 # Progress
 
-## 2026-08-22 - Under-$20K Claim-Scope Repair Candidate
+## 2026-08-22 - Under-$20K Claim-Scope Repair Released
 
 - Selected ready `THC-UNDER-001` as the heartbeat's one action from clean,
   origin-aligned base `75ff01f` and froze the roadmap's fourteen exact paths.
@@ -37,7 +37,11 @@
 - Final frozen-state cycle 3 returned `PASS` with no findings and independently
   reproduced 12/12 focused and 88/88 full tests, exact scope, state/responsive
   behavior, mirrors, boundaries, and the evidence-only strongest result.
-  Commit, Pages, and production verification remain.
+- Pushed exact reviewed commit `195ec8c7452c63121d58b9eee0350ad78e69d8f1`.
+  Pages run `32600565832` succeeded. Live HTML, CSS, and sitemap byte-match;
+  HTTP 200, canonical, direct answer, blank/incomplete/conflict/documented
+  states, desktop/390px/320px layouts, current sitemap date, and the unchanged
+  eight-URL set pass. No next action is eligible until evidence changes.
 
 ## 2026-08-22 - Two-Month Learning Loop Setup
 

@@ -7,17 +7,12 @@ selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
 ## Active
 
-`THC-UNDER-001` is active from clean, aligned base `75ff01f`. The candidate
-keeps the existing URL, replaces the duplicate budget calculator with a nine-
-category claim-scope evidence check, adds the canonical, and routes arithmetic
-to the full calculator. Cycle 1's two P2 state-model findings and cycle 2's
-define-before-prove P3 are fixed; focused, full native, and local responsive QA
-pass. Final frozen-state cycle 3 returned `PASS`; commit, Pages, and production
-verification remain.
+None. `THC-UNDER-001` is released and production-verified in `195ec8c`; Pages
+run `32600565832` succeeded.
 
 ## Ready, Not Selected
 
-None while `THC-UNDER-001` is active.
+None until roadmap or evidence changes.
 
 The 90-day publication hold remains active through 2026-11-08.
 
@@ -47,7 +42,7 @@ These ideas are not ready and must not be inferred as work from this file:
 
 The build-options page and cost calculator already own their responsibility and
 quote-modeling jobs. The under-$20K page retains a distinct feasibility-
-question role; its active repair cannot broaden into another cost page.
+question role; its completed repair does not authorize another cost page.
 
 ## Deferred Human Decisions
 

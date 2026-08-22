@@ -74,15 +74,15 @@ monetization, provider, and unreviewed release decisions.
 26. `THC-REV-002` — completed review-clean with cycle 2 `PASS`: keep the
     distinct under-$20K direct-answer URL, but replace its duplicate arithmetic
     in a later action. Research only; non-indexing did not select the repair.
-27. `THC-UNDER-001` — in progress: repair the existing under-$20K page
-    as a claim-scope evidence check and route dollar modeling to the full cost
-    calculator. No new URL.
+27. `THC-UNDER-001` — completed and production-verified in `195ec8c`; the
+    existing under-$20K page now audits claim scope and routes dollar modeling
+    to the full cost calculator. Pages run `32600565832` succeeded. No new URL.
 28. `THC-OPS-005` — completed review-clean: renewed the direct Master heartbeat through
     2026-10-22 and made the user-question, domain-learning, SEO-learning,
     useful-action, measurement, and durable-improvement loop explicit. No page
     or external action.
 
-## THC-UNDER-001 active contract
+## THC-UNDER-001 completed result
 
 - Authority: the 2026-08-22 direct Master heartbeat; no Control Room lease or
   central-ledger write.
@@ -127,8 +127,13 @@ monetization, provider, and unreviewed release decisions.
   restored and covered by focused plus rendered checks.
 - Final cycle 3: `PASS` with no P0-P3. The reviewer independently reproduced
   the focused/full suite, state and responsive behavior, exact scope, mirrors,
-  boundaries, and evidence-only strongest result. Commit, Pages, and production
-  verification remain.
+  boundaries, and evidence-only strongest result.
+- Release: exact reviewed commit `195ec8c` is pushed and remotely aligned;
+  Pages run `32600565832` succeeded. Live HTML, CSS, and sitemap byte-match the
+  commit; HTTP 200, canonical, direct answer, blank/incomplete/conflict/
+  documented states, desktop/390px/320px layouts, current sitemap date, and the
+  unchanged eight-URL set pass.
+- Next action: `none` until roadmap or evidence changes.
 
 ## THC-OPS-005 completed result
 

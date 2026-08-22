@@ -2,13 +2,14 @@
 
 Last updated: 2026-08-22
 
-Active action: `THC-UNDER-001`
+Active action: `none`
 
 Next eligible action: `none`
 
-## Active Transaction
+## Most Recent Completed Transaction
 
-`THC-UNDER-001` is a direct-manual repair of the existing under-$20K page.
+`THC-UNDER-001` completed a direct-manual repair of the existing under-$20K
+page.
 
 Human question: when a listing, video, seller, or DIY story says a tiny house
 costs `$20,000`, what does that number actually cover, and what proof is still
@@ -115,10 +116,18 @@ focused regression and rendered combined-state check pass.
 Final frozen-state cycle 3 returned `PASS` with no P0-P3. The reviewer
 independently reproduced 12/12 focused and 88/88 full tests, all state and
 responsive checks, exact fourteen-path scope, current repository mirrors, and
-the evidence-only strongest result. The candidate is review-clean; commit,
-Pages, and production verification remain.
+the evidence-only strongest result.
 
-## Most Recent Completed Transaction
+Release is production-verified. Exact reviewed commit
+`195ec8c7452c63121d58b9eee0350ad78e69d8f1` was pushed and remotely aligned;
+GitHub Pages run `32600565832` succeeded. The live page returned HTTP 200 and
+the page, stylesheet, and sitemap byte-match the commit. Production blank,
+incomplete, conflict, and documented states pass; the strongest result remains
+evidence-only. Desktop, 390px, and 320px layouts are clean, the self-canonical
+and direct answer are live, the sitemap date is August 22, and the eight-URL
+set is unchanged. No next action is eligible until roadmap or evidence changes.
+
+## Prior Completed Transaction
 
 `THC-OPS-005` completed a direct-manual, docs/config-only reconciliation for the
 user-authorized two-month human-value learning loop. It renews the permanent

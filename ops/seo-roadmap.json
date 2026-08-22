@@ -1900,8 +1900,9 @@
       "learning_value": 3,
       "effort": 3,
       "risk": 2,
-      "status": "in_progress",
+      "status": "completed",
       "selected_on": "2026-08-22",
+      "completed_on": "2026-08-22",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
@@ -1979,9 +1980,12 @@
       ],
       "review_outcome": "PASS",
       "review_cycles": 3,
-      "implementation_state": "review-clean-release-pending",
-      "release_state": "release-pending",
-      "notes": "Selected on 2026-08-22 as the heartbeat's one substantive action from clean, origin-aligned base 75ff01fcc26269a123b6091969d22e4dfaaa10dc and frozen to the fourteen exact target paths. Candidate implementation and local QA are complete. Independent cycle 1 returned two P2 state-model findings; both are fixed. Cycle 2 returned PASS_WITH_P3 with no P0-P2 and its next-action-order P3 is fixed. Final cycle 3 returned PASS with no findings. Commit, Pages, and production verification remain. Keep the existing URL; no new page, cost range, affordability conclusion, vendor recommendation, indexing request, outreach, community post, external-account mutation, or general cost-calculator change."
+      "implementation_state": "released",
+      "release_state": "production-verified",
+      "release_commit": "195ec8c7452c63121d58b9eee0350ad78e69d8f1",
+      "pages_run_id": 32600565832,
+      "production_verification": "GitHub Pages run 32600565832 succeeded for the exact reviewed commit. The live under-$20K page returned HTTP 200; page HTML, shared stylesheet, and sitemap byte-match repository files. Production blank, incomplete, conflict, and documented states passed, the strongest result remained evidence-only, the canonical and direct answer were live, desktop/390px/320px layouts were clean, the sitemap date was current, and the eight-URL set was unchanged.",
+      "notes": "Completed on 2026-08-22 as the heartbeat's one substantive action from clean, origin-aligned base 75ff01fcc26269a123b6091969d22e4dfaaa10dc and frozen to the fourteen exact target paths. Independent cycle 1 returned two P2 state-model findings; both were fixed. Cycle 2 returned PASS_WITH_P3 with no P0-P2 and its next-action-order P3 was fixed. Final cycle 3 returned PASS with no findings. Exact reviewed commit 195ec8c7452c63121d58b9eee0350ad78e69d8f1 was pushed; Pages run 32600565832 and production invariants passed. Keep the existing URL; no new page, cost range, affordability conclusion, vendor recommendation, indexing request, outreach, community post, external-account mutation, or general cost-calculator change occurred."
     },
     {
       "id": "THC-OPS-005",
