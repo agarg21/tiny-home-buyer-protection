@@ -1100,3 +1100,26 @@ arithmetic with a claim-scope evidence check, compress repetition, route actual
 numbers to the full calculator, and add the missing canonical. This decision
 does not authorize implementation, an indexing request, a cost or affordability
 conclusion, a new URL, or any external action.
+
+## 2026-08-22 - Run A Two-Month Human-Value Learning Loop
+
+Decision: renew this permanent Master at 09:00 and 17:00
+America/New_York through 2026-10-22 at 17:00 as a direct-manual project loop.
+Do not route these runs through the Control Room or treat two daily heartbeats
+as a production quota.
+
+The loop starts from one real human question, improves the domain model and SEO
+model, performs at most one evidence-backed useful action, measures or reviews
+the result, and persists durable learning. A useful action can be a verified
+technical fix, an existing-page repair, bounded research, an internal handoff
+improvement, or a draft-only answer to a real community question.
+
+Recursive improvement is bounded. Change prompts, tests, or protocol only when
+a concrete failure, independent-review finding, or repeated friction exposes a
+reusable weakness. Do not produce process documents merely to prove the loop is
+running.
+
+The eight-page no-new-indexable-page hold remains through 2026-11-08. Community
+answers remain draft-only without the user's approval of the exact text and
+destination. `THC-UNDER-001` remains the sole ready next implementation action
+and is not started in this setup transaction.

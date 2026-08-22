@@ -10,14 +10,20 @@ review evidence, roadmap, and release policy. When Control Room mode is used,
 the central operator owns normalized private evidence, its dispatch ledger, and
 the portfolio report. It remains the only writer of that central ledger.
 
-By direct user instruction on 2026-08-09, this Master task has a temporary
-direct heartbeat at 09:00 and 17:00 America/New_York through
-2026-08-14 17:00 ET. Those runs are direct-manual project transactions, not
+By direct user instruction on 2026-08-22, this Master task has a time-bounded
+direct learning loop at 09:00 and 17:00 America/New_York through
+2026-10-22 17:00 ET. Those runs are direct-manual project transactions, not
 Control Room dispatches: they do not require a lease and must not write the
 central ledger. The Master still records one local action and exact paths,
 keeps work serial, runs native QA and independent read-only review for material
 changes, and obeys normal release controls. After the cutoff, operation returns
 to manual-only unless the user explicitly renews or changes the schedule.
+
+The loop should move from one real human question to domain and SEO evidence,
+at most one useful action, measurement or review feedback, and durable learning.
+Do not turn self-improvement into protocol churn: change prompts, tests, or
+operating rules only when a concrete failure, reviewer finding, or repeated
+friction justifies it.
 
 Standing reviewed-release authorization was granted on 2026-07-17. The operator
 may inspect, research, implement, independently review, validate, and push

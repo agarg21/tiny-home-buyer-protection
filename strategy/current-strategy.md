@@ -1,6 +1,6 @@
 # Current Strategy
 
-Last updated: 2026-08-12
+Last updated: 2026-08-22
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at
@@ -304,7 +304,7 @@ subtotal. See
 ## Current Validation Portfolio
 
 The original launch list has been superseded by the actual reviewed portfolio.
-As of 2026-08-12, eight public assets are in the sitemap:
+As of 2026-08-22, eight public assets are in the sitemap:
 
 1. National placement decision hub.
 2. Los Angeles official-source buyer guide.
@@ -315,10 +315,11 @@ As of 2026-08-12, eight public assets are in the sitemap:
 7. Plans, kits, shells, trailers, and builder responsibility comparison.
 8. Pre-offer parcel evidence and unresolved-question workflow.
 
-The August 12 GSC snapshot now inspects all eight URLs. Five are indexed; the
+The August 22 GSC snapshot inspects all eight URLs. Five are indexed; the
 under-$20K, build-options, and land-workflow pages are discovered-currently-
-not-indexed. The finalized rolling window through 2026-08-10 reports 18
-impressions and 0 clicks. This is too little evidence for page-level causal
+not-indexed. The finalized rolling window through 2026-08-20 reports 18
+impressions and 0 clicks, with current page-level testing concentrated on the
+homepage and San Diego. This remains too little evidence for page-level causal
 conclusions, but enough to reject open-ended publication as a substitute for
 product quality.
 
@@ -366,6 +367,37 @@ claims. A relevant site link is optional, must add work-saving value beyond the
 answer, and requires plain affiliation disclosure. Drafting is allowed;
 posting or any account mutation requires the user's approval of the exact text
 and destination.
+
+### Two-Month Human-Value Learning Loop
+
+From 2026-08-22 through 2026-10-22, the permanent Master runs at 09:00 and
+17:00 America/New_York as a direct-manual learning loop. The purpose is not to
+produce two changes per day. It is to get better at understanding tiny-home
+decisions, search behavior, and what genuinely helps a person.
+
+Each run should close this loop:
+
+1. Start with one human question or current product failure, not a keyword or
+   calendar slot.
+2. Improve the domain model: identify the decision object, terminology,
+   evidence needed, common failure mode, and facts that would change the
+   answer.
+3. Improve the SEO model: classify query intent, result types, ranking-page
+   strengths, GSC behavior, discovery/indexing state, and the site's defensible
+   usefulness delta.
+4. Help through at most one bounded action: fix a verified defect, improve an
+   existing decision surface, preserve useful research, or draft a standalone
+   answer to a real question.
+5. Measure or review the result against the original human job. Record what was
+   learned even when the correct outcome is `keep`, `needs-evidence`, or
+   `no-build`.
+6. Improve prompts, tests, or protocol only when a concrete failure, reviewer
+   finding, or repeated friction exposes a reusable weakness.
+
+Durable learning belongs in action-specific research, `decisions.md`,
+`progress.md`, the roadmap, and current status. Do not create process artifacts
+that merely restate the loop. A healthy no-op is valid when there is no due
+human question, evidence change, ready action, or useful research lane.
 
 ## Monetization Phases
 

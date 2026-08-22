@@ -23,11 +23,12 @@ This repo is the source of truth for strategy, implementation, research, and ope
 
 The central Control Room is the only dispatch-ledger writer and the default
 portfolio scheduler. Direct manual user instructions in the Master chat are
-also valid. The user explicitly authorized a temporary direct Master heartbeat
-through 2026-08-14 at 17:00 America/New_York; those runs are direct-manual
-transactions, not Control Room dispatches. In either mode, the Master must
-register one action ID and exact paths before substantive editing. Supporting
-agents never independently schedule work or edit the shared checkout.
+also valid. The user explicitly authorized a time-bounded direct Master
+learning loop at 09:00 and 17:00 America/New_York through 2026-10-22 at 17:00;
+those runs are direct-manual transactions, not Control Room dispatches. In
+either mode, the Master must register one action ID and exact paths before
+substantive editing. Supporting agents never independently schedule work or
+edit the shared checkout.
 
 ## Read First
 
@@ -145,13 +146,18 @@ curl -I https://example.com/sitemap.xml
 - Control Room scheduled work must arrive with a registered action ID,
   immutable dispatch contract, idempotency key, and lease token. Validate the
   lease before touching project state. A failed or stale lease is a no-op.
-- Through 2026-08-14 at 17:00 America/New_York, the explicit user-authorized
-  direct Master heartbeat is a temporary exception to Control Room scheduling.
-  It does not use a dispatch lease or write the central ledger. It still obeys
-  exact-path registration, serial transactions, native QA, independent review,
-  release controls, and the no-manufactured-work rule. After the cutoff it has
-  no authority to run unless the user renews it. During the exception, each
-  heartbeat may select at most one currently eligible roadmap action.
+- Through 2026-10-22 at 17:00 America/New_York, the explicit user-authorized
+  direct Master learning loop is a time-bounded exception to Control Room
+  scheduling. It does not use a dispatch lease or write the central ledger. It
+  still obeys exact-path registration, serial transactions, native QA,
+  independent review, release controls, and the no-manufactured-work rule.
+  Each heartbeat may select at most one currently eligible roadmap action.
+  After the cutoff it has no authority to run unless the user renews it.
+- The learning loop is evidence-to-value, not self-referential churn. Each run
+  should connect one real human question to domain evidence, SEO evidence, at
+  most one useful action, measured or reviewable feedback, and a durable
+  learning. Change prompts, tests, or protocol only when a concrete failure or
+  repeated friction justifies the change.
 - Direct manual user work does not need a dispatch lease, but it still requires
   one recorded action, exact paths, native QA, a different independent
   read-only reviewer, and the same release controls.

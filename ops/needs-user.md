@@ -1,14 +1,14 @@
 # Needs User
 
-Last updated: 2026-08-13
+Last updated: 2026-08-22
 
 ## Current Blockers
 
 - None. The user deferred the review-clean BAC Library draft before any send on
   2026-08-04. No outreach approval is requested.
-- The released Georgia guide has one nonblocking responsive-polish P3 queued as
-  `THC-GA-RESP-001`; it needs no user decision and does not affect claim safety
-  or page containment.
+- The user renewed direct Master operation at 09:00 and 17:00
+  America/New_York through 2026-10-22 at 17:00. No schedule decision is
+  pending.
 
 ## Deferred User Decisions
 
@@ -26,7 +26,7 @@ Last updated: 2026-08-13
 ## Waiting On External Accounts
 
 - Google Search Console indexing continues through the daily read-only snapshot
-  workflow. The 2026-08-13 snapshot is finalized through 2026-08-11: 16
+  workflow. The 2026-08-22 snapshot is finalized through 2026-08-20: 18
   impressions, 0 clicks, eight sitemap pages, five indexed URLs, and three
   discovered-currently-not-indexed URLs. No user action or indexing request is
   needed.

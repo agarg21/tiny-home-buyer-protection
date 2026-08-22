@@ -4,7 +4,7 @@ The machine-readable queue is `ops/seo-roadmap.json`. The central Control Room
 is the only writer of its dispatch ledger and remains the default portfolio
 scheduler. The project Master / Operator updates repository state only inside a
 validated dispatch or direct manual user transaction. By direct user authority,
-the temporary 09:00/17:00 Master heartbeat through 2026-08-14 17:00 ET is
+the 09:00/17:00 Master learning loop through 2026-10-22 17:00 ET is
 direct-manual, not a Control Room dispatch. The user retains material legal,
 monetization, provider, and unreviewed release decisions.
 
@@ -77,6 +77,47 @@ monetization, provider, and unreviewed release decisions.
 27. `THC-UNDER-001` — ready, not selected: repair the existing under-$20K page
     as a claim-scope evidence check and route dollar modeling to the full cost
     calculator. No new URL.
+28. `THC-OPS-005` — completed review-clean: renewed the direct Master heartbeat through
+    2026-10-22 and made the user-question, domain-learning, SEO-learning,
+    useful-action, measurement, and durable-improvement loop explicit. No page
+    or external action.
+
+## THC-OPS-005 completed result
+
+- Authority: the user's 2026-08-22 direct instruction; no Control Room lease or
+  central-ledger write.
+- Base: clean, origin-aligned
+  `be93f1cb359e46f9565c3af1e68b74d5378955f5` after seven understood GSC-only
+  fast-forwards.
+- Scope: the thirteen exact paths in `ops/current-cycle.md`; no `site/**` or
+  external mutation.
+- Causal evidence: renew twice-daily Master operation for two months and make
+  recursive improvement through domain understanding, SEO learning, and useful
+  help for real people the operating objective.
+- Monitoring context: all 34 public-safe snapshots validate. August 22 through
+  August 20 reports 18 impressions, 0 clicks, five of eight URLs indexed, and
+  page-level testing on the homepage and San Diego. This does not select a new
+  page or cancel the ready under-$20K repair.
+- Required result: exact schedule mirrors, one shared evidence-to-value loop,
+  explicit anti-churn limits, current GSC state, native QA, and independent
+  review. `THC-UNDER-001` remains ready but unselected.
+- Result: all schedule and loop mirrors are aligned; the due re-score keeps
+  `THC-UNDER-001` ready; current GSC is reconciled; full native QA is green.
+- Review cycle 1: independent task
+  `01a02a16-4197-7c23-a9aa-5a8f6c40df47` returned `FAIL` with one P1 because
+  the heartbeat targeted the Central Operator task. It now targets permanent
+  Tiny Home Clarity Master task
+  `019f7334-5a26-7bb2-b29e-d56d3d3bde95`, recorded as an authoritative
+  scheduler field.
+- Review cycle 2: reviewer `THC-OPS-005-C2-CODEX-20260822` in the same
+  different independent read-only task returned `PASS` with no findings. It
+  verified the live automation target, all human-value and anti-quota gates,
+  exact scope, GSC classification, and independent native QA.
+- Final frozen-state cycle 3 returned `PASS_WITH_P3` with no P0-P2 findings.
+  Its sole mixed-tense wording P3 is fixed.
+- Next action: `THC-UNDER-001` is restored as the sole eligible action. It was
+  not started in this transaction.
+- Release: docs/config only and push-only. No deployment applies.
 
 ## THC-REV-001 frozen contract
 

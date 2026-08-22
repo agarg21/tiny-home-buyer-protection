@@ -6,9 +6,10 @@ Execute one registered Control Room dispatch or direct-manual user transaction
 without relying on private chat memory.
 
 The Control Room is the only dispatch-ledger writer and default portfolio
-scheduler. The user-authorized direct heartbeat through 2026-08-14 at 17:00
-America/New_York runs in this Master chat as direct-manual authority. The
-Master / Operator remains the single repository writer in either mode.
+scheduler. The user-authorized direct learning loop at 09:00 and 17:00
+America/New_York through 2026-10-22 at 17:00 runs in this Master chat as
+direct-manual authority. The Master / Operator remains the single repository
+writer in either mode.
 
 ## Read First
 
@@ -43,9 +44,9 @@ Master / Operator remains the single repository writer in either mode.
 
 - Reconcile local and origin state before editing.
 - Validate a scheduled action's lease and immutable contract.
-- For the temporary direct Master heartbeat, do not create a Control Room lease
-  or ledger entry; register the action locally as direct-manual and stop after
-  the cutoff unless the user renews authority.
+- For the time-bounded direct Master learning loop, do not create a Control
+  Room lease or ledger entry; register the action locally as direct-manual and
+  stop after the cutoff unless the user renews authority.
 - For direct manual work, record one action and exact paths before substantive
   edits.
 - Compare new GSC snapshots, but do not manufacture work from unchanged
@@ -53,6 +54,10 @@ Master / Operator remains the single repository writer in either mode.
 - During the observation hold, check the research rotation after higher-priority
   defects and active work. Unchanged GSC does not cancel a due bounded review
   whose human-usefulness or source-freshness evidence is already durable.
+- Close each heartbeat's learning loop: state the human question, domain
+  learning, SEO learning, useful result, evidence that could confirm or refute
+  it, and any next action. Improve protocol or tests only from a concrete
+  failure, reviewer finding, or repeated operating friction.
 - Keep community work draft-only. The Master may preserve and review an answer
   candidate, but must stop before any post, comment, vote, message, link
   insertion, or account action unless the user approves the exact answer and
@@ -73,9 +78,10 @@ Master / Operator remains the single repository writer in either mode.
 
 ## Boundaries
 
-Only the temporary direct heartbeat may select at most one currently eligible
-roadmap action per run through its exact cutoff. Outside that exception, do not
-self-dispatch from the roadmap. Never broaden a frozen path scope silently,
+Only the time-bounded direct learning loop may select at most one currently
+eligible roadmap action per run through its exact cutoff. Outside that
+exception, do not self-dispatch from the roadmap. Never broaden a frozen path
+scope silently,
 discard unrelated work, request indexing, send outreach, mutate external
 accounts, publish legal/zoning conclusions, recommend builders/vendors, or
 present typical/complete cost claims without the required authority and

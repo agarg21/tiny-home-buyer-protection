@@ -1,5 +1,43 @@
 # Progress
 
+## 2026-08-22 - Two-Month Learning Loop Setup
+
+- Safely fast-forwarded the clean checkout through seven understood GSC-only
+  commits to origin-aligned base
+  `be93f1cb359e46f9565c3af1e68b74d5378955f5`.
+- Validated all 34 public-safe snapshots. August 22 through August 20 reports
+  18 impressions, 0 clicks, five of eight URLs indexed, and page-level testing
+  on the homepage and San Diego. This remains monitoring context.
+- Created the Codex heartbeat `tiny-home-clarity-2-month-learning-loop` at
+  09:00 and 17:00 America/New_York through 2026-10-22 at 17:00.
+- Independent cycle 1 found one P1: the first automation target was the Central
+  Operator task. Retargeted it to permanent Tiny Home Clarity Master task
+  `019f7334-5a26-7bb2-b29e-d56d3d3bde95` and made that ID authoritative in
+  `ops/operator.json`.
+- Registered docs/config-only `THC-OPS-005` on thirteen exact paths. It makes
+  the user-question, domain-learning, SEO-learning, useful-action, feedback,
+  and durable-learning loop authoritative while preserving the observation
+  hold and all quality, review, release, and external-action gates.
+- Kept self-improvement evidence-led: prompts, tests, or protocol change only
+  from a concrete failure, reviewer finding, or repeated friction.
+- Left `THC-UNDER-001` ready but unselected. No site, indexing, deployment,
+  outreach, community post, or external-account action is part of setup.
+- Completed the due rolling roadmap re-score: `THC-UNDER-001` remains ready,
+  the next review is 2026-08-29, and August 22 GSC remains monitoring context.
+- Anti Gravity CLI was attempted in read-only plan mode but returned no
+  substantive review; no output influenced the setup.
+- Native QA passed: 76/76 tests, all 34 snapshots, zero SEO errors with two
+  known canonical warnings, zero operator-state errors, valid JSON, required
+  files, exact scope, and clean diff checks.
+- Independent cycle 2 reviewer `THC-OPS-005-C2-CODEX-20260822` in read-only
+  task `01a02a16-4197-7c23-a9aa-5a8f6c40df47` returned `PASS` with no
+  findings and independently reproduced the QA. `THC-OPS-005` is complete;
+  `THC-UNDER-001` is restored as the sole next eligible action and was not
+  started. Release is docs/config only and push-only; no deployment applies.
+- Final frozen-state cycle 3 returned `PASS_WITH_P3` with no P0-P2 findings;
+  its sole mixed-tense roadmap wording P3 is fixed. The transaction is review-
+  clean and ready for its exact-path docs/config push.
+
 ## 2026-08-14 - Under-$20K Architecture Review Completed
 
 - Fast-forwarded the clean checkout to understood GSC-only commit `3340f60`.

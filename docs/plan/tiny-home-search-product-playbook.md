@@ -2,7 +2,7 @@
 
 Status: operating guide
 
-Prepared: 2026-07-28; last updated: 2026-08-09
+Prepared: 2026-07-28; last updated: 2026-08-22
 
 Owner: Tiny Home Clarity Master / Operator
 
@@ -45,6 +45,11 @@ overstating legality, cost, vendor quality, or personal experience.
     technical SEO, source count, length, and polish cannot compensate for a
     missing human-usefulness delta.
 14. Accept `no-build` as a successful research or review result.
+15. Close the learning loop after every substantive run: preserve the human
+    question, domain learning, SEO learning, useful result, feedback, and next
+    falsifiable decision.
+16. Improve the operating system only from a concrete failure, reviewer
+    finding, or repeated friction. Do not manufacture process work from cadence.
 
 ## Stage 0: Operating Gate
 
@@ -367,6 +372,28 @@ Community work is draft-only. Use
 site link, sound human, avoid invented experience and unsupported claims, and
 disclose any proposed affiliation. The user must approve the exact answer and
 destination before any external action.
+
+## Stage 13: Close The Learning Loop
+
+Before closing a substantive transaction, compare its original human question
+and usefulness hypothesis with the evidence produced.
+
+Record only durable learning:
+
+- domain: terminology, decision objects, official-source boundaries, common
+  failure modes, or facts that would change the answer;
+- SEO: query intent, result composition, ranking-page advantages, GSC behavior,
+  discovery/indexing state, or the site's defensible usefulness delta;
+- human value: what concrete result or ordered next step became better, or why
+  `keep`, `needs-evidence`, or `no-build` is the useful outcome;
+- failure: a disproved assumption, misleading state, weak section, reviewer
+  finding, or evidence gap; and
+- system: one reusable prompt, test, or protocol improvement only when the
+  failure is concrete or repeated.
+
+State what future observation could confirm or refute the conclusion. Persist
+the learning in the action's research record, roadmap, decisions, progress, or
+status rather than creating a redundant meta-process file.
 
 ## Required Durable Artifacts
 

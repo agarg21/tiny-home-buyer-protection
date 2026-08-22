@@ -1,12 +1,79 @@
 # Current Cycle
 
-Last updated: 2026-08-14
+Last updated: 2026-08-22
 
 Active action: `none`
 
 Next eligible action: `THC-UNDER-001`
 
 ## Most Recent Completed Transaction
+
+`THC-OPS-005` completed a direct-manual, docs/config-only reconciliation for the
+user-authorized two-month human-value learning loop. It renews the permanent
+Master heartbeat at 09:00 and 17:00 America/New_York through 2026-10-22 at
+17:00, makes the evidence-to-value learning cycle durable, and does not start
+the ready `THC-UNDER-001` page repair.
+
+Exact paths:
+
+- `AGENTS.md`
+- `agents/master-operator.md`
+- `strategy/current-strategy.md`
+- `docs/plan/tiny-home-search-product-playbook.md`
+- `ops/operator.json`
+- `ops/portfolio-operator.md`
+- `ops/current-cycle.md`
+- `ops/needs-user.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Base: clean, origin-aligned
+`be93f1cb359e46f9565c3af1e68b74d5378955f5` after seven understood GSC-only
+fast-forwards from the prior local state.
+
+Evidence classification:
+
+- Causal operating evidence: the user's 2026-08-22 direct instruction renews
+  twice-daily Master operation for two months and defines the goal as recursive
+  improvement through domain understanding, SEO learning, and useful help for
+  real people.
+- Monitoring only: all 34 public-safe GSC snapshots validate. The August 22
+  snapshot through August 20 reports 18 impressions, 0 clicks, five of eight
+  URLs indexed, and current testing concentrated on the homepage and San Diego.
+  It does not select a new page or cancel the review-clean under-$20K repair.
+
+Boundaries: no `site/**`, page implementation, new URL, indexing request,
+outreach, community post, external-account mutation, vendor recommendation,
+typical/complete cost claim, or legal/zoning/buildability conclusion. The
+separate `THC-UNDER-001` action remains ready but unselected.
+
+Candidate result: all schedule mirrors use the exact October 22 cutoff;
+strategy and the product playbook share the same human-question, domain, SEO,
+useful-action, feedback, and durable-learning loop; anti-churn limits are
+explicit; the due roadmap re-score preserves `THC-UNDER-001`; and current GSC
+is reconciled without selecting content work.
+
+Independent cycle 1 found one P1 operational routing defect: the automation
+targeted the Central Operator task instead of this permanent Tiny Home Clarity
+Master task. The heartbeat now targets
+`019f7334-5a26-7bb2-b29e-d56d3d3bde95`, and that ID is an authoritative field
+in `ops/operator.json`.
+
+Native QA is green: 76/76 tests, all 34 snapshots valid, zero SEO errors with
+the two known unchanged canonical warnings, zero operator-state errors, valid
+roadmap and operator JSON, required files present, exact thirteen-path scope,
+and clean diff checks. Independent cycle 2 reviewer
+`THC-OPS-005-C2-CODEX-20260822` in read-only task
+`01a02a16-4197-7c23-a9aa-5a8f6c40df47` returned `PASS` with no P0-P3
+findings and independently reproduced the QA. Final frozen-state cycle 3
+returned `PASS_WITH_P3`; its sole tense-polish P3 is fixed. `THC-UNDER-001` is
+restored as the sole next eligible action; it was not started here. Release is
+docs/config only and push-only, so no deployment applies.
+
+## Prior Completed Transaction
 
 `THC-REV-002` completed a direct-manual, research-only review of whether the current
 under-$20K checker provides a distinct human decision artifact or should be
@@ -417,13 +484,14 @@ answer and destination.
 
 ## Current Evidence
 
-The August 13 public-safe GSC snapshot at
-`ops/gsc-snapshots/2026-08-13.md` is fresh monitoring context through August
-11. It confirms all eight sitemap URLs remain inspected: five are indexed and
+The August 22 public-safe GSC snapshot at
+`ops/gsc-snapshots/2026-08-22.md` is fresh monitoring context through August
+20. It confirms all eight sitemap URLs remain inspected: five are indexed and
 the under-$20K, build-options, and land-workflow URLs are discovered-currently-
-not-indexed. Rolling performance is 16 impressions and 0 clicks. This verifies
-the monitoring fix but does not identify a production outage or select a page
-rewrite.
+not-indexed. Rolling performance is 18 impressions and 0 clicks, with current
+page-level testing on the homepage and San Diego. This does not identify a
+production outage, select a new page, or cancel the review-clean under-$20K
+repair.
 
 ## Current Product State
 
@@ -440,14 +508,20 @@ rewrite.
 ## Scheduler
 
 The user authorized this permanent Master chat to run directly at 09:00 and
-17:00 America/New_York through 2026-08-14 at 17:00. Those heartbeat runs are
-direct-manual transactions and do not require a Control Room lease. Each may
-select at most one substantive action. Unchanged monitoring evidence permits a
-no-op only when no active, ready, or otherwise due action has satisfied gates.
+17:00 America/New_York through 2026-10-22 at 17:00. Those learning-loop runs
+are direct-manual transactions and do not require a Control Room lease. Each
+may select at most one substantive action. Unchanged monitoring evidence
+permits a no-op only when no active, ready, or otherwise due action has
+satisfied gates.
+
+Each run connects one human question to domain evidence, SEO evidence, at most
+one useful action, measurement or review feedback, and durable learning.
+Prompts, tests, and protocol change only from a concrete failure, reviewer
+finding, or repeated friction; cadence alone does not justify process work.
 
 After the cutoff, no scheduled project work is authorized unless the user
 renews it. Central Control Room enrollment remains available for later
-portfolio coordination but is not the scheduler for this temporary pilot.
+portfolio coordination but is not the scheduler for this time-bounded loop.
 
 ## Blockers And User Gates
 

@@ -1,5 +1,97 @@
 # Operator Review
 
+## 2026-08-22 - Two-Month Human-Value Learning Loop
+
+Action: `THC-OPS-005`
+
+Selection authority: the user's direct instruction to renew the project for two
+months and operate as a recursive improvement loop centered on domain
+understanding, SEO learning, and useful help for real people. No Control Room
+lease or central-ledger write applies.
+
+Base: clean, origin-aligned
+`be93f1cb359e46f9565c3af1e68b74d5378955f5` after seven understood GSC-only
+fast-forwards.
+
+Frozen boundary: the thirteen exact paths in `ops/current-cycle.md`. Docs and
+operator configuration only; no `site/**`, implementation, indexing,
+deployment, outreach, community post, external-account mutation, vendor,
+typical/complete cost, affordability, or legal/zoning/buildability authority.
+
+Candidate result:
+
+- renew direct Master heartbeats at 09:00 and 17:00 America/New_York through
+  2026-10-22 at 17:00;
+- define one shared loop: orient, observe, understand one human question, help
+  through at most one evidence-backed action, measure or review, and persist
+  domain, SEO, user-language, failure, and process learning;
+- keep self-improvement bounded by concrete failures, reviewer findings, or
+  repeated friction so process does not become the product;
+- preserve the eight-page hold through 2026-11-08, draft-only community
+  answers, exact-path registration, native QA, independent review, and release
+  controls; and
+- keep `THC-UNDER-001` ready but unselected for the next separate transaction.
+
+Evidence classification: the direct user instruction is causal operating
+evidence. All 34 public-safe GSC snapshots validate. August 22 through August
+20 reports 18 impressions, 0 clicks, five of eight URLs indexed, and current
+testing concentrated on the homepage and San Diego; this is changed monitoring
+context, not causal support for a new page or rewrite.
+
+Native QA passed: 76/76 tests, all 34 snapshots valid, zero SEO errors with the
+two known unchanged canonical warnings, zero operator-state errors, valid
+roadmap and operator JSON, required files present, exact thirteen-path scope,
+and clean diff checks.
+
+Anti Gravity CLI advisory review was attempted in read-only plan mode but
+returned only a generic request for project details and no review. No advisory
+output influenced the transaction.
+
+Independent review cycle 1:
+
+- Reviewer ID: `THC-OPS-005-C1-CODEX-20260822`
+- Reviewer task: `01a02a16-4197-7c23-a9aa-5a8f6c40df47`
+- Mode: different independent read-only reviewer
+- Verdict: `FAIL`
+- P1: the heartbeat had the correct schedule but targeted task
+  `019f6f8d-1d3c-7af3-9247-07da338f208e`, the Central Operator, instead of the
+  permanent Tiny Home Clarity Master task.
+- Resolution: retargeted `tiny-home-clarity-2-month-learning-loop` to
+  `019f7334-5a26-7bb2-b29e-d56d3d3bde95` and added that ID to
+  `ops/operator.json` as an authoritative scheduler field.
+
+Independent review cycle 2:
+
+- Reviewer ID: `THC-OPS-005-C2-CODEX-20260822`
+- Reviewer task: `01a02a16-4197-7c23-a9aa-5a8f6c40df47`
+- Mode: same different independent read-only reviewer
+- Verdict: `PASS`
+- Findings: none
+- Resolution: the reviewer verified that the live automation and authoritative
+  repository state both target the permanent Tiny Home Clarity Master task,
+  the learning loop remains human-value led and anti-quota, all hold and
+  external-action gates remain intact, August 22 GSC remains monitoring only,
+  and the exact thirteen-path transaction independently passes native QA.
+
+Cycle 2 result: `PASS`. `THC-OPS-005` is complete and
+`THC-UNDER-001` is the sole next eligible action, but no implementation began
+in this transaction. Release is docs/config only and push-only; no deployment
+applies because no `site/**` or Pages workflow path changed.
+
+Independent review cycle 3:
+
+- Reviewer ID: `THC-OPS-005-C3-CODEX-20260822`
+- Reviewer task: `01a02a16-4197-7c23-a9aa-5a8f6c40df47`
+- Mode: final frozen-state, different independent read-only reviewer
+- Verdict: `PASS_WITH_P3`
+- P3: one roadmap sequence sentence mixed past and present tense.
+- Resolution: changed “make” to “made.” The reviewer found no P0-P2, confirmed
+  completed/next-action state, live scheduler routing, all gates, exact scope,
+  monitoring classification, and independently reproduced native QA.
+
+Final review outcome: cycle 3 `PASS_WITH_P3`, with the sole P3 fixed.
+`THC-OPS-005` is complete and release-clean.
+
 ## 2026-08-14 - Under-$20K And Cost-Calculator Architecture Review
 
 Action: `THC-REV-002`
