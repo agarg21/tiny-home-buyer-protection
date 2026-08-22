@@ -90,7 +90,10 @@ Independent review cycle 3:
   monitoring classification, and independently reproduced native QA.
 
 Final review outcome: cycle 3 `PASS_WITH_P3`, with the sole P3 fixed.
-`THC-OPS-005` is complete and release-clean.
+`THC-OPS-005` is complete and release-clean. Exact docs/config-only commit
+`6805ef37312a747746978445a06d4b8e2b29593f` was pushed to `main` and remotely
+verified. No deployment applies because no `site/**` or Pages workflow path
+changed.
 
 ## 2026-08-14 - Under-$20K And Cost-Calculator Architecture Review
 

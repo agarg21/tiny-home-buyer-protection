@@ -36,7 +36,9 @@
   started. Release is docs/config only and push-only; no deployment applies.
 - Final frozen-state cycle 3 returned `PASS_WITH_P3` with no P0-P2 findings;
   its sole mixed-tense roadmap wording P3 is fixed. The transaction is review-
-  clean and ready for its exact-path docs/config push.
+  clean. Exact docs/config-only commit
+  `6805ef37312a747746978445a06d4b8e2b29593f` was pushed to `main` and remotely
+  verified. No deployment applies.
 
 ## 2026-08-14 - Under-$20K Architecture Review Completed
 

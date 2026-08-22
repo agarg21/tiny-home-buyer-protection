@@ -71,7 +71,8 @@ and clean diff checks. Independent cycle 2 reviewer
 findings and independently reproduced the QA. Final frozen-state cycle 3
 returned `PASS_WITH_P3`; its sole tense-polish P3 is fixed. `THC-UNDER-001` is
 restored as the sole next eligible action; it was not started here. Release is
-docs/config only and push-only, so no deployment applies.
+the remotely verified docs/config-only commit
+`6805ef37312a747746978445a06d4b8e2b29593f`; no deployment applies.
 
 ## Prior Completed Transaction
 

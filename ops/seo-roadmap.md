@@ -117,7 +117,9 @@ monetization, provider, and unreviewed release decisions.
   Its sole mixed-tense wording P3 is fixed.
 - Next action: `THC-UNDER-001` is restored as the sole eligible action. It was
   not started in this transaction.
-- Release: docs/config only and push-only. No deployment applies.
+- Release: exact docs/config-only commit
+  `6805ef37312a747746978445a06d4b8e2b29593f` was pushed to `main` and remotely
+  verified. No deployment applies.
 
 ## THC-REV-001 frozen contract
 
