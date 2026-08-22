@@ -3,7 +3,7 @@
   "owner": "Tiny Home Clarity Operator",
   "last_rescored_on": "2026-08-22",
   "next_rescore_due": "2026-08-29",
-  "next_eligible_action_id": "THC-UNDER-001",
+  "next_eligible_action_id": "none",
   "planning_horizon_days": 28,
   "items": [
     {
@@ -1900,8 +1900,8 @@
       "learning_value": 3,
       "effort": 3,
       "risk": 2,
-      "status": "ready",
-      "selected_on": null,
+      "status": "in_progress",
+      "selected_on": "2026-08-22",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
       "target_urls": [
@@ -1933,7 +1933,55 @@
         "status": "not-required-for-bounded-existing-page-repair",
         "approval_required_for": null
       },
-      "notes": "Promoted as the sole next eligible action after THC-REV-002 cycle 2 returned PASS. It is ready but not selected or implemented in the research transaction. Keep the existing URL; no new page, cost range, affordability conclusion, vendor recommendation, indexing request, outreach, community post, or external-account mutation."
+      "working_tree_result": "The candidate keeps the direct narrow-scope answer and replaces duplicate arithmetic with a nine-category claim-scope evidence check. Blank and incomplete states remain non-positive, unclear objects and partial proof cannot reach the strongest state, required scope marked excluded or not applicable becomes a conflict, and the strongest state says Better documented, not proof of feasibility. It routes actual dollar modeling to the cost calculator and parcel evidence to the land workflow, compresses repetition, adds the self-canonical, and updates the review and sitemap date without changing the eight-URL set.",
+      "qa_evidence": [
+        "12/12 focused claim-checker tests passed",
+        "88/88 full native tests passed",
+        "SEO QA reported 8 pages, 0 errors, and 1 known untouched Los Angeles canonical warning",
+        "operator-state QA reported 0 errors with active THC-UNDER-001 and latest GSC 2026-08-22",
+        "desktop, 390px, and 320px rendered checks passed image, first-screen, state, focus, link, and containment invariants; cycle-1 edge states were re-exercised after the state-model fix",
+        "required files, valid roadmap JSON, exact scope, and whitespace checks passed"
+      ],
+      "advisory_tool": "Anti Gravity CLI was attempted in read-only plan mode; no usable advisory output was captured and none influenced the candidate.",
+      "review_history": [
+        {
+          "cycle": 1,
+          "reviewer_id": "THC-UNDER-001-C1-CODEX-20260822",
+          "reviewer_task_id": "01a02b59-18fb-7241-a50c-5582e6542075",
+          "read_only": true,
+          "verdict": "FAIL",
+          "findings": [
+            "P2: an unclear claim object and partial written proof could receive the strongest documented result",
+            "P2: semantically impossible scope assignments could receive the strongest result, including a shell with its structure excluded and a complete placed project with all scope marked not applicable"
+          ],
+          "resolution": "Required a specific claim object, itemized written proof, and at least one documented inclusion for the strongest result. Explicitly excluded or not-applicable required scope now returns conflict, while unanswered required scope remains incomplete. Added regression coverage and re-exercised the fixed edge states in the rendered page."
+        },
+        {
+          "cycle": 2,
+          "reviewer_id": "THC-UNDER-001-C2-CODEX-20260822",
+          "reviewer_task_id": "01a02b59-18fb-7241-a50c-5582e6542075",
+          "read_only": true,
+          "verdict": "PASS_WITH_P3",
+          "findings": [
+            "P3: when claim object and written proof were both unclear, the next action asked for itemized proof before defining what the $20K number buys"
+          ],
+          "resolution": "Treated an unclear object like an unanswered object in next-action ordering, added a combined-state regression, and reproduced define-before-prove guidance in the rendered page. The reviewer found no P0-P2 and confirmed both cycle-1 findings resolved."
+        },
+        {
+          "cycle": 3,
+          "reviewer_id": "THC-UNDER-001-C3-CODEX-20260822",
+          "reviewer_task_id": "01a02b59-18fb-7241-a50c-5582e6542075",
+          "read_only": true,
+          "verdict": "PASS",
+          "findings": [],
+          "resolution": "The final frozen-state reviewer confirmed all prior findings resolved, exact fourteen-path scope, 12/12 focused and 88/88 full tests, responsive and state behavior, repository mirrors, boundaries, and the evidence-only strongest result."
+        }
+      ],
+      "review_outcome": "PASS",
+      "review_cycles": 3,
+      "implementation_state": "review-clean-release-pending",
+      "release_state": "release-pending",
+      "notes": "Selected on 2026-08-22 as the heartbeat's one substantive action from clean, origin-aligned base 75ff01fcc26269a123b6091969d22e4dfaaa10dc and frozen to the fourteen exact target paths. Candidate implementation and local QA are complete. Independent cycle 1 returned two P2 state-model findings; both are fixed. Cycle 2 returned PASS_WITH_P3 with no P0-P2 and its next-action-order P3 is fixed. Final cycle 3 returned PASS with no findings. Commit, Pages, and production verification remain. Keep the existing URL; no new page, cost range, affordability conclusion, vendor recommendation, indexing request, outreach, community post, external-account mutation, or general cost-calculator change."
     },
     {
       "id": "THC-OPS-005",

@@ -2,9 +2,121 @@
 
 Last updated: 2026-08-22
 
-Active action: `none`
+Active action: `THC-UNDER-001`
 
-Next eligible action: `THC-UNDER-001`
+Next eligible action: `none`
+
+## Active Transaction
+
+`THC-UNDER-001` is a direct-manual repair of the existing under-$20K page.
+
+Human question: when a listing, video, seller, or DIY story says a tiny house
+costs `$20,000`, what does that number actually cover, and what proof is still
+missing before a buyer should trust it?
+
+Usefulness hypothesis: replacing the duplicate budget calculator with a
+claim-scope evidence check will help readers distinguish a structure, shell,
+used unit, DIY materials budget, or claimed complete project; expose unpaid
+labor, reused inputs, exclusions, deferrals, conflicts, and unknowns; and give
+one ordered next action without implying that `$20,000` proves feasibility.
+
+Exact paths:
+
+- `site/tiny-house-under-20k/index.html`
+- `site/styles.css`
+- `site/sitemap.xml`
+- `tools/under-20k.test.mjs`
+- `status/site-pages.md`
+- `status/research-rotation.md`
+- `backlog/implementation-backlog.md`
+- `backlog/seo-research-review-backlog.md`
+- `ops/current-cycle.md`
+- `ops/operator-review.md`
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
+- `decisions.md`
+- `progress.md`
+
+Base: clean, origin-aligned
+`75ff01fcc26269a123b6091969d22e4dfaaa10dc`.
+
+Evidence classification:
+
+- Causal implementation evidence: the review-clean `THC-REV-002` research,
+  July 28 portfolio audit, reproduced blank and structure-only positive
+  headlines, and current comparison with the safer general cost calculator.
+- Corroborating SEO evidence: the August 14 public-web sample supports separate
+  direct-feasibility, shopping, and calculator jobs. It is still fresh enough
+  for this bounded implementation and is not presented as Google ranking data.
+- Monitoring only: the validated August 22 GSC snapshot through August 20
+  reports 18 impressions, 0 clicks, five of eight URLs indexed, and no under-
+  `$20K` performance row. This neither selects nor cancels the repair.
+
+Required result: keep the URL and direct first-screen answer; replace dollar
+allocation with a concrete claim-scope artifact; keep blank, incomplete,
+invalid, and conflicting states non-positive; route arithmetic to the full
+calculator; compress repetition; add the missing canonical and current sitemap
+date; and pass focused, full, persona, every-section, responsive, independent,
+Pages, and production review.
+
+Boundaries: no new URL, new indexable page, national average, typical or
+complete cost, affordability conclusion, vendor recommendation, product
+listing, affiliate link, lead form, legal/zoning/buildability conclusion,
+indexing request, outreach, community post, or external-account mutation. The
+general cost calculator is out of scope.
+
+Predeclared production invariants: exact pushed SHA and successful Pages run;
+HTTP 200 and explicit self-canonical; one direct H1 and answer; blank submit
+cannot produce a positive result; a minimally identified but unresolved claim
+cannot produce a positive result; conflicting scope cannot produce a positive
+result; a well-documented claim still reports only evidence quality, never
+project feasibility; real dollar modeling routes to the cost calculator; page
+fits desktop, 390px, and 320px without overflow or console errors; sitemap date
+is current; and the eight-URL set is unchanged.
+
+Candidate result: the first screen preserves the direct narrow-scope answer
+and makes the artifact an audit rather than an estimate. The nine-category
+worksheet separates written inclusion, unsupported inclusion, exclusion,
+free/reused/unpaid input, deferral, not-applicable scope, and unknowns. Blank
+and minimally identified claims remain non-positive; claimed complete projects
+with excluded completion work return a conflict; and a fully documented narrow
+claim returns `Better documented, not proof of feasibility`. Results route
+actual arithmetic to the cost calculator and parcel questions to the land
+workflow. Repeated exclusions and warnings are compressed into four scope
+facts, four stop conditions, and four ordered next steps. The explicit
+canonical and August 22 sitemap/review date are present; the eight-URL set is
+unchanged.
+
+Local QA is green: 12/12 focused tests, 88/88 full tests, zero SEO errors with
+one known untouched Los Angeles canonical warning, zero operator-state errors,
+valid roadmap JSON, required files, and clean whitespace checks. Rendered
+desktop, 390px, and 320px states load the existing worksite image, contain all
+content without horizontal overflow, focus the result heading, and show no
+console warning/error. Blank, incomplete, conflict, and documented states were
+exercised in the browser. Anti Gravity CLI was attempted in read-only plan mode;
+no usable advisory output was captured.
+
+Independent cycle 1 returned `FAIL` with two P2 state-model findings. An
+unclear claim object and partial written proof could reach the strongest result,
+and semantically impossible not-applicable/excluded assignments could make a
+shell or complete placed project look documented. The candidate now requires a
+specific claim object, itemized proof, and at least one documented inclusion;
+explicitly excluded or not-applicable required scope is a conflict, while an
+unanswered required scope stays incomplete. Three regression tests and rendered
+unclear, partial, shell-conflict, complete-project-conflict, and documented-
+narrow states pass.
+
+Independent cycle 2 returned `PASS_WITH_P3` with no P0-P2. Its sole P3 found
+that a combined unclear-object and partial-proof state asked for better proof
+before defining what the number buys. The next-action order now treats an
+unclear object like an unanswered object and asks the scope question first; a
+focused regression and rendered combined-state check pass.
+
+Final frozen-state cycle 3 returned `PASS` with no P0-P3. The reviewer
+independently reproduced 12/12 focused and 88/88 full tests, all state and
+responsive checks, exact fourteen-path scope, current repository mirrors, and
+the evidence-only strongest result. The candidate is review-clean; commit,
+Pages, and production verification remain.
 
 ## Most Recent Completed Transaction
 

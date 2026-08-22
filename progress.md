@@ -1,5 +1,44 @@
 # Progress
 
+## 2026-08-22 - Under-$20K Claim-Scope Repair Candidate
+
+- Selected ready `THC-UNDER-001` as the heartbeat's one action from clean,
+  origin-aligned base `75ff01f` and froze the roadmap's fourteen exact paths.
+- Kept the direct answer and existing URL. Replaced the duplicate twelve-bucket
+  calculator with a nine-category claim-scope worksheet that records
+  documented, claim-only, excluded, free/reused/unpaid, deferred, not-
+  applicable, unknown, and conflicting evidence.
+- Blank and minimally identified claims remain non-positive. A claimed complete
+  placed project with excluded utilities returns a scope conflict. A fully
+  documented narrow shell claim says `Better documented, not proof of
+  feasibility` and routes arithmetic to the full cost calculator.
+- Compressed repeated caveats, exclusions, red flags, and checklist material
+  into four comparison facts, four stop conditions, and four ordered actions.
+  Added the self-canonical, current review/sitemap date, existing build-stage
+  image, and specific cost/build-option/land handoffs. The URL set is unchanged.
+- Local browser checks at desktop, 390px, and 320px pass first-screen clarity,
+  image load, blank/incomplete/conflict/documented states, focus, links,
+  horizontal containment, and console checks.
+- Native QA passes 12/12 focused and 88/88 full tests. SEO QA reports zero errors
+  and one known untouched Los Angeles canonical warning; operator state reports
+  zero errors. Required files, JSON, scope, and whitespace checks pass.
+- Anti Gravity CLI was attempted in read-only plan mode; no usable advisory
+  output was captured.
+- Independent cycle 1 returned two P2 findings: unclear object/partial proof
+  could reach the strongest result, and impossible required-scope assignments
+  could look documented. Required scope now distinguishes missing evidence from
+  explicit contradiction; a specific object, itemized proof, and at least one
+  documented inclusion are required. Three focused regressions and rendered
+  edge states pass.
+- Independent cycle 2 returned `PASS_WITH_P3` with no P0-P2 and confirmed both
+  prior findings resolved. Fixed its sole P3 by making the combined unclear-
+  object/partial-proof state define what the claim buys before upgrading proof;
+  the added regression and rendered state pass.
+- Final frozen-state cycle 3 returned `PASS` with no findings and independently
+  reproduced 12/12 focused and 88/88 full tests, exact scope, state/responsive
+  behavior, mirrors, boundaries, and the evidence-only strongest result.
+  Commit, Pages, and production verification remain.
+
 ## 2026-08-22 - Two-Month Learning Loop Setup
 
 - Safely fast-forwarded the clean checkout through seven understood GSC-only

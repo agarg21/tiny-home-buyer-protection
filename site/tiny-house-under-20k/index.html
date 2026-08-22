@@ -3,348 +3,417 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Can You Build a Tiny House for Under $20K? Reality Check | Tiny Home Clarity</title>
-    <meta name="description" content="A practical reality check for tiny house under $20K claims, including what is usually excluded, what has to be DIY, and which costs still need local verification.">
-    <link rel="stylesheet" href="../styles.css">
+    <title>Can You Build a Tiny House for Under $20K? Claim Check | Tiny Home Clarity</title>
+    <meta name="description" content="Check what a $20,000 tiny-house claim actually covers, which inputs sit outside the number, and what proof to request before relying on it.">
+    <link rel="canonical" href="https://tinyhomeclarity.com/tiny-house-under-20k/">
+    <link rel="stylesheet" href="../styles.css?v=20260822">
   </head>
-  <body>
+  <body class="under20-page">
     <header class="site-header">
       <a class="brand" href="../" aria-label="Tiny Home Clarity home">Tiny Home Clarity</a>
       <nav class="site-nav" aria-label="Page sections">
-        <a href="#checker">Checker</a>
-        <a href="#truths">What must be true</a>
-        <a href="#excluded">Excluded costs</a>
-        <a href="#checklist">Checklist</a>
+        <a href="#claim-checker">Check a claim</a>
+        <a href="#scope-guide">Read the scope</a>
+        <a href="#red-flags">Red flags</a>
+        <a href="#next-steps">Next steps</a>
       </nav>
     </header>
 
     <main>
-      <section class="hero calculator-hero">
+      <section class="hero calculator-hero under20-hero">
         <div class="hero-copy">
-          <p class="eyebrow">$20K reality check</p>
+          <p class="eyebrow">$20K claim check</p>
           <h1>Can You Build a Tiny House for Under $20K?</h1>
-          <p class="lede">Possible in narrow DIY or exclusion-heavy cases, but not a reliable turnkey tiny-home budget. Use this page to see what has to be excluded, reused, donated, deferred, or locally verified for a $20,000 target to survive contact with the real project.</p>
-          <p class="freshness-label">Page last reviewed: 2026-07-13</p>
+          <p class="under20-answer"><strong>Sometimes, for a narrow scope.</strong> A $20,000 claim may describe materials, a kit, a shell, a used unit, or a DIY cash spend. It does not show that you get a finished, delivered, placeable home unless the scope and evidence say so.</p>
+          <p class="lede">Use the checker below to audit the claim, not to estimate your project. It separates what is documented from what is merely claimed, excluded, free, deferred, or still unknown.</p>
+          <p class="freshness-label">Page last reviewed: 2026-08-22</p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#checker">Run the $20K checker</a>
-            <a class="button secondary" href="../tiny-home-cost-calculator/">Open the full cost calculator</a>
+            <a class="button primary" href="#claim-checker">Check a $20K claim</a>
+            <a class="button secondary" href="../tiny-home-cost-calculator/">Model actual costs</a>
           </div>
         </div>
-        <aside class="hero-panel" aria-label="Important limits">
-          <h2>Short answer</h2>
-          <ul class="check-list">
-            <li>A $20K tiny house target usually means a narrow structure-only or DIY-heavy budget, not an all-in project.</li>
-            <li>This page does not determine zoning, legal placement, permits, code compliance, utility approval, financing, insurance, or final vendor pricing.</li>
-            <li>Every cost needs written quotes and local verification before money becomes nonrefundable.</li>
-          </ul>
+        <aside class="hero-panel" aria-label="Before trusting the number">
+          <h2>Before you trust $20K</h2>
+          <ol class="number-list compact-list">
+            <li>Name what the number buys and its build stage.</li>
+            <li>Separate written proof from a listing, video, or verbal claim.</li>
+            <li>Mark every major input as inside, outside, free, deferred, or unknown.</li>
+          </ol>
         </aside>
       </section>
 
-      <section id="checker" class="tool-section" aria-labelledby="checker-title">
+      <figure class="under20-hero-media">
+        <img src="../assets/tiny-house-build-options-worksite.png" alt="A tiny house partway through construction with exposed framing, windows, plans, wiring, and insulation materials">
+        <figcaption>A low number is not comparable until the build stage is clear. Materials, a framed shell, and a finished placed home are different claims.</figcaption>
+      </figure>
+
+      <section id="claim-checker" class="tool-section under20-tool-section" aria-labelledby="checker-title">
         <div class="section-heading">
-          <p class="eyebrow">Interactive planning tool</p>
-          <h2 id="checker-title">$20K reality checker</h2>
-          <p>Allocate a $20,000 cash target across major buckets. Leave a bucket at zero only if it is truly handled, excluded, donated, reused, deferred, or not part of the project. These are planning estimates, not market averages or final bids.</p>
+          <p class="eyebrow">Claim-scope worksheet</p>
+          <h2 id="checker-title">What does the $20K claim actually cover?</h2>
+          <p>Use the information you already have. “Not answered” is useful: it exposes the next question instead of silently treating a blank as zero.</p>
         </div>
 
-        <div class="tool-grid calculator-grid">
-          <form id="budget-form" class="form-card">
-            <fieldset>
-              <legend>Structure and build budget</legend>
-              <div class="field-row">
-                <label for="structure">Structure, shell, or materials</label>
-                <input id="structure" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="trailer-foundation">Trailer, foundation, pad, or blocking</label>
-                <input id="trailer-foundation" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="tools">Tools, equipment, safety gear, and rentals</label>
-                <input id="tools" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="insulation-hvac">Insulation, heating, cooling, and ventilation</label>
-                <input id="insulation-hvac" type="number" min="0" step="100" placeholder="User estimate">
+        <div class="under20-tool-grid">
+          <form id="claim-form" class="form-card claim-form">
+            <fieldset class="claim-context-card">
+              <legend>1. Identify the claim</legend>
+              <div class="claim-context-grid">
+                <div class="field-row">
+                  <label for="claim-object">What does $20K supposedly buy?</label>
+                  <select id="claim-object" name="claimObject">
+                    <option value="">Not answered</option>
+                    <option value="materials">Materials for a DIY build</option>
+                    <option value="kit">Kit or component package</option>
+                    <option value="shell">Shell or unfinished structure</option>
+                    <option value="used-unit">Used tiny house or other unit</option>
+                    <option value="finished-home">Finished home before placement</option>
+                    <option value="placed-project">Complete placed project</option>
+                    <option value="other">Something else or unclear</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="source-type">Where did the claim come from?</label>
+                  <select id="source-type" name="sourceType">
+                    <option value="">Not answered</option>
+                    <option value="seller">Seller, builder, or listing</option>
+                    <option value="video">Video, social post, or article</option>
+                    <option value="plan">Your own plan or estimate</option>
+                    <option value="completed">Completed-build record</option>
+                    <option value="other">Another source</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="build-stage">What stage does the number describe?</label>
+                  <select id="build-stage" name="buildStage">
+                    <option value="">Not answered</option>
+                    <option value="advertised">Advertised or planned</option>
+                    <option value="in-progress">Partway through a build</option>
+                    <option value="completed">Completed structure or unit</option>
+                    <option value="placed">Placed and connected project</option>
+                    <option value="unclear">Stage is unclear</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="proof-level">What written proof exists?</label>
+                  <select id="proof-level" name="proofLevel">
+                    <option value="">Not answered</option>
+                    <option value="itemized">Itemized quote, contract, or receipts</option>
+                    <option value="partial">Some written details</option>
+                    <option value="claim-only">Listing, headline, or verbal claim only</option>
+                    <option value="none">No proof available</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="claim-date">Is the date or price period identified?</label>
+                  <select id="claim-date" name="claimDate">
+                    <option value="">Not answered</option>
+                    <option value="documented">Yes, in the record</option>
+                    <option value="claimed">Stated, but not documented</option>
+                    <option value="unknown">No or unknown</option>
+                  </select>
+                </div>
+                <div class="field-row">
+                  <label for="claim-location">Is the project location identified?</label>
+                  <select id="claim-location" name="claimLocation">
+                    <option value="">Not answered</option>
+                    <option value="documented">Yes, in the record</option>
+                    <option value="claimed">Stated, but not documented</option>
+                    <option value="unknown">No or unknown</option>
+                  </select>
+                </div>
               </div>
             </fieldset>
 
-            <fieldset>
-              <legend>Placement and site budget</legend>
-              <div class="field-row">
-                <label for="delivery">Delivery, towing, or transport</label>
-                <input id="delivery" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="site-work">Site work, driveway, grading, and drainage</label>
-                <input id="site-work" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="utilities">Utility hookups, trenching, or off-grid systems</label>
-                <input id="utilities" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="permits">Permits, inspections, design, surveys, or corrections</label>
-                <input id="permits" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="land">Land, lot fee before move-in, or site access costs</label>
-                <input id="land" type="number" min="0" step="100" placeholder="User estimate">
+            <fieldset class="claim-scope-card">
+              <legend>2. Mark the scope of the $20K number</legend>
+              <p class="input-help">Choose the evidence state, not the answer you hope is true. “Free or unpaid” belongs outside the cash number even when it is genuinely available.</p>
+              <div class="claim-scope-grid">
+                <div class="field-row scope-row">
+                  <label for="scope-structure">Structure, kit, shell, or materials</label>
+                  <select id="scope-structure" name="scopeStructure" data-scope-label="Structure, kit, shell, or materials">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field-row scope-row">
+                  <label for="scope-labor">Labor and project management</label>
+                  <select id="scope-labor" name="scopeLabor" data-scope-label="Labor and project management">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field-row scope-row">
+                  <label for="scope-base">Trailer, foundation, pad, or anchoring</label>
+                  <select id="scope-base" name="scopeBase" data-scope-label="Trailer, foundation, pad, or anchoring">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field-row scope-row">
+                  <label for="scope-delivery">Delivery, towing, setup, or crane</label>
+                  <select id="scope-delivery" name="scopeDelivery" data-scope-label="Delivery, towing, setup, or crane">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field-row scope-row">
+                  <label for="scope-site">Land, lot access, grading, or drainage</label>
+                  <select id="scope-site" name="scopeSite" data-scope-label="Land, lot access, grading, or drainage">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field-row scope-row">
+                  <label for="scope-utilities">Water, wastewater, power, and other utilities</label>
+                  <select id="scope-utilities" name="scopeUtilities" data-scope-label="Water, wastewater, power, and other utilities">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field-row scope-row">
+                  <label for="scope-approval">Plans, engineering, permits, and inspections</label>
+                  <select id="scope-approval" name="scopeApproval" data-scope-label="Plans, engineering, permits, and inspections">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field-row scope-row">
+                  <label for="scope-tools">Tools, equipment, safety gear, and disposal</label>
+                  <select id="scope-tools" name="scopeTools" data-scope-label="Tools, equipment, safety gear, and disposal">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
+                <div class="field-row scope-row">
+                  <label for="scope-contingency">Rework, missing parts, and contingency</label>
+                  <select id="scope-contingency" name="scopeContingency" data-scope-label="Rework, missing parts, and contingency">
+                    <option value="">Not answered</option><option value="documented">Included, with written proof</option><option value="claimed">Said to be included; proof missing</option><option value="excluded">Explicitly outside $20K</option><option value="free">Free, donated, reused, or unpaid</option><option value="deferred">Deferred until later</option><option value="na">Not applicable to this claim</option><option value="unknown">Unknown</option>
+                  </select>
+                </div>
               </div>
             </fieldset>
 
-            <fieldset>
-              <legend>Systems and protection</legend>
-              <div class="field-row">
-                <label for="toilet-plumbing">Toilet, plumbing, water, septic, or sewer</label>
-                <input id="toilet-plumbing" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="electrical">Electrical materials, service, or inspection corrections</label>
-                <input id="electrical" type="number" min="0" step="100" placeholder="User estimate">
-              </div>
-              <div class="field-row">
-                <label for="contingency">Contingency</label>
-                <input id="contingency" type="number" min="0" step="100" placeholder="User estimate">
-                <p class="input-help">No prefilled number here is a national average, because this page is not using current sourced cost data. Enter your own planning assumption.</p>
-              </div>
-            </fieldset>
-
-            <button class="button primary full" type="submit">Check against $20K</button>
+            <div class="claim-form-actions">
+              <button class="button primary" type="submit">Audit this $20K claim</button>
+              <button class="button secondary" type="reset">Clear</button>
+            </div>
           </form>
 
-          <section id="budget-result" class="result-panel" aria-live="polite" aria-labelledby="result-title">
-            <p class="eyebrow">Reality check result</p>
-            <h2 id="result-title">Your $20K result will appear here</h2>
-            <p>This checker separates user-entered assumptions from warnings. It does not prove a project is feasible, legal to place, insurable, financeable, code-compliant, or all-in.</p>
+          <section id="claim-result" class="result-panel claim-result" aria-live="polite" aria-labelledby="result-title">
+            <p class="eyebrow">Claim check result</p>
+            <h2 id="result-title" tabindex="-1">Start with what the $20K number buys</h2>
+            <p>This page never turns a low number into a feasibility verdict. It checks whether the claim is defined and documented well enough to compare.</p>
             <div class="empty-state">
-              <strong>Default conclusion</strong>
-              <span>A $20K target is fragile until land, placement, utilities, permits, tools, labor, and contingency are explicitly handled.</span>
+              <strong>Your first question</strong>
+              <span>Is this price for materials, a kit, a shell, a used unit, a finished home, or a complete placed project?</span>
             </div>
           </section>
         </div>
       </section>
 
-      <section id="truths" class="content-section" aria-labelledby="truths-title">
+      <section id="scope-guide" class="content-section" aria-labelledby="scope-title">
         <div class="section-heading">
-          <p class="eyebrow">What has to be true</p>
-          <h2 id="truths-title">When a $20K target has a possible path</h2>
-          <p>There are narrow cases where the structure budget can stay low. The tradeoffs need to be named before the number means anything.</p>
+          <p class="eyebrow">Read the claim correctly</p>
+          <h2 id="scope-title">Two $20K stories can describe different things</h2>
+          <p>The number becomes comparable only after these four facts are visible.</p>
         </div>
-        <div class="category-grid">
-          <article>
-            <h3>Land is already handled</h3>
-            <p>The target usually cannot absorb land purchase, lot rent, major access work, septic, water, and utility extensions. Verify zoning, HOA, deed, health, and utility constraints before relying on free or family land.</p>
-          </article>
-          <article>
-            <h3>Labor is heavily DIY</h3>
-            <p>A low cash budget often assumes unpaid labor, enough skill to avoid expensive rework, and time to manage sourcing. That is an assumption, not a guarantee.</p>
-          </article>
-          <article>
-            <h3>Materials are simple or reused</h3>
-            <p>Salvaged, donated, used, or unfinished materials can reduce cash cost, but they can add inspection, safety, durability, transport, and rework questions.</p>
-          </article>
-          <article>
-            <h3>The project is not turnkey</h3>
-            <p>A finished builder package, delivery, setup, inspections, utility connections, and site work can quickly move the project outside a $20K structure-only claim.</p>
-          </article>
+        <div class="category-grid under20-fact-grid">
+          <article><p class="category-label">Object</p><h3>What was bought or built?</h3><p>Materials, a kit, a shell, a used unit, and a complete project are not interchangeable.</p></article>
+          <article><p class="category-label">Labor</p><h3>Whose time is outside the cash number?</h3><p>Unpaid DIY work can be real, but it must be named before comparing the claim with a seller quote.</p></article>
+          <article><p class="category-label">Inputs</p><h3>What was free, reused, or deferred?</h3><p>Land, tools, materials, transport, utilities, and corrections can exist even when no cash was recorded.</p></article>
+          <article><p class="category-label">Evidence</p><h3>When and where did it happen?</h3><p>Receipts, written scope, date, location, and build stage make a claim auditable. They do not make another project feasible.</p></article>
         </div>
       </section>
 
-      <section id="excluded" class="content-section" aria-labelledby="excluded-title">
+      <section id="red-flags" class="content-section under20-red-flags" aria-labelledby="red-flags-title">
         <div class="section-heading">
-          <p class="eyebrow">Usually excluded</p>
-          <h2 id="excluded-title">What $20K tiny house claims often leave out</h2>
-          <p>Before treating a low number as real, ask what is outside the number and who is responsible if that cost appears later.</p>
+          <p class="eyebrow">Stop before money moves</p>
+          <h2 id="red-flags-title">Treat the claim as unresolved when...</h2>
         </div>
-        <div class="split-panel">
-          <div>
-            <h3>Common exclusions</h3>
-            <ul class="check-list">
-              <li>Land, site lease, or community lot costs.</li>
-              <li>Delivery, towing, crane, setup, anchoring, foundation, or blocking.</li>
-              <li>Utility hookups, electrical service, water, septic, sewer, or off-grid systems.</li>
-              <li>Permits, inspections, plans, engineering, surveys, and correction work.</li>
-              <li>Tools, rentals, safety gear, waste disposal, storage, and replacement materials.</li>
-              <li>Financing, insurance, taxes, rework, and contingency.</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Red flags</h3>
-            <ul class="check-list">
-              <li>A seller or video ignores where the tiny house can actually be placed.</li>
-              <li>The budget has no site-work, utility, permit, inspection, or contingency line.</li>
-              <li>The project assumes free labor, free tools, or free materials without naming the source.</li>
-              <li>Land is purchased before zoning, utilities, septic, HOA, deed, lender, and insurer checks.</li>
-              <li>A shell, shed, RV, or cabin is described as housing before local classification is verified.</li>
-            </ul>
-          </div>
-        </div>
+        <ul class="factor-list">
+          <li><span>1</span><div><strong>The object is vague</strong><small>“Tiny house” could mean plans, materials, a shed-like shell, a used unit, or a finished dwelling.</small></div></li>
+          <li><span>2</span><div><strong>The proof is only a headline</strong><small>A listing, video, or verbal statement does not replace an itemized quote, contract, or receipts.</small></div></li>
+          <li><span>3</span><div><strong>Free inputs are invisible</strong><small>Unpaid labor, borrowed tools, donated materials, family land, or deferred systems make the cash spend hard to compare.</small></div></li>
+          <li><span>4</span><div><strong>“Complete” excludes completion work</strong><small>Delivery, setup, utilities, wastewater, permits, or site work outside a claimed complete project is a scope conflict.</small></div></li>
+        </ul>
       </section>
 
-      <section id="checklist" class="content-section checklist-section" aria-labelledby="checklist-title">
-        <div>
-          <p class="eyebrow">Safer next steps</p>
-          <h2 id="checklist-title">Before chasing a $20K build</h2>
-          <p>Use the $20K number as a stress test, then move to written quotes and local-office verification.</p>
-        </div>
+      <section id="next-steps" class="content-section checklist-section under20-next" aria-labelledby="next-steps-title">
+        <div><p class="eyebrow">Ordered next steps</p><h2 id="next-steps-title">Define, prove, then model</h2><p>Do not start with a deposit or a land offer.</p></div>
         <ol class="number-list">
-          <li>Write down exactly what the $20K includes and excludes.</li>
-          <li>Confirm whether the number is structure-only, DIY labor, unfinished shell, used unit, shed conversion, or all-in project budget.</li>
-          <li>Use the full cost calculator to add land, delivery, site work, utilities, permits, financing, insurance, lot rent, and contingency.</li>
-          <li>Use the placement tool to identify planning, building, health, HOA, deed, lender, insurer, and utility checks.</li>
-          <li>Get written quotes before deposits, land offers, or nonrefundable material purchases.</li>
-          <li>Keep the answer as `UNKNOWN` until local offices and vendors confirm the major assumptions.</li>
+          <li><strong>Define the scope.</strong> Write what the $20K number buys, its build stage, and what sits outside it.</li>
+          <li><strong>Gather proof.</strong> Request an itemized quote, contract, receipts, dates, location, and written exclusions.</li>
+          <li><strong>Model your project.</strong> Move documented amounts and unresolved categories into the <a href="../tiny-home-cost-calculator/">full cost calculator</a>.</li>
+          <li><strong>Verify the site separately.</strong> Use the <a href="../buying-land-for-a-tiny-house/">land evidence workflow</a> before relying on placement, utility, or permit assumptions.</li>
         </ol>
       </section>
 
       <section class="content-section next-links" aria-labelledby="related-title">
-        <p class="eyebrow">Related tools</p>
-        <h2 id="related-title">Run the bigger checks</h2>
+        <p class="eyebrow">Continue the decision</p>
+        <h2 id="related-title">Use the right tool for the next question</h2>
         <div class="support-grid" aria-label="Related pages">
-          <article>
-            <h3>Tiny Home Cost Calculator</h3>
-            <p>Build a broader rough project budget with land, delivery, site work, utilities, permits, financing, insurance, lot rent, and contingency.</p>
-            <a href="../tiny-home-cost-calculator/">Open the cost calculator</a>
-          </article>
-          <article>
-            <h3>Where Can I Put a Tiny House?</h3>
-            <p>Build a placement verification plan before buying land, ordering a structure, or trusting a seller's placement claim.</p>
-            <a href="../">Open the placement tool</a>
-          </article>
-          <article>
-            <h3>Official-source examples</h3>
-            <p>Review the existing city and classification examples as source summaries, not placement approvals.</p>
-            <a href="../#records">View source records</a>
-          </article>
+          <article><h3>Model actual dollar inputs</h3><p>Keep unknown categories visible while comparing a quote or working estimate.</p><a href="../tiny-home-cost-calculator/">Open the cost calculator</a></article>
+          <article><h3>Compare what providers deliver</h3><p>Separate plans, kits, shells, trailers, and builder responsibility before comparing prices.</p><a href="../tiny-house-build-options/">Compare build options</a></article>
+          <article><h3>Check land before an offer</h3><p>Organize parcel, access, utility, wastewater, and approval evidence without declaring the land buildable.</p><a href="../buying-land-for-a-tiny-house/">Open the land workflow</a></article>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Tiny Home Clarity provides planning support, not legal, zoning, code, financing, insurance, tax, or safety advice. Verify decisions with local offices, vendors, lenders, insurers, and qualified professionals before purchase.</p>
-      <p>Page last reviewed: 2026-07-13</p>
+      <p>Tiny Home Clarity provides planning support, not legal, zoning, code, financing, insurance, tax, cost, or safety advice. Verify project scope, placement, quotes, and approvals before purchase.</p>
+      <p>Page last reviewed: 2026-08-22</p>
     </footer>
 
     <script>
-      const form = document.querySelector("#budget-form");
-      const result = document.querySelector("#budget-result");
-      const money = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
-      const target = 20000;
-      const fields = [
-        ["structure", "Structure, shell, or materials"],
-        ["trailer-foundation", "Trailer, foundation, pad, or blocking"],
-        ["tools", "Tools, equipment, safety gear, and rentals"],
-        ["delivery", "Delivery, towing, or transport"],
-        ["site-work", "Site work, driveway, grading, and drainage"],
-        ["utilities", "Utility hookups, trenching, or off-grid systems"],
-        ["permits", "Permits, inspections, design, surveys, or corrections"],
-        ["land", "Land, lot fee before move-in, or site access costs"],
-        ["toilet-plumbing", "Toilet, plumbing, water, septic, or sewer"],
-        ["electrical", "Electrical materials, service, or inspection corrections"],
-        ["insulation-hvac", "Insulation, heating, cooling, and ventilation"],
-        ["contingency", "Contingency"]
+      const claimLabels = {
+        claimObject: { materials: "Materials for a DIY build", kit: "Kit or component package", shell: "Shell or unfinished structure", "used-unit": "Used tiny house or other unit", "finished-home": "Finished home before placement", "placed-project": "Complete placed project", other: "Something else or unclear" },
+        sourceType: { seller: "Seller, builder, or listing", video: "Video, social post, or article", plan: "Your own plan or estimate", completed: "Completed-build record", other: "Another source" },
+        buildStage: { advertised: "Advertised or planned", "in-progress": "Partway through a build", completed: "Completed structure or unit", placed: "Placed and connected project", unclear: "Stage is unclear" },
+        proofLevel: { itemized: "Itemized quote, contract, or receipts", partial: "Some written details", "claim-only": "Listing, headline, or verbal claim only", none: "No proof available" }
+      };
+
+      const scopeDefinitions = [
+        ["scopeStructure", "Structure, kit, shell, or materials"],
+        ["scopeLabor", "Labor and project management"],
+        ["scopeBase", "Trailer, foundation, pad, or anchoring"],
+        ["scopeDelivery", "Delivery, towing, setup, or crane"],
+        ["scopeSite", "Land, lot access, grading, or drainage"],
+        ["scopeUtilities", "Water, wastewater, power, and other utilities"],
+        ["scopeApproval", "Plans, engineering, permits, and inspections"],
+        ["scopeTools", "Tools, equipment, safety gear, and disposal"],
+        ["scopeContingency", "Rework, missing parts, and contingency"]
       ];
+      const evidenceStates = ["documented", "claimed", "excluded", "free", "deferred", "na", "unknown"];
+      const allowed = {
+        claimObject: new Set(["", ...Object.keys(claimLabels.claimObject)]),
+        sourceType: new Set(["", ...Object.keys(claimLabels.sourceType)]),
+        buildStage: new Set(["", ...Object.keys(claimLabels.buildStage)]),
+        proofLevel: new Set(["", ...Object.keys(claimLabels.proofLevel)]),
+        claimDate: new Set(["", "documented", "claimed", "unknown"]),
+        claimLocation: new Set(["", "documented", "claimed", "unknown"]),
+        scope: new Set(["", ...evidenceStates])
+      };
 
-      function value(id) {
-        const field = document.querySelector(`#${id}`);
-        const parsed = Number(field.value);
-        return Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
+      function evaluateClaim(input = {}) {
+        const values = {
+          claimObject: input.claimObject || "",
+          sourceType: input.sourceType || "",
+          buildStage: input.buildStage || "",
+          proofLevel: input.proofLevel || "",
+          claimDate: input.claimDate || "",
+          claimLocation: input.claimLocation || ""
+        };
+        const scopes = scopeDefinitions.map(([key, label]) => ({ key, label, state: input[key] || "" }));
+        const invalidFields = Object.entries(values).filter(([key, value]) => !allowed[key].has(value)).map(([key]) => key);
+        invalidFields.push(...scopes.filter((scope) => !allowed.scope.has(scope.state)).map((scope) => scope.key));
+        if (invalidFields.length) return { status: "invalid", invalidFields, scopes, values };
+
+        const hasAnyInput = Object.values(values).some(Boolean) || scopes.some((scope) => scope.state);
+        if (!hasAnyInput) {
+          return { status: "blank", scopes, values, nextAction: "Name what the $20K number buys: materials, a kit, a shell, a used unit, a finished home, or a complete placed project." };
+        }
+
+        const normalizedScopes = scopes.map((scope) => ({ ...scope, state: scope.state || "unknown" }));
+        const byState = Object.fromEntries(evidenceStates.map((state) => [state, normalizedScopes.filter((scope) => scope.state === state)]));
+        const missingCore = [];
+        if (!values.claimObject || values.claimObject === "other") missingCore.push("a specific description of what the number buys");
+        if (!values.sourceType) missingCore.push("where the claim came from");
+        if (!values.buildStage || values.buildStage === "unclear") missingCore.push("the build stage");
+        if (values.proofLevel !== "itemized") missingCore.push("itemized written proof");
+        if (values.claimDate !== "documented") missingCore.push("a documented date or price period");
+        if (values.claimLocation !== "documented") missingCore.push("a documented project location");
+        if (!byState.documented.length) missingCore.push("at least one category documented inside $20K");
+
+        const conflicts = [];
+        const requiredScopes = {
+          materials: ["scopeStructure"],
+          kit: ["scopeStructure"],
+          shell: ["scopeStructure"],
+          "used-unit": ["scopeStructure"],
+          "finished-home": ["scopeStructure", "scopeLabor"],
+          "placed-project": ["scopeStructure", "scopeLabor", "scopeBase", "scopeDelivery", "scopeSite", "scopeUtilities", "scopeApproval"]
+        };
+        const requiredForClaim = new Set(requiredScopes[values.claimObject] || []);
+        const unsupportedRequiredScopes = normalizedScopes.filter((scope) => requiredForClaim.has(scope.key) && ["excluded", "na"].includes(scope.state));
+        if (unsupportedRequiredScopes.length) {
+          conflicts.push(`${claimLabels.claimObject[values.claimObject]} requires ${unsupportedRequiredScopes.map((scope) => scope.label).join(", ")} to be documented inside the $20K scope.`);
+        }
+        if (values.proofLevel === "itemized" && byState.claimed.length) conflicts.push("Itemized proof is selected, but some categories are still marked claim-only.");
+
+        let status = "documented";
+        if (conflicts.length) status = "conflict";
+        else if (missingCore.length || byState.claimed.length || byState.deferred.length || byState.unknown.length) status = "incomplete";
+
+        let nextAction;
+        if (status === "conflict") nextAction = "Ask the claimant to reconcile the stated project type with the categories that remain outside, unsupported, deferred, or unknown.";
+        else if (!values.claimObject || values.claimObject === "other") nextAction = "Ask exactly what the $20K number buys and what build stage it describes.";
+        else if (values.proofLevel !== "itemized") nextAction = "Request an itemized written scope, quote, contract, or receipts before comparing this claim with your project.";
+        else if (byState.unknown.length || byState.claimed.length) nextAction = `Get a written answer for: ${(byState.unknown[0] || byState.claimed[0]).label}.`;
+        else if (missingCore.length) nextAction = `Document ${missingCore[0]} before relying on the claim.`;
+        else nextAction = "Move the documented amounts and every outside, free, or not-applicable assumption into the full cost calculator, then verify the placement path separately.";
+
+        return { status, values, scopes: normalizedScopes, byState, missingCore, conflicts, nextAction };
       }
 
-      function listItem(text) {
-        return `<li>${text}</li>`;
+      function listItems(items) {
+        return items.map((item) => `<li>${item}</li>`).join("");
       }
 
-      function buildWarnings(entries, total, remaining) {
-        const warnings = [];
-        const zeroLabels = entries.filter((entry) => entry.amount === 0).map((entry) => entry.label);
-
-        if (total === 0) {
-          warnings.push("No costs are entered yet. A blank $20K plan is not evidence that the project can be built for $20K.");
+      function renderClaimResult(assessment) {
+        if (assessment.status === "blank") {
+          return `<p class="eyebrow">Claim check result</p><h2 id="result-title" tabindex="-1">Define the claim before judging it</h2><p>A blank worksheet is not evidence that a tiny house can be built for $20K.</p><div class="result-block claim-next"><h3>Do this first</h3><p>${assessment.nextAction}</p></div>`;
+        }
+        if (assessment.status === "invalid") {
+          return `<p class="eyebrow">Claim check result</p><h2 id="result-title" tabindex="-1">The claim record contains an invalid state</h2><p>Clear the form and use the available evidence choices. No conclusion was produced.</p>`;
         }
 
-        if (remaining < 0) {
-          warnings.push("The entered budget is already over $20K before any missing or underpriced buckets are corrected.");
-        }
+        const title = assessment.status === "conflict" ? "The $20K claim conflicts with its own scope" : assessment.status === "incomplete" ? "Not enough evidence to trust this $20K claim" : "Better documented, not proof of feasibility";
+        const intro = assessment.status === "documented" ? "The record is detailed enough to understand what the number describes. It still does not establish current pricing, legal placement, approvals, code compliance, or what your project will cost." : "The claim still hides information needed for a fair comparison. Treat the result as unresolved before a deposit, purchase, or land decision.";
+        const included = assessment.byState.documented.map((scope) => scope.label);
+        const outside = [
+          ...assessment.byState.excluded.map((scope) => `${scope.label} — outside $20K`),
+          ...assessment.byState.free.map((scope) => `${scope.label} — free, reused, donated, or unpaid`),
+          ...assessment.byState.deferred.map((scope) => `${scope.label} — deferred`),
+          ...assessment.byState.na.map((scope) => `${scope.label} — marked not applicable`)
+        ];
+        const unresolved = [
+          ...assessment.byState.claimed.map((scope) => `${scope.label} — claimed, proof missing`),
+          ...assessment.byState.unknown.map((scope) => `${scope.label} — unknown`),
+          ...assessment.missingCore.map((item) => `${item} — missing`),
+          ...assessment.conflicts
+        ];
+        const claimObject = claimLabels.claimObject[assessment.values.claimObject] || "Not answered";
+        const source = claimLabels.sourceType[assessment.values.sourceType] || "Not answered";
+        const stage = claimLabels.buildStage[assessment.values.buildStage] || "Not answered";
+        const proof = claimLabels.proofLevel[assessment.values.proofLevel] || "Not answered";
 
-        if (zeroLabels.length >= 4) {
-          warnings.push("Several buckets are zero. Keep the plan as UNKNOWN until each zero is explained as handled, donated, reused, deferred, or outside scope.");
-        }
-
-        if (value("land") === 0) {
-          warnings.push("Land or site access is zero. This only works if the land/site arrangement is already handled and locally verified.");
-        }
-
-        if (value("utilities") + value("toilet-plumbing") + value("electrical") === 0) {
-          warnings.push("Utilities, toilet/plumbing, and electrical are all zero. Verify service, wastewater, power, and inspection requirements before relying on the budget.");
-        }
-
-        if (value("permits") === 0) {
-          warnings.push("Permit, inspection, design, survey, or correction costs are zero. Ask the local planning/building and health offices what applies.");
-        }
-
-        if (value("contingency") === 0) {
-          warnings.push("Contingency is zero. That leaves no room for rework, missing parts, site surprises, or local-office corrections.");
-        }
-
-        return warnings;
+        return `
+          <p class="eyebrow">Claim check result</p><h2 id="result-title" tabindex="-1">${title}</h2><p>${intro}</p>
+          <dl class="claim-summary"><div><dt>Claim object</dt><dd>${claimObject}</dd></div><div><dt>Source</dt><dd>${source}</dd></div><div><dt>Build stage</dt><dd>${stage}</dd></div><div><dt>Written proof</dt><dd>${proof}</dd></div></dl>
+          <div class="claim-result-grid">
+            <section class="claim-bucket documented"><h3>Documented inside $20K <span>${included.length}</span></h3>${included.length ? `<ul>${listItems(included)}</ul>` : "<p>Nothing is documented inside the number yet.</p>"}</section>
+            <section class="claim-bucket outside"><h3>Outside, free, deferred, or N/A <span>${outside.length}</span></h3>${outside.length ? `<ul>${listItems(outside)}</ul>` : "<p>No outside assumptions are recorded.</p>"}</section>
+            <section class="claim-bucket unresolved"><h3>Unresolved or conflicting <span>${unresolved.length}</span></h3>${unresolved.length ? `<ul>${listItems(unresolved)}</ul>` : "<p>No unresolved scope item is recorded.</p>"}</section>
+          </div>
+          <div class="result-block claim-next"><h3>Do this next</h3><p>${assessment.nextAction}</p></div>
+          <div class="result-actions"><a class="button primary" href="../tiny-home-cost-calculator/">Model the documented costs</a><a class="button secondary" href="../buying-land-for-a-tiny-house/">Check the land evidence</a></div>`;
       }
 
-      form.addEventListener("submit", (event) => {
-        event.preventDefault();
+      function collectClaim(form) {
+        return Object.fromEntries(new FormData(form).entries());
+      }
 
-        const entries = fields.map(([id, label]) => ({ id, label, amount: value(id) }));
-        const total = entries.reduce((sum, entry) => sum + entry.amount, 0);
-        const remaining = target - total;
-        const zeroEntries = entries.filter((entry) => entry.amount === 0);
-        const warnings = buildWarnings(entries, total, remaining);
-        const verdict = remaining >= 0
-          ? "Within $20K on entered assumptions only"
-          : "Over $20K on entered assumptions";
-
-        result.innerHTML = `
-          <p class="eyebrow">Reality check result</p>
-          <h2 id="result-title">${verdict}</h2>
-          <p>This is a planning estimate based only on user-entered assumptions. It is not a final bid, legal placement answer, permit approval, insurance answer, lender approval, or proof that a $20K project is realistic.</p>
-
-          <div class="metric-grid">
-            <div class="metric-card"><span class="metric-label">Target budget</span><strong class="metric-value">${money.format(target)}</strong><p class="metric-note">Fixed reality-check target.</p></div>
-            <div class="metric-card"><span class="metric-label">Entered total</span><strong class="metric-value">${money.format(total)}</strong><p class="metric-note">User-entered planning assumptions.</p></div>
-            <div class="metric-card"><span class="metric-label">${remaining >= 0 ? "Remaining before missing costs" : "Amount over target"}</span><strong class="metric-value">${money.format(Math.abs(remaining))}</strong><p class="metric-note">${remaining >= 0 ? "This is not spare money until all zero buckets are explained." : "This overage excludes any still-missing costs."}</p></div>
-            <div class="metric-card"><span class="metric-label">Zero or blank buckets</span><strong class="metric-value">${zeroEntries.length}</strong><p class="metric-note">Each needs a written explanation.</p></div>
-          </div>
-
-          <div class="result-block">
-            <h3>User-entered budget allocation</h3>
-            <ul class="check-list">${entries.map((entry) => listItem(`${entry.label}: ${money.format(entry.amount)}`)).join("")}</ul>
-          </div>
-
-          <div class="result-block">
-            <h3>Assumption labeling</h3>
-            <ul class="check-list">
-              <li>All values are user-entered planning assumptions.</li>
-              <li>Zero values mean excluded, handled, donated, reused, deferred, or UNKNOWN. They do not mean the cost cannot appear.</li>
-              <li>This page uses no national average, typical cost, expected cost, guaranteed cost, vendor recommendation, or current market metric.</li>
-            </ul>
-          </div>
-
-          <div class="result-block warning">
-            <h3>Missing-cost warnings</h3>
-            ${warnings.length ? `<ul class="check-list">${warnings.map(listItem).join("")}</ul>` : "<p>No warning removes the need for written quotes and local verification.</p>"}
-          </div>
-
-          <div class="result-block warning">
-            <h3>Buyer-protection red flags</h3>
-            <ul class="check-list">
-              <li>The plan depends on free labor, tools, land, or materials but does not name the source.</li>
-              <li>The plan ignores placement, zoning, permits, inspections, utilities, septic, HOA, deed, lender, or insurer constraints.</li>
-              <li>The number comes from a seller, video, listing, or kit page without written exclusions.</li>
-              <li>A deposit, land offer, or materials order becomes nonrefundable before the missing buckets are verified.</li>
-            </ul>
-          </div>
-        `;
-      });
+      if (typeof window !== "undefined") window.TinyHomeClaimChecker = { evaluateClaim, renderClaimResult, scopeDefinitions };
+      const form = typeof document !== "undefined" ? document.querySelector("#claim-form") : null;
+      const result = typeof document !== "undefined" ? document.querySelector("#claim-result") : null;
+      if (form && result) {
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          result.innerHTML = renderClaimResult(evaluateClaim(collectClaim(form)));
+          result.classList.add("has-result");
+          result.querySelector("#result-title")?.focus({ preventScroll: true });
+          result.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+        form.addEventListener("reset", () => {
+          window.setTimeout(() => {
+            result.classList.remove("has-result");
+            result.innerHTML = renderClaimResult(evaluateClaim({}));
+          }, 0);
+        });
+      }
     </script>
   </body>
 </html>

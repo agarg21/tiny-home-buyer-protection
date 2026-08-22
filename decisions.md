@@ -1123,3 +1123,32 @@ The eight-page no-new-indexable-page hold remains through 2026-11-08. Community
 answers remain draft-only without the user's approval of the exact text and
 destination. `THC-UNDER-001` remains the sole ready next implementation action
 and is not started in this setup transaction.
+
+## 2026-08-22 - Audit The $20K Claim Instead Of Estimating It Again
+
+Decision: implement `THC-UNDER-001` on the existing under-$20K URL as a claim-
+scope evidence check. The human question is what the `$20,000` number covers
+and what proof is missing before a buyer should rely on it.
+
+Why: the review-clean architecture decision and reproduced product states show
+that the page's direct answer owns a distinct job, while its duplicate
+calculator produces a positive headline from blank or structure-only inputs.
+The general calculator already owns dollar modeling. GSC non-indexing and low
+visibility remain monitoring context, not the reason for repair.
+
+Result contract: distinguish documented inclusion, claim-only, excluded,
+free/reused/unpaid, deferred, not-applicable, unknown, and conflicting scope.
+Even a complete evidence record may say only `Better documented, not proof of
+feasibility`. Preserve the URL, add the canonical, compress repetition, and
+route numbers, provider scope, and parcel evidence to their existing tools.
+
+Boundary: no new page, cost range, affordability or complete-cost conclusion,
+vendor recommendation, legal/buildability conclusion, indexing request,
+outreach, community post, external mutation, or cost-calculator edit.
+
+Review learning: evidence quality needs semantic as well as arithmetic gates.
+`Something else or unclear` and partial proof remain incomplete. A required
+scope that is explicitly excluded or not applicable is a conflict, while an
+unanswered required scope remains missing evidence rather than a contradiction.
+When both claim object and proof are unresolved, define what the number buys
+before asking the reader to upgrade the proof.

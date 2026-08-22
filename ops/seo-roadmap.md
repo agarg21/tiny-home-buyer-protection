@@ -74,13 +74,61 @@ monetization, provider, and unreviewed release decisions.
 26. `THC-REV-002` — completed review-clean with cycle 2 `PASS`: keep the
     distinct under-$20K direct-answer URL, but replace its duplicate arithmetic
     in a later action. Research only; non-indexing did not select the repair.
-27. `THC-UNDER-001` — ready, not selected: repair the existing under-$20K page
+27. `THC-UNDER-001` — in progress: repair the existing under-$20K page
     as a claim-scope evidence check and route dollar modeling to the full cost
     calculator. No new URL.
 28. `THC-OPS-005` — completed review-clean: renewed the direct Master heartbeat through
     2026-10-22 and made the user-question, domain-learning, SEO-learning,
     useful-action, measurement, and durable-improvement loop explicit. No page
     or external action.
+
+## THC-UNDER-001 active contract
+
+- Authority: the 2026-08-22 direct Master heartbeat; no Control Room lease or
+  central-ledger write.
+- Base: clean, origin-aligned
+  `75ff01fcc26269a123b6091969d22e4dfaaa10dc`.
+- Human question: what does a `$20,000` tiny-house claim actually cover, and
+  what proof is missing before a buyer should rely on it?
+- Scope: the fourteen exact paths in `ops/current-cycle.md`; one existing-page
+  repair plus focused tests and durable state.
+- Causal evidence: review-clean `THC-REV-002`, the July 28 audit, and reproduced
+  blank and structure-only positive headlines. The August 14 public-web sample
+  corroborates distinct page roles.
+- Monitoring context: August 22 GSC reports 18 impressions, 0 clicks, five of
+  eight indexed URLs, and no under-$20K performance row. Low visibility is not
+  implementation evidence.
+- Required result and release invariants: preserve the direct answer, replace
+  duplicate arithmetic with a non-positive claim-scope evidence check, route
+  numbers to the cost calculator, compress repetition, add the canonical and
+  current sitemap date, and pass native, persona, every-section, responsive,
+  independent, Pages, and production review.
+- Boundary: no new URL, typical/complete cost or affordability conclusion,
+  vendor/listing/affiliate/lead surface, legal/buildability conclusion,
+  indexing request, outreach, post, external mutation, or cost-calculator edit.
+- Candidate: the direct answer remains; nine evidence-state categories replace
+  duplicate arithmetic; blank and incomplete states stay non-positive;
+  complete-project conflicts are explicit; and the strongest result is
+  `Better documented, not proof of feasibility`. Repetition is compressed,
+  handoffs are specific, the canonical and dates are current, and the URL set
+  is unchanged.
+- QA: 12/12 focused and 88/88 full tests pass; SEO QA has zero errors and one
+  known untouched warning; operator state has zero errors; desktop, 390px, and
+  320px rendered state/focus/overflow/console checks pass.
+- Independent cycle 1: `FAIL` with two P2 state-model findings. Unclear object
+  or partial proof could reach the strongest result, and impossible excluded/
+  not-applicable required scope could look documented. The candidate now
+  requires a specific object, itemized proof, and one documented inclusion;
+  explicit required-scope exclusions/N/A conflict while unanswered scope stays
+  incomplete. Focused and rendered regressions pass.
+- Independent cycle 2: `PASS_WITH_P3`, no P0-P2, and both prior findings
+  resolved. Its sole P3 found that a combined unclear-object/partial-proof
+  state asked for proof before defining the claim. Define-before-prove order is
+  restored and covered by focused plus rendered checks.
+- Final cycle 3: `PASS` with no P0-P3. The reviewer independently reproduced
+  the focused/full suite, state and responsive behavior, exact scope, mirrors,
+  boundaries, and evidence-only strongest result. Commit, Pages, and production
+  verification remain.
 
 ## THC-OPS-005 completed result
 

@@ -1819,6 +1819,226 @@ dd {
   margin-top: 18px;
 }
 
+.under20-page {
+  --claim-accent: #285f64;
+  --claim-soft: #e7f1f1;
+  --claim-line: #c9dddd;
+}
+
+.under20-page .eyebrow {
+  color: var(--claim-accent);
+  letter-spacing: 0;
+}
+
+.under20-hero {
+  max-width: none;
+}
+
+.under20-answer {
+  max-width: 800px;
+  margin: 0 0 18px;
+  padding: 15px 18px;
+  border-left: 4px solid var(--claim-accent);
+  background: var(--claim-soft);
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.under20-answer strong {
+  color: var(--ink);
+}
+
+.compact-list {
+  margin-bottom: 0;
+}
+
+.under20-hero-media {
+  margin: 0 0 34px;
+}
+
+.under20-hero-media img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: center 48%;
+}
+
+.under20-hero-media figcaption {
+  max-width: 840px;
+  margin-top: 9px;
+  color: var(--subtle);
+  font-size: 0.9rem;
+}
+
+.under20-tool-section {
+  padding-top: 36px;
+}
+
+.under20-tool-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(330px, 0.8fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.claim-form {
+  gap: 24px;
+  min-width: 0;
+}
+
+.claim-context-card,
+.claim-scope-card {
+  display: grid;
+  gap: 16px;
+  padding: 0 0 24px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+}
+
+.claim-scope-card {
+  border-bottom: 0;
+}
+
+.claim-context-card > legend,
+.claim-scope-card > legend {
+  padding: 0;
+  color: var(--claim-accent);
+  font-size: 1.12rem;
+}
+
+.claim-context-grid,
+.claim-scope-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.scope-row {
+  min-width: 0;
+  padding: 13px;
+  border-left: 3px solid var(--claim-line);
+  background: #f8fbfa;
+}
+
+.scope-row label {
+  min-height: 48px;
+  line-height: 1.35;
+}
+
+.scope-row select {
+  min-width: 0;
+}
+
+.claim-form-actions,
+.claim-result .result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.claim-result {
+  border-top: 4px solid var(--claim-accent);
+  overflow-wrap: anywhere;
+}
+
+.claim-result.has-result {
+  position: static;
+}
+
+.claim-summary {
+  margin-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.claim-summary div {
+  grid-template-columns: minmax(105px, 0.34fr) minmax(0, 0.66fr);
+}
+
+.claim-result-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.claim-bucket {
+  padding: 14px 14px 14px 16px;
+  border-left: 4px solid var(--subtle);
+  background: var(--paper);
+}
+
+.claim-bucket.documented {
+  border-left-color: var(--accent);
+  background: #f1f8f4;
+}
+
+.claim-bucket.outside {
+  border-left-color: var(--claim-accent);
+  background: var(--claim-soft);
+}
+
+.claim-bucket.unresolved {
+  border-left-color: var(--warn);
+  background: var(--warn-soft);
+}
+
+.claim-bucket h3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.claim-bucket h3 span {
+  color: var(--subtle);
+}
+
+.claim-bucket p,
+.claim-bucket ul {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.claim-next {
+  padding: 15px;
+  border: 1px solid var(--claim-line);
+  border-left: 4px solid var(--claim-accent);
+  background: var(--claim-soft);
+}
+
+.claim-next p {
+  margin-bottom: 0;
+}
+
+.claim-result .result-actions {
+  margin-top: 18px;
+}
+
+.under20-fact-grid article {
+  border-top-color: var(--claim-accent);
+}
+
+.under20-red-flags .factor-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 28px;
+}
+
+.under20-red-flags .factor-list li > span {
+  background: var(--claim-soft);
+  color: var(--claim-accent);
+}
+
+.under20-next {
+  border-top-color: var(--claim-accent);
+}
+
+.under20-next a {
+  color: var(--claim-accent);
+  font-weight: 800;
+  text-underline-offset: 4px;
+}
+
 @media (max-width: 900px) {
   .hero,
   .tool-grid,
@@ -1835,6 +2055,14 @@ dd {
   .planned-grid,
   .decision-links {
     grid-template-columns: 1fr;
+  }
+
+  .under20-tool-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .claim-result {
+    position: static;
   }
 
   .build-scope-section,
@@ -2038,6 +2266,33 @@ dd {
     justify-content: flex-start;
     gap: 4px 12px;
     font-size: 0.9rem;
+  }
+
+  .claim-context-grid,
+  .claim-scope-grid,
+  .under20-red-flags .factor-list {
+    grid-template-columns: 1fr;
+  }
+
+  .under20-hero {
+    padding-bottom: 16px;
+  }
+
+  .under20-answer {
+    padding: 12px 13px;
+    font-size: 0.98rem;
+  }
+
+  .under20-hero-media {
+    margin-bottom: 22px;
+  }
+
+  .under20-hero-media img {
+    height: 128px;
+  }
+
+  .scope-row label {
+    min-height: 0;
   }
 
   .hero {

@@ -1,5 +1,97 @@
 # Operator Review
 
+## 2026-08-22 - Under-$20K Claim-Scope Repair
+
+Action: `THC-UNDER-001`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. No Control Room lease or central-ledger write applies.
+
+Base: clean, origin-aligned
+`75ff01fcc26269a123b6091969d22e4dfaaa10dc`.
+
+Frozen boundary: the fourteen exact paths in `ops/current-cycle.md`. Repair one
+existing URL and add focused regression coverage. No new URL, typical/complete
+cost or affordability claim, vendor/listing/affiliate/lead surface, legal or
+buildability conclusion, indexing request, outreach, post, account mutation,
+or general cost-calculator change is authorized.
+
+Human question: what does a `$20,000` tiny-house claim actually cover, and what
+proof is missing before a buyer should rely on it?
+
+Evidence classification: `THC-REV-002`, the July 28 audit, and reproduced
+blank/structure-only product contradictions are causal implementation evidence.
+The August 14 public-web sample is corroborating page-role evidence. August 22
+GSC is monitoring context only: 18 impressions, 0 clicks, five of eight URLs
+indexed, and no under-$20K row.
+
+Required result, review lenses, state contract, and predeclared production
+invariants are frozen in `ops/current-cycle.md`.
+
+Candidate result: the page now audits the claim rather than summing a second
+budget. Nine evidence-state rows distinguish documented inclusion, claim-only,
+excluded, free/reused/unpaid, deferred, not-applicable, and unknown inputs. The
+result contract is blank, incomplete, conflict, documented, or invalid; no
+state says the project is affordable, complete, or feasible. The documented
+state says only `Better documented, not proof of feasibility`. Static content
+is compressed around object, labor, inputs, evidence, four stop conditions,
+and ordered handoffs to the cost calculator, build-options comparison, and land
+workflow. The canonical and August 22 dates are current.
+
+Native QA is green: 12/12 focused tests, 88/88 full tests, zero SEO errors with
+one known untouched warning, zero operator-state errors, valid JSON, required
+files, and clean diff checks. Local rendered QA at desktop, 390px, and 320px
+passes image load, first-screen clarity, blank/incomplete/conflict/documented
+states, result focus, links, containment, and console checks. Anti Gravity CLI
+was attempted in read-only plan mode; no usable advisory output was captured.
+
+Independent review cycle 1:
+
+- Reviewer ID: `THC-UNDER-001-C1-CODEX-20260822`
+- Reviewer task: `01a02b59-18fb-7241-a50c-5582e6542075`
+- Mode: different independent read-only reviewer
+- Verdict: `FAIL`
+- P2: `Something else or unclear` plus partial written detail could receive the
+  strongest documented result.
+- P2: semantically impossible scope assignments could receive the strongest
+  result, including a shell with the structure excluded and a complete placed
+  project with every scope marked not applicable.
+- Resolution: require a specific claim object, itemized written proof, and at
+  least one documented inclusion for the strongest result. Explicitly excluded
+  or not-applicable required scope now produces a conflict; unanswered required
+  scope remains incomplete. Added focused regressions and reproduced the fixed
+  unclear, partial, shell-conflict, complete-project-conflict, and documented-
+  narrow states in the rendered page.
+
+Independent review cycle 2:
+
+- Reviewer ID: `THC-UNDER-001-C2-CODEX-20260822`
+- Reviewer task: `01a02b59-18fb-7241-a50c-5582e6542075`
+- Mode: same different independent read-only reviewer
+- Verdict: `PASS_WITH_P3`
+- P0-P2: none; both cycle-1 P2 findings are resolved.
+- P3: a combined unclear-object and partial-proof state asked for itemized
+  proof before defining what the `$20K` number buys, contrary to the page's
+  `Define, prove, then model` order.
+- Resolution: treat an unclear object like an unanswered object in next-action
+  ordering and ask the scope question first. Added a combined-state regression
+  and reproduced the fixed guidance in the rendered page.
+
+Independent review cycle 3:
+
+- Reviewer ID: `THC-UNDER-001-C3-CODEX-20260822`
+- Reviewer task: `01a02b59-18fb-7241-a50c-5582e6542075`
+- Mode: final frozen-state, different independent read-only reviewer
+- Verdict: `PASS`
+- Findings: none
+- Resolution: all cycle-1 P2 and cycle-2 P3 findings remain resolved. The
+  reviewer independently reproduced 12/12 focused and 88/88 full tests,
+  responsive and state behavior, exact fourteen-path scope, repository mirrors,
+  and the evidence-only strongest result.
+
+Final review outcome: cycle 3 `PASS`. The candidate is review-clean; commit,
+Pages, and production verification remain.
+
 ## 2026-08-22 - Two-Month Human-Value Learning Loop
 
 Action: `THC-OPS-005`

@@ -1,24 +1,23 @@
 # Implementation Backlog
 
-Last updated: 2026-08-14
+Last updated: 2026-08-22
 
 This is a supporting inventory. It never authorizes work. Only a `ready` item
 selected from `ops/seo-roadmap.json` by the Master may enter implementation.
 
 ## Active
 
-None. `THC-GA-RESP-001` is released and production-verified in `4ca8565` with
-Pages run `31744910489`.
+`THC-UNDER-001` is active from clean, aligned base `75ff01f`. The candidate
+keeps the existing URL, replaces the duplicate budget calculator with a nine-
+category claim-scope evidence check, adds the canonical, and routes arithmetic
+to the full calculator. Cycle 1's two P2 state-model findings and cycle 2's
+define-before-prove P3 are fixed; focused, full native, and local responsive QA
+pass. Final frozen-state cycle 3 returned `PASS`; commit, Pages, and production
+verification remain.
 
 ## Ready, Not Selected
 
-`THC-UNDER-001` is the sole ready, not-selected action. Review-clean
-`THC-REV-002` found a specific existing-page defect: the under-$20K page's
-blank and structure-only states produce a positive headline before unresolved
-cost warnings, while its arithmetic duplicates the full calculator. The later
-repair keeps the URL, replaces duplicate arithmetic with a claim-scope evidence
-check, routes dollar modeling to the full calculator, compresses repetition,
-and adds the missing canonical.
+None while `THC-UNDER-001` is active.
 
 The 90-day publication hold remains active through 2026-11-08.
 
@@ -48,8 +47,7 @@ These ideas are not ready and must not be inferred as work from this file:
 
 The build-options page and cost calculator already own their responsibility and
 quote-modeling jobs. The under-$20K page retains a distinct feasibility-
-question role, but its duplicate arithmetic is a ready repair, not active
-implementation.
+question role; its active repair cannot broaden into another cost page.
 
 ## Deferred Human Decisions
 
