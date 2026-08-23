@@ -1,6 +1,6 @@
 # Needs User
 
-Last updated: 2026-08-22
+Last updated: 2026-08-23
 
 ## Current Blockers
 
@@ -26,7 +26,7 @@ Last updated: 2026-08-22
 ## Waiting On External Accounts
 
 - Google Search Console indexing continues through the daily read-only snapshot
-  workflow. The 2026-08-22 snapshot is finalized through 2026-08-20: 18
+  workflow. The 2026-08-23 snapshot is finalized through 2026-08-21: 18
   impressions, 0 clicks, eight sitemap pages, five indexed URLs, and three
   discovered-currently-not-indexed URLs. No user action or indexing request is
   needed.

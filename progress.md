@@ -1,5 +1,27 @@
 # Progress
 
+## 2026-08-23 - Stable GSC No-Build Reconciliation
+
+- Fast-forwarded the clean checkout through GSC-only commit `b90bc0f` and
+  validated all 35 public-safe snapshots.
+- August 23 through August 21 remains at 18 impressions, 0 clicks, average
+  position 88.33, five of eight indexed URLs, and the same homepage/San Diego
+  page rows as August 22. The seven-day edge is 11 impressions with one zero-
+  impression day; this is not an outage signal.
+- Registered mechanical `THC-NOOP-2026-08-23` on seven exact evidence/state
+  paths. Corrected stale snapshot pointers and retained homepage, San Diego,
+  and Los Angeles monitoring values. No page, research, SERP, paid keyword,
+  indexing, outreach, community, deployment, or external-account action was
+  selected.
+- Disposition: `no-build`; no substantive action was selected.
+- Native QA passed: 35/35 snapshots, 88/88 tests, zero SEO errors, one known
+  untouched Los Angeles canonical warning, zero operator-state errors, valid
+  JSON, required files, exact scope, and clean diff checks.
+- Independent reviewer `THC-NOOP-2026-08-23-C1-CODEX` in read-only task
+  `01a02eba-b019-75f3-a9a5-d34782d0882c` returned `PASS` with no findings.
+  Release boundary is an exact-path docs-only commit and push; deployment does
+  not apply.
+
 ## 2026-08-22 - Under-$20K Claim-Scope Repair Released
 
 - Selected ready `THC-UNDER-001` as the heartbeat's one action from clean,

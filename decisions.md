@@ -1156,3 +1156,16 @@ before asking the reader to upgrade the proof.
 Release decision: ship the exact review-clean result in `195ec8c`. Pages run
 `32600565832` and declared production invariants pass. Return the page to
 observation; no next action becomes eligible from low visibility alone.
+
+## 2026-08-23 - Do Not Turn A Stable GSC Window Into Page Work
+
+Decision: `THC-NOOP-2026-08-23` returns `no-build`. The August 23 snapshot adds
+one finalized zero-impression day, but aggregate performance remains 18
+impressions and 0 clicks; the same homepage/San Diego rows remain, five of eight
+URLs are indexed, and sitemap health is unchanged. This is window movement,
+not a production outage or a concrete searcher gap.
+
+Correct the stale current snapshot pointer and retained homepage, San Diego,
+and Los Angeles monitoring values. Do not repeat public QA, SERP, paid keyword,
+indexing, outreach, community, or page work. Reopen only when roadmap or
+evidence changes.
