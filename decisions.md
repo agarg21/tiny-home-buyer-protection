@@ -1169,3 +1169,19 @@ Correct the stale current snapshot pointer and retained homepage, San Diego,
 and Los Angeles monitoring values. Do not repeat public QA, SERP, paid keyword,
 indexing, outreach, community, or page work. Reopen only when roadmap or
 evidence changes.
+
+## 2026-08-24 - Observe One Inspection-State Regression Before Acting
+
+Decision: `THC-NOOP-2026-08-24` returns `needs-evidence` for the under-$20K
+URL Inspection transition and `no-build` for implementation. The URL changed
+from discovered-currently-not-indexed to `URL is unknown to Google`, but it is
+live with HTTP 200, self-canonical, robots-allowed, free of `noindex`, and
+present once in a successful eight-URL sitemap. Five of eight URLs remain
+indexed, and aggregate impressions increased from 18 to 20.
+
+Why: URL Inspection state can move without identifying a user-facing or
+technical defect. One transition, with every bounded public discovery check
+healthy, is insufficient evidence for a content change or another indexing
+request. Continue the daily read-only sensor and diagnose only if repeated
+evidence adds a concrete crawl, sitemap, robots, canonical, or internal-
+discovery problem.

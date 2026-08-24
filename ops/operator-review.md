@@ -1,5 +1,66 @@
 # Operator Review
 
+## 2026-08-24 - GSC Inspection-State Reconciliation
+
+Action: `THC-NOOP-2026-08-24`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is bounded monitoring reconciliation, not a Control Room
+dispatch or roadmap implementation.
+
+Base: clean, origin-aligned
+`59b2bc20bdf175b0fa5780b9a74bae2db0afc547` after one understood GSC-only
+fast-forward.
+
+Frozen boundary: the seven exact paths in `ops/current-cycle.md`. No site,
+roadmap, SERP, paid keyword, indexing request, outreach, community, deployment,
+external-account, vendor, cost, or legal/zoning/buildability action is
+authorized.
+
+Evidence: all 36 public-safe snapshots validate. August 24 through August 22
+reports 20 impressions, 0 clicks, average position 87.9, five of eight indexed
+URLs, and 12 impressions in the latest seven-day window. The under-$20K URL
+Inspection state changed from discovered-currently-not-indexed to `URL is
+unknown to Google`. Bounded public checks passed HTTP 200, self-canonical, no
+`noindex`, robots allow, exactly one sitemap entry, and a successful eight-URL
+GSC sitemap.
+
+Decision: `needs-evidence` for the isolated inspection transition and
+`no-build` for implementation. No verified production, discovery, query-fit,
+or user-usefulness defect exists; no active, ready, or due research/review
+action has satisfied gates.
+
+Native QA passed: all 36 public-safe snapshots validate, 88/88 tests pass, SEO
+QA reports zero errors and one known untouched Los Angeles canonical warning,
+operator-state QA reports zero errors, roadmap JSON and required files pass,
+the diff contains exactly the seven declared paths, and diff checks pass.
+
+Independent review cycle 1:
+
+- Reviewer ID: `THC-NOOP-2026-08-24-C1-CODEX`
+- Reviewer task: `01a033e1-a52f-7341-8382-10973f27c402`
+- Mode: different independent read-only reviewer
+- Verdict: `PASS_WITH_P3`
+- P0-P2 findings: none
+- P3: the inline `no-build` token was split across a Markdown line break in
+  this entry.
+- Resolution: kept the token unbroken. The reviewer independently reproduced
+  the snapshot metrics, inspection transition, bounded public checks, exact
+  scope, roadmap/research gates, native QA, and no-deployment conclusion.
+
+Independent review cycle 2:
+
+- Reviewer ID: `THC-NOOP-2026-08-24-C2-CODEX`
+- Reviewer task: `01a033e1-a52f-7341-8382-10973f27c402`
+- Mode: same different independent read-only reviewer, final frozen state
+- Verdict: `PASS`
+- Findings: none
+- Resolution: confirmed the cycle-1 P3 fixed, exact seven-path scope, current
+  evidence, native QA, roadmap/research gates, and no-deployment boundary.
+
+Final review outcome: cycle 2 `PASS` with no findings. Release boundary is an
+exact-path docs-only commit and push; deployment does not apply.
+
 ## 2026-08-23 - GSC No-Build Reconciliation
 
 Action: `THC-NOOP-2026-08-23`

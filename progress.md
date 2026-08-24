@@ -1,5 +1,31 @@
 # Progress
 
+## 2026-08-24 - Under-$20K Inspection Transition Observed
+
+- Fast-forwarded the clean checkout through GSC-only commit `59b2bc2` and
+  validated all 36 public-safe snapshots.
+- August 24 through August 22 reports 20 impressions, 0 clicks, average
+  position 87.9, five of eight indexed URLs, and 12 impressions in the latest
+  seven-day window. Homepage, Los Angeles, and San Diego have current page
+  rows; these aggregates are not query-specific ranks.
+- The under-$20K URL changed from discovered-currently-not-indexed to `URL is
+  unknown to Google`. A bounded public check passed HTTP 200, self-canonical,
+  no `noindex`, robots allow, one sitemap entry, and a successful eight-URL GSC
+  sitemap. No verified production or discovery defect was found.
+- Registered `THC-NOOP-2026-08-24` on seven exact evidence/state paths.
+  Disposition is `needs-evidence` for the isolated inspection transition and
+  `no-build` for implementation. No page, research, SERP, paid keyword,
+  indexing, outreach, community, deployment, or external-account action was
+  selected.
+- Native QA passed: 36/36 snapshots, 88/88 tests, zero SEO errors, one known
+  untouched Los Angeles canonical warning, zero operator-state errors, valid
+  JSON, required files, exact scope, and clean diff checks.
+- Independent reviewer `THC-NOOP-2026-08-24-C1-CODEX` in read-only task
+  `01a033e1-a52f-7341-8382-10973f27c402` returned `PASS_WITH_P3` with no P0-P2.
+  Its sole line-broken `no-build` token P3 was fixed; final frozen-state cycle
+  2 returned `PASS` with no findings. Release is docs-only and deployment does
+  not apply.
+
 ## 2026-08-23 - Stable GSC No-Build Reconciliation
 
 - Fast-forwarded the clean checkout through GSC-only commit `b90bc0f` and
