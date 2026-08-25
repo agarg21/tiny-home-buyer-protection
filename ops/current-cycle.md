@@ -1,6 +1,6 @@
 # Current Cycle
 
-Last updated: 2026-08-24
+Last updated: 2026-08-25
 
 Active action: `none`
 
@@ -8,21 +8,21 @@ Next eligible action: `none`
 
 ## Latest Monitoring Reconciliation
 
-Action: `THC-NOOP-2026-08-24`
+Action: `THC-NOOP-2026-08-25`
 
 Authority: direct-manual learning-loop heartbeat.
 
-Transaction class: bounded GSC/indexing-state reconciliation. It concludes
+Transaction class: bounded GSC inspection-volatility reconciliation. It concludes
 `no-build` and does not select or implement a roadmap action.
 
-Human question: does the under-$20K URL changing from `Discovered - currently
-not indexed` to `URL is unknown to Google` identify a production or discovery
-defect that would help users if repaired now?
+Human question: when `URL is unknown to Google` moves from one healthy,
+uncrawled page to another on consecutive daily snapshots, is there a technical
+problem users would benefit from us changing now?
 
-Usefulness hypothesis: if the released URL is still public, self-canonical,
-indexable, allowed by robots, present once in the successful sitemap, and no
-other sensor changed adversely, one URL Inspection state transition is not
-enough evidence for page work or another indexing request.
+Usefulness hypothesis: if the under-$20K URL returns to discovered-currently-
+not-indexed, the land URL remains public and discoverable, sitemap/index totals
+stay healthy, and Google crawls the homepage again, the changing label is
+volatile observation evidence rather than a verified site or page defect.
 
 Exact paths:
 
@@ -35,38 +35,37 @@ Exact paths:
 - `progress.md`
 
 Base: clean, origin-aligned
-`59b2bc20bdf175b0fa5780b9a74bae2db0afc547` after the understood GSC-only
+`c8f80d8e668506d57d80c9aa63b949670d809b26` after the understood GSC-only
 fast-forward.
 
-Evidence: all 36 public-safe snapshots validate. August 24 is finalized through
-August 22 at 20 impressions, 0 clicks, average position 87.9, and five of eight
-indexed URLs. The seven-day edge is 12 impressions with zero consecutive zero-
-impression days. Current page rows are homepage 13 impressions at page-average
-position 86.31, Los Angeles 1 at 83, and San Diego 6 at 92.17. These tiny,
-page-level aggregates are not query ranks.
+Evidence: all 37 public-safe snapshots validate. August 25 is finalized through
+August 23 and remains at 20 impressions, 0 clicks, average position 87.9, and
+five of eight indexed URLs. The current page rows are unchanged: homepage 13
+impressions at page-average position 86.31, Los Angeles 1 at 83, and San Diego
+6 at 92.17. The seven-day edge remains 12 impressions and now has one
+consecutive zero-impression day. These tiny page aggregates are not query ranks.
 
-The under-$20K inspection state changed from discovered-currently-not-indexed
-to `URL is unknown to Google`; build options and land remain discovered-
-currently-not-indexed. A bounded public check found the under-$20K URL HTTP
-200, its exact self-canonical, no `noindex`, robots `Allow: /`, and exactly one
-sitemap entry. GSC also reports the sitemap successful with eight discovered
-URLs and no warnings or errors. Disposition: `needs-evidence` for the isolated
-inspection transition and `no-build` for this transaction. The daily sensor,
-not a manual indexing request or page rewrite, should show whether it persists.
+The under-$20K inspection state returned to discovered-currently-not-indexed;
+build options remains there, while land changed to `URL is unknown to Google`.
+The homepage was crawled on August 25, replacing its July 30 crawl date. A
+bounded public check found the land URL HTTP 200, its exact self-canonical, no
+`noindex`, and exactly one sitemap entry. Yesterday's robots evidence remains
+fresh and unchanged; GSC again reports the sitemap successful with eight
+discovered URLs and no warnings or errors.
 
-Decision: no verified production, discovery, or user-usefulness defect exists;
-no active, ready, or due research/review action has satisfied gates. Do not
-repeat DNS, deployment, byte-match, full public QA, SERP, paid keyword,
-indexing, outreach, community, or page work. Reconcile current evidence only.
-Native QA is green: 36/36 snapshots validate, 88/88 tests pass, SEO QA reports
-zero errors and one known untouched Los Angeles canonical warning, operator-
-state QA reports zero errors, roadmap JSON and required files pass, exact scope
-matches, and diff checks pass. Independent reviewer
-`THC-NOOP-2026-08-24-C1-CODEX` in read-only task
-`01a033e1-a52f-7341-8382-10973f27c402` returned `PASS_WITH_P3` with no P0-P2.
-Its sole P3, a line-broken `no-build` token in the review ledger, was fixed;
-final frozen-state cycle 2 returned `PASS` with no findings. Release boundary
-is an exact-path docs-only commit and push; deployment does not apply.
+Disposition: `needs-evidence` for per-URL inspection-label volatility and
+`no-build` for this transaction. No verified production, discovery, or user-
+usefulness defect exists, and no active, ready, or due research/review action
+has satisfied gates. Do not repeat DNS, deployment, byte-match, full public QA,
+SERP, paid keyword, indexing, outreach, community, or page work. Native QA is
+green: 37/37 snapshots validate, 88/88 tests pass, SEO QA reports zero errors
+and one known untouched Los Angeles canonical warning, operator-state QA
+reports zero errors, roadmap JSON and required files pass, exact scope matches,
+and diff checks pass. Independent reviewer
+`THC-NOOP-2026-08-25-C1-CODEX` in read-only task
+`01a03906-5f01-7692-a2c4-7e6beb81d474` returned `PASS` with no findings.
+Release boundary is an exact-path docs-only commit and push; deployment does
+not apply.
 
 ## Most Recent Completed Transaction
 
@@ -668,17 +667,17 @@ answer and destination.
 
 ## Current Evidence
 
-The August 24 public-safe GSC snapshot at
-`ops/gsc-snapshots/2026-08-24.md` is fresh monitoring context through August
-22. It confirms all eight sitemap URLs remain inspected and five are indexed.
-The under-$20K URL now says `URL is unknown to Google`; build options and land
-remain discovered-currently-not-indexed. Rolling performance is 20 impressions
-and 0 clicks, with current page-level testing on the homepage, Los Angeles, and
-San Diego. The latest finalized seven-day window has 12 impressions and zero
-consecutive zero-impression days. Bounded public checks found no under-$20K
-HTTP, canonical, robots, `noindex`, or sitemap defect, so the isolated
-inspection transition remains observation evidence and does not select a page
-or research action.
+The August 25 public-safe GSC snapshot at
+`ops/gsc-snapshots/2026-08-25.md` is fresh monitoring context through August
+23. It confirms all eight sitemap URLs remain inspected and five are indexed.
+Under-$20K returned to discovered-currently-not-indexed; build options remains
+there, while land now says `URL is unknown to Google`. Rolling performance and
+current homepage, Los Angeles, and San Diego page rows are unchanged at 20
+impressions and 0 clicks. The latest finalized seven-day window remains at 12
+impressions with one consecutive zero-impression day. The homepage was crawled
+on August 25. Bounded public checks found no land HTTP, canonical, `noindex`, or
+sitemap defect, so changing inspection labels remain observation evidence and
+do not select a page or research action.
 
 ## Current Product State
 

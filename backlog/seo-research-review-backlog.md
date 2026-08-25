@@ -1,6 +1,6 @@
 # SEO Research And Review Backlog
 
-Last updated: 2026-08-24
+Last updated: 2026-08-25
 
 This is supporting evidence inventory, not a scheduler. The machine-readable
 queue is `ops/seo-roadmap.json`.
@@ -27,12 +27,13 @@ repeat either research lane while its inputs remain fresh.
 
 ## Current Monitoring Context
 
-The August 24 snapshot through August 22 reports eight discovered/inspected
-pages, five indexed, 20 rolling impressions, and 0 clicks. Build options and
-land remain discovered-currently-not-indexed. The under-$20K URL changed to
-`URL is unknown to Google`, but its live HTTP, canonical, robots, `noindex`,
-sitemap-entry, and GSC sitemap checks are healthy. One isolated inspection
-transition needs more daily evidence; it is not yet a research, indexing, or
+The August 25 snapshot through August 23 reports eight discovered/inspected
+pages, five indexed, 20 rolling impressions, and 0 clicks. Under-$20K returned
+to discovered-currently-not-indexed; build options remains there, while land
+changed to `URL is unknown to Google`. The land page's HTTP, canonical,
+`noindex`, and sitemap checks are healthy, and the homepage received a current
+August 25 crawl. Cross-page inspection-label movement without a corresponding
+technical signal remains observation evidence, not a research, indexing, or
 page-repair action. Visibility remains weak, not proof that every page should
 be rewritten.
 

@@ -1185,3 +1185,18 @@ healthy, is insufficient evidence for a content change or another indexing
 request. Continue the daily read-only sensor and diagnose only if repeated
 evidence adds a concrete crawl, sitemap, robots, canonical, or internal-
 discovery problem.
+
+## 2026-08-25 - Treat One-Day Inspection Labels As Volatile Evidence
+
+Decision: `THC-NOOP-2026-08-25` returns `needs-evidence` for changing URL
+Inspection labels and `no-build` for implementation. Under-$20K returned from
+`URL is unknown to Google` to discovered-currently-not-indexed after one day;
+the same unknown label appeared on land. The land URL is live, self-canonical,
+free of `noindex`, present once in the successful sitemap, and the indexed
+homepage received a current crawl.
+
+Why: movement between healthy, uncrawled URLs shows that one daily coverage
+label is not stable causal evidence for content work or another indexing
+request. Diagnose when a persistent label combines with a concrete crawl,
+sitemap, robots, canonical, internal-discovery, or rendering defect. Continue
+the daily read-only sensor in the meantime.
