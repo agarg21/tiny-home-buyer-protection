@@ -1,6 +1,6 @@
 # Current Cycle
 
-Last updated: 2026-08-26
+Last updated: 2026-08-27
 
 Active action: `none`
 
@@ -8,21 +8,20 @@ Next eligible action: `none`
 
 ## Latest Monitoring Reconciliation
 
-Action: `THC-NOOP-2026-08-26`
+Action: `THC-NOOP-2026-08-27`
 
 Authority: direct-manual learning-loop heartbeat.
 
-Transaction class: bounded GSC inspection-state closeout. It concludes
+Transaction class: bounded GSC zero-run reconciliation. It concludes
 `no-build` and does not select or implement a roadmap action.
 
-Human question: now that all three uncrawled URLs again say `Discovered -
-currently not indexed`, is any technical, content, or user-usefulness change
-actually justified?
+Human question: do three consecutive zero-impression days identify an outage or
+a page-level usefulness problem that would justify changing the site now?
 
-Usefulness hypothesis: if the one-day unknown labels clear without a page,
-sitemap, robots, indexing-request, or deployment change while aggregate and
-page rows remain stable, stopping will protect users from an evidence-free
-rewrite better than acting on transient inspection labels.
+Usefulness hypothesis: if the rolling aggregate, page rows, indexing coverage,
+inspection states, and sitemap health remain stable while the configured
+visibility sensor still reports `activity-observed`, three zero days are too
+weak to select page, research, technical, or indexing work.
 
 Exact paths:
 
@@ -34,35 +33,34 @@ Exact paths:
 - `progress.md`
 
 Base: clean, origin-aligned
-`80b62d2eab5a378f5a530fc84a7bb239b110c368` after the understood GSC-only
+`d4ef999d1a6dac397834c38e802a9f6690d5db44` after the understood GSC-only
 fast-forward.
 
-Evidence: all 38 public-safe snapshots validate. August 26 is finalized through
-August 24 and remains at 20 impressions, 0 clicks, average position 87.9, and
-five of eight indexed URLs. Current page rows remain homepage 13 impressions
-at page-average position 86.31, Los Angeles 1 at 83, and San Diego 6 at 92.17;
-these tiny page aggregates are not query ranks. The seven-day edge moved from
-12 to 8 impressions solely because the four-impression August 17 day left the
-window; August 23 and 24 record zero impressions, for a two-day trailing run.
+Evidence: all 39 public-safe snapshots validate. August 27 is finalized through
+August 25 and remains at 20 impressions, 0 clicks, average position 87.9, and
+five of eight indexed URLs. Current page rows are unchanged: homepage 13
+impressions at page-average position 86.31, Los Angeles 1 at 83, and San Diego
+6 at 92.17; these tiny page aggregates are not query ranks. The latest seven-
+day window remains at 8 impressions and now records three consecutive zero-
+impression days while the sensor status remains `activity-observed`.
 
-Under-$20K, build options, and land all now say discovered-currently-not-
-indexed. Land's one-day `URL is unknown to Google` label cleared without any
-project or external mutation. The indexed homepage received a later August 25
-crawl than the prior snapshot. GSC again reports the sitemap successful with
-eight discovered URLs and no warnings or errors. Yesterday's bounded land-page
-and public discovery evidence remains fresh, so no public check was repeated.
+All inspection rows are unchanged: under-$20K, build options, and land remain
+discovered-currently-not-indexed, while the other five URLs remain indexed.
+GSC read the successful eight-URL sitemap again on August 27 with no warnings or
+errors. No repository, public, or account sensor identifies an outage or a
+page-specific gap. Fresh inputs are unchanged, so no public check was repeated.
 
-Disposition: `no-build`. The resolved label churn confirms that a one-day
-inspection label is not causal evidence for content, technical, or indexing
-work. No verified defect exists, and no active, ready, or due research/review
-action has satisfied gates. Do not repeat DNS, deployment, byte-match, full
-public QA, SERP, paid keyword, indexing, outreach, community, or page work.
-Native QA is green: 38/38 snapshots validate, 88/88 tests pass, SEO QA reports
-zero errors and one known untouched Los Angeles canonical warning, operator-
-state QA reports zero errors, roadmap JSON and required files pass, exact scope
-matches, and diff checks pass. Independent reviewer
-`THC-NOOP-2026-08-26-C1-CODEX` in read-only task
-`01a04085-2313-7681-a2e7-01b152037792` returned `PASS` with no findings.
+Disposition: `no-build`. Three zero days are weak visibility, not causal page
+evidence or the configured seven-day stall condition. No verified defect
+exists, and no active, ready, or due research/review action has satisfied gates.
+Do not repeat DNS, deployment, byte-match, full public QA, SERP, paid keyword,
+indexing, outreach, community, or page work. Native QA and independent review
+are green: 39/39 snapshots validate, 88/88 tests pass, SEO QA reports zero
+errors and one known untouched Los Angeles canonical warning, operator-state QA
+reports zero errors, roadmap JSON and required files pass, exact scope matches,
+and diff checks pass. Independent reviewer
+`THC-NOOP-2026-08-27-C1-CODEX` in read-only task
+`01a04509-74fc-7a50-97d3-fe26e4f75a7e` returned `PASS` with no findings.
 Release boundary is an exact-path docs-only commit and push; deployment does
 not apply.
 
@@ -666,16 +664,16 @@ answer and destination.
 
 ## Current Evidence
 
-The August 26 public-safe GSC snapshot at
-`ops/gsc-snapshots/2026-08-26.md` is fresh monitoring context through August
-24. It confirms all eight sitemap URLs remain inspected and five are indexed.
-Under-$20K, build options, and land all say discovered-currently-not-indexed;
-land's one-day unknown label cleared. Rolling performance and current homepage,
-Los Angeles, and San Diego page rows are unchanged at 20 impressions and 0
-clicks. The latest finalized seven-day window has 8 impressions because August
-17 left the window, with two consecutive zero-impression days. The indexed
-homepage has a later August 25 crawl. Stable aggregate/page evidence, healthy
-sitemap state, and cleared label churn do not select a page or research action.
+The August 27 public-safe GSC snapshot at
+`ops/gsc-snapshots/2026-08-27.md` is fresh monitoring context through August
+25. It confirms all eight sitemap URLs remain inspected and five are indexed.
+Under-$20K, build options, and land remain discovered-currently-not-indexed.
+Rolling performance and current homepage, Los Angeles, and San Diego page rows
+are unchanged at 20 impressions and 0 clicks. The latest finalized seven-day
+window remains at 8 impressions with three consecutive zero-impression days;
+the sensor still reports activity observed. GSC read the successful sitemap on
+August 27. Stable aggregate, page, inspection, and sitemap evidence does not
+select a page or research action.
 
 ## Current Product State
 

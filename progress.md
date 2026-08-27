@@ -1,5 +1,28 @@
 # Progress
 
+## 2026-08-27 - Three-Day Zero Run Remains Observation
+
+- Fast-forwarded the clean checkout through GSC-only commit `d4ef999` and
+  validated all 39 public-safe snapshots.
+- August 27 through August 25 remains at 20 impressions, 0 clicks, average
+  position 87.9, five of eight indexed URLs, and unchanged homepage, Los
+  Angeles, and San Diego page rows. The seven-day window remains at 8
+  impressions with three trailing zero-impression days; the sensor still says
+  `activity-observed`.
+- Inspection rows are unchanged. Under-$20K, build options, and land remain
+  discovered-currently-not-indexed. GSC read the successful eight-URL sitemap
+  again on August 27 with no warnings or errors. Fresh inputs are unchanged, so
+  public checks were not repeated.
+- Registered `THC-NOOP-2026-08-27` on six exact evidence/state paths.
+  Disposition is `no-build`; no page, research, SERP, paid keyword, indexing,
+  outreach, community, deployment, or external-account action was selected.
+- Native QA passed: 39/39 snapshots, 88/88 tests, zero SEO errors, one known
+  untouched Los Angeles canonical warning, zero operator-state errors, valid
+  JSON, required files, exact scope, and clean diff checks.
+- Independent reviewer `THC-NOOP-2026-08-27-C1-CODEX` in read-only task
+  `01a04509-74fc-7a50-97d3-fe26e4f75a7e` returned `PASS` with no findings.
+  Release is docs-only and deployment does not apply.
+
 ## 2026-08-26 - Transient Inspection Labels Cleared
 
 - Fast-forwarded the clean checkout through GSC-only commit `80b62d2` and
