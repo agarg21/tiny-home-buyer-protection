@@ -1,5 +1,28 @@
 # Progress
 
+## 2026-08-26 - Transient Inspection Labels Cleared
+
+- Fast-forwarded the clean checkout through GSC-only commit `80b62d2` and
+  validated all 38 public-safe snapshots.
+- August 26 through August 24 remains at 20 impressions, 0 clicks, average
+  position 87.9, five of eight indexed URLs, and unchanged homepage, Los
+  Angeles, and San Diego page rows. The seven-day window moved from 12 to 8
+  impressions because the four-impression August 17 day left the window; two
+  trailing zero-impression days do not establish an outage.
+- Under-$20K, build options, and land all now say discovered-currently-not-
+  indexed. Land's one-day unknown label cleared without any project or external
+  mutation, while the indexed homepage received a later August 25 crawl.
+  Yesterday's bounded public evidence remains fresh and was not repeated.
+- Registered `THC-NOOP-2026-08-26` on six exact evidence/state paths.
+  Disposition is `no-build`; no page, research, SERP, paid keyword, indexing,
+  outreach, community, deployment, or external-account action was selected.
+- Native QA passed: 38/38 snapshots, 88/88 tests, zero SEO errors, one known
+  untouched Los Angeles canonical warning, zero operator-state errors, valid
+  JSON, required files, exact scope, and clean diff checks.
+- Independent reviewer `THC-NOOP-2026-08-26-C1-CODEX` in read-only task
+  `01a04085-2313-7681-a2e7-01b152037792` returned `PASS` with no findings.
+  Release is docs-only and deployment does not apply.
+
 ## 2026-08-25 - Inspection-Label Volatility Observed
 
 - Fast-forwarded the clean checkout through GSC-only commit `c8f80d8` and
