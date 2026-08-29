@@ -82,6 +82,38 @@ monetization, provider, and unreviewed release decisions.
     useful-action, measurement, and durable-improvement loop explicit. No page
     or external action.
 
+## 2026-08-29 roadmap re-score
+
+- Action: `THC-ROADMAP-2026-08-29` under the direct Master learning-loop
+  authority. This is queue maintenance, not implementation.
+- Human question: after the latest reviewed repairs and another observation
+  week, is there a concrete user problem with satisfied evidence and gates, or
+  should the eight-page portfolio continue observing?
+- Evidence: all 40 public-safe GSC snapshots validate. No snapshot newer than
+  August 28 exists; its finalized data through August 26 remains at 21
+  impressions, 0 clicks, five of eight indexed URLs, and intermittent page-
+  level testing. It is monitoring context, not causal implementation evidence.
+- Product evidence: the under-$20K repair is one week old, the land workflow is
+  19 days old, and all other research-rotation surfaces remain covered by fresh
+  review or release evidence. No technical, official-source, rendered, repeated-
+  query, community, or internal-handoff gap has satisfied a repair or research
+  gate. The first 30-day portfolio checkpoint is September 9.
+- Decision: queue-level `no-build`. Keep `next_eligible_action_id` as `none`;
+  do not select a page, research, SERP, paid keyword, indexing, outreach,
+  community, deployment, external-account, vendor, cost, or legal/zoning
+  action. Deferred `THC-AUTH-002` remains unsent and human-gated.
+- Semrush: not called; optional enrichment cannot change this bounded queue
+  decision without a concrete page or query question.
+- Next re-score due: 2026-09-05. Next finite research checkpoint: 2026-09-09.
+- Native QA: 40/40 snapshots validate, 88/88 tests pass, SEO QA has zero errors
+  and one known untouched Los Angeles canonical warning, operator-state QA has
+  zero errors, roadmap JSON and required files pass, exact scope matches, and
+  diff checks pass. Independent read-only reviewer
+  `THC-ROADMAP-2026-08-29-C1-CODEX` in task
+  `01a04dfa-42fb-7381-b4e0-1680b80cd3c7` returned `PASS` with no findings.
+- Release boundary: exact-path docs/state commit and push only; deployment does
+  not apply.
+
 ## THC-UNDER-001 completed result
 
 - Authority: the 2026-08-22 direct Master heartbeat; no Control Room lease or

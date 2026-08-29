@@ -1,5 +1,28 @@
 # Progress
 
+## 2026-08-29 - Weekly Roadmap Re-Score Keeps The Queue Empty
+
+- Registered `THC-ROADMAP-2026-08-29` on six exact docs/state paths from clean,
+  origin-aligned base `227f1cf`.
+- All 40 public-safe GSC snapshots validate. No snapshot newer than August 28
+  exists; 21 impressions, 0 clicks, five of eight indexed URLs, and
+  intermittent page-level testing remain monitoring context.
+- Re-scored the complete queue and research rotation. Recent page and product
+  work remains covered by fresh review/release evidence, no technical or human-
+  usefulness trigger has changed, and the first 30-day portfolio checkpoint is
+  September 9.
+- Disposition is queue-level `no-build`: no active or next eligible action.
+  The next weekly re-score is September 5. No page, research, SERP, paid
+  keyword, indexing, outreach, community, deployment, or external-account
+  action was selected.
+- Native QA is green: 40/40 snapshots validate, 88/88 tests pass, SEO QA has
+  zero errors and one known untouched Los Angeles canonical warning, operator-
+  state QA has zero errors, roadmap JSON and required files pass, exact scope
+  matches, and diff checks pass. Independent read-only reviewer
+  `THC-ROADMAP-2026-08-29-C1-CODEX` (`01a04dfa-42fb-7381-b4e0-1680b80cd3c7`)
+  returned `PASS` with no findings. Release is docs/state only and deployment
+  does not apply.
+
 ## 2026-08-28 - One San Diego Impression Remains Observation
 
 - Fast-forwarded the clean checkout through GSC-only commit `32f1027` and

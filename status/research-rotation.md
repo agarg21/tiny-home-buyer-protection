@@ -1,6 +1,6 @@
 # Human-Value Research Rotation
 
-Last updated: 2026-08-22
+Last updated: 2026-08-29
 
 This is the due-work view for research during the 90-day publication hold. It
 is not a content calendar. Each run starts with one real reader question,
@@ -31,6 +31,10 @@ reason is already durable.
 | 2 | Los Angeles guide | 2026-07-19 answer-first repair | Is there a current source, repetition, first-screen, or query-fit gap beyond the already reviewed City/County boundary? | Observe; no due gap. |
 | 3 | Homepage, San Diego, Georgia, cost calculator, build options, and land workflow | Reviewed or materially changed 2026-07-28 through 2026-08-13 | Has a source, rendered state, internal handoff, or repeated query signal changed? | Observe until a concrete trigger or the 30/60/90-day checkpoints. |
 
+Next finite portfolio checkpoint: 2026-09-09, 30 days after the land workflow
+release. The weekly roadmap re-score is due 2026-09-05, but calendar cadence by
+itself does not make a page or research lane eligible.
+
 ## Community Question Lane
 
 Community research is qualitative evidence and service, not link building. A
@@ -58,4 +62,5 @@ remain fresh.
 decision in production-verified commit `195ec8c`. Its durable research record
 is `docs/research/tiny-house-under-20k-consolidation-review-2026-08.md`.
 August 22 GSC non-indexing remains monitoring only. No later research lane is
-selected until roadmap or evidence changes.
+selected until roadmap or evidence changes. The August 29 re-score found no
+new trigger and keeps the first finite portfolio checkpoint on September 9.

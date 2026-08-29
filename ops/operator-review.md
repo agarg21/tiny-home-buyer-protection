@@ -1,5 +1,39 @@
 # Operator Review
 
+## 2026-08-29 - Weekly Roadmap Re-Score
+
+Action: `THC-ROADMAP-2026-08-29`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is due queue maintenance, not a Control Room dispatch or
+implementation action.
+
+Base: clean, origin-aligned
+`227f1cf17e7ce487719ab9067203472c4f948931`.
+
+Frozen boundary: the six exact paths in `ops/current-cycle.md`. No site,
+research artifact, SERP, paid keyword, indexing request, outreach, community,
+deployment, external-account, vendor, cost, or legal/zoning/buildability action
+is authorized.
+
+Evidence: all 40 public-safe snapshots validate. No snapshot newer than August
+28 exists; its finalized evidence through August 26 remains 21 impressions, 0
+clicks, average position 87.76, five of eight indexed URLs, and intermittent
+page-level testing. The under-$20K repair is one week old, the land workflow is
+19 days old, and the remaining rotation surfaces have fresh review or release
+coverage. No due sensor or durable user gap has changed.
+
+Decision: queue-level `no-build`. Keep no active or next eligible action,
+advance the weekly re-score to September 5, and preserve September 9 as the
+first 30-day portfolio checkpoint. Deferred outreach remains unsent and human-
+gated. Native QA is green: 40/40 snapshots validate, 88/88 tests pass, SEO QA
+reports zero errors and one known untouched Los Angeles canonical warning,
+operator-state QA reports zero errors, roadmap JSON and required files pass,
+exact scope matches, and diff checks pass. Independent read-only reviewer
+`THC-ROADMAP-2026-08-29-C1-CODEX` in task
+`01a04dfa-42fb-7381-b4e0-1680b80cd3c7` returned `PASS` with no findings.
+Release is docs/state only and deployment does not apply.
+
 ## 2026-08-28 - GSC Intermittent-Testing Reconciliation
 
 Action: `THC-NOOP-2026-08-28`

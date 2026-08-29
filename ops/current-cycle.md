@@ -1,67 +1,65 @@
 # Current Cycle
 
-Last updated: 2026-08-28
+Last updated: 2026-08-29
 
 Active action: `none`
 
 Next eligible action: `none`
 
-## Latest Monitoring Reconciliation
+## Current Roadmap Re-Score
 
-Action: `THC-NOOP-2026-08-28`
+Action: `THC-ROADMAP-2026-08-29`
 
 Authority: direct-manual learning-loop heartbeat.
 
-Transaction class: bounded GSC intermittent-testing reconciliation. It concludes
-`no-build` and does not select or implement a roadmap action.
+Transaction class: due weekly roadmap maintenance. It may update queue metadata
+and current research timing, but it does not authorize implementation.
 
-Human question: does one additional San Diego impression after three quiet days
-identify enough query fit to reopen the page or run a targeted SERP review?
+Human question: after the latest reviewed repairs and one more week of
+observation, is there a concrete user problem whose evidence and gates justify
+work now, or should the eight-page portfolio continue observing?
 
-Usefulness hypothesis: if the new evidence is one page-level impression with no
-click or public query row, while indexing, sitemap, and other page evidence stay
-stable, observation will protect user value better than optimizing from noise.
+Usefulness hypothesis: if no new technical, source, rendered, repeated-query,
+community, or handoff gap has appeared, and the first 30-day portfolio checkpoint
+is not due until September 9, leaving the queue empty will avoid redundant work
+while preserving a specific next review point.
 
 Exact paths:
 
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
 - `ops/current-cycle.md`
-- `ops/needs-user.md`
 - `ops/operator-review.md`
-- `status/site-pages.md`
-- `backlog/seo-research-review-backlog.md`
+- `status/research-rotation.md`
 - `progress.md`
 
 Base: clean, origin-aligned
-`32f1027324dc205d380494bb545d979ada6510e9` after the understood GSC-only
-fast-forward.
+`227f1cf17e7ce487719ab9067203472c4f948931`.
 
-Evidence: all 40 public-safe snapshots validate. August 28 is finalized through
-August 26 at 21 impressions, 0 clicks, average position 87.76, and five of eight
-indexed URLs. Homepage remains 13 impressions at page-average position 86.31;
-Los Angeles remains 1 at 83; San Diego moved from 6 impressions at 92.17 to 7
-at 91.14. These tiny page aggregates are not query ranks. The latest seven-day
-window moved from 8 to 7 impressions because the two-impression August 19 day
-left the window and August 26 added one; the trailing zero run reset to zero.
+Evidence: all 40 public-safe GSC snapshots validate. No snapshot newer than
+August 28 exists; its finalized data through August 26 remains at 21
+impressions, 0 clicks, average position 87.76, five of eight indexed URLs, and
+intermittent page-level testing. This is monitoring context, not causal
+implementation evidence.
 
-All inspection rows and sitemap evidence are unchanged: under-$20K, build
-options, and land remain discovered-currently-not-indexed, while five URLs
-remain indexed; the successful sitemap has eight discovered URLs and no
-warnings or errors. No repository, public, or account sensor identifies an
-outage or a page-specific usefulness gap. Fresh technical inputs are unchanged,
-so no public check was repeated.
+The under-$20K repair is one week old, the land workflow is 19 days old, and
+all other research-rotation surfaces retain fresh review or release evidence.
+No technical, official-source, rendered, repeated-query, community, or
+internal-handoff gap has satisfied a repair or research gate. The first 30-day
+portfolio checkpoint is September 9.
 
-Disposition: `no-build`. One additional San Diego impression without a click
-or public query row is intermittent testing, not meaningful query-fit evidence.
-No active, ready, or due research/review action has satisfied gates; the next
-roadmap review is August 29. Do not repeat DNS, deployment, byte-match, full
-public QA, SERP, paid keyword, indexing, outreach, community, or page work.
-Native QA and independent review are green: 40/40 snapshots validate, 88/88
-tests pass, SEO QA reports zero errors and one known untouched Los Angeles
-canonical warning, operator-state QA reports zero errors, roadmap JSON and
-required files pass, exact scope matches, and diff checks pass. Independent
-reviewer `THC-NOOP-2026-08-28-C1-CODEX` in read-only task
-`01a04adf-babc-7f03-a60c-3b3217e8952f` returned `PASS` with no findings.
-Release boundary is an exact-path docs-only commit and push; deployment does
+Disposition: queue-level `no-build`. Keep no active or next eligible action.
+Advance the next weekly re-score to September 5 and preserve September 9 as the
+first finite research checkpoint. Deferred outreach remains unsent and human-
+gated. Do not repeat public QA or run SERP, paid keyword, indexing, outreach,
+community, page, deployment, or external-account work. Native QA is green:
+40/40 snapshots validate, 88/88 tests pass, SEO QA reports zero errors and one
+known untouched Los Angeles canonical warning, operator-state QA reports zero
+errors, roadmap JSON and required files pass, exact scope matches, and diff
+checks pass. Independent read-only reviewer
+`THC-ROADMAP-2026-08-29-C1-CODEX` in task
+`01a04dfa-42fb-7381-b4e0-1680b80cd3c7` returned `PASS` with no findings.
+Release boundary is an exact-path docs/state commit and push; deployment does
 not apply.
 
 ## Most Recent Completed Transaction
