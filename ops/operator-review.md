@@ -1,5 +1,41 @@
 # Operator Review
 
+## 2026-08-28 - GSC Intermittent-Testing Reconciliation
+
+Action: `THC-NOOP-2026-08-28`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is bounded monitoring reconciliation, not a Control Room
+dispatch or roadmap implementation.
+
+Base: clean, origin-aligned
+`32f1027324dc205d380494bb545d979ada6510e9` after one understood GSC-only
+fast-forward.
+
+Frozen boundary: the six exact paths in `ops/current-cycle.md`. No site,
+roadmap, research, SERP, paid keyword, indexing request, outreach, community,
+deployment, external-account, vendor, cost, or legal/zoning/buildability action
+is authorized.
+
+Evidence: all 40 public-safe snapshots validate. August 28 through August 26
+reports 21 impressions, 0 clicks, average position 87.76, and five of eight
+indexed URLs. Homepage and Los Angeles page rows are unchanged; San Diego moved
+from 6 impressions at 92.17 to 7 at 91.14. The seven-day window moved from 8 to
+7 impressions as August 19 left and August 26 added one; the trailing zero run
+reset. Inspection and sitemap evidence are unchanged, so public checks were not
+repeated.
+
+Decision: `no-build`. One additional San Diego page-level impression without a
+click or public query row is not meaningful query-fit evidence; no active,
+ready, or due research/review action has satisfied gates. The next roadmap
+review is August 29. Native QA is green: 40/40 snapshots validate, 88/88 tests
+pass, SEO QA reports zero errors and one known untouched Los Angeles canonical
+warning, operator-state QA reports zero errors, roadmap JSON and required files
+pass, exact scope matches, and diff checks pass. Independent reviewer
+`THC-NOOP-2026-08-28-C1-CODEX` in read-only task
+`01a04adf-babc-7f03-a60c-3b3217e8952f` returned `PASS` with no findings.
+Release is an exact-path docs-only commit and push; deployment does not apply.
+
 ## 2026-08-27 - GSC Three-Day Zero-Run Reconciliation
 
 Action: `THC-NOOP-2026-08-27`

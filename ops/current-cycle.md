@@ -1,6 +1,6 @@
 # Current Cycle
 
-Last updated: 2026-08-27
+Last updated: 2026-08-28
 
 Active action: `none`
 
@@ -8,20 +8,19 @@ Next eligible action: `none`
 
 ## Latest Monitoring Reconciliation
 
-Action: `THC-NOOP-2026-08-27`
+Action: `THC-NOOP-2026-08-28`
 
 Authority: direct-manual learning-loop heartbeat.
 
-Transaction class: bounded GSC zero-run reconciliation. It concludes
+Transaction class: bounded GSC intermittent-testing reconciliation. It concludes
 `no-build` and does not select or implement a roadmap action.
 
-Human question: do three consecutive zero-impression days identify an outage or
-a page-level usefulness problem that would justify changing the site now?
+Human question: does one additional San Diego impression after three quiet days
+identify enough query fit to reopen the page or run a targeted SERP review?
 
-Usefulness hypothesis: if the rolling aggregate, page rows, indexing coverage,
-inspection states, and sitemap health remain stable while the configured
-visibility sensor still reports `activity-observed`, three zero days are too
-weak to select page, research, technical, or indexing work.
+Usefulness hypothesis: if the new evidence is one page-level impression with no
+click or public query row, while indexing, sitemap, and other page evidence stay
+stable, observation will protect user value better than optimizing from noise.
 
 Exact paths:
 
@@ -33,34 +32,35 @@ Exact paths:
 - `progress.md`
 
 Base: clean, origin-aligned
-`d4ef999d1a6dac397834c38e802a9f6690d5db44` after the understood GSC-only
+`32f1027324dc205d380494bb545d979ada6510e9` after the understood GSC-only
 fast-forward.
 
-Evidence: all 39 public-safe snapshots validate. August 27 is finalized through
-August 25 and remains at 20 impressions, 0 clicks, average position 87.9, and
-five of eight indexed URLs. Current page rows are unchanged: homepage 13
-impressions at page-average position 86.31, Los Angeles 1 at 83, and San Diego
-6 at 92.17; these tiny page aggregates are not query ranks. The latest seven-
-day window remains at 8 impressions and now records three consecutive zero-
-impression days while the sensor status remains `activity-observed`.
+Evidence: all 40 public-safe snapshots validate. August 28 is finalized through
+August 26 at 21 impressions, 0 clicks, average position 87.76, and five of eight
+indexed URLs. Homepage remains 13 impressions at page-average position 86.31;
+Los Angeles remains 1 at 83; San Diego moved from 6 impressions at 92.17 to 7
+at 91.14. These tiny page aggregates are not query ranks. The latest seven-day
+window moved from 8 to 7 impressions because the two-impression August 19 day
+left the window and August 26 added one; the trailing zero run reset to zero.
 
-All inspection rows are unchanged: under-$20K, build options, and land remain
-discovered-currently-not-indexed, while the other five URLs remain indexed.
-GSC read the successful eight-URL sitemap again on August 27 with no warnings or
-errors. No repository, public, or account sensor identifies an outage or a
-page-specific gap. Fresh inputs are unchanged, so no public check was repeated.
+All inspection rows and sitemap evidence are unchanged: under-$20K, build
+options, and land remain discovered-currently-not-indexed, while five URLs
+remain indexed; the successful sitemap has eight discovered URLs and no
+warnings or errors. No repository, public, or account sensor identifies an
+outage or a page-specific usefulness gap. Fresh technical inputs are unchanged,
+so no public check was repeated.
 
-Disposition: `no-build`. Three zero days are weak visibility, not causal page
-evidence or the configured seven-day stall condition. No verified defect
-exists, and no active, ready, or due research/review action has satisfied gates.
-Do not repeat DNS, deployment, byte-match, full public QA, SERP, paid keyword,
-indexing, outreach, community, or page work. Native QA and independent review
-are green: 39/39 snapshots validate, 88/88 tests pass, SEO QA reports zero
-errors and one known untouched Los Angeles canonical warning, operator-state QA
-reports zero errors, roadmap JSON and required files pass, exact scope matches,
-and diff checks pass. Independent reviewer
-`THC-NOOP-2026-08-27-C1-CODEX` in read-only task
-`01a04509-74fc-7a50-97d3-fe26e4f75a7e` returned `PASS` with no findings.
+Disposition: `no-build`. One additional San Diego impression without a click
+or public query row is intermittent testing, not meaningful query-fit evidence.
+No active, ready, or due research/review action has satisfied gates; the next
+roadmap review is August 29. Do not repeat DNS, deployment, byte-match, full
+public QA, SERP, paid keyword, indexing, outreach, community, or page work.
+Native QA and independent review are green: 40/40 snapshots validate, 88/88
+tests pass, SEO QA reports zero errors and one known untouched Los Angeles
+canonical warning, operator-state QA reports zero errors, roadmap JSON and
+required files pass, exact scope matches, and diff checks pass. Independent
+reviewer `THC-NOOP-2026-08-28-C1-CODEX` in read-only task
+`01a04adf-babc-7f03-a60c-3b3217e8952f` returned `PASS` with no findings.
 Release boundary is an exact-path docs-only commit and push; deployment does
 not apply.
 
@@ -664,16 +664,16 @@ answer and destination.
 
 ## Current Evidence
 
-The August 27 public-safe GSC snapshot at
-`ops/gsc-snapshots/2026-08-27.md` is fresh monitoring context through August
-25. It confirms all eight sitemap URLs remain inspected and five are indexed.
+The August 28 public-safe GSC snapshot at
+`ops/gsc-snapshots/2026-08-28.md` is fresh monitoring context through August
+26. It confirms all eight sitemap URLs remain inspected and five are indexed.
 Under-$20K, build options, and land remain discovered-currently-not-indexed.
-Rolling performance and current homepage, Los Angeles, and San Diego page rows
-are unchanged at 20 impressions and 0 clicks. The latest finalized seven-day
-window remains at 8 impressions with three consecutive zero-impression days;
-the sensor still reports activity observed. GSC read the successful sitemap on
-August 27. Stable aggregate, page, inspection, and sitemap evidence does not
-select a page or research action.
+Rolling performance is 21 impressions and 0 clicks. Homepage and Los Angeles
+rows are unchanged; San Diego adds one impression for 7 total at page-average
+position 91.14. The latest finalized seven-day window has 7 impressions, and
+August 26 resets the trailing zero run. One impression without query evidence,
+amid stable inspection and sitemap state, does not select a page or research
+action.
 
 ## Current Product State
 

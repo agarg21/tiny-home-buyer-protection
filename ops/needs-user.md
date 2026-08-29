@@ -1,6 +1,6 @@
 # Needs User
 
-Last updated: 2026-08-27
+Last updated: 2026-08-28
 
 ## Current Blockers
 
@@ -26,12 +26,11 @@ Last updated: 2026-08-27
 ## Waiting On External Accounts
 
 - Google Search Console indexing continues through the daily read-only snapshot
-  workflow. The 2026-08-27 snapshot is finalized through 2026-08-25: 20
+  workflow. The 2026-08-28 snapshot is finalized through 2026-08-26: 21
   impressions, 0 clicks, eight sitemap pages, and five indexed URLs. Under-
-  `$20K`, build options, and land remain discovered-currently-not-indexed. GSC
-  read the successful sitemap again on August 27. Three trailing zero-
-  impression days do not satisfy the configured stall gate. No user action or
-  indexing request is needed.
+  `$20K`, build options, and land remain discovered-currently-not-indexed. One
+  new San Diego impression reset the trailing zero run but does not establish a
+  query rank or page decision. No user action or indexing request is needed.
 - The 2026-07-18 authenticated Page indexing review found only HTTP/`www` aliases excluded as `Page with redirect`; all correctly redirect to the HTTPS apex. No indexing request, fix validation, DNS change, or user action is needed for those aliases.
 
 ## User Input Log

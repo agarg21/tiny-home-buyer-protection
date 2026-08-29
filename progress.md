@@ -1,5 +1,28 @@
 # Progress
 
+## 2026-08-28 - One San Diego Impression Remains Observation
+
+- Fast-forwarded the clean checkout through GSC-only commit `32f1027` and
+  validated all 40 public-safe snapshots.
+- August 28 through August 26 reports 21 impressions, 0 clicks, average
+  position 87.76, and five of eight indexed URLs. Homepage and Los Angeles page
+  rows are unchanged; San Diego moved from 6 impressions at 92.17 to 7 at
+  91.14. Page averages are not query-specific ranks.
+- The latest seven-day window moved from 8 to 7 impressions because August 19
+  left the window and August 26 added one. The trailing zero run reset. All
+  inspection and sitemap evidence remains unchanged, so public checks were not
+  repeated.
+- Registered `THC-NOOP-2026-08-28` on six exact evidence/state paths.
+  Disposition is `no-build`; no page, research, SERP, paid keyword, indexing,
+  outreach, community, deployment, or external-account action was selected.
+- Native QA is green: 40/40 snapshots validate, 88/88 tests pass, SEO QA has
+  zero errors and one known untouched Los Angeles canonical warning, operator-
+  state QA has zero errors, roadmap JSON and required files pass, exact scope
+  matches, and diff checks pass. Independent read-only reviewer
+  `THC-NOOP-2026-08-28-C1-CODEX` (`01a04adf-babc-7f03-a60c-3b3217e8952f`)
+  returned `PASS` with no findings. Release is docs-only and deployment does
+  not apply.
+
 ## 2026-08-27 - Three-Day Zero Run Remains Observation
 
 - Fast-forwarded the clean checkout through GSC-only commit `d4ef999` and
