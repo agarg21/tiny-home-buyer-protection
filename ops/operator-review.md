@@ -1,5 +1,45 @@
 # Operator Review
 
+## 2026-08-29 - GSC Rolling-Window Reconciliation
+
+Action: `THC-NOOP-2026-08-29`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is bounded monitoring reconciliation, not a Control Room
+dispatch or roadmap implementation.
+
+Base: clean, origin-aligned
+`dd8d2777eb1a4e5f3ecdf00fb8136437d362fe07` after one understood GSC-only
+fast-forward.
+
+Frozen boundary: the six exact paths in `ops/current-cycle.md`. No site,
+roadmap, research, SERP, paid keyword, indexing request, outreach, community,
+deployment, external-account, vendor, cost, or legal/zoning/buildability action
+is authorized.
+
+Evidence: all 41 public-safe snapshots validate. August 29 through August 27
+reports 20 impressions, 0 clicks, average position 87.6, and five of eight
+indexed URLs. The 28-day total lost one as July 30 left and zero-impression
+August 27 entered; only the homepage row fell by one. The seven-day total moved
+from 7 to 3 as four-impression August 20 left and August 27 added zero. Georgia
+received a fresh August 29 crawl and remains indexed. Other inspection and
+sitemap evidence is unchanged.
+
+Decision: `no-build`. The lower totals are rolling-window arithmetic, not a
+verified current visibility or usefulness regression. One trailing zero day is
+not the configured stall gate, and the fresh Georgia crawl is healthy evidence.
+No active, ready, or due action has satisfied gates; the September 5 weekly re-
+score and September 9 portfolio checkpoint remain next. Native QA is green:
+41/41 snapshots validate, 88/88 tests pass, SEO QA reports zero errors and one
+known untouched Los Angeles canonical warning, operator-state QA reports zero
+errors, roadmap JSON and required files pass, exact scope matches, and diff
+checks pass. Independent cycle 1 returned `FAIL` with one P2 because two
+records used an invalid expanded base SHA. Both now use the actual aligned SHA
+above. Cycle 2 reviewer `THC-NOOP-2026-08-29-C2-CODEX` in read-only task
+`01a04f56-6d13-7e83-8222-40594a697851` returned `PASS` with no findings and
+confirmed the prior P2 resolved. Release is docs/state only and deployment does
+not apply.
+
 ## 2026-08-29 - Weekly Roadmap Re-Score
 
 Action: `THC-ROADMAP-2026-08-29`

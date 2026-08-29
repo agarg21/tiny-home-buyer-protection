@@ -1,6 +1,6 @@
 # SEO Research And Review Backlog
 
-Last updated: 2026-08-28
+Last updated: 2026-08-29
 
 This is supporting evidence inventory, not a scheduler. The machine-readable
 queue is `ops/seo-roadmap.json`.
@@ -27,14 +27,14 @@ repeat either research lane while its inputs remain fresh.
 
 ## Current Monitoring Context
 
-The August 28 snapshot through August 26 reports eight discovered/inspected
-pages, five indexed, 21 rolling impressions, and 0 clicks. Under-$20K, build
-options, and land remain discovered-currently-not-indexed. Homepage and Los
-Angeles rows are unchanged; San Diego adds one impression for 7 total at page-
-average position 91.14. The latest seven-day window has 7 impressions, and the
-trailing zero run reset. One page-level impression without query evidence is
-not a research, SERP, indexing, or page-repair action. Visibility remains weak,
-not proof that every page should be rewritten.
+The August 29 snapshot through August 27 reports eight discovered/inspected
+pages, five indexed, 20 rolling impressions, and 0 clicks. Under-$20K, build
+options, and land remain discovered-currently-not-indexed. The rolling 28-day
+total lost one old homepage impression, and the seven-day total moved from 7 to
+3 as the four-impression August 20 day left; the newest day has zero. Georgia
+received a fresh crawl and remains indexed. Window churn without query evidence
+is not a research, SERP, indexing, or page-repair action. Visibility remains
+weak, not proof that every page should be rewritten.
 
 Potential future research becomes eligible only when current evidence exposes:
 

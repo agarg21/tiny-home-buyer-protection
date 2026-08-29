@@ -1,5 +1,29 @@
 # Progress
 
+## 2026-08-29 - Rolling Windows Shrink While Georgia Is Recrawled
+
+- Fast-forwarded the clean checkout through GSC-only commit `dd8d277` and
+  validated all 41 public-safe snapshots.
+- August 29 through August 27 reports 20 impressions, 0 clicks, average
+  position 87.6, and five of eight indexed URLs. The 28-day total lost one old
+  homepage impression as a zero-impression day entered; the seven-day total
+  moved from 7 to 3 as the four-impression August 20 day left.
+- Georgia received a fresh August 29 crawl and remains indexed. All other
+  inspection and sitemap evidence is unchanged; under-$20K, build options, and
+  land remain discovered-currently-not-indexed.
+- Registered `THC-NOOP-2026-08-29` on six exact evidence/state paths.
+  Disposition is `no-build`; rolling-window churn does not select page,
+  research, SERP, paid keyword, indexing, outreach, community, deployment, or
+  external-account work.
+- Native QA is green: 41/41 snapshots validate, 88/88 tests pass, SEO QA has
+  zero errors and one known untouched Los Angeles canonical warning, operator-
+  state QA has zero errors, roadmap JSON and required files pass, exact scope
+  matches, and diff checks pass. Independent cycle 1 found one P2 invalid
+  expanded base SHA; the two records now use the actual aligned SHA. Cycle 2
+  read-only reviewer `THC-NOOP-2026-08-29-C2-CODEX`
+  (`01a04f56-6d13-7e83-8222-40594a697851`) returned `PASS` with no findings.
+  Release is docs/state only and deployment does not apply.
+
 ## 2026-08-29 - Weekly Roadmap Re-Score Keeps The Queue Empty
 
 - Registered `THC-ROADMAP-2026-08-29` on six exact docs/state paths from clean,
