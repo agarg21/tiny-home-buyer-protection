@@ -1,5 +1,44 @@
 # Operator Review
 
+## 2026-08-30 - GSC Build-Options Inspection Reconciliation
+
+Action: `THC-NOOP-2026-08-30`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is bounded monitoring reconciliation, not a Control Room
+dispatch or roadmap implementation.
+
+Base: clean, origin-aligned
+`6cf6f64d5e6795db57aa6dfb5d50531f063d02b2` after one understood GSC-only
+fast-forward.
+
+Frozen boundary: the six exact paths in `ops/current-cycle.md`. No site,
+roadmap, research, SERP, paid keyword, indexing request, outreach, community,
+deployment, external-account, vendor, cost, or legal/zoning/buildability action
+is authorized.
+
+Evidence: all 42 public-safe snapshots validate. August 30 through August 28
+reports 21 impressions, 0 clicks, average position 87.67, and five of eight
+indexed URLs. August 27 was backfilled from zero to one impression; only San
+Diego changed, from 7 at 91.14 to 8 at 90.88. The latest seven-day total and
+trailing zero run remain 3 and one day. Build options changed from discovered-
+currently-not-indexed to `URL is unknown to Google`; its HTTP 200, self-
+canonical, no-`noindex`, robots-allowed, and one-sitemap-entry checks pass.
+Other inspection and sitemap evidence is unchanged.
+
+Decision: `needs-evidence` for the isolated inspection label and `no-build`
+for implementation. Prior durable evidence shows these labels can clear or
+move among healthy uncrawled URLs. The San Diego backfill is not query-fit
+evidence. No active, ready, or due action has satisfied gates; the September 5
+re-score and September 9 portfolio checkpoint remain next. Native QA is green:
+42/42 snapshots validate, 88/88 tests pass, SEO QA reports zero errors and one
+known untouched Los Angeles canonical warning, operator-state QA reports zero
+errors, roadmap JSON and required files pass, exact scope matches, and diff
+checks pass. Independent read-only reviewer
+`THC-NOOP-2026-08-30-C1-CODEX` in task
+`01a05487-dfa7-7931-ae15-fdfe622b0d92` returned `PASS` with no findings.
+Release is docs/state only and deployment does not apply.
+
 ## 2026-08-29 - GSC Rolling-Window Reconciliation
 
 Action: `THC-NOOP-2026-08-29`

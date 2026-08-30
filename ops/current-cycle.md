@@ -1,6 +1,6 @@
 # Current Cycle
 
-Last updated: 2026-08-29
+Last updated: 2026-08-30
 
 Active action: `none`
 
@@ -8,21 +8,22 @@ Next eligible action: `none`
 
 ## Latest Monitoring Reconciliation
 
-Action: `THC-NOOP-2026-08-29`
+Action: `THC-NOOP-2026-08-30`
 
 Authority: direct-manual learning-loop heartbeat.
 
-Transaction class: bounded GSC rolling-window reconciliation. It concludes
-`no-build` and does not select or implement a roadmap action.
+Transaction class: bounded GSC inspection-label reconciliation. It concludes
+`needs-evidence` for the changed label and `no-build` for implementation.
 
-Human question: does the drop from 21 to 20 rolling impressions and from 7 to 3
-recent impressions identify a current visibility regression that should change
-the site?
+Human question: does build options changing from discovered-currently-not-
+indexed to `URL is unknown to Google`, alongside one backfilled San Diego
+impression, identify a defect or query-fit opportunity that should change the
+site now?
 
-Usefulness hypothesis: if the totals fall only because older impression days
-leave their rolling windows while the newest day is zero, indexing and sitemap
-state stay healthy, and an indexed page receives a fresh crawl, then observation
-will protect user value better than treating window churn as a page defect.
+Usefulness hypothesis: if the live build-options URL still passes HTTP,
+canonical, robots, noindex, and sitemap checks, while prior uncrawled URLs have
+shown one-day inspection-label volatility, observation will protect user value
+better than changing a reviewed page or requesting indexing from one label.
 
 Exact paths:
 
@@ -34,39 +35,40 @@ Exact paths:
 - `progress.md`
 
 Base: clean, origin-aligned
-`dd8d2777eb1a4e5f3ecdf00fb8136437d362fe07` after the understood GSC-only
+`6cf6f64d5e6795db57aa6dfb5d50531f063d02b2` after the understood GSC-only
 fast-forward.
 
-Evidence: all 41 public-safe snapshots validate. August 29 is finalized through
-August 27 at 20 rolling impressions, 0 clicks, average position 87.6, and five
-of eight indexed URLs. The 28-day window moved from July 30-August 26 to July
-31-August 27; one old impression left and the new day added zero. Homepage is
-the only page row that changed, from 13 impressions at 86.31 to 12 at 85.92;
-Los Angeles remains 1 at 83 and San Diego remains 7 at 91.14. These are rolling
-page aggregates, not query ranks.
+Evidence: all 42 public-safe snapshots validate. August 30 is finalized through
+August 28 at 21 rolling impressions, 0 clicks, average position 87.67, and five
+of eight indexed URLs. August 27 was backfilled from zero to one impression and
+August 28 added zero; San Diego is the only current page row that changed, from
+7 impressions at 91.14 to 8 at 90.88. Homepage remains 12 at 85.92 and Los
+Angeles remains 1 at 83. The latest seven-day window remains at 3 impressions,
+and the trailing zero run remains one day. These are tiny aggregates, not query
+ranks.
 
-The latest seven-day window moved from 7 to 3 impressions because the four-
-impression August 20 day left and August 27 added zero; the trailing zero run is
-one day. Georgia received a fresh August 29 crawl and remains indexed. All
-other inspection rows and sitemap evidence are unchanged: under-$20K, build
-options, and land remain discovered-currently-not-indexed, while five URLs
-remain indexed; the successful sitemap has eight discovered URLs and no
-warnings or errors.
+URL Inspection changed build options from discovered-currently-not-indexed to
+`URL is unknown to Google`. Five URLs remain indexed; under-$20K and land
+remain discovered-currently-not-indexed. All other inspection and sitemap
+evidence is unchanged. A bounded public check passed HTTP 200, self-canonical,
+no `noindex`, robots allow, and exactly one sitemap entry for build options;
+the GSC sitemap remains successful with eight discovered URLs and no warnings
+or errors.
 
-Disposition: `no-build`. Both impression drops are rolling-window arithmetic,
-not evidence of a current ranking or usefulness regression. The fresh Georgia
-crawl is healthy discovery evidence, not a repair trigger. No active, ready,
-or due action has satisfied gates; the next weekly re-score remains September
-5 and the first finite portfolio checkpoint remains September 9. Do not repeat
-public QA or run SERP, paid keyword, indexing, outreach, community, page,
-deployment, or external-account work. Native QA is green: 41/41 snapshots
-validate, 88/88 tests pass, SEO QA reports zero errors and one known untouched
-Los Angeles canonical warning, operator-state QA reports zero errors, roadmap
-JSON and required files pass, exact scope matches, and diff checks pass.
-Independent cycle 1 found one P2: two records used an invalid expanded base
-SHA. Both now use the actual aligned base above. Cycle 2 reviewer
-`THC-NOOP-2026-08-29-C2-CODEX` in read-only task
-`01a04f56-6d13-7e83-8222-40594a697851` returned `PASS` with no findings.
+Disposition: `needs-evidence` for the isolated inspection label and `no-build`
+for implementation. The August 24-25 durable decision already establishes
+that one-day labels on healthy uncrawled URLs are volatile evidence. One
+backfilled San Diego impression without a click or public query row is not
+meaningful query fit. No active, ready, or due action has satisfied gates; the
+next weekly re-score remains September 5 and the first finite portfolio
+checkpoint remains September 9. Do not request indexing or run SERP, paid
+keyword, outreach, community, page, deployment, or external-account work.
+Native QA is green: 42/42 snapshots validate, 88/88 tests pass, SEO QA reports
+zero errors and one known untouched Los Angeles canonical warning, operator-
+state QA reports zero errors, roadmap JSON and required files pass, exact scope
+matches, and diff checks pass. Independent read-only reviewer
+`THC-NOOP-2026-08-30-C1-CODEX` in task
+`01a05487-dfa7-7931-ae15-fdfe622b0d92` returned `PASS` with no findings.
 Release boundary is an exact-path docs/state commit and push; deployment does
 not apply.
 

@@ -1,5 +1,28 @@
 # Progress
 
+## 2026-08-30 - Build-Options Inspection Label Needs Evidence
+
+- Fast-forwarded the clean checkout through GSC-only commit `6cf6f64` and
+  validated all 42 public-safe snapshots.
+- August 30 through August 28 reports 21 impressions, 0 clicks, average
+  position 87.67, and five of eight indexed URLs. August 27 was backfilled from
+  zero to one impression, raising San Diego from 7 to 8 page impressions; the
+  latest seven-day total remains 3.
+- Build options changed to `URL is unknown to Google`. Bounded checks pass HTTP
+  200, self-canonical, no `noindex`, robots allow, and exactly one sitemap
+  entry. Other inspection and sitemap evidence is unchanged.
+- Registered `THC-NOOP-2026-08-30` on six exact evidence/state paths.
+  Disposition is `needs-evidence` for the isolated label and `no-build` for
+  implementation; no page, research, SERP, paid keyword, indexing, outreach,
+  community, deployment, or external-account action was selected.
+- Native QA is green: 42/42 snapshots validate, 88/88 tests pass, SEO QA has
+  zero errors and one known untouched Los Angeles canonical warning, operator-
+  state QA has zero errors, roadmap JSON and required files pass, exact scope
+  matches, and diff checks pass. Independent read-only reviewer
+  `THC-NOOP-2026-08-30-C1-CODEX` (`01a05487-dfa7-7931-ae15-fdfe622b0d92`)
+  returned `PASS` with no findings. Release is docs/state only and deployment
+  does not apply.
+
 ## 2026-08-29 - Rolling Windows Shrink While Georgia Is Recrawled
 
 - Fast-forwarded the clean checkout through GSC-only commit `dd8d277` and
