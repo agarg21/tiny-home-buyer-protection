@@ -1,6 +1,6 @@
 # Needs User
 
-Last updated: 2026-08-30
+Last updated: 2026-08-31
 
 ## Current Blockers
 
@@ -26,12 +26,14 @@ Last updated: 2026-08-30
 ## Waiting On External Accounts
 
 - Google Search Console indexing continues through the daily read-only snapshot
-  workflow. The 2026-08-30 snapshot is finalized through 2026-08-28: 21
-  impressions, 0 clicks, eight sitemap pages, and five indexed URLs. Under-
-  `$20K` and land remain discovered-currently-not-indexed; build options now
-  says `URL is unknown to Google`. Its bounded public discovery checks are
-  healthy, and prior labels on uncrawled URLs proved volatile. No user action
-  or indexing request is needed.
+  workflow. The 2026-08-31 snapshot is finalized through 2026-08-29: 22
+  impressions, 0 clicks, eight sitemap pages, and five indexed URLs. Georgia
+  has one page-level impression at page-average position 2, but the public-safe
+  evidence contains no query row and cannot establish a query-specific rank.
+  Under-$20K and build options say `URL is unknown to Google`; land remains
+  discovered-currently-not-indexed. Recent production/discovery checks are
+  healthy and the same labels have proved volatile. No user action or indexing
+  request is needed.
 - The 2026-07-18 authenticated Page indexing review found only HTTP/`www` aliases excluded as `Page with redirect`; all correctly redirect to the HTTPS apex. No indexing request, fix validation, DNS change, or user action is needed for those aliases.
 
 ## User Input Log

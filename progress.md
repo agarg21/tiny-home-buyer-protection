@@ -1,5 +1,35 @@
 # Progress
 
+## 2026-08-31 - One Georgia Impression Needs Query Evidence
+
+- Fast-forwarded the clean checkout through GSC-only commit `8adc28d` and
+  validated the new public-safe snapshot against the prior snapshot.
+- August 31 through August 29 reports 22 impressions, 0 clicks, average
+  position 82.45, and five of eight indexed URLs. Georgia appears with one
+  page-level impression at page-average position 2, but no public query row;
+  San Diego remains at eight impressions while its page average changes to
+  87.25.
+- Under-$20K returns to `URL is unknown to Google`; build options remains on
+  that label and land remains discovered-currently-not-indexed. Sitemap and all
+  other inspection facts are unchanged. Fresh prior checks and the label's
+  earlier one-day reversal make repeat public checks unnecessary.
+- Registered `THC-NOOP-2026-08-31` on six exact evidence/state paths.
+  Disposition is `needs-evidence` for the Georgia signal and under-$20K label,
+  and `no-build` for implementation. No page, research, SERP, paid keyword,
+  indexing, outreach, community, deployment, or external-account action was
+  selected.
+- Native QA is green: 43/43 snapshots validate, 88/88 tests pass, SEO QA has
+  zero errors and one known untouched Los Angeles canonical warning, operator-
+  state QA has zero errors, roadmap JSON and required files pass, exact scope
+  matches, and diff checks pass. Independent cycle 1 found one P2 chronology
+  error in calling the returning Georgia row its first impression. The record
+  now acknowledges prior historical impressions; cycle 2 read-only reviewer
+  `THC-NOOP-2026-08-31-C2-CODEX`
+  (`01a059a5-b341-71b1-a3f5-11ff924daa57`) returned `PASS` with no findings.
+  Final frozen-state cycle 3 reviewer `THC-NOOP-2026-08-31-C3-CODEX` returned
+  `PASS` with no findings on the complete six-path candidate. Release is
+  docs/state only and deployment does not apply.
+
 ## 2026-08-30 - Build-Options Inspection Label Needs Evidence
 
 - Fast-forwarded the clean checkout through GSC-only commit `6cf6f64` and

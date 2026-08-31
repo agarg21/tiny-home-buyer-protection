@@ -1,6 +1,6 @@
 # Current Cycle
 
-Last updated: 2026-08-30
+Last updated: 2026-08-31
 
 Active action: `none`
 
@@ -8,22 +8,24 @@ Next eligible action: `none`
 
 ## Latest Monitoring Reconciliation
 
-Action: `THC-NOOP-2026-08-30`
+Action: `THC-NOOP-2026-08-31`
 
 Authority: direct-manual learning-loop heartbeat.
 
-Transaction class: bounded GSC inspection-label reconciliation. It concludes
-`needs-evidence` for the changed label and `no-build` for implementation.
+Transaction class: bounded GSC page-signal and inspection-label
+reconciliation. It concludes `needs-evidence` for the new signals and
+`no-build` for implementation.
 
-Human question: does build options changing from discovered-currently-not-
-indexed to `URL is unknown to Google`, alongside one backfilled San Diego
-impression, identify a defect or query-fit opportunity that should change the
-site now?
+Human question: does Georgia's return to the current rolling-window page rows
+with one impression at page-average position 2, together with under-$20K
+returning to `URL is unknown to Google`, identify a query-fit or discovery
+opportunity that should change the site now?
 
-Usefulness hypothesis: if the live build-options URL still passes HTTP,
-canonical, robots, noindex, and sitemap checks, while prior uncrawled URLs have
-shown one-day inspection-label volatility, observation will protect user value
-better than changing a reviewed page or requesting indexing from one label.
+Usefulness hypothesis: if the Georgia signal is one impression without a
+public query row and the under-$20K label repeats a recently verified volatile
+transition, observation will protect user value better than inferring a query,
+rewriting a reviewed page, repeating fresh public checks, or requesting
+indexing.
 
 Exact paths:
 
@@ -35,40 +37,46 @@ Exact paths:
 - `progress.md`
 
 Base: clean, origin-aligned
-`6cf6f64d5e6795db57aa6dfb5d50531f063d02b2` after the understood GSC-only
+`8adc28dc7f9edb2af7994ec29ef9fcdecc069105` after the understood GSC-only
 fast-forward.
 
-Evidence: all 42 public-safe snapshots validate. August 30 is finalized through
-August 28 at 21 rolling impressions, 0 clicks, average position 87.67, and five
-of eight indexed URLs. August 27 was backfilled from zero to one impression and
-August 28 added zero; San Diego is the only current page row that changed, from
-7 impressions at 91.14 to 8 at 90.88. Homepage remains 12 at 85.92 and Los
-Angeles remains 1 at 83. The latest seven-day window remains at 3 impressions,
-and the trailing zero run remains one day. These are tiny aggregates, not query
-ranks.
+Evidence: the August 31 snapshot is finalized through August 29 at 22 rolling
+impressions, 0 clicks, average position 82.45, and five of eight indexed URLs.
+Georgia returns to the current rolling-window page rows with one page-level
+impression at page-average position 2; earlier historical snapshots also
+contained Georgia impressions. The public-safe snapshot omits the query, so
+this is not evidence that a target query ranks second. San Diego remains at
+eight impressions but its page-average position changes from 90.88 to 87.25;
+homepage and Los Angeles remain unchanged. The latest seven-day window moves
+from three to four impressions and the trailing zero run clears.
 
-URL Inspection changed build options from discovered-currently-not-indexed to
-`URL is unknown to Google`. Five URLs remain indexed; under-$20K and land
-remain discovered-currently-not-indexed. All other inspection and sitemap
-evidence is unchanged. A bounded public check passed HTTP 200, self-canonical,
-no `noindex`, robots allow, and exactly one sitemap entry for build options;
-the GSC sitemap remains successful with eight discovered URLs and no warnings
-or errors.
+URL Inspection changes under-$20K from discovered-currently-not-indexed to
+`URL is unknown to Google`; build options remains on that label and land
+remains discovered-currently-not-indexed. Five URLs remain indexed. The
+successful sitemap still reports eight discovered URLs with no warnings or
+errors, and all other inspection facts are unchanged. The recently released
+under-$20K page has fresh production and August 24 discovery checks, and the
+same label cleared after one day on August 25, so no public check is repeated.
 
-Disposition: `needs-evidence` for the isolated inspection label and `no-build`
-for implementation. The August 24-25 durable decision already establishes
-that one-day labels on healthy uncrawled URLs are volatile evidence. One
-backfilled San Diego impression without a click or public query row is not
-meaningful query fit. No active, ready, or due action has satisfied gates; the
-next weekly re-score remains September 5 and the first finite portfolio
-checkpoint remains September 9. Do not request indexing or run SERP, paid
-keyword, outreach, community, page, deployment, or external-account work.
-Native QA is green: 42/42 snapshots validate, 88/88 tests pass, SEO QA reports
-zero errors and one known untouched Los Angeles canonical warning, operator-
-state QA reports zero errors, roadmap JSON and required files pass, exact scope
-matches, and diff checks pass. Independent read-only reviewer
-`THC-NOOP-2026-08-30-C1-CODEX` in task
-`01a05487-dfa7-7931-ae15-fdfe622b0d92` returned `PASS` with no findings.
+Disposition: `needs-evidence` for both the single Georgia impression and the
+repeated under-$20K label; `no-build` for implementation. One impression
+without a query row cannot establish query fit, and another already observed
+inspection-label transition does not identify a technical defect. No active,
+ready, or due action has satisfied gates; the next weekly re-score remains
+September 5 and the first finite portfolio checkpoint remains September 9. Do
+not request indexing or run SERP, paid keyword, outreach, community, page,
+deployment, or external-account work. Native QA is green: 43/43 snapshots
+validate, 88/88 tests pass, SEO QA reports zero errors and one known untouched
+Los Angeles canonical warning, operator-state QA reports zero errors, roadmap
+JSON and required files pass, exact scope matches, and diff checks pass.
+Independent cycle 1 found one P2 historical-sequence error in calling the
+Georgia row its first impression; the record now says it returned to the
+current window and acknowledges prior impressions. Cycle 2 reviewer
+`THC-NOOP-2026-08-31-C2-CODEX` in task
+`01a059a5-b341-71b1-a3f5-11ff924daa57` returned `PASS` with no findings.
+Final frozen-state cycle 3 reviewer `THC-NOOP-2026-08-31-C3-CODEX` in the same
+read-only task returned `PASS` with no findings and confirmed the complete
+six-path candidate and release boundary.
 Release boundary is an exact-path docs/state commit and push; deployment does
 not apply.
 

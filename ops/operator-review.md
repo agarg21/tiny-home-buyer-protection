@@ -1,5 +1,50 @@
 # Operator Review
 
+## 2026-08-31 - GSC Georgia Signal And Inspection-Label Reconciliation
+
+Action: `THC-NOOP-2026-08-31`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is bounded monitoring reconciliation, not a Control Room
+dispatch or roadmap implementation.
+
+Base: clean, origin-aligned
+`8adc28dc7f9edb2af7994ec29ef9fcdecc069105` after one understood GSC-only
+fast-forward.
+
+Frozen boundary: the six exact paths in `ops/current-cycle.md`. No site,
+roadmap, research, SERP, paid keyword, indexing request, outreach, community,
+deployment, external-account, vendor, cost, or legal/zoning/buildability action
+is authorized.
+
+Evidence: the August 31 snapshot through August 29 reports 22 impressions, 0
+clicks, average position 82.45, and five of eight indexed URLs. Georgia appears
+with one page-level impression at page-average position 2; the snapshot omits
+the query, so this is not a query-specific rank. San Diego remains at eight
+impressions while its page average changes to 87.25; homepage and Los Angeles
+are unchanged. Under-$20K returns to `URL is unknown to Google`, build options
+remains there, and land remains discovered-currently-not-indexed. Sitemap and
+all other inspection facts are unchanged.
+
+Decision: `needs-evidence` for the single Georgia impression and repeated
+under-$20K label; `no-build` for implementation. Prior durable evidence and
+fresh production/discovery checks cover this exact label transition, so public
+checks are not repeated. No active, ready, or due action has satisfied gates;
+the September 5 re-score and September 9 portfolio checkpoint remain next.
+Native QA is green: 43/43 snapshots validate, 88/88 tests pass, SEO QA reports
+zero errors and one known untouched Los Angeles canonical warning, operator-
+state QA reports zero errors, roadmap JSON and required files pass, exact scope
+matches, and diff checks pass. Independent cycle 1 returned `FAIL` with one P2
+because `ops/current-cycle.md` called the returning Georgia signal its first
+impression despite earlier historical rows. The wording now distinguishes the
+current-window return from prior impressions. Cycle 2 reviewer
+`THC-NOOP-2026-08-31-C2-CODEX` in read-only task
+`01a059a5-b341-71b1-a3f5-11ff924daa57` returned `PASS` with no findings and
+confirmed the P2 resolved. Final frozen-state cycle 3 reviewer
+`THC-NOOP-2026-08-31-C3-CODEX` in the same read-only task returned `PASS` with
+no findings and confirmed the complete six-path candidate and release
+boundary. Release is docs/state only and deployment does not apply.
+
 ## 2026-08-30 - GSC Build-Options Inspection Reconciliation
 
 Action: `THC-NOOP-2026-08-30`

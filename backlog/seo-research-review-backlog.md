@@ -1,6 +1,6 @@
 # SEO Research And Review Backlog
 
-Last updated: 2026-08-30
+Last updated: 2026-08-31
 
 This is supporting evidence inventory, not a scheduler. The machine-readable
 queue is `ops/seo-roadmap.json`.
@@ -27,15 +27,15 @@ repeat either research lane while its inputs remain fresh.
 
 ## Current Monitoring Context
 
-The August 30 snapshot through August 28 reports eight discovered/inspected
-pages, five indexed, 21 rolling impressions, and 0 clicks. Under-$20K and land
-remain discovered-currently-not-indexed; build options changed to `URL is
-unknown to Google`. Its HTTP 200, canonical, no-`noindex`, robots, and sitemap
-checks pass, so the volatile label needs evidence rather than a page or indexing
-action. August 27 was backfilled from zero to one impression, raising San Diego
-to 8 page-level impressions; the seven-day total remains 3. One backfill without
-query evidence is not research or repair evidence. Visibility remains weak,
-not proof that every page should be rewritten.
+The August 31 snapshot through August 29 reports eight discovered/inspected
+pages, five indexed, 22 rolling impressions, and 0 clicks. Georgia appears with
+one page-level impression at page-average position 2, but no public query row
+identifies the query; this is `needs-evidence`, not a query rank or research
+trigger. Under-$20K and build options say `URL is unknown to Google`; land
+remains discovered-currently-not-indexed. Fresh production/discovery checks and
+prior one-day reversals cover the repeated label, so it does not select a page
+or indexing action. Visibility remains weak, not proof that every page should
+be rewritten.
 
 Potential future research becomes eligible only when current evidence exposes:
 
