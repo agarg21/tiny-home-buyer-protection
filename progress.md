@@ -1,5 +1,33 @@
 # Progress
 
+## 2026-09-01 - Under-$20K Inspection Label Clears Again
+
+- Fast-forwarded the clean checkout through GSC-only commit `80164c8` and
+  validated all 44 public-safe snapshots.
+- September 1 through August 30 remains at 22 impressions, 0 clicks, average
+  position 82.45, identical page rows, and five of eight indexed URLs. The
+  latest seven-day total remains 4 and adds one trailing zero day.
+- Under-$20K returned from `URL is unknown to Google` to discovered-currently-
+  not-indexed after one day without any site, deployment, indexing-request, or
+  external mutation. Build options remains on the unknown label; land, sitemap,
+  and all other inspection evidence are unchanged.
+- Registered `THC-NOOP-2026-09-01` on six exact evidence/state paths.
+  Disposition is `keep` for the under-$20K page state and `no-build` for
+  implementation. The reversal confirms volatile-label behavior; no page,
+  research, SERP, paid keyword, repeated public check, indexing, outreach,
+  community, deployment, or external-account action was selected.
+- Native QA is green: 44/44 snapshots validate, 88/88 tests pass, SEO QA has
+  zero errors and one known untouched Los Angeles canonical warning, operator-
+  state QA has zero errors, roadmap JSON and required files pass, exact scope
+  matches, and diff checks pass. Independent cycle 1 found one P2 overbroad
+  no-mutation claim. The record now distinguishes the prior docs/state commit
+  from the absent site, deployment, indexing-request, and external mutations;
+  cycle 2 read-only reviewer `THC-NOOP-2026-09-01-C2-CODEX`
+  (`01a05ed0-0691-7f40-ac9b-3cd842aea3f6`) returned `PASS` with no findings.
+  Final frozen-state cycle 3 reviewer `THC-NOOP-2026-09-01-C3-CODEX` returned
+  `PASS` with no findings on the complete six-path candidate. Release is
+  docs/state only and deployment does not apply.
+
 ## 2026-08-31 - One Georgia Impression Needs Query Evidence
 
 - Fast-forwarded the clean checkout through GSC-only commit `8adc28d` and
