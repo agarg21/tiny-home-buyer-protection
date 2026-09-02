@@ -1,5 +1,46 @@
 # Operator Review
 
+## 2026-09-02 - GSC San Diego Backfill And Rotating-Label Reconciliation
+
+Action: `THC-NOOP-2026-09-02`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is bounded monitoring reconciliation, not a Control Room
+dispatch or roadmap implementation.
+
+Base: clean, origin-aligned
+`5ddaf9028fd8a96916ddb5cce1a40902a1d23b3f` after one understood GSC-only
+fast-forward.
+
+Frozen boundary: the six exact paths in `ops/current-cycle.md`. No site,
+roadmap, research, SERP, paid keyword, indexing request, outreach, community,
+deployment, external-account, vendor, cost, or legal/zoning/buildability action
+is authorized.
+
+Evidence: all 45 public-safe snapshots validate. September 2 through August 31
+reports 24 impressions, 0 clicks, average position 82.5, and five indexed URLs.
+August 30 was backfilled from zero to two impressions, both on San Diego, which
+moves from eight impressions at page-average position 87.25 to ten at 86.4.
+No public query row identifies a query. Under-$20K moves to `URL is unknown to
+Google` while build options returns to discovered-currently-not-indexed. Land
+and all other inspection facts are unchanged. GSC reread the successful
+eight-URL sitemap on September 2 with no warnings or errors.
+
+Decision: `needs-evidence` for the San Diego backfill and rotating labels;
+`no-build` for implementation. Tiny page-level evidence without a query row
+does not establish query fit, and reciprocal label movement among healthy
+uncrawled URLs does not identify a technical defect. Fresh prior checks still
+apply, so public checks are not repeated. No active, ready, or due action has
+satisfied gates; the September 5 re-score and September 9 portfolio checkpoint
+remain next. Native QA is green: 45/45 snapshots validate, 88/88 tests pass,
+SEO QA reports zero errors and one known untouched Los Angeles canonical
+warning, operator-state QA reports zero errors, roadmap JSON and required files
+pass, exact scope matches, and diff checks pass. Independent read-only reviewer
+`THC-NOOP-2026-09-02-C1-CODEX` in task
+`01a063f0-52bb-7b92-91fd-23c4e96ba35a` returned `PASS` with no findings and
+confirmed the evidence classification and no-repeat-public-check decision.
+Release is docs/state only and deployment does not apply.
+
 ## 2026-09-01 - GSC Inspection-Label Closeout
 
 Action: `THC-NOOP-2026-09-01`

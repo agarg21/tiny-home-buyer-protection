@@ -1,5 +1,31 @@
 # Progress
 
+## 2026-09-02 - San Diego Backfill And Labels Still Need Evidence
+
+- Fast-forwarded the clean checkout through GSC-only commit `5ddaf90` and
+  validated all 45 public-safe snapshots.
+- September 2 through August 31 reports 24 impressions, 0 clicks, average
+  position 82.5, and five of eight indexed URLs. August 30 was backfilled from
+  zero to two impressions, both on San Diego, which moves from eight
+  impressions at page-average position 87.25 to ten at 86.4. No public query
+  row identifies a query.
+- Under-$20K moved to `URL is unknown to Google` while build options returned
+  to discovered-currently-not-indexed. Land and all other inspection facts are
+  unchanged. GSC reread the successful eight-URL sitemap on September 2 with no
+  warnings or errors.
+- Registered `THC-NOOP-2026-09-02` on six exact evidence/state paths.
+  Disposition is `needs-evidence` for the San Diego backfill and rotating
+  labels, and `no-build` for implementation. No page, research, SERP, paid
+  keyword, repeated public check, indexing, outreach, community, deployment,
+  or external-account action was selected.
+- Native QA is green: 45/45 snapshots validate, 88/88 tests pass, SEO QA has
+  zero errors and one known untouched Los Angeles canonical warning, operator-
+  state QA has zero errors, roadmap JSON and required files pass, exact scope
+  matches, and diff checks pass. Independent read-only reviewer
+  `THC-NOOP-2026-09-02-C1-CODEX`
+  (`01a063f0-52bb-7b92-91fd-23c4e96ba35a`) returned `PASS` with no findings.
+  Release is docs/state only and deployment does not apply.
+
 ## 2026-09-01 - Under-$20K Inspection Label Clears Again
 
 - Fast-forwarded the clean checkout through GSC-only commit `80164c8` and
