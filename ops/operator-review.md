@@ -1,5 +1,49 @@
 # Operator Review
 
+## 2026-09-03 - GSC San Diego Backfill And Label-Reversal Reconciliation
+
+Action: `THC-NOOP-2026-09-03`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is bounded monitoring reconciliation, not a Control Room
+dispatch or roadmap implementation.
+
+Base: clean, origin-aligned
+`8146b227343f299117865ee489e01833d24cbd2e` after one understood GSC-only
+fast-forward.
+
+Frozen boundary: the six exact paths in `ops/current-cycle.md`. No site,
+roadmap, research, SERP, paid keyword, indexing request, outreach, community,
+deployment, external-account, vendor, cost, or legal/zoning/buildability action
+is authorized.
+
+Evidence: all 46 public-safe snapshots validate. September 3 through September
+1 reports 25 impressions, 0 clicks, average position 82.8, and five indexed
+URLs. August 31 was backfilled from zero to one impression on San Diego, which
+moves from ten impressions at page-average position 86.4 to eleven at 86.73.
+No public query row identifies a query. Under-$20K returns to discovered-
+currently-not-indexed while build options returns to `URL is unknown to
+Google`. Land, sitemap, and all other inspection facts are unchanged.
+
+Decision: `needs-evidence` for the San Diego backfill and rotating labels;
+`no-build` for implementation. Tiny page-level evidence without a query row
+does not establish query fit, and another reciprocal label reversal among
+healthy uncrawled URLs does not identify a technical defect. Fresh prior checks
+still apply, so public checks are not repeated. No active, ready, or due action
+has satisfied gates; the September 5 re-score and September 9 portfolio
+checkpoint remain next. Native QA is green: 46/46 snapshots validate, 88/88
+tests pass, SEO QA reports zero errors and one known untouched Los Angeles
+canonical warning, operator-state QA reports zero errors, roadmap JSON and
+required files pass, exact scope matches, and diff checks pass. Independent
+cycle 1 found one P2 invalid expanded base SHA; both affected records now use
+the actual aligned commit. Cycle 2 read-only reviewer
+`THC-NOOP-2026-09-03-C2-CODEX` in task
+`01a068e1-8b48-7b13-8950-0c345a00b9d5` returned `PASS` with no findings and
+confirmed the evidence classification, exact scope, and no-repeat-public-check
+decision. Final frozen-state cycle 3 in the same read-only task returned `PASS`
+with no findings on the complete six-path candidate. Release is docs/state only
+and deployment does not apply.
+
 ## 2026-09-02 - GSC San Diego Backfill And Rotating-Label Reconciliation
 
 Action: `THC-NOOP-2026-09-02`

@@ -1,6 +1,6 @@
 # Current Cycle
 
-Last updated: 2026-09-02
+Last updated: 2026-09-03
 
 Active action: `none`
 
@@ -8,23 +8,23 @@ Next eligible action: `none`
 
 ## Latest Monitoring Reconciliation
 
-Action: `THC-NOOP-2026-09-02`
+Action: `THC-NOOP-2026-09-03`
 
 Authority: direct-manual learning-loop heartbeat.
 
-Transaction class: bounded GSC page-signal and inspection-label
-reconciliation. It concludes `needs-evidence` for the new San Diego signal and
-rotating labels, and `no-build` for implementation.
+Transaction class: bounded GSC backfill and inspection-label reconciliation.
+It concludes `needs-evidence` for the tiny San Diego signal and rotating
+labels, and `no-build` for implementation.
 
-Human question: do two backfilled San Diego page-level impressions and the
-under-$20K/build-options inspection labels trading states identify a query-fit
+Human question: does one backfilled San Diego page-level impression and the
+under-$20K/build-options inspection labels reversing again identify a query-fit
 or discovery problem that should change the site now?
 
 Usefulness hypothesis: if no public query row identifies the San Diego
-impressions and uncrawled URLs continue trading labels while the sitemap is
-successfully reread, observation will protect user value better than inferring
-a query, rewriting a reviewed page, repeating fresh public checks, or
-requesting indexing.
+impression and healthy uncrawled URLs continue trading labels while sitemap
+evidence stays successful, observation will protect user value better than
+inferring a query, rewriting a reviewed page, repeating fresh public checks,
+or requesting indexing.
 
 Exact paths:
 
@@ -36,42 +36,44 @@ Exact paths:
 - `progress.md`
 
 Base: clean, origin-aligned
-`5ddaf9028fd8a96916ddb5cce1a40902a1d23b3f` after the understood GSC-only
+`8146b227343f299117865ee489e01833d24cbd2e` after the understood GSC-only
 fast-forward.
 
-Evidence: the September 2 snapshot is finalized through August 31 at 24
-rolling impressions, 0 clicks, average position 82.5, and five of eight
-indexed URLs. August 30 was backfilled from zero to two impressions, both on
-the San Diego page, which moves from eight impressions at page-average
-position 87.25 to ten at 86.4. Homepage, Georgia, and Los Angeles are unchanged.
-The latest seven-day window moves from four to six impressions and retains one
-trailing zero day. No public query row exists, so this is not evidence for a
-specific query or rank.
+Evidence: the September 3 snapshot is finalized through September 1 at 25
+rolling impressions, 0 clicks, average position 82.8, and five of eight
+indexed URLs. August 31 was backfilled from zero to one impression on San
+Diego, which moves from ten impressions at page-average position 86.4 to eleven
+at 86.73. Homepage, Georgia, and Los Angeles are unchanged. The latest seven-
+day window moves from six to seven impressions and retains one trailing zero
+day. No public query row exists, so this is not evidence for a specific query
+or rank.
 
-URL Inspection changes under-$20K from discovered-currently-not-indexed to
-`URL is unknown to Google` while build options moves from the unknown label to
-discovered-currently-not-indexed. Land remains discovered-currently-not-
-indexed and five URLs remain indexed. GSC reread the successful eight-URL
-sitemap on September 2 with no warnings or errors; all other inspection facts
-are unchanged.
+URL Inspection returns under-$20K from `URL is unknown to Google` to
+discovered-currently-not-indexed while build options returns from discovered-
+currently-not-indexed to the unknown label. Land remains discovered-currently-
+not-indexed and five URLs remain indexed. The successful eight-URL sitemap and
+all other inspection facts are unchanged.
 
-Disposition: `needs-evidence` for the two San Diego impressions and rotating
+Disposition: `needs-evidence` for the one San Diego impression and rotating
 inspection labels; `no-build` for implementation. A tiny page-level backfill
-without query evidence cannot establish query fit, and reciprocal label
-movement among healthy uncrawled URLs does not identify a technical defect.
-Fresh prior production/discovery checks still apply, so no public check is
-repeated. No active, ready, or due action has satisfied gates; the next weekly
-re-score remains September 5 and the first finite portfolio checkpoint remains
-September 9. Do not request indexing or run SERP, paid keyword, outreach,
-community, page, deployment, or external-account work. Native QA and
-independent review are green: 45/45 snapshots validate, 88/88 tests pass, SEO
-QA reports zero errors and one known untouched Los Angeles canonical warning,
-operator-state QA reports zero errors, roadmap JSON and required files pass,
-exact scope matches, and diff checks pass. Independent read-only reviewer
-`THC-NOOP-2026-09-02-C1-CODEX` in task
-`01a063f0-52bb-7b92-91fd-23c4e96ba35a` returned `PASS` with no findings.
-Release boundary is an exact-path docs/state commit and push; deployment does
-not apply.
+without query evidence cannot establish query fit, and another reciprocal
+label reversal among healthy uncrawled URLs does not identify a technical
+defect. Fresh prior production/discovery checks still apply, so no public check
+is repeated. No active, ready, or due action has satisfied gates; the next
+weekly re-score remains September 5 and the first finite portfolio checkpoint
+remains September 9. Do not request indexing or run SERP, paid keyword,
+outreach, community, page, deployment, or external-account work. Native QA is
+green: 46/46 snapshots validate, 88/88 tests pass, SEO QA reports zero errors
+and one known untouched Los Angeles canonical warning, operator-state QA
+reports zero errors, roadmap JSON and required files pass, exact scope matches,
+and diff checks pass. Independent cycle 1 found one P2 invalid expanded base
+SHA; both affected records now use the actual aligned commit. Cycle 2 read-only
+reviewer `THC-NOOP-2026-09-03-C2-CODEX` in task
+`01a068e1-8b48-7b13-8950-0c345a00b9d5` returned `PASS` with no findings and
+confirmed the evidence classification, exact scope, and no-repeat-public-check
+decision. Final frozen-state cycle 3 in the same read-only task returned `PASS`
+with no findings on the complete six-path candidate. Release boundary is an
+exact-path docs/state commit and push; deployment does not apply.
 
 ## Most Recent Completed Transaction
 
