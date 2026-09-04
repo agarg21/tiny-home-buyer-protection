@@ -1,5 +1,30 @@
 # Progress
 
+## 2026-09-04 - Build-Options Inspection Label Clears Again
+
+- Fast-forwarded the clean checkout through GSC-only commit `abc1693` and
+  validated all 47 public-safe snapshots.
+- September 4 through September 2 reports the same 25 impressions, 0 clicks,
+  average position 82.8, page rows, and five of eight indexed URLs as September
+  3. The latest seven-day window moves from seven to six impressions as August
+  26 leaves and September 2 adds zero; two trailing zero days do not establish
+  an outage.
+- Build options returned from `URL is unknown to Google` to discovered-
+  currently-not-indexed, matching under-$20K and land. Sitemap and all other
+  inspection facts are unchanged.
+- Registered `THC-NOOP-2026-09-04` on six exact evidence/state paths.
+  Disposition is `keep` for current page state and `no-build` for
+  implementation. No page, research, SERP, paid keyword, repeated public check,
+  indexing, outreach, community, deployment, or external-account action was
+  selected.
+- Native QA is green: 47/47 snapshots validate, 88/88 tests pass, SEO QA has
+  zero errors and one known untouched Los Angeles canonical warning, operator-
+  state QA has zero errors, roadmap JSON and required files pass, exact scope
+  matches, and diff checks pass. Independent read-only reviewer
+  `THC-NOOP-2026-09-04-C1-CODEX`
+  (`01a06e3c-e9be-7710-a573-6c2e048e46a0`) returned `PASS` with no findings.
+  Release is docs/state only and deployment does not apply.
+
 ## 2026-09-03 - One San Diego Backfill And Another Label Reversal
 
 - Fast-forwarded the clean checkout through GSC-only commit `8146b22` and

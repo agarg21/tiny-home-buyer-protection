@@ -1,5 +1,46 @@
 # Operator Review
 
+## 2026-09-04 - GSC Zero-Day And Build-Options Label Reconciliation
+
+Action: `THC-NOOP-2026-09-04`
+
+Selection authority: the user-authorized direct Master learning-loop
+heartbeat. This is bounded monitoring reconciliation, not a Control Room
+dispatch or roadmap implementation.
+
+Base: clean, origin-aligned
+`abc16935e0a740e5b4529e5a5bfc928ee20678c8` after one understood GSC-only
+fast-forward.
+
+Frozen boundary: the six exact paths in `ops/current-cycle.md`. No site,
+roadmap, research, SERP, paid keyword, indexing request, outreach, community,
+deployment, external-account, vendor, cost, or legal/zoning/buildability action
+is authorized.
+
+Evidence: all 47 public-safe snapshots validate. September 4 through September
+2 reports the same 25 impressions, 0 clicks, average position 82.8, page rows,
+and five indexed URLs as September 3. The latest seven-day window moves from
+seven to six impressions as August 26 leaves and September 2 adds zero, leaving
+two trailing zero-impression days. Build options returns from `URL is unknown
+to Google` to discovered-currently-not-indexed. Under-$20K, land, sitemap, and
+all other inspection facts are unchanged.
+
+Decision: `keep` the current page state and `no-build` for implementation. Two
+trailing zero days within an active seven-day window do not establish an
+outage, and another one-day label reversal among healthy uncrawled URLs does
+not identify a technical defect. Fresh prior checks still apply, so public
+checks are not repeated. No active, ready, or due action has satisfied gates;
+the September 5 re-score and September 9 portfolio checkpoint remain next.
+Native QA is green: 47/47 snapshots validate, 88/88 tests pass, SEO QA reports
+zero errors and one known untouched Los Angeles canonical warning, operator-
+state QA reports zero errors, roadmap JSON and required files pass, exact scope
+matches, and diff checks pass. Independent read-only reviewer
+`THC-NOOP-2026-09-04-C1-CODEX` in task
+`01a06e3c-e9be-7710-a573-6c2e048e46a0` returned `PASS` with no findings and
+confirmed the arithmetic, label chronology, queue state, exact scope, and no-
+repeat-public-check decision. Release is docs/state only and deployment does
+not apply.
+
 ## 2026-09-03 - GSC San Diego Backfill And Label-Reversal Reconciliation
 
 Action: `THC-NOOP-2026-09-03`

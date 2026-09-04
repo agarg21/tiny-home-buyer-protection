@@ -1,10 +1,10 @@
 # Tiny Home Clarity Page Status
 
-Last updated: 2026-09-03
+Last updated: 2026-09-04
 
 Sources:
 
-- Current public-safe GSC snapshot: `ops/gsc-snapshots/2026-09-03.md`
+- Current public-safe GSC snapshot: `ops/gsc-snapshots/2026-09-04.md`
 - Visibility diagnosis: `docs/research/tiny-home-visibility-diagnosis-2026-08-01.md`
 - Full-site decision pack: `docs/research/tiny-home-clarity-full-site-decision-pack-2026-07-28.md`
 - Georgia human review: `docs/research/georgia-tiny-house-human-review-2026-08.md`
@@ -16,18 +16,17 @@ changes. Daily search evidence remains in `ops/gsc-snapshots/`. Page-level
 average position is not a query-specific rank, and third-party demand estimates
 are directional rather than guaranteed traffic.
 
-## September 3 Monitoring Overlay
+## September 4 Monitoring Overlay
 
-The September 3 snapshot is finalized through September 1. The successful
+The September 4 snapshot is finalized through September 2. The successful
 sitemap still has eight discovered URLs with no errors or warnings. All eight
-URLs remain inspected and five are indexed. Under-$20K returned to `Discovered
-- currently not indexed`; build options returned to `URL is unknown to
-Google`; land is unchanged. Rolling performance is 25 impressions, 0 clicks,
-and page-average position 82.8. August 31 was backfilled from zero to one
-impression on San Diego, which now has eleven impressions at page-average
-position 86.73. The seven-day total moves to 7 and there is one trailing zero
-day. No public query row identifies a query, and rotating labels remain
-`needs-evidence`, not a page rewrite, SERP trigger, public-check repeat, or
+URLs remain inspected and five are indexed. Build options returned from `URL
+is unknown to Google` to `Discovered - currently not indexed`, matching under-
+$20K and land. Rolling performance is unchanged at 25 impressions, 0 clicks,
+and page-average position 82.8; all page rows are unchanged. The seven-day
+total moves from 7 to 6 as August 26 leaves and September 2 adds zero, leaving
+two trailing zero days. This remains an active, sparse window, and the cleared
+label is `keep`, not a page rewrite, SERP trigger, public-check repeat, or
 indexing request.
 
 | Page | Primary role | Latest retained GSC signal | Current state | Review coverage | Next eligible decision |
@@ -37,9 +36,9 @@ indexing request.
 | `https://tinyhomeclarity.com/san-diego-tiny-house-adu/` | San Diego jurisdiction-first buyer-protection and official-source guide | 11 impressions, 0 clicks, page-average position 86.73; indexed; last crawled July 24 | Live and production-verified in `daaf743`; Pages run `30399382114` passed | SERP, official-source, persona, experience-level, every-section, responsive, routing, and independent review complete | Needs evidence. One additional backfilled page-level impression without a public query row does not identify a query or justify another review. |
 | `https://tinyhomeclarity.com/georgia-tiny-house-classification/` | Georgia structure-classification and proof decoder before local zoning | 1 impression, 0 clicks, page-average position 2; indexed; last crawled August 29 | Live and production-verified in `d5904f6`; responsive polish released in `4ca8565`; Pages run `31744910489` passed | August 12 rendered/SERP/persona/every-section review; August 13 source/release review; responsive desktop/901px/900px/390px/320px production checks and final independent `PASS` | Needs evidence. One impression without the query cannot establish a rank or select a page action. |
 | `https://tinyhomeclarity.com/tiny-home-cost-calculator/` | Quote and build-budget reality check with explicit unknowns | 2 impressions, 0 clicks, page-average position 26; indexed; last crawled July 21 | Live and production-verified in `1af1dc2`; Pages run `30460242431` passed | Current SERP, persona, experience-level, state, native, browser, production, and independent review complete | Observe. Retain the recorded nonblocking blank-buffer-title P3 for a later evidence-led action. |
-| `https://tinyhomeclarity.com/tiny-house-under-20k/` | Buyer-protective feasibility and claim-scope check for under-$20K claims | No page row through September 1; sitemap-discovered; URL Inspection says `Discovered - currently not indexed` | Live and production-verified in `195ec8c`; Pages run `32600565832` passed | July 28 audit; August 14 reproducible public-web, architecture, and independent research review; August 22 blank/incomplete/conflicting/documented plus unclear/partial/impossible-scope/order tests, desktop/390px/320px rendered review, and final independent `PASS` | Needs evidence. The label continues to alternate without a concrete defect; do not request indexing or rewrite from volatile inspection state. |
-| `https://tinyhomeclarity.com/tiny-house-build-options/` | National plans/kits/shells/trailer/builders responsibility comparison | No page row through September 1; sitemap-discovered; URL Inspection says `URL is unknown to Google`; bounded public discovery checks pass and no crawl time exists | Live and production-verified in `1895694`; Pages run `30622059848` passed | Demand, SERP/ranking-page, official-source, persona, experience-level, every-section, native, browser, and independent review complete | Needs evidence. The label continues to alternate among healthy uncrawled URLs; diagnose only with a concrete discovery defect. |
-| `https://tinyhomeclarity.com/buying-land-for-a-tiny-house/` | Parcel-specific pre-offer evidence and unresolved-question workflow | No page row through September 1; sitemap-discovered; URL Inspection says `Discovered - currently not indexed`; bounded public checks remain healthy | Live and production-verified in `b9760e9`; Pages run `31395122993` passed | Demand/SERP/user-job brief, persona and experience matrix, focused logic tests, rendered desktop/mobile states, privacy, populated print, native QA, and independent cycles 2/3 `PASS` | Observe. Diagnose only if later evidence adds a persistent crawl, sitemap, canonical, robots, or internal-discovery defect. |
+| `https://tinyhomeclarity.com/tiny-house-under-20k/` | Buyer-protective feasibility and claim-scope check for under-$20K claims | No page row through September 2; sitemap-discovered; URL Inspection says `Discovered - currently not indexed` | Live and production-verified in `195ec8c`; Pages run `32600565832` passed | July 28 audit; August 14 reproducible public-web, architecture, and independent research review; August 22 blank/incomplete/conflicting/documented plus unclear/partial/impossible-scope/order tests, desktop/390px/320px rendered review, and final independent `PASS` | Observe. Diagnose only if later evidence adds a persistent discovery defect; do not request indexing or rewrite from sparse visibility. |
+| `https://tinyhomeclarity.com/tiny-house-build-options/` | National plans/kits/shells/trailer/builders responsibility comparison | No page row through September 2; sitemap-discovered; URL Inspection says `Discovered - currently not indexed`; bounded public discovery checks pass and no crawl time exists | Live and production-verified in `1895694`; Pages run `30622059848` passed | Demand, SERP/ranking-page, official-source, persona, experience-level, every-section, native, browser, and independent review complete | Keep and observe. The unknown label cleared again without a concrete defect; diagnose only with persistent contrary evidence. |
+| `https://tinyhomeclarity.com/buying-land-for-a-tiny-house/` | Parcel-specific pre-offer evidence and unresolved-question workflow | No page row through September 2; sitemap-discovered; URL Inspection says `Discovered - currently not indexed`; bounded public checks remain healthy | Live and production-verified in `b9760e9`; Pages run `31395122993` passed | Demand/SERP/user-job brief, persona and experience matrix, focused logic tests, rendered desktop/mobile states, privacy, populated print, native QA, and independent cycles 2/3 `PASS` | Observe. Diagnose only if later evidence adds a persistent crawl, sitemap, canonical, robots, or internal-discovery defect. |
 
 ## Build Then Observe Phase
 

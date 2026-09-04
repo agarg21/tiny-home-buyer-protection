@@ -1,6 +1,6 @@
 # SEO Research And Review Backlog
 
-Last updated: 2026-09-03
+Last updated: 2026-09-04
 
 This is supporting evidence inventory, not a scheduler. The machine-readable
 queue is `ops/seo-roadmap.json`.
@@ -27,15 +27,14 @@ repeat either research lane while its inputs remain fresh.
 
 ## Current Monitoring Context
 
-The September 3 snapshot through September 1 reports eight discovered/inspected
-pages, five indexed, 25 rolling impressions, and 0 clicks. August 31 was
-backfilled with one San Diego page-level impression, but no public query row
-identifies the query. Under-$20K returned to discovered-currently-not-indexed
-while build options returned to `URL is unknown to Google`; land remains
-unchanged. The successful sitemap and all other inspection facts are stable.
-The backfill and reciprocal labels remain `needs-evidence`, not a page,
-research, public-check, or indexing trigger. Visibility remains weak, not proof
-that every page should be rewritten.
+The September 4 snapshot through September 2 reports eight discovered/inspected
+pages, five indexed, 25 rolling impressions, and 0 clicks. Aggregate and page
+rows are unchanged. The latest window has six impressions and two trailing
+zero days. Build options returned from `URL is unknown to Google` to discovered-
+currently-not-indexed, matching under-$20K and land. The successful sitemap and
+all other inspection facts are stable. The sparse window and cleared label do
+not trigger page research, repeated public checks, or indexing. Visibility
+remains weak, not proof that every page should be rewritten.
 
 Potential future research becomes eligible only when current evidence exposes:
 

@@ -1,6 +1,6 @@
 # Needs User
 
-Last updated: 2026-09-03
+Last updated: 2026-09-04
 
 ## Current Blockers
 
@@ -26,13 +26,12 @@ Last updated: 2026-09-03
 ## Waiting On External Accounts
 
 - Google Search Console indexing continues through the daily read-only snapshot
-  workflow. The 2026-09-03 snapshot is finalized through 2026-09-01: 25
-  impressions, 0 clicks, eight sitemap pages, and five indexed URLs. August 31
-  was backfilled with one San Diego page-level impression, but no public query
-  row identifies a query. Under-$20K returned to discovered-currently-not-
-  indexed while build options returned to `URL is unknown to Google`; land is
-  unchanged. The successful sitemap and all other inspection facts are stable,
-  and rotating labels still do not identify a technical defect. No user action
+  workflow. The 2026-09-04 snapshot is finalized through 2026-09-02: 25
+  impressions, 0 clicks, eight sitemap pages, and five indexed URLs. Aggregate
+  and page rows are unchanged; the latest window has six impressions and two
+  trailing zero days. Build options returned from `URL is unknown to Google`
+  to discovered-currently-not-indexed, matching under-$20K and land. The
+  successful sitemap and all other inspection facts are stable. No user action
   or indexing request is needed.
 - The 2026-07-18 authenticated Page indexing review found only HTTP/`www` aliases excluded as `Page with redirect`; all correctly redirect to the HTTPS apex. No indexing request, fix validation, DNS change, or user action is needed for those aliases.
 
