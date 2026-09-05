@@ -1,5 +1,30 @@
 # Progress
 
+## 2026-09-05 - Weekly Re-Score Keeps The Queue Empty
+
+- Registered `THC-ROADMAP-2026-09-05` on six exact docs/state paths from clean,
+  origin-aligned base `cb9d6a0`.
+- All 47 public-safe GSC snapshots validate. No snapshot newer than September 4
+  exists; its finalized data through September 2 reports 25 impressions, 0
+  clicks, five of eight indexed URLs, and sparse page-level testing without a
+  public query row.
+- Re-scored the complete queue and research rotation. Existing product and
+  review evidence remains fresh, no technical or human-usefulness trigger has
+  changed, and the first 30-day portfolio checkpoint is September 9.
+- Disposition is queue-level `no-build`: no active or next eligible action. The
+  next weekly re-score is September 12. No page, research, SERP, paid keyword,
+  indexing, outreach, community, deployment, or external-account action was
+  selected.
+- Operator-state QA initially rejected a prose-only snapshot date; the current
+  cycle now names the exact latest snapshot path. Native QA is green: 47/47
+  snapshots validate, 88/88 tests pass, SEO QA has zero errors and one known
+  untouched Los Angeles canonical warning, operator-state QA has zero errors,
+  roadmap JSON and required files pass, exact scope matches, and diff checks
+  pass. Independent read-only reviewer
+  `THC-ROADMAP-2026-09-05-C1-CODEX`
+  (`01a071f5-7bda-73c1-83a8-fc9a718353ca`) returned `PASS` with no findings.
+  Release is docs/state only and deployment does not apply.
+
 ## 2026-09-04 - Build-Options Inspection Label Clears Again
 
 - Fast-forwarded the clean checkout through GSC-only commit `abc1693` and

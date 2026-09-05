@@ -1,73 +1,75 @@
 # Current Cycle
 
-Last updated: 2026-09-04
+Last updated: 2026-09-05
 
 Active action: `none`
 
 Next eligible action: `none`
 
-## Latest Monitoring Reconciliation
+## Current Roadmap Re-Score
 
-Action: `THC-NOOP-2026-09-04`
+Action: `THC-ROADMAP-2026-09-05`
 
 Authority: direct-manual learning-loop heartbeat.
 
-Transaction class: bounded GSC zero-day and inspection-label reconciliation.
-It concludes `keep` for current page state and `no-build` for implementation.
+Transaction class: due weekly roadmap maintenance. It may update queue metadata
+and research timing, but it does not authorize implementation.
 
-Human question: does a second trailing zero-impression day or build options
-returning from `URL is unknown to Google` to discovered-currently-not-indexed
-identify a user-value or discovery problem that should change the site now?
+Human question: after another observation week, does any existing page have a
+concrete, gate-satisfying user-value or technical problem, or should the eight-
+page portfolio continue observing until its September 9 checkpoint?
 
-Usefulness hypothesis: if aggregate and page-level performance stay unchanged,
-all three uncrawled URLs converge on sitemap-discovered status, and sitemap
-evidence remains successful, observation will protect user value better than
-rewriting a reviewed page, repeating fresh public checks, or requesting
-indexing.
+Usefulness hypothesis: if current GSC remains sparse but active, transient
+inspection labels have cleared, and no source, rendered, repeated-query,
+community, or internal-handoff gap has appeared, keeping the queue empty until
+the finite checkpoint will avoid speculative work while preserving a near-term
+decision point.
 
 Exact paths:
 
+- `ops/seo-roadmap.json`
+- `ops/seo-roadmap.md`
 - `ops/current-cycle.md`
-- `ops/needs-user.md`
 - `ops/operator-review.md`
-- `status/site-pages.md`
-- `backlog/seo-research-review-backlog.md`
+- `status/research-rotation.md`
 - `progress.md`
 
 Base: clean, origin-aligned
-`abc16935e0a740e5b4529e5a5bfc928ee20678c8` after the understood GSC-only
-fast-forward.
+`cb9d6a036592d06955432750cb8707f8c311d582`.
 
-Evidence: the September 4 snapshot is finalized through September 2 at the
-same 25 rolling impressions, 0 clicks, average position 82.8, page rows, and
-five of eight indexed URLs as September 3. The latest seven-day window moves
-from seven to six impressions as August 26 leaves and September 2 adds zero;
-there are now two trailing zero-impression days. This is window movement, not a
-query-fit or production signal.
+Evidence: all 47 public-safe GSC snapshots validate. No snapshot newer than
+`ops/gsc-snapshots/2026-09-04.md` exists; its finalized data through September
+2 reports 25 rolling impressions, 0 clicks, average position 82.8, five of
+eight indexed URLs, and
+six impressions in the latest seven-day window. The homepage, San Diego,
+Georgia, and Los Angeles have page-level rows, but no public query row identifies
+a repeated query or query-specific rank. Under-$20K, build options, and land
+are all discovered-currently-not-indexed; the successful eight-URL sitemap and
+all other inspection facts are stable. This is monitoring context, not causal
+implementation evidence.
 
-URL Inspection returns build options from `URL is unknown to Google` to
-discovered-currently-not-indexed. Under-$20K and land remain discovered-
-currently-not-indexed, so all three healthy uncrawled URLs again share the same
-sitemap-discovered state. The successful eight-URL sitemap and all other
-inspection facts are unchanged.
+The under-$20K repair is two weeks old, the land workflow is 26 days old, and
+all other research-rotation surfaces retain reviewed release or human-evidence
+coverage. No technical, official-source, rendered, repeated-query, community,
+or internal-handoff gap has satisfied a repair or research gate. The first 30-
+day portfolio checkpoint is September 9.
 
-Disposition: `keep` the current page state and `no-build` for implementation.
-Two trailing zero days within a still-active seven-day window do not establish
-an outage, and another one-day label reversal does not identify a technical
-defect. Fresh prior production/discovery checks still apply, so no public check
-is repeated. No active, ready, or due action has satisfied gates; the weekly
-re-score remains due September 5 and the first finite portfolio checkpoint
-remains September 9. Do not request indexing or run SERP, paid keyword,
-outreach, community, page, deployment, or external-account work. Native QA is
-green: 47/47 snapshots validate,
-88/88 tests pass, SEO QA reports zero errors and one known untouched Los
-Angeles canonical warning, operator-state QA reports zero errors, roadmap JSON
-and required files pass, exact scope matches, and diff checks pass. Independent
-read-only reviewer `THC-NOOP-2026-09-04-C1-CODEX` in task
-`01a06e3c-e9be-7710-a573-6c2e048e46a0` returned `PASS` with no findings and
-confirmed the arithmetic, label chronology, queue state, exact scope, and no-
-repeat-public-check decision. Release boundary is an exact-path docs/state
-commit and push; deployment does not apply.
+Disposition: queue-level `no-build`. Keep no active or next eligible action.
+Advance the next weekly re-score to September 12 and preserve September 9 as
+the first finite research checkpoint. Deferred outreach remains unsent and
+human-gated. Do not repeat public QA or run SERP, paid keyword, indexing,
+outreach, community, page, deployment, or external-account work. Operator-state
+QA initially rejected a prose-only snapshot date; the current cycle now names
+the exact latest snapshot path.
+Native QA is green: 47/47 snapshots validate, 88/88 tests pass, SEO QA reports
+zero errors and one known untouched Los Angeles canonical warning, operator-
+state QA reports zero errors, roadmap JSON and required files pass, exact scope
+matches, and diff checks pass. Independent read-only reviewer
+`THC-ROADMAP-2026-09-05-C1-CODEX` in task
+`01a071f5-7bda-73c1-83a8-fc9a718353ca` returned `PASS` with no findings and
+confirmed the queue decision, dates, evidence classification, exact scope, and
+skipped public/paid checks. Release boundary is an exact-path docs/state commit
+and push; deployment does not apply.
 
 ## Most Recent Completed Transaction
 
