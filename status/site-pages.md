@@ -1,6 +1,24 @@
 # Tiny Home Clarity Page Status
 
-Last updated: 2026-09-04
+Last updated: 2026-10-03
+
+## Current Final-Version Overlay
+
+`THC-FINAL-001` changes homepage buying-tool navigation, Georgia date parity,
+LA internal handoffs and its missing canonical; no new URL or tool-logic change.
+Latest GSC: `ops/gsc-snapshots/2026-10-03.md`, through October 1; 2 impressions,
+0 clicks, five indexed/eight discovered. Homepage and San Diego have one
+impression each; other current-window page rows are absent, not proof of no
+historical impressions. Under-$20K, build options and land remain discovered,
+not indexed with no crawl date. The table below retains September 4 history,
+not current performance. Source verification dates remain July/August; this
+release is navigation/technical review, not an official-source refresh.
+
+After release, keep all eight pages and observe until 2027-01-03. This overrides
+older research timing and the November review, without ending the existing
+no-new-page hold early. No routine active/ready research action remains.
+See `docs/plan/final-observation-2026-10.md` for the continue/diagnose/archive
+decision. Actual buyer outcomes and tool use remain UNKNOWN.
 
 Sources:
 

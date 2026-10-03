@@ -1,12 +1,70 @@
 # Current Cycle
 
-Last updated: 2026-09-05
+Last updated: 2026-10-03
 
-Active action: `none`
+Active action: `THC-FINAL-001`
 
 Next eligible action: `none`
 
-## Current Roadmap Re-Score
+## Registered Final Release
+
+Registered 2026-10-03 before substantive edits. Authority: direct manual user
+request to build the final version and check it after a few months.
+
+Human question: can a visitor move from placement uncertainty to the right
+parcel, product, or quote check without missing the existing decision tools?
+Hypothesis: direct navigation and a complete Los Angeles handoff will expose
+the existing artifacts without diluting the homepage's placement answer.
+Observed user uptake remains UNKNOWN; test navigation and tool behavior now,
+then assess first-party discovery on 2027-01-03.
+
+Exact paths: `AGENTS.md`, `strategy/current-strategy.md`, `ops/operator.json`,
+`ops/current-cycle.md`, `ops/needs-user.md`, `ops/operator-review.md`,
+`ops/seo-roadmap.json`, `ops/seo-roadmap.md`, `status/site-pages.md`,
+`status/research-rotation.md`, `decisions.md`, `progress.md`,
+`docs/plan/final-observation-2026-10.md`, `reviews/final-release-2026-10-03.md`,
+`site/index.html`, `site/los-angeles-tiny-house-adu/index.html`,
+`site/sitemap.xml`, `tools/final-release.test.mjs`.
+
+Base: origin `618bb0b`; the independently reviewed September 5 docs commit
+was safely rebased over 27 disjoint automated GSC commits. Backup reference
+`backup/pre-final-2026-10-03` preserves the prior local state. The two unrelated
+untracked `index 2.html` files are excluded from this transaction and release.
+
+Release gates: focused/full native QA, independent read-only complete-range
+review, no unresolved P0-P2, fetch/no divergence, exact-path staging, successful
+Pages run, all eight live URLs/canonicals, sitemap and responsive navigation,
+and unchanged safe tool states. No new pages, ranking promise, new source
+verification date, analytics, vendors, indexing request, or external posting.
+No recurring automation is created, updated, or deleted.
+
+Candidate QA: focused 3/3, full 91/91, 74 valid snapshots, zero operator-state
+errors, valid roadmap JSON/required files/diff checks. Shared-checkout SEO sees
+only the two unrelated untracked duplicate HTML files; exact tracked candidate
+export has eight pages/eight URLs and strict zero errors/warnings. All 24
+1440/390/320 page/viewport combinations, image loading, mobile navigation,
+placement, quote, parcel/print/reset and blank/conflicting claim states pass.
+Independent read-only `Lagrange`, agent `01a10378-b185-7783-a176-753e7501562e`,
+cycle 1 PASS with no P0-P3 findings, independently reproduced native QA and
+reviewed all sections. Release verification and closure are still pending.
+
+## Current Observation Baseline
+
+Latest snapshot: `ops/gsc-snapshots/2026-10-03.md`, finalized through October 1.
+All 74 snapshots validate; all newly fetched snapshots were compared in order.
+Latest 28-day window: 2 impressions, 0 clicks, five indexed URLs, sitemap
+Success/eight URLs/no errors. October 2 and October 3 aggregates/page rows and
+indexing are unchanged; trailing zero days advance from four to five. Older
+September 4 window: 25 impressions, 0 clicks. Sparse rolling data does not
+establish buyer uptake, rank improvement, or demand failure.
+
+After final release, no ready or due routine action remains. January 3, 2027
+replaces the missed September checkpoints and the November 8 review; the
+original no-new-page hold is preserved and extended by this observation freeze.
+Plan: `docs/plan/final-observation-2026-10.md`. Remaining scheduled heartbeats
+should report observation; recurring automations remain unchanged.
+
+## Historical September Roadmap Re-Score
 
 Action: `THC-ROADMAP-2026-09-05`
 

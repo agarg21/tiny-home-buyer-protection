@@ -2,7 +2,17 @@
   "schema_version": 1,
   "slug": "tiny-home-clarity",
   "mission": "Help prospective tiny-home buyers make safer, source-backed placement and cost decisions without overstating legal certainty.",
-  "lifecycle": "active",
+  "lifecycle": "observation",
+  "observation": {
+    "decision_on": "2026-10-03",
+    "checkpoint_on": "2027-01-03",
+    "plan": "docs/plan/final-observation-2026-10.md",
+    "routine_project_work": "frozen-after-THC-FINAL-001",
+    "gsc_collection": "daily-readonly-unchanged",
+    "early_reopen": "reproduced-production-security-or-verified-material-claim-defect",
+    "checkpoint_authority": "fresh-manual-user-request-required",
+    "recurring_automation_changed": false
+  },
   "autonomy": "reviewed-release",
   "control_room": "/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator",
   "central_config": "config/sites/tiny-home-clarity.json",

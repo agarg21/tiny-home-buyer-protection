@@ -1,11 +1,29 @@
 {
   "schema_version": 1,
   "owner": "Tiny Home Clarity Operator",
-  "last_rescored_on": "2026-09-05",
-  "next_rescore_due": "2026-09-12",
+  "last_rescored_on": "2026-10-03",
+  "next_rescore_due": "2027-01-03",
   "next_eligible_action_id": "none",
   "planning_horizon_days": 28,
   "items": [
+    {
+      "id": "THC-FINAL-001",
+      "title": "Finish existing-page discovery and enter quiet observation",
+      "kind": "release",
+      "status": "in_progress",
+      "selected_on": "2026-10-03",
+      "authority": "direct-manual-final-version-user-request",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "hypothesis": "Visible buying-tool navigation and a complete LA handoff expose existing artifacts without replacing the placement answer.",
+      "target_paths": ["AGENTS.md", "strategy/current-strategy.md", "ops/operator.json", "ops/current-cycle.md", "ops/needs-user.md", "ops/operator-review.md", "ops/seo-roadmap.json", "ops/seo-roadmap.md", "status/site-pages.md", "status/research-rotation.md", "decisions.md", "progress.md", "docs/plan/final-observation-2026-10.md", "reviews/final-release-2026-10-03.md", "site/index.html", "site/los-angeles-tiny-house-adu/index.html", "site/sitemap.xml", "tools/final-release.test.mjs"],
+      "observation_window": "Final release through 2027-01-03; fresh manual checkpoint authority required.",
+      "gsc_evidence_classification": "monitoring-only; October 3 finalized through October 1, 2 impressions, 0 clicks, 5/8 indexed",
+      "success_signal": "Reviewed navigation, safe tool states, eight self-canonicals and successful production release; visitor uptake remains UNKNOWN.",
+      "review_outcome": "PASS",
+      "review_cycles": 1,
+      "result": "Candidate complete; 91/91 tests, 74 snapshots, strict eight-page export SEO and 24 rendered viewport checks pass. Independent complete-range cycle 1 PASS; production verification and closure pending."
+    },
     {
       "id": "THC-REL-001",
       "title": "Resolve the reviewed under-$20K page release candidate",

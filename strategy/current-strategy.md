@@ -1,6 +1,19 @@
 # Current Strategy
 
-Last updated: 2026-08-22
+Last updated: 2026-10-03
+
+## Final-Version Decision
+
+Current phase: final maintenance release, then quiet observation to 2027-01-03.
+The user's October 3 request supersedes older research/rescore/checkpoint dates
+in this document. Keep eight pages and the existing decision tools; do not
+expand, add analytics, monetize, or manufacture edits from low impressions.
+Daily read-only GSC collection continues. Reopen early only for reproduced
+production/security failure or a verified material claim defect. The decision
+rule and measurement baseline are in `docs/plan/final-observation-2026-10.md`.
+The final polish improves navigation and technical hygiene, not measured buyer
+outcomes or proven market fit. Older strategy below remains background, not an
+active publishing mandate.
 
 This is the consolidated strategy and business-plan source for the project. It
 subsumes the original bootstrap business plan at

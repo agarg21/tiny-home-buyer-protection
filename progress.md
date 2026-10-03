@@ -1,5 +1,34 @@
 # Progress
 
+## 2026-10-03 - Final Version Then Quiet Observation
+
+- Direct manual `THC-FINAL-001`, exact 18 paths registered before edits.
+- Preserved old HEAD on `backup/pre-final-2026-10-03`; rebased the previously
+  reviewed September 5 docs commit over 27 disjoint GSC-only remote commits.
+  No force push, discarded work, or central ledger edit. Two unrelated
+  untracked duplicate HTML files remain excluded.
+- Existing tools are unchanged. Homepage top navigation exposes parcel, build,
+  and quote tools; LA adds those handoffs plus its missing canonical; Georgia
+  source-date parity is repaired without claiming a fresh source audit.
+- 74/74 public-safe GSC snapshots validate. All newly fetched snapshots retain
+  five indexed URLs and a successful eight-URL sitemap; older 25-impression
+  rolling window is now 2 impressions/0 clicks. No causal market-fit inference.
+- Quiet observation/checkpoint plan: `docs/plan/final-observation-2026-10.md`,
+  2027-01-03. Daily GSC unchanged; no routine page/research/rescore work or new
+  automation. January requires fresh manual authority.
+- Focused tests 3/3, full native tests 91/91, operator state zero errors.
+  Strict SEO passes on the tracked release export: eight pages/eight sitemap
+  URLs, zero errors/warnings. Shared-checkout SEO detects only the two unrelated
+  untracked duplicate files; they are neither staged nor deployed.
+- Rendered QA passes all 24 page/viewport combinations at 1440/390/320,
+  including image loading and overflow. Mobile tool navigation, blank/unknown
+  placement, blank/partial quote, blank/populated/reset/print land, and blank/
+  conflicting under-$20K flows pass. Only an absent optional favicon is 404;
+  there are no application console errors. Independent read-only `Lagrange`
+  cycle 1 PASS, no P0-P3 findings, with complete-range and every-section review.
+  Commit, push, production verification and closure remain pending. Buyer
+  benefit remains UNKNOWN.
+
 ## 2026-09-05 - Weekly Re-Score Keeps The Queue Empty
 
 - Registered `THC-ROADMAP-2026-09-05` on six exact docs/state paths from clean,

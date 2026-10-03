@@ -10,6 +10,18 @@ Business plan: `/Users/apoorvagarg/Documents/SEO Agent/seo-lab/niches/tiny-homes
 
 This repo is the source of truth for strategy, implementation, research, and operating handoffs.
 
+## Current Operating Override
+
+The user's 2026-10-03 final-version request supersedes the routine learning and
+research cadence below. After `THC-FINAL-001` releases, keep the eight-page
+portfolio in quiet observation until 2027-01-03. Preserve daily read-only GSC
+collection; do not manufacture page work, weekly rescores, research, or new
+pages. Remaining heartbeats may report observation only. Reopen early for a
+reproduced production/security failure or verified material claim defect under
+the same registration, QA, review, and release controls. No recurring automation
+is changed. The January checkpoint requires fresh manual authority; the old
+loop still expires October 22. See `docs/plan/final-observation-2026-10.md`.
+
 ## Roles
 
 - Master / Operator: the single repository writer for a registered Control Room

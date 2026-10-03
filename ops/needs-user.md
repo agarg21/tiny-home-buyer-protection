@@ -1,6 +1,17 @@
 # Needs User
 
-Last updated: 2026-09-04
+Last updated: 2026-10-03
+
+## Current Decision
+
+The user requested a final version on October 3 followed by observation for a
+few months. `THC-FINAL-001` is the final release; checkpoint 2027-01-03.
+No new publishing or routine research decision is needed. The original loop
+expires October 22, so the January evaluation needs a fresh manual request,
+not assumed perpetual operating authority. Recurring automations are unchanged.
+Daily GSC collection remains enabled. Current evidence: October 3 snapshot,
+finalized through October 1, 2 impressions/0 clicks, 5/8 indexed and successful
+eight-URL sitemap. The September account notes below are historical context.
 
 ## Current Blockers
 

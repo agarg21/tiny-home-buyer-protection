@@ -1,6 +1,17 @@
 # Human-Value Research Rotation
 
-Last updated: 2026-09-05
+Last updated: 2026-10-03
+
+## Quiet Observation Override
+
+The final-version user decision supersedes the older due rotation below.
+After `THC-FINAL-001`, no routine research, community draft, rescore, or page
+review is due before 2027-01-03. Daily GSC collection stays on; only reproduced
+production/security failure or verified material claim defects reopen early.
+The missed September 9 checkpoint is not an evergreen research mandate.
+January evaluation requires fresh manual authority after the old loop expires.
+Plan: `docs/plan/final-observation-2026-10.md`. The following rotation is
+historical evidence, not an active queue.
 
 This is the due-work view for research during the 90-day publication hold. It
 is not a content calendar. Each run starts with one real reader question,

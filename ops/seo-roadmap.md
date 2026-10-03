@@ -1,5 +1,15 @@
 # Tiny Home Clarity Operator Roadmap
 
+## October 3 Final Decision
+
+`THC-FINAL-001`: direct-manual final existing-page discovery/technical release,
+in progress. Exact paths registered in `ops/current-cycle.md` and JSON. Keep
+eight URLs, preserve tool logic, obtain complete-range independent review and
+verify Pages. Then no next eligible routine action; quiet observation through
+2027-01-03 supersedes older rescore/checkpoint dates below. Plan and baseline:
+`docs/plan/final-observation-2026-10.md`. No new recurring automation or central
+dispatch. January evaluation requires fresh manual authority.
+
 The machine-readable queue is `ops/seo-roadmap.json`. The central Control Room
 is the only writer of its dispatch ledger and remains the default portfolio
 scheduler. The project Master / Operator updates repository state only inside a

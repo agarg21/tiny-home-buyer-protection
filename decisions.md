@@ -1,5 +1,20 @@
 # Decisions
 
+## 2026-10-03 - Final Version And Three-Month Decision Window
+
+User authority: "lets build the final version that we can check after few months".
+Complete one bounded final discovery/technical release `THC-FINAL-001`, retain
+the eight-page portfolio and safe tools, then observe to 2027-01-03. This
+supersedes old routine research/rescore dates, not safety/release gates.
+Keep daily read-only GSC collection; change no recurring automation or central
+dispatch file. Remaining heartbeats should report observation only. Reopen
+early only for reproduced production/security or verified material claim
+defects. The original operating authority still expires October 22; January
+needs a fresh manual request. Decision criteria and baseline are recorded in
+`docs/plan/final-observation-2026-10.md`. Archive active development if sound
+measurement and one bounded discovery diagnosis reveal no durable demand or
+direct-use signal. Source check dates remain historical, not renewed by polish.
+
 ## 2026-07-07 - Bootstrap As Focused Experiment
 
 Decision: proceed as a focused bootstrap experiment, not a full-scale content site.
