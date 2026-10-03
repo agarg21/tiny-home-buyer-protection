@@ -45,7 +45,43 @@ Georgia date is supported by retained August 13 recheck; LA source age remains
 a disclosed limitation, not certified current law. Freeze/GSC/manual checkpoint
 authority is consistent. Candidate approval does not claim a completed release.
 
-Release and mechanical closure evidence remain pending production verification.
+## Cycle 2 And Production Release
+
+Same independent reviewer cycle 2: PASS, no new P0-P2. Mechanical evidence
+updates faithfully record prior findings; all 29 site/tool candidate files
+match the reviewed export, scope remains 18 paths, duplicate files excluded,
+91 tests/operator state/strict SEO/JSON/full-range whitespace independently
+pass. Reviewer approved exact-path commit/push after fetch/no divergence.
+
+Complete reviewed range: rebased prior docs commit `1727bf9` plus final release
+`a21b8a4d6e0722036eb310b15dbe68cfbd5b39a0`. Fetch before push confirmed
+2 ahead/0 behind, 18 exact paths, no absorbed unrelated work. Push succeeded.
+Pages [run 37152419429](https://github.com/agarg21/tiny-home-buyer-protection/actions/runs/37152419429)
+succeeded for the exact release SHA on October 3.
+
+Production verification: all eight HTTPS HTML responses200 and SHA256 hashes
+match the reviewed files, each self-canonical correct; live sitemap bytes and
+eight-URL set match. All 24 live 1440/390/320 checks pass with loaded images,
+one H1 and no overflow. Mobile navigation, unknown placement, blank/partial
+quote, blank/populated/reset/print parcel, and blank/conflicting claim flows
+pass. Native GitHub URL, HTTP and www aliases redirect to HTTPS apex. Apex A
+records and www CNAME correct; approved certificate and HTTPS enforcement
+confirmed. Both unrelated duplicate-file URLs return404, proving exclusion.
+The deployment has nonblocking GitHub action/runtime migration notices; no
+workflow change was made. No production regression or ambiguous rollback.
+
+## Cycle 3 Closure
+
+Closure-only candidate: eight registered docs/state paths, no site/code change,
+product marked completed/production-verified, active/next action none, quiet
+observation to January3. Same independent read-only reviewer cycle 3: PASS,
+no new P0-P2. Independently confirmed remote release SHA, exact successful
+Pages run, eight live hashes/canonicals/sitemap, redirects/DNS/certificate,
+duplicate404 exclusions, 91 tests, active-none operator state, JSON and diff
+checks; reviewed live viewport/tool evidence and mobile/print screenshots.
+Only this faithful receipt and corresponding cycle/result updates are covered
+by approval. Closure release is docs-only exact-path commit/push after fetch/no
+divergence; no new implementation or deployment is authorized by closure.
 
 ## Release Gates
 

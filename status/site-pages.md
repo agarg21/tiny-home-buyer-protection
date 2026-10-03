@@ -6,6 +6,9 @@ Last updated: 2026-10-03
 
 `THC-FINAL-001` changes homepage buying-tool navigation, Georgia date parity,
 LA internal handoffs and its missing canonical; no new URL or tool-logic change.
+Released in `a21b8a4d6e0722036eb310b15dbe68cfbd5b39a0`, Pages run
+`37152419429` success; eight live HTML hashes/canonicals and sitemap match,
+24 live responsive checks and mobile navigation/safe tool states pass.
 Latest GSC: `ops/gsc-snapshots/2026-10-03.md`, through October 1; 2 impressions,
 0 clicks, five indexed/eight discovered. Homepage and San Diego have one
 impression each; other current-window page rows are absent, not proof of no

@@ -2,9 +2,27 @@
 
 Last updated: 2026-10-03
 
-Active action: `THC-FINAL-001`
+Active action: `none`
 
 Next eligible action: `none`
+
+## Completed Final Release
+
+`THC-FINAL-001` is production-verified in
+`a21b8a4d6e0722036eb310b15dbe68cfbd5b39a0`, Pages run `37152419429` success.
+Independent read-only Lagrange cycles 1 and 2 returned PASS with no P0-P3
+findings, including the full two-commit range. All eight live HTML files match
+the reviewed bytes and have self-canonicals; sitemap matches with eight URLs.
+Live 1440/390/320 checks and mobile navigation/safe tool/print/reset states
+pass. HTTP/www and native GitHub URL redirect to HTTPS apex; DNS/approved
+certificate/HTTPS enforcement are correct. Unrelated duplicate URLs return404.
+No production blocker or rollback is needed. Independent cycle 3 closure-only
+review returns PASS; release boundary is exact-path docs-only commit/push.
+No further site deployment applies to that docs commit.
+
+Quiet observation now starts. Next decision: 2027-01-03 with fresh manual
+authority. Daily read-only GSC remains enabled; recurring automation unchanged.
+Registration and pre-release history below are retained as historical evidence.
 
 ## Registered Final Release
 

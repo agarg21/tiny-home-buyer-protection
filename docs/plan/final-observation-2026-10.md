@@ -2,6 +2,9 @@
 
 Decision date: 2026-10-03. Action: `THC-FINAL-001`, direct manual user request.
 Decision checkpoint: 2027-01-03, America/New_York, approximately three months.
+Final release: `a21b8a4d6e0722036eb310b15dbe68cfbd5b39a0`, Pages run
+`37152419429` success; eight live content hashes/canonicals, sitemap, 24 live
+responsive checks and safe tool/navigation states verified on October 3.
 This is a repository checkpoint, not a new recurring automation or promise of
 an automatic January run. A fresh user request is required after the original
 learning-loop authority expires on 2026-10-22.

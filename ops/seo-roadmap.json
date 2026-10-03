@@ -10,8 +10,13 @@
       "id": "THC-FINAL-001",
       "title": "Finish existing-page discovery and enter quiet observation",
       "kind": "release",
-      "status": "in_progress",
+      "status": "completed",
       "selected_on": "2026-10-03",
+      "completed_on": "2026-10-03",
+      "implementation_state": "production-verified",
+      "release_commit": "a21b8a4d6e0722036eb310b15dbe68cfbd5b39a0",
+      "pages_run": "37152419429",
+      "remote_verified": true,
       "authority": "direct-manual-final-version-user-request",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
@@ -21,8 +26,8 @@
       "gsc_evidence_classification": "monitoring-only; October 3 finalized through October 1, 2 impressions, 0 clicks, 5/8 indexed",
       "success_signal": "Reviewed navigation, safe tool states, eight self-canonicals and successful production release; visitor uptake remains UNKNOWN.",
       "review_outcome": "PASS",
-      "review_cycles": 1,
-      "result": "Candidate complete; 91/91 tests, 74 snapshots, strict eight-page export SEO and 24 rendered viewport checks pass. Independent complete-range cycle 1 PASS; production verification and closure pending."
+      "review_cycles": 3,
+      "result": "Production-verified final release a21b8a4; Pages 37152419429 success. 91/91 tests, 74 snapshots, strict eight-page export SEO and 24 local plus 24 live viewport checks pass. Eight live HTML hashes/canonicals, sitemap, redirects, DNS, safe tool flows and excluded duplicate404 checks pass. Independent cycles1/2/3 PASS including docs-only closure. Complete; quiet observation to January3; buyer uptake UNKNOWN."
     },
     {
       "id": "THC-REL-001",

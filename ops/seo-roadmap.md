@@ -3,7 +3,8 @@
 ## October 3 Final Decision
 
 `THC-FINAL-001`: direct-manual final existing-page discovery/technical release,
-in progress. Exact paths registered in `ops/current-cycle.md` and JSON. Keep
+completed and production-verified in `a21b8a4`, Pages run `37152419429` success.
+Exact paths registered in `ops/current-cycle.md` and JSON. Keep
 eight URLs, preserve tool logic, obtain complete-range independent review and
 verify Pages. Then no next eligible routine action; quiet observation through
 2027-01-03 supersedes older rescore/checkpoint dates below. Plan and baseline:
