@@ -5,7 +5,12 @@
 Registered `THC-STATIC-001` after direct user feedback: geographic entry should
 not invite unsupported-area lookups. Candidate replaces the homepage form with
 named coverage and a static checklist/office-question template; preserves all
-eight URLs and useful worksheets. QA, independent review and release pending.
+eight URLs and useful worksheets. Released `cf9b4b8`, Pages `37154152671`
+success. Focused 8/full 96 tests, 74 snapshots, strict eight-URL export SEO and
+24 local plus 24 live responsive/static/no-JS/worksheet checks PASS. All eight
+live bytes/canonicals/sitemap match; redirects and duplicate404 checks PASS.
+Independent amended candidate PASS; closure-only cycle 3 PASS. No blockers.
+Return to January 3 quiet observation; buyer uptake remains UNKNOWN.
 Exact scope: `ops/current-cycle.md`; record: `reviews/static-home-2026-10-03.md`.
 
 ## 2026-10-03 - Final Version Then Quiet Observation

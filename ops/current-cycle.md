@@ -2,9 +2,22 @@
 
 Last updated: 2026-10-03
 
-Active action: `THC-STATIC-001`
+Active action: `none`
 
 Next eligible action: `none`
+
+## Completed Static Homepage Follow-Up
+
+`THC-STATIC-001` released in `cf9b4b81425c1434edef494a14d4976b5111812c`;
+Pages run `37154152671` success for that exact SHA. All eight live HTML hashes
+and self-canonicals match reviewed content; eight-URL sitemap matches. 24 live
+1440/390/320 checks, no-JS guide/checklist navigation, old anchors and retained
+quote/parcel/print/reset/claim flows PASS. Redirects and approved custom-domain
+HTTPS remain correct; unrelated duplicate URLs return404. No production
+blocker or rollback. Closure-only independent Banach cycle 3 PASS, no P0-P3;
+exact docs-only commit/push approved, with no further Pages deployment.
+Return to quiet observation; next decision 2027-01-03 by fresh manual request.
+Historical registration/candidate state below is retained, not pending work.
 
 ## Registered Static Homepage Follow-Up
 

@@ -6,7 +6,10 @@
 page request: remove geographic entry, show actual LA/SD/Georgia coverage
 upfront, and preserve a written placement checklist and existing worksheets.
 Registered 20 exact paths including pre-edit handoff-label and test amendments;
-candidate QA green and independently PASS; verified release pending.
+completed and production-verified in `cf9b4b8`, Pages `37154152671` success.
+Focused 8/full 96 tests, strict eight-URL SEO and 24 local plus 24 live
+viewport/static/no-JS/worksheet checks PASS. Closure-only cycle 3 PASS;
+exact docs-only commit/push approved, with no further Pages deployment.
 This is not a search-driven rewrite. Return to the same January 3 observation
 checkpoint after verified release, without changing recurring automations.
 

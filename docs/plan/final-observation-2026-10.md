@@ -2,7 +2,10 @@
 
 Decision date: 2026-10-03. Action: `THC-FINAL-001`, direct manual user request.
 Decision checkpoint: 2027-01-03, America/New_York, approximately three months.
-Final release: `a21b8a4d6e0722036eb310b15dbe68cfbd5b39a0`, Pages run
+Latest final static release: `cf9b4b81425c1434edef494a14d4976b5111812c`,
+action `THC-STATIC-001`, Pages `37154152671` success; eight live bytes/canonicals,
+sitemap, 24 live responsive and static/no-JS/retained worksheet checks pass.
+Earlier final maintenance release: `a21b8a4d6e0722036eb310b15dbe68cfbd5b39a0`, Pages run
 `37152419429` success; eight live content hashes/canonicals, sitemap, 24 live
 responsive checks and safe tool/navigation states verified on October 3.
 This is a repository checkpoint, not a new recurring automation or promise of
@@ -15,7 +18,7 @@ The user's explicit follow-up requests a static page without unsupported-area
 entry. `THC-STATIC-001` replaces the homepage form/lookup with visible scoped
 LA/SD/Georgia guides, a six-part checklist and a written office question.
 Other-location readers get that checklist directly rather than an empty match.
-The quote, parcel and claim worksheets remain. Release/QA are pending; this
+The quote, parcel and claim worksheets remain. Release/QA are verified; this
 follow-up does not move the January checkpoint or change any automation.
 
 Keep the eight existing indexable pages. Placement stays the homepage's

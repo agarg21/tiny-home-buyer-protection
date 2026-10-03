@@ -7,8 +7,10 @@ and matching script: actual local coverage is too narrow to justify inviting
 arbitrary area entry. Show City of LA, SD City/unincorporated County and Georgia
 classification scopes upfront; offer a static placement checklist to everyone.
 Keep real quote/parcel/claim worksheets and eight URLs. This is direct-user
-usefulness evidence, not inferred demand from two GSC impressions. Candidate
-awaits independent QA/review/release; then restore January 3 observation freeze.
+usefulness evidence, not inferred demand from two GSC impressions. Independently
+reviewed release `cf9b4b8`, Pages `37154152671`, is production-verified; restore
+January 3 observation freeze. Coverage disclosure is part of the interface:
+correct generic checks do not justify inviting locations without local guides.
 
 ## 2026-10-03 - Final Version And Three-Month Decision Window
 

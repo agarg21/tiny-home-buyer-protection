@@ -10,11 +10,15 @@
       "id": "THC-STATIC-001",
       "title": "Replace geographic-entry homepage with explicit coverage and static checklist",
       "kind": "release",
-      "status": "in_progress",
+      "status": "completed",
       "selected_on": "2026-10-03",
-      "implementation_state": "review-clean-awaiting-release",
+      "completed_on": "2026-10-03",
+      "implementation_state": "production-verified",
+      "release_commit": "cf9b4b81425c1434edef494a14d4976b5111812c",
+      "pages_run": "37154152671",
+      "remote_verified": true,
       "review_outcome": "PASS",
-      "review_cycles": 2,
+      "review_cycles": 3,
       "authority": "direct-manual-static-page-user-request",
       "allowed_during_observation": true,
       "requires_fresh_gsc": false,
@@ -22,7 +26,8 @@
       "target_paths": ["site/index.html", "site/los-angeles-tiny-house-adu/index.html", "site/san-diego-tiny-house-adu/index.html", "site/tiny-home-cost-calculator/index.html", "site/buying-land-for-a-tiny-house/index.html", "site/georgia-tiny-house-classification/index.html", "site/tiny-house-build-options/index.html", "site/sitemap.xml", "tools/static-home.test.mjs", "tools/georgia-guide.test.mjs", "ops/current-cycle.md", "ops/seo-roadmap.json", "ops/seo-roadmap.md", "ops/operator-review.md", "status/site-pages.md", "strategy/current-strategy.md", "docs/plan/final-observation-2026-10.md", "reviews/static-home-2026-10-03.md", "progress.md", "decisions.md"],
       "gsc_evidence_classification": "unchanged monitoring only; direct user feedback selects simplification",
       "success_signal": "No homepage geographic inputs/scripts; actual guide coverage upfront; static useful checklist and all eight URLs work without JavaScript; preserved worksheet behavior.",
-      "observation_window": "Return to quiet observation through 2027-01-03 after verified release; uptake UNKNOWN."
+      "observation_window": "Quiet observation through 2027-01-03; uptake UNKNOWN; fresh manual checkpoint authority required.",
+      "result": "Production-verified cf9b4b8; Pages37154152671 success. Focused8/full96 tests, 74 snapshots, strict8URL export SEO, 24local+24live viewport/static/noJS/worksheet flows PASS. Eight live hashes/canonicals, sitemap, redirects and excludedduplicate404 PASS. Independent amendedcandidate PASS with initialP2 sitemaptest resolved; closurecycle3 PASS. Exact docs-only closure approved. No routine next action or blockers; uptakeUNKNOWN."
     },
     {
       "id": "THC-FINAL-001",
