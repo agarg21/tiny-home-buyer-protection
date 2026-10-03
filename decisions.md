@@ -1,5 +1,15 @@
 # Decisions
 
+## 2026-10-03 - Show Coverage Instead Of Geographic Entry
+
+`THC-STATIC-001`, direct manual user request. Remove the homepage location form
+and matching script: actual local coverage is too narrow to justify inviting
+arbitrary area entry. Show City of LA, SD City/unincorporated County and Georgia
+classification scopes upfront; offer a static placement checklist to everyone.
+Keep real quote/parcel/claim worksheets and eight URLs. This is direct-user
+usefulness evidence, not inferred demand from two GSC impressions. Candidate
+awaits independent QA/review/release; then restore January 3 observation freeze.
+
 ## 2026-10-03 - Final Version And Three-Month Decision Window
 
 User authority: "lets build the final version that we can check after few months".

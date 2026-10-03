@@ -131,6 +131,6 @@ test("decoder becomes labeled cards on narrow screens and sitemap date is curren
   assert.match(styles, /content: "Ask next";/);
   assert.match(
     sitemap,
-    /<loc>https:\/\/tinyhomeclarity\.com\/georgia-tiny-house-classification\/<\/loc>\s*<lastmod>2026-08-13<\/lastmod>/
+    /<loc>https:\/\/tinyhomeclarity\.com\/georgia-tiny-house-classification\/<\/loc>\s*<lastmod>2026-10-03<\/lastmod>/
   );
 });

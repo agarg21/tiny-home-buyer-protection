@@ -11,12 +11,20 @@ learning-loop authority expires on 2026-10-22.
 
 ## Finished Product
 
+The user's explicit follow-up requests a static page without unsupported-area
+entry. `THC-STATIC-001` replaces the homepage form/lookup with visible scoped
+LA/SD/Georgia guides, a six-part checklist and a written office question.
+Other-location readers get that checklist directly rather than an empty match.
+The quote, parcel and claim worksheets remain. Release/QA are pending; this
+follow-up does not move the January checkpoint or change any automation.
+
 Keep the eight existing indexable pages. Placement stays the homepage's
 primary job; top navigation exposes the existing parcel evidence workflow,
 build-responsibility comparison, and quote calculator. The Los Angeles guide
 now hands off to those artifacts and has an explicit self-canonical. The
 homepage's Georgia source date matches its reviewed August 13 guide. Tool
-logic, stored-data behavior, classifications, and legal boundaries are unchanged.
+logic outside the removed homepage lookup, stored-data behavior,
+classifications, and legal boundaries are unchanged.
 This is a final maintenance/discovery release, not a fresh legal-source audit
 or a redesign that promises demand. Historical source dates remain visible.
 
@@ -76,8 +84,8 @@ claim revision; no July/August date is silently rolled forward.
 
 ## QA And Learning
 
-Functional inventory: homepage navigation to three tools, placement empty and
-unknown-location results, calculator unknown inputs, land blank result and
+Functional inventory: homepage navigation to three tools, static coverage and
+checklist with JavaScript disabled, calculator unknown inputs, land blank result and
 print output, under-$20K blank/conflicting claim handling, build comparison,
 LA navigation/canonical, all eight self-canonicals, sitemap parity, mobile and
 desktop overflow and image rendering. Focused final-release tests complement

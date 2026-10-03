@@ -7,6 +7,24 @@
   "planning_horizon_days": 28,
   "items": [
     {
+      "id": "THC-STATIC-001",
+      "title": "Replace geographic-entry homepage with explicit coverage and static checklist",
+      "kind": "release",
+      "status": "in_progress",
+      "selected_on": "2026-10-03",
+      "implementation_state": "review-clean-awaiting-release",
+      "review_outcome": "PASS",
+      "review_cycles": 2,
+      "authority": "direct-manual-static-page-user-request",
+      "allowed_during_observation": true,
+      "requires_fresh_gsc": false,
+      "hypothesis": "Explicit named coverage and a static office-question checklist remove the unsupported-area lookup expectation while retaining real buying worksheets.",
+      "target_paths": ["site/index.html", "site/los-angeles-tiny-house-adu/index.html", "site/san-diego-tiny-house-adu/index.html", "site/tiny-home-cost-calculator/index.html", "site/buying-land-for-a-tiny-house/index.html", "site/georgia-tiny-house-classification/index.html", "site/tiny-house-build-options/index.html", "site/sitemap.xml", "tools/static-home.test.mjs", "tools/georgia-guide.test.mjs", "ops/current-cycle.md", "ops/seo-roadmap.json", "ops/seo-roadmap.md", "ops/operator-review.md", "status/site-pages.md", "strategy/current-strategy.md", "docs/plan/final-observation-2026-10.md", "reviews/static-home-2026-10-03.md", "progress.md", "decisions.md"],
+      "gsc_evidence_classification": "unchanged monitoring only; direct user feedback selects simplification",
+      "success_signal": "No homepage geographic inputs/scripts; actual guide coverage upfront; static useful checklist and all eight URLs work without JavaScript; preserved worksheet behavior.",
+      "observation_window": "Return to quiet observation through 2027-01-03 after verified release; uptake UNKNOWN."
+    },
+    {
       "id": "THC-FINAL-001",
       "title": "Finish existing-page discovery and enter quiet observation",
       "kind": "release",

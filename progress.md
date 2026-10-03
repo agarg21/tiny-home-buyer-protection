@@ -1,5 +1,13 @@
 # Progress
 
+## 2026-10-03 - Static Homepage Follow-Up
+
+Registered `THC-STATIC-001` after direct user feedback: geographic entry should
+not invite unsupported-area lookups. Candidate replaces the homepage form with
+named coverage and a static checklist/office-question template; preserves all
+eight URLs and useful worksheets. QA, independent review and release pending.
+Exact scope: `ops/current-cycle.md`; record: `reviews/static-home-2026-10-03.md`.
+
 ## 2026-10-03 - Final Version Then Quiet Observation
 
 - Direct manual `THC-FINAL-001`, exact 18 paths registered before edits.

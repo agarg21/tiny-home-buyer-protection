@@ -4,6 +4,13 @@ Last updated: 2026-10-03
 
 ## Final-Version Decision
 
+October 3 follow-up `THC-STATIC-001`: the user explicitly prefers a static page
+over entering an unsupported area. The homepage names actual guide coverage,
+provides a static placement checklist and office-question template, and makes
+no geographic-lookup promise. Keep quote, claim and parcel worksheets because
+they produce concrete artifacts without relying on local guide coverage.
+This bounded final change returns to the same January 3 observation freeze.
+
 Current phase: final maintenance release, then quiet observation to 2027-01-03.
 The user's October 3 request supersedes older research/rescore/checkpoint dates
 in this document. Keep eight pages and the existing decision tools; do not

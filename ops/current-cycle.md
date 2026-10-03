@@ -2,9 +2,64 @@
 
 Last updated: 2026-10-03
 
-Active action: `none`
+Active action: `THC-STATIC-001`
 
 Next eligible action: `none`
+
+## Registered Static Homepage Follow-Up
+
+Registered 2026-10-03 before substantive edits, base `286f7b6`, origin aligned.
+Authority: direct manual request for a static page without entering unsupported
+areas. This bounded follow-up supersedes the final freeze for this action only.
+Human question: can a visitor see the actual coverage and get useful placement
+checks without submitting a location that has no matching guide?
+Hypothesis: named coverage before the checklist, no geographic input, and a
+written office-question template remove the empty-lookup expectation while
+preserving the eight-page portfolio and useful buying worksheets.
+
+Exact paths: `site/index.html`, `site/los-angeles-tiny-house-adu/index.html`,
+`site/san-diego-tiny-house-adu/index.html`,
+`site/buying-land-for-a-tiny-house/index.html`,
+`site/georgia-tiny-house-classification/index.html`,
+`site/tiny-house-build-options/index.html`,
+`site/tiny-home-cost-calculator/index.html`, `site/sitemap.xml`,
+`tools/static-home.test.mjs`, `ops/current-cycle.md`, `ops/seo-roadmap.json`,
+`ops/seo-roadmap.md`, `ops/operator-review.md`, `status/site-pages.md`,
+`strategy/current-strategy.md`, `docs/plan/final-observation-2026-10.md`,
+`reviews/static-home-2026-10-03.md`, `progress.md`, `decisions.md`.
+
+Second pre-edit amendment: add `tools/georgia-guide.test.mjs` (20 total paths)
+to update its exact sitemap lastmod expectation after the reviewed navigation
+change. Preserve the separate August 13 official-source-date assertion.
+
+Scope amendment before editing the three added pages: tracked-text inventory
+found stale placement-tool labels on land, Georgia and build pages (and the
+calculator nav). Expand to 19 exact paths to repair only those handoff labels
+and corresponding sitemap lastmods. No worksheet logic or source facts change.
+
+Preserve/exclude the two unrelated untracked `index 2.html` files. No new
+snapshot since the final transaction: October 3 versus October 2 aggregates,
+page rows and indexing remain unchanged (2 impressions, 0 clicks, 5/8 indexed).
+The user request, not sparse search data, selects this repair. Historical
+official-source dates remain unchanged. No new factual/source/SEO research,
+new URL, analytics, external posting or recurring automation mutation.
+
+Gates: focused and full native QA; strict SEO on exact tracked candidate;
+independent read-only review of complete paths; fetch/no divergence and exact
+staging; successful Pages SHA; eight live byte matches/canonicals, sitemap;
+1440/390/320 viewport checks, no geographic form/script, visible scoped guide
+links, usable static checklist with JavaScript disabled, preserved `#tool`
+and `#proof` anchors and unchanged other worksheet behavior. Closeout records
+stay within these exact paths and require independent review. Return to quiet
+observation through January 3 after verified release; visitor uptake UNKNOWN.
+
+Candidate gate: focused 8/8, full 96/96, 74 snapshots, operator-state/JSON/
+required files/diff checks PASS. Strict tracked export: eight pages/eight URLs,
+zero errors/warnings (shared checkout retains unrelated duplicate errors).
+24 local viewport and static/no-JS/navigation/worksheet checks PASS.
+Independent Banach amended candidate PASS, no remaining P0-P3. Retain initial
+resolved P2 sitemap-test mismatch as cycle 1, amended PASS as cycle 2; closure
+review cycle 3 remains. Release pending; only reviewed paths may be staged.
 
 ## Completed Final Release
 

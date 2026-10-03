@@ -2,6 +2,14 @@
 
 ## October 3 Final Decision
 
+`THC-STATIC-001` is the direct-manual follow-up to the user's explicit static
+page request: remove geographic entry, show actual LA/SD/Georgia coverage
+upfront, and preserve a written placement checklist and existing worksheets.
+Registered 20 exact paths including pre-edit handoff-label and test amendments;
+candidate QA green and independently PASS; verified release pending.
+This is not a search-driven rewrite. Return to the same January 3 observation
+checkpoint after verified release, without changing recurring automations.
+
 `THC-FINAL-001`: direct-manual final existing-page discovery/technical release,
 completed and production-verified in `a21b8a4`, Pages run `37152419429` success.
 Exact paths registered in `ops/current-cycle.md` and JSON. Keep

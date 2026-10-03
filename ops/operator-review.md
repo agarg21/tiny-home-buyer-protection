@@ -1,5 +1,20 @@
 # Operator Review
 
+## 2026-10-03 - Static Homepage Follow-Up
+
+`THC-STATIC-001`, direct manual user request, base `286f7b6`, 20 exact paths
+registered before their edits, including handoff-label/test amendments.
+Independent Banach amended candidate PASS, no remaining P0-P3; initial P2
+Georgia sitemap-test mismatch is fixed. Conservatively count initial finding
+as cycle 1 and amended PASS as cycle 2. Focused 8/8, full 96/96, 74 snapshots,
+operator-state/JSON/diff and strict eight-URL export SEO PASS; 24 local viewports
+and static/no-JS plus retained worksheet flows PASS. Production and closure
+cycle 3 pending.
+Review actual coverage/other-location first-screen fit, every homepage section,
+static legacy anchors, incoming handoffs, eight URLs and preserved worksheets.
+No fresh source-verification claim, automation mutation or unrelated duplicates.
+Complete evidence: `reviews/static-home-2026-10-03.md`.
+
 ## 2026-10-03 - Final Release And Closure
 
 Action `THC-FINAL-001`, direct manual authority; exact 18 paths in current cycle.

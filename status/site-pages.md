@@ -4,6 +4,13 @@ Last updated: 2026-10-03
 
 ## Current Final-Version Overlay
 
+`THC-STATIC-001` candidate: homepage geographic-entry form and lookup script
+removed; LA/SD/Georgia scopes shown before categories; `#tool` and `#proof`
+remain static checklist bookmarks. LA, SD and calculator handoffs now promise
+a checklist, not a lookup. Eight URLs and other worksheet logic preserved.
+QA/review and production release are pending; earlier verified release below
+remains the live baseline until this action completes.
+
 `THC-FINAL-001` changes homepage buying-tool navigation, Georgia date parity,
 LA internal handoffs and its missing canonical; no new URL or tool-logic change.
 Released in `a21b8a4d6e0722036eb310b15dbe68cfbd5b39a0`, Pages run
