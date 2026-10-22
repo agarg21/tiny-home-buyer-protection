@@ -1,5 +1,11 @@
 # Final Version And Observation
 
+Superseded on 2026-10-22 by the user's project shutdown, `THC-CLOSE-001`.
+The January 3 checkpoint and continued daily GSC collection described below
+are canceled. The static site remains online; work and monitoring are stopped.
+Current authority: `docs/plan/project-closure-2026-10-22.md`. The rest of this
+document is the historical October 3 plan.
+
 Decision date: 2026-10-03. Action: `THC-FINAL-001`, direct manual user request.
 Decision checkpoint: 2027-01-03, America/New_York, approximately three months.
 Latest final static release: `cf9b4b81425c1434edef494a14d4976b5111812c`,

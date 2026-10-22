@@ -41,6 +41,38 @@ test("passes aligned roadmap, current cycle, GSC pointer, and page status", () =
   fs.rmSync(root, { recursive: true, force: true });
 });
 
+test("closed projects require no scheduled rescore or eligible work", () => {
+  const root = fixture();
+  try {
+    const file = path.join(root, "ops", "seo-roadmap.json");
+    const roadmap = JSON.parse(fs.readFileSync(file, "utf8"));
+    roadmap.lifecycle = "closed";
+    roadmap.next_rescore_due = null;
+    roadmap.next_eligible_action_id = "none";
+    roadmap.items[0].status = "superseded";
+    fs.writeFileSync(file, JSON.stringify(roadmap));
+    fs.writeFileSync(path.join(root, "ops", "current-cycle.md"),
+      "2026-07-28\nActive action: `none`\nNext eligible action: `none`\n");
+    assert.deepEqual(auditOperatorState({ repoDir: root }).errors, []);
+
+    roadmap.next_rescore_due = "2027-01-03";
+    roadmap.next_eligible_action_id = "TEST-002";
+    roadmap.items[0].status = "in_progress";
+    fs.writeFileSync(file, JSON.stringify(roadmap));
+    const errors = auditOperatorState({ repoDir: root }).errors.join("\n");
+    assert.match(errors, /closed roadmap must have null next_rescore_due/);
+    assert.match(errors, /closed roadmap cannot have active or next eligible actions/);
+
+    delete roadmap.lifecycle;
+    roadmap.next_rescore_due = null;
+    fs.writeFileSync(file, JSON.stringify(roadmap));
+    assert.match(auditOperatorState({ repoDir: root }).errors.join("\n"),
+      /roadmap next_rescore_due must be YYYY-MM-DD/);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
 test("rejects duplicate action IDs and multiple active actions", () => {
   const root = fixture();
   const file = path.join(root, "ops", "seo-roadmap.json");

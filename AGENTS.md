@@ -12,15 +12,16 @@ This repo is the source of truth for strategy, implementation, research, and ope
 
 ## Current Operating Override
 
-The user's 2026-10-03 final-version request supersedes the routine learning and
-research cadence below. After `THC-FINAL-001` releases, keep the eight-page
-portfolio in quiet observation until 2027-01-03. Preserve daily read-only GSC
-collection; do not manufacture page work, weekly rescores, research, or new
-pages. Remaining heartbeats may report observation only. Reopen early for a
-reproduced production/security failure or verified material claim defect under
-the same registration, QA, review, and release controls. No recurring automation
-is changed. The January checkpoint requires fresh manual authority; the old
-loop still expires October 22. See `docs/plan/final-observation-2026-10.md`.
+The user closed this project on 2026-10-22 under `THC-CLOSE-001` and explicitly
+chose to stop work and monitoring while leaving the static site online.
+No routine research, GSC collection, rescores, publishing, heartbeat work or
+January checkpoint remains authorized. The heartbeat and portfolio entry are
+paused; the GSC workflow is disabled and has no schedule. Preserve the eight
+published pages, hosting, DNS, source, research and historical snapshots.
+Any restart requires a fresh manual user request and the registration, QA,
+independent review and release controls below. This closure supersedes older
+cadences, observation plans and standing autonomous work authority in this
+repository. See `docs/plan/project-closure-2026-10-22.md`.
 
 ## Roles
 

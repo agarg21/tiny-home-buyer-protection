@@ -87,8 +87,14 @@ export function auditOperatorState({ repoDir = process.cwd() } = {}) {
     }
   }
 
-  for (const field of ["last_rescored_on", "next_rescore_due"]) {
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(roadmap[field] ?? "")) errors.push(`roadmap ${field} must be YYYY-MM-DD`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(roadmap.last_rescored_on ?? "")) {
+    errors.push("roadmap last_rescored_on must be YYYY-MM-DD");
+  }
+  if (roadmap.lifecycle === "closed") {
+    if (roadmap.next_rescore_due !== null) errors.push("closed roadmap must have null next_rescore_due");
+    if (nextId !== "none" || active.length) errors.push("closed roadmap cannot have active or next eligible actions");
+  } else if (!/^\d{4}-\d{2}-\d{2}$/.test(roadmap.next_rescore_due ?? "")) {
+    errors.push("roadmap next_rescore_due must be YYYY-MM-DD");
   }
 
   const latest = latestSnapshotDate(repoDir);

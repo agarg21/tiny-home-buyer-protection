@@ -1,6 +1,15 @@
 # Needs User
 
-Last updated: 2026-10-03
+Last updated: 2026-10-22
+
+## Closure Supersedes Earlier Requests
+
+The user closed the project and confirmed "Stop work and monitoring; leave the
+static site online". There is no pending January checkpoint, outreach decision,
+provider selection or scheduled monitoring request. Earlier sections below are
+historical only. Domain renewal remains the user's existing registrar setting;
+no purchase, cancellation, DNS or account change is part of this closure.
+See `docs/plan/project-closure-2026-10-22.md`.
 
 ## Current Decision
 

@@ -1,5 +1,16 @@
 # Tiny Home Clarity Operator Roadmap
 
+## Project Closed On October 22
+
+`THC-CLOSE-001` implements the user's shutdown and explicit choice to stop
+work and monitoring while leaving the static site online. Heartbeat paused,
+GSC workflow disabled with its schedule removed, portfolio entry paused.
+The machine queue is closed, next eligible action is none, next rescore is
+null, and the January checkpoint is canceled. All older actions, timelines and
+recommendations below are historical. Fresh manual authority is required to
+restart. Closure and verification: `docs/plan/project-closure-2026-10-22.md`
+and `reviews/project-closure-2026-10-22.md`.
+
 ## October 3 Final Decision
 
 `THC-STATIC-001` is the direct-manual follow-up to the user's explicit static

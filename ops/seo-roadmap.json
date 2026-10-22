@@ -1,11 +1,28 @@
 {
   "schema_version": 1,
   "owner": "Tiny Home Clarity Operator",
-  "last_rescored_on": "2026-10-03",
-  "next_rescore_due": "2027-01-03",
+  "lifecycle": "closed",
+  "closed_on": "2026-10-22",
+  "restart_authority": "fresh-manual-user-request-required",
+  "last_rescored_on": "2026-10-22",
+  "next_rescore_due": null,
   "next_eligible_action_id": "none",
   "planning_horizon_days": 28,
   "items": [
+    {
+      "id": "THC-CLOSE-001",
+      "title": "Close active work and monitoring while retaining the static site",
+      "kind": "closure",
+      "status": "completed",
+      "selected_on": "2026-10-22",
+      "completed_on": "2026-10-22",
+      "authority": "direct-manual-user-shutdown-and-confirmed-static-site-retention",
+      "review_outcome": "PASS",
+      "review_cycles": 1,
+      "target_paths": ["AGENTS.md", "strategy/current-strategy.md", "ops/operator.json", "ops/current-cycle.md", "ops/needs-user.md", "ops/operator-review.md", "ops/seo-roadmap.json", "ops/seo-roadmap.md", "status/site-pages.md", "docs/plan/final-observation-2026-10.md", "docs/plan/project-closure-2026-10-22.md", "reviews/project-closure-2026-10-22.md", "progress.md", "decisions.md", ".github/workflows/gsc-snapshot.yml", "tools/operator-state-qa.mjs", "tools/operator-state-qa.test.mjs"],
+      "external_config_path": "/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator/config/portfolio.json",
+      "result": "Heartbeat PAUSED; GSC workflow disabled_manually and schedule removed; portfolio entry paused/manual-trigger; next rescore null; January checkpoint canceled. Site retained unchanged. Full97/focused9/central15 tests, stateQA,93snapshots and strict8page tracked export PASS. Independent Ptolemy cycle1 PASS; exact-path push-only closure approved. Release commit is identified by THC-CLOSE-001 in repository history."
+    },
     {
       "id": "THC-STATIC-001",
       "title": "Replace geographic-entry homepage with explicit coverage and static checklist",

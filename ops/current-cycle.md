@@ -1,10 +1,54 @@
 # Current Cycle
 
-Last updated: 2026-10-03
+Last updated: 2026-10-22
 
 Active action: `none`
 
 Next eligible action: `none`
+
+## Project Closed
+
+`THC-CLOSE-001`: heartbeat PAUSED; GitHub GSC workflow `315520399`
+disabled_manually; GSC schedule removed; central portfolio entry paused with
+manual-trigger autonomy. No project work, monitoring or January checkpoint
+remains. Existing static site is retained. Candidate QA, independent review
+and exact-path repository release are recorded in
+`reviews/project-closure-2026-10-22.md`.
+
+## Closure Registration And Scope
+
+Registered before substantive edits on 2026-10-22, base `70cd1fd`, aligned
+with origin/main. Direct manual authority: "lets shut this project down";
+confirmed scope: "Stop work and monitoring; leave the static site online".
+This request supersedes the observation hold and the earlier prohibition on
+changing the project's recurring automation.
+
+Human question: can this project stop consuming work and monitoring while
+keeping the completed static resource available? Hypothesis: closing the local
+queue, pausing its heartbeat and portfolio entry, and disabling scheduled GSC
+collection will leave no automatic project work and preserve all eight pages.
+
+Exact repository paths: `AGENTS.md`, `strategy/current-strategy.md`,
+`ops/operator.json`, `ops/current-cycle.md`, `ops/needs-user.md`,
+`ops/operator-review.md`, `ops/seo-roadmap.json`, `ops/seo-roadmap.md`,
+`status/site-pages.md`, `docs/plan/final-observation-2026-10.md`,
+`docs/plan/project-closure-2026-10-22.md`, `reviews/project-closure-2026-10-22.md`,
+`progress.md`, `decisions.md`, `.github/workflows/gsc-snapshot.yml`,
+`tools/operator-state-qa.mjs`, `tools/operator-state-qa.test.mjs`.
+Exact additional configuration path:
+`/Users/apoorvagarg/Documents/SEO Agent/seo-lab/operator/config/portfolio.json`
+(only the tiny-home-clarity entry). No central dispatch ledger edits.
+External actions: pause automation `tiny-home-clarity-2-month-learning-loop`;
+disable GitHub workflow `315520399` (GSC only); verify both states and confirm
+the existing Pages site stays available. Preserve deployment workflow,
+hosting, DNS, domain renewal settings, secrets, accounts and source history.
+
+Native QA, focused closure checks and independent read-only review gate the
+exact-path release. Preserve/exclude the two unrelated untracked `index 2.html`
+files and all existing central repository dirty work. Latest retained evidence:
+`ops/gsc-snapshots/2026-10-22.json`, finalized through October 20, 6 impressions,
+0 clicks, 5/8 indexed, successful eight-URL sitemap. January review is canceled;
+any restart needs a fresh user request. Prior sections below are history.
 
 ## Completed Static Homepage Follow-Up
 

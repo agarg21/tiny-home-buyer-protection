@@ -1,6 +1,15 @@
 # Current Strategy
 
-Last updated: 2026-10-03
+Last updated: 2026-10-22
+
+## Project Closed
+
+`THC-CLOSE-001`: the user ended active development and monitoring on October
+22 and chose to leave the static site online. No scheduled work, routine
+research, GSC collection or January checkpoint remains. Historical strategy
+and research below are retained for reference and do not authorize execution.
+Restart only after a fresh manual user request. Closure record:
+`docs/plan/project-closure-2026-10-22.md`.
 
 ## Final-Version Decision
 

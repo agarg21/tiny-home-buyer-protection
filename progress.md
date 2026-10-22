@@ -1,5 +1,16 @@
 # Progress
 
+## 2026-10-22 - Project Closure
+
+`THC-CLOSE-001`: direct user shutdown; confirmed stop work and monitoring,
+leave static site online. Heartbeat PAUSED; GitHub GSC workflow `315520399`
+disabled_manually; its schedule removed from source; portfolio entry paused
+with manual-trigger autonomy. Local lifecycle closed, next rescore null, no
+next eligible action, January checkpoint canceled. Final snapshot October 22
+through October 20: 6 impressions, 0 clicks, 5/8 indexed; 93 snapshots retained.
+Source, research, hosting, DNS and pages preserved. Exact-path candidate QA,
+review and repository release: `reviews/project-closure-2026-10-22.md`.
+
 ## 2026-10-03 - Static Homepage Follow-Up
 
 Registered `THC-STATIC-001` after direct user feedback: geographic entry should

@@ -1,5 +1,18 @@
 # Decisions
 
+## 2026-10-22 - End Work And Monitoring, Retain Static Site
+
+User: "lets shut this project down"; scope confirmed as "Stop work and
+monitoring; leave the static site online". `THC-CLOSE-001` supersedes the
+October 3 observation plan and cancels the January checkpoint. Pause the
+heartbeat and portfolio entry, disable scheduled GSC collection, close the
+queue and retain all source and research. Do not restart without a new manual
+user request. Domain renewal remains a separate registrar decision; no renewal
+setting was changed. The eight-page resource remains available in its existing
+state. Final first-party monitoring records visibility, not buyer outcomes:
+6 impressions, 0 clicks, 5/8 indexed through October 20. The shutdown is the
+user's investment decision; these data do not establish total market demand.
+
 ## 2026-10-03 - Show Coverage Instead Of Geographic Entry
 
 `THC-STATIC-001`, direct manual user request. Remove the homepage location form

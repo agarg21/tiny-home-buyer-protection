@@ -1,6 +1,15 @@
 # Tiny Home Clarity Page Status
 
-Last updated: 2026-10-03
+Last updated: 2026-10-22
+
+## Project Closed
+
+The user chose to stop work and monitoring and leave all eight static pages
+online. No page or source date changed in `THC-CLOSE-001`. Final retained GSC:
+`ops/gsc-snapshots/2026-10-22.md`, finalized through October 20, 6 impressions,
+0 clicks, 5/8 indexed and a successful eight-URL sitemap. All page actions and
+the January checkpoint are inactive; older tables below are historical.
+See `docs/plan/project-closure-2026-10-22.md`.
 
 ## Current Final-Version Overlay
 
